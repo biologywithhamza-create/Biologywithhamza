@@ -1,43 +1,50 @@
-# Publish PYRO on Netlify
+# Publish Biology with Hamza on Netlify
 
-The project is already configured for Netlify. The `netlify.toml` file supplies
-the build command and publish folder automatically.
+The project is configured for Netlify. The included `netlify.toml` supplies the
+build command and publish folder automatically.
 
-## First deployment
+## Upload this complete version to GitHub
 
-1. Create a new private repository on GitHub named `pyro-website`.
-2. Upload this project to that repository.
-3. Sign in to Netlify and choose **Add new project → Import an existing project**.
-4. Select **GitHub**, authorize Netlify, and choose `pyro-website`.
-5. Netlify should display:
+1. Extract the supplied ZIP on your computer.
+2. Open the `Biologywithhamza` repository on GitHub.
+3. Choose **Add file → Upload files**.
+4. Upload **all extracted files and folders into the repository root**. Files
+   such as `package.json`, `netlify.toml`, and the `app` folder must be visible
+   on the repository's first page—not inside an extra outer folder.
+5. Enter a message such as `Complete Biology with Hamza update`.
+6. Choose **Commit changes** once. That single commit triggers one Netlify build.
+
+## First Netlify deployment
+
+1. In Netlify choose **Add new project → Import an existing project**.
+2. Select GitHub, authorize Netlify, and choose the `Biologywithhamza` repository.
+3. Select the `main` branch.
+4. Leave the base directory empty.
+5. Confirm:
    - Build command: `npm run build:netlify`
    - Publish directory: `out`
 6. Choose **Deploy**. No environment variables are required.
-7. Netlify will provide a temporary address such as `pyro-biology.netlify.app`.
 
-## Connect HamzaRamzan.online
+## Connect HamzaRamzan.online from Hostinger
 
-1. Open the PYRO project in Netlify.
-2. Go to **Domain management → Add a domain → Add a domain you already own**.
-3. Enter `HamzaRamzan.online` and confirm it.
-4. Choose one of Netlify's two options:
-   - **Netlify DNS:** copy the nameservers shown by Netlify into the account
-     where the domain was purchased.
-   - **External DNS:** keep the existing DNS provider and add the records
-     displayed by Netlify.
-5. Add `www.HamzaRamzan.online` as an alias and make the root domain primary.
-6. Wait for DNS verification and HTTPS activation. DNS changes may take several
-   hours to become visible everywhere.
+1. In Netlify open **Domain management → Add a domain → Add a domain you
+   already own** and enter `HamzaRamzan.online`.
+2. If using **Netlify DNS**, copy the four nameservers Netlify displays.
+3. In Hostinger open **Domains → Manage → DNS / Nameservers → Change
+   nameservers**, choose custom nameservers, and paste all four Netlify values.
+4. Back in Netlify, make `hamzaramzan.online` the primary domain and add
+   `www.hamzaramzan.online` as an alias.
+5. Wait for DNS verification and automatic HTTPS. Worldwide DNS propagation can
+   take several hours, and occasionally up to 48 hours.
 
-## Future publishing
+## Future publishing and credit control
 
-Once GitHub is connected, every commit to the main branch starts a new Netlify
-deployment automatically. The previous working deployment stays available in
-Netlify's deploy history and can be restored if needed.
+Every commit to `main` starts a deployment. To reduce build-credit use, finish a
+batch of edits and make one commit instead of committing after every small edit.
+Netlify retains previous successful deployments so they can be restored.
 
 ## Manual ZIP deployment
 
-Netlify's drag-and-drop uploader accepts the generated `out` folder, not the
-source-code folder. Run `npm install` and `npm run build:netlify`, then upload
-the resulting `out` directory. GitHub deployment is recommended because it
-automatically republishes future edits.
+Netlify's drag-and-drop uploader accepts the generated `out` folder, not this
+source-code ZIP. For GitHub-connected publishing, upload the source files to
+GitHub and let Netlify run `npm run build:netlify`.

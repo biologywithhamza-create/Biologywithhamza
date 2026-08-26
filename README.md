@@ -1,32 +1,31 @@
-# PYRO — Biology, MDCAT & Discovery
+# Biology with Hamza
 
-The official website of Hamza Ramzan: Biology lessons, MDCAT thinking, field
-notes and biological discoveries.
+The official teaching website of Hamza Ramzan, with concept-driven Biology for
+MDCAT and Cambridge O Level learners, a searchable article library, video
+lessons, and student resources.
 
 ## Netlify deployment
 
-This repository is ready to connect directly to Netlify. Netlify reads the
-included `netlify.toml` and automatically uses:
+This repository is ready to connect directly to Netlify. The included
+`netlify.toml` automatically uses:
 
 - build command: `npm run build:netlify`
 - publish directory: `out`
 - Node.js 22
 
-See [NETLIFY_DEPLOYMENT.md](NETLIFY_DEPLOYMENT.md) for the complete first-time
-deployment and custom-domain instructions.
+See [NETLIFY_DEPLOYMENT.md](NETLIFY_DEPLOYMENT.md) for first-time deployment,
+GitHub updates, and custom-domain instructions.
 
 ## Editing the website
 
-Start with [EDITING_GUIDE.md](EDITING_GUIDE.md). The main content control file
-is `app/content.ts`, which contains:
+Start with [EDITING_GUIDE.md](EDITING_GUIDE.md). The main editing files are:
 
-- public links;
-- featured videos;
-- article metadata and complete article text.
-
-Homepage wording is in `app/page.tsx`, biography content is in
-`app/about/page.tsx`, colours are at the top of `app/globals.css`, and images
-are stored in `public`.
+- `app/content.ts` — public links and featured videos;
+- `app/article-data.ts` — article titles, metadata, diagrams, tables, and text;
+- `app/page.tsx` — homepage wording and sections;
+- `app/about/page.tsx` — biography and teaching profile;
+- `app/globals.css` — colours, typography, and layout;
+- `public` — profile photo, thumbnails, and browser icon.
 
 ## Local commands
 
@@ -36,5 +35,5 @@ npm run dev:netlify
 npm run build:netlify
 ```
 
-The Netlify build produces a static site in `out`. The existing `npm run build`
-command remains available for the original Sites deployment.
+The Netlify build produces the static website in `out`. The existing
+`npm run build` command remains available for the original Sites environment.

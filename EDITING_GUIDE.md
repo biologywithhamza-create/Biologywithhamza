@@ -1,31 +1,31 @@
-# Editing the PYRO website
+# Editing the Biology with Hamza website
 
-You do not need specialist software for routine changes. After the project is
-on GitHub, open the relevant file, select the pencil icon, make the edit, and
-choose **Commit changes**. Netlify will publish the update automatically.
+After the project is on GitHub, open the relevant file, select the pencil icon,
+make the edit, and choose **Commit changes**. Netlify then publishes that commit.
+To conserve Netlify credits, collect several edits and commit them together.
 
 ## Quick editing map
 
 | What you want to change | File to open |
 | --- | --- |
-| YouTube, Instagram, WhatsApp, Nearpeer or LinkedIn links | `app/content.ts` → `links` |
-| Featured videos and their thumbnails | `app/content.ts` → `videos` |
-| Article titles, dates, descriptions and complete article text | `app/content.ts` → `articles` |
-| Homepage headline, introduction and section wording | `app/page.tsx` |
-| Biography, qualifications, experience and awards | `app/about/page.tsx` |
+| YouTube, Drive, Instagram, WhatsApp, Nearpeer, or LinkedIn links | `app/content.ts` → `links` |
+| Featured videos and thumbnails | `app/content.ts` → `videos` |
+| Article titles, categories, descriptions, diagrams, tables, and text | `app/article-data.ts` → `articles` |
+| Homepage headline, statistics, and section wording | `app/page.tsx` |
+| Biography, qualifications, experience, and awards | `app/about/page.tsx` |
 | Website title and search description | `app/layout.tsx` |
-| Colours | `app/globals.css` → the variables at the top |
+| Colours and layout | `app/globals.css` |
 | Profile picture | Replace `public/hamza-ramzan.png` |
-| Social-sharing image | Replace `public/og.png` with a 1200×630 image |
 | Browser icon | Replace `public/favicon.svg` |
 
 ## Change a link
 
-Open `app/content.ts`. At the top you will see:
+Open `app/content.ts`. Near the top you will see:
 
 ```ts
 export const links = {
   youtube: "https://www.youtube.com/...",
+  studentDrive: "https://drive.google.com/drive/folders/...",
   instagram: "https://www.instagram.com/...",
   whatsapp: "https://whatsapp.com/channel/...",
 };
@@ -36,8 +36,7 @@ comma, and property name unchanged.
 
 ## Add or replace a video
 
-1. Save the thumbnail inside the `public` folder, for example
-   `public/video-homeostasis.jpg`.
+1. Put the thumbnail in `public`, for example `public/video-homeostasis.jpg`.
 2. Open `app/content.ts` and find `export const videos`.
 3. Replace one video object or copy an existing object:
 
@@ -50,31 +49,32 @@ comma, and property name unchanged.
 },
 ```
 
-The image path begins with `/` even though the file is stored inside `public`.
+The image path starts with `/` even though the file is stored in `public`.
 
 ## Add a new article
 
-Open `app/content.ts`, find `export const articles`, and copy one complete
+Open `app/article-data.ts`, find `export const articles`, and copy one complete
 article object. Then change:
 
-- `slug`: a unique lowercase address using hyphens, such as
-  `how-enzymes-reduce-activation-energy`;
-- `category`: `MDCAT`, `Learn Biology`, or `Study Strategy`;
-- `date` and `dateISO`;
-- `title`, `description`, and `readTime`;
-- every heading, paragraph, point, and callout inside `sections`.
+- `slug`: a unique lowercase address using hyphens;
+- `category`: `MDCAT`, `Cambridge O Level`, `Learn Biology`, or `Study Strategy`;
+- `title`, `description`, `readTime`, `date`, and `dateISO`;
+- `objectives`, every item inside `sections`, `recap`, and `conceptChecks`;
+- optional `diagram`, `table`, or `callout` content.
 
-The article listing and article page are generated automatically. Do not use
-the same slug twice.
+The article listing, search filters, article page, contents menu, and related
+articles are generated automatically. Never use the same slug twice.
+
+## Change the homepage statistics
+
+Open `app/page.tsx` and search for `proof-strip`. Update the number inside
+`<strong>` and its explanation inside `<span>`. Keep the HTML tags intact.
 
 ## Change the profile picture
 
-Prepare a transparent PNG portrait and rename it exactly:
-
-`hamza-ramzan.png`
-
-Upload it into `public` and replace the existing file. Keeping the same filename
-updates the homepage, About page, and article author image together.
+Prepare a transparent PNG portrait named exactly `hamza-ramzan.png`. Upload it
+into `public` and replace the existing file. The same image is used throughout
+the website.
 
 ## Change the colours
 
@@ -90,20 +90,23 @@ Open `app/globals.css`. The first section contains the colour system:
 }
 ```
 
-Change the hexadecimal value after the variable name. Avoid renaming the
-variables because they are used throughout the design.
+Change the hexadecimal value after the variable name, but do not rename the
+variable.
+
+## Publish several edits in one Netlify deployment
+
+1. Make all desired edits in GitHub before committing.
+2. Choose **Commit changes** once after the complete batch is ready.
+3. Netlify sees the single commit and starts one production deployment.
+4. Check the live homepage, one article, one video link, and the mobile layout.
 
 ## Safe editing rules
 
 1. Change text between quotation marks, not the surrounding code.
-2. Preserve commas, brackets, braces, and quotation marks.
-3. Make one type of change at a time and wait for Netlify to finish deploying.
-4. Check the live page on desktop and mobile after every important edit.
-5. If a deployment fails, open Netlify's deploy log. The last working version
-   remains live, and the unsuccessful change can be corrected or reverted.
+2. Preserve commas, brackets, braces, quotation marks, and property names.
+3. Use one final commit for a batch of related updates.
+4. If a deployment fails, open the Netlify deploy log. The previous successful
+   deployment remains available and can be restored.
 
-## When to ask for help
-
-Routine text, link, image, video and article changes are safe to make manually.
-Ask for help when adding new page layouts, forms, search, a content-management
-system, animations, quizzes, payments, or a major visual redesign.
+Ask for help when adding new page layouts, forms, quizzes, payments, accounts,
+or a content-management system.
