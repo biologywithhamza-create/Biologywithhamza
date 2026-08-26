@@ -14,7 +14,7 @@ export const links = {
   youtube: "https://www.youtube.com/@m.hamzaramzan1283",
   instagram: "https://www.instagram.com/myn_hamza/",
   whatsapp: "https://whatsapp.com/channel/0029VbAg97M1SWt5n2tay62T",
-  playlist: "https://www.youtube.com/playlist?list=PL3GWNze6yXzBURN2Ms-ZZcdoYPXExio7_",
+  playlist: "https://www.youtube.com/playlist?list=PLJLQEJg76nB294C325iL0RnFRDZWk5f-z",
   nearpeerProfile: "https://nearpeer.org/html/hamza-ramzan-profile",
   nearpeerCourse:
     "https://nearpeer.org/entry-test-preparation/self-study-courses/mdcat-biology-sir-hamza-ramzan",
@@ -169,11 +169,11 @@ export const articles: Article[] = [
 
 export const videos = [
   {
-    title: "MDCAT 2026 Revision: Genetics 01",
-    label: "Inheritance · Revision",
-    href: "https://www.youtube.com/watch?v=-Adid3vJlHw",
-    image: "/video-genetics.jpg",
-  },
+  title: "Test 4 — Evolution + Inheritance",
+  label: "MDCAT 2026 · Test discussion",
+  href: "https://www.youtube.com/watch?v=hlCHbNy4wn4",
+  image: "https://i.ytimg.com/vi/hlCHbNy4wn4/hqdefault.jpg",
+},
   {
     title: "Coordination & Control — Free Live Class",
     label: "Nervous coordination · Live",
