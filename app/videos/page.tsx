@@ -3,8 +3,8 @@ import { Arrow, Footer, Header, PageIntro, PlayIcon } from "../components";
 import { links, videos } from "../content";
 
 export const metadata: Metadata = {
-  title: "MDCAT Biology Video Lessons",
-  description: "Watch free MDCAT Biology lessons and revision sessions with Hamza Ramzan.",
+  title: "Biology Video Lessons",
+  description: "Watch free Biology lessons and MDCAT revision sessions with Hamza Ramzan.",
 };
 
 export default function VideosPage() {
@@ -15,7 +15,7 @@ export default function VideosPage() {
         <PageIntro
           eyebrow="Watch & learn"
           title="The classroom, without the walls."
-          copy="Free Biology lessons that connect textbook detail with MDCAT-level thinking, taught by Hamza Ramzan."
+          copy="Free Biology lessons that connect strong concepts with exam-level reasoning, taught by Hamza Ramzan."
         >
           <div className="library-actions">
             <a className="button button-ember" href={links.youtube} target="_blank" rel="noreferrer">Open YouTube channel <Arrow /></a>
@@ -42,7 +42,7 @@ export default function VideosPage() {
           <div className="coming-note">
             <span>Complete preparation</span>
             <h2>Need structure beyond individual lessons?</h2>
-            <p>Explore Hamza Ramzan&apos;s full MDCAT Biology course with 74 lessons and focused exam preparation.</p>
+            <p>Explore Hamza Ramzan&apos;s complete MDCAT Biology learning route with conceptual teaching and focused exam preparation.</p>
             <a className="button button-ember" href={links.nearpeerCourse} target="_blank" rel="noreferrer">Explore the course <Arrow /></a>
           </div>
         </section>

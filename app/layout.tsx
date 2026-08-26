@@ -3,26 +3,33 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "PYRO | Biology, MDCAT & Discovery",
-    template: "%s | PYRO",
+    default: "Biology with Hamza | MDCAT & Cambridge O Level",
+    template: "%s | Biology with Hamza",
   },
   description:
-    "Biology made clear and discovery made relevant. MDCAT lessons, biology explainers and field notes by Hamza Ramzan.",
-  metadataBase: new URL("https://hamza-biology.teamdatanp.chatgpt.site"),
+    "Concept-driven MDCAT and Cambridge O Level Biology lessons, articles, diagrams and student resources by Hamza Ramzan.",
+  metadataBase: new URL("https://hamzaramzan.online"),
   alternates: { canonical: "https://hamzaramzan.online" },
   authors: [{ name: "Hamza Ramzan", url: "https://hamzaramzan.online" }],
   creator: "Hamza Ramzan",
   openGraph: {
-    title: "PYRO | Biology, MDCAT & Discovery",
-    description: "Biology made clear. Discovery made relevant.",
+    title: "Biology with Hamza | MDCAT & Cambridge O Level",
+    description: "Biology made clear. Learning made relevant.",
     type: "website",
-    siteName: "PYRO",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "PYRO — Biology, MDCAT & Discovery" }],
+    siteName: "Biology with Hamza",
+    images: [
+      {
+        url: "/og.png",
+        width: 1919,
+        height: 820,
+        alt: "Biology with Hamza",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PYRO | Biology, MDCAT & Discovery",
-    description: "Biology made clear. Discovery made relevant.",
+    title: "Biology with Hamza | MDCAT & Cambridge O Level",
+    description: "Biology made clear. Learning made relevant.",
     images: ["/og.png"],
   },
   manifest: "/manifest.webmanifest",

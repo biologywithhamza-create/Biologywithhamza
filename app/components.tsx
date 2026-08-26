@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { articles, links } from "./content";
+import type { Article, ArticleDiagram } from "./content";
 
 export function Arrow({ className = "" }: { className?: string }) {
   return (
@@ -17,11 +18,27 @@ export function PlayIcon() {
   );
 }
 
-export function PyroMark({ inverse = false }: { inverse?: boolean }) {
+export function BiologyMark({
+  inverse = false,
+  className = "",
+}: {
+  inverse?: boolean;
+  className?: string;
+}) {
   return (
-    <span className={`pyro-mark${inverse ? " pyro-mark-inverse" : ""}`} aria-hidden="true">
-      P<span />
-    </span>
+    <svg
+      className={`biology-mark${inverse ? " biology-mark-inverse" : ""} ${className}`.trim()}
+      viewBox="0 0 72 72"
+      fill="none"
+      aria-hidden="true"
+    >
+      <circle cx="36" cy="36" r="31" stroke="currentColor" strokeWidth="2.4" />
+      <path d="M31 12c11 8 11 16 0 24s-11 16 0 24M41 12c-11 8-11 16 0 24s11 16 0 24" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" />
+      <path d="M30 20h12M29 31h14M29 42h14M30 53h12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M14 46c11-13 20-10 23 7-12 5-20 1-23-7Z" fill="var(--mark-leaf, #35b86b)" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
+      <path d="m16 47 17 8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+      <circle cx="54" cy="23" r="5" fill="var(--ember)" />
+    </svg>
   );
 }
 
@@ -29,38 +46,41 @@ export function Header() {
   return (
     <>
       <div className="bulletin">
-        <span>New</span>
+        <span>Watch</span>
         <a href={links.youtube} target="_blank" rel="noreferrer">
-          MDCAT Biology lessons now on YouTube <Arrow />
+          New Biology lessons on YouTube <Arrow />
         </a>
       </div>
       <header className="site-header">
-        <a className="brand" href="/" aria-label="PYRO home">
-          <PyroMark />
-          <span className="brand-word">PYRO</span>
-          <span className="brand-descriptor">Biology, MDCAT &amp; Discovery</span>
+        <a className="brand" href="/" aria-label="Biology with Hamza home">
+          <BiologyMark />
+          <span className="brand-copy">
+            <strong>Biology with Hamza</strong>
+            <small>MDCAT · Cambridge O Level</small>
+          </span>
         </a>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
           <a href="/videos">MDCAT</a>
-          <a href="/articles">Learn Biology</a>
-          <a href="/articles#discoveries">Discoveries</a>
+          <a href="/articles#cambridge-o-level">Cambridge O Level</a>
+          <a href="/articles">Articles</a>
           <a href="/#resources">Resources</a>
           <a href="/about">About</a>
         </nav>
 
-        <a className="header-action" href={links.whatsapp} target="_blank" rel="noreferrer">
-          Join the channel <Arrow />
+        <a className="header-action" href={links.youtube} target="_blank" rel="noreferrer">
+          YouTube channel <Arrow />
         </a>
 
         <details className="mobile-menu">
           <summary aria-label="Open menu"><span /><span /></summary>
           <nav aria-label="Mobile navigation">
             <a href="/videos">MDCAT &amp; Videos</a>
-            <a href="/articles">Articles</a>
-            <a href="/#resources">Resources</a>
+            <a href="/articles#cambridge-o-level">Cambridge O Level</a>
+            <a href="/articles">Biology articles</a>
+            <a href="/#resources">Student resources</a>
             <a href="/about">About Hamza</a>
-            <a href={links.whatsapp} target="_blank" rel="noreferrer">Join WhatsApp channel</a>
+            <a href={links.youtube} target="_blank" rel="noreferrer">Open YouTube channel</a>
           </nav>
         </details>
       </header>
@@ -74,17 +94,17 @@ export function Footer() {
       <div className="footer-top">
         <div>
           <a className="footer-brand" href="/">
-            <PyroMark inverse />
-            <span>PYRO</span>
+            <BiologyMark inverse />
+            <span>Biology with Hamza</span>
           </a>
-          <p>Biology made clear.<br />Discovery made relevant.</p>
+          <p>Biology made clear.<br />Learning made relevant.</p>
         </div>
         <div className="footer-links">
           <div>
             <p>Explore</p>
-            <a href="/articles">Articles</a>
+            <a href="/articles">Biology articles</a>
             <a href="/videos">Video lessons</a>
-            <a href="/about">About</a>
+            <a href="/about">About Hamza</a>
           </div>
           <div>
             <p>Follow</p>
@@ -94,35 +114,55 @@ export function Footer() {
           </div>
           <div>
             <p>Learn</p>
+            <a href="/articles#cambridge-o-level">Cambridge O Level</a>
             <a href={links.playlist} target="_blank" rel="noreferrer">Free MDCAT playlist</a>
-            <a href={links.nearpeerCourse} target="_blank" rel="noreferrer">Nearpeer course</a>
-            <a href="/#resources">Student resources</a>
+            <a href={links.studentDrive} target="_blank" rel="noreferrer">Student resource drive</a>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© 2026 PYRO · Founded by Hamza Ramzan</span>
+        <span>© 2026 Biology with Hamza · Hamza Ramzan</span>
         <span>HamzaRamzan.online</span>
       </div>
     </footer>
   );
 }
 
-export function ArticleCard({ index }: { index: number }) {
-  const article = articles[index];
+export function ArticleCard({ index, article }: { index?: number; article?: Article }) {
+  const selected = article ?? articles[index ?? 0];
+  const articleNumber = articles.findIndex((item) => item.slug === selected.slug) + 1;
   return (
-    <article className={`article-card article-${article.accent}`}>
+    <article className={`article-card article-${selected.accent}`}>
       <div className="article-card-top">
-        <span>{article.category}</span>
-        <span>{article.readTime}</span>
+        <span>{selected.category}</span>
+        <span>{selected.readTime}</span>
       </div>
-      <div className="article-card-number">{article.number}</div>
-      <h3>{article.title}</h3>
-      <p>{article.description}</p>
-      <a href={`/articles/${article.slug}`}>
-        Read field note <Arrow />
+      <div className="article-card-number">{String(articleNumber).padStart(2, "0")}</div>
+      <div className="article-card-topic">{selected.topic}</div>
+      <h3>{selected.title}</h3>
+      <p>{selected.description}</p>
+      <a href={`/articles/${selected.slug}`}>
+        Read article <Arrow />
       </a>
     </article>
+  );
+}
+
+export function ConceptDiagram({ diagram }: { diagram: ArticleDiagram }) {
+  return (
+    <figure className={`concept-diagram concept-diagram-${diagram.kind ?? "flow"}`}>
+      <div className="concept-diagram-title">{diagram.title}</div>
+      <div className="concept-diagram-track">
+        {diagram.items.map((item, index) => (
+          <div className="concept-diagram-node" key={`${item.label}-${index}`}>
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <strong>{item.label}</strong>
+            <p>{item.detail}</p>
+          </div>
+        ))}
+      </div>
+      <figcaption>{diagram.caption}</figcaption>
+    </figure>
   );
 }
 

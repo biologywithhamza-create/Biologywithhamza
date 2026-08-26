@@ -1,15 +1,18 @@
-import { ArticleCard, Arrow, Footer, Header, PlayIcon, PyroMark } from "./components";
-import { links, videos } from "./content";
+import { Arrow, BiologyMark, Footer, Header, PlayIcon } from "./components";
+import { articles, links, videos } from "./content";
 
 export default function Home() {
+  const featured = articles[3];
+  const articleQueue = [articles[9], articles[18], articles[4]];
+
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "WebSite",
-        name: "PYRO",
+        name: "Biology with Hamza",
         url: "https://hamzaramzan.online",
-        description: "Biology, MDCAT and Discovery by Hamza Ramzan.",
+        description: "MDCAT and Cambridge O Level Biology by Hamza Ramzan.",
         publisher: { "@id": "https://hamzaramzan.online/#hamza" },
       },
       {
@@ -18,13 +21,13 @@ export default function Home() {
         name: "Hamza Ramzan",
         jobTitle: "Senior Biology Lecturer and Academic Lead",
         url: "https://hamzaramzan.online",
-        image: "https://hamza-biology.teamdatanp.chatgpt.site/hamza-ramzan.png",
+        image: "https://hamzaramzan.online/hamza-ramzan.png",
         sameAs: [links.youtube, links.instagram, links.linkedin, links.nearpeerProfile],
         alumniOf: [
           { "@type": "CollegeOrUniversity", name: "University of Management and Technology" },
           { "@type": "CollegeOrUniversity", name: "University of the Punjab" },
         ],
-        knowsAbout: ["Biology", "MDCAT Biology", "Biotechnology", "Zoology"],
+        knowsAbout: ["Biology", "MDCAT Biology", "Cambridge O Level Biology", "Biotechnology", "Zoology"],
       },
     ],
   };
@@ -33,168 +36,230 @@ export default function Home() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Header />
-      <main>
-        <section className="hero" id="top">
-          <div className="hero-copy">
-            <div className="hero-kicker">
-              <span className="ember-dot" />
-              Independent biology publication by Hamza Ramzan
+      <main className="home-v2">
+        <section className="home-v2-hero" id="top">
+          <div className="home-v2-hero-grid">
+            <div className="home-v2-hero-copy">
+              <p className="home-v2-kicker"><span /> MDCAT · Cambridge O Level · Biology</p>
+              <h1>
+                Don&apos;t just<br />
+                study Biology.<br />
+                <em>See how it works.</em>
+              </h1>
+              <p className="home-v2-hero-lead">
+                Clear, concept-first teaching that turns difficult chapters into connected ideas—and connected ideas into confident exam answers.
+              </p>
+              <div className="home-v2-actions">
+                <a className="home-v2-primary" href="/articles">Explore the library <Arrow /></a>
+                <a className="home-v2-secondary" href="/videos"><PlayIcon /> Watch a lesson</a>
+              </div>
+              <div className="home-v2-signoff">
+                <span>Teaching with</span>
+                <strong>clarity · logic · exam purpose</strong>
+              </div>
             </div>
-            <h1>Biology made <em>clear.</em><br />Discovery made <em>relevant.</em></h1>
-            <p className="hero-lead">
-              PYRO connects classroom biology, MDCAT thinking, and the discoveries
-              changing how we understand life.
-            </p>
-            <div className="hero-actions">
-              <a className="button button-ember" href="/articles">Start reading <Arrow /></a>
-              <a className="button button-ghost" href="/videos"><PlayIcon /> Watch lessons</a>
-            </div>
-            <div className="hero-byline">
-              <span>Written &amp; taught by</span>
-              <strong>Hamza Ramzan</strong>
-              <i />
-              <span>MS Biotechnology</span>
-            </div>
-          </div>
 
-          <div className="hero-portrait">
-            <div className="portrait-orbit orbit-one" />
-            <div className="portrait-orbit orbit-two" />
-            <div className="portrait-grid" aria-hidden="true" />
-            <img src="/hamza-ramzan.png" alt="Hamza Ramzan, Biology lecturer and founder of PYRO" width="1136" height="1476" />
-            <div className="portrait-card">
-              <PyroMark inverse />
-              <div><strong>Senior Biology Lecturer</strong><span>FSc · MDCAT · Academic Lead</span></div>
-            </div>
-            <span className="portrait-note">Concept → Application → MCQ</span>
-          </div>
-        </section>
-
-        <section className="proof-strip" aria-label="Experience and teaching reach">
-          <div><strong>8+</strong><span>Years teaching Biology</span></div>
-          <div><strong>4,432+</strong><span>MDCAT course learners</span></div>
-          <div><strong>74</strong><span>Lessons in the MDCAT course</span></div>
-          <div><strong>5×</strong><span>Best Speaker of Punjab</span></div>
-        </section>
-
-        <section className="editorial-section">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow">Latest field notes</p>
-              <h2>Ideas worth<br />understanding.</h2>
-            </div>
-            <p>
-              No filler and no textbook copying—just the logic behind difficult
-              concepts, the strategy behind better answers, and the science worth noticing.
-            </p>
-          </div>
-          <div className="article-grid">
-            <ArticleCard index={0} />
-            <ArticleCard index={1} />
-            <ArticleCard index={2} />
-          </div>
-          <div className="section-end-link"><a href="/articles">View every field note <Arrow /></a></div>
-        </section>
-
-        <section className="lanes-section">
-          <div className="lanes-intro">
-            <p className="eyebrow">Three ways in</p>
-            <h2>What are you here to understand?</h2>
-          </div>
-          <div className="lane-grid">
-            <a className="lane lane-mdcat" href="/videos">
-              <span>01 · MDCAT</span>
-              <h3>Think like the examiner.</h3>
-              <p>Conceptual lessons, MCQ judgment, revision systems and exam strategy.</p>
-              <Arrow />
-            </a>
-            <a className="lane lane-learn" href="/articles">
-              <span>02 · Learn Biology</span>
-              <h3>See how life works.</h3>
-              <p>Clear explanations that connect mechanisms, structures and consequences.</p>
-              <Arrow />
-            </a>
-            <a className="lane lane-discover" href="/articles#discoveries">
-              <span>03 · Discoveries</span>
-              <h3>Follow biology forward.</h3>
-              <p>Research, findings and biological ideas translated without the noise.</p>
-              <Arrow />
-            </a>
-          </div>
-        </section>
-
-        <section className="video-section" id="videos">
-          <div className="section-heading section-heading-light">
-            <div>
-              <p className="eyebrow">Watch &amp; learn</p>
-              <h2>The classroom,<br />without the walls.</h2>
-            </div>
-            <a className="text-link-light" href={links.youtube} target="_blank" rel="noreferrer">Open YouTube channel <Arrow /></a>
-          </div>
-          <div className="video-grid">
-            {videos.map((video, index) => (
-              <a className={`video-card${index === 0 ? " video-card-featured" : ""}`} href={video.href} target="_blank" rel="noreferrer" key={video.href}>
-                <div className="video-image">
-                  <img src={video.image} alt="" width="480" height="360" />
-                  <span className="video-play"><PlayIcon /></span>
-                  <span className="video-number">0{index + 1}</span>
+            <div className="home-v2-hero-stage">
+              <span className="home-v2-stage-word" aria-hidden="true">BIO</span>
+              <div className="home-v2-stage-orbit" aria-hidden="true" />
+              <img src="/hamza-ramzan.png" alt="Hamza Ramzan, senior Biology lecturer" width="1136" height="1476" />
+              <div className="home-v2-profile-chip">
+                <BiologyMark inverse />
+                <div>
+                  <strong>Hamza Ramzan</strong>
+                  <span>Senior Biology Lecturer · Academic Lead</span>
                 </div>
-                <div className="video-copy"><p>{video.label}</p><h3>{video.title}</h3><span>Watch lesson <Arrow /></span></div>
+              </div>
+              <div className="home-v2-stage-note">
+                <span>01</span>
+                <p>Concept</p>
+                <i />
+                <span>02</span>
+                <p>Application</p>
+                <i />
+                <span>03</span>
+                <p>Exam mastery</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="home-v2-proof" aria-label="Teaching experience and reach">
+            <div><strong>9+</strong><span>years teaching Biology</span></div>
+            <div><strong>100K+</strong><span>students reached</span></div>
+            <div><strong>2</strong><span>focused learning tracks</span></div>
+            <div><strong>5×</strong><span>Best Speaker of Punjab</span></div>
+          </div>
+        </section>
+
+        <section className="home-v2-paths">
+          <div className="home-v2-section-label"><span>01</span> Choose your route</div>
+          <div className="home-v2-paths-head">
+            <h2>One teacher.<br />Two serious tracks.</h2>
+            <p>Start with the outcome you need. Every route is built around understanding first and exam performance second.</p>
+          </div>
+          <div className="home-v2-path-grid">
+            <a href="/videos" className="home-v2-path home-v2-path-mdcat">
+              <span className="home-v2-path-number">01</span>
+              <div>
+                <p>MDCAT Biology</p>
+                <h3>Build fast, accurate biological judgment.</h3>
+                <ul>
+                  <li>Concept-driven video lessons</li>
+                  <li>MCQ reasoning and distractor analysis</li>
+                  <li>High-yield revision routes</li>
+                </ul>
+              </div>
+              <Arrow />
+            </a>
+            <a href="/articles#cambridge-o-level" className="home-v2-path home-v2-path-cambridge">
+              <span className="home-v2-path-number">02</span>
+              <div>
+                <p>Cambridge O Level Biology</p>
+                <h3>Understand, investigate and explain with precision.</h3>
+                <ul>
+                  <li>5090 concept guides</li>
+                  <li>Practical and data-handling skills</li>
+                  <li>Structured-answer technique</li>
+                </ul>
+              </div>
+              <Arrow />
+            </a>
+          </div>
+        </section>
+
+        <section className="home-v2-library">
+          <div className="home-v2-section-label home-v2-section-label-light"><span>02</span> Deep-reading library</div>
+          <div className="home-v2-library-head">
+            <h2>Articles that actually<br />finish the explanation.</h2>
+            <p>Mechanisms, diagrams, comparisons, misconceptions, recaps and exam checks—built into every long-form guide.</p>
+          </div>
+          <div className="home-v2-library-grid">
+            <a className="home-v2-feature-article" href={`/articles/${featured.slug}`}>
+              <div className="home-v2-feature-meta">
+                <span>{featured.category}</span>
+                <span>{featured.readTime}</span>
+              </div>
+              <div className="home-v2-feature-visual" aria-hidden="true">
+                <span>04</span>
+                <small>Acellular life</small>
+              </div>
+              <div>
+                <p>{featured.topic}</p>
+                <h3>{featured.title}</h3>
+                <span className="home-v2-read-link">Read the full guide <Arrow /></span>
+              </div>
+            </a>
+            <div className="home-v2-article-queue">
+              {articleQueue.map((article, index) => (
+                <a href={`/articles/${article.slug}`} key={article.slug}>
+                  <span className="home-v2-queue-number">{String(index + 2).padStart(2, "0")}</span>
+                  <div>
+                    <p>{article.category} · {article.readTime}</p>
+                    <h3>{article.title}</h3>
+                    <span>{article.topic}</span>
+                  </div>
+                  <Arrow />
+                </a>
+              ))}
+              <a className="home-v2-all-articles" href="/articles">
+                <span>Browse all {articles.length} in-depth articles</span>
+                <Arrow />
               </a>
-            ))}
-          </div>
-        </section>
-
-        <section className="founder-section" id="about">
-          <div className="founder-visual">
-            <img src="/og.png" alt="PYRO — Biology, MDCAT and Discovery" width="1200" height="630" />
-            <div className="founder-signature">Hamza Ramzan<span>Founder &amp; Biology educator</span></div>
-          </div>
-          <div className="founder-copy">
-            <p className="eyebrow">Behind PYRO</p>
-            <h2>Science training.<br />Teacher&apos;s instinct.<br />Speaker&apos;s clarity.</h2>
-            <p>
-              Hamza Ramzan is a senior Biology lecturer and Academic Lead with eight
-              years of classroom and online teaching experience. His method combines
-              strong concepts, visual explanations, past-paper awareness and deliberate MCQ practice.
-            </p>
-            <div className="credential-list">
-              <span><strong>MS Biotechnology</strong>UMT · 2022</span>
-              <span><strong>BS Zoology</strong>University of the Punjab · 2018</span>
             </div>
-            <a className="button button-ink" href="/about">Read Hamza&apos;s story <Arrow /></a>
           </div>
         </section>
 
-        <section className="resources-section" id="resources">
-          <div className="resources-header">
-            <p className="eyebrow">Student resources</p>
-            <h2>Useful by design.</h2>
-            <p>Direct routes to lessons, structured learning, and the student community.</p>
-          </div>
-          <div className="resource-grid">
-            <a href={links.playlist} target="_blank" rel="noreferrer">
-              <span>Free library</span><strong>MDCAT Biology video playlist</strong><p>Long-form lessons and revision sessions, organised on YouTube.</p><Arrow />
-            </a>
-            <a href={links.whatsapp} target="_blank" rel="noreferrer">
-              <span>Student community</span><strong>MDCAT Biology WhatsApp channel</strong><p>Class updates, revision prompts and important student announcements.</p><Arrow />
-            </a>
-            <a href={links.nearpeerCourse} target="_blank" rel="noreferrer">
-              <span>Structured course</span><strong>Complete MDCAT Biology preparation</strong><p>A focused course with 74 lessons and thousands of enrolled learners.</p><Arrow />
-            </a>
+        <section className="home-v2-cambridge" id="cambridge">
+          <div className="home-v2-section-label"><span>03</span> Cambridge direction</div>
+          <div className="home-v2-cambridge-layout">
+            <div className="home-v2-cambridge-intro">
+              <p className="home-v2-cambridge-tag">O Level Biology · 5090</p>
+              <h2>Knowledge is only half the paper.</h2>
+              <p>Students also need evidence, interpretation and precise scientific language. This track brings all four together.</p>
+              <a href="/articles#cambridge-o-level">Open the Cambridge collection <Arrow /></a>
+            </div>
+            <div className="home-v2-cambridge-map">
+              <div><span>01</span><strong>Know</strong><p>Definitions, processes and connected systems.</p></div>
+              <div><span>02</span><strong>Investigate</strong><p>Variables, controls, methods and reliability.</p></div>
+              <div><span>03</span><strong>Interpret</strong><p>Tables, graphs, calculations and unfamiliar data.</p></div>
+              <div><span>04</span><strong>Communicate</strong><p>Command words and mark-scheme precise answers.</p></div>
+            </div>
           </div>
         </section>
 
-        <section className="closing-section">
-          <div className="closing-mark"><PyroMark inverse /></div>
+        <section className="home-v2-watch" id="videos">
+          <div className="home-v2-section-label"><span>04</span> Watch the classroom</div>
+          <div className="home-v2-watch-head">
+            <h2>Press play.<br />Stay for the logic.</h2>
+            <a href={links.youtube} target="_blank" rel="noreferrer">Visit the YouTube channel <Arrow /></a>
+          </div>
+          <div className="home-v2-video-grid">
+            <a className="home-v2-video-main" href={videos[0].href} target="_blank" rel="noreferrer">
+              <div className="home-v2-video-image">
+                <img src={videos[0].image} alt={`Thumbnail for ${videos[0].title}`} width="480" height="360" />
+                <span><PlayIcon /></span>
+              </div>
+              <div className="home-v2-video-main-copy">
+                <p>Start here · {videos[0].label}</p>
+                <h3>{videos[0].title}</h3>
+                <span>Watch now <Arrow /></span>
+              </div>
+            </a>
+            <div className="home-v2-video-stack">
+              {videos.slice(1).map((video, index) => (
+                <a href={video.href} target="_blank" rel="noreferrer" key={video.href}>
+                  <img src={video.image} alt={`Thumbnail for ${video.title}`} width="480" height="360" />
+                  <div>
+                    <p>0{index + 2} · {video.label}</p>
+                    <h3>{video.title}</h3>
+                    <span>Play lesson <Arrow /></span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="home-v2-profile" id="about">
+          <div className="home-v2-profile-statement">
+            <BiologyMark />
+            <p>Biology with Hamza</p>
+            <h2>Science training.<br />Teacher&apos;s instinct.<br /><em>Speaker&apos;s clarity.</em></h2>
+          </div>
+          <div className="home-v2-profile-copy">
+            <span>Meet your teacher</span>
+            <p>Hamza Ramzan is a senior Biology lecturer and Academic Lead with more than nine years of classroom and online teaching experience. Hundreds of thousands of students have studied through his lectures, courses and free academic communities.</p>
+            <dl>
+              <div><dt>MS Biotechnology</dt><dd>UMT · 2022</dd></div>
+              <div><dt>BS Zoology</dt><dd>University of the Punjab · 2018</dd></div>
+            </dl>
+            <a href="/about">Read Hamza&apos;s story <Arrow /></a>
+          </div>
+        </section>
+
+        <section className="home-v2-resources" id="resources">
+          <div className="home-v2-resource-title">
+            <span>05 · Student resources</span>
+            <h2>Everything useful.<br />Nothing buried.</h2>
+            <p>Direct access to the places students use most.</p>
+          </div>
+          <div className="home-v2-resource-list">
+            <a href={links.playlist} target="_blank" rel="noreferrer"><span>01</span><div><strong>YouTube lesson library</strong><p>Complete MDCAT lessons and revision sessions.</p></div><Arrow /></a>
+            <a href={links.studentDrive} target="_blank" rel="noreferrer"><span>02</span><div><strong>Student Resource Drive</strong><p>Lecture notes, diagrams and revision material.</p></div><Arrow /></a>
+            <a href={links.whatsapp} target="_blank" rel="noreferrer"><span>03</span><div><strong>WhatsApp student channel</strong><p>Class updates, prompts and announcements.</p></div><Arrow /></a>
+            <a href={links.nearpeerCourse} target="_blank" rel="noreferrer"><span>04</span><div><strong>Structured MDCAT course</strong><p>Conceptual teaching with exam-oriented practice.</p></div><Arrow /></a>
+          </div>
+        </section>
+
+        <section className="home-v2-closing">
           <div>
-            <p className="eyebrow">Stay close to the learning</p>
-            <h2>One clear explanation can change an entire chapter.</h2>
-            <p>Join the channel for new lessons, field notes and Biology updates.</p>
-            <div className="closing-actions">
-              <a className="button button-ember" href={links.whatsapp} target="_blank" rel="noreferrer">Join WhatsApp channel <Arrow /></a>
-              <a className="button button-outline-light" href={links.instagram} target="_blank" rel="noreferrer">Follow @myn_hamza</a>
-            </div>
+            <p>Keep learning with Hamza</p>
+            <h2>Your next clear explanation is one click away.</h2>
+          </div>
+          <div className="home-v2-closing-links">
+            <a href={links.youtube} target="_blank" rel="noreferrer">YouTube <Arrow /></a>
+            <a href={links.whatsapp} target="_blank" rel="noreferrer">WhatsApp <Arrow /></a>
+            <a href={links.instagram} target="_blank" rel="noreferrer">Instagram <Arrow /></a>
           </div>
         </section>
       </main>

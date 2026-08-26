@@ -4,7 +4,7 @@ import { links } from "../content";
 
 export const metadata: Metadata = {
   title: "About Hamza Ramzan",
-  description: "Meet Hamza Ramzan—Biology lecturer, Academic Lead, public speaker and founder of PYRO.",
+  description: "Meet Hamza Ramzan—senior Biology lecturer, Academic Lead and award-winning public speaker.",
 };
 
 export default function AboutPage() {
@@ -13,9 +13,9 @@ export default function AboutPage() {
       <Header />
       <main>
         <PageIntro
-          eyebrow="Founder & educator"
+          eyebrow="Biology educator"
           title="Clarity is not simplification. It is good teaching."
-          copy="Hamza Ramzan brings scientific training, eight years of teaching experience and an award-winning speaking background to Biology education."
+          copy="Hamza Ramzan brings scientific training, more than nine years of teaching experience and an award-winning speaking background to Biology education."
         />
 
         <section className="inner-content about-profile">
@@ -25,14 +25,16 @@ export default function AboutPage() {
           <div className="about-profile-copy">
             <h2>A Biology teacher who starts with the reason.</h2>
             <p>
-              Hamza specialises in FSc and MDCAT Biology. His teaching moves from
-              concept to application to MCQ judgment, using diagrams, analogies,
+              Hamza specialises in concept-driven MDCAT Biology and is building a
+              dedicated Cambridge O Level teaching track. His lessons move from
+              concept to application to exam mastery using diagrams, analogies,
               past-paper awareness and active student participation.
             </p>
             <p>
-              Across online and on-campus classrooms, he has taught at Nearpeer,
-              Punjab College, Noon Academy, Government Graduate College Township
-              and The Punjab School.
+              Hundreds of thousands of students have studied through his online
+              lectures, courses and academic communities. His classroom experience
+              includes Nearpeer, Punjab College, Noon Academy, Government Graduate
+              College Township and The Punjab School.
             </p>
 
             <div className="bio-block">
@@ -47,12 +49,22 @@ export default function AboutPage() {
 
             <div className="bio-block">
               <span>Teaching approach</span>
-              <h3>Concept → Application → MCQ</h3>
+              <h3>Concept → Application → Exam mastery</h3>
               <ul>
                 <li>Stories and analogies that make difficult mechanisms memorable.</li>
                 <li>Diagram-based explanations that reveal relationships, not just labels.</li>
                 <li>Questions, polls and quick checks that keep students mentally active.</li>
-                <li>Board concepts connected directly to MDCAT-level reasoning.</li>
+                <li>Exam-language training for MDCAT MCQs and Cambridge structured responses.</li>
+              </ul>
+            </div>
+
+            <div className="bio-block">
+              <span>Teaching focus</span>
+              <h3>MDCAT expertise. Cambridge direction.</h3>
+              <ul>
+                <li>Deep MDCAT concept teaching, revision systems and MCQ judgment.</li>
+                <li>Cambridge O Level Biology resources beginning with 5090-aligned concepts and skills.</li>
+                <li>Practical-work guidance, data interpretation and structured-answer development.</li>
               </ul>
             </div>
 

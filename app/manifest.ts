@@ -4,9 +4,9 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "PYRO — Biology, MDCAT & Discovery",
-    short_name: "PYRO",
-    description: "Biology made clear. Discovery made relevant.",
+    name: "Biology with Hamza — MDCAT & Cambridge O Level",
+    short_name: "Biology with Hamza",
+    description: "Biology made clear. Learning made relevant.",
     start_url: "/",
     display: "standalone",
     background_color: "#F4F0E6",

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">MDCAT 2026 — Acellular Life Lecture 1</title>
+  <desc id="desc">Biology with Hamza branded cover for the first video lesson.</desc>
+  <rect width="1280" height="720" fill="#061b24"/>
+  <g stroke="#ffffff" stroke-opacity=".07">
+    <path d="M0 90h1280M0 180h1280M0 270h1280M0 360h1280M0 450h1280M0 540h1280M0 630h1280"/>
+    <path d="M90 0v720M180 0v720M270 0v720M360 0v720M450 0v720M540 0v720M630 0v720M720 0v720M810 0v720M900 0v720M990 0v720M1080 0v720M1170 0v720"/>
+  </g>
+  <circle cx="1030" cy="360" r="238" fill="none" stroke="#27d3c5" stroke-opacity=".5" stroke-width="2"/>
+  <circle cx="1030" cy="360" r="160" fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="2"/>
+  <path d="M987 186c115 83 115 166 0 249s-115 166 0 249M1073 186c-115 83-115 166 0 249s115 166 0 249" fill="none" stroke="#27d3c5" stroke-width="12" stroke-linecap="round"/>
+  <path d="M985 266h90M976 350h108M976 434h108M985 518h90" fill="none" stroke="#ffffff" stroke-opacity=".7" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="1165" cy="205" r="24" fill="#ff6835"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="74" y="88" fill="#27d3c5" font-size="22" font-weight="700" letter-spacing="5">BIOLOGY WITH HAMZA</text>
+    <text x="74" y="205" fill="#ffffff" font-size="36" font-weight="700" letter-spacing="4">MDCAT 2026</text>
+    <text x="74" y="330" fill="#ffffff" font-size="92" font-weight="900">Acellular</text>
+    <text x="74" y="425" fill="#ffffff" font-size="92" font-weight="900">Life</text>
+    <rect x="74" y="486" width="238" height="68" fill="#dfff7a"/>
+    <text x="101" y="532" fill="#061b24" font-size="24" font-weight="900" letter-spacing="2">LECTURE 01</text>
+    <text x="74" y="642" fill="#ffffff" fill-opacity=".6" font-size="22">Concept → Application → Exam mastery</text>
+  </g>
+</svg>
