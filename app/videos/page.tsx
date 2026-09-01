@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Arrow, Footer, Header, PageIntro, PlayIcon } from "../components";
 import { links, videos } from "../content";
 
 export const metadata: Metadata = {
   title: "Biology Video Lessons",
   description: "Watch free Biology lessons and MDCAT revision sessions with Hamza Ramzan.",
+  alternates: { canonical: "/videos" },
+  openGraph: {
+    title: "Biology Video Lessons | Biology with Hamza",
+    description: "Watch free Biology lessons and MDCAT revision sessions with Hamza Ramzan.",
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
+  },
 };
 
 export default function VideosPage() {
@@ -28,7 +35,7 @@ export default function VideosPage() {
             {videos.map((video) => (
               <a className="library-card" href={video.href} target="_blank" rel="noreferrer" key={video.href}>
                 <div className="library-card-image">
-                  <img src={video.image} alt="" width="480" height="360" />
+                  <Image src={video.image} alt="" width={1280} height={720} sizes="(max-width: 680px) 100vw, (max-width: 1080px) 50vw, 33vw" />
                   <span className="video-play"><PlayIcon /></span>
                 </div>
                 <div className="library-card-copy">

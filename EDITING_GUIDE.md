@@ -13,9 +13,11 @@ To conserve Netlify credits, collect several edits and commit them together.
 | Article titles, categories, descriptions, diagrams, tables, and text | `app/article-data.ts` → `articles` |
 | Homepage headline, statistics, and section wording | `app/page.tsx` |
 | Biography, qualifications, experience, and awards | `app/about/page.tsx` |
+| Cambridge 5090 syllabus map, papers, and skill route | `app/cambridge-o-level/page.tsx` |
 | Website title and search description | `app/layout.tsx` |
 | Colours and layout | `app/globals.css` |
-| Profile picture | Replace `public/hamza-ramzan.png` |
+| Optimized profile picture used by the site | Replace `public/hamza-ramzan.webp` |
+| WhatsApp/Facebook/LinkedIn sharing card | Replace `public/og.png` (1200 × 630) |
 | Browser icon | Replace `public/favicon.svg` |
 
 ## Change a link
@@ -58,12 +60,13 @@ article object. Then change:
 
 - `slug`: a unique lowercase address using hyphens;
 - `category`: `MDCAT`, `Cambridge O Level`, `Learn Biology`, or `Study Strategy`;
-- `title`, `description`, `readTime`, `date`, and `dateISO`;
-- `objectives`, every item inside `sections`, `recap`, and `conceptChecks`;
+- `title`, `description`, `date`, and `dateISO`;
+- `objectives`, every item inside `sections`, `recap`, and `checks`;
 - optional `diagram`, `table`, or `callout` content.
 
-The article listing, search filters, article page, contents menu, and related
-articles are generated automatically. Never use the same slug twice.
+The article listing, topic and length filters, reading time, article page,
+contents menu, evidence panel, printable revision sheet and related articles
+are generated automatically. Never use the same slug twice.
 
 ## Change the homepage statistics
 
@@ -72,9 +75,9 @@ Open `app/page.tsx` and search for `proof-strip`. Update the number inside
 
 ## Change the profile picture
 
-Prepare a transparent PNG portrait named exactly `hamza-ramzan.png`. Upload it
-into `public` and replace the existing file. The same image is used throughout
-the website.
+Prepare an optimized transparent WebP portrait named exactly
+`hamza-ramzan.webp`. Upload it into `public` and replace the existing file. The
+same image is used throughout the website. Keep the original PNG as an archive.
 
 ## Change the colours
 

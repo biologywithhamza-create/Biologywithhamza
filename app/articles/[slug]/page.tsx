@@ -1,7 +1,18 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArticleActions } from "../../article-actions";
 import { Arrow, ArticleCard, ConceptDiagram, Footer, Header } from "../../components";
 import { articles, links } from "../../content";
+import {
+  ARTICLE_REVIEW_DATE,
+  ARTICLE_REVIEW_DATE_ISO,
+  getArticleReadTime,
+  getArticleReferences,
+  getArticleSyllabusAlignment,
+  getArticleWordCount,
+} from "../../article-data";
 
 type ArticleRouteProps = { params: Promise<{ slug: string }> };
 
@@ -23,11 +34,13 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
   return {
     title: article.title,
     description: article.description,
+    alternates: { canonical: `/articles/${article.slug}` },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
       publishedTime: article.dateISO,
+      modifiedTime: ARTICLE_REVIEW_DATE_ISO,
       authors: ["Hamza Ramzan"],
       images: [],
     },
@@ -56,33 +69,35 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
     headline: article.title,
     description: article.description,
     datePublished: article.dateISO,
-    dateModified: article.dateISO,
+    dateModified: ARTICLE_REVIEW_DATE_ISO,
     mainEntityOfPage: `https://hamzaramzan.online/articles/${article.slug}`,
     author: { "@type": "Person", name: "Hamza Ramzan", url: "https://hamzaramzan.online/about" },
     publisher: { "@type": "Person", name: "Hamza Ramzan", url: "https://hamzaramzan.online" },
     educationalLevel: article.category === "Cambridge O Level" ? "Cambridge O Level" : "MDCAT and upper-secondary Biology",
     about: article.topic,
   };
+  const references = getArticleReferences(article);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Header />
       <main className="article-shell">
-        <a className="article-breadcrumb" href="/articles"><Arrow /> All Biology articles</a>
+        <Link className="article-breadcrumb" href="/articles"><Arrow /> All Biology articles</Link>
         <header className="article-header">
           <div className="article-header-meta">
-            <span>{article.category}</span><i /><span>{article.topic}</span><i /><span>{article.readTime}</span>
+            <span>{article.category}</span><i /><span>{article.topic}</span><i /><span>{getArticleReadTime(article)}</span>
           </div>
           <h1>{article.title}</h1>
           <p>{article.description}</p>
           <div className="article-author">
-            <img src="/hamza-ramzan.png" alt="" width="1136" height="1476" />
+            <Image src="/hamza-ramzan.webp" alt="" width={1136} height={1476} sizes="46px" />
             <div>
               <strong>Hamza Ramzan</strong>
               <span>Senior Biology lecturer · Academic Lead</span>
             </div>
           </div>
+          <ArticleActions />
         </header>
 
         <section className="article-objectives" aria-labelledby="objectives-title">
@@ -91,6 +106,29 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             <h2 id="objectives-title">By the end, you should be able to…</h2>
           </div>
           <ul>{article.objectives.map((objective) => <li key={objective}>{objective}</li>)}</ul>
+        </section>
+
+        <section className="article-evidence" aria-label="Article review and syllabus information">
+          <div>
+            <span>Last reviewed</span>
+            <strong>{ARTICLE_REVIEW_DATE}</strong>
+          </div>
+          <div>
+            <span>Syllabus alignment</span>
+            <strong>{getArticleSyllabusAlignment(article)}</strong>
+          </div>
+          <div>
+            <span>Article depth</span>
+            <strong>{getArticleWordCount(article).toLocaleString()} words · {getArticleReadTime(article)}</strong>
+          </div>
+          <div className="article-evidence-sources">
+            <span>Recommended sources</span>
+            <ul>
+              {references.map((reference) => (
+                <li key={reference.href}><a href={reference.href} target="_blank" rel="noreferrer">{reference.label} <Arrow /></a></li>
+              ))}
+            </ul>
+          </div>
         </section>
 
         <div className="article-reading-layout">
@@ -142,12 +180,12 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             </section>
 
             <section className="article-checks" id="check-understanding">
-              <span>Check your understanding</span>
-              <h2>Can you explain it without looking back?</h2>
+              <span>Exam-style concept checks</span>
+              <h2>Answer first. Then reveal the marking logic.</h2>
               {article.checks.map((check, index) => (
                 <details key={check.question}>
-                  <summary><i>{String(index + 1).padStart(2, "0")}</i>{check.question}</summary>
-                  <p>{check.answer}</p>
+                  <summary><i>{String(index + 1).padStart(2, "0")}</i><span>{check.question}<small>2 marks · show the biological link</small></span></summary>
+                  <p><strong>Answer:</strong> {check.answer}</p>
                 </details>
               ))}
             </section>

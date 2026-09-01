@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import { Arrow, Footer, Header, PageIntro } from "../components";
 import { links } from "../content";
 
 export const metadata: Metadata = {
   title: "About Hamza Ramzan",
   description: "Meet Hamza Ramzan—senior Biology lecturer, Academic Lead and award-winning public speaker.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Hamza Ramzan | Biology with Hamza",
+    description: "Senior Biology lecturer, Academic Lead and award-winning public speaker.",
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
+  },
 };
 
 export default function AboutPage() {
@@ -20,7 +28,7 @@ export default function AboutPage() {
 
         <section className="inner-content about-profile">
           <div className="about-portrait">
-            <img src="/hamza-ramzan.png" alt="Hamza Ramzan" width="1136" height="1476" />
+            <Image src="/hamza-ramzan.webp" alt="Hamza Ramzan" width={1136} height={1476} sizes="(max-width: 1080px) 88vw, 34vw" />
           </div>
           <div className="about-profile-copy">
             <h2>A Biology teacher who starts with the reason.</h2>
@@ -82,6 +90,37 @@ export default function AboutPage() {
               <a className="button button-ember" href={links.nearpeerProfile} target="_blank" rel="noreferrer">View teaching profile <Arrow /></a>
               <a className="button button-ghost" href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
+          </div>
+        </section>
+
+        <section className="about-impact" aria-label="Teaching impact">
+          <div><strong>9+</strong><span>years teaching Biology</span></div>
+          <div><strong>100K+</strong><span>students reached through classrooms and digital learning</span></div>
+          <div><strong>5×</strong><span>Best Speaker of Punjab</span></div>
+        </section>
+
+        <section className="about-journey">
+          <div className="about-journey-head">
+            <p className="eyebrow">Teaching journey</p>
+            <h2>From classroom foundations to academic leadership.</h2>
+            <p>Each stage added a different strength: classroom discipline, large-scale digital teaching, academic planning and now Cambridge-focused resource development.</p>
+          </div>
+          <div className="about-timeline">
+            <article><span>01</span><div><h3>Classroom foundations</h3><p>Teaching experience at The Punjab School and Government Graduate College Township established a strong base in lesson design, student questioning and board-level Biology.</p></div></article>
+            <article><span>02</span><div><h3>Wider academic reach</h3><p>Work with Punjab College and Noon Academy expanded that teaching into larger, mixed-ability student communities and online formats.</p></div></article>
+            <article><span>03</span><div><h3>MDCAT scale and leadership</h3><p>At Nearpeer, Hamza combines senior Biology teaching with academic leadership, revision planning, assessment design and student support.</p></div></article>
+            <article><span>04</span><div><h3>Cambridge O Level direction</h3><p>The current expansion translates concept-first teaching into 5090 syllabus maps, practical judgment, structured-answer guidance and exam-aware Biology articles.</p></div></article>
+          </div>
+        </section>
+
+        <section className="about-next">
+          <div>
+            <p className="eyebrow">Choose a learning route</p>
+            <h2>Strong concepts. Clear next steps.</h2>
+          </div>
+          <div className="about-next-links">
+            <Link href="/videos"><span>MDCAT Biology</span><strong>Watch the lesson library</strong><Arrow /></Link>
+            <Link href="/cambridge-o-level"><span>Cambridge O Level 5090</span><strong>Open the syllabus-led route</strong><Arrow /></Link>
           </div>
         </section>
       </main>

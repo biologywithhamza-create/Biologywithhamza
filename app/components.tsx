@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { articles, links } from "./content";
 import type { Article, ArticleDiagram } from "./content";
+import { getArticleReadTime, getArticleTopicGroup } from "./article-data";
 
 export function Arrow({ className = "" }: { className?: string }) {
   return (
@@ -52,20 +54,20 @@ export function Header() {
         </a>
       </div>
       <header className="site-header">
-        <a className="brand" href="/" aria-label="Biology with Hamza home">
+        <Link className="brand" href="/" aria-label="Biology with Hamza home">
           <BiologyMark />
           <span className="brand-copy">
             <strong>Biology with Hamza</strong>
             <small>MDCAT · Cambridge O Level</small>
           </span>
-        </a>
+        </Link>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
-          <a href="/videos">MDCAT</a>
-          <a href="/articles#cambridge-o-level">Cambridge O Level</a>
-          <a href="/articles">Articles</a>
-          <a href="/#resources">Resources</a>
-          <a href="/about">About</a>
+          <Link href="/videos">MDCAT</Link>
+          <Link href="/cambridge-o-level">Cambridge O Level</Link>
+          <Link href="/articles">Articles</Link>
+          <Link href="/#resources">Resources</Link>
+          <Link href="/about">About</Link>
         </nav>
 
         <a className="header-action" href={links.youtube} target="_blank" rel="noreferrer">
@@ -75,11 +77,11 @@ export function Header() {
         <details className="mobile-menu">
           <summary aria-label="Open menu"><span /><span /></summary>
           <nav aria-label="Mobile navigation">
-            <a href="/videos">MDCAT &amp; Videos</a>
-            <a href="/articles#cambridge-o-level">Cambridge O Level</a>
-            <a href="/articles">Biology articles</a>
-            <a href="/#resources">Student resources</a>
-            <a href="/about">About Hamza</a>
+            <Link href="/videos">MDCAT &amp; Videos</Link>
+            <Link href="/cambridge-o-level">Cambridge O Level</Link>
+            <Link href="/articles">Biology articles</Link>
+            <Link href="/#resources">Student resources</Link>
+            <Link href="/about">About Hamza</Link>
             <a href={links.youtube} target="_blank" rel="noreferrer">Open YouTube channel</a>
           </nav>
         </details>
@@ -93,18 +95,18 @@ export function Footer() {
     <footer className="site-footer">
       <div className="footer-top">
         <div>
-          <a className="footer-brand" href="/">
+          <Link className="footer-brand" href="/">
             <BiologyMark inverse />
             <span>Biology with Hamza</span>
-          </a>
+          </Link>
           <p>Biology made clear.<br />Learning made relevant.</p>
         </div>
         <div className="footer-links">
           <div>
             <p>Explore</p>
-            <a href="/articles">Biology articles</a>
-            <a href="/videos">Video lessons</a>
-            <a href="/about">About Hamza</a>
+            <Link href="/articles">Biology articles</Link>
+            <Link href="/videos">Video lessons</Link>
+            <Link href="/about">About Hamza</Link>
           </div>
           <div>
             <p>Follow</p>
@@ -114,7 +116,7 @@ export function Footer() {
           </div>
           <div>
             <p>Learn</p>
-            <a href="/articles#cambridge-o-level">Cambridge O Level</a>
+            <Link href="/cambridge-o-level">Cambridge O Level 5090</Link>
             <a href={links.playlist} target="_blank" rel="noreferrer">Free MDCAT playlist</a>
             <a href={links.studentDrive} target="_blank" rel="noreferrer">Student resource drive</a>
           </div>
@@ -135,15 +137,15 @@ export function ArticleCard({ index, article }: { index?: number; article?: Arti
     <article className={`article-card article-${selected.accent}`}>
       <div className="article-card-top">
         <span>{selected.category}</span>
-        <span>{selected.readTime}</span>
+        <span>{getArticleReadTime(selected)}</span>
       </div>
       <div className="article-card-number">{String(articleNumber).padStart(2, "0")}</div>
-      <div className="article-card-topic">{selected.topic}</div>
+      <div className="article-card-topic">{getArticleTopicGroup(selected)} · {selected.topic}</div>
       <h3>{selected.title}</h3>
       <p>{selected.description}</p>
-      <a href={`/articles/${selected.slug}`}>
+      <Link href={`/articles/${selected.slug}`}>
         Read article <Arrow />
-      </a>
+      </Link>
     </article>
   );
 }

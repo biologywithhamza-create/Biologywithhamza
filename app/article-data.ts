@@ -42,6 +42,141 @@ export type Article = {
   checks: Array<{ question: string; answer: string }>;
 };
 
+export type ArticleTopicGroup =
+  | "Cells & molecules"
+  | "Human physiology"
+  | "Genetics & evolution"
+  | "Disease & biotechnology"
+  | "Practical & exam skills";
+
+export type ArticleReference = {
+  label: string;
+  href: string;
+};
+
+export const ARTICLE_REVIEW_DATE = "August 31, 2026";
+export const ARTICLE_REVIEW_DATE_ISO = "2026-08-31";
+
+function countWords(value: string) {
+  return value.trim().match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g)?.length ?? 0;
+}
+
+export function getArticleWordCount(article: Article) {
+  const strings = [
+    article.title,
+    article.description,
+    article.topic,
+    ...article.objectives,
+    ...article.recap,
+    ...article.checks.flatMap((check) => [check.question, check.answer]),
+    ...article.sections.flatMap((section) => [
+      section.heading,
+      ...section.paragraphs,
+      ...(section.points ?? []),
+      section.callout ?? "",
+      ...(section.diagram
+        ? [
+            section.diagram.title,
+            section.diagram.caption,
+            ...section.diagram.items.flatMap((item) => [item.label, item.detail]),
+          ]
+        : []),
+      ...(section.table
+        ? [
+            section.table.caption,
+            ...section.table.headers,
+            ...section.table.rows.flat(),
+          ]
+        : []),
+    ]),
+  ];
+
+  return strings.reduce((total, value) => total + countWords(value), 0);
+}
+
+export function getArticleReadMinutes(article: Article) {
+  const visualCount = article.sections.filter((section) => section.diagram || section.table).length;
+  return Math.max(4, Math.ceil((getArticleWordCount(article) + visualCount * 45) / 190));
+}
+
+export function getArticleReadTime(article: Article) {
+  return `${getArticleReadMinutes(article)} min read`;
+}
+
+export function getArticleTopicGroup(article: Article): ArticleTopicGroup {
+  const haystack = `${article.slug} ${article.topic} ${article.title}`.toLowerCase();
+
+  if (/exam|study|practical|graph|structured|memor|food-test/.test(haystack)) {
+    return "Practical & exam skills";
+  }
+  if (/inherit|genetic|evolution|darwin|lamarck|reproduction/.test(haystack)) {
+    return "Genetics & evolution";
+  }
+  if (/virus|hiv|immun|disease|biotech|vaccine|gene-therapy/.test(haystack)) {
+    return "Disease & biotechnology";
+  }
+  if (/cell|enzyme|molecule|respiration|atp|diffusion|osmosis|transport/.test(haystack)) {
+    return "Cells & molecules";
+  }
+  return "Human physiology";
+}
+
+export function getArticleSyllabusAlignment(article: Article) {
+  if (article.category === "Cambridge O Level") {
+    return `Cambridge O Level Biology 5090 (2026–2028) · ${article.topic}`;
+  }
+  if (article.category === "MDCAT") {
+    return `MDCAT Biology concept and reasoning practice · ${article.topic}`;
+  }
+  if (article.category === "Study Strategy") {
+    return "Biology learning, retrieval and exam-decision skills";
+  }
+  return `Upper-secondary Biology foundation · ${article.topic}`;
+}
+
+export function getArticleReferences(article: Article): ArticleReference[] {
+  const topicGroup = getArticleTopicGroup(article);
+  const references: ArticleReference[] = [];
+
+  if (article.category === "Cambridge O Level") {
+    references.push({
+      label: "Cambridge O Level Biology 5090 syllabus (2026–2028)",
+      href: "https://www.cambridgeinternational.org/Images/697330-2026-2028-syllabus.pdf",
+    });
+  }
+
+  if (article.category === "Study Strategy") {
+    references.push({
+      label: "Improving Students’ Learning With Effective Learning Techniques",
+      href: "https://doi.org/10.1177/1529100612453266",
+    });
+  } else if (topicGroup === "Human physiology") {
+    references.push({
+      label: "OpenStax Anatomy and Physiology 2e",
+      href: "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    });
+  } else if (topicGroup === "Disease & biotechnology") {
+    references.push({
+      label: "OpenStax Microbiology",
+      href: "https://openstax.org/details/books/microbiology",
+    });
+  } else {
+    references.push({
+      label: "OpenStax Biology 2e",
+      href: "https://openstax.org/details/books/biology-2e",
+    });
+  }
+
+  if (article.slug.includes("hiv")) {
+    references.push({
+      label: "World Health Organization · HIV and AIDS fact sheet",
+      href: "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+    });
+  }
+
+  return references.slice(0, 3);
+}
+
 export const articles: Article[] = [
   {
     slug: "memorizing-pathways-fails",

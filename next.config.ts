@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images: {
+    unoptimized: true,
+  },
   // The live Sites build keeps its existing runtime. Netlify receives a fully
   // static export, which is faster, cheaper to host, and easy to redeploy.
   ...(process.env.NETLIFY_STATIC_EXPORT === "true"

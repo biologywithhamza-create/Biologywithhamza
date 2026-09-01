@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   description:
     "Concept-driven MDCAT and Cambridge O Level Biology lessons, articles, diagrams and student resources by Hamza Ramzan.",
   metadataBase: new URL("https://hamzaramzan.online"),
-  alternates: { canonical: "https://hamzaramzan.online" },
   authors: [{ name: "Hamza Ramzan", url: "https://hamzaramzan.online" }],
   creator: "Hamza Ramzan",
   openGraph: {
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/og.png",
-        width: 1919,
-        height: 820,
-        alt: "Biology with Hamza",
+        width: 1200,
+        height: 630,
+        alt: "Biology with Hamza — MDCAT and Cambridge O Level Biology",
       },
     ],
   },

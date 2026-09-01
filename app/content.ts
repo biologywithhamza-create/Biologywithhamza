@@ -29,6 +29,10 @@ export const links = {
   nearpeerCourse:
     "https://nearpeer.org/entry-test-preparation/self-study-courses/mdcat-biology-sir-hamza-ramzan",
   linkedin: "https://pk.linkedin.com/in/hamza-ramzan-1314a0111",
+  cambridgeSubject:
+    "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-biology-5090/",
+  cambridgeSyllabus:
+    "https://www.cambridgeinternational.org/Images/697330-2026-2028-syllabus.pdf",
 };
 
 export const videos = [

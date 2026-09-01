@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import { Arrow, BiologyMark, Footer, Header, PlayIcon } from "./components";
 import { articles, links, videos } from "./content";
+import { getArticleReadTime } from "./article-data";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   const featured = articles[3];
@@ -21,7 +29,7 @@ export default function Home() {
         name: "Hamza Ramzan",
         jobTitle: "Senior Biology Lecturer and Academic Lead",
         url: "https://hamzaramzan.online",
-        image: "https://hamzaramzan.online/hamza-ramzan.png",
+        image: "https://hamzaramzan.online/hamza-ramzan.webp",
         sameAs: [links.youtube, links.instagram, links.linkedin, links.nearpeerProfile],
         alumniOf: [
           { "@type": "CollegeOrUniversity", name: "University of Management and Technology" },
@@ -50,8 +58,8 @@ export default function Home() {
                 Clear, concept-first teaching that turns difficult chapters into connected ideas—and connected ideas into confident exam answers.
               </p>
               <div className="home-v2-actions">
-                <a className="home-v2-primary" href="/articles">Explore the library <Arrow /></a>
-                <a className="home-v2-secondary" href="/videos"><PlayIcon /> Watch a lesson</a>
+                <Link className="home-v2-primary" href="/articles">Explore the library <Arrow /></Link>
+                <Link className="home-v2-secondary" href="/videos"><PlayIcon /> Watch a lesson</Link>
               </div>
               <div className="home-v2-signoff">
                 <span>Teaching with</span>
@@ -62,7 +70,7 @@ export default function Home() {
             <div className="home-v2-hero-stage">
               <span className="home-v2-stage-word" aria-hidden="true">BIO</span>
               <div className="home-v2-stage-orbit" aria-hidden="true" />
-              <img src="/hamza-ramzan.png" alt="Hamza Ramzan, senior Biology lecturer" width="1136" height="1476" />
+              <Image src="/hamza-ramzan.webp" alt="Hamza Ramzan, senior Biology lecturer" width={1136} height={1476} sizes="(max-width: 1120px) 85vw, 46vw" priority />
               <div className="home-v2-profile-chip">
                 <BiologyMark inverse />
                 <div>
@@ -98,7 +106,7 @@ export default function Home() {
             <p>Start with the outcome you need. Every route is built around understanding first and exam performance second.</p>
           </div>
           <div className="home-v2-path-grid">
-            <a href="/videos" className="home-v2-path home-v2-path-mdcat">
+            <Link href="/videos" className="home-v2-path home-v2-path-mdcat">
               <span className="home-v2-path-number">01</span>
               <div>
                 <p>MDCAT Biology</p>
@@ -110,8 +118,8 @@ export default function Home() {
                 </ul>
               </div>
               <Arrow />
-            </a>
-            <a href="/articles#cambridge-o-level" className="home-v2-path home-v2-path-cambridge">
+            </Link>
+            <Link href="/cambridge-o-level" className="home-v2-path home-v2-path-cambridge">
               <span className="home-v2-path-number">02</span>
               <div>
                 <p>Cambridge O Level Biology</p>
@@ -123,7 +131,7 @@ export default function Home() {
                 </ul>
               </div>
               <Arrow />
-            </a>
+            </Link>
           </div>
         </section>
 
@@ -134,10 +142,10 @@ export default function Home() {
             <p>Mechanisms, diagrams, comparisons, misconceptions, recaps and exam checks—built into every long-form guide.</p>
           </div>
           <div className="home-v2-library-grid">
-            <a className="home-v2-feature-article" href={`/articles/${featured.slug}`}>
+            <Link className="home-v2-feature-article" href={`/articles/${featured.slug}`}>
               <div className="home-v2-feature-meta">
                 <span>{featured.category}</span>
-                <span>{featured.readTime}</span>
+                <span>{getArticleReadTime(featured)}</span>
               </div>
               <div className="home-v2-feature-visual" aria-hidden="true">
                 <span>04</span>
@@ -148,23 +156,23 @@ export default function Home() {
                 <h3>{featured.title}</h3>
                 <span className="home-v2-read-link">Read the full guide <Arrow /></span>
               </div>
-            </a>
+            </Link>
             <div className="home-v2-article-queue">
               {articleQueue.map((article, index) => (
-                <a href={`/articles/${article.slug}`} key={article.slug}>
+                <Link href={`/articles/${article.slug}`} key={article.slug}>
                   <span className="home-v2-queue-number">{String(index + 2).padStart(2, "0")}</span>
                   <div>
-                    <p>{article.category} · {article.readTime}</p>
+                    <p>{article.category} · {getArticleReadTime(article)}</p>
                     <h3>{article.title}</h3>
                     <span>{article.topic}</span>
                   </div>
                   <Arrow />
-                </a>
+                </Link>
               ))}
-              <a className="home-v2-all-articles" href="/articles">
+              <Link className="home-v2-all-articles" href="/articles">
                 <span>Browse all {articles.length} in-depth articles</span>
                 <Arrow />
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -176,7 +184,7 @@ export default function Home() {
               <p className="home-v2-cambridge-tag">O Level Biology · 5090</p>
               <h2>Knowledge is only half the paper.</h2>
               <p>Students also need evidence, interpretation and precise scientific language. This track brings all four together.</p>
-              <a href="/articles#cambridge-o-level">Open the Cambridge collection <Arrow /></a>
+              <Link href="/cambridge-o-level">Open the Cambridge 5090 route <Arrow /></Link>
             </div>
             <div className="home-v2-cambridge-map">
               <div><span>01</span><strong>Know</strong><p>Definitions, processes and connected systems.</p></div>
@@ -196,7 +204,7 @@ export default function Home() {
           <div className="home-v2-video-grid">
             <a className="home-v2-video-main" href={videos[0].href} target="_blank" rel="noreferrer">
               <div className="home-v2-video-image">
-                <img src={videos[0].image} alt={`Thumbnail for ${videos[0].title}`} width="480" height="360" />
+                <Image src={videos[0].image} alt={`Thumbnail for ${videos[0].title}`} width={1280} height={720} sizes="(max-width: 1120px) 100vw, 56vw" />
                 <span><PlayIcon /></span>
               </div>
               <div className="home-v2-video-main-copy">
@@ -208,7 +216,7 @@ export default function Home() {
             <div className="home-v2-video-stack">
               {videos.slice(1).map((video, index) => (
                 <a href={video.href} target="_blank" rel="noreferrer" key={video.href}>
-                  <img src={video.image} alt={`Thumbnail for ${video.title}`} width="480" height="360" />
+                  <Image src={video.image} alt={`Thumbnail for ${video.title}`} width={1280} height={720} sizes="(max-width: 680px) 100vw, (max-width: 1120px) 50vw, 18vw" />
                   <div>
                     <p>0{index + 2} · {video.label}</p>
                     <h3>{video.title}</h3>
@@ -233,7 +241,7 @@ export default function Home() {
               <div><dt>MS Biotechnology</dt><dd>UMT · 2022</dd></div>
               <div><dt>BS Zoology</dt><dd>University of the Punjab · 2018</dd></div>
             </dl>
-            <a href="/about">Read Hamza&apos;s story <Arrow /></a>
+            <Link href="/about">Read Hamza&apos;s story <Arrow /></Link>
           </div>
         </section>
 
