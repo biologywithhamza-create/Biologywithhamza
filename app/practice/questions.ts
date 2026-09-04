@@ -1,3 +1,5 @@
+import { generateConceptQuestions } from "./concept-bank";
+
 export type QuestionDifficulty = "Foundation" | "Standard" | "Challenge";
 
 export type QuizQuestion = {
@@ -10,7 +12,7 @@ export type QuizQuestion = {
   explanation: string;
 };
 
-export const quizQuestions: QuizQuestion[] = [
+const authoredQuestions: QuizQuestion[] = [
   {
     id: "virus-envelope-entry",
     chapter: "Acellular Life",
@@ -588,5 +590,26 @@ export const quizQuestions: QuizQuestion[] = [
     explanation: "The B cell provides the desired antibody specificity, while the myeloma partner contributes the ability to divide repeatedly in culture.",
   },
 ];
+
+function balanceAnswerPositions(questions: QuizQuestion[]) {
+  const chapterIndexes = new Map<string, number>();
+
+  return questions.map((question) => {
+    const chapterIndex = chapterIndexes.get(question.chapter) ?? 0;
+    const targetAnswer = chapterIndex % 4;
+    chapterIndexes.set(question.chapter, chapterIndex + 1);
+
+    if (question.answer === targetAnswer) return question;
+
+    const options = [...question.options] as QuizQuestion["options"];
+    [options[question.answer], options[targetAnswer]] = [options[targetAnswer], options[question.answer]];
+    return { ...question, options, answer: targetAnswer };
+  });
+}
+
+export const quizQuestions: QuizQuestion[] = balanceAnswerPositions([
+  ...authoredQuestions,
+  ...generateConceptQuestions(),
+]);
 
 export const quizChapters = Array.from(new Set(quizQuestions.map((question) => question.chapter)));

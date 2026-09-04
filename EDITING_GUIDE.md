@@ -15,7 +15,8 @@ To conserve Netlify credits, collect several edits and commit them together.
 | Biography, qualifications, experience, and awards | `app/about/page.tsx` |
 | Cambridge 5090 syllabus map, papers, and skill route | `app/cambridge-o-level/page.tsx` |
 | Cambridge topic summaries, skills, mistakes, and prompts | `app/cambridge-o-level/topics.ts` |
-| MDCAT quiz questions, answers, and explanations | `app/practice/questions.ts` |
+| Original MDCAT quiz questions and bank assembly | `app/practice/questions.ts` |
+| Expanded chapter concepts and generated question directions | `app/practice/concept-bank.ts` |
 | Student resource names, groups, and descriptions | `app/resources/resources.ts` |
 | Website title and search description | `app/layout.tsx` |
 | Colours and layout | `app/globals.css` |
@@ -58,13 +59,20 @@ comma, and property name unchanged.
 
 The image path starts with `/` even though the file is stored in `public`.
 
-## Add a practice question
+## Edit the practice bank
 
-Open `app/practice/questions.ts` and copy one complete question object. Give it
-a unique `id`, use one of the existing chapter names, and keep exactly four
-options. `answer` uses zero-based positions: `0` means A, `1` means B, `2`
-means C, and `3` means D. Write an explanation that teaches why the correct
-option follows from the biology.
+The bank contains four individually written questions per chapter in
+`app/practice/questions.ts` and 24 concept records per chapter in
+`app/practice/concept-bank.ts`. Every concept record produces four distinct
+question directions, giving 96 generated plus four authored questions—or 100
+MCQs—in each chapter.
+
+To keep that exact count, replace a question or concept instead of simply
+adding one. Give every replacement a unique `id`. For an authored question,
+keep exactly four options: `answer` uses zero-based positions, so `0` means A,
+`1` means B, `2` means C and `3` means D. For a concept record, make `cause`,
+`effect` and `mechanism` biologically precise because the generator uses all
+three to build the stem, distractors and explanation.
 
 ## Add a new article
 

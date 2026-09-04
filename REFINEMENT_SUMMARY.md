@@ -19,7 +19,8 @@ Netlify deployment.
   inside long-form explanations.
 - Expanded About page with teaching impact and career journey.
 - Correct canonical URLs, sitemap coverage and social metadata.
-- Static MDCAT Practice Centre with 64 conceptual MCQs across 16 chapters.
+- Static MDCAT Practice Centre with 1,600 conceptual MCQs across 16 chapters—exactly 100 in every chapter.
+- Balanced A–D answer positions, unique question IDs and explanations for every MCQ.
 - Chapter and difficulty filters, timed attempts, instant scoring, complete
   answer review and private on-device attempt history.
 - A Question of the Day that changes on Pakistan time.

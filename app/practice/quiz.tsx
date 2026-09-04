@@ -155,10 +155,10 @@ export function QuizExperience() {
           <fieldset>
             <legend>Number of questions</legend>
             <div className="quiz-count-options">
-              {[5, 10, 20, quizQuestions.length].map((count) => (
+              {[10, 25, 50, 100].map((count) => (
                 <label key={count}>
                   <input type="radio" name="question-count" value={count} checked={requestedCount === count} onChange={() => setRequestedCount(count)} />
-                  <span>{count === quizQuestions.length ? "All" : count}</span>
+                  <span>{count}</span>
                 </label>
               ))}
             </div>
