@@ -14,6 +14,9 @@ To conserve Netlify credits, collect several edits and commit them together.
 | Homepage headline, statistics, and section wording | `app/page.tsx` |
 | Biography, qualifications, experience, and awards | `app/about/page.tsx` |
 | Cambridge 5090 syllabus map, papers, and skill route | `app/cambridge-o-level/page.tsx` |
+| Cambridge topic summaries, skills, mistakes, and prompts | `app/cambridge-o-level/topics.ts` |
+| MDCAT quiz questions, answers, and explanations | `app/practice/questions.ts` |
+| Student resource names, groups, and descriptions | `app/resources/resources.ts` |
 | Website title and search description | `app/layout.tsx` |
 | Colours and layout | `app/globals.css` |
 | Optimized profile picture used by the site | Replace `public/hamza-ramzan.webp` |
@@ -46,12 +49,22 @@ comma, and property name unchanged.
 {
   title: "Homeostasis — Complete Revision",
   label: "MDCAT · Revision",
+  chapter: "Homeostasis",
+  format: "Revision class",
   href: "https://www.youtube.com/watch?v=VIDEO_ID",
   image: "/video-homeostasis.jpg",
 },
 ```
 
 The image path starts with `/` even though the file is stored in `public`.
+
+## Add a practice question
+
+Open `app/practice/questions.ts` and copy one complete question object. Give it
+a unique `id`, use one of the existing chapter names, and keep exactly four
+options. `answer` uses zero-based positions: `0` means A, `1` means B, `2`
+means C, and `3` means D. Write an explanation that teaches why the correct
+option follows from the biology.
 
 ## Add a new article
 

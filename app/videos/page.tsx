@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import { Arrow, Footer, Header, PageIntro, PlayIcon } from "../components";
+import { Arrow, Footer, Header, PageIntro } from "../components";
 import { links, videos } from "../content";
+import { LessonExplorer } from "./lesson-explorer";
 
 export const metadata: Metadata = {
   title: "Biology Video Lessons",
-  description: "Watch free Biology lessons and MDCAT revision sessions with Hamza Ramzan.",
+  description: "Search free Biology lessons, MDCAT revision sessions and a 16-chapter playlist roadmap with Hamza Ramzan.",
   alternates: { canonical: "/videos" },
   openGraph: {
     title: "Biology Video Lessons | Biology with Hamza",
@@ -15,8 +15,26 @@ export const metadata: Metadata = {
 };
 
 export default function VideosPage() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Biology video lessons by Hamza Ramzan",
+    itemListElement: videos.map((video, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "VideoObject",
+        name: video.title,
+        description: `${video.format} for ${video.chapter}.`,
+        thumbnailUrl: `https://hamzaramzan.online${video.image}`,
+        contentUrl: video.href,
+      },
+    })),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Header />
       <main>
         <PageIntro
@@ -30,22 +48,8 @@ export default function VideosPage() {
           </div>
         </PageIntro>
 
-        <section className="inner-content" id="mdcat">
-          <div className="video-library">
-            {videos.map((video) => (
-              <a className="library-card" href={video.href} target="_blank" rel="noreferrer" key={video.href}>
-                <div className="library-card-image">
-                  <Image src={video.image} alt="" width={1280} height={720} sizes="(max-width: 680px) 100vw, (max-width: 1080px) 50vw, 33vw" />
-                  <span className="video-play"><PlayIcon /></span>
-                </div>
-                <div className="library-card-copy">
-                  <span>{video.label}</span>
-                  <h2>{video.title}</h2>
-                  <p>Watch the complete lesson on YouTube.</p>
-                </div>
-              </a>
-            ))}
-          </div>
+        <section className="inner-content video-page-content" id="mdcat">
+          <LessonExplorer />
           <div className="coming-note">
             <span>Complete preparation</span>
             <h2>Need structure beyond individual lessons?</h2>

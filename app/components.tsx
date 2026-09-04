@@ -63,10 +63,11 @@ export function Header() {
         </Link>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
-          <Link href="/videos">MDCAT</Link>
+          <Link href="/practice">Practice</Link>
+          <Link href="/videos">Lessons</Link>
           <Link href="/cambridge-o-level">Cambridge O Level</Link>
           <Link href="/articles">Articles</Link>
-          <Link href="/#resources">Resources</Link>
+          <Link href="/resources">Resources</Link>
           <Link href="/about">About</Link>
         </nav>
 
@@ -77,10 +78,11 @@ export function Header() {
         <details className="mobile-menu">
           <summary aria-label="Open menu"><span /><span /></summary>
           <nav aria-label="Mobile navigation">
-            <Link href="/videos">MDCAT &amp; Videos</Link>
+            <Link href="/practice">MDCAT Practice Centre</Link>
+            <Link href="/videos">Video lessons</Link>
             <Link href="/cambridge-o-level">Cambridge O Level</Link>
             <Link href="/articles">Biology articles</Link>
-            <Link href="/#resources">Student resources</Link>
+            <Link href="/resources">Student resources</Link>
             <Link href="/about">About Hamza</Link>
             <a href={links.youtube} target="_blank" rel="noreferrer">Open YouTube channel</a>
           </nav>
@@ -104,6 +106,7 @@ export function Footer() {
         <div className="footer-links">
           <div>
             <p>Explore</p>
+            <Link href="/practice">MDCAT practice centre</Link>
             <Link href="/articles">Biology articles</Link>
             <Link href="/videos">Video lessons</Link>
             <Link href="/about">About Hamza</Link>
@@ -117,8 +120,8 @@ export function Footer() {
           <div>
             <p>Learn</p>
             <Link href="/cambridge-o-level">Cambridge O Level 5090</Link>
+            <Link href="/resources">Student resource library</Link>
             <a href={links.playlist} target="_blank" rel="noreferrer">Free MDCAT playlist</a>
-            <a href={links.studentDrive} target="_blank" rel="noreferrer">Student resource drive</a>
           </div>
         </div>
       </div>

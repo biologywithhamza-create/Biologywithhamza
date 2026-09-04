@@ -1,8 +1,9 @@
 # Biology with Hamza
 
 The official teaching website of Hamza Ramzan, with concept-driven Biology for
-MDCAT and Cambridge O Level learners, a searchable article library, video
-lessons, a dedicated Cambridge 5090 route, and student resources.
+MDCAT and Cambridge O Level learners, a 64-question practice centre, searchable
+article and lesson libraries, nineteen Cambridge 5090 topic routes, and an
+organized student-resource directory.
 
 ## Netlify deployment
 
@@ -25,6 +26,9 @@ Start with [EDITING_GUIDE.md](EDITING_GUIDE.md). The main editing files are:
 - `app/page.tsx` — homepage wording and sections;
 - `app/about/page.tsx` — biography and teaching profile;
 - `app/cambridge-o-level/page.tsx` — Cambridge 5090 syllabus and skills route;
+- `app/cambridge-o-level/topics.ts` — all nineteen Cambridge topic routes;
+- `app/practice/questions.ts` — MDCAT questions, answers and explanations;
+- `app/resources/resources.ts` — searchable student-resource directory;
 - `app/globals.css` — colours, typography, and layout;
 - `public` — profile photo, thumbnails, and browser icon.
 

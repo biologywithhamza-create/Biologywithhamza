@@ -1,4 +1,4 @@
-# Biology with Hamza — refinement release
+# Biology with Hamza — student platform release
 
 This package is based on the current live GitHub source and is ready for one
 Netlify deployment.
@@ -19,6 +19,16 @@ Netlify deployment.
   inside long-form explanations.
 - Expanded About page with teaching impact and career journey.
 - Correct canonical URLs, sitemap coverage and social metadata.
+- Static MDCAT Practice Centre with 64 conceptual MCQs across 16 chapters.
+- Chapter and difficulty filters, timed attempts, instant scoring, complete
+  answer review and private on-device attempt history.
+- A Question of the Day that changes on Pakistan time.
+- Searchable lesson library with direct-lesson and chapter-roadmap views.
+- Searchable resource directory covering nineteen verified Drive categories.
+- Nineteen searchable Cambridge O Level 5090 topic pages with learning anchors,
+  exam skills, common mistakes and structured practice prompts.
+- Structured data for the practice, video and resource pages.
+- Sitemap coverage for every Cambridge topic, practice and resource route.
 
 ## Publish in one deployment
 

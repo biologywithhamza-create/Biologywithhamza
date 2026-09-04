@@ -58,8 +58,8 @@ export default function Home() {
                 Clear, concept-first teaching that turns difficult chapters into connected ideas—and connected ideas into confident exam answers.
               </p>
               <div className="home-v2-actions">
-                <Link className="home-v2-primary" href="/articles">Explore the library <Arrow /></Link>
-                <Link className="home-v2-secondary" href="/videos"><PlayIcon /> Watch a lesson</Link>
+                <Link className="home-v2-primary" href="/practice">Start MDCAT practice <Arrow /></Link>
+                <Link className="home-v2-secondary" href="/articles">Explore Biology guides</Link>
               </div>
               <div className="home-v2-signoff">
                 <span>Teaching with</span>
@@ -106,15 +106,15 @@ export default function Home() {
             <p>Start with the outcome you need. Every route is built around understanding first and exam performance second.</p>
           </div>
           <div className="home-v2-path-grid">
-            <Link href="/videos" className="home-v2-path home-v2-path-mdcat">
+            <Link href="/practice" className="home-v2-path home-v2-path-mdcat">
               <span className="home-v2-path-number">01</span>
               <div>
                 <p>MDCAT Biology</p>
                 <h3>Build fast, accurate biological judgment.</h3>
                 <ul>
-                  <li>Concept-driven video lessons</li>
-                  <li>MCQ reasoning and distractor analysis</li>
-                  <li>High-yield revision routes</li>
+                  <li>Timed chapter practice</li>
+                  <li>Instant scoring and answer explanations</li>
+                  <li>Question of the Day and attempt history</li>
                 </ul>
               </div>
               <Arrow />
@@ -252,10 +252,11 @@ export default function Home() {
             <p>Direct access to the places students use most.</p>
           </div>
           <div className="home-v2-resource-list">
-            <a href={links.playlist} target="_blank" rel="noreferrer"><span>01</span><div><strong>YouTube lesson library</strong><p>Complete MDCAT lessons and revision sessions.</p></div><Arrow /></a>
-            <a href={links.studentDrive} target="_blank" rel="noreferrer"><span>02</span><div><strong>Student Resource Drive</strong><p>Lecture notes, diagrams and revision material.</p></div><Arrow /></a>
+            <Link href="/practice"><span>01</span><div><strong>MDCAT Practice Centre</strong><p>Timed MCQs with scoring and complete answer logic.</p></div><Arrow /></Link>
+            <Link href="/resources"><span>02</span><div><strong>Student Resource Library</strong><p>Find the right notes before opening the shared Drive.</p></div><Arrow /></Link>
             <a href={links.whatsapp} target="_blank" rel="noreferrer"><span>03</span><div><strong>WhatsApp student channel</strong><p>Class updates, prompts and announcements.</p></div><Arrow /></a>
-            <a href={links.nearpeerCourse} target="_blank" rel="noreferrer"><span>04</span><div><strong>Structured MDCAT course</strong><p>Conceptual teaching with exam-oriented practice.</p></div><Arrow /></a>
+            <Link href="/videos"><span>04</span><div><strong>Searchable Lesson Library</strong><p>Featured videos and a complete chapter roadmap.</p></div><Arrow /></Link>
+            <a href={links.nearpeerCourse} target="_blank" rel="noreferrer"><span>05</span><div><strong>Structured MDCAT course</strong><p>Conceptual teaching with exam-oriented practice.</p></div><Arrow /></a>
           </div>
         </section>
 
@@ -265,6 +266,7 @@ export default function Home() {
             <h2>Your next clear explanation is one click away.</h2>
           </div>
           <div className="home-v2-closing-links">
+            <Link href="/practice">Practice <Arrow /></Link>
             <a href={links.youtube} target="_blank" rel="noreferrer">YouTube <Arrow /></a>
             <a href={links.whatsapp} target="_blank" rel="noreferrer">WhatsApp <Arrow /></a>
             <a href={links.instagram} target="_blank" rel="noreferrer">Instagram <Arrow /></a>

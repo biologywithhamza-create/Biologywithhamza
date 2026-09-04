@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Arrow, ArticleCard, Footer, Header, PageIntro } from "../components";
 import { articles, links } from "../content";
+import { CambridgeTopicExplorer } from "./topic-explorer";
 
 export const metadata: Metadata = {
   title: "Cambridge O Level Biology 5090",
@@ -103,6 +104,10 @@ export default function CambridgeOLevelPage() {
             <article><span>04</span><div><h3>Structured answers</h3><p>Build visible biological chains: change → mechanism → consequence. Each mark-worthy link should be stated, not implied.</p></div></article>
           </div>
         </section>
+
+        <div className="cambridge-topic-directory">
+          <CambridgeTopicExplorer />
+        </div>
 
         <section className="cambridge-articles">
           <div className="cambridge-articles-head">

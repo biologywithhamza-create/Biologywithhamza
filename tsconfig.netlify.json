@@ -9,6 +9,7 @@
     "tests",
     "worker",
     "dist",
-    "vite.config.ts"
+    "vite.config.ts",
+    "drizzle.config.ts"
   ]
 }
