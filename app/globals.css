@@ -2151,3 +2151,442 @@ summary:focus-visible {
   .article-objectives li,
   .article-recap li { color: #222; }
 }
+
+/* --------------------------------------------------------------------------
+   INTERACTION PASS — clear click targets, responsive motion and keyboard parity
+   -------------------------------------------------------------------------- */
+
+:root {
+  --motion-fast: 150ms;
+  --motion-base: 230ms;
+  --motion-slow: 360ms;
+  --motion-ease: cubic-bezier(.2, .75, .25, 1);
+  --lift-shadow: 0 22px 48px rgba(6, 27, 36, .14);
+}
+
+.bulletin {
+  position: relative;
+  cursor: pointer;
+  transition: color var(--motion-fast) ease, background var(--motion-fast) ease;
+}
+.bulletin > span,
+.bulletin strong,
+.bulletin svg { transition: transform var(--motion-base) var(--motion-ease), background var(--motion-fast) ease; }
+.bulletin strong { display: inline-flex; align-items: center; gap: 6px; }
+
+.brand .biology-mark,
+.footer-brand .biology-mark {
+  transform-origin: center;
+  transition: transform var(--motion-base) var(--motion-ease);
+}
+.brand-copy strong,
+.desktop-nav a,
+.footer-links a { transition: color var(--motion-fast) ease; }
+.header-action,
+.home-v2-actions a,
+.home-v2-cambridge-intro > a,
+.home-v2-watch-head > a,
+.home-v2-profile-copy > a,
+.cambridge-feature-link,
+.resource-result-row a,
+.lesson-result-row a {
+  min-height: 36px;
+  align-items: center;
+  transition:
+    color var(--motion-fast) ease,
+    background var(--motion-fast) ease,
+    border-color var(--motion-fast) ease,
+    box-shadow var(--motion-base) var(--motion-ease),
+    transform var(--motion-base) var(--motion-ease);
+}
+.header-action svg,
+.home-v2-actions svg,
+.home-v2-cambridge-intro > a svg,
+.home-v2-watch-head > a svg,
+.home-v2-profile-copy > a svg,
+.cambridge-feature-link svg,
+.resource-result-row a svg,
+.lesson-result-row a svg,
+.home-v2-closing-links svg,
+.home-v2-resource-list svg,
+.home-v2-article-queue > a > svg,
+.article-card-cta svg,
+.resource-library-grid em svg,
+.lesson-roadmap-list svg,
+.cambridge-topic-grid svg,
+.cambridge-next-topic svg {
+  transition: transform var(--motion-base) var(--motion-ease);
+}
+
+.home-v2-actions a,
+.header-action { position: relative; overflow: hidden; }
+.home-v2-actions .home-v2-primary { box-shadow: 0 0 0 rgba(39, 211, 197, 0); }
+
+.home-v2-path {
+  transition: transform var(--motion-base) var(--motion-ease), box-shadow var(--motion-base) var(--motion-ease), filter var(--motion-base) ease;
+}
+.home-v2-path > svg { transition: transform var(--motion-base) var(--motion-ease); }
+
+.home-v2-feature-article,
+.home-v2-article-queue > a,
+.home-v2-video-main,
+.home-v2-video-stack > a,
+.home-v2-resource-list > a,
+.home-v2-closing-links a {
+  position: relative;
+  transition:
+    color var(--motion-fast) ease,
+    background var(--motion-fast) ease,
+    box-shadow var(--motion-base) var(--motion-ease),
+    transform var(--motion-base) var(--motion-ease);
+}
+.home-v2-feature-visual,
+.home-v2-feature-visual span { transition: background-position var(--motion-slow) var(--motion-ease), transform var(--motion-slow) var(--motion-ease); }
+.home-v2-video-image img,
+.home-v2-video-stack img,
+.library-card-image img { transition: transform var(--motion-slow) var(--motion-ease), filter var(--motion-slow) ease; }
+.home-v2-video-image > span,
+.video-play { transition: color var(--motion-fast) ease, background var(--motion-fast) ease, transform var(--motion-base) var(--motion-ease); }
+
+/* Every article card is one semantic link and one generous click target. */
+.article-card {
+  cursor: pointer;
+  isolation: isolate;
+  transition:
+    border-color var(--motion-fast) ease,
+    box-shadow var(--motion-base) var(--motion-ease),
+    filter var(--motion-base) ease,
+    transform var(--motion-base) var(--motion-ease);
+}
+.article-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border: 2px solid transparent;
+  pointer-events: none;
+  transition: border-color var(--motion-fast) ease;
+}
+.article-card-number,
+.article-card h3 { transition: transform var(--motion-base) var(--motion-ease); }
+.article-card-cta {
+  width: fit-content;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 27px;
+  padding: 0 13px;
+  border: 1px solid currentColor;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  transition: gap var(--motion-base) var(--motion-ease);
+}
+.article-card-cta svg { width: 16px; height: 16px; }
+.article-card:focus-visible,
+.home-v2-path:focus-visible,
+.home-v2-feature-article:focus-visible,
+.home-v2-article-queue > a:focus-visible,
+.home-v2-video-main:focus-visible,
+.home-v2-video-stack > a:focus-visible,
+.resource-library-grid > a:focus-visible,
+.library-card:focus-visible,
+.lesson-roadmap-list a:focus-visible,
+.cambridge-topic-grid > a:focus-visible,
+.cambridge-next-topic:focus-visible {
+  z-index: 5;
+  outline: 3px solid var(--ember);
+  outline-offset: 4px;
+  box-shadow: var(--lift-shadow);
+}
+
+.article-filter button,
+.resource-filter button,
+.lesson-filters button,
+.cambridge-topic-filter button,
+.article-actions button,
+.quiz-primary,
+.quiz-controls > button,
+.daily-question-options button,
+.quiz-question label {
+  transition:
+    color var(--motion-fast) ease,
+    background var(--motion-fast) ease,
+    border-color var(--motion-fast) ease,
+    box-shadow var(--motion-base) var(--motion-ease),
+    transform var(--motion-fast) var(--motion-ease);
+}
+.article-search input,
+.article-select-filters select,
+.resource-toolbar input,
+.lesson-toolbar input,
+.lesson-filters select,
+.cambridge-topic-toolbar input,
+.quiz-builder select {
+  transition: border-color var(--motion-fast) ease, background var(--motion-fast) ease, box-shadow var(--motion-fast) ease;
+}
+.article-search input:focus-visible,
+.article-select-filters select:focus-visible,
+.resource-toolbar input:focus-visible,
+.lesson-toolbar input:focus-visible,
+.lesson-filters select:focus-visible,
+.cambridge-topic-toolbar input:focus-visible,
+.quiz-builder select:focus-visible {
+  background: var(--v2-white);
+  box-shadow: 0 0 0 4px rgba(255, 104, 53, .12);
+}
+
+.resource-library-grid > a,
+.library-card,
+.lesson-roadmap-list a,
+.cambridge-topic-grid > a,
+.cambridge-next-topic {
+  transition:
+    background var(--motion-fast) ease,
+    border-color var(--motion-fast) ease,
+    box-shadow var(--motion-base) var(--motion-ease),
+    transform var(--motion-base) var(--motion-ease);
+}
+.home-v2-closing-links a,
+.lesson-roadmap-list a {
+  transition:
+    color var(--motion-fast) ease,
+    background var(--motion-fast) ease,
+    box-shadow var(--motion-base) var(--motion-ease),
+    padding var(--motion-base) var(--motion-ease),
+    transform var(--motion-base) var(--motion-ease);
+}
+
+.article-toc a,
+.article-evidence-sources a,
+.article-checks summary {
+  transition: color var(--motion-fast) ease, background var(--motion-fast) ease, padding var(--motion-base) var(--motion-ease);
+}
+.article-checks details[open] summary { color: var(--deep-green); }
+.article-checks details[open] summary i { color: var(--v2-orange); }
+.article-checks summary { grid-template-columns: 38px 1fr auto; align-items: center; }
+.article-checks summary::after {
+  content: "+";
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 800;
+  transition: color var(--motion-fast) ease, background var(--motion-fast) ease, transform var(--motion-base) var(--motion-ease);
+}
+.article-checks details[open] summary::after {
+  content: "−";
+  color: var(--white);
+  border-color: var(--deep-green);
+  background: var(--deep-green);
+  transform: rotate(180deg);
+}
+
+.mobile-menu summary span { transition: opacity var(--motion-fast) ease, transform var(--motion-base) var(--motion-ease); }
+.mobile-menu[open] summary span:first-child { transform: translateY(4px) rotate(45deg); }
+.mobile-menu[open] summary span:last-child { transform: translateY(-4px) rotate(-45deg); }
+.mobile-menu[open] nav { animation: menu-reveal var(--motion-base) var(--motion-ease) both; transform-origin: top right; }
+@keyframes menu-reveal {
+  from { opacity: 0; transform: translateY(-7px) scale(.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.reading-progress {
+  width: 100%;
+  height: 4px;
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 100;
+  overflow: hidden;
+  pointer-events: none;
+  background: rgba(6, 27, 36, .12);
+}
+.reading-progress span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scaleX(0);
+  transform-origin: left center;
+  background: linear-gradient(90deg, var(--v2-cyan), var(--v2-orange));
+  transition: transform 80ms linear;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .bulletin:hover { color: #001b1c; background: #4be2d6; }
+  .bulletin:hover > span { background: #0c3038; transform: translateY(-1px) rotate(-1deg); }
+  .bulletin:hover svg { transform: translate(3px, -3px); }
+
+  .brand:hover .biology-mark,
+  .footer-brand:hover .biology-mark { transform: rotate(-5deg) scale(1.055); }
+  .brand:hover .brand-copy strong { color: #0f817a; }
+  .desktop-nav a:hover { color: var(--v2-midnight); }
+  .header-action:hover {
+    color: var(--v2-midnight);
+    background: var(--v2-cyan);
+    box-shadow: 0 10px 24px rgba(6, 27, 36, .2);
+    transform: translateY(-2px);
+  }
+  .header-action:hover svg { transform: translate(3px, -3px); }
+
+  .home-v2-actions a:hover { transform: translateY(-3px); }
+  .home-v2-actions .home-v2-primary:hover { box-shadow: 0 13px 30px rgba(39, 211, 197, .25); }
+  .home-v2-actions .home-v2-secondary:hover { border-color: var(--v2-cyan); background: rgba(39, 211, 197, .1); }
+  .home-v2-actions a:hover svg { transform: translate(3px, -3px); }
+
+  .home-v2-path:hover { z-index: 2; box-shadow: var(--lift-shadow); transform: translateY(-8px); }
+  .home-v2-path:hover > svg { transform: translate(5px, -5px); }
+  .home-v2-path-mdcat:hover { filter: saturate(1.08); }
+
+  .home-v2-feature-article:hover { z-index: 2; box-shadow: 0 28px 55px rgba(0,0,0,.25); transform: translateY(-6px); }
+  .home-v2-feature-article:hover .home-v2-feature-visual { background-position: 7px 7px; }
+  .home-v2-feature-article:hover .home-v2-feature-visual span { transform: scale(1.035); }
+  .home-v2-feature-article:hover .home-v2-read-link svg { transform: translate(4px, -4px); }
+  .home-v2-article-queue > a:hover { z-index: 2; background: var(--v2-cyan-soft); transform: translateX(5px); }
+  .home-v2-article-queue > a:hover > svg { transform: translate(4px, -4px); }
+  .home-v2-article-queue .home-v2-all-articles:hover { background: #edffae; }
+
+  .home-v2-cambridge-intro > a:hover,
+  .home-v2-watch-head > a:hover,
+  .home-v2-profile-copy > a:hover,
+  .cambridge-feature-link:hover,
+  .resource-result-row a:hover,
+  .lesson-result-row a:hover { color: #0f817a; transform: translateY(-2px); }
+  .home-v2-cambridge-intro > a:hover svg,
+  .home-v2-watch-head > a:hover svg,
+  .home-v2-profile-copy > a:hover svg,
+  .cambridge-feature-link:hover svg,
+  .resource-result-row a:hover svg,
+  .lesson-result-row a:hover svg { transform: translate(4px, -4px); }
+
+  .home-v2-video-main:hover,
+  .home-v2-video-stack > a:hover { z-index: 2; box-shadow: var(--lift-shadow); transform: translateY(-5px); }
+  .home-v2-video-main:hover .home-v2-video-image img,
+  .home-v2-video-stack > a:hover img,
+  .library-card:hover .library-card-image img { filter: saturate(1.05); transform: scale(1.035); }
+  .home-v2-video-main:hover .home-v2-video-image > span,
+  .library-card:hover .video-play { background: var(--v2-yellow); transform: scale(1.08); }
+  .home-v2-video-main:hover .home-v2-video-main-copy svg,
+  .home-v2-video-stack > a:hover div > span svg { transform: translate(4px, -4px); }
+
+  .home-v2-resource-list > a:hover { z-index: 2; background: var(--v2-cyan-soft); transform: translateX(6px); }
+  .home-v2-resource-list > a:hover svg,
+  .home-v2-closing-links a:hover svg { transform: translate(4px, -4px); }
+  .home-v2-closing-links a:hover { padding-left: 12px; padding-right: 10px; background: rgba(255,255,255,.32); }
+
+  .article-card:hover {
+    z-index: 4;
+    box-shadow: var(--lift-shadow);
+    filter: saturate(1.03);
+    transform: translateY(-6px);
+  }
+  .article-card:hover::after { border-color: rgba(16, 38, 46, .28); }
+  .article-ember:hover::after { border-color: rgba(255,255,255,.42); }
+  .article-card:hover .article-card-number { transform: translateY(-4px) scale(1.025); }
+  .article-card:hover h3 { transform: translateX(3px); }
+  .article-card:hover .article-card-cta { gap: 12px; background: rgba(255,255,255,.18); }
+  .article-card:hover .article-card-cta svg { transform: translate(3px, -3px); }
+
+  .article-filter button:hover,
+  .resource-filter button:hover,
+  .lesson-filters button:hover,
+  .cambridge-topic-filter button:hover,
+  .article-actions button:hover,
+  .quiz-primary:hover,
+  .quiz-controls > button:hover:not(:disabled) {
+    box-shadow: 0 8px 18px rgba(6, 27, 36, .12);
+    transform: translateY(-2px);
+  }
+  .article-filter button.is-active:hover,
+  .resource-filter button.is-active:hover,
+  .lesson-filters button.is-active:hover,
+  .cambridge-topic-filter button.is-active:hover { box-shadow: 0 8px 20px rgba(23, 62, 43, .22); }
+
+  .resource-library-grid > a:hover,
+  .library-card:hover,
+  .cambridge-topic-grid > a:hover,
+  .cambridge-next-topic:hover {
+    z-index: 3;
+    box-shadow: var(--lift-shadow);
+    transform: translateY(-5px);
+  }
+  .resource-library-grid > a:hover em svg,
+  .cambridge-topic-grid > a:hover svg,
+  .cambridge-next-topic:hover svg { transform: translate(4px, -4px); }
+  .lesson-roadmap-list a:hover { padding-left: 10px; background: rgba(203,215,191,.28); }
+  .lesson-roadmap-list a:hover svg { transform: translate(4px, -4px); }
+  .article-toc a:hover { padding-left: 5px; }
+  .article-evidence-sources a:hover svg { transform: translate(3px, -3px); }
+  .article-checks summary:hover { padding-left: 8px; background: rgba(203,215,191,.2); }
+  .mobile-menu nav a:hover { color: var(--white); background: rgba(255,255,255,.08); }
+}
+
+@media (hover: none) {
+  .home-v2-path:hover,
+  .home-v2-feature-article:hover,
+  .home-v2-article-queue > a:hover,
+  .home-v2-video-main:hover,
+  .home-v2-video-stack > a:hover,
+  .home-v2-resource-list > a:hover,
+  .article-card:hover,
+  .resource-library-grid > a:hover,
+  .library-card:hover,
+  .lesson-roadmap-list a:hover,
+  .cambridge-topic-grid > a:hover,
+  .cambridge-next-topic:hover {
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+.header-action:active,
+.home-v2-actions a:active,
+.home-v2-path:active,
+.home-v2-feature-article:active,
+.home-v2-article-queue > a:active,
+.home-v2-video-main:active,
+.home-v2-video-stack > a:active,
+.article-card:active,
+.resource-library-grid > a:active,
+.library-card:active,
+.lesson-roadmap-list a:active,
+.cambridge-topic-grid > a:active,
+.cambridge-next-topic:active,
+.article-filter button:active,
+.resource-filter button:active,
+.lesson-filters button:active,
+.cambridge-topic-filter button:active,
+.article-actions button:active,
+.quiz-primary:active,
+.quiz-controls > button:active { transform: scale(.985); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+  .reading-progress span { transition: none; }
+  .home-v2-path:hover,
+  .home-v2-feature-article:hover,
+  .home-v2-article-queue > a:hover,
+  .home-v2-video-main:hover,
+  .home-v2-video-stack > a:hover,
+  .home-v2-resource-list > a:hover,
+  .article-card:hover,
+  .resource-library-grid > a:hover,
+  .library-card:hover,
+  .lesson-roadmap-list a:hover,
+  .cambridge-topic-grid > a:hover,
+  .cambridge-next-topic:hover { transform: none !important; }
+}
+
+@media print {
+  .reading-progress { display: none !important; }
+}

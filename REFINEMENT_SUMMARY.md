@@ -5,6 +5,12 @@ Netlify deployment.
 
 ## Included refinements
 
+- Full-card article links across the article library and related-article sections.
+- Consistent hover, focus and press feedback for primary buttons, route cards,
+  lesson cards, resources, Cambridge topics and navigation links.
+- Animated arrows, image zoom, card lift, filter-pill feedback and mobile-menu
+  transitions, with reduced-motion and touch safeguards.
+- A live reading-progress bar on every long-form article.
 - Correct 16:9 presentation for the featured Acellular Life lesson.
 - New 1200 × 630 social-sharing card with a solid branded background.
 - Optimized WebP profile portrait used throughout the site.

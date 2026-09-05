@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArticleActions } from "../../article-actions";
+import { ArticleActions, ReadingProgress } from "../../article-actions";
 import { Arrow, ArticleCard, ConceptDiagram, Footer, Header } from "../../components";
 import { articles, links } from "../../content";
 import {
@@ -81,6 +81,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <ReadingProgress />
       <Header />
       <main className="article-shell">
         <Link className="article-breadcrumb" href="/articles"><Arrow /> All Biology articles</Link>

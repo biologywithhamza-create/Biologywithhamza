@@ -47,12 +47,12 @@ export function BiologyMark({
 export function Header() {
   return (
     <>
-      <div className="bulletin">
+      <a className="bulletin" href={links.youtube} target="_blank" rel="noreferrer">
         <span>Watch</span>
-        <a href={links.youtube} target="_blank" rel="noreferrer">
+        <strong>
           New Biology lessons on YouTube <Arrow />
-        </a>
-      </div>
+        </strong>
+      </a>
       <header className="site-header">
         <Link className="brand" href="/" aria-label="Biology with Hamza home">
           <BiologyMark />
@@ -137,7 +137,11 @@ export function ArticleCard({ index, article }: { index?: number; article?: Arti
   const selected = article ?? articles[index ?? 0];
   const articleNumber = articles.findIndex((item) => item.slug === selected.slug) + 1;
   return (
-    <article className={`article-card article-${selected.accent}`}>
+    <Link
+      className={`article-card article-${selected.accent}`}
+      href={`/articles/${selected.slug}`}
+      aria-label={`Read: ${selected.title}`}
+    >
       <div className="article-card-top">
         <span>{selected.category}</span>
         <span>{getArticleReadTime(selected)}</span>
@@ -146,10 +150,10 @@ export function ArticleCard({ index, article }: { index?: number; article?: Arti
       <div className="article-card-topic">{getArticleTopicGroup(selected)} · {selected.topic}</div>
       <h3>{selected.title}</h3>
       <p>{selected.description}</p>
-      <Link href={`/articles/${selected.slug}`}>
+      <span className="article-card-cta">
         Read article <Arrow />
-      </Link>
-    </article>
+      </span>
+    </Link>
   );
 }
 

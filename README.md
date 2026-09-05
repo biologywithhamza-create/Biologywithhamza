@@ -4,7 +4,9 @@ The official teaching website of Hamza Ramzan, with concept-driven Biology for
 MDCAT and Cambridge O Level learners, a 1,600-question practice centre with
 100 MCQs in every chapter, searchable
 article and lesson libraries, nineteen Cambridge 5090 topic routes, and an
-organized student-resource directory.
+organized student-resource directory. Large content cards are fully clickable,
+with keyboard-visible focus, responsive microinteractions and reduced-motion
+support throughout the site.
 
 ## Netlify deployment
 
