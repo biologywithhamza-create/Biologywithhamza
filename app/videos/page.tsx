@@ -36,7 +36,7 @@ export default function VideosPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Header />
-      <main>
+      <main id="main-content">
         <PageIntro
           eyebrow="Watch & learn"
           title="The classroom, without the walls."

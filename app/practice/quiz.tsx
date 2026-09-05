@@ -1,9 +1,19 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { quizChapters, quizQuestions, type QuestionDifficulty, type QuizQuestion } from "./questions";
+import { createRandomizedAttempt } from "./quiz-randomization";
 
 type Screen = "setup" | "active" | "results";
+
+type StudentTrack = "MDCAT" | "Cambridge O Level" | "Both";
+
+type StudentProfile = {
+  id: string;
+  name: string;
+  track: StudentTrack;
+  createdAt: string;
+};
 
 type AttemptHistory = {
   id: string;
@@ -14,20 +24,27 @@ type AttemptHistory = {
   total: number;
 };
 
-const historyKey = "biology-with-hamza-practice-history";
+const legacyHistoryKey = "biology-with-hamza-practice-history";
+const profileKey = "biology-with-hamza-student-profile";
+const recentQuestionKey = "biology-with-hamza-recent-question-sets";
+
+function profileHistoryKey(studentId: string) {
+  return `${legacyHistoryKey}:${studentId}`;
+}
 
 function dailyQuestionIndex() {
   const pakistanOffset = 5 * 60 * 60 * 1000;
   return Math.floor((Date.now() + pakistanOffset) / 86_400_000) % quizQuestions.length;
 }
 
-function shuffle<T>(items: T[]) {
-  const next = [...items];
-  for (let index = next.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [next[index], next[swapIndex]] = [next[swapIndex], next[index]];
-  }
-  return next;
+function createStudentId() {
+  const random = new Uint32Array(2);
+  window.crypto.getRandomValues(random);
+  const suffix = Array.from(random, (value) => value.toString(36).toUpperCase())
+    .join("")
+    .slice(0, 8)
+    .padEnd(8, "0");
+  return `BWH-${suffix}`;
 }
 
 function formatTime(seconds: number) {
@@ -47,7 +64,14 @@ export function QuizExperience() {
   const [timeLeft, setTimeLeft] = useState(0);
   const [attemptId, setAttemptId] = useState("");
   const [history, setHistory] = useState<AttemptHistory[]>([]);
+  const [profile, setProfile] = useState<StudentProfile | null>(null);
+  const [profileLoaded, setProfileLoaded] = useState(false);
+  const [studentName, setStudentName] = useState("");
+  const [studentTrack, setStudentTrack] = useState<StudentTrack>("MDCAT");
+  const [profileError, setProfileError] = useState("");
+  const [draftAnswer, setDraftAnswer] = useState<number | null>(null);
   const savedAttempts = useRef(new Set<string>());
+  const answerLockInProgress = useRef(false);
 
   const available = useMemo(
     () => quizQuestions.filter((question) =>
@@ -63,17 +87,59 @@ export function QuizExperience() {
   }, [screen]);
 
   useEffect(() => {
+    answerLockInProgress.current = false;
+  }, [currentIndex, screen]);
+
+  useEffect(() => {
     if (screen === "active" && timeLeft === 0 && attempt.length > 0) setScreen("results");
   }, [attempt.length, screen, timeLeft]);
 
   useEffect(() => {
     try {
-      const stored = window.localStorage.getItem(historyKey);
-      if (stored) setHistory(JSON.parse(stored) as AttemptHistory[]);
+      const stored = window.localStorage.getItem(profileKey);
+      if (stored) setProfile(JSON.parse(stored) as StudentProfile);
     } catch {
-      window.localStorage.removeItem(historyKey);
+      window.localStorage.removeItem(profileKey);
+    } finally {
+      setProfileLoaded(true);
     }
   }, []);
+
+  useEffect(() => {
+    if (!profile) {
+      setHistory([]);
+      return;
+    }
+    const key = profileHistoryKey(profile.id);
+    try {
+      const stored = window.localStorage.getItem(key);
+      if (stored) {
+        setHistory(JSON.parse(stored) as AttemptHistory[]);
+        return;
+      }
+      const legacy = window.localStorage.getItem(legacyHistoryKey);
+      if (legacy) {
+        window.localStorage.setItem(key, legacy);
+        window.localStorage.removeItem(legacyHistoryKey);
+        setHistory(JSON.parse(legacy) as AttemptHistory[]);
+        return;
+      }
+      setHistory([]);
+    } catch {
+      window.localStorage.removeItem(key);
+      setHistory([]);
+    }
+  }, [profile]);
+
+  useEffect(() => {
+    if (screen !== "active") return;
+    const protectAttempt = (event: BeforeUnloadEvent) => {
+      event.preventDefault();
+      event.returnValue = true;
+    };
+    window.addEventListener("beforeunload", protectAttempt);
+    return () => window.removeEventListener("beforeunload", protectAttempt);
+  }, [screen]);
 
   const score = useMemo(
     () => attempt.reduce((total, question) => total + Number(answers[question.id] === question.answer), 0),
@@ -81,7 +147,7 @@ export function QuizExperience() {
   );
 
   useEffect(() => {
-    if (screen !== "results" || !attemptId || savedAttempts.current.has(attemptId)) return;
+    if (screen !== "results" || !attemptId || !profile || savedAttempts.current.has(attemptId)) return;
     savedAttempts.current.add(attemptId);
     const entry: AttemptHistory = {
       id: attemptId,
@@ -93,15 +159,56 @@ export function QuizExperience() {
     };
     setHistory((current) => {
       const next = [entry, ...current].slice(0, 6);
-      window.localStorage.setItem(historyKey, JSON.stringify(next));
+      window.localStorage.setItem(profileHistoryKey(profile.id), JSON.stringify(next));
       return next;
     });
-  }, [attempt.length, attemptId, chapter, difficulty, score, screen]);
+  }, [attempt.length, attemptId, chapter, difficulty, profile, score, screen]);
+
+  function createProfile(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const normalizedName = studentName.trim().replace(/\s+/g, " ");
+    if (normalizedName.length < 2) {
+      setProfileError("Enter at least two characters for your name or initials.");
+      return;
+    }
+    const nextProfile: StudentProfile = {
+      id: createStudentId(),
+      name: normalizedName.slice(0, 48),
+      track: studentTrack,
+      createdAt: new Date().toISOString(),
+    };
+    window.localStorage.setItem(profileKey, JSON.stringify(nextProfile));
+    setProfile(nextProfile);
+    setProfileError("");
+  }
+
+  function useDifferentProfile() {
+    window.localStorage.removeItem(profileKey);
+    setProfile(null);
+    setStudentName("");
+    setStudentTrack("MDCAT");
+    setProfileError("");
+  }
 
   function beginAttempt() {
-    const selected = shuffle(available).slice(0, Math.min(requestedCount, available.length));
+    if (!profile) return;
+    const selectionKey = `${profile.id}::${chapter}::${difficulty}`;
+    let recentSets: Record<string, string[]> = {};
+    try {
+      recentSets = JSON.parse(window.localStorage.getItem(recentQuestionKey) ?? "{}") as Record<string, string[]>;
+    } catch {
+      window.localStorage.removeItem(recentQuestionKey);
+    }
+    const selected = createRandomizedAttempt(available, requestedCount, recentSets[selectionKey] ?? []);
+    recentSets[selectionKey] = [
+      ...selected.map((question) => question.id),
+      ...(recentSets[selectionKey] ?? []),
+    ].filter((id, index, items) => items.indexOf(id) === index)
+      .slice(0, Math.min(available.length, Math.max(requestedCount * 3, 30)));
+    window.localStorage.setItem(recentQuestionKey, JSON.stringify(recentSets));
     setAttempt(selected);
     setAnswers({});
+    setDraftAnswer(null);
     setCurrentIndex(0);
     setTimeLeft(selected.length * 60);
     setAttemptId(`${Date.now()}-${selected.map((question) => question.id).join("-")}`);
@@ -114,12 +221,71 @@ export function QuizExperience() {
     setCurrentIndex(0);
     setTimeLeft(0);
     setAttemptId("");
+    setDraftAnswer(null);
     setScreen("setup");
   }
 
   function clearHistory() {
-    window.localStorage.removeItem(historyKey);
+    if (profile) window.localStorage.removeItem(profileHistoryKey(profile.id));
     setHistory([]);
+  }
+
+  function lockAnswerAndContinue() {
+    const question = attempt[currentIndex];
+    if (!question || draftAnswer === null || answerLockInProgress.current) return;
+    answerLockInProgress.current = true;
+    setAnswers((current) => ({ ...current, [question.id]: draftAnswer }));
+    setDraftAnswer(null);
+    if (currentIndex < attempt.length - 1) {
+      setCurrentIndex((index) => index + 1);
+      return;
+    }
+    setScreen("results");
+  }
+
+  if (!profileLoaded) {
+    return <section className="quiz-profile-loading" aria-busy="true">Loading your practice profile…</section>;
+  }
+
+  if (screen === "setup" && !profile) {
+    return (
+      <section className="quiz-profile-gate" aria-labelledby="student-profile-title">
+        <div className="quiz-profile-intro">
+          <p className="eyebrow">Your practice identity</p>
+          <h2 id="student-profile-title">Create your student ID.</h2>
+          <p>Your scores and recent attempts will stay attached to one practice profile on this browser.</p>
+          <ul>
+            <li>No email or password required</li>
+            <li>A private ID is created instantly</li>
+            <li>Your data stays on this device</li>
+          </ul>
+        </div>
+        <form className="quiz-profile-form" onSubmit={createProfile}>
+          <label>
+            <span>Name or initials</span>
+            <input
+              autoComplete="name"
+              maxLength={48}
+              placeholder="e.g. Ayesha K."
+              required
+              value={studentName}
+              onChange={(event) => setStudentName(event.target.value)}
+            />
+          </label>
+          <label>
+            <span>Learning track</span>
+            <select value={studentTrack} onChange={(event) => setStudentTrack(event.target.value as StudentTrack)}>
+              <option>MDCAT</option>
+              <option>Cambridge O Level</option>
+              <option>Both</option>
+            </select>
+          </label>
+          {profileError && <p className="quiz-profile-error" role="alert">{profileError}</p>}
+          <button className="quiz-primary" type="submit">Create student ID</button>
+          <p className="quiz-profile-note">This is a device-based practice profile, not a password-protected online account. Clearing browser data removes it.</p>
+        </form>
+      </section>
+    );
   }
 
   if (screen === "setup") {
@@ -136,6 +302,16 @@ export function QuizExperience() {
           </dl>
         </div>
         <div className="quiz-builder">
+          {profile && (
+            <div className="quiz-student-card">
+              <div>
+                <span>Student ID</span>
+                <strong>{profile.id}</strong>
+                <p>{profile.name} · {profile.track}</p>
+              </div>
+              <button type="button" onClick={useDifferentProfile}>Use a different ID</button>
+            </div>
+          )}
           <label>
             <span>Chapter</span>
             <select value={chapter} onChange={(event) => setChapter(event.target.value)}>
@@ -165,7 +341,15 @@ export function QuizExperience() {
           </fieldset>
           <div className="quiz-availability">
             <strong>{available.length}</strong>
-            <span>questions match your filters. The attempt will use {Math.min(requestedCount, available.length)}.</span>
+            <span>questions match your filters. Your next set will use {Math.min(requestedCount, available.length)} in a fresh random order.</span>
+          </div>
+          <div className="quiz-attempt-rules" aria-label="Attempt rules">
+            <strong>Attempt rules</strong>
+            <ul>
+              <li>Questions and answer choices are reshuffled for every new attempt.</li>
+              <li>One question appears at a time; lock it before continuing.</li>
+              <li>Locked answers cannot be changed and there is no backtracking.</li>
+            </ul>
           </div>
           <button className="quiz-primary" type="button" onClick={beginAttempt} disabled={available.length === 0}>Start timed attempt</button>
           {history.length > 0 && (
@@ -195,6 +379,7 @@ export function QuizExperience() {
           <p className="eyebrow">Attempt complete</p>
           <strong>{percentage}%</strong>
           <h2 id="quiz-results-title">{score} of {attempt.length} correct</h2>
+          {profile && <p className="quiz-result-student">{profile.name} · {profile.id}</p>}
           <p>{percentage >= 80 ? "Strong biological judgment. Review the remaining explanations before moving on." : percentage >= 60 ? "A useful attempt. Repair the weak links below, then try a fresh set." : "Use the explanations as a revision map, then attempt the chapter again."}</p>
           <button className="quiz-primary" type="button" onClick={resetAttempt}>Build another attempt</button>
         </div>
@@ -228,7 +413,7 @@ export function QuizExperience() {
     <section className="quiz-active" aria-labelledby="active-question-title">
       <header className="quiz-active-bar">
         <div><span>Progress</span><strong>{currentIndex + 1} / {attempt.length}</strong></div>
-        <div><span>Answered</span><strong>{answeredCount} / {attempt.length}</strong></div>
+        <div><span>Locked</span><strong>{answeredCount} / {attempt.length}</strong></div>
         <div className={timeLeft < 60 ? "is-urgent" : ""}><span>Time remaining</span><strong>{formatTime(timeLeft)}</strong></div>
       </header>
       <div className="quiz-progress" aria-hidden="true"><span style={{ width: `${((currentIndex + 1) / attempt.length) * 100}%` }} /></div>
@@ -238,12 +423,12 @@ export function QuizExperience() {
         <fieldset>
           <legend className="sr-only">Choose one answer</legend>
           {question.options.map((option, index) => (
-            <label className={answers[question.id] === index ? "is-selected" : ""} key={option}>
+            <label className={draftAnswer === index ? "is-selected" : ""} key={`${question.id}-${index}`}>
               <input
                 type="radio"
                 name={question.id}
-                checked={answers[question.id] === index}
-                onChange={() => setAnswers((current) => ({ ...current, [question.id]: index }))}
+                checked={draftAnswer === index}
+                onChange={() => setDraftAnswer(index)}
               />
               <span>{String.fromCharCode(65 + index)}</span>
               <strong>{option}</strong>
@@ -252,21 +437,10 @@ export function QuizExperience() {
         </fieldset>
       </article>
       <footer className="quiz-controls">
-        <button type="button" onClick={() => setCurrentIndex((index) => Math.max(0, index - 1))} disabled={currentIndex === 0}>Previous</button>
-        <div className="quiz-dots" aria-label="Question navigation">
-          {attempt.map((item, index) => (
-            <button
-              type="button"
-              className={`${index === currentIndex ? "is-current" : ""} ${answers[item.id] !== undefined ? "is-answered" : ""}`}
-              aria-label={`Question ${index + 1}${answers[item.id] !== undefined ? ", answered" : ""}`}
-              onClick={() => setCurrentIndex(index)}
-              key={item.id}
-            >{index + 1}</button>
-          ))}
-        </div>
-        {currentIndex < attempt.length - 1
-          ? <button className="quiz-primary" type="button" onClick={() => setCurrentIndex((index) => index + 1)}>Next question</button>
-          : <button className="quiz-primary" type="button" onClick={() => setScreen("results")}>Submit attempt</button>}
+        <p><strong>No backtracking.</strong> Review your choice before locking it.</p>
+        <button className="quiz-primary" type="button" disabled={draftAnswer === null} onClick={lockAnswerAndContinue}>
+          {currentIndex < attempt.length - 1 ? "Lock answer & continue" : "Lock answer & submit"}
+        </button>
       </footer>
     </section>
   );

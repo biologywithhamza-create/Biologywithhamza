@@ -44,7 +44,7 @@ export default function Home() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Header />
-      <main className="home-v2">
+      <main className="home-v2" id="main-content">
         <section className="home-v2-hero" id="top">
           <div className="home-v2-hero-grid">
             <div className="home-v2-hero-copy">
@@ -112,9 +112,9 @@ export default function Home() {
                 <p>MDCAT Biology</p>
                 <h3>Build fast, accurate biological judgment.</h3>
                 <ul>
-                  <li>Timed chapter practice</li>
+                  <li>Student ID and private on-device history</li>
+                  <li>Randomized, forward-only timed attempts</li>
                   <li>Instant scoring and answer explanations</li>
-                  <li>Question of the Day and attempt history</li>
                 </ul>
               </div>
               <Arrow />
@@ -252,7 +252,7 @@ export default function Home() {
             <p>Direct access to the places students use most.</p>
           </div>
           <div className="home-v2-resource-list">
-            <Link href="/practice"><span>01</span><div><strong>MDCAT Practice Centre</strong><p>Timed MCQs with scoring and complete answer logic.</p></div><Arrow /></Link>
+            <Link href="/practice"><span>01</span><div><strong>MDCAT Practice Centre</strong><p>Student IDs, randomized timed MCQs and complete answer logic.</p></div><Arrow /></Link>
             <Link href="/resources"><span>02</span><div><strong>Student Resource Library</strong><p>Find the right notes before opening the shared Drive.</p></div><Arrow /></Link>
             <a href={links.whatsapp} target="_blank" rel="noreferrer"><span>03</span><div><strong>WhatsApp student channel</strong><p>Class updates, prompts and announcements.</p></div><Arrow /></a>
             <Link href="/videos"><span>04</span><div><strong>Searchable Lesson Library</strong><p>Featured videos and a complete chapter roadmap.</p></div><Arrow /></Link>

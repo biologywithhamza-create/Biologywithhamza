@@ -49,7 +49,7 @@ export default function CambridgeOLevelPage() {
   return (
     <>
       <Header />
-      <main className="cambridge-page">
+      <main className="cambridge-page" id="main-content">
         <PageIntro
           eyebrow="Cambridge O Level Biology · 5090"
           title="Know the Biology. Show the examiner you know it."

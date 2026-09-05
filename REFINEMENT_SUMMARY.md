@@ -11,6 +11,9 @@ Netlify deployment.
 - Animated arrows, image zoom, card lift, filter-pill feedback and mobile-menu
   transitions, with reduced-motion and touch safeguards.
 - A live reading-progress bar on every long-form article.
+- Contrast-corrected orange cards and controls, including readable article
+  summaries, metadata, focus states and homepage track/profile sections.
+- Larger recurring labels, a keyboard skip link and a useful custom 404 page.
 - Correct 16:9 presentation for the featured Acellular Life lesson.
 - New 1200 × 630 social-sharing card with a solid branded background.
 - Optimized WebP profile portrait used throughout the site.
@@ -27,8 +30,13 @@ Netlify deployment.
 - Correct canonical URLs, sitemap coverage and social metadata.
 - Static MDCAT Practice Centre with 1,600 conceptual MCQs across 16 chapters—exactly 100 in every chapter.
 - Balanced A–D answer positions, unique question IDs and explanations for every MCQ.
-- Chapter and difficulty filters, timed attempts, instant scoring, complete
-  answer review and private on-device attempt history.
+- Required device-based student IDs with separately stored on-device histories.
+- Chapter and difficulty filters, timed attempts, instant scoring and complete
+  answer review.
+- Fresh question selection and reshuffled answer choices for every new attempt,
+  with recent sets deprioritized to reduce back-to-back repetition.
+- Forward-only quiz flow: students deliberately lock each answer before moving
+  on, and locked answers cannot be revisited or edited.
 - A Question of the Day that changes on Pakistan time.
 - Searchable lesson library with direct-lesson and chapter-roadmap views.
 - Searchable resource directory covering nineteen verified Drive categories.

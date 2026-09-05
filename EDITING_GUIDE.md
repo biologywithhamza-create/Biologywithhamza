@@ -67,6 +67,11 @@ The bank contains four individually written questions per chapter in
 question directions, giving 96 generated plus four authored questions—or 100
 MCQs—in each chapter.
 
+The practice centre stores each generated student ID and its attempt history in
+that browser. It does not require a database. Questions and answer choices are
+reshuffled for each attempt, and submitted answers are locked with no backward
+editing. These behaviours are implemented in `app/practice/quiz.tsx`.
+
 To keep that exact count, replace a question or concept instead of simply
 adding one. Give every replacement a unique `id`. For an authored question,
 keep exactly four options: `answer` uses zero-based positions, so `0` means A,

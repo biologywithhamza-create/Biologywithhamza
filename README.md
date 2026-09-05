@@ -6,7 +6,18 @@ MDCAT and Cambridge O Level learners, a 1,600-question practice centre with
 article and lesson libraries, nineteen Cambridge 5090 topic routes, and an
 organized student-resource directory. Large content cards are fully clickable,
 with keyboard-visible focus, responsive microinteractions and reduced-motion
-support throughout the site.
+support throughout the site. Orange surfaces use contrast-checked foreground
+colours, and the practice centre now requires a device-based student ID before
+starting a forward-only, randomized attempt.
+
+## Practice profiles
+
+The included student ID is deliberately browser-based: it works on the current
+static Netlify deployment without a database, email, password, or additional
+service. It separates attempt history on the same device, but it is not a secure
+login and does not synchronize across devices. A real account system can be
+added later with Netlify Identity plus server-side storage after Identity is
+enabled for the Netlify project.
 
 ## Netlify deployment
 
@@ -32,6 +43,8 @@ Start with [EDITING_GUIDE.md](EDITING_GUIDE.md). The main editing files are:
 - `app/cambridge-o-level/topics.ts` — all nineteen Cambridge topic routes;
 - `app/practice/questions.ts` — original MDCAT questions and bank integration;
 - `app/practice/concept-bank.ts` — chapter concepts used for the expanded MCQ bank;
+- `app/practice/quiz.tsx` — student profiles and the forward-only quiz flow;
+- `app/practice/quiz-randomization.ts` — fresh question selection and answer-choice shuffling;
 - `app/resources/resources.ts` — searchable student-resource directory;
 - `app/globals.css` — colours, typography, and layout;
 - `public` — profile photo, thumbnails, and browser icon.

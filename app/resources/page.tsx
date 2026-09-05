@@ -39,7 +39,7 @@ export default function ResourcesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Header />
-      <main className="resources-page">
+      <main className="resources-page" id="main-content">
         <PageIntro
           eyebrow="Student resource directory"
           title="The right material, without the folder hunt."

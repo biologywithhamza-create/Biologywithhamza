@@ -83,7 +83,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <ReadingProgress />
       <Header />
-      <main className="article-shell">
+      <main className="article-shell" id="main-content">
         <Link className="article-breadcrumb" href="/articles"><Arrow /> All Biology articles</Link>
         <header className="article-header">
           <div className="article-header-meta">

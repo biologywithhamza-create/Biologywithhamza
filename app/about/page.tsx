@@ -19,7 +19,7 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <PageIntro
           eyebrow="Biology educator"
           title="Clarity is not simplification. It is good teaching."

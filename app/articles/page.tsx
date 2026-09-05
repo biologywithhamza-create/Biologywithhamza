@@ -22,7 +22,7 @@ export default function ArticlesPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <PageIntro
           eyebrow="Biology learning library"
           title="Depth where it matters. Clarity all the way through."

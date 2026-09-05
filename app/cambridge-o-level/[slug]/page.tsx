@@ -62,7 +62,7 @@ export default async function CambridgeTopicPage({ params }: TopicPageProps) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Header />
-      <main className="cambridge-topic-page">
+      <main className="cambridge-topic-page" id="main-content">
         <header className="cambridge-topic-hero">
           <Link href="/cambridge-o-level"><Arrow /> Cambridge O Level Biology 5090</Link>
           <p>{topic.group}</p>
