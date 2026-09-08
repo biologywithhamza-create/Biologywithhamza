@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type FormEvent } from "react";
 import { quizChapters, quizQuestions, type QuestionDifficulty, type QuizQuestion } from "./questions";
 import { createRandomizedAttempt } from "./quiz-randomization";
 
@@ -27,6 +27,8 @@ type AttemptHistory = {
 const legacyHistoryKey = "biology-with-hamza-practice-history";
 const profileKey = "biology-with-hamza-student-profile";
 const recentQuestionKey = "biology-with-hamza-recent-question-sets";
+function saveLocal(key: string, value: string) { try { window.localStorage.setItem(key, value); return true; } catch { return false; } }
+function removeLocal(key: string) { try { window.localStorage.removeItem(key); } catch { /* In-memory progress still works. */ } }
 
 function profileHistoryKey(studentId: string) {
   return `${legacyHistoryKey}:${studentId}`;
@@ -72,6 +74,8 @@ export function QuizExperience() {
   const [draftAnswer, setDraftAnswer] = useState<number | null>(null);
   const savedAttempts = useRef(new Set<string>());
   const answerLockInProgress = useRef(false);
+  const attemptDeadline = useRef(0);
+  const questionHeading = useRef<HTMLHeadingElement>(null);
 
   const available = useMemo(
     () => quizQuestions.filter((question) =>
@@ -82,53 +86,45 @@ export function QuizExperience() {
 
   useEffect(() => {
     if (screen !== "active") return;
-    const timer = window.setInterval(() => setTimeLeft((current) => Math.max(0, current - 1)), 1000);
-    return () => window.clearInterval(timer);
+    const updateTime = () => {
+      const remaining = Math.max(0, Math.ceil((attemptDeadline.current - Date.now()) / 1000));
+      setTimeLeft(remaining);
+      if (remaining === 0) setScreen("results");
+    };
+    const timer = window.setInterval(updateTime, 1000);
+    document.addEventListener("visibilitychange", updateTime);
+    return () => { window.clearInterval(timer); document.removeEventListener("visibilitychange", updateTime); };
   }, [screen]);
 
   useEffect(() => {
     answerLockInProgress.current = false;
+    if (screen === "active") questionHeading.current?.focus({ preventScroll: true });
   }, [currentIndex, screen]);
 
   useEffect(() => {
-    if (screen === "active" && timeLeft === 0 && attempt.length > 0) setScreen("results");
-  }, [attempt.length, screen, timeLeft]);
-
-  useEffect(() => {
-    try {
-      const stored = window.localStorage.getItem(profileKey);
-      if (stored) setProfile(JSON.parse(stored) as StudentProfile);
-    } catch {
-      window.localStorage.removeItem(profileKey);
-    } finally {
+    const timer = window.setTimeout(() => {
+      try {
+        const stored = window.localStorage.getItem(profileKey);
+        if (stored) {
+          const value = JSON.parse(stored) as StudentProfile;
+          if (typeof value.id === "string" && typeof value.name === "string") setProfile(value);
+        }
+      } catch { /* Storage may be unavailable; a profile can still be used for this visit. */ }
       setProfileLoaded(true);
-    }
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, []);
 
   useEffect(() => {
-    if (!profile) {
-      setHistory([]);
-      return;
-    }
-    const key = profileHistoryKey(profile.id);
-    try {
-      const stored = window.localStorage.getItem(key);
-      if (stored) {
-        setHistory(JSON.parse(stored) as AttemptHistory[]);
-        return;
-      }
-      const legacy = window.localStorage.getItem(legacyHistoryKey);
-      if (legacy) {
-        window.localStorage.setItem(key, legacy);
-        window.localStorage.removeItem(legacyHistoryKey);
-        setHistory(JSON.parse(legacy) as AttemptHistory[]);
-        return;
-      }
-      setHistory([]);
-    } catch {
-      window.localStorage.removeItem(key);
-      setHistory([]);
-    }
+    const timer = window.setTimeout(() => {
+      if (!profile) { setHistory([]); return; }
+      try {
+        const stored = window.localStorage.getItem(profileHistoryKey(profile.id));
+        const parsed = stored ? JSON.parse(stored) : [];
+        setHistory(Array.isArray(parsed) ? parsed.filter(item => item && typeof item.score === "number" && typeof item.total === "number" && typeof item.completedAt === "string" && Number.isFinite(Date.parse(item.completedAt))).slice(0,6) : []);
+      } catch { setHistory([]); }
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, [profile]);
 
   useEffect(() => {
@@ -159,7 +155,7 @@ export function QuizExperience() {
     };
     setHistory((current) => {
       const next = [entry, ...current].slice(0, 6);
-      window.localStorage.setItem(profileHistoryKey(profile.id), JSON.stringify(next));
+      saveLocal(profileHistoryKey(profile.id), JSON.stringify(next));
       return next;
     });
   }, [attempt.length, attemptId, chapter, difficulty, profile, score, screen]);
@@ -177,13 +173,13 @@ export function QuizExperience() {
       track: studentTrack,
       createdAt: new Date().toISOString(),
     };
-    window.localStorage.setItem(profileKey, JSON.stringify(nextProfile));
+    saveLocal(profileKey, JSON.stringify(nextProfile));
     setProfile(nextProfile);
     setProfileError("");
   }
 
   function useDifferentProfile() {
-    window.localStorage.removeItem(profileKey);
+    removeLocal(profileKey);
     setProfile(null);
     setStudentName("");
     setStudentTrack("MDCAT");
@@ -197,19 +193,22 @@ export function QuizExperience() {
     try {
       recentSets = JSON.parse(window.localStorage.getItem(recentQuestionKey) ?? "{}") as Record<string, string[]>;
     } catch {
-      window.localStorage.removeItem(recentQuestionKey);
+      removeLocal(recentQuestionKey);
     }
-    const selected = createRandomizedAttempt(available, requestedCount, recentSets[selectionKey] ?? []);
+    if (!recentSets || typeof recentSets !== "object" || Array.isArray(recentSets)) recentSets = {};
+    const previousIds = Array.isArray(recentSets[selectionKey]) ? recentSets[selectionKey] : [];
+    const selected = createRandomizedAttempt(available, requestedCount, previousIds);
     recentSets[selectionKey] = [
       ...selected.map((question) => question.id),
-      ...(recentSets[selectionKey] ?? []),
+      ...previousIds,
     ].filter((id, index, items) => items.indexOf(id) === index)
       .slice(0, Math.min(available.length, Math.max(requestedCount * 3, 30)));
-    window.localStorage.setItem(recentQuestionKey, JSON.stringify(recentSets));
+    saveLocal(recentQuestionKey, JSON.stringify(recentSets));
     setAttempt(selected);
     setAnswers({});
     setDraftAnswer(null);
     setCurrentIndex(0);
+    attemptDeadline.current = Date.now() + selected.length * 60_000;
     setTimeLeft(selected.length * 60);
     setAttemptId(`${Date.now()}-${selected.map((question) => question.id).join("-")}`);
     setScreen("active");
@@ -226,13 +225,14 @@ export function QuizExperience() {
   }
 
   function clearHistory() {
-    if (profile) window.localStorage.removeItem(profileHistoryKey(profile.id));
+    if (profile) removeLocal(profileHistoryKey(profile.id));
     setHistory([]);
   }
 
   function lockAnswerAndContinue() {
     const question = attempt[currentIndex];
     if (!question || draftAnswer === null || answerLockInProgress.current) return;
+    if (Date.now() >= attemptDeadline.current) { setTimeLeft(0); setScreen("results"); return; }
     answerLockInProgress.current = true;
     setAnswers((current) => ({ ...current, [question.id]: draftAnswer }));
     setDraftAnswer(null);
@@ -419,7 +419,7 @@ export function QuizExperience() {
       <div className="quiz-progress" aria-hidden="true"><span style={{ width: `${((currentIndex + 1) / attempt.length) * 100}%` }} /></div>
       <article className="quiz-question">
         <div className="quiz-question-meta"><span>{question.chapter}</span><span>{question.difficulty}</span></div>
-        <h2 id="active-question-title">{question.stem}</h2>
+        <h2 id="active-question-title" tabIndex={-1} ref={questionHeading}>{question.stem}</h2>
         <fieldset>
           <legend className="sr-only">Choose one answer</legend>
           {question.options.map((option, index) => (
@@ -446,10 +446,19 @@ export function QuizExperience() {
   );
 }
 
+function subscribeToDay(callback: () => void) {
+  const timer = window.setInterval(callback, 60_000);
+  return () => window.clearInterval(timer);
+}
 export function DailyQuestion() {
+  const index = useSyncExternalStore(subscribeToDay, dailyQuestionIndex, () => -1);
+  if (index < 0) return <section className="quiz-profile-loading" aria-busy="true">Loading today’s question…</section>;
+  return <DailyQuestionCard key={index} index={index}/>;
+}
+function DailyQuestionCard({ index }: { index: number }) {
   const [selected, setSelected] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
-  const [question] = useState(() => quizQuestions[dailyQuestionIndex()]);
+  const question = quizQuestions[index];
   const isCorrect = selected === question.answer;
 
   return (

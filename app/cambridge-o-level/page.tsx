@@ -52,14 +52,18 @@ export default function CambridgeOLevelPage() {
       <main className="cambridge-page" id="main-content">
         <PageIntro
           eyebrow="Cambridge O Level Biology · 5090"
-          title="Know the Biology. Show the examiner you know it."
+          title="Big goals. Clear next steps."
           copy="A syllabus-led learning route for the 2026–2028 Cambridge O Level Biology 5090 course—connecting strong concepts with practical judgment, data interpretation and precise answers."
         >
           <div className="library-actions">
-            <Link className="button button-ember" href="#syllabus-map">Explore the syllabus map <Arrow /></Link>
+            <Link className="button button-ember" href="#topic-directory">Find your next topic <Arrow /></Link>
             <a className="button button-ghost" href={links.cambridgeSyllabus} target="_blank" rel="noreferrer">Official Cambridge syllabus</a>
           </div>
         </PageIntro>
+
+        <div className="cambridge-topic-directory" id="topic-directory">
+          <CambridgeTopicExplorer />
+        </div>
 
         <section className="cambridge-assessment" aria-labelledby="assessment-title">
           <div className="cambridge-assessment-intro">
@@ -105,9 +109,7 @@ export default function CambridgeOLevelPage() {
           </div>
         </section>
 
-        <div className="cambridge-topic-directory">
-          <CambridgeTopicExplorer />
-        </div>
+
 
         <section className="cambridge-articles">
           <div className="cambridge-articles-head">

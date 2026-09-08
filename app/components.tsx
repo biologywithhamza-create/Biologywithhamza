@@ -3,6 +3,11 @@ import Link from "next/link";
 import { articles, links } from "./content";
 import type { Article, ArticleDiagram } from "./content";
 import { getArticleReadTime, getArticleTopicGroup } from "./article-data";
+import { BiologyMark } from "./brand";
+import { SiteHeader } from "./site-header";
+import { cambridgeTopics } from "./cambridge-o-level/topics";
+import { Icon } from "./ui-icons";
+export { BiologyMark } from "./brand";
 
 export function Arrow({ className = "" }: { className?: string }) {
   return (
@@ -20,76 +25,17 @@ export function PlayIcon() {
   );
 }
 
-export function BiologyMark({
-  inverse = false,
-  className = "",
-}: {
-  inverse?: boolean;
-  className?: string;
-}) {
-  return (
-    <svg
-      className={`biology-mark${inverse ? " biology-mark-inverse" : ""} ${className}`.trim()}
-      viewBox="0 0 72 72"
-      fill="none"
-      aria-hidden="true"
-    >
-      <circle cx="36" cy="36" r="31" stroke="currentColor" strokeWidth="2.4" />
-      <path d="M31 12c11 8 11 16 0 24s-11 16 0 24M41 12c-11 8-11 16 0 24s11 16 0 24" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" />
-      <path d="M30 20h12M29 31h14M29 42h14M30 53h12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-      <path d="M14 46c11-13 20-10 23 7-12 5-20 1-23-7Z" fill="var(--mark-leaf, #35b86b)" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
-      <path d="m16 47 17 8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-      <circle cx="54" cy="23" r="5" fill="var(--ember)" />
-    </svg>
-  );
-}
-
 export function Header() {
-  return (
-    <>
-      <a className="bulletin" href={links.youtube} target="_blank" rel="noreferrer">
-        <span>Watch</span>
-        <strong>
-          New Biology lessons on YouTube <Arrow />
-        </strong>
-      </a>
-      <header className="site-header">
-        <Link className="brand" href="/" aria-label="Biology with Hamza home">
-          <BiologyMark />
-          <span className="brand-copy">
-            <strong>Biology with Hamza</strong>
-            <small>MDCAT · Cambridge O Level</small>
-          </span>
-        </Link>
-
-        <nav className="desktop-nav" aria-label="Primary navigation">
-          <Link href="/practice">Practice</Link>
-          <Link href="/videos">Lessons</Link>
-          <Link href="/cambridge-o-level">Cambridge O Level</Link>
-          <Link href="/articles">Articles</Link>
-          <Link href="/resources">Resources</Link>
-          <Link href="/about">About</Link>
-        </nav>
-
-        <a className="header-action" href={links.youtube} target="_blank" rel="noreferrer">
-          YouTube channel <Arrow />
-        </a>
-
-        <details className="mobile-menu">
-          <summary aria-label="Open menu"><span /><span /></summary>
-          <nav aria-label="Mobile navigation">
-            <Link href="/practice">MDCAT Practice Centre</Link>
-            <Link href="/videos">Video lessons</Link>
-            <Link href="/cambridge-o-level">Cambridge O Level</Link>
-            <Link href="/articles">Biology articles</Link>
-            <Link href="/resources">Student resources</Link>
-            <Link href="/about">About Hamza</Link>
-            <a href={links.youtube} target="_blank" rel="noreferrer">Open YouTube channel</a>
-          </nav>
-        </details>
-      </header>
-    </>
-  );
+  const entries = [
+    { title: "3D Human Atlas", href: "/atlas", type: "Explore", keywords: "human anatomy organs systems layers skeleton muscles heart brain" },
+    { title: "MDCAT Practice Centre", href: "/practice", type: "Practice", keywords: "MCQs quiz test chapters" },
+    { title: "Interactive Biology Lab", href: "/lab", type: "Explore", keywords: "osmosis enzymes genetics simulation" },
+    { title: "Video lessons", href: "/videos", type: "Watch", keywords: "YouTube lectures" },
+    { title: "Student resource library", href: "/resources", type: "Resources", keywords: "Google Drive notes revision" },
+    ...articles.map(a => ({ title: a.title, href: `/articles/${a.slug}`, type: a.category, keywords: a.topic })),
+    ...cambridgeTopics.map(t => ({ title: t.title, href: `/cambridge-o-level/${t.slug}`, type: "Cambridge 5090", keywords: t.summary })),
+  ];
+  return <SiteHeader entries={entries} />;
 }
 
 export function Footer() {
@@ -101,11 +47,13 @@ export function Footer() {
             <BiologyMark inverse />
             <span>Biology with Hamza</span>
           </Link>
-          <p>Biology made clear.<br />Learning made relevant.</p>
+          <p>A place for curious minds.<br />A clearer path through Biology.</p>
         </div>
         <div className="footer-links">
           <div>
             <p>Explore</p>
+            <Link href="/atlas">3D Human Atlas</Link>
+            <Link href="/lab">Interactive Biology Lab</Link>
             <Link href="/practice">MDCAT practice centre</Link>
             <Link href="/articles">Biology articles</Link>
             <Link href="/videos">Video lessons</Link>
@@ -135,7 +83,7 @@ export function Footer() {
 
 export function ArticleCard({ index, article }: { index?: number; article?: Article }) {
   const selected = article ?? articles[index ?? 0];
-  const articleNumber = articles.findIndex((item) => item.slug === selected.slug) + 1;
+  
   return (
     <Link
       className={`article-card article-${selected.accent}`}
@@ -146,12 +94,12 @@ export function ArticleCard({ index, article }: { index?: number; article?: Arti
         <span>{selected.category}</span>
         <span>{getArticleReadTime(selected)}</span>
       </div>
-      <div className="article-card-number">{String(articleNumber).padStart(2, "0")}</div>
+      <div className="article-card-symbol"><Icon name={selected.category === "Study Strategy" ? "target" : "book"} /></div>
       <div className="article-card-topic">{getArticleTopicGroup(selected)} · {selected.topic}</div>
       <h3>{selected.title}</h3>
       <p>{selected.description}</p>
       <span className="article-card-cta">
-        Read article <Arrow />
+        Read the guide <Icon name="arrow" />
       </span>
     </Link>
   );

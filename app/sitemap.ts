@@ -6,11 +6,13 @@ export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const origin = "https://hamzaramzan.online";
-  const now = new Date("2026-09-03");
+  const now = new Date("2026-09-07");
   return [
     { url: origin, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${origin}/articles`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${origin}/videos`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${origin}/atlas`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${origin}/lab`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${origin}/practice`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${origin}/resources`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${origin}/cambridge-o-level`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },

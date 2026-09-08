@@ -26,10 +26,11 @@ export function CambridgeTopicExplorer() {
         {cambridgeTopicGroups.map((item) => <button type="button" className={group === item ? "is-active" : ""} onClick={() => setGroup(item)} aria-pressed={group === item} key={item}>{item}</button>)}
       </div>
       <p className="cambridge-topic-count" aria-live="polite">{results.length} {results.length === 1 ? "topic" : "topics"}</p>
+      {results.length === 0 && <div className="resource-empty"><h3>No matching topics yet.</h3><p>Try a different search, or clear your filters.</p><button className="text-button" onClick={() => { setQuery(""); setGroup("All topics"); }}>Clear filters</button></div>}
       <div className="cambridge-topic-grid">
-        {results.map((topic, index) => (
+        {results.map((topic) => (
           <Link href={`/cambridge-o-level/${topic.slug}`} key={topic.slug}>
-            <div><span>{String(index + 1).padStart(2, "0")}</span><small>{topic.group}</small></div>
+            <div><span>{String(cambridgeTopics.indexOf(topic) + 1).padStart(2, "0")}</span><small>{topic.group}</small></div>
             <h3>{topic.title}</h3>
             <p>{topic.summary}</p>
             <strong>Open topic route <Arrow /></strong>

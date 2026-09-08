@@ -1,0 +1,7 @@
+import type { Metadata } from "next";
+import { Footer, Header, PageIntro } from "../components";
+import { BiologyExperiments } from "./experiments";
+export const metadata: Metadata = { title: "Interactive Biology Lab", description: "Explore enzyme saturation, osmosis and Mendelian inheritance with interactive, clearly labelled learning models for MDCAT and Cambridge O Level Biology.", alternates: { canonical: "/lab" } };
+export default function LabPage() {
+  return <><Header/><main id="main-content" className="lab-page"><PageIntro eyebrow="A SPACE TO EXPERIMENT" title="Curiosity looks good on you." copy="Move a slider. Change an allele. Make a prediction—and see whether your understanding holds up."/><BiologyExperiments/><section className="lab-sources wrap"><h2>Keep the science in view.</h2><p>These simplified models explain specific relationships. Read the assumptions beside each experiment and connect your observations with the underlying Biology.</p><div><a href="https://openstax.org/books/biology-2e/pages/6-5-enzymes" target="_blank" rel="noreferrer">OpenStax · Enzymes</a><a href="https://openstax.org/books/biology-2e/pages/5-2-passive-transport" target="_blank" rel="noreferrer">OpenStax · Passive transport</a><a href="https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits" target="_blank" rel="noreferrer">OpenStax · Inheritance</a></div></section></main><Footer/></>;
+}

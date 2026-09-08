@@ -508,6 +508,8 @@ const chapterBanks: ChapterBank[] = [
 ];
 
 function lowerFirst(value: string) {
+  // Preserve scientific abbreviations such as HIV, DNA, ATP and pH.
+  if (/^[A-Z][A-Z0-9]/.test(value)) return value;
   return value.charAt(0).toLowerCase() + value.slice(1);
 }
 

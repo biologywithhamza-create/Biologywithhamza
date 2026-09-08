@@ -10,14 +10,39 @@ support throughout the site. Orange surfaces use contrast-checked foreground
 colours, and the practice centre now requires a device-based student ID before
 starting a forward-only, randomized attempt.
 
+![Homepage preview](preview-homepage.jpg)
+
+## New in the September redesign
+
+- A new light learning-studio interface, green/lime/orange palette, fully clickable
+  content cards, keyboard search and responsive navigation.
+- Human Atlas at `/atlas`: 2,234 selectable structures, 15 systems, region
+  filters, organ search, isolation, rotation and zoom.
+- Biology Lab at `/lab`: interactive enzyme saturation, osmosis and genetic crosses.
+- Reading focus and printable article revision sheets.
+
+The atlas uses adult male BodyParts3D reference anatomy. It does not include a
+female model or all human anatomical variation. Detailed WebGL rendering loads
+on demand; devices without WebGL automatically use a reduced-detail canvas
+renderer made from the same reference geometry. Full attribution and licences
+are in `public/atlas/ATTRIBUTION.md`. Preserve the entire `public/atlas` folder.
+
+## Upload this update
+
+Extract the ZIP. Upload its contents directly into your GitHub repository root,
+where `app`, `public`, `package.json` and `netlify.toml` already live. Commit all
+files once to `main`. Upload the contents, not the ZIP or an extra outer folder.
+Your hosting configuration can stay as it is. This package has not been deployed.
+
+See `REFINEMENT_SUMMARY.md` for checks and the atlas scope.
+
 ## Practice profiles
 
 The included student ID is deliberately browser-based: it works on the current
 static Netlify deployment without a database, email, password, or additional
 service. It separates attempt history on the same device, but it is not a secure
-login and does not synchronize across devices. A real account system can be
-added later with Netlify Identity plus server-side storage after Identity is
-enabled for the Netlify project.
+login and does not synchronize across devices. A real account system would require an authentication provider and server-side
+storage. No remote account service or database is included in this release.
 
 ## Netlify deployment
 

@@ -31,7 +31,7 @@ export default function PracticePage() {
       <main className="practice-page" id="main-content">
         <PageIntro
           eyebrow="MDCAT Biology practice"
-          title="Test the link between facts—not just the facts."
+          title="Make your next attempt count."
           copy="Create your student practice ID, choose from 100 MCQs in every chapter, and complete a fresh forward-only timed attempt before reviewing every answer."
         />
         <div className="practice-shell"><QuizExperience /></div>

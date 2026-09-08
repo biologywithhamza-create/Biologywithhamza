@@ -1,4 +1,67 @@
-# Biology with Hamza — student platform release
+# Biology with Hamza — UI redesign and Human Atlas
+
+Prepared 8 September 2026. Upload-ready source; no live deployment was performed.
+
+## The new interface
+
+The whole site now uses a light learning-studio design with forest green text,
+lime, orange and lilac panels, bold sans-serif headings, an interactive track
+switcher, full-card links, native search dialog, keyboard focus and mobile menu.
+The current real portrait remains; no replacement photographs were supplied.
+
+## Human Atlas
+
+- `/atlas` contains 2,234 selectable reference structures and 3,432 searchable
+  anatomical concepts across 15 systems.
+- Left sidebar: organ search, six body-region views, layer checkboxes and quick
+  presets for organs, skeleton, muscles and all systems.
+- Rotate, zoom, front/back/side views, isolate a structure and show it in the body.
+- Approximately 33 MB of detailed geometry loads only after opening the viewer.
+- If WebGL is unavailable, the atlas uses a 5.9 MB reduced-detail reference model
+  and a canvas renderer, preserving all 2,234 selectable structures.
+- Adult male anatomy from BodyParts3D, with attribution and licences included.
+  Female anatomy, all anatomical variants, microscopic histology, and clinical
+  diagnosis are outside this model. Region boundaries are approximate filters.
+- Many selections share a system-level explanation, clearly labelled as context.
+
+## Biology Lab
+
+`/lab` includes three interactive learning models: enzyme saturation, initial
+osmotic water movement and monohybrid genetic crosses. Each states its
+assumptions, has controls that change the output, and links to references.
+
+## Validation
+
+- `npm run build:netlify` compiled and exported successfully, including TypeScript.
+- Checked 1,600 unique question IDs, 100 in each of 16 chapters, four distinct
+  options per question and valid answer keys. Thirty shuffled full-chapter tests
+  preserved the correct answer after option shuffling; successive sets avoided
+  recent questions where the pool allowed it.
+- Browser-tested a complete 10-question attempt, locked progression, score,
+  explanations, retained device ID and recent-attempt history.
+- Verified all anatomy chunks, mesh indices and concept-to-structure references,
+  including the reduced-detail geometry.
+- Browser-tested organ search, heart isolation, clear search, skeleton preset
+  and region filters. WebGL was disabled in the preview browser, so visual atlas
+  checks used compatibility rendering; the detailed WebGL renderer was compiled
+  and its data validated but could not be visually verified in this environment.
+- Mobile menu and search checked; homepage had no horizontal overflow at 320
+  and 390 px frame widths. These are responsive browser checks, not a claim of
+  testing every physical phone.
+- Internal links and static asset destinations checked with no missing targets.
+- Orange-card text contrast is 6.72:1; the main text pairs also exceed 4.5:1.
+- All nine genetic crosses and the enzyme/osmosis relationships passed checks.
+- ESLint passed for first-party app code. Imported atlas renderer utilities were
+  excluded from style linting; TypeScript checked the entire build.
+
+## Boundaries
+
+Student IDs and results are on-device practice profiles, not secure online
+accounts or cross-device storage. The MCQ bank develops chapter concepts into
+cause, outcome, mechanism and integrated-question variants. No claim of official
+past-paper provenance or external academic review is made. Existing article,
+Cambridge and resource content is preserved.
+
 
 This package is based on the current live GitHub source and is ready for one
 Netlify deployment.

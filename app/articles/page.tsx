@@ -25,7 +25,7 @@ export default function ArticlesPage() {
       <main id="main-content">
         <PageIntro
           eyebrow="Biology learning library"
-          title="Depth where it matters. Clarity all the way through."
+          title="A good explanation changes everything."
           copy="Complete explanations built around mechanisms, diagrams, comparisons and exam application—for MDCAT and Cambridge O Level learners."
         />
 
