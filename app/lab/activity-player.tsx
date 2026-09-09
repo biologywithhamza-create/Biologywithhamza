@@ -1,0 +1,19 @@
+"use client";
+import {useState} from "react";
+import type {Activity} from "./activity-data";
+import {InteractiveModel} from "./interactive-models";
+function shuffle(values:number[]){const result=[...values];for(let i=result.length-1;i>0;i--){const limit=Math.floor(4294967296/(i+1))*(i+1);let n;do{n=crypto.getRandomValues(new Uint32Array(1))[0];}while(n>=limit);const j=n%(i+1);[result[i],result[j]]=[result[j],result[i]];}return result;}
+export function ActivityPlayer({activity:a}:{activity:Activity}){
+ const initial=Array.from({length:(a.steps??a.items??[]).length},(_,i)=>i).reverse();
+ const[order,O]=useState(initial),[answers,A]=useState<Record<number,string>>({}),[checked,C]=useState(false),[note,N]=useState(""),[reveal,R]=useState(false),[round,Round]=useState(0);
+ const score=order.filter((id,i)=>a.steps?id===i:answers[id]===a.items?.[id].group).length;
+ function reset(){O(shuffle(initial));A({});C(false);N("");R(false);Round(r=>r+1);}
+ function move(i:number,delta:number){const next=[...order];[next[i],next[i+delta]]=[next[i+delta],next[i]];O(next);C(false);}
+ return <section className="activity-workbench" aria-label={a.title}><div className="activity-workbench-top"><span className="activity-kind">{a.kind}</span><button className="text-button" onClick={reset}>{a.kind==="Model"?"Reset activity":"Reset & shuffle"}</button></div>
+ {a.kind==="Model"?<InteractiveModel key={round} name={a.model!}/>:<>
+ <p className="activity-instruction">{a.steps?"Use the up and down buttons to build the sequence, then check your reasoning. Some biological events overlap; follow the simplified pathway described here.":"Choose the best category for each clue, then check the explanations."}</p>
+ {a.steps?<ol className="activity-sequence">{order.map((id,i)=><li key={id} className={checked?(id===i?"answer-correct":"answer-review"):""}><span className="activity-step-number">{i+1}</span><div><strong>{a.steps![id].label}</strong>{checked&&<p>{id===i?"Correct position.":"Review: position "+(id+1)+"."} {a.steps![id].why}</p>}</div><div className="activity-step-actions"><button disabled={i===0} aria-label={"Move "+a.steps![id].label+" up"} onClick={()=>move(i,-1)}>↑</button><button disabled={i===order.length-1} aria-label={"Move "+a.steps![id].label+" down"} onClick={()=>move(i,1)}>↓</button></div></li>)}</ol>:<div className="activity-sorting">{order.map(id=><div key={id} className={checked?(answers[id]===a.items![id].group?"answer-correct":"answer-review"):""}><label htmlFor={"clue-"+id}>{a.items![id].label}</label><select id={"clue-"+id} value={answers[id]??""} onChange={e=>{A({...answers,[id]:e.target.value});C(false);}}><option value="">Choose a category</option>{a.groups!.map(g=><option key={g}>{g}</option>)}</select>{checked&&<p>{answers[id]===a.items![id].group?"Correct.":"Review: "+a.items![id].group+"."} {a.items![id].why}</p>}</div>)}</div>}
+ <button className="button button-dark" onClick={()=>C(true)}>Check my reasoning</button>{checked&&<p className="activity-feedback" role="status"><strong>{score} of {order.length} correct.</strong> {score===order.length?"Now explain the relationship in your own words.":"Read the feedback, revise your choices and try again."}</p>}
+ {a.steps&&<details className="activity-solution"><summary>Read the complete pathway</summary><ol>{a.steps.map(s=><li key={s.label}><strong>{s.label}.</strong> {s.why}</li>)}</ol></details>}</>}
+ <div className="activity-reflection"><h2>Explain what you observed</h2><p>{a.question}</p><label htmlFor="activity-notes">Your explanation (optional; stays on this page)</label><textarea id="activity-notes" rows={3} value={note} onChange={e=>N(e.target.value)} placeholder="Write a prediction or explanation…"/><button className="text-button" aria-expanded={reveal} onClick={()=>R(!reveal)}>{reveal?"Hide explanation":"Reveal the explanation"}</button>{reveal&&<p className="activity-feedback">{a.answer}</p>}</div></section>;
+}

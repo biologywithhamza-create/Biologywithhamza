@@ -10,7 +10,7 @@ const experiments = [{ id: "enzymes", title: "Enzyme activity", subtitle: "Explo
 function Slider({ title, value, onChange, min = 0, max = 100, unit = "relative units" }: { title: string; value: number; onChange: (n: number) => void; min?: number; max?: number; unit?: string }) {
   return <label className="lab-slider"><span>{title}<strong>{value} <small>{unit}</small></strong></span><input type="range" min={min} max={max} value={value} onChange={e => onChange(Number(e.target.value))}/><span className="slider-extents"><small>{min}</small><small>{max}</small></span></label>;
 }
-function Enzymes() {
+export function Enzymes() {
   const [substrate, setSubstrate] = useState(30);
   const [enzyme, setEnzyme] = useState(100);
   const rate = enzymeRate(substrate, enzyme);
@@ -20,7 +20,7 @@ function Enzymes() {
       {[0,50,100,150].map(y => <g key={y}><line x1="55" y1={275-y*1.45} x2="520" y2={275-y*1.45} stroke="currentColor" opacity=".13"/><text x="42" y={280-y*1.45} textAnchor="end">{y}</text></g>)}<path d="M55 30V275H520" fill="none" stroke="currentColor"/>{[0,20,40,60,80,100].map(x => <text key={x} x={55+x*4.6} y="297" textAnchor="middle">{x}</text>)}<text x="55" y="20">Rate (relative units)</text><text x="290" y="318" textAnchor="middle">Substrate concentration (relative units)</text><path d={curve(100)} fill="none" stroke="currentColor" strokeWidth="2" strokeDasharray="5 5" opacity=".35"/><line x1="55" x2="520" y1={275-enzyme*1.45} y2={275-enzyme*1.45} stroke="var(--green)" strokeDasharray="2 5"/><path d={curve(enzyme)} fill="none" stroke="var(--green)" strokeWidth="4"/><circle cx={55+substrate*4.6} cy={275-rate*1.45} r="7" fill="var(--orange)" stroke="var(--ink)" strokeWidth="2"/>
     </svg><div className="plot-legend"><span><i/>Your enzyme amount</span><span><i/>100% reference</span><span>Upper dotted line: maximum rate</span></div><div className="lab-observation" aria-live="polite"><strong>{substrate === 0 ? "No substrate, no product formation." : substrate < 20 ? "Substrate availability has a strong effect." : "The curve is flattening as active sites fill."}</strong><p>At {enzyme}% enzyme, the model’s maximum rate is {enzyme} units. At 20 substrate units, the rate is exactly half that maximum.</p></div><p className="model-note">A steady-state Michaelis–Menten illustration: v = Vmax × S / (20 + S). Temperature, pH and enzyme properties are fixed; no inhibition or substrate depletion is modelled. Values are illustrative, not laboratory measurements.</p></div></div>;
 }
-function Osmosis() {
+export function Osmosis() {
   const [outside, setOutside] = useState(10);
   const inside = 30;
   const direction = osmosisDirection(outside, inside);
@@ -32,7 +32,7 @@ function Osmosis() {
       <g fill="none" stroke="var(--ink)" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">{direction !== "out" && <path d="M232 131H325 M313 120L325 131 313 142"/>}{direction !== "in" && <path d={`M325 ${direction === "balanced"?168:148}H232 M244 ${direction === "balanced"?157:137}L232 ${direction === "balanced"?168:148} 244 ${direction === "balanced"?179:159}`}/>}</g><text x="280" y="276" textAnchor="middle">Selectively permeable membrane</text><text x="280" y="298" textAnchor="middle">Arrows: water · Green dots: non-penetrating solute</text>
     </svg><div className="lab-observation" aria-live="polite"><strong>{observation}</strong><p>{direction === "in" ? "At equal pressure, the outside has higher water potential. Water enters the animal cell, which tends to swell." : direction === "out" ? "At equal pressure, the outside has lower water potential. Water leaves the animal cell, which tends to shrink." : "Equal water potentials mean equal rates of water movement in both directions. Cell volume has no net osmotic change."}</p></div><p className="model-note">Initial tendency only, at equal temperature and hydrostatic pressure. The solute cannot cross. This diagram does not calculate final volume, pressure changes or bursting, and does not model a plant cell wall.</p></div></div>;
 }
-function Inheritance() {
+export function Inheritance() {
   const [parentA, setParentA] = useState<Genotype>("Aa");
   const [parentB, setParentB] = useState<Genotype>("Aa");
   const cross = geneticCross(parentA, parentB);

@@ -103,6 +103,8 @@ export function QuizExperience() {
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
+      const requestedChapter = new URLSearchParams(window.location.search).get("chapter");
+      if (requestedChapter && quizChapters.includes(requestedChapter)) setChapter(requestedChapter);
       try {
         const stored = window.localStorage.getItem(profileKey);
         if (stored) {

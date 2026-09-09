@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { cambridgeTopics } from "./cambridge-o-level/topics";
 import { articles } from "./content";
+import { activities } from "./lab/activity-data";
 
 export const dynamic = "force-static";
 
@@ -23,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.75,
     })),
+    ...activities.map(a=>({url:origin+"/lab/"+a.slug,lastModified:new Date("2026-09-08"),changeFrequency:"monthly" as const,priority:0.8})),
     ...articles.map((article) => ({
       url: `${origin}/articles/${article.slug}`,
       lastModified: new Date(article.dateISO),

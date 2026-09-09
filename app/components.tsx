@@ -7,6 +7,7 @@ import { BiologyMark } from "./brand";
 import { SiteHeader } from "./site-header";
 import { cambridgeTopics } from "./cambridge-o-level/topics";
 import { Icon } from "./ui-icons";
+import { activities, chapters } from "./lab/activity-data";
 export { BiologyMark } from "./brand";
 
 export function Arrow({ className = "" }: { className?: string }) {
@@ -33,6 +34,7 @@ export function Header() {
     { title: "Video lessons", href: "/videos", type: "Watch", keywords: "YouTube lectures" },
     { title: "Student resource library", href: "/resources", type: "Resources", keywords: "Google Drive notes revision" },
     ...articles.map(a => ({ title: a.title, href: `/articles/${a.slug}`, type: a.category, keywords: a.topic })),
+    ...activities.map(a=>({title:a.title,href:`/lab/${a.slug}`,type:"Lab activity",keywords:chapters[a.chapter]+" "+a.summary})),
     ...cambridgeTopics.map(t => ({ title: t.title, href: `/cambridge-o-level/${t.slug}`, type: "Cambridge 5090", keywords: t.summary })),
   ];
   return <SiteHeader entries={entries} />;

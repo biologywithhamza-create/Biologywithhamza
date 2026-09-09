@@ -36,6 +36,13 @@ export function AtlasExplorer() {
   const [rotate, setRotate] = useState(false);
   const [surfaceOpacity, setSurfaceOpacity] = useState(.12);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [mode,setMode]=useState<"rotate"|"move">("rotate");
+  const [background,setBackground]=useState<"dark"|"light">("dark");
+  const [pan,setPan]=useState({x:0,y:0});
+  const [focus,setFocus]=useState(0);
+  const [expanded,setExpanded]=useState(false);
+  const moveModel=(x:number,y:number)=>setPan(p=>({x:p.x+x,y:p.y+y}));
+  useEffect(()=>{const exit=(e:KeyboardEvent)=>{if(e.key==="Escape")setExpanded(false);};window.addEventListener("keydown",exit);return()=>window.removeEventListener("keydown",exit);},[]);
   useEffect(() => {
     if (!requested) return;
     const controller = new AbortController();
@@ -52,7 +59,7 @@ export function AtlasExplorer() {
     return terms.length ? atlas.concepts.filter(c => terms.every(t => `${c.name} ${c.id}`.toLowerCase().includes(t))) : commonOrgans.map(name => atlas.concepts.find(c => c.name.toLowerCase() === name)).filter((c): c is Concept => Boolean(c));
   }, [atlas, query]);
   const regionParts = useMemo(() => atlas && region !== "Whole body" ? atlas.parts.filter(p => inRegion(p, region)).map(p => p.id) : undefined, [atlas, region]);
-  const sceneState = useMemo<SceneState>(() => ({ visible, selected: selected?.elements ?? [], isolate, view, reset, rotate, zoom, surfaceOpacity, regionParts, explode: 0, inspectorOpen: false }), [visible, selected, isolate, view, reset, rotate, zoom, surfaceOpacity, regionParts]);
+  const sceneState = useMemo<SceneState>(() => ({ mode, background, pan, focus, visible, selected: selected?.elements ?? [], isolate, view, reset, rotate, zoom, surfaceOpacity, regionParts, explode: 0, inspectorOpen: false }), [mode, background, pan, focus, visible, selected, isolate, view, reset, rotate, zoom, surfaceOpacity, regionParts]);
   const selectedParts = useMemo(() => atlas && selected ? atlas.parts.filter(p => selected.elements.includes(p.id)) : [], [atlas, selected]);
   const selectedSystems = useMemo(() => SYSTEMS.filter(s => selectedParts.some(p => p.system === s.id)), [selectedParts]);
   const inspect = useCallback((concept: Concept) => { setSelected(concept); setIsolate(true); setRegion("Whole body"); setRotate(false); setZoom(0); setReset(r => r+1); setSidebarOpen(false); }, []);
@@ -69,7 +76,7 @@ export function AtlasExplorer() {
   function resetView() { setView("front"); setZoom(0); setReset(r => r+1); setRotate(false); }
   const countVisible = atlas?.parts.filter(p => isolate ? selected?.elements.includes(p.id) : (visible.includes(p.system) && (!regionParts || regionParts.includes(p.id))) || selected?.elements.includes(p.id)).length ?? 0;
   const explanation = selected ? EXPLANATIONS[selected.name.toLowerCase()] : undefined;
-  return <section className="atlas-workspace" aria-label="Human anatomy atlas">
+  return <section className={"atlas-workspace"+(expanded?" atlas-expanded":"")} aria-label="Human anatomy atlas">
     <div className="atlas-workspace-top"><div><span className="atlas-live-dot"/><strong>Human Atlas</strong><small>ADULT MALE REFERENCE</small></div><button type="button" className="atlas-browse-toggle" aria-expanded={sidebarOpen} aria-controls="atlas-sidebar" onClick={() => setSidebarOpen(!sidebarOpen)}><Icon name="layers"/>{sidebarOpen ? "Close controls" : "Browse anatomy"}</button><span className="atlas-top-count">{atlas ? `${atlas.parts.length.toLocaleString()} structures · 15 systems` : "Explore the body, layer by layer"}</span></div>
     <div className="atlas-layout">
       <aside id="atlas-sidebar" className={`atlas-sidebar ${sidebarOpen ? "is-open" : ""}`} aria-label="Anatomy navigation">
@@ -83,13 +90,20 @@ export function AtlasExplorer() {
       </aside>
       <div className="atlas-main">
         <div className="atlas-view-toolbar" aria-label="View controls"><div>{([['front','Front'],['back','Back'],['side','Side'],['three-quarter','3D']] as [View,string][]).map(([value,label]) => <button key={value} onClick={() => { setView(value);setReset(r=>r+1);setZoom(0); }} aria-pressed={view===value} disabled={!atlas}>{label}</button>)}</div><div><button aria-label="Zoom in" onClick={() => setZoom(z=>Math.min(12,z+1))} disabled={!atlas}>+</button><button aria-label="Zoom out" onClick={() => setZoom(z=>Math.max(-5,z-1))} disabled={!atlas}>−</button><button onClick={resetView} disabled={!atlas}>Reset</button></div></div>
-        <div className="atlas-stage">
+        <div className="atlas-navigation" aria-label="Move and frame the anatomy">
+          <button aria-pressed={mode==="rotate"} onClick={()=>setMode("rotate")}>Rotate</button><button aria-pressed={mode==="move"} onClick={()=>{setMode("move");setRotate(false);}}>Move</button>
+          <button aria-label="Move model left" disabled={!atlas} onClick={()=>moveModel(-1,0)}>←</button><button aria-label="Move model up" disabled={!atlas} onClick={()=>moveModel(0,-1)}>↑</button><button aria-label="Move model down" disabled={!atlas} onClick={()=>moveModel(0,1)}>↓</button><button aria-label="Move model right" disabled={!atlas} onClick={()=>moveModel(1,0)}>→</button>
+          <button disabled={!selected} onClick={()=>{setFocus(f=>f+1);setZoom(0);}}>Focus selection</button><button disabled={!atlas} onClick={()=>{setRegion("Whole body");setSelected(null);setIsolate(false);resetView();}}>Fit body</button>
+          <label>Background<select value={background} onChange={e=>setBackground(e.target.value as "dark"|"light")}><option value="dark">Charcoal</option><option value="light">Light</option></select></label>
+          <button aria-pressed={expanded} onClick={()=>setExpanded(!expanded)}>{expanded?"Standard size":"Expand viewer"}</button>
+        </div>
+        <div className={"atlas-stage atlas-background-"+background} tabIndex={0} aria-label="Anatomy viewer. Arrow keys move the model; plus and minus zoom; Home resets the view." onKeyDown={e=>{if(e.target!==e.currentTarget&&!(e.target instanceof HTMLCanvasElement))return;const moves:Record<string,[number,number]>={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1]};if(moves[e.key]){e.preventDefault();moveModel(...moves[e.key]);}else if(e.key==="+"||e.key==="="){e.preventDefault();setZoom(z=>Math.min(12,z+1));}else if(e.key==="-"){e.preventDefault();setZoom(z=>Math.max(-5,z-1));}else if(e.key==="Home"){e.preventDefault();resetView();}}}>
           {atlas && !error && (compatibility ? <CompatibilityScene key={generation} atlas={atlas} state={sceneState} onSelect={pick} onProgress={setProgress} onError={setError}/> : <AnatomyScene key={generation} atlas={atlas} state={sceneState} onSelect={pick} onProgress={setProgress} onError={handleRendererError}/>)}
           {!requested && <div className="atlas-start"><span className="atlas-start-icon"><Icon name="layers"/></span><p className="eyebrow">GET A CLOSER LOOK</p><h2>A whole body<br />of connections.</h2><p>Rotate the reference anatomy, peel away systems and explore individual structures in three dimensions.</p><button className="button button-dark" onClick={() => setRequested(true)}>Open the 3D atlas <Icon name="arrow"/></button><small>About 33 MB · loads only when you open it</small></div>}
           {requested && progress<100 && !error && <div className="atlas-loading" role="status"><strong>{atlas ? `Loading anatomy · ${progress}%` : "Opening the anatomy catalogue…"}</strong><progress value={progress} max={100}/><span>The complete body is loading. This can take a moment.</span></div>}
           {error && <div className="atlas-error" role="alert"><h2>Let’s try that again.</h2><p>{error}</p><button className="button button-dark" onClick={() => { setError("");setProgress(0);setAtlas(null);setGeneration(g=>g+1); }}>Reload atlas</button></div>}
           {atlas&&progress===100&&!error&&countVisible===0&&<div className="atlas-empty"><p>No layers are visible in this view.</p><button className="button button-dark" onClick={()=>showPreset("all")}>Show all systems</button></div>}
-          {atlas&&progress===100&&!error&&<div className="atlas-canvas-hint">{compatibility ? "Compatibility view · Drag to rotate · Use + / − to zoom" : "Drag to rotate · Scroll or pinch to zoom · Select a structure"}</div>}
+          {atlas&&progress===100&&!error&&<div className="atlas-canvas-hint">{mode==="move"?"Drag to move · Scroll / pinch to zoom · Tap to select":"Drag to rotate · Two fingers to move · Scroll / pinch to zoom"}</div>}
         </div>
         <div className="atlas-view-status"><span aria-live="polite">{atlas ? `${countVisible.toLocaleString()} structures ${progress===100&&!error ? "visible" : "selected"}` : "Anatomy that you can explore"}{region!=="Whole body" ? ` · ${region}` : ""}</span><button aria-pressed={rotate} disabled={!atlas||isolate||compatibility} onClick={()=>setRotate(!rotate)}>{rotate ? "Pause rotation" : "Auto-rotate"}</button></div>
         <div className="atlas-detail" aria-live="polite">{selected ? <><div className="atlas-detail-title"><div><span>{selectedSystems.map(s=>s.name).join(" · ")}</span><h2>{selected.name}</h2></div><button aria-label="Clear selected structure" onClick={()=>{setSelected(null);setIsolate(false);setReset(r=>r+1);}}><Icon name="close"/></button></div><p className="atlas-source-id">{selected.id} · {selected.elements.length} {selected.elements.length===1 ? "mesh" : "meshes"} in this selection</p>{explanation?<p>{explanation}</p>:<><strong className="atlas-system-context">System context</strong><p>{selectedSystems[0]?.description}</p></>}<div className="atlas-detail-actions"><button className="button button-dark" onClick={()=>{setIsolate(!isolate);setZoom(0);setReset(r=>r+1);}}>{isolate ? "Show in the body" : "Isolate structure"}<Icon name="target"/></button><button className="text-button" onClick={resetView}>Centre view</button></div></>:<><p className="eyebrow">HOW DOES IT ALL FIT TOGETHER?</p><h2>Select something that makes you curious.</h2><p>Search the sidebar, jump to an organ, or click the model. Use layer checkboxes to see how one system relates to another.</p></>}</div>
