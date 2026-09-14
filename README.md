@@ -16,7 +16,7 @@ starting a forward-only, randomized attempt.
 
 - A new light learning-studio interface, green/lime/orange palette, fully clickable
   content cards, keyboard search and responsive navigation.
-- Human Atlas at `/atlas`: 2,234 selectable structures, 15 systems, region
+- Human Atlas at `/atlas`: 2,992 selectable objects (including 16 labelled teaching routes), 15 systems, region
   filters, organ search, isolation, rotation and zoom.
 - Biology Lab at `/lab`: interactive enzyme saturation, osmosis and genetic crosses.
 - Reading focus and printable article revision sheets.

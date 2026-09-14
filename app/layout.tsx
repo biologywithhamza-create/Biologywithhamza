@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./activity-upgrade.css";
+import "./atlas/atlas-upgrade.css";
 
 export const metadata: Metadata = {
   title: {

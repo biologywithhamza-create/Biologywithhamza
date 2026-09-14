@@ -7,7 +7,7 @@ import {mergeGeometries} from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import {createExplosionLayout} from './explosion-layout';
 import {decodeModelResponse} from './model-download';
 import {PointerTap} from './pointer-tap';
-import {SYSTEMS,type Atlas,type SceneState} from './anatomy';
+import {SYSTEMS, partIsVisible,type Atlas,type SceneState} from './anatomy';
 interface Props {atlas:Atlas;state:SceneState;onSelect:(id:string)=>void;onProgress:(n:number)=>void;onError:(s:string)=>void}
 export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:Props){
  const host=useRef<HTMLDivElement>(null),latest=useRef(state),select=useRef(onSelect);
@@ -78,8 +78,8 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
   (async()=>{try{let cursor=0;await Promise.all(Array.from({length:3},async()=>{while(cursor<atlas.chunks.length){const i=cursor++;await loadChunk(i);}}));if(!disposed){ready=true;dirty=true;}}catch(e){if(!disposed)onError(e instanceof Error?e.message:'Could not load the anatomy.');}})();
   const fit=(view:string,extent=0)=>{
    camera.clearViewOffset();
-   const s=latest.current, box=new T.Box3(), region=s.regionParts ? new Set(s.regionParts) : null;
-   atlas.parts.forEach((p,i)=>{if(s.isolate?s.selected.includes(p.id):(s.visible.includes(p.system)&&(!region||region.has(p.id)))||s.selected.includes(p.id))box.union(bounds[i]);});
+   const s=latest.current, box=new T.Box3();
+   atlas.parts.forEach((p,i)=>{if(partIsVisible(p,s))box.union(bounds[i]);});
    if(box.isEmpty())box.set(new T.Vector3(-.5,0,-.2),new T.Vector3(.5,1.75,.2));
    const center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3());
    if(extent>.4){center.set(0,.85,0);size.set(packingWidth,packingHeight,.2);}
@@ -88,7 +88,7 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
    const distance=Math.max(.1,Math.max(size.y,horizontal/camera.aspect)/(2*Math.tan(T.MathUtils.degToRad(camera.fov/2)))*1.18+size.z*.5);
    controls.target.copy(center);camera.position.copy(center).addScaledVector(direction,distance);controls.update();dirty=true;
   };
-  const resize=()=>{layoutKey='';lastState=null;renderer.setPixelRatio(Math.min(devicePixelRatio,el.clientWidth<768||el.clientHeight<600?1.5:2));camera.aspect=el.clientWidth/el.clientHeight;camera.updateProjectionMatrix();renderer.setSize(el.clientWidth,el.clientHeight);fit(latest.current.view,amount);};const observer=new ResizeObserver(resize);observer.observe(el);
+  const resize=()=>{if(!el.clientWidth||!el.clientHeight)return;layoutKey='';lastState=null;renderer.setPixelRatio(Math.min(devicePixelRatio,el.clientWidth<768||el.clientHeight<600?1.5:2));camera.aspect=el.clientWidth/el.clientHeight;camera.updateProjectionMatrix();renderer.setSize(el.clientWidth,el.clientHeight);fit(latest.current.view,amount);};const observer=new ResizeObserver(resize);observer.observe(el);
   const raycaster=new T.Raycaster(),pointer=new T.Vector2(),tap=new PointerTap(),worldBox=new T.Box3(),hitPoint=new T.Vector3();
   const down=(e:PointerEvent)=>{hover.hidden=true;tap.down(e.pointerId,e.clientX,e.clientY,e.pointerType==='touch'?12:5);};
   const move=(e:PointerEvent)=>{tap.move(e.pointerId,e.clientX,e.clientY);if(e.buttons||amount<.5||e.pointerType==='touch'){hover.hidden=true;return;}const rect=el.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top,index=findTarget(x,y,12);hover.hidden=index<0;renderer.domElement.style.cursor=index<0?'grab':'pointer';if(index>=0){hover.textContent=atlas.parts[index].name;hover.style.left=`${Math.max(8,Math.min(x+14,el.clientWidth-260))}px`;hover.style.top=`${Math.max(8,Math.min(y+18,el.clientHeight-55))}px`;}};
@@ -103,12 +103,12 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
   const clock=new T.Clock();let lastExtent=-1,lastZoom=0,lastFocus=0,lastBackground="";let lastPan={x:0,y:0};
   const animate=()=>{
    if(disposed)return;frame=requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.05),s=latest.current;
-   const changed=lastState?.visible!==s.visible||lastState?.selected!==s.selected||lastState?.isolate!==s.isolate||lastState?.regionParts!==s.regionParts;
+   const changed=lastState?.hidden!==s.hidden||lastState?.visible!==s.visible||lastState?.selected!==s.selected||lastState?.isolate!==s.isolate||lastState?.regionParts!==s.regionParts;
    const moving=Math.abs(amount-s.explode)>.0001;
    if(moving){amount=T.MathUtils.damp(amount,s.explode,8,dt);dirty=true;}
    if(changed||moving||lastExtent<0){
-    const visible=new Set(s.visible),selection=new Set(s.selected);
-    const visibleParts=atlas.parts.filter(p=>s.isolate?selection.has(p.id):(visible.has(p.system)&&(!s.regionParts||s.regionParts.includes(p.id)))||selection.has(p.id));
+    const selection=new Set(s.selected);
+    const visibleParts=atlas.parts.filter(p=>partIsVisible(p,s));
     const nextLayoutKey=visibleParts.map(p=>p.id).join(',')+':'+camera.aspect.toFixed(3);
     if(nextLayoutKey!==layoutKey){const layout=createExplosionLayout(visibleParts,camera.aspect);packingWidth=layout.width;packingHeight=layout.height;atlas.parts.forEach((p,i)=>{const cell=layout.cells.get(p.id);offsets[i]=cell?new T.Vector3(cell.x,cell.y+.85,0):centers[i].clone();});layoutKey=nextLayoutKey;if(amount>.05&&!s.isolate)fit(s.view,Math.max(0,(amount-.3)/.7));}
 
@@ -116,7 +116,7 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
      const c=centers[i],destination=offsets[i];let dx=0,dy=0,dz=0;
      if(amount<=.45){const t=amount/.45;const group=SYSTEMS.findIndex(sys=>sys.id===p.system);const angle=group/SYSTEMS.length*Math.PI*2;dx=Math.sin(angle)*t*.48;dy=(c.y-.85)*t*.28;dz=Math.cos(angle)*t*.48;}
      else {const t=(amount-.45)/.55,group=SYSTEMS.findIndex(sys=>sys.id===p.system),angle=group/SYSTEMS.length*Math.PI*2;dx=T.MathUtils.lerp(Math.sin(angle)*.48,destination.x-c.x,t);dy=T.MathUtils.lerp((c.y-.85)*.28,destination.y-c.y,t);dz=T.MathUtils.lerp(Math.cos(angle)*.48,-c.z,t);}
-     const selected=selection.has(p.id);data.set([dx,dy,dz,(s.isolate?selected:(visible.has(p.system)&&(!s.regionParts||s.regionParts.includes(p.id)))||selected)?1:0],i*4);selectedData[i*4]=selected?255:0;
+     const selected=selection.has(p.id);data.set([dx,dy,dz,partIsVisible(p,s)?1:0],i*4);selectedData[i*4]=selected?255:0;
      markerPositions.set(data[i*4+3]>.5?[c.x+dx,c.y+dy,c.z+dz]:[10000,10000,10000],i*3);const mesh=pickers[i];if(mesh){mesh.position.set(dx,dy,dz);mesh.updateMatrix();mesh.updateMatrixWorld(true);}
     });partTexture.needsUpdate=true;selectionTexture.needsUpdate=true;markerGeometry.attributes.position.needsUpdate=true;lastState=s;lastExtent=amount;dirty=true;
    }
@@ -124,14 +124,14 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
    if(moving&&!s.isolate)fit(amount>.5?'front':s.view,Math.max(0,(amount-.3)/.7));
    const isolateKey=s.isolate?s.selected.join(',')+':'+s.view+':'+s.reset+':'+s.inspectorOpen+':'+camera.aspect:'';
    if(isolateKey!==lastIsolate||(s.isolate&&moving)){
-    if(s.isolate){const box=new T.Box3();atlas.parts.forEach((p,i)=>{if(s.selected.includes(p.id))box.union(bounds[i].clone().translate(new T.Vector3(data[i*4],data[i*4+1],data[i*4+2])));});
+    if(s.isolate){const box=new T.Box3();atlas.parts.forEach((p,i)=>{if(s.selected.includes(p.id)&&!s.hidden?.includes(p.id))box.union(bounds[i].clone().translate(new T.Vector3(data[i*4],data[i*4+1],data[i*4+2])));});
      if(!box.isEmpty()){camera.clearViewOffset();const center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3());const distance=Math.max(.075,Math.max(size.y,size.x/camera.aspect,size.z)/(2*Math.tan(T.MathUtils.degToRad(camera.fov/2)))*1.45);controls.target.copy(center);const direction=s.view==='front'?new T.Vector3(0,0,1):s.view==='back'?new T.Vector3(0,0,-1):s.view==='side'?new T.Vector3(1,0,0):new T.Vector3(.25,.08,1).normalize();camera.position.copy(center).addScaledVector(direction,distance);controls.update();dirty=true;}
 
     }else if(lastIsolate){camera.clearViewOffset();fit(s.view,amount);}
     lastIsolate=isolateKey;
    }
    if((s.zoom??0)!==lastZoom){const offset=camera.position.clone().sub(controls.target);offset.multiplyScalar(Math.pow(.8,(s.zoom??0)-lastZoom));if(offset.length()>.04&&offset.length()<40)camera.position.copy(controls.target).add(offset);lastZoom=s.zoom??0;controls.update();dirty=true;}
-   if((s.focus??0)!==lastFocus){lastFocus=s.focus??0;const box=new T.Box3();atlas.parts.forEach((p,i)=>{if(s.selected.includes(p.id))box.union(bounds[i]);});if(!box.isEmpty()){const center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3()),direction=camera.position.clone().sub(controls.target).normalize();const distance=Math.max(.09,Math.max(size.y,size.x/camera.aspect,size.z)/(2*Math.tan(T.MathUtils.degToRad(camera.fov/2)))*1.4);controls.target.copy(center);camera.position.copy(center).addScaledVector(direction,distance);controls.update();dirty=true;}}
+   if((s.focus??0)!==lastFocus){lastFocus=s.focus??0;const box=new T.Box3();atlas.parts.forEach((p,i)=>{if(s.selected.includes(p.id)&&!s.hidden?.includes(p.id))box.union(bounds[i]);});if(!box.isEmpty()){const center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3()),direction=camera.position.clone().sub(controls.target).normalize();const distance=Math.max(.09,Math.max(size.y,size.x/camera.aspect,size.z)/(2*Math.tan(T.MathUtils.degToRad(camera.fov/2)))*1.4);controls.target.copy(center);camera.position.copy(center).addScaledVector(direction,distance);controls.update();dirty=true;}}
    const pan=s.pan??{x:0,y:0};if(pan.x!==lastPan.x||pan.y!==lastPan.y){const scale=camera.position.distanceTo(controls.target)*.09;const offset=new T.Vector3().setFromMatrixColumn(camera.matrix,0).multiplyScalar(-(pan.x-lastPan.x)*scale).add(new T.Vector3().setFromMatrixColumn(camera.matrix,1).multiplyScalar((pan.y-lastPan.y)*scale));camera.position.add(offset);controls.target.add(offset);lastPan={...pan};controls.update();dirty=true;}
    if((s.background??"dark")!==lastBackground){lastBackground=s.background??"dark";const dark=lastBackground==="dark";renderer.setClearColor(dark?"#202a35":"#e7eaef");ground.material.color.set(dark?"#202a35":"#e7eaef");platform.material.color.set(dark?"#354352":"#d5dce4");dirty=true;}
    const surface=mats.get('integumentary') as T.MeshStandardMaterial;

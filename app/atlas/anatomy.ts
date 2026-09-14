@@ -17,11 +17,13 @@ export const SYSTEMS: {id:SystemId;name:string;color:string;description:string}[
  {id:'integumentary',name:'Body surface',color:'#ba9b7d',description:'The body surface provides an outer anatomical reference. The integumentary system forms a protective barrier and contributes to sensation and temperature regulation.'},
  {id:'connective',name:'Connective tissue',color:'#aec3bb',description:'Cartilage, ligaments, and other connective tissues support, connect, and separate structures. Their roles include stabilizing joints and distributing mechanical loads.'},
 ];
-export interface Part {id:string;name:string;conceptId:string;system:SystemId;chunk:number;positions:number;normals:number;indices:number;vertexCount:number;indexCount:number;bounds:[number[],number[]]}
-export interface Concept {id:string;name:string;elements:string[]}
+export interface Part {id:string;name:string;conceptId:string;system:SystemId;systems?:SystemId[];source?:string;kind?:string;description?:string;chunk:number;positions:number;normals:number;indices:number;vertexCount:number;indexCount:number;bounds:[number[],number[]]}
+export interface Concept {id:string;name:string;elements:string[];description?:string}
 export interface Atlas {version:string;sex?:'male';source?:string;scope?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number}
 export type View = 'three-quarter'|'front'|'back'|'side';
-export interface SceneState {mode?:"rotate"|"move";background?:"dark"|"light";pan?:{x:number;y:number};focus?:number;regionParts?:string[];surfaceOpacity?:number;zoom?:number;inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
+export interface SceneState {hidden?:string[];mode?:"rotate"|"move";background?:"dark"|"light";pan?:{x:number;y:number};focus?:number;regionParts?:string[];surfaceOpacity?:number;zoom?:number;inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
+export function belongsTo(p:Part,s:SystemId){return p.system===s||Boolean(p.systems?.includes(s));}
+export function partIsVisible(p:Part,s:SceneState){if(s.hidden?.includes(p.id))return false;return s.isolate?s.selected.includes(p.id):s.selected.includes(p.id)||(s.visible.some(id=>belongsTo(p,id))&&(!s.regionParts||s.regionParts.includes(p.id)));}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
 export const EXPLANATIONS:Record<string,string> = {
  'heart':'A muscular pump in the chest. Its right side sends blood to the lungs; its left side sends blood through the systemic circulation.',

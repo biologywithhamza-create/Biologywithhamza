@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import { SYSTEMS, type Atlas, type SceneState } from "./anatomy";
+import { SYSTEMS, partIsVisible, type Atlas, type SceneState } from "./anatomy";
 import { PointerTap } from "./pointer-tap";
 
 type LitePart = { id: string; p: number[]; i: number[] };
@@ -19,12 +19,12 @@ export default function CompatibilityScene({atlas,state,onSelect,onProgress,onEr
     const systemColors=new Map(SYSTEMS.map(s=>[s.id,[parseInt(s.color.slice(1,3),16),parseInt(s.color.slice(3,5),16),parseInt(s.color.slice(5,7),16)]]));
     function draw(){
       if(disposed||!ctx||!parts.length||!width||!height)return;
-      const s=latest.current,visible=new Set(s.visible),selected=new Set(s.selected),region=s.regionParts?new Set(s.regionParts):null;
+      const s=latest.current,selected=new Set(s.selected);
       const key=s.view+":"+s.reset;
       if(viewKey!==key){angle=s.view==="back"?Math.PI:s.view==="side"?Math.PI/2:s.view==="three-quarter"?.38:0;tilt=0;panX=0;panY=0;wheelZoom=1;focusIds=[];viewKey=key;}
       if((s.focus??0)!==lastFocus){lastFocus=s.focus??0;focusIds=[...s.selected];panX=0;panY=0;wheelZoom=1;}
       const pan=s.pan??{x:0,y:0};panX+=(pan.x-lastPan.x)*width*.09;panY+=(pan.y-lastPan.y)*height*.09;lastPan={...pan};
-      const showing=parts.filter(p=>{const source=partMap.get(p.id)!;return s.isolate?selected.has(p.id):(visible.has(source.system)&&(!region||region.has(p.id)))||selected.has(p.id);});
+      const showing=parts.filter(p=>{const source=partMap.get(p.id)!;return partIsVisible(source,s);});
       const ca=Math.cos(angle),sa=Math.sin(angle),ct=Math.cos(tilt),st=Math.sin(tilt);
       let left=Infinity,right=-Infinity,top=-Infinity,bottom=Infinity;
       const projected=showing.map(part=>{const out=new Float32Array(part.p.length);for(let i=0;i<part.p.length;i+=3){const x=part.p[i]*ca-part.p[i+2]*sa,z=part.p[i]*sa+part.p[i+2]*ca,y=part.p[i+1]*ct-z*st;out[i]=x;out[i+1]=y;out[i+2]=part.p[i+1]*st+z*ct;left=Math.min(left,x);right=Math.max(right,x);top=Math.max(top,y);bottom=Math.min(bottom,y);}return{part,out};});
@@ -46,7 +46,7 @@ export default function CompatibilityScene({atlas,state,onSelect,onProgress,onEr
       ctx.globalAlpha=1;
     }
     function schedule(){cancelAnimationFrame(frame);frame=requestAnimationFrame(draw);}redraw.current=schedule;
-    const resize=()=>{width=el.clientWidth;height=el.clientHeight;const pixelRatio=Math.min(window.devicePixelRatio||1,1.5);canvas.width=width*pixelRatio;canvas.height=height*pixelRatio;canvas.style.width=width+"px";canvas.style.height=height+"px";ctx.setTransform(pixelRatio,0,0,pixelRatio,0,0);schedule();};
+    const resize=()=>{if(!el.clientWidth||!el.clientHeight)return;width=el.clientWidth;height=el.clientHeight;const pixelRatio=Math.min(window.devicePixelRatio||1,1.5);canvas.width=width*pixelRatio;canvas.height=height*pixelRatio;canvas.style.width=width+"px";canvas.style.height=height+"px";ctx.setTransform(pixelRatio,0,0,pixelRatio,0,0);schedule();};
     const observer=new ResizeObserver(resize);observer.observe(el);
     const down=(e:PointerEvent)=>{tap.down(e.pointerId,e.clientX,e.clientY,7);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});canvas.setPointerCapture(e.pointerId);};
     const move=(e:PointerEvent)=>{tap.move(e.pointerId,e.clientX,e.clientY);const old=pointers.get(e.pointerId);if(!old)return;const before=[...pointers.values()];pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});const dx=e.clientX-old.x,dy=e.clientY-old.y;

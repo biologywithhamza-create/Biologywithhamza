@@ -33,3 +33,22 @@ This is a reference assembly with whole-body surface and selected organs, includ
 Viewer engine adapted from https://github.com/ashemag/human-atlas (MIT, copyright 2026 ashemag). Original license: licenses/HUMAN-ATLAS-MIT.txt. Changes: new website UI; region filters; keyboard-accessible view and zoom controls; independent canvas fitting; gzip-only distribution with decoder fallback. Geometry is unchanged from the compressed upstream release.
 
 Compatibility view: geometry reduced using meshoptimizer with a 2.5% per-mesh relative error bound; quantized to 0.01 mm coordinate precision and displayed with a custom Canvas 2D software renderer. All source structure identities are retained. Fine anatomical detail is reduced.
+
+
+## September 2026 anatomy expansion
+
+Additional peripheral nerves, lung lobes, pharyngeal regions, lymph-node groups, fascia, ligaments, menisci and discs are adapted from [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy), by Gauthier Kervyn and contributors, derived from BodyParts3D by the Database Center for Life Science (Kousaku Okubo). Z-Anatomy geometry and our adaptations are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The source also credits cranial-nerve reference anatomy to the University of Dundee, CAHID (CC BY 4.0).
+
+Adaptations: selected mesh and curve extraction, world transformations, source symmetry for pharyngeal regions and cauda equina, alignment to the existing body, triangulation, normal generation, geometry simplification, new labels, grouping and compressed web delivery. The source inner-ear and kidney additions with noncommercial licenses are excluded. No source definitions or brain additions were copied.
+
+The added spinal cord is BodyParts3D 4.3 neural tissue of spinal cord, FJ4426/FMA242005, obtained from the [BodyParts3D mirror](https://github.com/olivercase/body_parts_3d_api). Credit: DBCLS, BodyParts3D. The mirror retains the original CC BY-SA 2.1 Japan attribution; see the [current DBCLS license](https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html).
+
+The atlas catalogue, adapted anatomy-upgrade geometry and combined compatibility geometry are distributed under CC BY-SA 4.0. Existing source licenses remain applicable.
+
+### Teaching illustrations and limits
+
+Sixteen major lymphatic drainage paths (TEACH-* IDs) are original simplified teaching geometry, not traced reference vessels. They illustrate drainage from body regions towards the venous angles and do not represent every vessel, valve or node connection. These illustrations are also CC BY-SA 4.0.
+
+The interactive kidney cutaway and nephron pathway are original SVG teaching illustrations. They are deliberately separate from the 3D kidney surface. They are not a volumetric dissection or a microscopic reconstruction. Educational references: OpenStax Anatomy and Physiology 2e, sections 25.3–25.4.
+
+This is an adult male reference assembly, not an individual clinical scan or complete anatomical inventory. The source meshes differ slightly in pose; fine spatial relationships and small branches are simplified. A node-group model may contain multiple individual nodes. Normal nasal bones, the vomer and conchae are retained and explained rather than removing normal anatomy.
