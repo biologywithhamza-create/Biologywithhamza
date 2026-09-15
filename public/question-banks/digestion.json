@@ -1,0 +1,1408 @@
+{
+  "chapter": "Digestion",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "bile-duct-blockage",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "A bile duct is completely blocked while pancreatic secretion remains normal. Absorption of which nutrient class should decline most sharply?",
+      "options": [
+        "Lipids",
+        "Amino acids",
+        "Monosaccharides",
+        "Mineral ions"
+      ],
+      "answer": 0,
+      "explanation": "Bile salts emulsify fats and help form micelles, increasing access for lipase and carrying lipid digestion products to the intestinal surface."
+    },
+    {
+      "id": "pepsin-small-intestine",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Why does pepsin lose most of its activity after acidic chyme enters the small intestine?",
+      "options": [
+        "Pepsin is converted into bile",
+        "Bicarbonate raises the pH away from pepsin's optimum",
+        "All proteins have already been absorbed in the stomach",
+        "The small intestine contains no water"
+      ],
+      "answer": 1,
+      "explanation": "Pancreatic bicarbonate neutralizes gastric acid. Pepsin is adapted to strongly acidic conditions, so the higher intestinal pH reduces its activity."
+    },
+    {
+      "id": "villus-lacteal",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Damage limited to the lacteals inside intestinal villi would most directly reduce the transport of:",
+      "options": [
+        "Glucose into blood capillaries",
+        "Amino acids into the hepatic portal vein",
+        "Chylomicrons into the lymphatic system",
+        "Water by osmosis"
+      ],
+      "answer": 2,
+      "explanation": "Absorbed long-chain lipids are repackaged as chylomicrons and enter lacteals, whereas most sugars and amino acids enter blood capillaries."
+    },
+    {
+      "id": "sodium-glucose-cotransport",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "The sodium–potassium pumps of intestinal epithelial cells stop. Which absorptive process should weaken as the sodium gradient collapses?",
+      "options": [
+        "Simple diffusion of lipid-soluble molecules",
+        "Emulsification by bile salts",
+        "Hydrolysis of proteins in the stomach",
+        "Sodium–glucose co-transport from the lumen"
+      ],
+      "answer": 3,
+      "explanation": "The basolateral sodium–potassium pump maintains the sodium gradient that powers secondary active co-transport of sodium and glucose across the apical membrane."
+    },
+    {
+      "id": "digestion-chewing-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Food is broken into smaller pieces by chewing. Which outcome follows most directly?",
+      "options": [
+        "The rate of subsequent enzyme digestion can increase",
+        "Some starch is hydrolysed to maltose",
+        "The bolus is propelled forward",
+        "Pepsin gains a suitable pH and many swallowed microbes are killed"
+      ],
+      "answer": 0,
+      "explanation": "The rate of subsequent enzyme digestion can increase. Mechanical breakdown exposes a greater surface area to digestive secretions."
+    },
+    {
+      "id": "digestion-chewing-cause",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: the rate of subsequent enzyme digestion can increase?",
+      "options": [
+        "Salivary amylase mixes with cooked starch in the mouth",
+        "Food is broken into smaller pieces by chewing",
+        "Circular muscle contracts behind a food bolus in the alimentary canal",
+        "Hydrochloric acid is secreted into the stomach"
+      ],
+      "answer": 1,
+      "explanation": "The rate of subsequent enzyme digestion can increase. Mechanical breakdown exposes a greater surface area to digestive secretions."
+    },
+    {
+      "id": "digestion-chewing-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "After food is broken into smaller pieces by chewing, which explanation best links the change to its outcome?",
+      "options": [
+        "The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH",
+        "Coordinated waves of contraction and relaxation generate peristalsis",
+        "Mechanical breakdown exposes a greater surface area to digestive secretions",
+        "The acid creates a strongly acidic lumen and helps activate pepsinogen"
+      ],
+      "answer": 2,
+      "explanation": "The rate of subsequent enzyme digestion can increase. Mechanical breakdown exposes a greater surface area to digestive secretions."
+    },
+    {
+      "id": "digestion-chewing-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: food is broken into smaller pieces by chewing?",
+      "options": [
+        "Some starch is hydrolysed to maltose — The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH",
+        "The bolus is propelled forward — Coordinated waves of contraction and relaxation generate peristalsis",
+        "Pepsin gains a suitable pH and many swallowed microbes are killed — The acid creates a strongly acidic lumen and helps activate pepsinogen",
+        "The rate of subsequent enzyme digestion can increase — Mechanical breakdown exposes a greater surface area to digestive secretions"
+      ],
+      "answer": 3,
+      "explanation": "The rate of subsequent enzyme digestion can increase. Mechanical breakdown exposes a greater surface area to digestive secretions."
+    },
+    {
+      "id": "digestion-salivary-amylase-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "After salivary amylase mixes with cooked starch in the mouth, which observation is most likely?",
+      "options": [
+        "Some starch is hydrolysed to maltose",
+        "The bolus is propelled forward",
+        "Pepsin gains a suitable pH and many swallowed microbes are killed",
+        "Lipase digests the fat more rapidly"
+      ],
+      "answer": 0,
+      "explanation": "Some starch is hydrolysed to maltose. The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH."
+    },
+    {
+      "id": "digestion-salivary-amylase-cause",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "A learner records that some starch is hydrolysed to maltose. Which preceding event best accounts for it?",
+      "options": [
+        "Circular muscle contracts behind a food bolus in the alimentary canal",
+        "Salivary amylase mixes with cooked starch in the mouth",
+        "Hydrochloric acid is secreted into the stomach",
+        "Bile salts disperse a large fat droplet"
+      ],
+      "answer": 1,
+      "explanation": "Some starch is hydrolysed to maltose. The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH."
+    },
+    {
+      "id": "digestion-salivary-amylase-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "After salivary amylase mixes with cooked starch in the mouth, which explanation best links the change to its outcome?",
+      "options": [
+        "Coordinated waves of contraction and relaxation generate peristalsis",
+        "The acid creates a strongly acidic lumen and helps activate pepsinogen",
+        "The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH",
+        "Emulsification creates many small droplets with a greater enzyme-accessible surface"
+      ],
+      "answer": 2,
+      "explanation": "Some starch is hydrolysed to maltose. The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH."
+    },
+    {
+      "id": "digestion-salivary-amylase-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: salivary amylase mixes with cooked starch in the mouth?",
+      "options": [
+        "Lipase digests the fat more rapidly — Emulsification creates many small droplets with a greater enzyme-accessible surface",
+        "The bolus is propelled forward — Coordinated waves of contraction and relaxation generate peristalsis",
+        "Pepsin gains a suitable pH and many swallowed microbes are killed — The acid creates a strongly acidic lumen and helps activate pepsinogen",
+        "Some starch is hydrolysed to maltose — The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH"
+      ],
+      "answer": 3,
+      "explanation": "Some starch is hydrolysed to maltose. The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH."
+    },
+    {
+      "id": "digestion-peristalsis-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: Circular muscle contracts behind a food bolus in the alimentary canal. What should the model predict first?",
+      "options": [
+        "The bolus is propelled forward",
+        "Lipase digests the fat more rapidly",
+        "Pepsin gains a suitable pH and many swallowed microbes are killed",
+        "Nutrients are absorbed efficiently"
+      ],
+      "answer": 0,
+      "explanation": "The bolus is propelled forward. Coordinated waves of contraction and relaxation generate peristalsis."
+    },
+    {
+      "id": "digestion-peristalsis-cause",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when the bolus is propelled forward?",
+      "options": [
+        "Hydrochloric acid is secreted into the stomach",
+        "Circular muscle contracts behind a food bolus in the alimentary canal",
+        "The small intestine has folds, villi and microvilli",
+        "Bile salts disperse a large fat droplet"
+      ],
+      "answer": 1,
+      "explanation": "The bolus is propelled forward. Coordinated waves of contraction and relaxation generate peristalsis."
+    },
+    {
+      "id": "digestion-peristalsis-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "After circular muscle contracts behind a food bolus in the alimentary canal, which explanation best links the change to its outcome?",
+      "options": [
+        "Emulsification creates many small droplets with a greater enzyme-accessible surface",
+        "The acid creates a strongly acidic lumen and helps activate pepsinogen",
+        "Coordinated waves of contraction and relaxation generate peristalsis",
+        "These structures greatly enlarge the epithelial surface available for transport"
+      ],
+      "answer": 2,
+      "explanation": "The bolus is propelled forward. Coordinated waves of contraction and relaxation generate peristalsis."
+    },
+    {
+      "id": "digestion-peristalsis-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: circular muscle contracts behind a food bolus in the alimentary canal?",
+      "options": [
+        "Pepsin gains a suitable pH and many swallowed microbes are killed — The acid creates a strongly acidic lumen and helps activate pepsinogen",
+        "Nutrients are absorbed efficiently — These structures greatly enlarge the epithelial surface available for transport",
+        "Lipase digests the fat more rapidly — Emulsification creates many small droplets with a greater enzyme-accessible surface",
+        "The bolus is propelled forward — Coordinated waves of contraction and relaxation generate peristalsis"
+      ],
+      "answer": 3,
+      "explanation": "The bolus is propelled forward. Coordinated waves of contraction and relaxation generate peristalsis."
+    },
+    {
+      "id": "digestion-gastric-acid-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: Hydrochloric acid is secreted into the stomach?",
+      "options": [
+        "Pepsin gains a suitable pH and many swallowed microbes are killed",
+        "Nutrients are absorbed efficiently",
+        "Its epithelium is protected from acid and pepsin",
+        "Lipase digests the fat more rapidly"
+      ],
+      "answer": 0,
+      "explanation": "Pepsin gains a suitable pH and many swallowed microbes are killed. The acid creates a strongly acidic lumen and helps activate pepsinogen."
+    },
+    {
+      "id": "digestion-gastric-acid-cause",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: pepsin gains a suitable pH and many swallowed microbes are killed?",
+      "options": [
+        "Bile salts disperse a large fat droplet",
+        "Hydrochloric acid is secreted into the stomach",
+        "The small intestine has folds, villi and microvilli",
+        "The stomach secretes a bicarbonate-rich mucus layer"
+      ],
+      "answer": 1,
+      "explanation": "Pepsin gains a suitable pH and many swallowed microbes are killed. The acid creates a strongly acidic lumen and helps activate pepsinogen."
+    },
+    {
+      "id": "digestion-gastric-acid-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "After hydrochloric acid is secreted into the stomach, which explanation best links the change to its outcome?",
+      "options": [
+        "Emulsification creates many small droplets with a greater enzyme-accessible surface",
+        "These structures greatly enlarge the epithelial surface available for transport",
+        "The acid creates a strongly acidic lumen and helps activate pepsinogen",
+        "The barrier limits enzyme contact and maintains a less acidic pH at the cell surface"
+      ],
+      "answer": 2,
+      "explanation": "Pepsin gains a suitable pH and many swallowed microbes are killed. The acid creates a strongly acidic lumen and helps activate pepsinogen."
+    },
+    {
+      "id": "digestion-gastric-acid-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: hydrochloric acid is secreted into the stomach?",
+      "options": [
+        "Lipase digests the fat more rapidly — Emulsification creates many small droplets with a greater enzyme-accessible surface",
+        "Nutrients are absorbed efficiently — These structures greatly enlarge the epithelial surface available for transport",
+        "Its epithelium is protected from acid and pepsin — The barrier limits enzyme contact and maintains a less acidic pH at the cell surface",
+        "Pepsin gains a suitable pH and many swallowed microbes are killed — The acid creates a strongly acidic lumen and helps activate pepsinogen"
+      ],
+      "answer": 3,
+      "explanation": "Pepsin gains a suitable pH and many swallowed microbes are killed. The acid creates a strongly acidic lumen and helps activate pepsinogen."
+    },
+    {
+      "id": "digestion-bile-emulsion-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Bile salts disperse a large fat droplet. Which outcome follows most directly?",
+      "options": [
+        "Lipase digests the fat more rapidly",
+        "Nutrients are absorbed efficiently",
+        "Its epithelium is protected from acid and pepsin",
+        "Protein digestion does not begin inside the secretory cells"
+      ],
+      "answer": 0,
+      "explanation": "Lipase digests the fat more rapidly. Emulsification creates many small droplets with a greater enzyme-accessible surface."
+    },
+    {
+      "id": "digestion-bile-emulsion-cause",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: lipase digests the fat more rapidly?",
+      "options": [
+        "The small intestine has folds, villi and microvilli",
+        "Bile salts disperse a large fat droplet",
+        "The stomach secretes a bicarbonate-rich mucus layer",
+        "Chief cells release pepsin as inactive pepsinogen"
+      ],
+      "answer": 1,
+      "explanation": "Lipase digests the fat more rapidly. Emulsification creates many small droplets with a greater enzyme-accessible surface."
+    },
+    {
+      "id": "digestion-bile-emulsion-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "After bile salts disperse a large fat droplet, which explanation best links the change to its outcome?",
+      "options": [
+        "These structures greatly enlarge the epithelial surface available for transport",
+        "The barrier limits enzyme contact and maintains a less acidic pH at the cell surface",
+        "Emulsification creates many small droplets with a greater enzyme-accessible surface",
+        "Activation occurs mainly after the zymogen reaches the acidic stomach lumen"
+      ],
+      "answer": 2,
+      "explanation": "Lipase digests the fat more rapidly. Emulsification creates many small droplets with a greater enzyme-accessible surface."
+    },
+    {
+      "id": "digestion-bile-emulsion-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: bile salts disperse a large fat droplet?",
+      "options": [
+        "Nutrients are absorbed efficiently — These structures greatly enlarge the epithelial surface available for transport",
+        "Its epithelium is protected from acid and pepsin — The barrier limits enzyme contact and maintains a less acidic pH at the cell surface",
+        "Protein digestion does not begin inside the secretory cells — Activation occurs mainly after the zymogen reaches the acidic stomach lumen",
+        "Lipase digests the fat more rapidly — Emulsification creates many small droplets with a greater enzyme-accessible surface"
+      ],
+      "answer": 3,
+      "explanation": "Lipase digests the fat more rapidly. Emulsification creates many small droplets with a greater enzyme-accessible surface."
+    },
+    {
+      "id": "digestion-villus-area-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "After the small intestine has folds, villi and microvilli, which observation is most likely?",
+      "options": [
+        "Nutrients are absorbed efficiently",
+        "Its epithelium is protected from acid and pepsin",
+        "Protein digestion does not begin inside the secretory cells",
+        "Acidic chyme becomes neutralized"
+      ],
+      "answer": 0,
+      "explanation": "Nutrients are absorbed efficiently. These structures greatly enlarge the epithelial surface available for transport."
+    },
+    {
+      "id": "digestion-villus-area-cause",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "A learner records that nutrients are absorbed efficiently. Which preceding event best accounts for it?",
+      "options": [
+        "The stomach secretes a bicarbonate-rich mucus layer",
+        "The small intestine has folds, villi and microvilli",
+        "Chief cells release pepsin as inactive pepsinogen",
+        "Bicarbonate-rich pancreatic juice enters the duodenum"
+      ],
+      "answer": 1,
+      "explanation": "Nutrients are absorbed efficiently. These structures greatly enlarge the epithelial surface available for transport."
+    },
+    {
+      "id": "digestion-villus-area-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "After the small intestine has folds, villi and microvilli, which explanation best links the change to its outcome?",
+      "options": [
+        "The barrier limits enzyme contact and maintains a less acidic pH at the cell surface",
+        "Activation occurs mainly after the zymogen reaches the acidic stomach lumen",
+        "These structures greatly enlarge the epithelial surface available for transport",
+        "Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes"
+      ],
+      "answer": 2,
+      "explanation": "Nutrients are absorbed efficiently. These structures greatly enlarge the epithelial surface available for transport."
+    },
+    {
+      "id": "digestion-villus-area-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: the small intestine has folds, villi and microvilli?",
+      "options": [
+        "Acidic chyme becomes neutralized — Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes",
+        "Its epithelium is protected from acid and pepsin — The barrier limits enzyme contact and maintains a less acidic pH at the cell surface",
+        "Protein digestion does not begin inside the secretory cells — Activation occurs mainly after the zymogen reaches the acidic stomach lumen",
+        "Nutrients are absorbed efficiently — These structures greatly enlarge the epithelial surface available for transport"
+      ],
+      "answer": 3,
+      "explanation": "Nutrients are absorbed efficiently. These structures greatly enlarge the epithelial surface available for transport."
+    },
+    {
+      "id": "digestion-mucus-stomach-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "A student models this change: The stomach secretes a bicarbonate-rich mucus layer. What should the model predict first?",
+      "options": [
+        "Its epithelium is protected from acid and pepsin",
+        "Acidic chyme becomes neutralized",
+        "Protein digestion does not begin inside the secretory cells",
+        "A cascade of pancreatic protease activation begins"
+      ],
+      "answer": 0,
+      "explanation": "Its epithelium is protected from acid and pepsin. The barrier limits enzyme contact and maintains a less acidic pH at the cell surface."
+    },
+    {
+      "id": "digestion-mucus-stomach-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when its epithelium is protected from acid and pepsin?",
+      "options": [
+        "Chief cells release pepsin as inactive pepsinogen",
+        "The stomach secretes a bicarbonate-rich mucus layer",
+        "Enteropeptidase activates trypsinogen in the small intestine",
+        "Bicarbonate-rich pancreatic juice enters the duodenum"
+      ],
+      "answer": 1,
+      "explanation": "Its epithelium is protected from acid and pepsin. The barrier limits enzyme contact and maintains a less acidic pH at the cell surface."
+    },
+    {
+      "id": "digestion-mucus-stomach-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After the stomach secretes a bicarbonate-rich mucus layer, which explanation best links the change to its outcome?",
+      "options": [
+        "Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes",
+        "Activation occurs mainly after the zymogen reaches the acidic stomach lumen",
+        "The barrier limits enzyme contact and maintains a less acidic pH at the cell surface",
+        "Trypsin cleaves additional trypsinogen and other protease zymogens"
+      ],
+      "answer": 2,
+      "explanation": "Its epithelium is protected from acid and pepsin. The barrier limits enzyme contact and maintains a less acidic pH at the cell surface."
+    },
+    {
+      "id": "digestion-mucus-stomach-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the stomach secretes a bicarbonate-rich mucus layer?",
+      "options": [
+        "Protein digestion does not begin inside the secretory cells — Activation occurs mainly after the zymogen reaches the acidic stomach lumen",
+        "A cascade of pancreatic protease activation begins — Trypsin cleaves additional trypsinogen and other protease zymogens",
+        "Acidic chyme becomes neutralized — Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes",
+        "Its epithelium is protected from acid and pepsin — The barrier limits enzyme contact and maintains a less acidic pH at the cell surface"
+      ],
+      "answer": 3,
+      "explanation": "Its epithelium is protected from acid and pepsin. The barrier limits enzyme contact and maintains a less acidic pH at the cell surface."
+    },
+    {
+      "id": "digestion-pepsinogen-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Chief cells release pepsin as inactive pepsinogen?",
+      "options": [
+        "Protein digestion does not begin inside the secretory cells",
+        "A cascade of pancreatic protease activation begins",
+        "Lactose remains in the gut and may cause diarrhoea and gas",
+        "Acidic chyme becomes neutralized"
+      ],
+      "answer": 0,
+      "explanation": "Protein digestion does not begin inside the secretory cells. Activation occurs mainly after the zymogen reaches the acidic stomach lumen."
+    },
+    {
+      "id": "digestion-pepsinogen-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: protein digestion does not begin inside the secretory cells?",
+      "options": [
+        "Bicarbonate-rich pancreatic juice enters the duodenum",
+        "Chief cells release pepsin as inactive pepsinogen",
+        "Enteropeptidase activates trypsinogen in the small intestine",
+        "A person produces little brush-border lactase"
+      ],
+      "answer": 1,
+      "explanation": "Protein digestion does not begin inside the secretory cells. Activation occurs mainly after the zymogen reaches the acidic stomach lumen."
+    },
+    {
+      "id": "digestion-pepsinogen-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After chief cells release pepsin as inactive pepsinogen, which explanation best links the change to its outcome?",
+      "options": [
+        "Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes",
+        "Trypsin cleaves additional trypsinogen and other protease zymogens",
+        "Activation occurs mainly after the zymogen reaches the acidic stomach lumen",
+        "Undigested sugar retains water osmotically and is fermented by intestinal bacteria"
+      ],
+      "answer": 2,
+      "explanation": "Protein digestion does not begin inside the secretory cells. Activation occurs mainly after the zymogen reaches the acidic stomach lumen."
+    },
+    {
+      "id": "digestion-pepsinogen-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: chief cells release pepsin as inactive pepsinogen?",
+      "options": [
+        "Acidic chyme becomes neutralized — Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes",
+        "A cascade of pancreatic protease activation begins — Trypsin cleaves additional trypsinogen and other protease zymogens",
+        "Lactose remains in the gut and may cause diarrhoea and gas — Undigested sugar retains water osmotically and is fermented by intestinal bacteria",
+        "Protein digestion does not begin inside the secretory cells — Activation occurs mainly after the zymogen reaches the acidic stomach lumen"
+      ],
+      "answer": 3,
+      "explanation": "Protein digestion does not begin inside the secretory cells. Activation occurs mainly after the zymogen reaches the acidic stomach lumen."
+    },
+    {
+      "id": "digestion-pancreatic-bicarbonate-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Bicarbonate-rich pancreatic juice enters the duodenum. Which outcome follows most directly?",
+      "options": [
+        "Acidic chyme becomes neutralized",
+        "A cascade of pancreatic protease activation begins",
+        "Lactose remains in the gut and may cause diarrhoea and gas",
+        "Glucose can be absorbed from a relatively dilute intestinal lumen"
+      ],
+      "answer": 0,
+      "explanation": "Acidic chyme becomes neutralized. Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes."
+    },
+    {
+      "id": "digestion-pancreatic-bicarbonate-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: acidic chyme becomes neutralized?",
+      "options": [
+        "Enteropeptidase activates trypsinogen in the small intestine",
+        "Bicarbonate-rich pancreatic juice enters the duodenum",
+        "A person produces little brush-border lactase",
+        "Sodium enters an intestinal epithelial cell through a sodium-glucose cotransporter"
+      ],
+      "answer": 1,
+      "explanation": "Acidic chyme becomes neutralized. Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes."
+    },
+    {
+      "id": "digestion-pancreatic-bicarbonate-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After bicarbonate-rich pancreatic juice enters the duodenum, which explanation best links the change to its outcome?",
+      "options": [
+        "Trypsin cleaves additional trypsinogen and other protease zymogens",
+        "Undigested sugar retains water osmotically and is fermented by intestinal bacteria",
+        "Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes",
+        "The inward sodium gradient supplies energy for secondary active transport"
+      ],
+      "answer": 2,
+      "explanation": "Acidic chyme becomes neutralized. Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes."
+    },
+    {
+      "id": "digestion-pancreatic-bicarbonate-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: bicarbonate-rich pancreatic juice enters the duodenum?",
+      "options": [
+        "A cascade of pancreatic protease activation begins — Trypsin cleaves additional trypsinogen and other protease zymogens",
+        "Lactose remains in the gut and may cause diarrhoea and gas — Undigested sugar retains water osmotically and is fermented by intestinal bacteria",
+        "Glucose can be absorbed from a relatively dilute intestinal lumen — The inward sodium gradient supplies energy for secondary active transport",
+        "Acidic chyme becomes neutralized — Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes"
+      ],
+      "answer": 3,
+      "explanation": "Acidic chyme becomes neutralized. Hydrogen ions react with bicarbonate, producing conditions suitable for intestinal enzymes."
+    },
+    {
+      "id": "digestion-trypsin-activation-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After enteropeptidase activates trypsinogen in the small intestine, which observation is most likely?",
+      "options": [
+        "A cascade of pancreatic protease activation begins",
+        "Lactose remains in the gut and may cause diarrhoea and gas",
+        "Glucose can be absorbed from a relatively dilute intestinal lumen",
+        "It enters down its concentration gradient without direct ATP use"
+      ],
+      "answer": 0,
+      "explanation": "A cascade of pancreatic protease activation begins. Trypsin cleaves additional trypsinogen and other protease zymogens."
+    },
+    {
+      "id": "digestion-trypsin-activation-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "A learner records that a cascade of pancreatic protease activation begins. Which preceding event best accounts for it?",
+      "options": [
+        "A person produces little brush-border lactase",
+        "Enteropeptidase activates trypsinogen in the small intestine",
+        "Sodium enters an intestinal epithelial cell through a sodium-glucose cotransporter",
+        "Fructose binds its apical carrier in an intestinal epithelial cell"
+      ],
+      "answer": 1,
+      "explanation": "A cascade of pancreatic protease activation begins. Trypsin cleaves additional trypsinogen and other protease zymogens."
+    },
+    {
+      "id": "digestion-trypsin-activation-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After enteropeptidase activates trypsinogen in the small intestine, which explanation best links the change to its outcome?",
+      "options": [
+        "Undigested sugar retains water osmotically and is fermented by intestinal bacteria",
+        "The inward sodium gradient supplies energy for secondary active transport",
+        "Trypsin cleaves additional trypsinogen and other protease zymogens",
+        "Specific facilitated diffusion transports fructose through the membrane"
+      ],
+      "answer": 2,
+      "explanation": "A cascade of pancreatic protease activation begins. Trypsin cleaves additional trypsinogen and other protease zymogens."
+    },
+    {
+      "id": "digestion-trypsin-activation-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: enteropeptidase activates trypsinogen in the small intestine?",
+      "options": [
+        "It enters down its concentration gradient without direct ATP use — Specific facilitated diffusion transports fructose through the membrane",
+        "Lactose remains in the gut and may cause diarrhoea and gas — Undigested sugar retains water osmotically and is fermented by intestinal bacteria",
+        "Glucose can be absorbed from a relatively dilute intestinal lumen — The inward sodium gradient supplies energy for secondary active transport",
+        "A cascade of pancreatic protease activation begins — Trypsin cleaves additional trypsinogen and other protease zymogens"
+      ],
+      "answer": 3,
+      "explanation": "A cascade of pancreatic protease activation begins. Trypsin cleaves additional trypsinogen and other protease zymogens."
+    },
+    {
+      "id": "digestion-lactase-deficiency-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A person produces little brush-border lactase. What should the model predict first?",
+      "options": [
+        "Lactose remains in the gut and may cause diarrhoea and gas",
+        "It enters down its concentration gradient without direct ATP use",
+        "Glucose can be absorbed from a relatively dilute intestinal lumen",
+        "They enter blood capillaries and travel first to the liver"
+      ],
+      "answer": 0,
+      "explanation": "Lactose remains in the gut and may cause diarrhoea and gas. Undigested sugar retains water osmotically and is fermented by intestinal bacteria."
+    },
+    {
+      "id": "digestion-lactase-deficiency-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when lactose remains in the gut and may cause diarrhoea and gas?",
+      "options": [
+        "Sodium enters an intestinal epithelial cell through a sodium-glucose cotransporter",
+        "A person produces little brush-border lactase",
+        "Amino acids cross the epithelium of an intestinal villus",
+        "Fructose binds its apical carrier in an intestinal epithelial cell"
+      ],
+      "answer": 1,
+      "explanation": "Lactose remains in the gut and may cause diarrhoea and gas. Undigested sugar retains water osmotically and is fermented by intestinal bacteria."
+    },
+    {
+      "id": "digestion-lactase-deficiency-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After a person produces little brush-border lactase, which explanation best links the change to its outcome?",
+      "options": [
+        "Specific facilitated diffusion transports fructose through the membrane",
+        "The inward sodium gradient supplies energy for secondary active transport",
+        "Undigested sugar retains water osmotically and is fermented by intestinal bacteria",
+        "Water-soluble products enter portal blood rather than lacteals"
+      ],
+      "answer": 2,
+      "explanation": "Lactose remains in the gut and may cause diarrhoea and gas. Undigested sugar retains water osmotically and is fermented by intestinal bacteria."
+    },
+    {
+      "id": "digestion-lactase-deficiency-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a person produces little brush-border lactase?",
+      "options": [
+        "Glucose can be absorbed from a relatively dilute intestinal lumen — The inward sodium gradient supplies energy for secondary active transport",
+        "They enter blood capillaries and travel first to the liver — Water-soluble products enter portal blood rather than lacteals",
+        "It enters down its concentration gradient without direct ATP use — Specific facilitated diffusion transports fructose through the membrane",
+        "Lactose remains in the gut and may cause diarrhoea and gas — Undigested sugar retains water osmotically and is fermented by intestinal bacteria"
+      ],
+      "answer": 3,
+      "explanation": "Lactose remains in the gut and may cause diarrhoea and gas. Undigested sugar retains water osmotically and is fermented by intestinal bacteria."
+    },
+    {
+      "id": "digestion-glucose-cotransport-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Sodium enters an intestinal epithelial cell through a sodium-glucose cotransporter?",
+      "options": [
+        "Glucose can be absorbed from a relatively dilute intestinal lumen",
+        "They enter blood capillaries and travel first to the liver",
+        "They are repackaged and released as chylomicrons into lacteals",
+        "It enters down its concentration gradient without direct ATP use"
+      ],
+      "answer": 0,
+      "explanation": "Glucose can be absorbed from a relatively dilute intestinal lumen. The inward sodium gradient supplies energy for secondary active transport."
+    },
+    {
+      "id": "digestion-glucose-cotransport-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: glucose can be absorbed from a relatively dilute intestinal lumen?",
+      "options": [
+        "Fructose binds its apical carrier in an intestinal epithelial cell",
+        "Sodium enters an intestinal epithelial cell through a sodium-glucose cotransporter",
+        "Amino acids cross the epithelium of an intestinal villus",
+        "Long-chain fatty acids and monoglycerides enter an intestinal epithelial cell"
+      ],
+      "answer": 1,
+      "explanation": "Glucose can be absorbed from a relatively dilute intestinal lumen. The inward sodium gradient supplies energy for secondary active transport."
+    },
+    {
+      "id": "digestion-glucose-cotransport-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After sodium enters an intestinal epithelial cell through a sodium-glucose cotransporter, which explanation best links the change to its outcome?",
+      "options": [
+        "Specific facilitated diffusion transports fructose through the membrane",
+        "Water-soluble products enter portal blood rather than lacteals",
+        "The inward sodium gradient supplies energy for secondary active transport",
+        "Triglycerides reform in smooth ER and combine with proteins for lymphatic transport"
+      ],
+      "answer": 2,
+      "explanation": "Glucose can be absorbed from a relatively dilute intestinal lumen. The inward sodium gradient supplies energy for secondary active transport."
+    },
+    {
+      "id": "digestion-glucose-cotransport-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: sodium enters an intestinal epithelial cell through a sodium-glucose cotransporter?",
+      "options": [
+        "It enters down its concentration gradient without direct ATP use — Specific facilitated diffusion transports fructose through the membrane",
+        "They enter blood capillaries and travel first to the liver — Water-soluble products enter portal blood rather than lacteals",
+        "They are repackaged and released as chylomicrons into lacteals — Triglycerides reform in smooth ER and combine with proteins for lymphatic transport",
+        "Glucose can be absorbed from a relatively dilute intestinal lumen — The inward sodium gradient supplies energy for secondary active transport"
+      ],
+      "answer": 3,
+      "explanation": "Glucose can be absorbed from a relatively dilute intestinal lumen. The inward sodium gradient supplies energy for secondary active transport."
+    },
+    {
+      "id": "digestion-fructose-facilitated-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Fructose binds its apical carrier in an intestinal epithelial cell. Which outcome follows most directly?",
+      "options": [
+        "It enters down its concentration gradient without direct ATP use",
+        "They enter blood capillaries and travel first to the liver",
+        "They are repackaged and released as chylomicrons into lacteals",
+        "The gallbladder contracts and pancreatic enzyme secretion increases"
+      ],
+      "answer": 0,
+      "explanation": "It enters down its concentration gradient without direct ATP use. Specific facilitated diffusion transports fructose through the membrane."
+    },
+    {
+      "id": "digestion-fructose-facilitated-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: it enters down its concentration gradient without direct ATP use?",
+      "options": [
+        "Amino acids cross the epithelium of an intestinal villus",
+        "Fructose binds its apical carrier in an intestinal epithelial cell",
+        "Long-chain fatty acids and monoglycerides enter an intestinal epithelial cell",
+        "Fat enters the duodenum and stimulates cholecystokinin release"
+      ],
+      "answer": 1,
+      "explanation": "It enters down its concentration gradient without direct ATP use. Specific facilitated diffusion transports fructose through the membrane."
+    },
+    {
+      "id": "digestion-fructose-facilitated-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After fructose binds its apical carrier in an intestinal epithelial cell, which explanation best links the change to its outcome?",
+      "options": [
+        "Water-soluble products enter portal blood rather than lacteals",
+        "Triglycerides reform in smooth ER and combine with proteins for lymphatic transport",
+        "Specific facilitated diffusion transports fructose through the membrane",
+        "The hormone coordinates bile delivery with digestion of lipid-rich chyme"
+      ],
+      "answer": 2,
+      "explanation": "It enters down its concentration gradient without direct ATP use. Specific facilitated diffusion transports fructose through the membrane."
+    },
+    {
+      "id": "digestion-fructose-facilitated-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: fructose binds its apical carrier in an intestinal epithelial cell?",
+      "options": [
+        "They enter blood capillaries and travel first to the liver — Water-soluble products enter portal blood rather than lacteals",
+        "They are repackaged and released as chylomicrons into lacteals — Triglycerides reform in smooth ER and combine with proteins for lymphatic transport",
+        "The gallbladder contracts and pancreatic enzyme secretion increases — The hormone coordinates bile delivery with digestion of lipid-rich chyme",
+        "It enters down its concentration gradient without direct ATP use — Specific facilitated diffusion transports fructose through the membrane"
+      ],
+      "answer": 3,
+      "explanation": "It enters down its concentration gradient without direct ATP use. Specific facilitated diffusion transports fructose through the membrane."
+    },
+    {
+      "id": "digestion-amino-acid-blood-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After amino acids cross the epithelium of an intestinal villus, which observation is most likely?",
+      "options": [
+        "They enter blood capillaries and travel first to the liver",
+        "They are repackaged and released as chylomicrons into lacteals",
+        "The gallbladder contracts and pancreatic enzyme secretion increases",
+        "Water and electrolytes are recovered and faeces become more solid"
+      ],
+      "answer": 0,
+      "explanation": "They enter blood capillaries and travel first to the liver. Water-soluble products enter portal blood rather than lacteals."
+    },
+    {
+      "id": "digestion-amino-acid-blood-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "A learner records that they enter blood capillaries and travel first to the liver. Which preceding event best accounts for it?",
+      "options": [
+        "Long-chain fatty acids and monoglycerides enter an intestinal epithelial cell",
+        "Amino acids cross the epithelium of an intestinal villus",
+        "Fat enters the duodenum and stimulates cholecystokinin release",
+        "Chyme passes slowly through the large intestine"
+      ],
+      "answer": 1,
+      "explanation": "They enter blood capillaries and travel first to the liver. Water-soluble products enter portal blood rather than lacteals."
+    },
+    {
+      "id": "digestion-amino-acid-blood-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After amino acids cross the epithelium of an intestinal villus, which explanation best links the change to its outcome?",
+      "options": [
+        "Triglycerides reform in smooth ER and combine with proteins for lymphatic transport",
+        "The hormone coordinates bile delivery with digestion of lipid-rich chyme",
+        "Water-soluble products enter portal blood rather than lacteals",
+        "Epithelial transport creates osmotic water absorption from the remaining contents"
+      ],
+      "answer": 2,
+      "explanation": "They enter blood capillaries and travel first to the liver. Water-soluble products enter portal blood rather than lacteals."
+    },
+    {
+      "id": "digestion-amino-acid-blood-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: amino acids cross the epithelium of an intestinal villus?",
+      "options": [
+        "Water and electrolytes are recovered and faeces become more solid — Epithelial transport creates osmotic water absorption from the remaining contents",
+        "They are repackaged and released as chylomicrons into lacteals — Triglycerides reform in smooth ER and combine with proteins for lymphatic transport",
+        "The gallbladder contracts and pancreatic enzyme secretion increases — The hormone coordinates bile delivery with digestion of lipid-rich chyme",
+        "They enter blood capillaries and travel first to the liver — Water-soluble products enter portal blood rather than lacteals"
+      ],
+      "answer": 3,
+      "explanation": "They enter blood capillaries and travel first to the liver. Water-soluble products enter portal blood rather than lacteals."
+    },
+    {
+      "id": "digestion-chylomicron-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Long-chain fatty acids and monoglycerides enter an intestinal epithelial cell. What should the model predict first?",
+      "options": [
+        "They are repackaged and released as chylomicrons into lacteals",
+        "Water and electrolytes are recovered and faeces become more solid",
+        "The gallbladder contracts and pancreatic enzyme secretion increases",
+        "The liver encounters the nutrient-rich blood before the general circulation"
+      ],
+      "answer": 0,
+      "explanation": "They are repackaged and released as chylomicrons into lacteals. Triglycerides reform in smooth ER and combine with proteins for lymphatic transport."
+    },
+    {
+      "id": "digestion-chylomicron-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when they are repackaged and released as chylomicrons into lacteals?",
+      "options": [
+        "Fat enters the duodenum and stimulates cholecystokinin release",
+        "Long-chain fatty acids and monoglycerides enter an intestinal epithelial cell",
+        "Absorbed glucose leaves intestinal capillaries through the hepatic portal vein",
+        "Chyme passes slowly through the large intestine"
+      ],
+      "answer": 1,
+      "explanation": "They are repackaged and released as chylomicrons into lacteals. Triglycerides reform in smooth ER and combine with proteins for lymphatic transport."
+    },
+    {
+      "id": "digestion-chylomicron-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After long-chain fatty acids and monoglycerides enter an intestinal epithelial cell, which explanation best links the change to its outcome?",
+      "options": [
+        "Epithelial transport creates osmotic water absorption from the remaining contents",
+        "The hormone coordinates bile delivery with digestion of lipid-rich chyme",
+        "Triglycerides reform in smooth ER and combine with proteins for lymphatic transport",
+        "Portal circulation permits regulation, storage and detoxification after absorption"
+      ],
+      "answer": 2,
+      "explanation": "They are repackaged and released as chylomicrons into lacteals. Triglycerides reform in smooth ER and combine with proteins for lymphatic transport."
+    },
+    {
+      "id": "digestion-chylomicron-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: long-chain fatty acids and monoglycerides enter an intestinal epithelial cell?",
+      "options": [
+        "The gallbladder contracts and pancreatic enzyme secretion increases — The hormone coordinates bile delivery with digestion of lipid-rich chyme",
+        "The liver encounters the nutrient-rich blood before the general circulation — Portal circulation permits regulation, storage and detoxification after absorption",
+        "Water and electrolytes are recovered and faeces become more solid — Epithelial transport creates osmotic water absorption from the remaining contents",
+        "They are repackaged and released as chylomicrons into lacteals — Triglycerides reform in smooth ER and combine with proteins for lymphatic transport"
+      ],
+      "answer": 3,
+      "explanation": "They are repackaged and released as chylomicrons into lacteals. Triglycerides reform in smooth ER and combine with proteins for lymphatic transport."
+    },
+    {
+      "id": "digestion-gallbladder-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Fat enters the duodenum and stimulates cholecystokinin release?",
+      "options": [
+        "The gallbladder contracts and pancreatic enzyme secretion increases",
+        "The liver encounters the nutrient-rich blood before the general circulation",
+        "Absorption of several nutrients declines and malnutrition may develop",
+        "Water and electrolytes are recovered and faeces become more solid"
+      ],
+      "answer": 0,
+      "explanation": "The gallbladder contracts and pancreatic enzyme secretion increases. The hormone coordinates bile delivery with digestion of lipid-rich chyme."
+    },
+    {
+      "id": "digestion-gallbladder-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: the gallbladder contracts and pancreatic enzyme secretion increases?",
+      "options": [
+        "Chyme passes slowly through the large intestine",
+        "Fat enters the duodenum and stimulates cholecystokinin release",
+        "Absorbed glucose leaves intestinal capillaries through the hepatic portal vein",
+        "Autoimmune damage flattens villi in the small intestine"
+      ],
+      "answer": 1,
+      "explanation": "The gallbladder contracts and pancreatic enzyme secretion increases. The hormone coordinates bile delivery with digestion of lipid-rich chyme."
+    },
+    {
+      "id": "digestion-gallbladder-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After fat enters the duodenum and stimulates cholecystokinin release, which explanation best links the change to its outcome?",
+      "options": [
+        "Epithelial transport creates osmotic water absorption from the remaining contents",
+        "Portal circulation permits regulation, storage and detoxification after absorption",
+        "The hormone coordinates bile delivery with digestion of lipid-rich chyme",
+        "Loss of villous surface and transporter-bearing epithelium reduces uptake capacity"
+      ],
+      "answer": 2,
+      "explanation": "The gallbladder contracts and pancreatic enzyme secretion increases. The hormone coordinates bile delivery with digestion of lipid-rich chyme."
+    },
+    {
+      "id": "digestion-gallbladder-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: fat enters the duodenum and stimulates cholecystokinin release?",
+      "options": [
+        "Water and electrolytes are recovered and faeces become more solid — Epithelial transport creates osmotic water absorption from the remaining contents",
+        "The liver encounters the nutrient-rich blood before the general circulation — Portal circulation permits regulation, storage and detoxification after absorption",
+        "Absorption of several nutrients declines and malnutrition may develop — Loss of villous surface and transporter-bearing epithelium reduces uptake capacity",
+        "The gallbladder contracts and pancreatic enzyme secretion increases — The hormone coordinates bile delivery with digestion of lipid-rich chyme"
+      ],
+      "answer": 3,
+      "explanation": "The gallbladder contracts and pancreatic enzyme secretion increases. The hormone coordinates bile delivery with digestion of lipid-rich chyme."
+    },
+    {
+      "id": "digestion-large-intestine-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Chyme passes slowly through the large intestine. Which outcome follows most directly?",
+      "options": [
+        "Water and electrolytes are recovered and faeces become more solid",
+        "The liver encounters the nutrient-rich blood before the general circulation",
+        "Absorption of several nutrients declines and malnutrition may develop",
+        "Fat digestion and absorption decline more than carbohydrate digestion"
+      ],
+      "answer": 0,
+      "explanation": "Water and electrolytes are recovered and faeces become more solid. Epithelial transport creates osmotic water absorption from the remaining contents."
+    },
+    {
+      "id": "digestion-large-intestine-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: water and electrolytes are recovered and faeces become more solid?",
+      "options": [
+        "Absorbed glucose leaves intestinal capillaries through the hepatic portal vein",
+        "Chyme passes slowly through the large intestine",
+        "Autoimmune damage flattens villi in the small intestine",
+        "A gallstone blocks the common bile duct"
+      ],
+      "answer": 1,
+      "explanation": "Water and electrolytes are recovered and faeces become more solid. Epithelial transport creates osmotic water absorption from the remaining contents."
+    },
+    {
+      "id": "digestion-large-intestine-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After chyme passes slowly through the large intestine, which explanation best links the change to its outcome?",
+      "options": [
+        "Portal circulation permits regulation, storage and detoxification after absorption",
+        "Loss of villous surface and transporter-bearing epithelium reduces uptake capacity",
+        "Epithelial transport creates osmotic water absorption from the remaining contents",
+        "Bile salts cannot efficiently emulsify lipids or support micelle formation"
+      ],
+      "answer": 2,
+      "explanation": "Water and electrolytes are recovered and faeces become more solid. Epithelial transport creates osmotic water absorption from the remaining contents."
+    },
+    {
+      "id": "digestion-large-intestine-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: chyme passes slowly through the large intestine?",
+      "options": [
+        "The liver encounters the nutrient-rich blood before the general circulation — Portal circulation permits regulation, storage and detoxification after absorption",
+        "Absorption of several nutrients declines and malnutrition may develop — Loss of villous surface and transporter-bearing epithelium reduces uptake capacity",
+        "Fat digestion and absorption decline more than carbohydrate digestion — Bile salts cannot efficiently emulsify lipids or support micelle formation",
+        "Water and electrolytes are recovered and faeces become more solid — Epithelial transport creates osmotic water absorption from the remaining contents"
+      ],
+      "answer": 3,
+      "explanation": "Water and electrolytes are recovered and faeces become more solid. Epithelial transport creates osmotic water absorption from the remaining contents."
+    },
+    {
+      "id": "digestion-hepatic-portal-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After absorbed glucose leaves intestinal capillaries through the hepatic portal vein, which observation is most likely?",
+      "options": [
+        "The liver encounters the nutrient-rich blood before the general circulation",
+        "Absorption of several nutrients declines and malnutrition may develop",
+        "Fat digestion and absorption decline more than carbohydrate digestion",
+        "Proteins, starch and triglycerides remain incompletely digested"
+      ],
+      "answer": 0,
+      "explanation": "The liver encounters the nutrient-rich blood before the general circulation. Portal circulation permits regulation, storage and detoxification after absorption."
+    },
+    {
+      "id": "digestion-hepatic-portal-cause",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "A learner records that the liver encounters the nutrient-rich blood before the general circulation. Which preceding event best accounts for it?",
+      "options": [
+        "Autoimmune damage flattens villi in the small intestine",
+        "Absorbed glucose leaves intestinal capillaries through the hepatic portal vein",
+        "A gallstone blocks the common bile duct",
+        "The exocrine pancreas releases few digestive enzymes"
+      ],
+      "answer": 1,
+      "explanation": "The liver encounters the nutrient-rich blood before the general circulation. Portal circulation permits regulation, storage and detoxification after absorption."
+    },
+    {
+      "id": "digestion-hepatic-portal-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "After absorbed glucose leaves intestinal capillaries through the hepatic portal vein, which explanation best links the change to its outcome?",
+      "options": [
+        "Loss of villous surface and transporter-bearing epithelium reduces uptake capacity",
+        "Bile salts cannot efficiently emulsify lipids or support micelle formation",
+        "Portal circulation permits regulation, storage and detoxification after absorption",
+        "Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase"
+      ],
+      "answer": 2,
+      "explanation": "The liver encounters the nutrient-rich blood before the general circulation. Portal circulation permits regulation, storage and detoxification after absorption."
+    },
+    {
+      "id": "digestion-hepatic-portal-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: absorbed glucose leaves intestinal capillaries through the hepatic portal vein?",
+      "options": [
+        "Proteins, starch and triglycerides remain incompletely digested — Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase",
+        "Absorption of several nutrients declines and malnutrition may develop — Loss of villous surface and transporter-bearing epithelium reduces uptake capacity",
+        "Fat digestion and absorption decline more than carbohydrate digestion — Bile salts cannot efficiently emulsify lipids or support micelle formation",
+        "The liver encounters the nutrient-rich blood before the general circulation — Portal circulation permits regulation, storage and detoxification after absorption"
+      ],
+      "answer": 3,
+      "explanation": "The liver encounters the nutrient-rich blood before the general circulation. Portal circulation permits regulation, storage and detoxification after absorption."
+    },
+    {
+      "id": "digestion-coeliac-villi-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Autoimmune damage flattens villi in the small intestine. What should the model predict first?",
+      "options": [
+        "Absorption of several nutrients declines and malnutrition may develop",
+        "Proteins, starch and triglycerides remain incompletely digested",
+        "Fat digestion and absorption decline more than carbohydrate digestion",
+        "Large volumes of watery diarrhoea develop"
+      ],
+      "answer": 0,
+      "explanation": "Absorption of several nutrients declines and malnutrition may develop. Loss of villous surface and transporter-bearing epithelium reduces uptake capacity."
+    },
+    {
+      "id": "digestion-coeliac-villi-cause",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when absorption of several nutrients declines and malnutrition may develop?",
+      "options": [
+        "A gallstone blocks the common bile duct",
+        "Autoimmune damage flattens villi in the small intestine",
+        "Cholera toxin keeps intestinal chloride channels active",
+        "The exocrine pancreas releases few digestive enzymes"
+      ],
+      "answer": 1,
+      "explanation": "Absorption of several nutrients declines and malnutrition may develop. Loss of villous surface and transporter-bearing epithelium reduces uptake capacity."
+    },
+    {
+      "id": "digestion-coeliac-villi-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "After autoimmune damage flattens villi in the small intestine, which explanation best links the change to its outcome?",
+      "options": [
+        "Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase",
+        "Bile salts cannot efficiently emulsify lipids or support micelle formation",
+        "Loss of villous surface and transporter-bearing epithelium reduces uptake capacity",
+        "Chloride secretion draws sodium and water osmotically into the intestinal lumen"
+      ],
+      "answer": 2,
+      "explanation": "Absorption of several nutrients declines and malnutrition may develop. Loss of villous surface and transporter-bearing epithelium reduces uptake capacity."
+    },
+    {
+      "id": "digestion-coeliac-villi-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: autoimmune damage flattens villi in the small intestine?",
+      "options": [
+        "Fat digestion and absorption decline more than carbohydrate digestion — Bile salts cannot efficiently emulsify lipids or support micelle formation",
+        "Large volumes of watery diarrhoea develop — Chloride secretion draws sodium and water osmotically into the intestinal lumen",
+        "Proteins, starch and triglycerides remain incompletely digested — Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase",
+        "Absorption of several nutrients declines and malnutrition may develop — Loss of villous surface and transporter-bearing epithelium reduces uptake capacity"
+      ],
+      "answer": 3,
+      "explanation": "Absorption of several nutrients declines and malnutrition may develop. Loss of villous surface and transporter-bearing epithelium reduces uptake capacity."
+    },
+    {
+      "id": "digestion-duct-block-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: A gallstone blocks the common bile duct?",
+      "options": [
+        "Fat digestion and absorption decline more than carbohydrate digestion",
+        "Large volumes of watery diarrhoea develop",
+        "Net water absorption improves",
+        "Proteins, starch and triglycerides remain incompletely digested"
+      ],
+      "answer": 0,
+      "explanation": "Fat digestion and absorption decline more than carbohydrate digestion. Bile salts cannot efficiently emulsify lipids or support micelle formation."
+    },
+    {
+      "id": "digestion-duct-block-cause",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: fat digestion and absorption decline more than carbohydrate digestion?",
+      "options": [
+        "The exocrine pancreas releases few digestive enzymes",
+        "A gallstone blocks the common bile duct",
+        "Cholera toxin keeps intestinal chloride channels active",
+        "A patient with secretory diarrhoea drinks a balanced glucose-salt solution"
+      ],
+      "answer": 1,
+      "explanation": "Fat digestion and absorption decline more than carbohydrate digestion. Bile salts cannot efficiently emulsify lipids or support micelle formation."
+    },
+    {
+      "id": "digestion-duct-block-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "After a gallstone blocks the common bile duct, which explanation best links the change to its outcome?",
+      "options": [
+        "Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase",
+        "Chloride secretion draws sodium and water osmotically into the intestinal lumen",
+        "Bile salts cannot efficiently emulsify lipids or support micelle formation",
+        "Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen"
+      ],
+      "answer": 2,
+      "explanation": "Fat digestion and absorption decline more than carbohydrate digestion. Bile salts cannot efficiently emulsify lipids or support micelle formation."
+    },
+    {
+      "id": "digestion-duct-block-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a gallstone blocks the common bile duct?",
+      "options": [
+        "Proteins, starch and triglycerides remain incompletely digested — Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase",
+        "Large volumes of watery diarrhoea develop — Chloride secretion draws sodium and water osmotically into the intestinal lumen",
+        "Net water absorption improves — Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen",
+        "Fat digestion and absorption decline more than carbohydrate digestion — Bile salts cannot efficiently emulsify lipids or support micelle formation"
+      ],
+      "answer": 3,
+      "explanation": "Fat digestion and absorption decline more than carbohydrate digestion. Bile salts cannot efficiently emulsify lipids or support micelle formation."
+    },
+    {
+      "id": "digestion-pancreatic-insufficiency-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "The exocrine pancreas releases few digestive enzymes. Which outcome follows most directly?",
+      "options": [
+        "Proteins, starch and triglycerides remain incompletely digested",
+        "Large volumes of watery diarrhoea develop",
+        "Net water absorption improves",
+        "Vitamin B12 and bile-salt absorption are particularly impaired"
+      ],
+      "answer": 0,
+      "explanation": "Proteins, starch and triglycerides remain incompletely digested. Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase."
+    },
+    {
+      "id": "digestion-pancreatic-insufficiency-cause",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: proteins, starch and triglycerides remain incompletely digested?",
+      "options": [
+        "Cholera toxin keeps intestinal chloride channels active",
+        "The exocrine pancreas releases few digestive enzymes",
+        "A patient with secretory diarrhoea drinks a balanced glucose-salt solution",
+        "A large terminal segment of ileum is surgically removed"
+      ],
+      "answer": 1,
+      "explanation": "Proteins, starch and triglycerides remain incompletely digested. Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase."
+    },
+    {
+      "id": "digestion-pancreatic-insufficiency-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "After the exocrine pancreas releases few digestive enzymes, which explanation best links the change to its outcome?",
+      "options": [
+        "Chloride secretion draws sodium and water osmotically into the intestinal lumen",
+        "Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen",
+        "Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase",
+        "Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts"
+      ],
+      "answer": 2,
+      "explanation": "Proteins, starch and triglycerides remain incompletely digested. Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase."
+    },
+    {
+      "id": "digestion-pancreatic-insufficiency-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: the exocrine pancreas releases few digestive enzymes?",
+      "options": [
+        "Large volumes of watery diarrhoea develop — Chloride secretion draws sodium and water osmotically into the intestinal lumen",
+        "Net water absorption improves — Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen",
+        "Vitamin B12 and bile-salt absorption are particularly impaired — Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts",
+        "Proteins, starch and triglycerides remain incompletely digested — Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase"
+      ],
+      "answer": 3,
+      "explanation": "Proteins, starch and triglycerides remain incompletely digested. Most small-intestinal hydrolysis depends on pancreatic proteases, amylase and lipase."
+    },
+    {
+      "id": "digestion-cholera-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "After cholera toxin keeps intestinal chloride channels active, which observation is most likely?",
+      "options": [
+        "Large volumes of watery diarrhoea develop",
+        "Net water absorption improves",
+        "Vitamin B12 and bile-salt absorption are particularly impaired",
+        "The rate of subsequent enzyme digestion can increase"
+      ],
+      "answer": 0,
+      "explanation": "Large volumes of watery diarrhoea develop. Chloride secretion draws sodium and water osmotically into the intestinal lumen."
+    },
+    {
+      "id": "digestion-cholera-cause",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "A learner records that large volumes of watery diarrhoea develop. Which preceding event best accounts for it?",
+      "options": [
+        "A patient with secretory diarrhoea drinks a balanced glucose-salt solution",
+        "Cholera toxin keeps intestinal chloride channels active",
+        "A large terminal segment of ileum is surgically removed",
+        "Food is broken into smaller pieces by chewing"
+      ],
+      "answer": 1,
+      "explanation": "Large volumes of watery diarrhoea develop. Chloride secretion draws sodium and water osmotically into the intestinal lumen."
+    },
+    {
+      "id": "digestion-cholera-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "After cholera toxin keeps intestinal chloride channels active, which explanation best links the change to its outcome?",
+      "options": [
+        "Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen",
+        "Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts",
+        "Chloride secretion draws sodium and water osmotically into the intestinal lumen",
+        "Mechanical breakdown exposes a greater surface area to digestive secretions"
+      ],
+      "answer": 2,
+      "explanation": "Large volumes of watery diarrhoea develop. Chloride secretion draws sodium and water osmotically into the intestinal lumen."
+    },
+    {
+      "id": "digestion-cholera-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: cholera toxin keeps intestinal chloride channels active?",
+      "options": [
+        "The rate of subsequent enzyme digestion can increase — Mechanical breakdown exposes a greater surface area to digestive secretions",
+        "Net water absorption improves — Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen",
+        "Vitamin B12 and bile-salt absorption are particularly impaired — Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts",
+        "Large volumes of watery diarrhoea develop — Chloride secretion draws sodium and water osmotically into the intestinal lumen"
+      ],
+      "answer": 3,
+      "explanation": "Large volumes of watery diarrhoea develop. Chloride secretion draws sodium and water osmotically into the intestinal lumen."
+    },
+    {
+      "id": "digestion-oral-rehydration-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A patient with secretory diarrhoea drinks a balanced glucose-salt solution. What should the model predict first?",
+      "options": [
+        "Net water absorption improves",
+        "The rate of subsequent enzyme digestion can increase",
+        "Vitamin B12 and bile-salt absorption are particularly impaired",
+        "Some starch is hydrolysed to maltose"
+      ],
+      "answer": 0,
+      "explanation": "Net water absorption improves. Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen."
+    },
+    {
+      "id": "digestion-oral-rehydration-cause",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when net water absorption improves?",
+      "options": [
+        "A large terminal segment of ileum is surgically removed",
+        "A patient with secretory diarrhoea drinks a balanced glucose-salt solution",
+        "Salivary amylase mixes with cooked starch in the mouth",
+        "Food is broken into smaller pieces by chewing"
+      ],
+      "answer": 1,
+      "explanation": "Net water absorption improves. Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen."
+    },
+    {
+      "id": "digestion-oral-rehydration-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "After a patient with secretory diarrhoea drinks a balanced glucose-salt solution, which explanation best links the change to its outcome?",
+      "options": [
+        "Mechanical breakdown exposes a greater surface area to digestive secretions",
+        "Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts",
+        "Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen",
+        "The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH"
+      ],
+      "answer": 2,
+      "explanation": "Net water absorption improves. Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen."
+    },
+    {
+      "id": "digestion-oral-rehydration-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a patient with secretory diarrhoea drinks a balanced glucose-salt solution?",
+      "options": [
+        "Vitamin B12 and bile-salt absorption are particularly impaired — Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts",
+        "Some starch is hydrolysed to maltose — The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH",
+        "The rate of subsequent enzyme digestion can increase — Mechanical breakdown exposes a greater surface area to digestive secretions",
+        "Net water absorption improves — Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen"
+      ],
+      "answer": 3,
+      "explanation": "Net water absorption improves. Intact sodium-glucose cotransport draws solutes and then water from the intestinal lumen."
+    },
+    {
+      "id": "digestion-ileum-removal-outcome",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: A large terminal segment of ileum is surgically removed?",
+      "options": [
+        "Vitamin B12 and bile-salt absorption are particularly impaired",
+        "Some starch is hydrolysed to maltose",
+        "The bolus is propelled forward",
+        "The rate of subsequent enzyme digestion can increase"
+      ],
+      "answer": 0,
+      "explanation": "Vitamin B12 and bile-salt absorption are particularly impaired. Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts."
+    },
+    {
+      "id": "digestion-ileum-removal-cause",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: vitamin B12 and bile-salt absorption are particularly impaired?",
+      "options": [
+        "Food is broken into smaller pieces by chewing",
+        "A large terminal segment of ileum is surgically removed",
+        "Salivary amylase mixes with cooked starch in the mouth",
+        "Circular muscle contracts behind a food bolus in the alimentary canal"
+      ],
+      "answer": 1,
+      "explanation": "Vitamin B12 and bile-salt absorption are particularly impaired. Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts."
+    },
+    {
+      "id": "digestion-ileum-removal-mechanism",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "After a large terminal segment of ileum is surgically removed, which explanation best links the change to its outcome?",
+      "options": [
+        "Mechanical breakdown exposes a greater surface area to digestive secretions",
+        "The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH",
+        "Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts",
+        "Coordinated waves of contraction and relaxation generate peristalsis"
+      ],
+      "answer": 2,
+      "explanation": "Vitamin B12 and bile-salt absorption are particularly impaired. Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts."
+    },
+    {
+      "id": "digestion-ileum-removal-integrated",
+      "chapter": "Digestion",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a large terminal segment of ileum is surgically removed?",
+      "options": [
+        "The rate of subsequent enzyme digestion can increase — Mechanical breakdown exposes a greater surface area to digestive secretions",
+        "Some starch is hydrolysed to maltose — The enzyme breaks internal alpha-1,4 glycosidic bonds near neutral pH",
+        "The bolus is propelled forward — Coordinated waves of contraction and relaxation generate peristalsis",
+        "Vitamin B12 and bile-salt absorption are particularly impaired — Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts"
+      ],
+      "answer": 3,
+      "explanation": "Vitamin B12 and bile-salt absorption are particularly impaired. Specialized ileal transporters normally recover intrinsic-factor-bound B12 and recycle bile salts."
+    }
+  ]
+}

@@ -1,0 +1,1408 @@
+{
+  "chapter": "Inheritance",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "test-cross",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "An organism showing a dominant phenotype is crossed with a homozygous recessive organism. The purpose is to determine the unknown organism's:",
+      "options": [
+        "Genotype",
+        "Age",
+        "Chromosome number",
+        "Mutation rate"
+      ],
+      "answer": 0,
+      "explanation": "A test cross reveals whether the dominant-looking parent is homozygous or heterozygous from the phenotypes of its offspring."
+    },
+    {
+      "id": "independent-assortment",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Independent assortment arises most directly from the random orientation of:",
+      "options": [
+        "Sister chromatids at prophase I",
+        "Homologous chromosome pairs at metaphase I",
+        "Ribosomes during translation",
+        "Genes during DNA replication"
+      ],
+      "answer": 1,
+      "explanation": "Each homologous pair aligns independently at metaphase I, producing different combinations of maternal and paternal chromosomes in gametes."
+    },
+    {
+      "id": "incomplete-dominance",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Red flowers crossed with white flowers produce pink heterozygotes. This pattern is:",
+      "options": [
+        "Complete dominance",
+        "Sex linkage",
+        "Incomplete dominance",
+        "Polyploidy"
+      ],
+      "answer": 2,
+      "explanation": "In incomplete dominance the heterozygote has an intermediate phenotype rather than matching either homozygote."
+    },
+    {
+      "id": "x-linked",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Why are X-linked recessive traits often expressed more frequently in males?",
+      "options": [
+        "Males have two X chromosomes",
+        "Male cells do not undergo mitosis",
+        "The Y chromosome carries a dominant copy of every gene",
+        "A male has only one allele for most X-linked genes"
+      ],
+      "answer": 3,
+      "explanation": "A male is hemizygous for most X-linked genes, so a recessive allele on his single X chromosome has no second allele to mask it."
+    },
+    {
+      "id": "inheritance-alleles-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "A diploid individual inherits one allele of a gene from each parent. Which outcome follows most directly?",
+      "options": [
+        "Its genotype contains two alleles at that locus",
+        "Its phenotype matches the dominant homozygote",
+        "The two alleles of a gene enter different gametes",
+        "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring"
+      ],
+      "answer": 0,
+      "explanation": "Its genotype contains two alleles at that locus. Homologous chromosomes carry corresponding gene positions from maternal and paternal origins."
+    },
+    {
+      "id": "inheritance-alleles-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: its genotype contains two alleles at that locus?",
+      "options": [
+        "A heterozygote carries one completely dominant allele",
+        "A diploid individual inherits one allele of a gene from each parent",
+        "Homologous chromosomes separate in meiosis I",
+        "Two heterozygotes for a completely dominant autosomal trait are crossed"
+      ],
+      "answer": 1,
+      "explanation": "Its genotype contains two alleles at that locus. Homologous chromosomes carry corresponding gene positions from maternal and paternal origins."
+    },
+    {
+      "id": "inheritance-alleles-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "After a diploid individual inherits one allele of a gene from each parent, which explanation best links the change to its outcome?",
+      "options": [
+        "One functional allele produces enough gene product to determine the observed trait",
+        "Alleles at the same locus reside on opposite homologues before segregation",
+        "Homologous chromosomes carry corresponding gene positions from maternal and paternal origins",
+        "Each parent produces two gamete types equally and only one genotype is recessive"
+      ],
+      "answer": 2,
+      "explanation": "Its genotype contains two alleles at that locus. Homologous chromosomes carry corresponding gene positions from maternal and paternal origins."
+    },
+    {
+      "id": "inheritance-alleles-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a diploid individual inherits one allele of a gene from each parent?",
+      "options": [
+        "Its phenotype matches the dominant homozygote — One functional allele produces enough gene product to determine the observed trait",
+        "The two alleles of a gene enter different gametes — Alleles at the same locus reside on opposite homologues before segregation",
+        "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring — Each parent produces two gamete types equally and only one genotype is recessive",
+        "Its genotype contains two alleles at that locus — Homologous chromosomes carry corresponding gene positions from maternal and paternal origins"
+      ],
+      "answer": 3,
+      "explanation": "Its genotype contains two alleles at that locus. Homologous chromosomes carry corresponding gene positions from maternal and paternal origins."
+    },
+    {
+      "id": "inheritance-dominant-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "After a heterozygote carries one completely dominant allele, which observation is most likely?",
+      "options": [
+        "Its phenotype matches the dominant homozygote",
+        "The two alleles of a gene enter different gametes",
+        "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring",
+        "Offspring phenotypes reveal whether the unknown parent is heterozygous"
+      ],
+      "answer": 0,
+      "explanation": "Its phenotype matches the dominant homozygote. One functional allele produces enough gene product to determine the observed trait."
+    },
+    {
+      "id": "inheritance-dominant-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "A learner records that its phenotype matches the dominant homozygote. Which preceding event best accounts for it?",
+      "options": [
+        "Homologous chromosomes separate in meiosis I",
+        "A heterozygote carries one completely dominant allele",
+        "Two heterozygotes for a completely dominant autosomal trait are crossed",
+        "An individual with a dominant phenotype is crossed with a homozygous recessive partner"
+      ],
+      "answer": 1,
+      "explanation": "Its phenotype matches the dominant homozygote. One functional allele produces enough gene product to determine the observed trait."
+    },
+    {
+      "id": "inheritance-dominant-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "After a heterozygote carries one completely dominant allele, which explanation best links the change to its outcome?",
+      "options": [
+        "Alleles at the same locus reside on opposite homologues before segregation",
+        "Each parent produces two gamete types equally and only one genotype is recessive",
+        "One functional allele produces enough gene product to determine the observed trait",
+        "The recessive partner contributes no dominant allele that could mask the tested gametes"
+      ],
+      "answer": 2,
+      "explanation": "Its phenotype matches the dominant homozygote. One functional allele produces enough gene product to determine the observed trait."
+    },
+    {
+      "id": "inheritance-dominant-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a heterozygote carries one completely dominant allele?",
+      "options": [
+        "Offspring phenotypes reveal whether the unknown parent is heterozygous — The recessive partner contributes no dominant allele that could mask the tested gametes",
+        "The two alleles of a gene enter different gametes — Alleles at the same locus reside on opposite homologues before segregation",
+        "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring — Each parent produces two gamete types equally and only one genotype is recessive",
+        "Its phenotype matches the dominant homozygote — One functional allele produces enough gene product to determine the observed trait"
+      ],
+      "answer": 3,
+      "explanation": "Its phenotype matches the dominant homozygote. One functional allele produces enough gene product to determine the observed trait."
+    },
+    {
+      "id": "inheritance-segregation-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: Homologous chromosomes separate in meiosis I. What should the model predict first?",
+      "options": [
+        "The two alleles of a gene enter different gametes",
+        "Offspring phenotypes reveal whether the unknown parent is heterozygous",
+        "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring",
+        "Both allele products are detectably expressed"
+      ],
+      "answer": 0,
+      "explanation": "The two alleles of a gene enter different gametes. Alleles at the same locus reside on opposite homologues before segregation."
+    },
+    {
+      "id": "inheritance-segregation-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when the two alleles of a gene enter different gametes?",
+      "options": [
+        "Two heterozygotes for a completely dominant autosomal trait are crossed",
+        "Homologous chromosomes separate in meiosis I",
+        "Two codominant alleles occur together in a heterozygote",
+        "An individual with a dominant phenotype is crossed with a homozygous recessive partner"
+      ],
+      "answer": 1,
+      "explanation": "The two alleles of a gene enter different gametes. Alleles at the same locus reside on opposite homologues before segregation."
+    },
+    {
+      "id": "inheritance-segregation-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "After homologous chromosomes separate in meiosis I, which explanation best links the change to its outcome?",
+      "options": [
+        "The recessive partner contributes no dominant allele that could mask the tested gametes",
+        "Each parent produces two gamete types equally and only one genotype is recessive",
+        "Alleles at the same locus reside on opposite homologues before segregation",
+        "Neither allele completely suppresses the phenotypic contribution of the other"
+      ],
+      "answer": 2,
+      "explanation": "The two alleles of a gene enter different gametes. Alleles at the same locus reside on opposite homologues before segregation."
+    },
+    {
+      "id": "inheritance-segregation-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: homologous chromosomes separate in meiosis I?",
+      "options": [
+        "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring — Each parent produces two gamete types equally and only one genotype is recessive",
+        "Both allele products are detectably expressed — Neither allele completely suppresses the phenotypic contribution of the other",
+        "Offspring phenotypes reveal whether the unknown parent is heterozygous — The recessive partner contributes no dominant allele that could mask the tested gametes",
+        "The two alleles of a gene enter different gametes — Alleles at the same locus reside on opposite homologues before segregation"
+      ],
+      "answer": 3,
+      "explanation": "The two alleles of a gene enter different gametes. Alleles at the same locus reside on opposite homologues before segregation."
+    },
+    {
+      "id": "inheritance-monohybrid-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: Two heterozygotes for a completely dominant autosomal trait are crossed?",
+      "options": [
+        "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring",
+        "Both allele products are detectably expressed",
+        "The heterozygous phenotype is intermediate between the two homozygotes",
+        "Offspring phenotypes reveal whether the unknown parent is heterozygous"
+      ],
+      "answer": 0,
+      "explanation": "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring. Each parent produces two gamete types equally and only one genotype is recessive."
+    },
+    {
+      "id": "inheritance-monohybrid-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: a three-to-one dominant-to-recessive phenotype ratio is expected in many offspring?",
+      "options": [
+        "An individual with a dominant phenotype is crossed with a homozygous recessive partner",
+        "Two heterozygotes for a completely dominant autosomal trait are crossed",
+        "Two codominant alleles occur together in a heterozygote",
+        "Neither allele produces complete dominance in a heterozygote"
+      ],
+      "answer": 1,
+      "explanation": "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring. Each parent produces two gamete types equally and only one genotype is recessive."
+    },
+    {
+      "id": "inheritance-monohybrid-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "After two heterozygotes for a completely dominant autosomal trait are crossed, which explanation best links the change to its outcome?",
+      "options": [
+        "The recessive partner contributes no dominant allele that could mask the tested gametes",
+        "Neither allele completely suppresses the phenotypic contribution of the other",
+        "Each parent produces two gamete types equally and only one genotype is recessive",
+        "The amount or interaction of gene product creates partial rather than full expression"
+      ],
+      "answer": 2,
+      "explanation": "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring. Each parent produces two gamete types equally and only one genotype is recessive."
+    },
+    {
+      "id": "inheritance-monohybrid-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: two heterozygotes for a completely dominant autosomal trait are crossed?",
+      "options": [
+        "Offspring phenotypes reveal whether the unknown parent is heterozygous — The recessive partner contributes no dominant allele that could mask the tested gametes",
+        "Both allele products are detectably expressed — Neither allele completely suppresses the phenotypic contribution of the other",
+        "The heterozygous phenotype is intermediate between the two homozygotes — The amount or interaction of gene product creates partial rather than full expression",
+        "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring — Each parent produces two gamete types equally and only one genotype is recessive"
+      ],
+      "answer": 3,
+      "explanation": "A three-to-one dominant-to-recessive phenotype ratio is expected in many offspring. Each parent produces two gamete types equally and only one genotype is recessive."
+    },
+    {
+      "id": "inheritance-test-cross-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "An individual with a dominant phenotype is crossed with a homozygous recessive partner. Which outcome follows most directly?",
+      "options": [
+        "Offspring phenotypes reveal whether the unknown parent is heterozygous",
+        "Both allele products are detectably expressed",
+        "The heterozygous phenotype is intermediate between the two homozygotes",
+        "Their red cells display both A and B antigens"
+      ],
+      "answer": 0,
+      "explanation": "Offspring phenotypes reveal whether the unknown parent is heterozygous. The recessive partner contributes no dominant allele that could mask the tested gametes."
+    },
+    {
+      "id": "inheritance-test-cross-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: offspring phenotypes reveal whether the unknown parent is heterozygous?",
+      "options": [
+        "Two codominant alleles occur together in a heterozygote",
+        "An individual with a dominant phenotype is crossed with a homozygous recessive partner",
+        "Neither allele produces complete dominance in a heterozygote",
+        "A person inherits IA from one parent and IB from the other"
+      ],
+      "answer": 1,
+      "explanation": "Offspring phenotypes reveal whether the unknown parent is heterozygous. The recessive partner contributes no dominant allele that could mask the tested gametes."
+    },
+    {
+      "id": "inheritance-test-cross-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "After an individual with a dominant phenotype is crossed with a homozygous recessive partner, which explanation best links the change to its outcome?",
+      "options": [
+        "Neither allele completely suppresses the phenotypic contribution of the other",
+        "The amount or interaction of gene product creates partial rather than full expression",
+        "The recessive partner contributes no dominant allele that could mask the tested gametes",
+        "IA and IB are codominant and each encodes a functional antigen-forming enzyme"
+      ],
+      "answer": 2,
+      "explanation": "Offspring phenotypes reveal whether the unknown parent is heterozygous. The recessive partner contributes no dominant allele that could mask the tested gametes."
+    },
+    {
+      "id": "inheritance-test-cross-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: an individual with a dominant phenotype is crossed with a homozygous recessive partner?",
+      "options": [
+        "Both allele products are detectably expressed — Neither allele completely suppresses the phenotypic contribution of the other",
+        "The heterozygous phenotype is intermediate between the two homozygotes — The amount or interaction of gene product creates partial rather than full expression",
+        "Their red cells display both A and B antigens — IA and IB are codominant and each encodes a functional antigen-forming enzyme",
+        "Offspring phenotypes reveal whether the unknown parent is heterozygous — The recessive partner contributes no dominant allele that could mask the tested gametes"
+      ],
+      "answer": 3,
+      "explanation": "Offspring phenotypes reveal whether the unknown parent is heterozygous. The recessive partner contributes no dominant allele that could mask the tested gametes."
+    },
+    {
+      "id": "inheritance-codominance-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "After two codominant alleles occur together in a heterozygote, which observation is most likely?",
+      "options": [
+        "Both allele products are detectably expressed",
+        "The heterozygous phenotype is intermediate between the two homozygotes",
+        "Their red cells display both A and B antigens",
+        "Their alleles can assort independently into gametes"
+      ],
+      "answer": 0,
+      "explanation": "Both allele products are detectably expressed. Neither allele completely suppresses the phenotypic contribution of the other."
+    },
+    {
+      "id": "inheritance-codominance-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "A learner records that both allele products are detectably expressed. Which preceding event best accounts for it?",
+      "options": [
+        "Neither allele produces complete dominance in a heterozygote",
+        "Two codominant alleles occur together in a heterozygote",
+        "A person inherits IA from one parent and IB from the other",
+        "Two gene loci are on different chromosomes"
+      ],
+      "answer": 1,
+      "explanation": "Both allele products are detectably expressed. Neither allele completely suppresses the phenotypic contribution of the other."
+    },
+    {
+      "id": "inheritance-codominance-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "After two codominant alleles occur together in a heterozygote, which explanation best links the change to its outcome?",
+      "options": [
+        "The amount or interaction of gene product creates partial rather than full expression",
+        "IA and IB are codominant and each encodes a functional antigen-forming enzyme",
+        "Neither allele completely suppresses the phenotypic contribution of the other",
+        "Each homologous pair orients independently at metaphase I"
+      ],
+      "answer": 2,
+      "explanation": "Both allele products are detectably expressed. Neither allele completely suppresses the phenotypic contribution of the other."
+    },
+    {
+      "id": "inheritance-codominance-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: two codominant alleles occur together in a heterozygote?",
+      "options": [
+        "Their alleles can assort independently into gametes — Each homologous pair orients independently at metaphase I",
+        "The heterozygous phenotype is intermediate between the two homozygotes — The amount or interaction of gene product creates partial rather than full expression",
+        "Their red cells display both A and B antigens — IA and IB are codominant and each encodes a functional antigen-forming enzyme",
+        "Both allele products are detectably expressed — Neither allele completely suppresses the phenotypic contribution of the other"
+      ],
+      "answer": 3,
+      "explanation": "Both allele products are detectably expressed. Neither allele completely suppresses the phenotypic contribution of the other."
+    },
+    {
+      "id": "inheritance-incomplete-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Neither allele produces complete dominance in a heterozygote. What should the model predict first?",
+      "options": [
+        "The heterozygous phenotype is intermediate between the two homozygotes",
+        "Their alleles can assort independently into gametes",
+        "Their red cells display both A and B antigens",
+        "Parental allele combinations occur more often than recombinant combinations"
+      ],
+      "answer": 0,
+      "explanation": "The heterozygous phenotype is intermediate between the two homozygotes. The amount or interaction of gene product creates partial rather than full expression."
+    },
+    {
+      "id": "inheritance-incomplete-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the heterozygous phenotype is intermediate between the two homozygotes?",
+      "options": [
+        "A person inherits IA from one parent and IB from the other",
+        "Neither allele produces complete dominance in a heterozygote",
+        "Two loci lie close together on the same chromosome",
+        "Two gene loci are on different chromosomes"
+      ],
+      "answer": 1,
+      "explanation": "The heterozygous phenotype is intermediate between the two homozygotes. The amount or interaction of gene product creates partial rather than full expression."
+    },
+    {
+      "id": "inheritance-incomplete-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After neither allele produces complete dominance in a heterozygote, which explanation best links the change to its outcome?",
+      "options": [
+        "Each homologous pair orients independently at metaphase I",
+        "IA and IB are codominant and each encodes a functional antigen-forming enzyme",
+        "The amount or interaction of gene product creates partial rather than full expression",
+        "Few crossovers occur in the short interval between the loci"
+      ],
+      "answer": 2,
+      "explanation": "The heterozygous phenotype is intermediate between the two homozygotes. The amount or interaction of gene product creates partial rather than full expression."
+    },
+    {
+      "id": "inheritance-incomplete-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: neither allele produces complete dominance in a heterozygote?",
+      "options": [
+        "Their red cells display both A and B antigens — IA and IB are codominant and each encodes a functional antigen-forming enzyme",
+        "Parental allele combinations occur more often than recombinant combinations — Few crossovers occur in the short interval between the loci",
+        "Their alleles can assort independently into gametes — Each homologous pair orients independently at metaphase I",
+        "The heterozygous phenotype is intermediate between the two homozygotes — The amount or interaction of gene product creates partial rather than full expression"
+      ],
+      "answer": 3,
+      "explanation": "The heterozygous phenotype is intermediate between the two homozygotes. The amount or interaction of gene product creates partial rather than full expression."
+    },
+    {
+      "id": "inheritance-abo-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: A person inherits IA from one parent and IB from the other?",
+      "options": [
+        "Their red cells display both A and B antigens",
+        "Parental allele combinations occur more often than recombinant combinations",
+        "Recombinant allele combinations appear in gametes",
+        "Their alleles can assort independently into gametes"
+      ],
+      "answer": 0,
+      "explanation": "Their red cells display both A and B antigens. IA and IB are codominant and each encodes a functional antigen-forming enzyme."
+    },
+    {
+      "id": "inheritance-abo-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: their red cells display both A and B antigens?",
+      "options": [
+        "Two gene loci are on different chromosomes",
+        "A person inherits IA from one parent and IB from the other",
+        "Two loci lie close together on the same chromosome",
+        "Non-sister chromatids exchange corresponding segments during prophase I"
+      ],
+      "answer": 1,
+      "explanation": "Their red cells display both A and B antigens. IA and IB are codominant and each encodes a functional antigen-forming enzyme."
+    },
+    {
+      "id": "inheritance-abo-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After a person inherits IA from one parent and IB from the other, which explanation best links the change to its outcome?",
+      "options": [
+        "Each homologous pair orients independently at metaphase I",
+        "Few crossovers occur in the short interval between the loci",
+        "IA and IB are codominant and each encodes a functional antigen-forming enzyme",
+        "Breakage and reunion occur at chiasmata between homologous chromosomes"
+      ],
+      "answer": 2,
+      "explanation": "Their red cells display both A and B antigens. IA and IB are codominant and each encodes a functional antigen-forming enzyme."
+    },
+    {
+      "id": "inheritance-abo-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a person inherits IA from one parent and IB from the other?",
+      "options": [
+        "Their alleles can assort independently into gametes — Each homologous pair orients independently at metaphase I",
+        "Parental allele combinations occur more often than recombinant combinations — Few crossovers occur in the short interval between the loci",
+        "Recombinant allele combinations appear in gametes — Breakage and reunion occur at chiasmata between homologous chromosomes",
+        "Their red cells display both A and B antigens — IA and IB are codominant and each encodes a functional antigen-forming enzyme"
+      ],
+      "answer": 3,
+      "explanation": "Their red cells display both A and B antigens. IA and IB are codominant and each encodes a functional antigen-forming enzyme."
+    },
+    {
+      "id": "inheritance-independent-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Two gene loci are on different chromosomes. Which outcome follows most directly?",
+      "options": [
+        "Their alleles can assort independently into gametes",
+        "Parental allele combinations occur more often than recombinant combinations",
+        "Recombinant allele combinations appear in gametes",
+        "He usually expresses the X-linked condition"
+      ],
+      "answer": 0,
+      "explanation": "Their alleles can assort independently into gametes. Each homologous pair orients independently at metaphase I."
+    },
+    {
+      "id": "inheritance-independent-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: their alleles can assort independently into gametes?",
+      "options": [
+        "Two loci lie close together on the same chromosome",
+        "Two gene loci are on different chromosomes",
+        "Non-sister chromatids exchange corresponding segments during prophase I",
+        "A male inherits a recessive disease allele on his X chromosome"
+      ],
+      "answer": 1,
+      "explanation": "Their alleles can assort independently into gametes. Each homologous pair orients independently at metaphase I."
+    },
+    {
+      "id": "inheritance-independent-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After two gene loci are on different chromosomes, which explanation best links the change to its outcome?",
+      "options": [
+        "Few crossovers occur in the short interval between the loci",
+        "Breakage and reunion occur at chiasmata between homologous chromosomes",
+        "Each homologous pair orients independently at metaphase I",
+        "His Y chromosome lacks a corresponding normal allele to mask it"
+      ],
+      "answer": 2,
+      "explanation": "Their alleles can assort independently into gametes. Each homologous pair orients independently at metaphase I."
+    },
+    {
+      "id": "inheritance-independent-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: two gene loci are on different chromosomes?",
+      "options": [
+        "Parental allele combinations occur more often than recombinant combinations — Few crossovers occur in the short interval between the loci",
+        "Recombinant allele combinations appear in gametes — Breakage and reunion occur at chiasmata between homologous chromosomes",
+        "He usually expresses the X-linked condition — His Y chromosome lacks a corresponding normal allele to mask it",
+        "Their alleles can assort independently into gametes — Each homologous pair orients independently at metaphase I"
+      ],
+      "answer": 3,
+      "explanation": "Their alleles can assort independently into gametes. Each homologous pair orients independently at metaphase I."
+    },
+    {
+      "id": "inheritance-linked-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After two loci lie close together on the same chromosome, which observation is most likely?",
+      "options": [
+        "Parental allele combinations occur more often than recombinant combinations",
+        "Recombinant allele combinations appear in gametes",
+        "He usually expresses the X-linked condition",
+        "All daughters inherit his affected X and are carriers"
+      ],
+      "answer": 0,
+      "explanation": "Parental allele combinations occur more often than recombinant combinations. Few crossovers occur in the short interval between the loci."
+    },
+    {
+      "id": "inheritance-linked-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "A learner records that parental allele combinations occur more often than recombinant combinations. Which preceding event best accounts for it?",
+      "options": [
+        "Non-sister chromatids exchange corresponding segments during prophase I",
+        "Two loci lie close together on the same chromosome",
+        "A male inherits a recessive disease allele on his X chromosome",
+        "A male with an X-linked recessive trait has children with a homozygous normal woman"
+      ],
+      "answer": 1,
+      "explanation": "Parental allele combinations occur more often than recombinant combinations. Few crossovers occur in the short interval between the loci."
+    },
+    {
+      "id": "inheritance-linked-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After two loci lie close together on the same chromosome, which explanation best links the change to its outcome?",
+      "options": [
+        "Breakage and reunion occur at chiasmata between homologous chromosomes",
+        "His Y chromosome lacks a corresponding normal allele to mask it",
+        "Few crossovers occur in the short interval between the loci",
+        "A father gives his single X chromosome to every daughter and his Y to every son"
+      ],
+      "answer": 2,
+      "explanation": "Parental allele combinations occur more often than recombinant combinations. Few crossovers occur in the short interval between the loci."
+    },
+    {
+      "id": "inheritance-linked-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: two loci lie close together on the same chromosome?",
+      "options": [
+        "All daughters inherit his affected X and are carriers — A father gives his single X chromosome to every daughter and his Y to every son",
+        "Recombinant allele combinations appear in gametes — Breakage and reunion occur at chiasmata between homologous chromosomes",
+        "He usually expresses the X-linked condition — His Y chromosome lacks a corresponding normal allele to mask it",
+        "Parental allele combinations occur more often than recombinant combinations — Few crossovers occur in the short interval between the loci"
+      ],
+      "answer": 3,
+      "explanation": "Parental allele combinations occur more often than recombinant combinations. Few crossovers occur in the short interval between the loci."
+    },
+    {
+      "id": "inheritance-crossing-over-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Non-sister chromatids exchange corresponding segments during prophase I. What should the model predict first?",
+      "options": [
+        "Recombinant allele combinations appear in gametes",
+        "All daughters inherit his affected X and are carriers",
+        "He usually expresses the X-linked condition",
+        "Autosomal dominant inheritance becomes a plausible model"
+      ],
+      "answer": 0,
+      "explanation": "Recombinant allele combinations appear in gametes. Breakage and reunion occur at chiasmata between homologous chromosomes."
+    },
+    {
+      "id": "inheritance-crossing-over-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when recombinant allele combinations appear in gametes?",
+      "options": [
+        "A male inherits a recessive disease allele on his X chromosome",
+        "Non-sister chromatids exchange corresponding segments during prophase I",
+        "A rare trait appears in every generation and affected people usually have an affected parent",
+        "A male with an X-linked recessive trait has children with a homozygous normal woman"
+      ],
+      "answer": 1,
+      "explanation": "Recombinant allele combinations appear in gametes. Breakage and reunion occur at chiasmata between homologous chromosomes."
+    },
+    {
+      "id": "inheritance-crossing-over-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After non-sister chromatids exchange corresponding segments during prophase I, which explanation best links the change to its outcome?",
+      "options": [
+        "A father gives his single X chromosome to every daughter and his Y to every son",
+        "His Y chromosome lacks a corresponding normal allele to mask it",
+        "Breakage and reunion occur at chiasmata between homologous chromosomes",
+        "One copy can produce the phenotype, so vertical transmission is common"
+      ],
+      "answer": 2,
+      "explanation": "Recombinant allele combinations appear in gametes. Breakage and reunion occur at chiasmata between homologous chromosomes."
+    },
+    {
+      "id": "inheritance-crossing-over-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: non-sister chromatids exchange corresponding segments during prophase I?",
+      "options": [
+        "He usually expresses the X-linked condition — His Y chromosome lacks a corresponding normal allele to mask it",
+        "Autosomal dominant inheritance becomes a plausible model — One copy can produce the phenotype, so vertical transmission is common",
+        "All daughters inherit his affected X and are carriers — A father gives his single X chromosome to every daughter and his Y to every son",
+        "Recombinant allele combinations appear in gametes — Breakage and reunion occur at chiasmata between homologous chromosomes"
+      ],
+      "answer": 3,
+      "explanation": "Recombinant allele combinations appear in gametes. Breakage and reunion occur at chiasmata between homologous chromosomes."
+    },
+    {
+      "id": "inheritance-x-recessive-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: A male inherits a recessive disease allele on his X chromosome?",
+      "options": [
+        "He usually expresses the X-linked condition",
+        "Autosomal dominant inheritance becomes a plausible model",
+        "A recessive inheritance pattern is suggested",
+        "All daughters inherit his affected X and are carriers"
+      ],
+      "answer": 0,
+      "explanation": "He usually expresses the X-linked condition. His Y chromosome lacks a corresponding normal allele to mask it."
+    },
+    {
+      "id": "inheritance-x-recessive-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: he usually expresses the X-linked condition?",
+      "options": [
+        "A male with an X-linked recessive trait has children with a homozygous normal woman",
+        "A male inherits a recessive disease allele on his X chromosome",
+        "A rare trait appears in every generation and affected people usually have an affected parent",
+        "Unaffected parents produce an affected child"
+      ],
+      "answer": 1,
+      "explanation": "He usually expresses the X-linked condition. His Y chromosome lacks a corresponding normal allele to mask it."
+    },
+    {
+      "id": "inheritance-x-recessive-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After a male inherits a recessive disease allele on his X chromosome, which explanation best links the change to its outcome?",
+      "options": [
+        "A father gives his single X chromosome to every daughter and his Y to every son",
+        "One copy can produce the phenotype, so vertical transmission is common",
+        "His Y chromosome lacks a corresponding normal allele to mask it",
+        "Both parents can be heterozygous carriers whose child inherits both recessive alleles"
+      ],
+      "answer": 2,
+      "explanation": "He usually expresses the X-linked condition. His Y chromosome lacks a corresponding normal allele to mask it."
+    },
+    {
+      "id": "inheritance-x-recessive-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a male inherits a recessive disease allele on his X chromosome?",
+      "options": [
+        "All daughters inherit his affected X and are carriers — A father gives his single X chromosome to every daughter and his Y to every son",
+        "Autosomal dominant inheritance becomes a plausible model — One copy can produce the phenotype, so vertical transmission is common",
+        "A recessive inheritance pattern is suggested — Both parents can be heterozygous carriers whose child inherits both recessive alleles",
+        "He usually expresses the X-linked condition — His Y chromosome lacks a corresponding normal allele to mask it"
+      ],
+      "answer": 3,
+      "explanation": "He usually expresses the X-linked condition. His Y chromosome lacks a corresponding normal allele to mask it."
+    },
+    {
+      "id": "inheritance-carrier-daughters-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "A male with an X-linked recessive trait has children with a homozygous normal woman. Which outcome follows most directly?",
+      "options": [
+        "All daughters inherit his affected X and are carriers",
+        "Autosomal dominant inheritance becomes a plausible model",
+        "A recessive inheritance pattern is suggested",
+        "The amino-acid sequence or amount of its protein may change"
+      ],
+      "answer": 0,
+      "explanation": "All daughters inherit his affected X and are carriers. A father gives his single X chromosome to every daughter and his Y to every son."
+    },
+    {
+      "id": "inheritance-carrier-daughters-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: all daughters inherit his affected X and are carriers?",
+      "options": [
+        "A rare trait appears in every generation and affected people usually have an affected parent",
+        "A male with an X-linked recessive trait has children with a homozygous normal woman",
+        "Unaffected parents produce an affected child",
+        "A permanent nucleotide change occurs in a gene's coding region"
+      ],
+      "answer": 1,
+      "explanation": "All daughters inherit his affected X and are carriers. A father gives his single X chromosome to every daughter and his Y to every son."
+    },
+    {
+      "id": "inheritance-carrier-daughters-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After a male with an X-linked recessive trait has children with a homozygous normal woman, which explanation best links the change to its outcome?",
+      "options": [
+        "One copy can produce the phenotype, so vertical transmission is common",
+        "Both parents can be heterozygous carriers whose child inherits both recessive alleles",
+        "A father gives his single X chromosome to every daughter and his Y to every son",
+        "Altered codons can modify translation, splicing or gene expression"
+      ],
+      "answer": 2,
+      "explanation": "All daughters inherit his affected X and are carriers. A father gives his single X chromosome to every daughter and his Y to every son."
+    },
+    {
+      "id": "inheritance-carrier-daughters-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a male with an X-linked recessive trait has children with a homozygous normal woman?",
+      "options": [
+        "Autosomal dominant inheritance becomes a plausible model — One copy can produce the phenotype, so vertical transmission is common",
+        "A recessive inheritance pattern is suggested — Both parents can be heterozygous carriers whose child inherits both recessive alleles",
+        "The amino-acid sequence or amount of its protein may change — Altered codons can modify translation, splicing or gene expression",
+        "All daughters inherit his affected X and are carriers — A father gives his single X chromosome to every daughter and his Y to every son"
+      ],
+      "answer": 3,
+      "explanation": "All daughters inherit his affected X and are carriers. A father gives his single X chromosome to every daughter and his Y to every son."
+    },
+    {
+      "id": "inheritance-pedigree-dominant-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After a rare trait appears in every generation and affected people usually have an affected parent, which observation is most likely?",
+      "options": [
+        "Autosomal dominant inheritance becomes a plausible model",
+        "A recessive inheritance pattern is suggested",
+        "The amino-acid sequence or amount of its protein may change",
+        "Many downstream codons and often the protein function change"
+      ],
+      "answer": 0,
+      "explanation": "Autosomal dominant inheritance becomes a plausible model. One copy can produce the phenotype, so vertical transmission is common."
+    },
+    {
+      "id": "inheritance-pedigree-dominant-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "A learner records that autosomal dominant inheritance becomes a plausible model. Which preceding event best accounts for it?",
+      "options": [
+        "Unaffected parents produce an affected child",
+        "A rare trait appears in every generation and affected people usually have an affected parent",
+        "A permanent nucleotide change occurs in a gene's coding region",
+        "One nucleotide is deleted near the start of a coding sequence"
+      ],
+      "answer": 1,
+      "explanation": "Autosomal dominant inheritance becomes a plausible model. One copy can produce the phenotype, so vertical transmission is common."
+    },
+    {
+      "id": "inheritance-pedigree-dominant-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After a rare trait appears in every generation and affected people usually have an affected parent, which explanation best links the change to its outcome?",
+      "options": [
+        "Both parents can be heterozygous carriers whose child inherits both recessive alleles",
+        "Altered codons can modify translation, splicing or gene expression",
+        "One copy can produce the phenotype, so vertical transmission is common",
+        "The reading frame shifts unless the deletion is a multiple of three bases"
+      ],
+      "answer": 2,
+      "explanation": "Autosomal dominant inheritance becomes a plausible model. One copy can produce the phenotype, so vertical transmission is common."
+    },
+    {
+      "id": "inheritance-pedigree-dominant-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a rare trait appears in every generation and affected people usually have an affected parent?",
+      "options": [
+        "Many downstream codons and often the protein function change — The reading frame shifts unless the deletion is a multiple of three bases",
+        "A recessive inheritance pattern is suggested — Both parents can be heterozygous carriers whose child inherits both recessive alleles",
+        "The amino-acid sequence or amount of its protein may change — Altered codons can modify translation, splicing or gene expression",
+        "Autosomal dominant inheritance becomes a plausible model — One copy can produce the phenotype, so vertical transmission is common"
+      ],
+      "answer": 3,
+      "explanation": "Autosomal dominant inheritance becomes a plausible model. One copy can produce the phenotype, so vertical transmission is common."
+    },
+    {
+      "id": "inheritance-pedigree-recessive-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Unaffected parents produce an affected child. What should the model predict first?",
+      "options": [
+        "A recessive inheritance pattern is suggested",
+        "Many downstream codons and often the protein function change",
+        "The amino-acid sequence or amount of its protein may change",
+        "The polypeptide primary sequence remains unchanged"
+      ],
+      "answer": 0,
+      "explanation": "A recessive inheritance pattern is suggested. Both parents can be heterozygous carriers whose child inherits both recessive alleles."
+    },
+    {
+      "id": "inheritance-pedigree-recessive-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when a recessive inheritance pattern is suggested?",
+      "options": [
+        "A permanent nucleotide change occurs in a gene's coding region",
+        "Unaffected parents produce an affected child",
+        "A base substitution changes a codon to another for the same amino acid",
+        "One nucleotide is deleted near the start of a coding sequence"
+      ],
+      "answer": 1,
+      "explanation": "A recessive inheritance pattern is suggested. Both parents can be heterozygous carriers whose child inherits both recessive alleles."
+    },
+    {
+      "id": "inheritance-pedigree-recessive-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After unaffected parents produce an affected child, which explanation best links the change to its outcome?",
+      "options": [
+        "The reading frame shifts unless the deletion is a multiple of three bases",
+        "Altered codons can modify translation, splicing or gene expression",
+        "Both parents can be heterozygous carriers whose child inherits both recessive alleles",
+        "The genetic code is degenerate, with multiple codons specifying some amino acids"
+      ],
+      "answer": 2,
+      "explanation": "A recessive inheritance pattern is suggested. Both parents can be heterozygous carriers whose child inherits both recessive alleles."
+    },
+    {
+      "id": "inheritance-pedigree-recessive-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: unaffected parents produce an affected child?",
+      "options": [
+        "The amino-acid sequence or amount of its protein may change — Altered codons can modify translation, splicing or gene expression",
+        "The polypeptide primary sequence remains unchanged — The genetic code is degenerate, with multiple codons specifying some amino acids",
+        "Many downstream codons and often the protein function change — The reading frame shifts unless the deletion is a multiple of three bases",
+        "A recessive inheritance pattern is suggested — Both parents can be heterozygous carriers whose child inherits both recessive alleles"
+      ],
+      "answer": 3,
+      "explanation": "A recessive inheritance pattern is suggested. Both parents can be heterozygous carriers whose child inherits both recessive alleles."
+    },
+    {
+      "id": "inheritance-mutation-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: A permanent nucleotide change occurs in a gene's coding region?",
+      "options": [
+        "The amino-acid sequence or amount of its protein may change",
+        "The polypeptide primary sequence remains unchanged",
+        "The loci are inferred to be close together on a chromosome",
+        "Many downstream codons and often the protein function change"
+      ],
+      "answer": 0,
+      "explanation": "The amino-acid sequence or amount of its protein may change. Altered codons can modify translation, splicing or gene expression."
+    },
+    {
+      "id": "inheritance-mutation-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: the amino-acid sequence or amount of its protein may change?",
+      "options": [
+        "One nucleotide is deleted near the start of a coding sequence",
+        "A permanent nucleotide change occurs in a gene's coding region",
+        "A base substitution changes a codon to another for the same amino acid",
+        "Recombination frequency between two loci is low"
+      ],
+      "answer": 1,
+      "explanation": "The amino-acid sequence or amount of its protein may change. Altered codons can modify translation, splicing or gene expression."
+    },
+    {
+      "id": "inheritance-mutation-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After a permanent nucleotide change occurs in a gene's coding region, which explanation best links the change to its outcome?",
+      "options": [
+        "The reading frame shifts unless the deletion is a multiple of three bases",
+        "The genetic code is degenerate, with multiple codons specifying some amino acids",
+        "Altered codons can modify translation, splicing or gene expression",
+        "A crossover is less likely to occur within a short physical interval"
+      ],
+      "answer": 2,
+      "explanation": "The amino-acid sequence or amount of its protein may change. Altered codons can modify translation, splicing or gene expression."
+    },
+    {
+      "id": "inheritance-mutation-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a permanent nucleotide change occurs in a gene's coding region?",
+      "options": [
+        "Many downstream codons and often the protein function change — The reading frame shifts unless the deletion is a multiple of three bases",
+        "The polypeptide primary sequence remains unchanged — The genetic code is degenerate, with multiple codons specifying some amino acids",
+        "The loci are inferred to be close together on a chromosome — A crossover is less likely to occur within a short physical interval",
+        "The amino-acid sequence or amount of its protein may change — Altered codons can modify translation, splicing or gene expression"
+      ],
+      "answer": 3,
+      "explanation": "The amino-acid sequence or amount of its protein may change. Altered codons can modify translation, splicing or gene expression."
+    },
+    {
+      "id": "inheritance-deletion-frameshift-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "One nucleotide is deleted near the start of a coding sequence. Which outcome follows most directly?",
+      "options": [
+        "Many downstream codons and often the protein function change",
+        "The polypeptide primary sequence remains unchanged",
+        "The loci are inferred to be close together on a chromosome",
+        "A modified dihybrid phenotypic ratio appears"
+      ],
+      "answer": 0,
+      "explanation": "Many downstream codons and often the protein function change. The reading frame shifts unless the deletion is a multiple of three bases."
+    },
+    {
+      "id": "inheritance-deletion-frameshift-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: many downstream codons and often the protein function change?",
+      "options": [
+        "A base substitution changes a codon to another for the same amino acid",
+        "One nucleotide is deleted near the start of a coding sequence",
+        "Recombination frequency between two loci is low",
+        "An allele at one locus blocks expression of a gene at another locus"
+      ],
+      "answer": 1,
+      "explanation": "Many downstream codons and often the protein function change. The reading frame shifts unless the deletion is a multiple of three bases."
+    },
+    {
+      "id": "inheritance-deletion-frameshift-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After one nucleotide is deleted near the start of a coding sequence, which explanation best links the change to its outcome?",
+      "options": [
+        "The genetic code is degenerate, with multiple codons specifying some amino acids",
+        "A crossover is less likely to occur within a short physical interval",
+        "The reading frame shifts unless the deletion is a multiple of three bases",
+        "The gene products act in the same pathway and one step masks the other"
+      ],
+      "answer": 2,
+      "explanation": "Many downstream codons and often the protein function change. The reading frame shifts unless the deletion is a multiple of three bases."
+    },
+    {
+      "id": "inheritance-deletion-frameshift-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: one nucleotide is deleted near the start of a coding sequence?",
+      "options": [
+        "The polypeptide primary sequence remains unchanged — The genetic code is degenerate, with multiple codons specifying some amino acids",
+        "The loci are inferred to be close together on a chromosome — A crossover is less likely to occur within a short physical interval",
+        "A modified dihybrid phenotypic ratio appears — The gene products act in the same pathway and one step masks the other",
+        "Many downstream codons and often the protein function change — The reading frame shifts unless the deletion is a multiple of three bases"
+      ],
+      "answer": 3,
+      "explanation": "Many downstream codons and often the protein function change. The reading frame shifts unless the deletion is a multiple of three bases."
+    },
+    {
+      "id": "inheritance-silent-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After a base substitution changes a codon to another for the same amino acid, which observation is most likely?",
+      "options": [
+        "The polypeptide primary sequence remains unchanged",
+        "The loci are inferred to be close together on a chromosome",
+        "A modified dihybrid phenotypic ratio appears",
+        "The population displays continuous phenotypic variation"
+      ],
+      "answer": 0,
+      "explanation": "The polypeptide primary sequence remains unchanged. The genetic code is degenerate, with multiple codons specifying some amino acids."
+    },
+    {
+      "id": "inheritance-silent-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "A learner records that the polypeptide primary sequence remains unchanged. Which preceding event best accounts for it?",
+      "options": [
+        "Recombination frequency between two loci is low",
+        "A base substitution changes a codon to another for the same amino acid",
+        "An allele at one locus blocks expression of a gene at another locus",
+        "Many loci each contribute a small additive effect to one trait"
+      ],
+      "answer": 1,
+      "explanation": "The polypeptide primary sequence remains unchanged. The genetic code is degenerate, with multiple codons specifying some amino acids."
+    },
+    {
+      "id": "inheritance-silent-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "After a base substitution changes a codon to another for the same amino acid, which explanation best links the change to its outcome?",
+      "options": [
+        "A crossover is less likely to occur within a short physical interval",
+        "The gene products act in the same pathway and one step masks the other",
+        "The genetic code is degenerate, with multiple codons specifying some amino acids",
+        "Numerous allele combinations plus environment create a graded distribution"
+      ],
+      "answer": 2,
+      "explanation": "The polypeptide primary sequence remains unchanged. The genetic code is degenerate, with multiple codons specifying some amino acids."
+    },
+    {
+      "id": "inheritance-silent-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a base substitution changes a codon to another for the same amino acid?",
+      "options": [
+        "The population displays continuous phenotypic variation — Numerous allele combinations plus environment create a graded distribution",
+        "The loci are inferred to be close together on a chromosome — A crossover is less likely to occur within a short physical interval",
+        "A modified dihybrid phenotypic ratio appears — The gene products act in the same pathway and one step masks the other",
+        "The polypeptide primary sequence remains unchanged — The genetic code is degenerate, with multiple codons specifying some amino acids"
+      ],
+      "answer": 3,
+      "explanation": "The polypeptide primary sequence remains unchanged. The genetic code is degenerate, with multiple codons specifying some amino acids."
+    },
+    {
+      "id": "inheritance-map-distance-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Recombination frequency between two loci is low. What should the model predict first?",
+      "options": [
+        "The loci are inferred to be close together on a chromosome",
+        "The population displays continuous phenotypic variation",
+        "A modified dihybrid phenotypic ratio appears",
+        "The allele has incomplete penetrance"
+      ],
+      "answer": 0,
+      "explanation": "The loci are inferred to be close together on a chromosome. A crossover is less likely to occur within a short physical interval."
+    },
+    {
+      "id": "inheritance-map-distance-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when the loci are inferred to be close together on a chromosome?",
+      "options": [
+        "An allele at one locus blocks expression of a gene at another locus",
+        "Recombination frequency between two loci is low",
+        "Some people carrying a disease genotype show no corresponding phenotype",
+        "Many loci each contribute a small additive effect to one trait"
+      ],
+      "answer": 1,
+      "explanation": "The loci are inferred to be close together on a chromosome. A crossover is less likely to occur within a short physical interval."
+    },
+    {
+      "id": "inheritance-map-distance-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "After recombination frequency between two loci is low, which explanation best links the change to its outcome?",
+      "options": [
+        "Numerous allele combinations plus environment create a graded distribution",
+        "The gene products act in the same pathway and one step masks the other",
+        "A crossover is less likely to occur within a short physical interval",
+        "Modifier genes, environment or chance prevent expression in a fraction of carriers"
+      ],
+      "answer": 2,
+      "explanation": "The loci are inferred to be close together on a chromosome. A crossover is less likely to occur within a short physical interval."
+    },
+    {
+      "id": "inheritance-map-distance-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: recombination frequency between two loci is low?",
+      "options": [
+        "A modified dihybrid phenotypic ratio appears — The gene products act in the same pathway and one step masks the other",
+        "The allele has incomplete penetrance — Modifier genes, environment or chance prevent expression in a fraction of carriers",
+        "The population displays continuous phenotypic variation — Numerous allele combinations plus environment create a graded distribution",
+        "The loci are inferred to be close together on a chromosome — A crossover is less likely to occur within a short physical interval"
+      ],
+      "answer": 3,
+      "explanation": "The loci are inferred to be close together on a chromosome. A crossover is less likely to occur within a short physical interval."
+    },
+    {
+      "id": "inheritance-epistasis-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: An allele at one locus blocks expression of a gene at another locus?",
+      "options": [
+        "A modified dihybrid phenotypic ratio appears",
+        "The allele has incomplete penetrance",
+        "Children of either sex may inherit it, but affected fathers do not transmit it",
+        "The population displays continuous phenotypic variation"
+      ],
+      "answer": 0,
+      "explanation": "A modified dihybrid phenotypic ratio appears. The gene products act in the same pathway and one step masks the other."
+    },
+    {
+      "id": "inheritance-epistasis-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: a modified dihybrid phenotypic ratio appears?",
+      "options": [
+        "Many loci each contribute a small additive effect to one trait",
+        "An allele at one locus blocks expression of a gene at another locus",
+        "Some people carrying a disease genotype show no corresponding phenotype",
+        "A mother carries a pathogenic mitochondrial-DNA variant"
+      ],
+      "answer": 1,
+      "explanation": "A modified dihybrid phenotypic ratio appears. The gene products act in the same pathway and one step masks the other."
+    },
+    {
+      "id": "inheritance-epistasis-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "After an allele at one locus blocks expression of a gene at another locus, which explanation best links the change to its outcome?",
+      "options": [
+        "Numerous allele combinations plus environment create a graded distribution",
+        "Modifier genes, environment or chance prevent expression in a fraction of carriers",
+        "The gene products act in the same pathway and one step masks the other",
+        "The zygote receives nearly all of its mitochondria from the egg cytoplasm"
+      ],
+      "answer": 2,
+      "explanation": "A modified dihybrid phenotypic ratio appears. The gene products act in the same pathway and one step masks the other."
+    },
+    {
+      "id": "inheritance-epistasis-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an allele at one locus blocks expression of a gene at another locus?",
+      "options": [
+        "The population displays continuous phenotypic variation — Numerous allele combinations plus environment create a graded distribution",
+        "The allele has incomplete penetrance — Modifier genes, environment or chance prevent expression in a fraction of carriers",
+        "Children of either sex may inherit it, but affected fathers do not transmit it — The zygote receives nearly all of its mitochondria from the egg cytoplasm",
+        "A modified dihybrid phenotypic ratio appears — The gene products act in the same pathway and one step masks the other"
+      ],
+      "answer": 3,
+      "explanation": "A modified dihybrid phenotypic ratio appears. The gene products act in the same pathway and one step masks the other."
+    },
+    {
+      "id": "inheritance-polygenic-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Many loci each contribute a small additive effect to one trait. Which outcome follows most directly?",
+      "options": [
+        "The population displays continuous phenotypic variation",
+        "The allele has incomplete penetrance",
+        "Children of either sex may inherit it, but affected fathers do not transmit it",
+        "Some gametes have an extra chromosome and some lack it"
+      ],
+      "answer": 0,
+      "explanation": "The population displays continuous phenotypic variation. Numerous allele combinations plus environment create a graded distribution."
+    },
+    {
+      "id": "inheritance-polygenic-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: the population displays continuous phenotypic variation?",
+      "options": [
+        "Some people carrying a disease genotype show no corresponding phenotype",
+        "Many loci each contribute a small additive effect to one trait",
+        "A mother carries a pathogenic mitochondrial-DNA variant",
+        "Sister chromatids fail to separate during meiosis II"
+      ],
+      "answer": 1,
+      "explanation": "The population displays continuous phenotypic variation. Numerous allele combinations plus environment create a graded distribution."
+    },
+    {
+      "id": "inheritance-polygenic-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "After many loci each contribute a small additive effect to one trait, which explanation best links the change to its outcome?",
+      "options": [
+        "Modifier genes, environment or chance prevent expression in a fraction of carriers",
+        "The zygote receives nearly all of its mitochondria from the egg cytoplasm",
+        "Numerous allele combinations plus environment create a graded distribution",
+        "Both chromatids move to one gamete instead of dividing equally"
+      ],
+      "answer": 2,
+      "explanation": "The population displays continuous phenotypic variation. Numerous allele combinations plus environment create a graded distribution."
+    },
+    {
+      "id": "inheritance-polygenic-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: many loci each contribute a small additive effect to one trait?",
+      "options": [
+        "The allele has incomplete penetrance — Modifier genes, environment or chance prevent expression in a fraction of carriers",
+        "Children of either sex may inherit it, but affected fathers do not transmit it — The zygote receives nearly all of its mitochondria from the egg cytoplasm",
+        "Some gametes have an extra chromosome and some lack it — Both chromatids move to one gamete instead of dividing equally",
+        "The population displays continuous phenotypic variation — Numerous allele combinations plus environment create a graded distribution"
+      ],
+      "answer": 3,
+      "explanation": "The population displays continuous phenotypic variation. Numerous allele combinations plus environment create a graded distribution."
+    },
+    {
+      "id": "inheritance-penetrance-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "After some people carrying a disease genotype show no corresponding phenotype, which observation is most likely?",
+      "options": [
+        "The allele has incomplete penetrance",
+        "Children of either sex may inherit it, but affected fathers do not transmit it",
+        "Some gametes have an extra chromosome and some lack it",
+        "Its genotype contains two alleles at that locus"
+      ],
+      "answer": 0,
+      "explanation": "The allele has incomplete penetrance. Modifier genes, environment or chance prevent expression in a fraction of carriers."
+    },
+    {
+      "id": "inheritance-penetrance-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "A learner records that the allele has incomplete penetrance. Which preceding event best accounts for it?",
+      "options": [
+        "A mother carries a pathogenic mitochondrial-DNA variant",
+        "Some people carrying a disease genotype show no corresponding phenotype",
+        "Sister chromatids fail to separate during meiosis II",
+        "A diploid individual inherits one allele of a gene from each parent"
+      ],
+      "answer": 1,
+      "explanation": "The allele has incomplete penetrance. Modifier genes, environment or chance prevent expression in a fraction of carriers."
+    },
+    {
+      "id": "inheritance-penetrance-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "After some people carrying a disease genotype show no corresponding phenotype, which explanation best links the change to its outcome?",
+      "options": [
+        "The zygote receives nearly all of its mitochondria from the egg cytoplasm",
+        "Both chromatids move to one gamete instead of dividing equally",
+        "Modifier genes, environment or chance prevent expression in a fraction of carriers",
+        "Homologous chromosomes carry corresponding gene positions from maternal and paternal origins"
+      ],
+      "answer": 2,
+      "explanation": "The allele has incomplete penetrance. Modifier genes, environment or chance prevent expression in a fraction of carriers."
+    },
+    {
+      "id": "inheritance-penetrance-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: some people carrying a disease genotype show no corresponding phenotype?",
+      "options": [
+        "Its genotype contains two alleles at that locus — Homologous chromosomes carry corresponding gene positions from maternal and paternal origins",
+        "Children of either sex may inherit it, but affected fathers do not transmit it — The zygote receives nearly all of its mitochondria from the egg cytoplasm",
+        "Some gametes have an extra chromosome and some lack it — Both chromatids move to one gamete instead of dividing equally",
+        "The allele has incomplete penetrance — Modifier genes, environment or chance prevent expression in a fraction of carriers"
+      ],
+      "answer": 3,
+      "explanation": "The allele has incomplete penetrance. Modifier genes, environment or chance prevent expression in a fraction of carriers."
+    },
+    {
+      "id": "inheritance-mitochondrial-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A mother carries a pathogenic mitochondrial-DNA variant. What should the model predict first?",
+      "options": [
+        "Children of either sex may inherit it, but affected fathers do not transmit it",
+        "Its genotype contains two alleles at that locus",
+        "Some gametes have an extra chromosome and some lack it",
+        "Its phenotype matches the dominant homozygote"
+      ],
+      "answer": 0,
+      "explanation": "Children of either sex may inherit it, but affected fathers do not transmit it. The zygote receives nearly all of its mitochondria from the egg cytoplasm."
+    },
+    {
+      "id": "inheritance-mitochondrial-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when children of either sex may inherit it, but affected fathers do not transmit it?",
+      "options": [
+        "Sister chromatids fail to separate during meiosis II",
+        "A mother carries a pathogenic mitochondrial-DNA variant",
+        "A heterozygote carries one completely dominant allele",
+        "A diploid individual inherits one allele of a gene from each parent"
+      ],
+      "answer": 1,
+      "explanation": "Children of either sex may inherit it, but affected fathers do not transmit it. The zygote receives nearly all of its mitochondria from the egg cytoplasm."
+    },
+    {
+      "id": "inheritance-mitochondrial-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "After a mother carries a pathogenic mitochondrial-DNA variant, which explanation best links the change to its outcome?",
+      "options": [
+        "Homologous chromosomes carry corresponding gene positions from maternal and paternal origins",
+        "Both chromatids move to one gamete instead of dividing equally",
+        "The zygote receives nearly all of its mitochondria from the egg cytoplasm",
+        "One functional allele produces enough gene product to determine the observed trait"
+      ],
+      "answer": 2,
+      "explanation": "Children of either sex may inherit it, but affected fathers do not transmit it. The zygote receives nearly all of its mitochondria from the egg cytoplasm."
+    },
+    {
+      "id": "inheritance-mitochondrial-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a mother carries a pathogenic mitochondrial-DNA variant?",
+      "options": [
+        "Some gametes have an extra chromosome and some lack it — Both chromatids move to one gamete instead of dividing equally",
+        "Its phenotype matches the dominant homozygote — One functional allele produces enough gene product to determine the observed trait",
+        "Its genotype contains two alleles at that locus — Homologous chromosomes carry corresponding gene positions from maternal and paternal origins",
+        "Children of either sex may inherit it, but affected fathers do not transmit it — The zygote receives nearly all of its mitochondria from the egg cytoplasm"
+      ],
+      "answer": 3,
+      "explanation": "Children of either sex may inherit it, but affected fathers do not transmit it. The zygote receives nearly all of its mitochondria from the egg cytoplasm."
+    },
+    {
+      "id": "inheritance-nondisjunction-outcome",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Sister chromatids fail to separate during meiosis II?",
+      "options": [
+        "Some gametes have an extra chromosome and some lack it",
+        "Its phenotype matches the dominant homozygote",
+        "The two alleles of a gene enter different gametes",
+        "Its genotype contains two alleles at that locus"
+      ],
+      "answer": 0,
+      "explanation": "Some gametes have an extra chromosome and some lack it. Both chromatids move to one gamete instead of dividing equally."
+    },
+    {
+      "id": "inheritance-nondisjunction-cause",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: some gametes have an extra chromosome and some lack it?",
+      "options": [
+        "A diploid individual inherits one allele of a gene from each parent",
+        "Sister chromatids fail to separate during meiosis II",
+        "A heterozygote carries one completely dominant allele",
+        "Homologous chromosomes separate in meiosis I"
+      ],
+      "answer": 1,
+      "explanation": "Some gametes have an extra chromosome and some lack it. Both chromatids move to one gamete instead of dividing equally."
+    },
+    {
+      "id": "inheritance-nondisjunction-mechanism",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "After sister chromatids fail to separate during meiosis II, which explanation best links the change to its outcome?",
+      "options": [
+        "Homologous chromosomes carry corresponding gene positions from maternal and paternal origins",
+        "One functional allele produces enough gene product to determine the observed trait",
+        "Both chromatids move to one gamete instead of dividing equally",
+        "Alleles at the same locus reside on opposite homologues before segregation"
+      ],
+      "answer": 2,
+      "explanation": "Some gametes have an extra chromosome and some lack it. Both chromatids move to one gamete instead of dividing equally."
+    },
+    {
+      "id": "inheritance-nondisjunction-integrated",
+      "chapter": "Inheritance",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: sister chromatids fail to separate during meiosis II?",
+      "options": [
+        "Its genotype contains two alleles at that locus — Homologous chromosomes carry corresponding gene positions from maternal and paternal origins",
+        "Its phenotype matches the dominant homozygote — One functional allele produces enough gene product to determine the observed trait",
+        "The two alleles of a gene enter different gametes — Alleles at the same locus reside on opposite homologues before segregation",
+        "Some gametes have an extra chromosome and some lack it — Both chromatids move to one gamete instead of dividing equally"
+      ],
+      "answer": 3,
+      "explanation": "Some gametes have an extra chromosome and some lack it. Both chromatids move to one gamete instead of dividing equally."
+    }
+  ]
+}

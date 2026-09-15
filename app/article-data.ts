@@ -1,3 +1,5 @@
+import {respiratoryArticle} from "./respiratory-article";
+import {expandArticles,expandedArticleSlugs} from "./article-expansions";
 export type ArticleCategory =
   | "MDCAT"
   | "Cambridge O Level"
@@ -174,10 +176,11 @@ export function getArticleReferences(article: Article): ArticleReference[] {
     });
   }
 
+  if(article.slug===respiratoryArticle.slug)return [{label:'OpenStax Biology 2e · Breathing',href:'https://openstax.org/books/biology-2e/pages/39-3-breathing'},{label:'OpenStax Biology 2e · Gas exchange',href:'https://openstax.org/books/biology-2e/pages/39-2-gas-exchange-across-respiratory-surfaces'}];
   return references.slice(0, 3);
 }
 
-export const articles: Article[] = [
+const baseArticles: Article[] = [
   {
     slug: "memorizing-pathways-fails",
     category: "Study Strategy",
@@ -2390,3 +2393,6 @@ export const articles: Article[] = [
     ],
   },
 ];
+
+export const articles:Article[]=expandArticles([...baseArticles,respiratoryArticle]);
+export function getArticleUpdatedISO(article:Article){return expandedArticleSlugs.includes(article.slug)||article.slug===respiratoryArticle.slug?"2026-09-15":article.dateISO;}

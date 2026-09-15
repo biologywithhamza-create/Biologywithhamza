@@ -1,0 +1,1408 @@
+{
+  "chapter": "Respiration",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "emphysema-surface-area",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Destruction of alveolar walls in emphysema lowers gas-exchange efficiency mainly by reducing:",
+      "options": [
+        "The surface area available for diffusion",
+        "The concentration of nitrogen in air",
+        "The number of ribs",
+        "The solubility of glucose"
+      ],
+      "answer": 0,
+      "explanation": "Alveolar walls create a very large exchange surface. Their destruction produces larger air spaces with less total surface area for diffusion."
+    },
+    {
+      "id": "carbon-monoxide-haemoglobin",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "A person inhales carbon monoxide. Tissue oxygen delivery falls first because carbon monoxide:",
+      "options": [
+        "Thickens the pleural membranes",
+        "Competes strongly for haemoglobin binding sites",
+        "Stops all movement of the diaphragm",
+        "Changes oxygen into carbon dioxide"
+      ],
+      "answer": 1,
+      "explanation": "Carbon monoxide binds haemoglobin with very high affinity, reducing both oxygen-carrying capacity and the release of remaining bound oxygen."
+    },
+    {
+      "id": "exercise-diffusion-gradient",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "During exercise, which change helps maintain a steep oxygen diffusion gradient from alveoli into blood?",
+      "options": [
+        "Slower pulmonary blood flow",
+        "Complete closure of bronchioles",
+        "Faster removal of oxygenated blood from alveolar capillaries",
+        "Accumulation of oxygen inside red cells"
+      ],
+      "answer": 2,
+      "explanation": "Increased pulmonary blood flow carries oxygenated blood away and brings more deoxygenated blood to the alveoli, helping preserve the partial-pressure gradient."
+    },
+    {
+      "id": "thickened-alveolar-membrane",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Fluid accumulation thickens the alveolar–capillary barrier. According to diffusion principles, oxygen transfer should fall because:",
+      "options": [
+        "Surface area necessarily becomes infinite",
+        "Oxygen molecules stop moving randomly",
+        "Blood becomes a solid",
+        "The diffusion distance increases"
+      ],
+      "answer": 3,
+      "explanation": "Diffusion rate decreases as diffusion distance increases. A thicker barrier therefore slows oxygen movement even if the pressure gradient remains present."
+    },
+    {
+      "id": "respiration-diaphragm-inhale-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "The diaphragm contracts and flattens. Which outcome follows most directly?",
+      "options": [
+        "Thoracic volume rises and air is drawn into the lungs",
+        "Air flows out of the lungs",
+        "A very large gas-exchange surface is available",
+        "Oxygen and carbon dioxide diffuse rapidly"
+      ],
+      "answer": 0,
+      "explanation": "Thoracic volume rises and air is drawn into the lungs. Increased volume lowers alveolar pressure below atmospheric pressure."
+    },
+    {
+      "id": "respiration-diaphragm-inhale-cause",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: thoracic volume rises and air is drawn into the lungs?",
+      "options": [
+        "Inspiratory muscles relax during quiet breathing",
+        "The diaphragm contracts and flattens",
+        "Millions of small alveoli are present in the lungs",
+        "Alveolar epithelium and capillary endothelium are each one cell thick"
+      ],
+      "answer": 1,
+      "explanation": "Thoracic volume rises and air is drawn into the lungs. Increased volume lowers alveolar pressure below atmospheric pressure."
+    },
+    {
+      "id": "respiration-diaphragm-inhale-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "After the diaphragm contracts and flattens, which explanation best links the change to its outcome?",
+      "options": [
+        "Elastic recoil reduces thoracic volume and raises alveolar pressure",
+        "Dividing the air space into many sacs greatly increases total membrane area",
+        "Increased volume lowers alveolar pressure below atmospheric pressure",
+        "The short diffusion path increases transfer rate according to Fick's principle"
+      ],
+      "answer": 2,
+      "explanation": "Thoracic volume rises and air is drawn into the lungs. Increased volume lowers alveolar pressure below atmospheric pressure."
+    },
+    {
+      "id": "respiration-diaphragm-inhale-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: the diaphragm contracts and flattens?",
+      "options": [
+        "Air flows out of the lungs — Elastic recoil reduces thoracic volume and raises alveolar pressure",
+        "A very large gas-exchange surface is available — Dividing the air space into many sacs greatly increases total membrane area",
+        "Oxygen and carbon dioxide diffuse rapidly — The short diffusion path increases transfer rate according to Fick's principle",
+        "Thoracic volume rises and air is drawn into the lungs — Increased volume lowers alveolar pressure below atmospheric pressure"
+      ],
+      "answer": 3,
+      "explanation": "Thoracic volume rises and air is drawn into the lungs. Increased volume lowers alveolar pressure below atmospheric pressure."
+    },
+    {
+      "id": "respiration-exhale-rest-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "After inspiratory muscles relax during quiet breathing, which observation is most likely?",
+      "options": [
+        "Air flows out of the lungs",
+        "A very large gas-exchange surface is available",
+        "Oxygen and carbon dioxide diffuse rapidly",
+        "A steep oxygen gradient from alveolus to venous blood is maintained"
+      ],
+      "answer": 0,
+      "explanation": "Air flows out of the lungs. Elastic recoil reduces thoracic volume and raises alveolar pressure."
+    },
+    {
+      "id": "respiration-exhale-rest-cause",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "A learner records that air flows out of the lungs. Which preceding event best accounts for it?",
+      "options": [
+        "Millions of small alveoli are present in the lungs",
+        "Inspiratory muscles relax during quiet breathing",
+        "Alveolar epithelium and capillary endothelium are each one cell thick",
+        "Fresh air continually replaces alveolar air"
+      ],
+      "answer": 1,
+      "explanation": "Air flows out of the lungs. Elastic recoil reduces thoracic volume and raises alveolar pressure."
+    },
+    {
+      "id": "respiration-exhale-rest-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "After inspiratory muscles relax during quiet breathing, which explanation best links the change to its outcome?",
+      "options": [
+        "Dividing the air space into many sacs greatly increases total membrane area",
+        "The short diffusion path increases transfer rate according to Fick's principle",
+        "Elastic recoil reduces thoracic volume and raises alveolar pressure",
+        "Ventilation replenishes oxygen removed by the pulmonary circulation"
+      ],
+      "answer": 2,
+      "explanation": "Air flows out of the lungs. Elastic recoil reduces thoracic volume and raises alveolar pressure."
+    },
+    {
+      "id": "respiration-exhale-rest-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: inspiratory muscles relax during quiet breathing?",
+      "options": [
+        "A steep oxygen gradient from alveolus to venous blood is maintained — Ventilation replenishes oxygen removed by the pulmonary circulation",
+        "A very large gas-exchange surface is available — Dividing the air space into many sacs greatly increases total membrane area",
+        "Oxygen and carbon dioxide diffuse rapidly — The short diffusion path increases transfer rate according to Fick's principle",
+        "Air flows out of the lungs — Elastic recoil reduces thoracic volume and raises alveolar pressure"
+      ],
+      "answer": 3,
+      "explanation": "Air flows out of the lungs. Elastic recoil reduces thoracic volume and raises alveolar pressure."
+    },
+    {
+      "id": "respiration-alveolar-area-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: Millions of small alveoli are present in the lungs. What should the model predict first?",
+      "options": [
+        "A very large gas-exchange surface is available",
+        "A steep oxygen gradient from alveolus to venous blood is maintained",
+        "Oxygen and carbon dioxide diffuse rapidly",
+        "Haemoglobin becomes highly saturated with oxygen"
+      ],
+      "answer": 0,
+      "explanation": "A very large gas-exchange surface is available. Dividing the air space into many sacs greatly increases total membrane area."
+    },
+    {
+      "id": "respiration-alveolar-area-cause",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when a very large gas-exchange surface is available?",
+      "options": [
+        "Alveolar epithelium and capillary endothelium are each one cell thick",
+        "Millions of small alveoli are present in the lungs",
+        "Blood reaches lung capillaries where oxygen partial pressure is high",
+        "Fresh air continually replaces alveolar air"
+      ],
+      "answer": 1,
+      "explanation": "A very large gas-exchange surface is available. Dividing the air space into many sacs greatly increases total membrane area."
+    },
+    {
+      "id": "respiration-alveolar-area-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "After millions of small alveoli are present in the lungs, which explanation best links the change to its outcome?",
+      "options": [
+        "Ventilation replenishes oxygen removed by the pulmonary circulation",
+        "The short diffusion path increases transfer rate according to Fick's principle",
+        "Dividing the air space into many sacs greatly increases total membrane area",
+        "Oxygen diffuses into red cells and binds reversibly to haem groups"
+      ],
+      "answer": 2,
+      "explanation": "A very large gas-exchange surface is available. Dividing the air space into many sacs greatly increases total membrane area."
+    },
+    {
+      "id": "respiration-alveolar-area-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: millions of small alveoli are present in the lungs?",
+      "options": [
+        "Oxygen and carbon dioxide diffuse rapidly — The short diffusion path increases transfer rate according to Fick's principle",
+        "Haemoglobin becomes highly saturated with oxygen — Oxygen diffuses into red cells and binds reversibly to haem groups",
+        "A steep oxygen gradient from alveolus to venous blood is maintained — Ventilation replenishes oxygen removed by the pulmonary circulation",
+        "A very large gas-exchange surface is available — Dividing the air space into many sacs greatly increases total membrane area"
+      ],
+      "answer": 3,
+      "explanation": "A very large gas-exchange surface is available. Dividing the air space into many sacs greatly increases total membrane area."
+    },
+    {
+      "id": "respiration-thin-barrier-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: Alveolar epithelium and capillary endothelium are each one cell thick?",
+      "options": [
+        "Oxygen and carbon dioxide diffuse rapidly",
+        "Haemoglobin becomes highly saturated with oxygen",
+        "Trapped particles and microbes move toward the throat",
+        "A steep oxygen gradient from alveolus to venous blood is maintained"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen and carbon dioxide diffuse rapidly. The short diffusion path increases transfer rate according to Fick's principle."
+    },
+    {
+      "id": "respiration-thin-barrier-cause",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: oxygen and carbon dioxide diffuse rapidly?",
+      "options": [
+        "Fresh air continually replaces alveolar air",
+        "Alveolar epithelium and capillary endothelium are each one cell thick",
+        "Blood reaches lung capillaries where oxygen partial pressure is high",
+        "Cilia beat upward along mucus-lined airways"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen and carbon dioxide diffuse rapidly. The short diffusion path increases transfer rate according to Fick's principle."
+    },
+    {
+      "id": "respiration-thin-barrier-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "After alveolar epithelium and capillary endothelium are each one cell thick, which explanation best links the change to its outcome?",
+      "options": [
+        "Ventilation replenishes oxygen removed by the pulmonary circulation",
+        "Oxygen diffuses into red cells and binds reversibly to haem groups",
+        "The short diffusion path increases transfer rate according to Fick's principle",
+        "Coordinated ciliary movement powers the mucociliary escalator"
+      ],
+      "answer": 2,
+      "explanation": "Oxygen and carbon dioxide diffuse rapidly. The short diffusion path increases transfer rate according to Fick's principle."
+    },
+    {
+      "id": "respiration-thin-barrier-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: alveolar epithelium and capillary endothelium are each one cell thick?",
+      "options": [
+        "A steep oxygen gradient from alveolus to venous blood is maintained — Ventilation replenishes oxygen removed by the pulmonary circulation",
+        "Haemoglobin becomes highly saturated with oxygen — Oxygen diffuses into red cells and binds reversibly to haem groups",
+        "Trapped particles and microbes move toward the throat — Coordinated ciliary movement powers the mucociliary escalator",
+        "Oxygen and carbon dioxide diffuse rapidly — The short diffusion path increases transfer rate according to Fick's principle"
+      ],
+      "answer": 3,
+      "explanation": "Oxygen and carbon dioxide diffuse rapidly. The short diffusion path increases transfer rate according to Fick's principle."
+    },
+    {
+      "id": "respiration-ventilation-gradient-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Fresh air continually replaces alveolar air. Which outcome follows most directly?",
+      "options": [
+        "A steep oxygen gradient from alveolus to venous blood is maintained",
+        "Haemoglobin becomes highly saturated with oxygen",
+        "Trapped particles and microbes move toward the throat",
+        "Large airways remain open during pressure changes"
+      ],
+      "answer": 0,
+      "explanation": "A steep oxygen gradient from alveolus to venous blood is maintained. Ventilation replenishes oxygen removed by the pulmonary circulation."
+    },
+    {
+      "id": "respiration-ventilation-gradient-cause",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: a steep oxygen gradient from alveolus to venous blood is maintained?",
+      "options": [
+        "Blood reaches lung capillaries where oxygen partial pressure is high",
+        "Fresh air continually replaces alveolar air",
+        "Cilia beat upward along mucus-lined airways",
+        "Cartilage supports the trachea and bronchi"
+      ],
+      "answer": 1,
+      "explanation": "A steep oxygen gradient from alveolus to venous blood is maintained. Ventilation replenishes oxygen removed by the pulmonary circulation."
+    },
+    {
+      "id": "respiration-ventilation-gradient-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "After fresh air continually replaces alveolar air, which explanation best links the change to its outcome?",
+      "options": [
+        "Oxygen diffuses into red cells and binds reversibly to haem groups",
+        "Coordinated ciliary movement powers the mucociliary escalator",
+        "Ventilation replenishes oxygen removed by the pulmonary circulation",
+        "Rigid cartilage resists collapse while allowing a patent airflow pathway"
+      ],
+      "answer": 2,
+      "explanation": "A steep oxygen gradient from alveolus to venous blood is maintained. Ventilation replenishes oxygen removed by the pulmonary circulation."
+    },
+    {
+      "id": "respiration-ventilation-gradient-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: fresh air continually replaces alveolar air?",
+      "options": [
+        "Haemoglobin becomes highly saturated with oxygen — Oxygen diffuses into red cells and binds reversibly to haem groups",
+        "Trapped particles and microbes move toward the throat — Coordinated ciliary movement powers the mucociliary escalator",
+        "Large airways remain open during pressure changes — Rigid cartilage resists collapse while allowing a patent airflow pathway",
+        "A steep oxygen gradient from alveolus to venous blood is maintained — Ventilation replenishes oxygen removed by the pulmonary circulation"
+      ],
+      "answer": 3,
+      "explanation": "A steep oxygen gradient from alveolus to venous blood is maintained. Ventilation replenishes oxygen removed by the pulmonary circulation."
+    },
+    {
+      "id": "respiration-haemoglobin-load-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "After blood reaches lung capillaries where oxygen partial pressure is high, which observation is most likely?",
+      "options": [
+        "Haemoglobin becomes highly saturated with oxygen",
+        "Trapped particles and microbes move toward the throat",
+        "Large airways remain open during pressure changes",
+        "Airway resistance increases and airflow falls"
+      ],
+      "answer": 0,
+      "explanation": "Haemoglobin becomes highly saturated with oxygen. Oxygen diffuses into red cells and binds reversibly to haem groups."
+    },
+    {
+      "id": "respiration-haemoglobin-load-cause",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "A learner records that haemoglobin becomes highly saturated with oxygen. Which preceding event best accounts for it?",
+      "options": [
+        "Cilia beat upward along mucus-lined airways",
+        "Blood reaches lung capillaries where oxygen partial pressure is high",
+        "Cartilage supports the trachea and bronchi",
+        "Smooth muscle in bronchioles contracts"
+      ],
+      "answer": 1,
+      "explanation": "Haemoglobin becomes highly saturated with oxygen. Oxygen diffuses into red cells and binds reversibly to haem groups."
+    },
+    {
+      "id": "respiration-haemoglobin-load-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "After blood reaches lung capillaries where oxygen partial pressure is high, which explanation best links the change to its outcome?",
+      "options": [
+        "Coordinated ciliary movement powers the mucociliary escalator",
+        "Rigid cartilage resists collapse while allowing a patent airflow pathway",
+        "Oxygen diffuses into red cells and binds reversibly to haem groups",
+        "A smaller radius greatly increases resistance to movement of air"
+      ],
+      "answer": 2,
+      "explanation": "Haemoglobin becomes highly saturated with oxygen. Oxygen diffuses into red cells and binds reversibly to haem groups."
+    },
+    {
+      "id": "respiration-haemoglobin-load-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: blood reaches lung capillaries where oxygen partial pressure is high?",
+      "options": [
+        "Airway resistance increases and airflow falls — A smaller radius greatly increases resistance to movement of air",
+        "Trapped particles and microbes move toward the throat — Coordinated ciliary movement powers the mucociliary escalator",
+        "Large airways remain open during pressure changes — Rigid cartilage resists collapse while allowing a patent airflow pathway",
+        "Haemoglobin becomes highly saturated with oxygen — Oxygen diffuses into red cells and binds reversibly to haem groups"
+      ],
+      "answer": 3,
+      "explanation": "Haemoglobin becomes highly saturated with oxygen. Oxygen diffuses into red cells and binds reversibly to haem groups."
+    },
+    {
+      "id": "respiration-ciliated-epithelium-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Cilia beat upward along mucus-lined airways. What should the model predict first?",
+      "options": [
+        "Trapped particles and microbes move toward the throat",
+        "Airway resistance increases and airflow falls",
+        "Large airways remain open during pressure changes",
+        "Small alveoli are less likely to collapse during expiration"
+      ],
+      "answer": 0,
+      "explanation": "Trapped particles and microbes move toward the throat. Coordinated ciliary movement powers the mucociliary escalator."
+    },
+    {
+      "id": "respiration-ciliated-epithelium-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when trapped particles and microbes move toward the throat?",
+      "options": [
+        "Cartilage supports the trachea and bronchi",
+        "Cilia beat upward along mucus-lined airways",
+        "Type II alveolar cells secrete surfactant",
+        "Smooth muscle in bronchioles contracts"
+      ],
+      "answer": 1,
+      "explanation": "Trapped particles and microbes move toward the throat. Coordinated ciliary movement powers the mucociliary escalator."
+    },
+    {
+      "id": "respiration-ciliated-epithelium-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After cilia beat upward along mucus-lined airways, which explanation best links the change to its outcome?",
+      "options": [
+        "A smaller radius greatly increases resistance to movement of air",
+        "Rigid cartilage resists collapse while allowing a patent airflow pathway",
+        "Coordinated ciliary movement powers the mucociliary escalator",
+        "Surfactant lowers surface tension at the air-liquid interface"
+      ],
+      "answer": 2,
+      "explanation": "Trapped particles and microbes move toward the throat. Coordinated ciliary movement powers the mucociliary escalator."
+    },
+    {
+      "id": "respiration-ciliated-epithelium-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: cilia beat upward along mucus-lined airways?",
+      "options": [
+        "Large airways remain open during pressure changes — Rigid cartilage resists collapse while allowing a patent airflow pathway",
+        "Small alveoli are less likely to collapse during expiration — Surfactant lowers surface tension at the air-liquid interface",
+        "Airway resistance increases and airflow falls — A smaller radius greatly increases resistance to movement of air",
+        "Trapped particles and microbes move toward the throat — Coordinated ciliary movement powers the mucociliary escalator"
+      ],
+      "answer": 3,
+      "explanation": "Trapped particles and microbes move toward the throat. Coordinated ciliary movement powers the mucociliary escalator."
+    },
+    {
+      "id": "respiration-cartilage-airway-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Cartilage supports the trachea and bronchi?",
+      "options": [
+        "Large airways remain open during pressure changes",
+        "Small alveoli are less likely to collapse during expiration",
+        "Most is transported in plasma as bicarbonate",
+        "Airway resistance increases and airflow falls"
+      ],
+      "answer": 0,
+      "explanation": "Large airways remain open during pressure changes. Rigid cartilage resists collapse while allowing a patent airflow pathway."
+    },
+    {
+      "id": "respiration-cartilage-airway-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: large airways remain open during pressure changes?",
+      "options": [
+        "Smooth muscle in bronchioles contracts",
+        "Cartilage supports the trachea and bronchi",
+        "Type II alveolar cells secrete surfactant",
+        "Carbon dioxide enters a red blood cell in systemic capillaries"
+      ],
+      "answer": 1,
+      "explanation": "Large airways remain open during pressure changes. Rigid cartilage resists collapse while allowing a patent airflow pathway."
+    },
+    {
+      "id": "respiration-cartilage-airway-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After cartilage supports the trachea and bronchi, which explanation best links the change to its outcome?",
+      "options": [
+        "A smaller radius greatly increases resistance to movement of air",
+        "Surfactant lowers surface tension at the air-liquid interface",
+        "Rigid cartilage resists collapse while allowing a patent airflow pathway",
+        "Carbonic anhydrase accelerates carbonic-acid formation and dissociation"
+      ],
+      "answer": 2,
+      "explanation": "Large airways remain open during pressure changes. Rigid cartilage resists collapse while allowing a patent airflow pathway."
+    },
+    {
+      "id": "respiration-cartilage-airway-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: cartilage supports the trachea and bronchi?",
+      "options": [
+        "Airway resistance increases and airflow falls — A smaller radius greatly increases resistance to movement of air",
+        "Small alveoli are less likely to collapse during expiration — Surfactant lowers surface tension at the air-liquid interface",
+        "Most is transported in plasma as bicarbonate — Carbonic anhydrase accelerates carbonic-acid formation and dissociation",
+        "Large airways remain open during pressure changes — Rigid cartilage resists collapse while allowing a patent airflow pathway"
+      ],
+      "answer": 3,
+      "explanation": "Large airways remain open during pressure changes. Rigid cartilage resists collapse while allowing a patent airflow pathway."
+    },
+    {
+      "id": "respiration-bronchiole-muscle-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Smooth muscle in bronchioles contracts. Which outcome follows most directly?",
+      "options": [
+        "Airway resistance increases and airflow falls",
+        "Small alveoli are less likely to collapse during expiration",
+        "Most is transported in plasma as bicarbonate",
+        "Chloride ions enter the cell"
+      ],
+      "answer": 0,
+      "explanation": "Airway resistance increases and airflow falls. A smaller radius greatly increases resistance to movement of air."
+    },
+    {
+      "id": "respiration-bronchiole-muscle-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: airway resistance increases and airflow falls?",
+      "options": [
+        "Type II alveolar cells secrete surfactant",
+        "Smooth muscle in bronchioles contracts",
+        "Carbon dioxide enters a red blood cell in systemic capillaries",
+        "Bicarbonate leaves a red blood cell in systemic tissue"
+      ],
+      "answer": 1,
+      "explanation": "Airway resistance increases and airflow falls. A smaller radius greatly increases resistance to movement of air."
+    },
+    {
+      "id": "respiration-bronchiole-muscle-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After smooth muscle in bronchioles contracts, which explanation best links the change to its outcome?",
+      "options": [
+        "Surfactant lowers surface tension at the air-liquid interface",
+        "Carbonic anhydrase accelerates carbonic-acid formation and dissociation",
+        "A smaller radius greatly increases resistance to movement of air",
+        "Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma"
+      ],
+      "answer": 2,
+      "explanation": "Airway resistance increases and airflow falls. A smaller radius greatly increases resistance to movement of air."
+    },
+    {
+      "id": "respiration-bronchiole-muscle-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: smooth muscle in bronchioles contracts?",
+      "options": [
+        "Small alveoli are less likely to collapse during expiration — Surfactant lowers surface tension at the air-liquid interface",
+        "Most is transported in plasma as bicarbonate — Carbonic anhydrase accelerates carbonic-acid formation and dissociation",
+        "Chloride ions enter the cell — Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma",
+        "Airway resistance increases and airflow falls — A smaller radius greatly increases resistance to movement of air"
+      ],
+      "answer": 3,
+      "explanation": "Airway resistance increases and airflow falls. A smaller radius greatly increases resistance to movement of air."
+    },
+    {
+      "id": "respiration-surfactant-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After type II alveolar cells secrete surfactant, which observation is most likely?",
+      "options": [
+        "Small alveoli are less likely to collapse during expiration",
+        "Most is transported in plasma as bicarbonate",
+        "Chloride ions enter the cell",
+        "Ventilation rate and depth increase"
+      ],
+      "answer": 0,
+      "explanation": "Small alveoli are less likely to collapse during expiration. Surfactant lowers surface tension at the air-liquid interface."
+    },
+    {
+      "id": "respiration-surfactant-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "A learner records that small alveoli are less likely to collapse during expiration. Which preceding event best accounts for it?",
+      "options": [
+        "Carbon dioxide enters a red blood cell in systemic capillaries",
+        "Type II alveolar cells secrete surfactant",
+        "Bicarbonate leaves a red blood cell in systemic tissue",
+        "Metabolic carbon dioxide and hydrogen ions increase during exercise"
+      ],
+      "answer": 1,
+      "explanation": "Small alveoli are less likely to collapse during expiration. Surfactant lowers surface tension at the air-liquid interface."
+    },
+    {
+      "id": "respiration-surfactant-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After type II alveolar cells secrete surfactant, which explanation best links the change to its outcome?",
+      "options": [
+        "Carbonic anhydrase accelerates carbonic-acid formation and dissociation",
+        "Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma",
+        "Surfactant lowers surface tension at the air-liquid interface",
+        "Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal"
+      ],
+      "answer": 2,
+      "explanation": "Small alveoli are less likely to collapse during expiration. Surfactant lowers surface tension at the air-liquid interface."
+    },
+    {
+      "id": "respiration-surfactant-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: type II alveolar cells secrete surfactant?",
+      "options": [
+        "Ventilation rate and depth increase — Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal",
+        "Most is transported in plasma as bicarbonate — Carbonic anhydrase accelerates carbonic-acid formation and dissociation",
+        "Chloride ions enter the cell — Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma",
+        "Small alveoli are less likely to collapse during expiration — Surfactant lowers surface tension at the air-liquid interface"
+      ],
+      "answer": 3,
+      "explanation": "Small alveoli are less likely to collapse during expiration. Surfactant lowers surface tension at the air-liquid interface."
+    },
+    {
+      "id": "respiration-co2-bicarbonate-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Carbon dioxide enters a red blood cell in systemic capillaries. What should the model predict first?",
+      "options": [
+        "Most is transported in plasma as bicarbonate",
+        "Ventilation rate and depth increase",
+        "Chloride ions enter the cell",
+        "Arterial oxygen saturation initially falls and ventilation rises"
+      ],
+      "answer": 0,
+      "explanation": "Most is transported in plasma as bicarbonate. Carbonic anhydrase accelerates carbonic-acid formation and dissociation."
+    },
+    {
+      "id": "respiration-co2-bicarbonate-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when most is transported in plasma as bicarbonate?",
+      "options": [
+        "Bicarbonate leaves a red blood cell in systemic tissue",
+        "Carbon dioxide enters a red blood cell in systemic capillaries",
+        "A person rapidly ascends to high altitude",
+        "Metabolic carbon dioxide and hydrogen ions increase during exercise"
+      ],
+      "answer": 1,
+      "explanation": "Most is transported in plasma as bicarbonate. Carbonic anhydrase accelerates carbonic-acid formation and dissociation."
+    },
+    {
+      "id": "respiration-co2-bicarbonate-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After carbon dioxide enters a red blood cell in systemic capillaries, which explanation best links the change to its outcome?",
+      "options": [
+        "Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal",
+        "Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma",
+        "Carbonic anhydrase accelerates carbonic-acid formation and dissociation",
+        "Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient"
+      ],
+      "answer": 2,
+      "explanation": "Most is transported in plasma as bicarbonate. Carbonic anhydrase accelerates carbonic-acid formation and dissociation."
+    },
+    {
+      "id": "respiration-co2-bicarbonate-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: carbon dioxide enters a red blood cell in systemic capillaries?",
+      "options": [
+        "Chloride ions enter the cell — Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma",
+        "Arterial oxygen saturation initially falls and ventilation rises — Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient",
+        "Ventilation rate and depth increase — Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal",
+        "Most is transported in plasma as bicarbonate — Carbonic anhydrase accelerates carbonic-acid formation and dissociation"
+      ],
+      "answer": 3,
+      "explanation": "Most is transported in plasma as bicarbonate. Carbonic anhydrase accelerates carbonic-acid formation and dissociation."
+    },
+    {
+      "id": "respiration-chloride-shift-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Bicarbonate leaves a red blood cell in systemic tissue?",
+      "options": [
+        "Chloride ions enter the cell",
+        "Arterial oxygen saturation initially falls and ventilation rises",
+        "Mucus and pathogens accumulate more readily",
+        "Ventilation rate and depth increase"
+      ],
+      "answer": 0,
+      "explanation": "Chloride ions enter the cell. Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma."
+    },
+    {
+      "id": "respiration-chloride-shift-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: chloride ions enter the cell?",
+      "options": [
+        "Metabolic carbon dioxide and hydrogen ions increase during exercise",
+        "Bicarbonate leaves a red blood cell in systemic tissue",
+        "A person rapidly ascends to high altitude",
+        "Tobacco smoke damages airway cilia"
+      ],
+      "answer": 1,
+      "explanation": "Chloride ions enter the cell. Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma."
+    },
+    {
+      "id": "respiration-chloride-shift-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After bicarbonate leaves a red blood cell in systemic tissue, which explanation best links the change to its outcome?",
+      "options": [
+        "Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal",
+        "Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient",
+        "Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma",
+        "The mucociliary escalator can no longer clear inhaled material effectively"
+      ],
+      "answer": 2,
+      "explanation": "Chloride ions enter the cell. Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma."
+    },
+    {
+      "id": "respiration-chloride-shift-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: bicarbonate leaves a red blood cell in systemic tissue?",
+      "options": [
+        "Ventilation rate and depth increase — Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal",
+        "Arterial oxygen saturation initially falls and ventilation rises — Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient",
+        "Mucus and pathogens accumulate more readily — The mucociliary escalator can no longer clear inhaled material effectively",
+        "Chloride ions enter the cell — Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma"
+      ],
+      "answer": 3,
+      "explanation": "Chloride ions enter the cell. Anion exchange maintains electrical neutrality while bicarbonate is carried in plasma."
+    },
+    {
+      "id": "respiration-exercise-ventilation-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Metabolic carbon dioxide and hydrogen ions increase during exercise. Which outcome follows most directly?",
+      "options": [
+        "Ventilation rate and depth increase",
+        "Arterial oxygen saturation initially falls and ventilation rises",
+        "Mucus and pathogens accumulate more readily",
+        "Gas-exchange area and elastic recoil decline"
+      ],
+      "answer": 0,
+      "explanation": "Ventilation rate and depth increase. Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal."
+    },
+    {
+      "id": "respiration-exercise-ventilation-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: ventilation rate and depth increase?",
+      "options": [
+        "A person rapidly ascends to high altitude",
+        "Metabolic carbon dioxide and hydrogen ions increase during exercise",
+        "Tobacco smoke damages airway cilia",
+        "Elastin and alveolar walls are destroyed in emphysema"
+      ],
+      "answer": 1,
+      "explanation": "Ventilation rate and depth increase. Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal."
+    },
+    {
+      "id": "respiration-exercise-ventilation-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After metabolic carbon dioxide and hydrogen ions increase during exercise, which explanation best links the change to its outcome?",
+      "options": [
+        "Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient",
+        "The mucociliary escalator can no longer clear inhaled material effectively",
+        "Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal",
+        "Small alveoli merge into larger spaces that empty poorly and provide less surface"
+      ],
+      "answer": 2,
+      "explanation": "Ventilation rate and depth increase. Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal."
+    },
+    {
+      "id": "respiration-exercise-ventilation-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: metabolic carbon dioxide and hydrogen ions increase during exercise?",
+      "options": [
+        "Arterial oxygen saturation initially falls and ventilation rises — Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient",
+        "Mucus and pathogens accumulate more readily — The mucociliary escalator can no longer clear inhaled material effectively",
+        "Gas-exchange area and elastic recoil decline — Small alveoli merge into larger spaces that empty poorly and provide less surface",
+        "Ventilation rate and depth increase — Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal"
+      ],
+      "answer": 3,
+      "explanation": "Ventilation rate and depth increase. Chemoreceptors stimulate respiratory centres to enhance carbon-dioxide removal."
+    },
+    {
+      "id": "respiration-high-altitude-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After a person rapidly ascends to high altitude, which observation is most likely?",
+      "options": [
+        "Arterial oxygen saturation initially falls and ventilation rises",
+        "Mucus and pathogens accumulate more readily",
+        "Gas-exchange area and elastic recoil decline",
+        "Oxygen-carrying capacity and tissue delivery fall"
+      ],
+      "answer": 0,
+      "explanation": "Arterial oxygen saturation initially falls and ventilation rises. Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient."
+    },
+    {
+      "id": "respiration-high-altitude-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "A learner records that arterial oxygen saturation initially falls and ventilation rises. Which preceding event best accounts for it?",
+      "options": [
+        "Tobacco smoke damages airway cilia",
+        "A person rapidly ascends to high altitude",
+        "Elastin and alveolar walls are destroyed in emphysema",
+        "Carbon monoxide enters pulmonary capillary blood"
+      ],
+      "answer": 1,
+      "explanation": "Arterial oxygen saturation initially falls and ventilation rises. Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient."
+    },
+    {
+      "id": "respiration-high-altitude-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After a person rapidly ascends to high altitude, which explanation best links the change to its outcome?",
+      "options": [
+        "The mucociliary escalator can no longer clear inhaled material effectively",
+        "Small alveoli merge into larger spaces that empty poorly and provide less surface",
+        "Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient",
+        "Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen"
+      ],
+      "answer": 2,
+      "explanation": "Arterial oxygen saturation initially falls and ventilation rises. Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient."
+    },
+    {
+      "id": "respiration-high-altitude-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a person rapidly ascends to high altitude?",
+      "options": [
+        "Oxygen-carrying capacity and tissue delivery fall — Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen",
+        "Mucus and pathogens accumulate more readily — The mucociliary escalator can no longer clear inhaled material effectively",
+        "Gas-exchange area and elastic recoil decline — Small alveoli merge into larger spaces that empty poorly and provide less surface",
+        "Arterial oxygen saturation initially falls and ventilation rises — Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient"
+      ],
+      "answer": 3,
+      "explanation": "Arterial oxygen saturation initially falls and ventilation rises. Lower atmospheric oxygen pressure reduces the alveolar diffusion gradient."
+    },
+    {
+      "id": "respiration-smoking-cilia-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Tobacco smoke damages airway cilia. What should the model predict first?",
+      "options": [
+        "Mucus and pathogens accumulate more readily",
+        "Oxygen-carrying capacity and tissue delivery fall",
+        "Gas-exchange area and elastic recoil decline",
+        "Expiration becomes difficult and wheezing may occur"
+      ],
+      "answer": 0,
+      "explanation": "Mucus and pathogens accumulate more readily. The mucociliary escalator can no longer clear inhaled material effectively."
+    },
+    {
+      "id": "respiration-smoking-cilia-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when mucus and pathogens accumulate more readily?",
+      "options": [
+        "Elastin and alveolar walls are destroyed in emphysema",
+        "Tobacco smoke damages airway cilia",
+        "Airway inflammation triggers bronchiolar constriction and mucus secretion",
+        "Carbon monoxide enters pulmonary capillary blood"
+      ],
+      "answer": 1,
+      "explanation": "Mucus and pathogens accumulate more readily. The mucociliary escalator can no longer clear inhaled material effectively."
+    },
+    {
+      "id": "respiration-smoking-cilia-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After tobacco smoke damages airway cilia, which explanation best links the change to its outcome?",
+      "options": [
+        "Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen",
+        "Small alveoli merge into larger spaces that empty poorly and provide less surface",
+        "The mucociliary escalator can no longer clear inhaled material effectively",
+        "Narrowed conducting airways markedly increase resistance to airflow"
+      ],
+      "answer": 2,
+      "explanation": "Mucus and pathogens accumulate more readily. The mucociliary escalator can no longer clear inhaled material effectively."
+    },
+    {
+      "id": "respiration-smoking-cilia-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: tobacco smoke damages airway cilia?",
+      "options": [
+        "Gas-exchange area and elastic recoil decline — Small alveoli merge into larger spaces that empty poorly and provide less surface",
+        "Expiration becomes difficult and wheezing may occur — Narrowed conducting airways markedly increase resistance to airflow",
+        "Oxygen-carrying capacity and tissue delivery fall — Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen",
+        "Mucus and pathogens accumulate more readily — The mucociliary escalator can no longer clear inhaled material effectively"
+      ],
+      "answer": 3,
+      "explanation": "Mucus and pathogens accumulate more readily. The mucociliary escalator can no longer clear inhaled material effectively."
+    },
+    {
+      "id": "respiration-emphysema-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Elastin and alveolar walls are destroyed in emphysema?",
+      "options": [
+        "Gas-exchange area and elastic recoil decline",
+        "Expiration becomes difficult and wheezing may occur",
+        "Diffusion capacity falls and exertional breathlessness develops",
+        "Oxygen-carrying capacity and tissue delivery fall"
+      ],
+      "answer": 0,
+      "explanation": "Gas-exchange area and elastic recoil decline. Small alveoli merge into larger spaces that empty poorly and provide less surface."
+    },
+    {
+      "id": "respiration-emphysema-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: gas-exchange area and elastic recoil decline?",
+      "options": [
+        "Carbon monoxide enters pulmonary capillary blood",
+        "Elastin and alveolar walls are destroyed in emphysema",
+        "Airway inflammation triggers bronchiolar constriction and mucus secretion",
+        "Fibrous tissue thickens the alveolar-capillary barrier"
+      ],
+      "answer": 1,
+      "explanation": "Gas-exchange area and elastic recoil decline. Small alveoli merge into larger spaces that empty poorly and provide less surface."
+    },
+    {
+      "id": "respiration-emphysema-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After elastin and alveolar walls are destroyed in emphysema, which explanation best links the change to its outcome?",
+      "options": [
+        "Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen",
+        "Narrowed conducting airways markedly increase resistance to airflow",
+        "Small alveoli merge into larger spaces that empty poorly and provide less surface",
+        "The increased diffusion distance slows oxygen transfer into blood"
+      ],
+      "answer": 2,
+      "explanation": "Gas-exchange area and elastic recoil decline. Small alveoli merge into larger spaces that empty poorly and provide less surface."
+    },
+    {
+      "id": "respiration-emphysema-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: elastin and alveolar walls are destroyed in emphysema?",
+      "options": [
+        "Oxygen-carrying capacity and tissue delivery fall — Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen",
+        "Expiration becomes difficult and wheezing may occur — Narrowed conducting airways markedly increase resistance to airflow",
+        "Diffusion capacity falls and exertional breathlessness develops — The increased diffusion distance slows oxygen transfer into blood",
+        "Gas-exchange area and elastic recoil decline — Small alveoli merge into larger spaces that empty poorly and provide less surface"
+      ],
+      "answer": 3,
+      "explanation": "Gas-exchange area and elastic recoil decline. Small alveoli merge into larger spaces that empty poorly and provide less surface."
+    },
+    {
+      "id": "respiration-carbon-monoxide-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Carbon monoxide enters pulmonary capillary blood. Which outcome follows most directly?",
+      "options": [
+        "Oxygen-carrying capacity and tissue delivery fall",
+        "Expiration becomes difficult and wheezing may occur",
+        "Diffusion capacity falls and exertional breathlessness develops",
+        "Alveolar ventilation can fall"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen-carrying capacity and tissue delivery fall. Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen."
+    },
+    {
+      "id": "respiration-carbon-monoxide-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: oxygen-carrying capacity and tissue delivery fall?",
+      "options": [
+        "Airway inflammation triggers bronchiolar constriction and mucus secretion",
+        "Carbon monoxide enters pulmonary capillary blood",
+        "Fibrous tissue thickens the alveolar-capillary barrier",
+        "Breathing becomes very rapid and shallow at the same minute ventilation"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen-carrying capacity and tissue delivery fall. Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen."
+    },
+    {
+      "id": "respiration-carbon-monoxide-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After carbon monoxide enters pulmonary capillary blood, which explanation best links the change to its outcome?",
+      "options": [
+        "Narrowed conducting airways markedly increase resistance to airflow",
+        "The increased diffusion distance slows oxygen transfer into blood",
+        "Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen",
+        "A larger fraction of each small breath remains in conducting anatomical dead space"
+      ],
+      "answer": 2,
+      "explanation": "Oxygen-carrying capacity and tissue delivery fall. Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen."
+    },
+    {
+      "id": "respiration-carbon-monoxide-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: carbon monoxide enters pulmonary capillary blood?",
+      "options": [
+        "Expiration becomes difficult and wheezing may occur — Narrowed conducting airways markedly increase resistance to airflow",
+        "Diffusion capacity falls and exertional breathlessness develops — The increased diffusion distance slows oxygen transfer into blood",
+        "Alveolar ventilation can fall — A larger fraction of each small breath remains in conducting anatomical dead space",
+        "Oxygen-carrying capacity and tissue delivery fall — Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen"
+      ],
+      "answer": 3,
+      "explanation": "Oxygen-carrying capacity and tissue delivery fall. Carbon monoxide binds haemoglobin strongly and hinders release of remaining oxygen."
+    },
+    {
+      "id": "respiration-asthma-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After airway inflammation triggers bronchiolar constriction and mucus secretion, which observation is most likely?",
+      "options": [
+        "Expiration becomes difficult and wheezing may occur",
+        "Diffusion capacity falls and exertional breathlessness develops",
+        "Alveolar ventilation can fall",
+        "Haemoglobin's oxygen affinity increases"
+      ],
+      "answer": 0,
+      "explanation": "Expiration becomes difficult and wheezing may occur. Narrowed conducting airways markedly increase resistance to airflow."
+    },
+    {
+      "id": "respiration-asthma-cause",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "A learner records that expiration becomes difficult and wheezing may occur. Which preceding event best accounts for it?",
+      "options": [
+        "Fibrous tissue thickens the alveolar-capillary barrier",
+        "Airway inflammation triggers bronchiolar constriction and mucus secretion",
+        "Breathing becomes very rapid and shallow at the same minute ventilation",
+        "Blood pH rises and temperature falls"
+      ],
+      "answer": 1,
+      "explanation": "Expiration becomes difficult and wheezing may occur. Narrowed conducting airways markedly increase resistance to airflow."
+    },
+    {
+      "id": "respiration-asthma-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "After airway inflammation triggers bronchiolar constriction and mucus secretion, which explanation best links the change to its outcome?",
+      "options": [
+        "The increased diffusion distance slows oxygen transfer into blood",
+        "A larger fraction of each small breath remains in conducting anatomical dead space",
+        "Narrowed conducting airways markedly increase resistance to airflow",
+        "The dissociation curve shifts left, favouring loading but opposing tissue release"
+      ],
+      "answer": 2,
+      "explanation": "Expiration becomes difficult and wheezing may occur. Narrowed conducting airways markedly increase resistance to airflow."
+    },
+    {
+      "id": "respiration-asthma-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: airway inflammation triggers bronchiolar constriction and mucus secretion?",
+      "options": [
+        "Haemoglobin's oxygen affinity increases — The dissociation curve shifts left, favouring loading but opposing tissue release",
+        "Diffusion capacity falls and exertional breathlessness develops — The increased diffusion distance slows oxygen transfer into blood",
+        "Alveolar ventilation can fall — A larger fraction of each small breath remains in conducting anatomical dead space",
+        "Expiration becomes difficult and wheezing may occur — Narrowed conducting airways markedly increase resistance to airflow"
+      ],
+      "answer": 3,
+      "explanation": "Expiration becomes difficult and wheezing may occur. Narrowed conducting airways markedly increase resistance to airflow."
+    },
+    {
+      "id": "respiration-fibrosis-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Fibrous tissue thickens the alveolar-capillary barrier. What should the model predict first?",
+      "options": [
+        "Diffusion capacity falls and exertional breathlessness develops",
+        "Haemoglobin's oxygen affinity increases",
+        "Alveolar ventilation can fall",
+        "Ventilation without matching perfusion creates wasted gas exchange"
+      ],
+      "answer": 0,
+      "explanation": "Diffusion capacity falls and exertional breathlessness develops. The increased diffusion distance slows oxygen transfer into blood."
+    },
+    {
+      "id": "respiration-fibrosis-cause",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when diffusion capacity falls and exertional breathlessness develops?",
+      "options": [
+        "Breathing becomes very rapid and shallow at the same minute ventilation",
+        "Fibrous tissue thickens the alveolar-capillary barrier",
+        "A clot blocks blood flow to ventilated alveoli",
+        "Blood pH rises and temperature falls"
+      ],
+      "answer": 1,
+      "explanation": "Diffusion capacity falls and exertional breathlessness develops. The increased diffusion distance slows oxygen transfer into blood."
+    },
+    {
+      "id": "respiration-fibrosis-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "After fibrous tissue thickens the alveolar-capillary barrier, which explanation best links the change to its outcome?",
+      "options": [
+        "The dissociation curve shifts left, favouring loading but opposing tissue release",
+        "A larger fraction of each small breath remains in conducting anatomical dead space",
+        "The increased diffusion distance slows oxygen transfer into blood",
+        "Air reaches the region but little blood is available to take up oxygen"
+      ],
+      "answer": 2,
+      "explanation": "Diffusion capacity falls and exertional breathlessness develops. The increased diffusion distance slows oxygen transfer into blood."
+    },
+    {
+      "id": "respiration-fibrosis-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: fibrous tissue thickens the alveolar-capillary barrier?",
+      "options": [
+        "Alveolar ventilation can fall — A larger fraction of each small breath remains in conducting anatomical dead space",
+        "Ventilation without matching perfusion creates wasted gas exchange — Air reaches the region but little blood is available to take up oxygen",
+        "Haemoglobin's oxygen affinity increases — The dissociation curve shifts left, favouring loading but opposing tissue release",
+        "Diffusion capacity falls and exertional breathlessness develops — The increased diffusion distance slows oxygen transfer into blood"
+      ],
+      "answer": 3,
+      "explanation": "Diffusion capacity falls and exertional breathlessness develops. The increased diffusion distance slows oxygen transfer into blood."
+    },
+    {
+      "id": "respiration-dead-space-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Breathing becomes very rapid and shallow at the same minute ventilation?",
+      "options": [
+        "Alveolar ventilation can fall",
+        "Ventilation without matching perfusion creates wasted gas exchange",
+        "Arterial carbon dioxide rises and respiratory acidosis develops",
+        "Haemoglobin's oxygen affinity increases"
+      ],
+      "answer": 0,
+      "explanation": "Alveolar ventilation can fall. A larger fraction of each small breath remains in conducting anatomical dead space."
+    },
+    {
+      "id": "respiration-dead-space-cause",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: alveolar ventilation can fall?",
+      "options": [
+        "Blood pH rises and temperature falls",
+        "Breathing becomes very rapid and shallow at the same minute ventilation",
+        "A clot blocks blood flow to ventilated alveoli",
+        "Alveolar ventilation falls while carbon-dioxide production remains constant"
+      ],
+      "answer": 1,
+      "explanation": "Alveolar ventilation can fall. A larger fraction of each small breath remains in conducting anatomical dead space."
+    },
+    {
+      "id": "respiration-dead-space-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "After breathing becomes very rapid and shallow at the same minute ventilation, which explanation best links the change to its outcome?",
+      "options": [
+        "The dissociation curve shifts left, favouring loading but opposing tissue release",
+        "Air reaches the region but little blood is available to take up oxygen",
+        "A larger fraction of each small breath remains in conducting anatomical dead space",
+        "Carbon dioxide removal no longer matches its metabolic production"
+      ],
+      "answer": 2,
+      "explanation": "Alveolar ventilation can fall. A larger fraction of each small breath remains in conducting anatomical dead space."
+    },
+    {
+      "id": "respiration-dead-space-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: breathing becomes very rapid and shallow at the same minute ventilation?",
+      "options": [
+        "Haemoglobin's oxygen affinity increases — The dissociation curve shifts left, favouring loading but opposing tissue release",
+        "Ventilation without matching perfusion creates wasted gas exchange — Air reaches the region but little blood is available to take up oxygen",
+        "Arterial carbon dioxide rises and respiratory acidosis develops — Carbon dioxide removal no longer matches its metabolic production",
+        "Alveolar ventilation can fall — A larger fraction of each small breath remains in conducting anatomical dead space"
+      ],
+      "answer": 3,
+      "explanation": "Alveolar ventilation can fall. A larger fraction of each small breath remains in conducting anatomical dead space."
+    },
+    {
+      "id": "respiration-left-shift-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Blood pH rises and temperature falls. Which outcome follows most directly?",
+      "options": [
+        "Haemoglobin's oxygen affinity increases",
+        "Ventilation without matching perfusion creates wasted gas exchange",
+        "Arterial carbon dioxide rises and respiratory acidosis develops",
+        "More capillaries are recruited and diffusion capacity rises"
+      ],
+      "answer": 0,
+      "explanation": "Haemoglobin's oxygen affinity increases. The dissociation curve shifts left, favouring loading but opposing tissue release."
+    },
+    {
+      "id": "respiration-left-shift-cause",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: haemoglobin's oxygen affinity increases?",
+      "options": [
+        "A clot blocks blood flow to ventilated alveoli",
+        "Blood pH rises and temperature falls",
+        "Alveolar ventilation falls while carbon-dioxide production remains constant",
+        "Pulmonary blood flow increases during exercise in a healthy person"
+      ],
+      "answer": 1,
+      "explanation": "Haemoglobin's oxygen affinity increases. The dissociation curve shifts left, favouring loading but opposing tissue release."
+    },
+    {
+      "id": "respiration-left-shift-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "After blood pH rises and temperature falls, which explanation best links the change to its outcome?",
+      "options": [
+        "Air reaches the region but little blood is available to take up oxygen",
+        "Carbon dioxide removal no longer matches its metabolic production",
+        "The dissociation curve shifts left, favouring loading but opposing tissue release",
+        "Recruitment expands exchange area and helps maintain partial-pressure gradients"
+      ],
+      "answer": 2,
+      "explanation": "Haemoglobin's oxygen affinity increases. The dissociation curve shifts left, favouring loading but opposing tissue release."
+    },
+    {
+      "id": "respiration-left-shift-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: blood pH rises and temperature falls?",
+      "options": [
+        "Ventilation without matching perfusion creates wasted gas exchange — Air reaches the region but little blood is available to take up oxygen",
+        "Arterial carbon dioxide rises and respiratory acidosis develops — Carbon dioxide removal no longer matches its metabolic production",
+        "More capillaries are recruited and diffusion capacity rises — Recruitment expands exchange area and helps maintain partial-pressure gradients",
+        "Haemoglobin's oxygen affinity increases — The dissociation curve shifts left, favouring loading but opposing tissue release"
+      ],
+      "answer": 3,
+      "explanation": "Haemoglobin's oxygen affinity increases. The dissociation curve shifts left, favouring loading but opposing tissue release."
+    },
+    {
+      "id": "respiration-pulmonary-embolus-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "After a clot blocks blood flow to ventilated alveoli, which observation is most likely?",
+      "options": [
+        "Ventilation without matching perfusion creates wasted gas exchange",
+        "Arterial carbon dioxide rises and respiratory acidosis develops",
+        "More capillaries are recruited and diffusion capacity rises",
+        "Thoracic volume rises and air is drawn into the lungs"
+      ],
+      "answer": 0,
+      "explanation": "Ventilation without matching perfusion creates wasted gas exchange. Air reaches the region but little blood is available to take up oxygen."
+    },
+    {
+      "id": "respiration-pulmonary-embolus-cause",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "A learner records that ventilation without matching perfusion creates wasted gas exchange. Which preceding event best accounts for it?",
+      "options": [
+        "Alveolar ventilation falls while carbon-dioxide production remains constant",
+        "A clot blocks blood flow to ventilated alveoli",
+        "Pulmonary blood flow increases during exercise in a healthy person",
+        "The diaphragm contracts and flattens"
+      ],
+      "answer": 1,
+      "explanation": "Ventilation without matching perfusion creates wasted gas exchange. Air reaches the region but little blood is available to take up oxygen."
+    },
+    {
+      "id": "respiration-pulmonary-embolus-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "After a clot blocks blood flow to ventilated alveoli, which explanation best links the change to its outcome?",
+      "options": [
+        "Carbon dioxide removal no longer matches its metabolic production",
+        "Recruitment expands exchange area and helps maintain partial-pressure gradients",
+        "Air reaches the region but little blood is available to take up oxygen",
+        "Increased volume lowers alveolar pressure below atmospheric pressure"
+      ],
+      "answer": 2,
+      "explanation": "Ventilation without matching perfusion creates wasted gas exchange. Air reaches the region but little blood is available to take up oxygen."
+    },
+    {
+      "id": "respiration-pulmonary-embolus-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a clot blocks blood flow to ventilated alveoli?",
+      "options": [
+        "Thoracic volume rises and air is drawn into the lungs — Increased volume lowers alveolar pressure below atmospheric pressure",
+        "Arterial carbon dioxide rises and respiratory acidosis develops — Carbon dioxide removal no longer matches its metabolic production",
+        "More capillaries are recruited and diffusion capacity rises — Recruitment expands exchange area and helps maintain partial-pressure gradients",
+        "Ventilation without matching perfusion creates wasted gas exchange — Air reaches the region but little blood is available to take up oxygen"
+      ],
+      "answer": 3,
+      "explanation": "Ventilation without matching perfusion creates wasted gas exchange. Air reaches the region but little blood is available to take up oxygen."
+    },
+    {
+      "id": "respiration-hypoventilation-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Alveolar ventilation falls while carbon-dioxide production remains constant. What should the model predict first?",
+      "options": [
+        "Arterial carbon dioxide rises and respiratory acidosis develops",
+        "Thoracic volume rises and air is drawn into the lungs",
+        "More capillaries are recruited and diffusion capacity rises",
+        "Air flows out of the lungs"
+      ],
+      "answer": 0,
+      "explanation": "Arterial carbon dioxide rises and respiratory acidosis develops. Carbon dioxide removal no longer matches its metabolic production."
+    },
+    {
+      "id": "respiration-hypoventilation-cause",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when arterial carbon dioxide rises and respiratory acidosis develops?",
+      "options": [
+        "Pulmonary blood flow increases during exercise in a healthy person",
+        "Alveolar ventilation falls while carbon-dioxide production remains constant",
+        "Inspiratory muscles relax during quiet breathing",
+        "The diaphragm contracts and flattens"
+      ],
+      "answer": 1,
+      "explanation": "Arterial carbon dioxide rises and respiratory acidosis develops. Carbon dioxide removal no longer matches its metabolic production."
+    },
+    {
+      "id": "respiration-hypoventilation-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "After alveolar ventilation falls while carbon-dioxide production remains constant, which explanation best links the change to its outcome?",
+      "options": [
+        "Increased volume lowers alveolar pressure below atmospheric pressure",
+        "Recruitment expands exchange area and helps maintain partial-pressure gradients",
+        "Carbon dioxide removal no longer matches its metabolic production",
+        "Elastic recoil reduces thoracic volume and raises alveolar pressure"
+      ],
+      "answer": 2,
+      "explanation": "Arterial carbon dioxide rises and respiratory acidosis develops. Carbon dioxide removal no longer matches its metabolic production."
+    },
+    {
+      "id": "respiration-hypoventilation-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: alveolar ventilation falls while carbon-dioxide production remains constant?",
+      "options": [
+        "More capillaries are recruited and diffusion capacity rises — Recruitment expands exchange area and helps maintain partial-pressure gradients",
+        "Air flows out of the lungs — Elastic recoil reduces thoracic volume and raises alveolar pressure",
+        "Thoracic volume rises and air is drawn into the lungs — Increased volume lowers alveolar pressure below atmospheric pressure",
+        "Arterial carbon dioxide rises and respiratory acidosis develops — Carbon dioxide removal no longer matches its metabolic production"
+      ],
+      "answer": 3,
+      "explanation": "Arterial carbon dioxide rises and respiratory acidosis develops. Carbon dioxide removal no longer matches its metabolic production."
+    },
+    {
+      "id": "respiration-training-diffusion-outcome",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Pulmonary blood flow increases during exercise in a healthy person?",
+      "options": [
+        "More capillaries are recruited and diffusion capacity rises",
+        "Air flows out of the lungs",
+        "A very large gas-exchange surface is available",
+        "Thoracic volume rises and air is drawn into the lungs"
+      ],
+      "answer": 0,
+      "explanation": "More capillaries are recruited and diffusion capacity rises. Recruitment expands exchange area and helps maintain partial-pressure gradients."
+    },
+    {
+      "id": "respiration-training-diffusion-cause",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: more capillaries are recruited and diffusion capacity rises?",
+      "options": [
+        "The diaphragm contracts and flattens",
+        "Pulmonary blood flow increases during exercise in a healthy person",
+        "Inspiratory muscles relax during quiet breathing",
+        "Millions of small alveoli are present in the lungs"
+      ],
+      "answer": 1,
+      "explanation": "More capillaries are recruited and diffusion capacity rises. Recruitment expands exchange area and helps maintain partial-pressure gradients."
+    },
+    {
+      "id": "respiration-training-diffusion-mechanism",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "After pulmonary blood flow increases during exercise in a healthy person, which explanation best links the change to its outcome?",
+      "options": [
+        "Increased volume lowers alveolar pressure below atmospheric pressure",
+        "Elastic recoil reduces thoracic volume and raises alveolar pressure",
+        "Recruitment expands exchange area and helps maintain partial-pressure gradients",
+        "Dividing the air space into many sacs greatly increases total membrane area"
+      ],
+      "answer": 2,
+      "explanation": "More capillaries are recruited and diffusion capacity rises. Recruitment expands exchange area and helps maintain partial-pressure gradients."
+    },
+    {
+      "id": "respiration-training-diffusion-integrated",
+      "chapter": "Respiration",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: pulmonary blood flow increases during exercise in a healthy person?",
+      "options": [
+        "Thoracic volume rises and air is drawn into the lungs — Increased volume lowers alveolar pressure below atmospheric pressure",
+        "Air flows out of the lungs — Elastic recoil reduces thoracic volume and raises alveolar pressure",
+        "A very large gas-exchange surface is available — Dividing the air space into many sacs greatly increases total membrane area",
+        "More capillaries are recruited and diffusion capacity rises — Recruitment expands exchange area and helps maintain partial-pressure gradients"
+      ],
+      "answer": 3,
+      "explanation": "More capillaries are recruited and diffusion capacity rises. Recruitment expands exchange area and helps maintain partial-pressure gradients."
+    }
+  ]
+}

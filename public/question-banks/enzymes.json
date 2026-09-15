@@ -1,0 +1,1408 @@
+{
+  "chapter": "Enzymes",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "competitive-inhibition",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "A competitive inhibitor is added to an enzyme-controlled reaction. Which kinetic pattern is expected?",
+      "options": [
+        "Higher apparent Km with unchanged Vmax",
+        "Unchanged Km with lower Vmax",
+        "Lower apparent Km and lower Vmax",
+        "Both Km and Vmax become zero"
+      ],
+      "answer": 0,
+      "explanation": "More substrate is needed to reach half-maximal rate, so apparent Km rises. Sufficient substrate can outcompete the inhibitor, leaving Vmax unchanged."
+    },
+    {
+      "id": "noncompetitive-inhibition",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Why can adding excess substrate fail to restore the original maximum rate in non-competitive inhibition?",
+      "options": [
+        "The inhibitor permanently removes all substrate",
+        "The inhibitor reduces the amount of functional enzyme",
+        "The substrate stops colliding with enzymes",
+        "The active site becomes another substrate"
+      ],
+      "answer": 1,
+      "explanation": "A pure non-competitive inhibitor reduces functional catalytic capacity through a separate binding site. More substrate cannot recover the lost Vmax."
+    },
+    {
+      "id": "temperature-enzyme",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "An enzyme reaction slows sharply above its optimum temperature even though molecular collisions are more frequent. The best explanation is:",
+      "options": [
+        "Substrate gains no kinetic energy",
+        "Activation energy increases because of more collisions",
+        "The enzyme's active-site shape is disrupted",
+        "All products become enzymes"
+      ],
+      "answer": 2,
+      "explanation": "High temperature disrupts bonds maintaining tertiary structure. Loss of active-site complementarity outweighs the collision-rate increase."
+    },
+    {
+      "id": "ph-enzyme",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "A change in pH reduces enzyme activity without breaking peptide bonds. Which change most directly explains the result?",
+      "options": [
+        "Loss of all water from the reaction",
+        "Removal of every carbon atom",
+        "Conversion of protein into DNA",
+        "Altered ionization of active-site groups"
+      ],
+      "answer": 3,
+      "explanation": "pH changes the charge of amino-acid side chains, disturbing substrate binding or catalysis even when the primary structure remains intact."
+    },
+    {
+      "id": "enzymes-activation-energy-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "An appropriate enzyme is added to a reaction mixture. Which outcome follows most directly?",
+      "options": [
+        "The reaction reaches equilibrium faster",
+        "An enzyme-substrate complex forms readily",
+        "The same enzyme molecule can catalyse another reaction",
+        "The initial reaction rate increases"
+      ],
+      "answer": 0,
+      "explanation": "The reaction reaches equilibrium faster. The enzyme provides an alternative pathway with lower activation energy."
+    },
+    {
+      "id": "enzymes-activation-energy-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: the reaction reaches equilibrium faster?",
+      "options": [
+        "A substrate has complementary shape and chemistry to an enzyme's active site",
+        "An appropriate enzyme is added to a reaction mixture",
+        "An enzyme completes one catalytic cycle without being damaged",
+        "Substrate concentration rises while many active sites remain free"
+      ],
+      "answer": 1,
+      "explanation": "The reaction reaches equilibrium faster. The enzyme provides an alternative pathway with lower activation energy."
+    },
+    {
+      "id": "enzymes-activation-energy-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "After an appropriate enzyme is added to a reaction mixture, which explanation best links the change to its outcome?",
+      "options": [
+        "Non-covalent interactions position the substrate for catalysis",
+        "Products leave while the catalyst returns to its original functional state",
+        "The enzyme provides an alternative pathway with lower activation energy",
+        "More frequent productive collisions form more enzyme-substrate complexes per second"
+      ],
+      "answer": 2,
+      "explanation": "The reaction reaches equilibrium faster. The enzyme provides an alternative pathway with lower activation energy."
+    },
+    {
+      "id": "enzymes-activation-energy-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: an appropriate enzyme is added to a reaction mixture?",
+      "options": [
+        "An enzyme-substrate complex forms readily — Non-covalent interactions position the substrate for catalysis",
+        "The same enzyme molecule can catalyse another reaction — Products leave while the catalyst returns to its original functional state",
+        "The initial reaction rate increases — More frequent productive collisions form more enzyme-substrate complexes per second",
+        "The reaction reaches equilibrium faster — The enzyme provides an alternative pathway with lower activation energy"
+      ],
+      "answer": 3,
+      "explanation": "The reaction reaches equilibrium faster. The enzyme provides an alternative pathway with lower activation energy."
+    },
+    {
+      "id": "enzymes-specificity-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "After a substrate has complementary shape and chemistry to an enzyme's active site, which observation is most likely?",
+      "options": [
+        "An enzyme-substrate complex forms readily",
+        "The same enzyme molecule can catalyse another reaction",
+        "The initial reaction rate increases",
+        "The reaction rate approaches a maximum"
+      ],
+      "answer": 0,
+      "explanation": "An enzyme-substrate complex forms readily. Non-covalent interactions position the substrate for catalysis."
+    },
+    {
+      "id": "enzymes-specificity-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "A learner records that an enzyme-substrate complex forms readily. Which preceding event best accounts for it?",
+      "options": [
+        "An enzyme completes one catalytic cycle without being damaged",
+        "A substrate has complementary shape and chemistry to an enzyme's active site",
+        "Substrate concentration rises while many active sites remain free",
+        "Substrate concentration becomes very high at fixed enzyme concentration"
+      ],
+      "answer": 1,
+      "explanation": "An enzyme-substrate complex forms readily. Non-covalent interactions position the substrate for catalysis."
+    },
+    {
+      "id": "enzymes-specificity-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "After a substrate has complementary shape and chemistry to an enzyme's active site, which explanation best links the change to its outcome?",
+      "options": [
+        "Products leave while the catalyst returns to its original functional state",
+        "More frequent productive collisions form more enzyme-substrate complexes per second",
+        "Non-covalent interactions position the substrate for catalysis",
+        "Nearly all active sites remain occupied so enzyme turnover becomes limiting"
+      ],
+      "answer": 2,
+      "explanation": "An enzyme-substrate complex forms readily. Non-covalent interactions position the substrate for catalysis."
+    },
+    {
+      "id": "enzymes-specificity-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a substrate has complementary shape and chemistry to an enzyme's active site?",
+      "options": [
+        "The reaction rate approaches a maximum — Nearly all active sites remain occupied so enzyme turnover becomes limiting",
+        "The same enzyme molecule can catalyse another reaction — Products leave while the catalyst returns to its original functional state",
+        "The initial reaction rate increases — More frequent productive collisions form more enzyme-substrate complexes per second",
+        "An enzyme-substrate complex forms readily — Non-covalent interactions position the substrate for catalysis"
+      ],
+      "answer": 3,
+      "explanation": "An enzyme-substrate complex forms readily. Non-covalent interactions position the substrate for catalysis."
+    },
+    {
+      "id": "enzymes-enzyme-reuse-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: An enzyme completes one catalytic cycle without being damaged. What should the model predict first?",
+      "options": [
+        "The same enzyme molecule can catalyse another reaction",
+        "The reaction rate approaches a maximum",
+        "The initial reaction rate increases",
+        "The initial maximum capacity of the reaction approximately doubles"
+      ],
+      "answer": 0,
+      "explanation": "The same enzyme molecule can catalyse another reaction. Products leave while the catalyst returns to its original functional state."
+    },
+    {
+      "id": "enzymes-enzyme-reuse-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when the same enzyme molecule can catalyse another reaction?",
+      "options": [
+        "Substrate concentration rises while many active sites remain free",
+        "An enzyme completes one catalytic cycle without being damaged",
+        "Enzyme concentration doubles while substrate remains abundant",
+        "Substrate concentration becomes very high at fixed enzyme concentration"
+      ],
+      "answer": 1,
+      "explanation": "The same enzyme molecule can catalyse another reaction. Products leave while the catalyst returns to its original functional state."
+    },
+    {
+      "id": "enzymes-enzyme-reuse-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "After an enzyme completes one catalytic cycle without being damaged, which explanation best links the change to its outcome?",
+      "options": [
+        "Nearly all active sites remain occupied so enzyme turnover becomes limiting",
+        "More frequent productive collisions form more enzyme-substrate complexes per second",
+        "Products leave while the catalyst returns to its original functional state",
+        "Twice as many active sites can process substrate simultaneously"
+      ],
+      "answer": 2,
+      "explanation": "The same enzyme molecule can catalyse another reaction. Products leave while the catalyst returns to its original functional state."
+    },
+    {
+      "id": "enzymes-enzyme-reuse-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: an enzyme completes one catalytic cycle without being damaged?",
+      "options": [
+        "The initial reaction rate increases — More frequent productive collisions form more enzyme-substrate complexes per second",
+        "The initial maximum capacity of the reaction approximately doubles — Twice as many active sites can process substrate simultaneously",
+        "The reaction rate approaches a maximum — Nearly all active sites remain occupied so enzyme turnover becomes limiting",
+        "The same enzyme molecule can catalyse another reaction — Products leave while the catalyst returns to its original functional state"
+      ],
+      "answer": 3,
+      "explanation": "The same enzyme molecule can catalyse another reaction. Products leave while the catalyst returns to its original functional state."
+    },
+    {
+      "id": "enzymes-substrate-increase-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: Substrate concentration rises while many active sites remain free?",
+      "options": [
+        "The initial reaction rate increases",
+        "The initial maximum capacity of the reaction approximately doubles",
+        "The reaction slows but the enzyme is usually not permanently denatured",
+        "The reaction rate approaches a maximum"
+      ],
+      "answer": 0,
+      "explanation": "The initial reaction rate increases. More frequent productive collisions form more enzyme-substrate complexes per second."
+    },
+    {
+      "id": "enzymes-substrate-increase-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: the initial reaction rate increases?",
+      "options": [
+        "Substrate concentration becomes very high at fixed enzyme concentration",
+        "Substrate concentration rises while many active sites remain free",
+        "Enzyme concentration doubles while substrate remains abundant",
+        "Temperature falls well below an enzyme's optimum without freezing"
+      ],
+      "answer": 1,
+      "explanation": "The initial reaction rate increases. More frequent productive collisions form more enzyme-substrate complexes per second."
+    },
+    {
+      "id": "enzymes-substrate-increase-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "After substrate concentration rises while many active sites remain free, which explanation best links the change to its outcome?",
+      "options": [
+        "Nearly all active sites remain occupied so enzyme turnover becomes limiting",
+        "Twice as many active sites can process substrate simultaneously",
+        "More frequent productive collisions form more enzyme-substrate complexes per second",
+        "Molecules have less kinetic energy and collide productively less often"
+      ],
+      "answer": 2,
+      "explanation": "The initial reaction rate increases. More frequent productive collisions form more enzyme-substrate complexes per second."
+    },
+    {
+      "id": "enzymes-substrate-increase-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: substrate concentration rises while many active sites remain free?",
+      "options": [
+        "The reaction rate approaches a maximum — Nearly all active sites remain occupied so enzyme turnover becomes limiting",
+        "The initial maximum capacity of the reaction approximately doubles — Twice as many active sites can process substrate simultaneously",
+        "The reaction slows but the enzyme is usually not permanently denatured — Molecules have less kinetic energy and collide productively less often",
+        "The initial reaction rate increases — More frequent productive collisions form more enzyme-substrate complexes per second"
+      ],
+      "answer": 3,
+      "explanation": "The initial reaction rate increases. More frequent productive collisions form more enzyme-substrate complexes per second."
+    },
+    {
+      "id": "enzymes-saturation-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Substrate concentration becomes very high at fixed enzyme concentration. Which outcome follows most directly?",
+      "options": [
+        "The reaction rate approaches a maximum",
+        "The initial maximum capacity of the reaction approximately doubles",
+        "The reaction slows but the enzyme is usually not permanently denatured",
+        "Activity drops sharply and may not recover on cooling"
+      ],
+      "answer": 0,
+      "explanation": "The reaction rate approaches a maximum. Nearly all active sites remain occupied so enzyme turnover becomes limiting."
+    },
+    {
+      "id": "enzymes-saturation-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: the reaction rate approaches a maximum?",
+      "options": [
+        "Enzyme concentration doubles while substrate remains abundant",
+        "Substrate concentration becomes very high at fixed enzyme concentration",
+        "Temperature falls well below an enzyme's optimum without freezing",
+        "Temperature rises far above an enzyme's optimum"
+      ],
+      "answer": 1,
+      "explanation": "The reaction rate approaches a maximum. Nearly all active sites remain occupied so enzyme turnover becomes limiting."
+    },
+    {
+      "id": "enzymes-saturation-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "After substrate concentration becomes very high at fixed enzyme concentration, which explanation best links the change to its outcome?",
+      "options": [
+        "Twice as many active sites can process substrate simultaneously",
+        "Molecules have less kinetic energy and collide productively less often",
+        "Nearly all active sites remain occupied so enzyme turnover becomes limiting",
+        "Heat disrupts bonds that maintain the active site's three-dimensional structure"
+      ],
+      "answer": 2,
+      "explanation": "The reaction rate approaches a maximum. Nearly all active sites remain occupied so enzyme turnover becomes limiting."
+    },
+    {
+      "id": "enzymes-saturation-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: substrate concentration becomes very high at fixed enzyme concentration?",
+      "options": [
+        "The initial maximum capacity of the reaction approximately doubles — Twice as many active sites can process substrate simultaneously",
+        "The reaction slows but the enzyme is usually not permanently denatured — Molecules have less kinetic energy and collide productively less often",
+        "Activity drops sharply and may not recover on cooling — Heat disrupts bonds that maintain the active site's three-dimensional structure",
+        "The reaction rate approaches a maximum — Nearly all active sites remain occupied so enzyme turnover becomes limiting"
+      ],
+      "answer": 3,
+      "explanation": "The reaction rate approaches a maximum. Nearly all active sites remain occupied so enzyme turnover becomes limiting."
+    },
+    {
+      "id": "enzymes-enzyme-concentration-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "After enzyme concentration doubles while substrate remains abundant, which observation is most likely?",
+      "options": [
+        "The initial maximum capacity of the reaction approximately doubles",
+        "The reaction slows but the enzyme is usually not permanently denatured",
+        "Activity drops sharply and may not recover on cooling",
+        "Substrate binding or catalysis becomes less effective"
+      ],
+      "answer": 0,
+      "explanation": "The initial maximum capacity of the reaction approximately doubles. Twice as many active sites can process substrate simultaneously."
+    },
+    {
+      "id": "enzymes-enzyme-concentration-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "A learner records that the initial maximum capacity of the reaction approximately doubles. Which preceding event best accounts for it?",
+      "options": [
+        "Temperature falls well below an enzyme's optimum without freezing",
+        "Enzyme concentration doubles while substrate remains abundant",
+        "Temperature rises far above an enzyme's optimum",
+        "Environmental pH changes the ionization of active-site side chains"
+      ],
+      "answer": 1,
+      "explanation": "The initial maximum capacity of the reaction approximately doubles. Twice as many active sites can process substrate simultaneously."
+    },
+    {
+      "id": "enzymes-enzyme-concentration-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "After enzyme concentration doubles while substrate remains abundant, which explanation best links the change to its outcome?",
+      "options": [
+        "Molecules have less kinetic energy and collide productively less often",
+        "Heat disrupts bonds that maintain the active site's three-dimensional structure",
+        "Twice as many active sites can process substrate simultaneously",
+        "Altered charges disturb ionic interactions and active-site chemistry"
+      ],
+      "answer": 2,
+      "explanation": "The initial maximum capacity of the reaction approximately doubles. Twice as many active sites can process substrate simultaneously."
+    },
+    {
+      "id": "enzymes-enzyme-concentration-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: enzyme concentration doubles while substrate remains abundant?",
+      "options": [
+        "Substrate binding or catalysis becomes less effective — Altered charges disturb ionic interactions and active-site chemistry",
+        "The reaction slows but the enzyme is usually not permanently denatured — Molecules have less kinetic energy and collide productively less often",
+        "Activity drops sharply and may not recover on cooling — Heat disrupts bonds that maintain the active site's three-dimensional structure",
+        "The initial maximum capacity of the reaction approximately doubles — Twice as many active sites can process substrate simultaneously"
+      ],
+      "answer": 3,
+      "explanation": "The initial maximum capacity of the reaction approximately doubles. Twice as many active sites can process substrate simultaneously."
+    },
+    {
+      "id": "enzymes-low-temperature-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Temperature falls well below an enzyme's optimum without freezing. What should the model predict first?",
+      "options": [
+        "The reaction slows but the enzyme is usually not permanently denatured",
+        "Substrate binding or catalysis becomes less effective",
+        "Activity drops sharply and may not recover on cooling",
+        "More substrate is required to achieve the same fractional rate"
+      ],
+      "answer": 0,
+      "explanation": "The reaction slows but the enzyme is usually not permanently denatured. Molecules have less kinetic energy and collide productively less often."
+    },
+    {
+      "id": "enzymes-low-temperature-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the reaction slows but the enzyme is usually not permanently denatured?",
+      "options": [
+        "Temperature rises far above an enzyme's optimum",
+        "Temperature falls well below an enzyme's optimum without freezing",
+        "A reversible competitive inhibitor is added",
+        "Environmental pH changes the ionization of active-site side chains"
+      ],
+      "answer": 1,
+      "explanation": "The reaction slows but the enzyme is usually not permanently denatured. Molecules have less kinetic energy and collide productively less often."
+    },
+    {
+      "id": "enzymes-low-temperature-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After temperature falls well below an enzyme's optimum without freezing, which explanation best links the change to its outcome?",
+      "options": [
+        "Altered charges disturb ionic interactions and active-site chemistry",
+        "Heat disrupts bonds that maintain the active site's three-dimensional structure",
+        "Molecules have less kinetic energy and collide productively less often",
+        "Inhibitor and substrate compete for the same active site while Vmax remains attainable"
+      ],
+      "answer": 2,
+      "explanation": "The reaction slows but the enzyme is usually not permanently denatured. Molecules have less kinetic energy and collide productively less often."
+    },
+    {
+      "id": "enzymes-low-temperature-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: temperature falls well below an enzyme's optimum without freezing?",
+      "options": [
+        "Activity drops sharply and may not recover on cooling — Heat disrupts bonds that maintain the active site's three-dimensional structure",
+        "More substrate is required to achieve the same fractional rate — Inhibitor and substrate compete for the same active site while Vmax remains attainable",
+        "Substrate binding or catalysis becomes less effective — Altered charges disturb ionic interactions and active-site chemistry",
+        "The reaction slows but the enzyme is usually not permanently denatured — Molecules have less kinetic energy and collide productively less often"
+      ],
+      "answer": 3,
+      "explanation": "The reaction slows but the enzyme is usually not permanently denatured. Molecules have less kinetic energy and collide productively less often."
+    },
+    {
+      "id": "enzymes-high-temperature-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Temperature rises far above an enzyme's optimum?",
+      "options": [
+        "Activity drops sharply and may not recover on cooling",
+        "More substrate is required to achieve the same fractional rate",
+        "The maximum reaction rate decreases",
+        "Substrate binding or catalysis becomes less effective"
+      ],
+      "answer": 0,
+      "explanation": "Activity drops sharply and may not recover on cooling. Heat disrupts bonds that maintain the active site's three-dimensional structure."
+    },
+    {
+      "id": "enzymes-high-temperature-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: activity drops sharply and may not recover on cooling?",
+      "options": [
+        "Environmental pH changes the ionization of active-site side chains",
+        "Temperature rises far above an enzyme's optimum",
+        "A reversible competitive inhibitor is added",
+        "A pure non-competitive inhibitor binds to an enzyme"
+      ],
+      "answer": 1,
+      "explanation": "Activity drops sharply and may not recover on cooling. Heat disrupts bonds that maintain the active site's three-dimensional structure."
+    },
+    {
+      "id": "enzymes-high-temperature-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After temperature rises far above an enzyme's optimum, which explanation best links the change to its outcome?",
+      "options": [
+        "Altered charges disturb ionic interactions and active-site chemistry",
+        "Inhibitor and substrate compete for the same active site while Vmax remains attainable",
+        "Heat disrupts bonds that maintain the active site's three-dimensional structure",
+        "Some enzyme molecules lose catalytic function regardless of substrate abundance"
+      ],
+      "answer": 2,
+      "explanation": "Activity drops sharply and may not recover on cooling. Heat disrupts bonds that maintain the active site's three-dimensional structure."
+    },
+    {
+      "id": "enzymes-high-temperature-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: temperature rises far above an enzyme's optimum?",
+      "options": [
+        "Substrate binding or catalysis becomes less effective — Altered charges disturb ionic interactions and active-site chemistry",
+        "More substrate is required to achieve the same fractional rate — Inhibitor and substrate compete for the same active site while Vmax remains attainable",
+        "The maximum reaction rate decreases — Some enzyme molecules lose catalytic function regardless of substrate abundance",
+        "Activity drops sharply and may not recover on cooling — Heat disrupts bonds that maintain the active site's three-dimensional structure"
+      ],
+      "answer": 3,
+      "explanation": "Activity drops sharply and may not recover on cooling. Heat disrupts bonds that maintain the active site's three-dimensional structure."
+    },
+    {
+      "id": "enzymes-ph-charge-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Environmental pH changes the ionization of active-site side chains. Which outcome follows most directly?",
+      "options": [
+        "Substrate binding or catalysis becomes less effective",
+        "More substrate is required to achieve the same fractional rate",
+        "The maximum reaction rate decreases",
+        "Dilution does not rapidly restore the original activity"
+      ],
+      "answer": 0,
+      "explanation": "Substrate binding or catalysis becomes less effective. Altered charges disturb ionic interactions and active-site chemistry."
+    },
+    {
+      "id": "enzymes-ph-charge-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: substrate binding or catalysis becomes less effective?",
+      "options": [
+        "A reversible competitive inhibitor is added",
+        "Environmental pH changes the ionization of active-site side chains",
+        "A pure non-competitive inhibitor binds to an enzyme",
+        "An inhibitor forms a stable covalent bond at an essential enzyme site"
+      ],
+      "answer": 1,
+      "explanation": "Substrate binding or catalysis becomes less effective. Altered charges disturb ionic interactions and active-site chemistry."
+    },
+    {
+      "id": "enzymes-ph-charge-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After environmental pH changes the ionization of active-site side chains, which explanation best links the change to its outcome?",
+      "options": [
+        "Inhibitor and substrate compete for the same active site while Vmax remains attainable",
+        "Some enzyme molecules lose catalytic function regardless of substrate abundance",
+        "Altered charges disturb ionic interactions and active-site chemistry",
+        "The affected enzyme molecules remain chemically inactivated"
+      ],
+      "answer": 2,
+      "explanation": "Substrate binding or catalysis becomes less effective. Altered charges disturb ionic interactions and active-site chemistry."
+    },
+    {
+      "id": "enzymes-ph-charge-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: environmental pH changes the ionization of active-site side chains?",
+      "options": [
+        "More substrate is required to achieve the same fractional rate — Inhibitor and substrate compete for the same active site while Vmax remains attainable",
+        "The maximum reaction rate decreases — Some enzyme molecules lose catalytic function regardless of substrate abundance",
+        "Dilution does not rapidly restore the original activity — The affected enzyme molecules remain chemically inactivated",
+        "Substrate binding or catalysis becomes less effective — Altered charges disturb ionic interactions and active-site chemistry"
+      ],
+      "answer": 3,
+      "explanation": "Substrate binding or catalysis becomes less effective. Altered charges disturb ionic interactions and active-site chemistry."
+    },
+    {
+      "id": "enzymes-competitive-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After a reversible competitive inhibitor is added, which observation is most likely?",
+      "options": [
+        "More substrate is required to achieve the same fractional rate",
+        "The maximum reaction rate decreases",
+        "Dilution does not rapidly restore the original activity",
+        "Catalysis falls even though the polypeptide remains present"
+      ],
+      "answer": 0,
+      "explanation": "More substrate is required to achieve the same fractional rate. Inhibitor and substrate compete for the same active site while Vmax remains attainable."
+    },
+    {
+      "id": "enzymes-competitive-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "A learner records that more substrate is required to achieve the same fractional rate. Which preceding event best accounts for it?",
+      "options": [
+        "A pure non-competitive inhibitor binds to an enzyme",
+        "A reversible competitive inhibitor is added",
+        "An inhibitor forms a stable covalent bond at an essential enzyme site",
+        "An essential metal-ion cofactor is removed from an enzyme preparation"
+      ],
+      "answer": 1,
+      "explanation": "More substrate is required to achieve the same fractional rate. Inhibitor and substrate compete for the same active site while Vmax remains attainable."
+    },
+    {
+      "id": "enzymes-competitive-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After a reversible competitive inhibitor is added, which explanation best links the change to its outcome?",
+      "options": [
+        "Some enzyme molecules lose catalytic function regardless of substrate abundance",
+        "The affected enzyme molecules remain chemically inactivated",
+        "Inhibitor and substrate compete for the same active site while Vmax remains attainable",
+        "The inorganic component normally assists substrate binding or electron transfer"
+      ],
+      "answer": 2,
+      "explanation": "More substrate is required to achieve the same fractional rate. Inhibitor and substrate compete for the same active site while Vmax remains attainable."
+    },
+    {
+      "id": "enzymes-competitive-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a reversible competitive inhibitor is added?",
+      "options": [
+        "Catalysis falls even though the polypeptide remains present — The inorganic component normally assists substrate binding or electron transfer",
+        "The maximum reaction rate decreases — Some enzyme molecules lose catalytic function regardless of substrate abundance",
+        "Dilution does not rapidly restore the original activity — The affected enzyme molecules remain chemically inactivated",
+        "More substrate is required to achieve the same fractional rate — Inhibitor and substrate compete for the same active site while Vmax remains attainable"
+      ],
+      "answer": 3,
+      "explanation": "More substrate is required to achieve the same fractional rate. Inhibitor and substrate compete for the same active site while Vmax remains attainable."
+    },
+    {
+      "id": "enzymes-noncompetitive-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A pure non-competitive inhibitor binds to an enzyme. What should the model predict first?",
+      "options": [
+        "The maximum reaction rate decreases",
+        "Catalysis falls even though the polypeptide remains present",
+        "Dilution does not rapidly restore the original activity",
+        "Reactions requiring transfer of its chemical group slow"
+      ],
+      "answer": 0,
+      "explanation": "The maximum reaction rate decreases. Some enzyme molecules lose catalytic function regardless of substrate abundance."
+    },
+    {
+      "id": "enzymes-noncompetitive-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the maximum reaction rate decreases?",
+      "options": [
+        "An inhibitor forms a stable covalent bond at an essential enzyme site",
+        "A pure non-competitive inhibitor binds to an enzyme",
+        "A vitamin-derived coenzyme becomes unavailable",
+        "An essential metal-ion cofactor is removed from an enzyme preparation"
+      ],
+      "answer": 1,
+      "explanation": "The maximum reaction rate decreases. Some enzyme molecules lose catalytic function regardless of substrate abundance."
+    },
+    {
+      "id": "enzymes-noncompetitive-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After a pure non-competitive inhibitor binds to an enzyme, which explanation best links the change to its outcome?",
+      "options": [
+        "The inorganic component normally assists substrate binding or electron transfer",
+        "The affected enzyme molecules remain chemically inactivated",
+        "Some enzyme molecules lose catalytic function regardless of substrate abundance",
+        "The organic helper normally carries electrons or functional groups between enzymes"
+      ],
+      "answer": 2,
+      "explanation": "The maximum reaction rate decreases. Some enzyme molecules lose catalytic function regardless of substrate abundance."
+    },
+    {
+      "id": "enzymes-noncompetitive-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a pure non-competitive inhibitor binds to an enzyme?",
+      "options": [
+        "Dilution does not rapidly restore the original activity — The affected enzyme molecules remain chemically inactivated",
+        "Reactions requiring transfer of its chemical group slow — The organic helper normally carries electrons or functional groups between enzymes",
+        "Catalysis falls even though the polypeptide remains present — The inorganic component normally assists substrate binding or electron transfer",
+        "The maximum reaction rate decreases — Some enzyme molecules lose catalytic function regardless of substrate abundance"
+      ],
+      "answer": 3,
+      "explanation": "The maximum reaction rate decreases. Some enzyme molecules lose catalytic function regardless of substrate abundance."
+    },
+    {
+      "id": "enzymes-irreversible-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: An inhibitor forms a stable covalent bond at an essential enzyme site?",
+      "options": [
+        "Dilution does not rapidly restore the original activity",
+        "Reactions requiring transfer of its chemical group slow",
+        "The enzyme changes shape to improve catalytic alignment",
+        "Catalysis falls even though the polypeptide remains present"
+      ],
+      "answer": 0,
+      "explanation": "Dilution does not rapidly restore the original activity. The affected enzyme molecules remain chemically inactivated."
+    },
+    {
+      "id": "enzymes-irreversible-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: dilution does not rapidly restore the original activity?",
+      "options": [
+        "An essential metal-ion cofactor is removed from an enzyme preparation",
+        "An inhibitor forms a stable covalent bond at an essential enzyme site",
+        "A vitamin-derived coenzyme becomes unavailable",
+        "A substrate begins binding to a flexible active site"
+      ],
+      "answer": 1,
+      "explanation": "Dilution does not rapidly restore the original activity. The affected enzyme molecules remain chemically inactivated."
+    },
+    {
+      "id": "enzymes-irreversible-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After an inhibitor forms a stable covalent bond at an essential enzyme site, which explanation best links the change to its outcome?",
+      "options": [
+        "The inorganic component normally assists substrate binding or electron transfer",
+        "The organic helper normally carries electrons or functional groups between enzymes",
+        "The affected enzyme molecules remain chemically inactivated",
+        "Binding energy drives an induced fit that stabilizes the transition state"
+      ],
+      "answer": 2,
+      "explanation": "Dilution does not rapidly restore the original activity. The affected enzyme molecules remain chemically inactivated."
+    },
+    {
+      "id": "enzymes-irreversible-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: an inhibitor forms a stable covalent bond at an essential enzyme site?",
+      "options": [
+        "Catalysis falls even though the polypeptide remains present — The inorganic component normally assists substrate binding or electron transfer",
+        "Reactions requiring transfer of its chemical group slow — The organic helper normally carries electrons or functional groups between enzymes",
+        "The enzyme changes shape to improve catalytic alignment — Binding energy drives an induced fit that stabilizes the transition state",
+        "Dilution does not rapidly restore the original activity — The affected enzyme molecules remain chemically inactivated"
+      ],
+      "answer": 3,
+      "explanation": "Dilution does not rapidly restore the original activity. The affected enzyme molecules remain chemically inactivated."
+    },
+    {
+      "id": "enzymes-cofactor-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "An essential metal-ion cofactor is removed from an enzyme preparation. Which outcome follows most directly?",
+      "options": [
+        "Catalysis falls even though the polypeptide remains present",
+        "Reactions requiring transfer of its chemical group slow",
+        "The enzyme changes shape to improve catalytic alignment",
+        "It can be recovered and reused while product remains enzyme-free"
+      ],
+      "answer": 0,
+      "explanation": "Catalysis falls even though the polypeptide remains present. The inorganic component normally assists substrate binding or electron transfer."
+    },
+    {
+      "id": "enzymes-cofactor-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: catalysis falls even though the polypeptide remains present?",
+      "options": [
+        "A vitamin-derived coenzyme becomes unavailable",
+        "An essential metal-ion cofactor is removed from an enzyme preparation",
+        "A substrate begins binding to a flexible active site",
+        "An enzyme is trapped in inert beads for industrial use"
+      ],
+      "answer": 1,
+      "explanation": "Catalysis falls even though the polypeptide remains present. The inorganic component normally assists substrate binding or electron transfer."
+    },
+    {
+      "id": "enzymes-cofactor-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After an essential metal-ion cofactor is removed from an enzyme preparation, which explanation best links the change to its outcome?",
+      "options": [
+        "The organic helper normally carries electrons or functional groups between enzymes",
+        "Binding energy drives an induced fit that stabilizes the transition state",
+        "The inorganic component normally assists substrate binding or electron transfer",
+        "The support retains the catalyst but permits small substrates and products to diffuse"
+      ],
+      "answer": 2,
+      "explanation": "Catalysis falls even though the polypeptide remains present. The inorganic component normally assists substrate binding or electron transfer."
+    },
+    {
+      "id": "enzymes-cofactor-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: an essential metal-ion cofactor is removed from an enzyme preparation?",
+      "options": [
+        "Reactions requiring transfer of its chemical group slow — The organic helper normally carries electrons or functional groups between enzymes",
+        "The enzyme changes shape to improve catalytic alignment — Binding energy drives an induced fit that stabilizes the transition state",
+        "It can be recovered and reused while product remains enzyme-free — The support retains the catalyst but permits small substrates and products to diffuse",
+        "Catalysis falls even though the polypeptide remains present — The inorganic component normally assists substrate binding or electron transfer"
+      ],
+      "answer": 3,
+      "explanation": "Catalysis falls even though the polypeptide remains present. The inorganic component normally assists substrate binding or electron transfer."
+    },
+    {
+      "id": "enzymes-coenzyme-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After a vitamin-derived coenzyme becomes unavailable, which observation is most likely?",
+      "options": [
+        "Reactions requiring transfer of its chemical group slow",
+        "The enzyme changes shape to improve catalytic alignment",
+        "It can be recovered and reused while product remains enzyme-free",
+        "Pathway flux declines when the product is abundant"
+      ],
+      "answer": 0,
+      "explanation": "Reactions requiring transfer of its chemical group slow. The organic helper normally carries electrons or functional groups between enzymes."
+    },
+    {
+      "id": "enzymes-coenzyme-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "A learner records that reactions requiring transfer of its chemical group slow. Which preceding event best accounts for it?",
+      "options": [
+        "A substrate begins binding to a flexible active site",
+        "A vitamin-derived coenzyme becomes unavailable",
+        "An enzyme is trapped in inert beads for industrial use",
+        "The final product of a metabolic pathway binds an early regulatory enzyme"
+      ],
+      "answer": 1,
+      "explanation": "Reactions requiring transfer of its chemical group slow. The organic helper normally carries electrons or functional groups between enzymes."
+    },
+    {
+      "id": "enzymes-coenzyme-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After a vitamin-derived coenzyme becomes unavailable, which explanation best links the change to its outcome?",
+      "options": [
+        "Binding energy drives an induced fit that stabilizes the transition state",
+        "The support retains the catalyst but permits small substrates and products to diffuse",
+        "The organic helper normally carries electrons or functional groups between enzymes",
+        "Feedback inhibition prevents unnecessary use of substrates and energy"
+      ],
+      "answer": 2,
+      "explanation": "Reactions requiring transfer of its chemical group slow. The organic helper normally carries electrons or functional groups between enzymes."
+    },
+    {
+      "id": "enzymes-coenzyme-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a vitamin-derived coenzyme becomes unavailable?",
+      "options": [
+        "Pathway flux declines when the product is abundant — Feedback inhibition prevents unnecessary use of substrates and energy",
+        "The enzyme changes shape to improve catalytic alignment — Binding energy drives an induced fit that stabilizes the transition state",
+        "It can be recovered and reused while product remains enzyme-free — The support retains the catalyst but permits small substrates and products to diffuse",
+        "Reactions requiring transfer of its chemical group slow — The organic helper normally carries electrons or functional groups between enzymes"
+      ],
+      "answer": 3,
+      "explanation": "Reactions requiring transfer of its chemical group slow. The organic helper normally carries electrons or functional groups between enzymes."
+    },
+    {
+      "id": "enzymes-induced-fit-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A substrate begins binding to a flexible active site. What should the model predict first?",
+      "options": [
+        "The enzyme changes shape to improve catalytic alignment",
+        "Pathway flux declines when the product is abundant",
+        "It can be recovered and reused while product remains enzyme-free",
+        "Its active enzyme form appears"
+      ],
+      "answer": 0,
+      "explanation": "The enzyme changes shape to improve catalytic alignment. Binding energy drives an induced fit that stabilizes the transition state."
+    },
+    {
+      "id": "enzymes-induced-fit-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the enzyme changes shape to improve catalytic alignment?",
+      "options": [
+        "An enzyme is trapped in inert beads for industrial use",
+        "A substrate begins binding to a flexible active site",
+        "A digestive zymogen is cleaved at the correct location",
+        "The final product of a metabolic pathway binds an early regulatory enzyme"
+      ],
+      "answer": 1,
+      "explanation": "The enzyme changes shape to improve catalytic alignment. Binding energy drives an induced fit that stabilizes the transition state."
+    },
+    {
+      "id": "enzymes-induced-fit-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After a substrate begins binding to a flexible active site, which explanation best links the change to its outcome?",
+      "options": [
+        "Feedback inhibition prevents unnecessary use of substrates and energy",
+        "The support retains the catalyst but permits small substrates and products to diffuse",
+        "Binding energy drives an induced fit that stabilizes the transition state",
+        "Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand"
+      ],
+      "answer": 2,
+      "explanation": "The enzyme changes shape to improve catalytic alignment. Binding energy drives an induced fit that stabilizes the transition state."
+    },
+    {
+      "id": "enzymes-induced-fit-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a substrate begins binding to a flexible active site?",
+      "options": [
+        "It can be recovered and reused while product remains enzyme-free — The support retains the catalyst but permits small substrates and products to diffuse",
+        "Its active enzyme form appears — Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand",
+        "Pathway flux declines when the product is abundant — Feedback inhibition prevents unnecessary use of substrates and energy",
+        "The enzyme changes shape to improve catalytic alignment — Binding energy drives an induced fit that stabilizes the transition state"
+      ],
+      "answer": 3,
+      "explanation": "The enzyme changes shape to improve catalytic alignment. Binding energy drives an induced fit that stabilizes the transition state."
+    },
+    {
+      "id": "enzymes-immobilized-enzyme-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: An enzyme is trapped in inert beads for industrial use?",
+      "options": [
+        "It can be recovered and reused while product remains enzyme-free",
+        "Its active enzyme form appears",
+        "It reaches half-maximal rate at a lower substrate concentration",
+        "Pathway flux declines when the product is abundant"
+      ],
+      "answer": 0,
+      "explanation": "It can be recovered and reused while product remains enzyme-free. The support retains the catalyst but permits small substrates and products to diffuse."
+    },
+    {
+      "id": "enzymes-immobilized-enzyme-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: it can be recovered and reused while product remains enzyme-free?",
+      "options": [
+        "The final product of a metabolic pathway binds an early regulatory enzyme",
+        "An enzyme is trapped in inert beads for industrial use",
+        "A digestive zymogen is cleaved at the correct location",
+        "An enzyme variant has a lower Km but the same Vmax"
+      ],
+      "answer": 1,
+      "explanation": "It can be recovered and reused while product remains enzyme-free. The support retains the catalyst but permits small substrates and products to diffuse."
+    },
+    {
+      "id": "enzymes-immobilized-enzyme-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After an enzyme is trapped in inert beads for industrial use, which explanation best links the change to its outcome?",
+      "options": [
+        "Feedback inhibition prevents unnecessary use of substrates and energy",
+        "Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand",
+        "The support retains the catalyst but permits small substrates and products to diffuse",
+        "Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions"
+      ],
+      "answer": 2,
+      "explanation": "It can be recovered and reused while product remains enzyme-free. The support retains the catalyst but permits small substrates and products to diffuse."
+    },
+    {
+      "id": "enzymes-immobilized-enzyme-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: an enzyme is trapped in inert beads for industrial use?",
+      "options": [
+        "Pathway flux declines when the product is abundant — Feedback inhibition prevents unnecessary use of substrates and energy",
+        "Its active enzyme form appears — Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand",
+        "It reaches half-maximal rate at a lower substrate concentration — Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions",
+        "It can be recovered and reused while product remains enzyme-free — The support retains the catalyst but permits small substrates and products to diffuse"
+      ],
+      "answer": 3,
+      "explanation": "It can be recovered and reused while product remains enzyme-free. The support retains the catalyst but permits small substrates and products to diffuse."
+    },
+    {
+      "id": "enzymes-end-product-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "The final product of a metabolic pathway binds an early regulatory enzyme. Which outcome follows most directly?",
+      "options": [
+        "Pathway flux declines when the product is abundant",
+        "Its active enzyme form appears",
+        "It reaches half-maximal rate at a lower substrate concentration",
+        "Rate shows a sigmoidal response to substrate concentration"
+      ],
+      "answer": 0,
+      "explanation": "Pathway flux declines when the product is abundant. Feedback inhibition prevents unnecessary use of substrates and energy."
+    },
+    {
+      "id": "enzymes-end-product-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: pathway flux declines when the product is abundant?",
+      "options": [
+        "A digestive zymogen is cleaved at the correct location",
+        "The final product of a metabolic pathway binds an early regulatory enzyme",
+        "An enzyme variant has a lower Km but the same Vmax",
+        "Substrate binding increases affinity at other subunits of an allosteric enzyme"
+      ],
+      "answer": 1,
+      "explanation": "Pathway flux declines when the product is abundant. Feedback inhibition prevents unnecessary use of substrates and energy."
+    },
+    {
+      "id": "enzymes-end-product-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After the final product of a metabolic pathway binds an early regulatory enzyme, which explanation best links the change to its outcome?",
+      "options": [
+        "Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand",
+        "Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions",
+        "Feedback inhibition prevents unnecessary use of substrates and energy",
+        "Cooperative conformational changes switch subunits toward a higher-affinity state"
+      ],
+      "answer": 2,
+      "explanation": "Pathway flux declines when the product is abundant. Feedback inhibition prevents unnecessary use of substrates and energy."
+    },
+    {
+      "id": "enzymes-end-product-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the final product of a metabolic pathway binds an early regulatory enzyme?",
+      "options": [
+        "Its active enzyme form appears — Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand",
+        "It reaches half-maximal rate at a lower substrate concentration — Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions",
+        "Rate shows a sigmoidal response to substrate concentration — Cooperative conformational changes switch subunits toward a higher-affinity state",
+        "Pathway flux declines when the product is abundant — Feedback inhibition prevents unnecessary use of substrates and energy"
+      ],
+      "answer": 3,
+      "explanation": "Pathway flux declines when the product is abundant. Feedback inhibition prevents unnecessary use of substrates and energy."
+    },
+    {
+      "id": "enzymes-zymogen-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After a digestive zymogen is cleaved at the correct location, which observation is most likely?",
+      "options": [
+        "Its active enzyme form appears",
+        "It reaches half-maximal rate at a lower substrate concentration",
+        "Rate shows a sigmoidal response to substrate concentration",
+        "Activation energy is lowered"
+      ],
+      "answer": 0,
+      "explanation": "Its active enzyme form appears. Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand."
+    },
+    {
+      "id": "enzymes-zymogen-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "A learner records that its active enzyme form appears. Which preceding event best accounts for it?",
+      "options": [
+        "An enzyme variant has a lower Km but the same Vmax",
+        "A digestive zymogen is cleaved at the correct location",
+        "Substrate binding increases affinity at other subunits of an allosteric enzyme",
+        "An enzyme binds the transition state more tightly than the unchanged substrate"
+      ],
+      "answer": 1,
+      "explanation": "Its active enzyme form appears. Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand."
+    },
+    {
+      "id": "enzymes-zymogen-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "After a digestive zymogen is cleaved at the correct location, which explanation best links the change to its outcome?",
+      "options": [
+        "Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions",
+        "Cooperative conformational changes switch subunits toward a higher-affinity state",
+        "Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand",
+        "Preferential stabilization reduces the energetic cost of reaching the reactive configuration"
+      ],
+      "answer": 2,
+      "explanation": "Its active enzyme form appears. Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand."
+    },
+    {
+      "id": "enzymes-zymogen-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a digestive zymogen is cleaved at the correct location?",
+      "options": [
+        "Activation energy is lowered — Preferential stabilization reduces the energetic cost of reaching the reactive configuration",
+        "It reaches half-maximal rate at a lower substrate concentration — Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions",
+        "Rate shows a sigmoidal response to substrate concentration — Cooperative conformational changes switch subunits toward a higher-affinity state",
+        "Its active enzyme form appears — Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand"
+      ],
+      "answer": 3,
+      "explanation": "Its active enzyme form appears. Proteolysis exposes or completes the catalytic site while protecting the secreting tissue beforehand."
+    },
+    {
+      "id": "enzymes-km-affinity-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: An enzyme variant has a lower Km but the same Vmax. What should the model predict first?",
+      "options": [
+        "It reaches half-maximal rate at a lower substrate concentration",
+        "Activation energy is lowered",
+        "Rate shows a sigmoidal response to substrate concentration",
+        "Adding more substrate produces almost no further rate increase"
+      ],
+      "answer": 0,
+      "explanation": "It reaches half-maximal rate at a lower substrate concentration. Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions."
+    },
+    {
+      "id": "enzymes-km-affinity-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when it reaches half-maximal rate at a lower substrate concentration?",
+      "options": [
+        "Substrate binding increases affinity at other subunits of an allosteric enzyme",
+        "An enzyme variant has a lower Km but the same Vmax",
+        "An enzyme reaction is already operating at Vmax",
+        "An enzyme binds the transition state more tightly than the unchanged substrate"
+      ],
+      "answer": 1,
+      "explanation": "It reaches half-maximal rate at a lower substrate concentration. Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions."
+    },
+    {
+      "id": "enzymes-km-affinity-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "After an enzyme variant has a lower Km but the same Vmax, which explanation best links the change to its outcome?",
+      "options": [
+        "Preferential stabilization reduces the energetic cost of reaching the reactive configuration",
+        "Cooperative conformational changes switch subunits toward a higher-affinity state",
+        "Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions",
+        "Every catalytic site is effectively occupied and turnover number limits product formation"
+      ],
+      "answer": 2,
+      "explanation": "It reaches half-maximal rate at a lower substrate concentration. Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions."
+    },
+    {
+      "id": "enzymes-km-affinity-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an enzyme variant has a lower Km but the same Vmax?",
+      "options": [
+        "Rate shows a sigmoidal response to substrate concentration — Cooperative conformational changes switch subunits toward a higher-affinity state",
+        "Adding more substrate produces almost no further rate increase — Every catalytic site is effectively occupied and turnover number limits product formation",
+        "Activation energy is lowered — Preferential stabilization reduces the energetic cost of reaching the reactive configuration",
+        "It reaches half-maximal rate at a lower substrate concentration — Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions"
+      ],
+      "answer": 3,
+      "explanation": "It reaches half-maximal rate at a lower substrate concentration. Lower Km generally indicates stronger effective substrate affinity in Michaelis-Menten conditions."
+    },
+    {
+      "id": "enzymes-allosteric-curve-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Substrate binding increases affinity at other subunits of an allosteric enzyme?",
+      "options": [
+        "Rate shows a sigmoidal response to substrate concentration",
+        "Adding more substrate produces almost no further rate increase",
+        "Its activity falls despite unchanged concentration",
+        "Activation energy is lowered"
+      ],
+      "answer": 0,
+      "explanation": "Rate shows a sigmoidal response to substrate concentration. Cooperative conformational changes switch subunits toward a higher-affinity state."
+    },
+    {
+      "id": "enzymes-allosteric-curve-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: rate shows a sigmoidal response to substrate concentration?",
+      "options": [
+        "An enzyme binds the transition state more tightly than the unchanged substrate",
+        "Substrate binding increases affinity at other subunits of an allosteric enzyme",
+        "An enzyme reaction is already operating at Vmax",
+        "A lysosomal enzyme is moved from acidic lysosomes into neutral cytosol"
+      ],
+      "answer": 1,
+      "explanation": "Rate shows a sigmoidal response to substrate concentration. Cooperative conformational changes switch subunits toward a higher-affinity state."
+    },
+    {
+      "id": "enzymes-allosteric-curve-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "After substrate binding increases affinity at other subunits of an allosteric enzyme, which explanation best links the change to its outcome?",
+      "options": [
+        "Preferential stabilization reduces the energetic cost of reaching the reactive configuration",
+        "Every catalytic site is effectively occupied and turnover number limits product formation",
+        "Cooperative conformational changes switch subunits toward a higher-affinity state",
+        "The new pH alters catalytic-group ionization away from the enzyme's optimum"
+      ],
+      "answer": 2,
+      "explanation": "Rate shows a sigmoidal response to substrate concentration. Cooperative conformational changes switch subunits toward a higher-affinity state."
+    },
+    {
+      "id": "enzymes-allosteric-curve-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: substrate binding increases affinity at other subunits of an allosteric enzyme?",
+      "options": [
+        "Activation energy is lowered — Preferential stabilization reduces the energetic cost of reaching the reactive configuration",
+        "Adding more substrate produces almost no further rate increase — Every catalytic site is effectively occupied and turnover number limits product formation",
+        "Its activity falls despite unchanged concentration — The new pH alters catalytic-group ionization away from the enzyme's optimum",
+        "Rate shows a sigmoidal response to substrate concentration — Cooperative conformational changes switch subunits toward a higher-affinity state"
+      ],
+      "answer": 3,
+      "explanation": "Rate shows a sigmoidal response to substrate concentration. Cooperative conformational changes switch subunits toward a higher-affinity state."
+    },
+    {
+      "id": "enzymes-transition-state-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "An enzyme binds the transition state more tightly than the unchanged substrate. Which outcome follows most directly?",
+      "options": [
+        "Activation energy is lowered",
+        "Adding more substrate produces almost no further rate increase",
+        "Its activity falls despite unchanged concentration",
+        "The reaction can be tuned to each tissue's metabolic conditions"
+      ],
+      "answer": 0,
+      "explanation": "Activation energy is lowered. Preferential stabilization reduces the energetic cost of reaching the reactive configuration."
+    },
+    {
+      "id": "enzymes-transition-state-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: activation energy is lowered?",
+      "options": [
+        "An enzyme reaction is already operating at Vmax",
+        "An enzyme binds the transition state more tightly than the unchanged substrate",
+        "A lysosomal enzyme is moved from acidic lysosomes into neutral cytosol",
+        "Different tissues express isoenzymes for the same overall reaction"
+      ],
+      "answer": 1,
+      "explanation": "Activation energy is lowered. Preferential stabilization reduces the energetic cost of reaching the reactive configuration."
+    },
+    {
+      "id": "enzymes-transition-state-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "After an enzyme binds the transition state more tightly than the unchanged substrate, which explanation best links the change to its outcome?",
+      "options": [
+        "Every catalytic site is effectively occupied and turnover number limits product formation",
+        "The new pH alters catalytic-group ionization away from the enzyme's optimum",
+        "Preferential stabilization reduces the energetic cost of reaching the reactive configuration",
+        "Related enzyme forms have different kinetic or regulatory properties"
+      ],
+      "answer": 2,
+      "explanation": "Activation energy is lowered. Preferential stabilization reduces the energetic cost of reaching the reactive configuration."
+    },
+    {
+      "id": "enzymes-transition-state-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an enzyme binds the transition state more tightly than the unchanged substrate?",
+      "options": [
+        "Adding more substrate produces almost no further rate increase — Every catalytic site is effectively occupied and turnover number limits product formation",
+        "Its activity falls despite unchanged concentration — The new pH alters catalytic-group ionization away from the enzyme's optimum",
+        "The reaction can be tuned to each tissue's metabolic conditions — Related enzyme forms have different kinetic or regulatory properties",
+        "Activation energy is lowered — Preferential stabilization reduces the energetic cost of reaching the reactive configuration"
+      ],
+      "answer": 3,
+      "explanation": "Activation energy is lowered. Preferential stabilization reduces the energetic cost of reaching the reactive configuration."
+    },
+    {
+      "id": "enzymes-vmax-limited-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "After an enzyme reaction is already operating at Vmax, which observation is most likely?",
+      "options": [
+        "Adding more substrate produces almost no further rate increase",
+        "Its activity falls despite unchanged concentration",
+        "The reaction can be tuned to each tissue's metabolic conditions",
+        "The reaction reaches equilibrium faster"
+      ],
+      "answer": 0,
+      "explanation": "Adding more substrate produces almost no further rate increase. Every catalytic site is effectively occupied and turnover number limits product formation."
+    },
+    {
+      "id": "enzymes-vmax-limited-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "A learner records that adding more substrate produces almost no further rate increase. Which preceding event best accounts for it?",
+      "options": [
+        "A lysosomal enzyme is moved from acidic lysosomes into neutral cytosol",
+        "An enzyme reaction is already operating at Vmax",
+        "Different tissues express isoenzymes for the same overall reaction",
+        "An appropriate enzyme is added to a reaction mixture"
+      ],
+      "answer": 1,
+      "explanation": "Adding more substrate produces almost no further rate increase. Every catalytic site is effectively occupied and turnover number limits product formation."
+    },
+    {
+      "id": "enzymes-vmax-limited-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "After an enzyme reaction is already operating at Vmax, which explanation best links the change to its outcome?",
+      "options": [
+        "The new pH alters catalytic-group ionization away from the enzyme's optimum",
+        "Related enzyme forms have different kinetic or regulatory properties",
+        "Every catalytic site is effectively occupied and turnover number limits product formation",
+        "The enzyme provides an alternative pathway with lower activation energy"
+      ],
+      "answer": 2,
+      "explanation": "Adding more substrate produces almost no further rate increase. Every catalytic site is effectively occupied and turnover number limits product formation."
+    },
+    {
+      "id": "enzymes-vmax-limited-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an enzyme reaction is already operating at Vmax?",
+      "options": [
+        "The reaction reaches equilibrium faster — The enzyme provides an alternative pathway with lower activation energy",
+        "Its activity falls despite unchanged concentration — The new pH alters catalytic-group ionization away from the enzyme's optimum",
+        "The reaction can be tuned to each tissue's metabolic conditions — Related enzyme forms have different kinetic or regulatory properties",
+        "Adding more substrate produces almost no further rate increase — Every catalytic site is effectively occupied and turnover number limits product formation"
+      ],
+      "answer": 3,
+      "explanation": "Adding more substrate produces almost no further rate increase. Every catalytic site is effectively occupied and turnover number limits product formation."
+    },
+    {
+      "id": "enzymes-enzyme-compartment-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A lysosomal enzyme is moved from acidic lysosomes into neutral cytosol. What should the model predict first?",
+      "options": [
+        "Its activity falls despite unchanged concentration",
+        "The reaction reaches equilibrium faster",
+        "The reaction can be tuned to each tissue's metabolic conditions",
+        "An enzyme-substrate complex forms readily"
+      ],
+      "answer": 0,
+      "explanation": "Its activity falls despite unchanged concentration. The new pH alters catalytic-group ionization away from the enzyme's optimum."
+    },
+    {
+      "id": "enzymes-enzyme-compartment-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when its activity falls despite unchanged concentration?",
+      "options": [
+        "Different tissues express isoenzymes for the same overall reaction",
+        "A lysosomal enzyme is moved from acidic lysosomes into neutral cytosol",
+        "A substrate has complementary shape and chemistry to an enzyme's active site",
+        "An appropriate enzyme is added to a reaction mixture"
+      ],
+      "answer": 1,
+      "explanation": "Its activity falls despite unchanged concentration. The new pH alters catalytic-group ionization away from the enzyme's optimum."
+    },
+    {
+      "id": "enzymes-enzyme-compartment-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "After a lysosomal enzyme is moved from acidic lysosomes into neutral cytosol, which explanation best links the change to its outcome?",
+      "options": [
+        "The enzyme provides an alternative pathway with lower activation energy",
+        "Related enzyme forms have different kinetic or regulatory properties",
+        "The new pH alters catalytic-group ionization away from the enzyme's optimum",
+        "Non-covalent interactions position the substrate for catalysis"
+      ],
+      "answer": 2,
+      "explanation": "Its activity falls despite unchanged concentration. The new pH alters catalytic-group ionization away from the enzyme's optimum."
+    },
+    {
+      "id": "enzymes-enzyme-compartment-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a lysosomal enzyme is moved from acidic lysosomes into neutral cytosol?",
+      "options": [
+        "The reaction can be tuned to each tissue's metabolic conditions — Related enzyme forms have different kinetic or regulatory properties",
+        "An enzyme-substrate complex forms readily — Non-covalent interactions position the substrate for catalysis",
+        "The reaction reaches equilibrium faster — The enzyme provides an alternative pathway with lower activation energy",
+        "Its activity falls despite unchanged concentration — The new pH alters catalytic-group ionization away from the enzyme's optimum"
+      ],
+      "answer": 3,
+      "explanation": "Its activity falls despite unchanged concentration. The new pH alters catalytic-group ionization away from the enzyme's optimum."
+    },
+    {
+      "id": "enzymes-isoenzyme-outcome",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Different tissues express isoenzymes for the same overall reaction?",
+      "options": [
+        "The reaction can be tuned to each tissue's metabolic conditions",
+        "An enzyme-substrate complex forms readily",
+        "The same enzyme molecule can catalyse another reaction",
+        "The reaction reaches equilibrium faster"
+      ],
+      "answer": 0,
+      "explanation": "The reaction can be tuned to each tissue's metabolic conditions. Related enzyme forms have different kinetic or regulatory properties."
+    },
+    {
+      "id": "enzymes-isoenzyme-cause",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: the reaction can be tuned to each tissue's metabolic conditions?",
+      "options": [
+        "An appropriate enzyme is added to a reaction mixture",
+        "Different tissues express isoenzymes for the same overall reaction",
+        "A substrate has complementary shape and chemistry to an enzyme's active site",
+        "An enzyme completes one catalytic cycle without being damaged"
+      ],
+      "answer": 1,
+      "explanation": "The reaction can be tuned to each tissue's metabolic conditions. Related enzyme forms have different kinetic or regulatory properties."
+    },
+    {
+      "id": "enzymes-isoenzyme-mechanism",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "After different tissues express isoenzymes for the same overall reaction, which explanation best links the change to its outcome?",
+      "options": [
+        "The enzyme provides an alternative pathway with lower activation energy",
+        "Non-covalent interactions position the substrate for catalysis",
+        "Related enzyme forms have different kinetic or regulatory properties",
+        "Products leave while the catalyst returns to its original functional state"
+      ],
+      "answer": 2,
+      "explanation": "The reaction can be tuned to each tissue's metabolic conditions. Related enzyme forms have different kinetic or regulatory properties."
+    },
+    {
+      "id": "enzymes-isoenzyme-integrated",
+      "chapter": "Enzymes",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: different tissues express isoenzymes for the same overall reaction?",
+      "options": [
+        "The reaction reaches equilibrium faster — The enzyme provides an alternative pathway with lower activation energy",
+        "An enzyme-substrate complex forms readily — Non-covalent interactions position the substrate for catalysis",
+        "The same enzyme molecule can catalyse another reaction — Products leave while the catalyst returns to its original functional state",
+        "The reaction can be tuned to each tissue's metabolic conditions — Related enzyme forms have different kinetic or regulatory properties"
+      ],
+      "answer": 3,
+      "explanation": "The reaction can be tuned to each tissue's metabolic conditions. Related enzyme forms have different kinetic or regulatory properties."
+    }
+  ]
+}

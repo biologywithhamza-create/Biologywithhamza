@@ -1,0 +1,82 @@
+[
+  {
+    "chapter": "Acellular Life",
+    "file": "acellular-life.json",
+    "count": 100
+  },
+  {
+    "chapter": "Bioenergetics",
+    "file": "bioenergetics.json",
+    "count": 100
+  },
+  {
+    "chapter": "Biological Molecules",
+    "file": "biological-molecules.json",
+    "count": 100
+  },
+  {
+    "chapter": "Cell Structure & Function",
+    "file": "cells.json",
+    "count": 100
+  },
+  {
+    "chapter": "Coordination & Control",
+    "file": "coordination.json",
+    "count": 100
+  },
+  {
+    "chapter": "Enzymes",
+    "file": "enzymes.json",
+    "count": 100
+  },
+  {
+    "chapter": "Evolution",
+    "file": "evolution.json",
+    "count": 100
+  },
+  {
+    "chapter": "Reproduction",
+    "file": "reproduction.json",
+    "count": 100
+  },
+  {
+    "chapter": "Support & Movement",
+    "file": "support-movement.json",
+    "count": 100
+  },
+  {
+    "chapter": "Inheritance",
+    "file": "inheritance.json",
+    "count": 100
+  },
+  {
+    "chapter": "Circulation",
+    "file": "circulation.json",
+    "count": 100
+  },
+  {
+    "chapter": "Immunity",
+    "file": "immunity.json",
+    "count": 100
+  },
+  {
+    "chapter": "Respiration",
+    "file": "respiration.json",
+    "count": 100
+  },
+  {
+    "chapter": "Digestion",
+    "file": "digestion.json",
+    "count": 100
+  },
+  {
+    "chapter": "Homeostasis",
+    "file": "homeostasis.json",
+    "count": 100
+  },
+  {
+    "chapter": "Biotechnology",
+    "file": "biotechnology.json",
+    "count": 100
+  }
+]

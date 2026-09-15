@@ -1,0 +1,1408 @@
+{
+  "chapter": "Reproduction",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "lh-surge-ovulation",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which hormonal event most directly triggers ovulation in a typical menstrual cycle?",
+      "options": [
+        "A surge in luteinising hormone",
+        "A permanent fall in FSH from birth",
+        "A sudden rise in ADH",
+        "Release of thyroxine from the ovary"
+      ],
+      "answer": 0,
+      "explanation": "High oestrogen from the mature follicle produces positive feedback that generates an LH surge, triggering ovulation."
+    },
+    {
+      "id": "progesterone-withdrawal",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "If fertilisation does not occur, degeneration of the corpus luteum promotes menstruation mainly through a fall in:",
+      "options": [
+        "Testosterone only",
+        "Progesterone and oestrogen",
+        "ADH and aldosterone",
+        "Insulin and glucagon"
+      ],
+      "answer": 1,
+      "explanation": "The corpus luteum supports the endometrium by secreting progesterone and oestrogen. Their decline causes the uterine lining to break down."
+    },
+    {
+      "id": "acrosome-reaction",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Failure of the acrosome reaction would most directly prevent a sperm from:",
+      "options": [
+        "Producing ATP in mitochondria",
+        "Completing meiosis in the testes",
+        "Penetrating the egg's surrounding layers",
+        "Carrying a haploid nucleus"
+      ],
+      "answer": 2,
+      "explanation": "The acrosome releases enzymes that help the sperm pass through the egg's protective extracellular layers before membrane fusion."
+    },
+    {
+      "id": "placental-barrier",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Maternal and fetal blood normally remain in separate circulations at the placenta. Exchange is still efficient because:",
+      "options": [
+        "Every fetal capillary opens into a maternal artery",
+        "Only hormones cross the placenta",
+        "Fetal blood contains no plasma",
+        "The exchange barrier is thin and richly supplied with vessels"
+      ],
+      "answer": 3,
+      "explanation": "A thin placental barrier and extensive blood supply maintain short diffusion distances and concentration gradients without direct mixing of the two bloodstreams."
+    },
+    {
+      "id": "reproduction-meiosis-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "A diploid germ cell completes meiosis. Which outcome follows most directly?",
+      "options": [
+        "Haploid cells with varied allele combinations are produced",
+        "Testosterone secretion increases",
+        "Sperm development is supported",
+        "Ovarian follicles grow and secrete increasing oestrogen"
+      ],
+      "answer": 0,
+      "explanation": "Haploid cells with varied allele combinations are produced. Two divisions follow one DNA replication, with crossing over and independent assortment."
+    },
+    {
+      "id": "reproduction-meiosis-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: haploid cells with varied allele combinations are produced?",
+      "options": [
+        "LH stimulates interstitial cells in the testes",
+        "A diploid germ cell completes meiosis",
+        "FSH and testosterone act on seminiferous tubules",
+        "FSH rises during the early ovarian cycle"
+      ],
+      "answer": 1,
+      "explanation": "Haploid cells with varied allele combinations are produced. Two divisions follow one DNA replication, with crossing over and independent assortment."
+    },
+    {
+      "id": "reproduction-meiosis-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "After a diploid germ cell completes meiosis, which explanation best links the change to its outcome?",
+      "options": [
+        "LH receptor signalling promotes steroid synthesis in Leydig cells",
+        "Sertoli cells respond by nurturing germ cells and regulating spermatogenesis",
+        "Two divisions follow one DNA replication, with crossing over and independent assortment",
+        "FSH stimulates granulosa-cell proliferation and follicular development"
+      ],
+      "answer": 2,
+      "explanation": "Haploid cells with varied allele combinations are produced. Two divisions follow one DNA replication, with crossing over and independent assortment."
+    },
+    {
+      "id": "reproduction-meiosis-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a diploid germ cell completes meiosis?",
+      "options": [
+        "Testosterone secretion increases — LH receptor signalling promotes steroid synthesis in Leydig cells",
+        "Sperm development is supported — Sertoli cells respond by nurturing germ cells and regulating spermatogenesis",
+        "Ovarian follicles grow and secrete increasing oestrogen — FSH stimulates granulosa-cell proliferation and follicular development",
+        "Haploid cells with varied allele combinations are produced — Two divisions follow one DNA replication, with crossing over and independent assortment"
+      ],
+      "answer": 3,
+      "explanation": "Haploid cells with varied allele combinations are produced. Two divisions follow one DNA replication, with crossing over and independent assortment."
+    },
+    {
+      "id": "reproduction-testosterone-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "After LH stimulates interstitial cells in the testes, which observation is most likely?",
+      "options": [
+        "Testosterone secretion increases",
+        "Sperm development is supported",
+        "Ovarian follicles grow and secrete increasing oestrogen",
+        "A surge of LH triggers ovulation"
+      ],
+      "answer": 0,
+      "explanation": "Testosterone secretion increases. LH receptor signalling promotes steroid synthesis in Leydig cells."
+    },
+    {
+      "id": "reproduction-testosterone-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "A learner records that testosterone secretion increases. Which preceding event best accounts for it?",
+      "options": [
+        "FSH and testosterone act on seminiferous tubules",
+        "LH stimulates interstitial cells in the testes",
+        "FSH rises during the early ovarian cycle",
+        "Sustained high oestrogen creates positive feedback near mid-cycle"
+      ],
+      "answer": 1,
+      "explanation": "Testosterone secretion increases. LH receptor signalling promotes steroid synthesis in Leydig cells."
+    },
+    {
+      "id": "reproduction-testosterone-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "After LH stimulates interstitial cells in the testes, which explanation best links the change to its outcome?",
+      "options": [
+        "Sertoli cells respond by nurturing germ cells and regulating spermatogenesis",
+        "FSH stimulates granulosa-cell proliferation and follicular development",
+        "LH receptor signalling promotes steroid synthesis in Leydig cells",
+        "Hypothalamic and pituitary stimulation abruptly increases gonadotropin release"
+      ],
+      "answer": 2,
+      "explanation": "Testosterone secretion increases. LH receptor signalling promotes steroid synthesis in Leydig cells."
+    },
+    {
+      "id": "reproduction-testosterone-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: LH stimulates interstitial cells in the testes?",
+      "options": [
+        "A surge of LH triggers ovulation — Hypothalamic and pituitary stimulation abruptly increases gonadotropin release",
+        "Sperm development is supported — Sertoli cells respond by nurturing germ cells and regulating spermatogenesis",
+        "Ovarian follicles grow and secrete increasing oestrogen — FSH stimulates granulosa-cell proliferation and follicular development",
+        "Testosterone secretion increases — LH receptor signalling promotes steroid synthesis in Leydig cells"
+      ],
+      "answer": 3,
+      "explanation": "Testosterone secretion increases. LH receptor signalling promotes steroid synthesis in Leydig cells."
+    },
+    {
+      "id": "reproduction-fsh-sperm-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: FSH and testosterone act on seminiferous tubules. What should the model predict first?",
+      "options": [
+        "Sperm development is supported",
+        "A surge of LH triggers ovulation",
+        "Ovarian follicles grow and secrete increasing oestrogen",
+        "A diploid zygote with a new allele combination forms"
+      ],
+      "answer": 0,
+      "explanation": "Sperm development is supported. Sertoli cells respond by nurturing germ cells and regulating spermatogenesis."
+    },
+    {
+      "id": "reproduction-fsh-sperm-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when sperm development is supported?",
+      "options": [
+        "FSH rises during the early ovarian cycle",
+        "FSH and testosterone act on seminiferous tubules",
+        "A sperm nucleus fuses with the egg nucleus",
+        "Sustained high oestrogen creates positive feedback near mid-cycle"
+      ],
+      "answer": 1,
+      "explanation": "Sperm development is supported. Sertoli cells respond by nurturing germ cells and regulating spermatogenesis."
+    },
+    {
+      "id": "reproduction-fsh-sperm-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "After FSH and testosterone act on seminiferous tubules, which explanation best links the change to its outcome?",
+      "options": [
+        "Hypothalamic and pituitary stimulation abruptly increases gonadotropin release",
+        "FSH stimulates granulosa-cell proliferation and follicular development",
+        "Sertoli cells respond by nurturing germ cells and regulating spermatogenesis",
+        "Two haploid chromosome sets unite during fertilization"
+      ],
+      "answer": 2,
+      "explanation": "Sperm development is supported. Sertoli cells respond by nurturing germ cells and regulating spermatogenesis."
+    },
+    {
+      "id": "reproduction-fsh-sperm-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: FSH and testosterone act on seminiferous tubules?",
+      "options": [
+        "Ovarian follicles grow and secrete increasing oestrogen — FSH stimulates granulosa-cell proliferation and follicular development",
+        "A diploid zygote with a new allele combination forms — Two haploid chromosome sets unite during fertilization",
+        "A surge of LH triggers ovulation — Hypothalamic and pituitary stimulation abruptly increases gonadotropin release",
+        "Sperm development is supported — Sertoli cells respond by nurturing germ cells and regulating spermatogenesis"
+      ],
+      "answer": 3,
+      "explanation": "Sperm development is supported. Sertoli cells respond by nurturing germ cells and regulating spermatogenesis."
+    },
+    {
+      "id": "reproduction-follicle-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: FSH rises during the early ovarian cycle?",
+      "options": [
+        "Ovarian follicles grow and secrete increasing oestrogen",
+        "A diploid zygote with a new allele combination forms",
+        "The acrosome releases hydrolytic enzymes",
+        "A surge of LH triggers ovulation"
+      ],
+      "answer": 0,
+      "explanation": "Ovarian follicles grow and secrete increasing oestrogen. FSH stimulates granulosa-cell proliferation and follicular development."
+    },
+    {
+      "id": "reproduction-follicle-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: ovarian follicles grow and secrete increasing oestrogen?",
+      "options": [
+        "Sustained high oestrogen creates positive feedback near mid-cycle",
+        "FSH rises during the early ovarian cycle",
+        "A sperm nucleus fuses with the egg nucleus",
+        "A capacitated sperm binds the egg's surrounding glycoprotein layer"
+      ],
+      "answer": 1,
+      "explanation": "Ovarian follicles grow and secrete increasing oestrogen. FSH stimulates granulosa-cell proliferation and follicular development."
+    },
+    {
+      "id": "reproduction-follicle-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "After FSH rises during the early ovarian cycle, which explanation best links the change to its outcome?",
+      "options": [
+        "Hypothalamic and pituitary stimulation abruptly increases gonadotropin release",
+        "Two haploid chromosome sets unite during fertilization",
+        "FSH stimulates granulosa-cell proliferation and follicular development",
+        "Membrane fusion at the sperm head initiates exocytosis that aids penetration"
+      ],
+      "answer": 2,
+      "explanation": "Ovarian follicles grow and secrete increasing oestrogen. FSH stimulates granulosa-cell proliferation and follicular development."
+    },
+    {
+      "id": "reproduction-follicle-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: FSH rises during the early ovarian cycle?",
+      "options": [
+        "A surge of LH triggers ovulation — Hypothalamic and pituitary stimulation abruptly increases gonadotropin release",
+        "A diploid zygote with a new allele combination forms — Two haploid chromosome sets unite during fertilization",
+        "The acrosome releases hydrolytic enzymes — Membrane fusion at the sperm head initiates exocytosis that aids penetration",
+        "Ovarian follicles grow and secrete increasing oestrogen — FSH stimulates granulosa-cell proliferation and follicular development"
+      ],
+      "answer": 3,
+      "explanation": "Ovarian follicles grow and secrete increasing oestrogen. FSH stimulates granulosa-cell proliferation and follicular development."
+    },
+    {
+      "id": "reproduction-lh-surge-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Sustained high oestrogen creates positive feedback near mid-cycle. Which outcome follows most directly?",
+      "options": [
+        "A surge of LH triggers ovulation",
+        "A diploid zygote with a new allele combination forms",
+        "The acrosome releases hydrolytic enzymes",
+        "Further sperm entry is blocked"
+      ],
+      "answer": 0,
+      "explanation": "A surge of LH triggers ovulation. Hypothalamic and pituitary stimulation abruptly increases gonadotropin release."
+    },
+    {
+      "id": "reproduction-lh-surge-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: a surge of LH triggers ovulation?",
+      "options": [
+        "A sperm nucleus fuses with the egg nucleus",
+        "Sustained high oestrogen creates positive feedback near mid-cycle",
+        "A capacitated sperm binds the egg's surrounding glycoprotein layer",
+        "One sperm fuses with the egg membrane"
+      ],
+      "answer": 1,
+      "explanation": "A surge of LH triggers ovulation. Hypothalamic and pituitary stimulation abruptly increases gonadotropin release."
+    },
+    {
+      "id": "reproduction-lh-surge-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "After sustained high oestrogen creates positive feedback near mid-cycle, which explanation best links the change to its outcome?",
+      "options": [
+        "Two haploid chromosome sets unite during fertilization",
+        "Membrane fusion at the sperm head initiates exocytosis that aids penetration",
+        "Hypothalamic and pituitary stimulation abruptly increases gonadotropin release",
+        "A calcium wave triggers cortical granules to modify and harden the extracellular coat"
+      ],
+      "answer": 2,
+      "explanation": "A surge of LH triggers ovulation. Hypothalamic and pituitary stimulation abruptly increases gonadotropin release."
+    },
+    {
+      "id": "reproduction-lh-surge-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: sustained high oestrogen creates positive feedback near mid-cycle?",
+      "options": [
+        "A diploid zygote with a new allele combination forms — Two haploid chromosome sets unite during fertilization",
+        "The acrosome releases hydrolytic enzymes — Membrane fusion at the sperm head initiates exocytosis that aids penetration",
+        "Further sperm entry is blocked — A calcium wave triggers cortical granules to modify and harden the extracellular coat",
+        "A surge of LH triggers ovulation — Hypothalamic and pituitary stimulation abruptly increases gonadotropin release"
+      ],
+      "answer": 3,
+      "explanation": "A surge of LH triggers ovulation. Hypothalamic and pituitary stimulation abruptly increases gonadotropin release."
+    },
+    {
+      "id": "reproduction-fertilization-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "After a sperm nucleus fuses with the egg nucleus, which observation is most likely?",
+      "options": [
+        "A diploid zygote with a new allele combination forms",
+        "The acrosome releases hydrolytic enzymes",
+        "Further sperm entry is blocked",
+        "Many smaller blastomeres form within the original volume"
+      ],
+      "answer": 0,
+      "explanation": "A diploid zygote with a new allele combination forms. Two haploid chromosome sets unite during fertilization."
+    },
+    {
+      "id": "reproduction-fertilization-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "A learner records that a diploid zygote with a new allele combination forms. Which preceding event best accounts for it?",
+      "options": [
+        "A capacitated sperm binds the egg's surrounding glycoprotein layer",
+        "A sperm nucleus fuses with the egg nucleus",
+        "One sperm fuses with the egg membrane",
+        "The zygote undergoes rapid mitotic cleavage without overall growth"
+      ],
+      "answer": 1,
+      "explanation": "A diploid zygote with a new allele combination forms. Two haploid chromosome sets unite during fertilization."
+    },
+    {
+      "id": "reproduction-fertilization-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "After a sperm nucleus fuses with the egg nucleus, which explanation best links the change to its outcome?",
+      "options": [
+        "Membrane fusion at the sperm head initiates exocytosis that aids penetration",
+        "A calcium wave triggers cortical granules to modify and harden the extracellular coat",
+        "Two haploid chromosome sets unite during fertilization",
+        "Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus"
+      ],
+      "answer": 2,
+      "explanation": "A diploid zygote with a new allele combination forms. Two haploid chromosome sets unite during fertilization."
+    },
+    {
+      "id": "reproduction-fertilization-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a sperm nucleus fuses with the egg nucleus?",
+      "options": [
+        "Many smaller blastomeres form within the original volume — Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus",
+        "The acrosome releases hydrolytic enzymes — Membrane fusion at the sperm head initiates exocytosis that aids penetration",
+        "Further sperm entry is blocked — A calcium wave triggers cortical granules to modify and harden the extracellular coat",
+        "A diploid zygote with a new allele combination forms — Two haploid chromosome sets unite during fertilization"
+      ],
+      "answer": 3,
+      "explanation": "A diploid zygote with a new allele combination forms. Two haploid chromosome sets unite during fertilization."
+    },
+    {
+      "id": "reproduction-acrosome-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A capacitated sperm binds the egg's surrounding glycoprotein layer. What should the model predict first?",
+      "options": [
+        "The acrosome releases hydrolytic enzymes",
+        "Many smaller blastomeres form within the original volume",
+        "Further sperm entry is blocked",
+        "It embeds in the uterine lining"
+      ],
+      "answer": 0,
+      "explanation": "The acrosome releases hydrolytic enzymes. Membrane fusion at the sperm head initiates exocytosis that aids penetration."
+    },
+    {
+      "id": "reproduction-acrosome-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the acrosome releases hydrolytic enzymes?",
+      "options": [
+        "One sperm fuses with the egg membrane",
+        "A capacitated sperm binds the egg's surrounding glycoprotein layer",
+        "A healthy blastocyst contacts a receptive endometrium",
+        "The zygote undergoes rapid mitotic cleavage without overall growth"
+      ],
+      "answer": 1,
+      "explanation": "The acrosome releases hydrolytic enzymes. Membrane fusion at the sperm head initiates exocytosis that aids penetration."
+    },
+    {
+      "id": "reproduction-acrosome-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After a capacitated sperm binds the egg's surrounding glycoprotein layer, which explanation best links the change to its outcome?",
+      "options": [
+        "Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus",
+        "A calcium wave triggers cortical granules to modify and harden the extracellular coat",
+        "Membrane fusion at the sperm head initiates exocytosis that aids penetration",
+        "Trophoblast cells adhere, invade and begin forming the fetal part of the placenta"
+      ],
+      "answer": 2,
+      "explanation": "The acrosome releases hydrolytic enzymes. Membrane fusion at the sperm head initiates exocytosis that aids penetration."
+    },
+    {
+      "id": "reproduction-acrosome-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a capacitated sperm binds the egg's surrounding glycoprotein layer?",
+      "options": [
+        "Further sperm entry is blocked — A calcium wave triggers cortical granules to modify and harden the extracellular coat",
+        "It embeds in the uterine lining — Trophoblast cells adhere, invade and begin forming the fetal part of the placenta",
+        "Many smaller blastomeres form within the original volume — Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus",
+        "The acrosome releases hydrolytic enzymes — Membrane fusion at the sperm head initiates exocytosis that aids penetration"
+      ],
+      "answer": 3,
+      "explanation": "The acrosome releases hydrolytic enzymes. Membrane fusion at the sperm head initiates exocytosis that aids penetration."
+    },
+    {
+      "id": "reproduction-cortical-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: One sperm fuses with the egg membrane?",
+      "options": [
+        "Further sperm entry is blocked",
+        "It embeds in the uterine lining",
+        "The corpus luteum persists and continues progesterone secretion",
+        "Many smaller blastomeres form within the original volume"
+      ],
+      "answer": 0,
+      "explanation": "Further sperm entry is blocked. A calcium wave triggers cortical granules to modify and harden the extracellular coat."
+    },
+    {
+      "id": "reproduction-cortical-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: further sperm entry is blocked?",
+      "options": [
+        "The zygote undergoes rapid mitotic cleavage without overall growth",
+        "One sperm fuses with the egg membrane",
+        "A healthy blastocyst contacts a receptive endometrium",
+        "Early trophoblast cells secrete human chorionic gonadotropin"
+      ],
+      "answer": 1,
+      "explanation": "Further sperm entry is blocked. A calcium wave triggers cortical granules to modify and harden the extracellular coat."
+    },
+    {
+      "id": "reproduction-cortical-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After one sperm fuses with the egg membrane, which explanation best links the change to its outcome?",
+      "options": [
+        "Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus",
+        "Trophoblast cells adhere, invade and begin forming the fetal part of the placenta",
+        "A calcium wave triggers cortical granules to modify and harden the extracellular coat",
+        "hCG acts like LH and prevents luteal degeneration in early pregnancy"
+      ],
+      "answer": 2,
+      "explanation": "Further sperm entry is blocked. A calcium wave triggers cortical granules to modify and harden the extracellular coat."
+    },
+    {
+      "id": "reproduction-cortical-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: one sperm fuses with the egg membrane?",
+      "options": [
+        "Many smaller blastomeres form within the original volume — Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus",
+        "It embeds in the uterine lining — Trophoblast cells adhere, invade and begin forming the fetal part of the placenta",
+        "The corpus luteum persists and continues progesterone secretion — hCG acts like LH and prevents luteal degeneration in early pregnancy",
+        "Further sperm entry is blocked — A calcium wave triggers cortical granules to modify and harden the extracellular coat"
+      ],
+      "answer": 3,
+      "explanation": "Further sperm entry is blocked. A calcium wave triggers cortical granules to modify and harden the extracellular coat."
+    },
+    {
+      "id": "reproduction-cleavage-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "The zygote undergoes rapid mitotic cleavage without overall growth. Which outcome follows most directly?",
+      "options": [
+        "Many smaller blastomeres form within the original volume",
+        "It embeds in the uterine lining",
+        "The corpus luteum persists and continues progesterone secretion",
+        "The endometrium stays thick and uterine contractions are restrained"
+      ],
+      "answer": 0,
+      "explanation": "Many smaller blastomeres form within the original volume. Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus."
+    },
+    {
+      "id": "reproduction-cleavage-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: many smaller blastomeres form within the original volume?",
+      "options": [
+        "A healthy blastocyst contacts a receptive endometrium",
+        "The zygote undergoes rapid mitotic cleavage without overall growth",
+        "Early trophoblast cells secrete human chorionic gonadotropin",
+        "Progesterone remains high after ovulation"
+      ],
+      "answer": 1,
+      "explanation": "Many smaller blastomeres form within the original volume. Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus."
+    },
+    {
+      "id": "reproduction-cleavage-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After the zygote undergoes rapid mitotic cleavage without overall growth, which explanation best links the change to its outcome?",
+      "options": [
+        "Trophoblast cells adhere, invade and begin forming the fetal part of the placenta",
+        "hCG acts like LH and prevents luteal degeneration in early pregnancy",
+        "Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus",
+        "The steroid maintains secretory uterine tissue suitable for implantation"
+      ],
+      "answer": 2,
+      "explanation": "Many smaller blastomeres form within the original volume. Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus."
+    },
+    {
+      "id": "reproduction-cleavage-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the zygote undergoes rapid mitotic cleavage without overall growth?",
+      "options": [
+        "It embeds in the uterine lining — Trophoblast cells adhere, invade and begin forming the fetal part of the placenta",
+        "The corpus luteum persists and continues progesterone secretion — hCG acts like LH and prevents luteal degeneration in early pregnancy",
+        "The endometrium stays thick and uterine contractions are restrained — The steroid maintains secretory uterine tissue suitable for implantation",
+        "Many smaller blastomeres form within the original volume — Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus"
+      ],
+      "answer": 3,
+      "explanation": "Many smaller blastomeres form within the original volume. Repeated S and M phases partition cytoplasm as the embryo travels toward the uterus."
+    },
+    {
+      "id": "reproduction-implantation-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After a healthy blastocyst contacts a receptive endometrium, which observation is most likely?",
+      "options": [
+        "It embeds in the uterine lining",
+        "The corpus luteum persists and continues progesterone secretion",
+        "The endometrium stays thick and uterine contractions are restrained",
+        "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing"
+      ],
+      "answer": 0,
+      "explanation": "It embeds in the uterine lining. Trophoblast cells adhere, invade and begin forming the fetal part of the placenta."
+    },
+    {
+      "id": "reproduction-implantation-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "A learner records that it embeds in the uterine lining. Which preceding event best accounts for it?",
+      "options": [
+        "Early trophoblast cells secrete human chorionic gonadotropin",
+        "A healthy blastocyst contacts a receptive endometrium",
+        "Progesterone remains high after ovulation",
+        "Maternal and fetal blood flow closely on opposite sides of thin placental villi"
+      ],
+      "answer": 1,
+      "explanation": "It embeds in the uterine lining. Trophoblast cells adhere, invade and begin forming the fetal part of the placenta."
+    },
+    {
+      "id": "reproduction-implantation-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After a healthy blastocyst contacts a receptive endometrium, which explanation best links the change to its outcome?",
+      "options": [
+        "hCG acts like LH and prevents luteal degeneration in early pregnancy",
+        "The steroid maintains secretory uterine tissue suitable for implantation",
+        "Trophoblast cells adhere, invade and begin forming the fetal part of the placenta",
+        "Large area, short distance and maintained concentration gradients favour diffusion and transport"
+      ],
+      "answer": 2,
+      "explanation": "It embeds in the uterine lining. Trophoblast cells adhere, invade and begin forming the fetal part of the placenta."
+    },
+    {
+      "id": "reproduction-implantation-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a healthy blastocyst contacts a receptive endometrium?",
+      "options": [
+        "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing — Large area, short distance and maintained concentration gradients favour diffusion and transport",
+        "The corpus luteum persists and continues progesterone secretion — hCG acts like LH and prevents luteal degeneration in early pregnancy",
+        "The endometrium stays thick and uterine contractions are restrained — The steroid maintains secretory uterine tissue suitable for implantation",
+        "It embeds in the uterine lining — Trophoblast cells adhere, invade and begin forming the fetal part of the placenta"
+      ],
+      "answer": 3,
+      "explanation": "It embeds in the uterine lining. Trophoblast cells adhere, invade and begin forming the fetal part of the placenta."
+    },
+    {
+      "id": "reproduction-hcg-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Early trophoblast cells secrete human chorionic gonadotropin. What should the model predict first?",
+      "options": [
+        "The corpus luteum persists and continues progesterone secretion",
+        "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing",
+        "The endometrium stays thick and uterine contractions are restrained",
+        "Relatively deoxygenated blood and wastes reach the exchange surface"
+      ],
+      "answer": 0,
+      "explanation": "The corpus luteum persists and continues progesterone secretion. hCG acts like LH and prevents luteal degeneration in early pregnancy."
+    },
+    {
+      "id": "reproduction-hcg-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the corpus luteum persists and continues progesterone secretion?",
+      "options": [
+        "Progesterone remains high after ovulation",
+        "Early trophoblast cells secrete human chorionic gonadotropin",
+        "Fetal blood travels through umbilical arteries toward the placenta",
+        "Maternal and fetal blood flow closely on opposite sides of thin placental villi"
+      ],
+      "answer": 1,
+      "explanation": "The corpus luteum persists and continues progesterone secretion. hCG acts like LH and prevents luteal degeneration in early pregnancy."
+    },
+    {
+      "id": "reproduction-hcg-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After early trophoblast cells secrete human chorionic gonadotropin, which explanation best links the change to its outcome?",
+      "options": [
+        "Large area, short distance and maintained concentration gradients favour diffusion and transport",
+        "The steroid maintains secretory uterine tissue suitable for implantation",
+        "hCG acts like LH and prevents luteal degeneration in early pregnancy",
+        "The arteries carry blood away from the fetal heart despite their unusual oxygen content"
+      ],
+      "answer": 2,
+      "explanation": "The corpus luteum persists and continues progesterone secretion. hCG acts like LH and prevents luteal degeneration in early pregnancy."
+    },
+    {
+      "id": "reproduction-hcg-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: early trophoblast cells secrete human chorionic gonadotropin?",
+      "options": [
+        "The endometrium stays thick and uterine contractions are restrained — The steroid maintains secretory uterine tissue suitable for implantation",
+        "Relatively deoxygenated blood and wastes reach the exchange surface — The arteries carry blood away from the fetal heart despite their unusual oxygen content",
+        "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing — Large area, short distance and maintained concentration gradients favour diffusion and transport",
+        "The corpus luteum persists and continues progesterone secretion — hCG acts like LH and prevents luteal degeneration in early pregnancy"
+      ],
+      "answer": 3,
+      "explanation": "The corpus luteum persists and continues progesterone secretion. hCG acts like LH and prevents luteal degeneration in early pregnancy."
+    },
+    {
+      "id": "reproduction-progesterone-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Progesterone remains high after ovulation?",
+      "options": [
+        "The endometrium stays thick and uterine contractions are restrained",
+        "Relatively deoxygenated blood and wastes reach the exchange surface",
+        "Oxytocin release and uterine contractions intensify",
+        "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing"
+      ],
+      "answer": 0,
+      "explanation": "The endometrium stays thick and uterine contractions are restrained. The steroid maintains secretory uterine tissue suitable for implantation."
+    },
+    {
+      "id": "reproduction-progesterone-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: the endometrium stays thick and uterine contractions are restrained?",
+      "options": [
+        "Maternal and fetal blood flow closely on opposite sides of thin placental villi",
+        "Progesterone remains high after ovulation",
+        "Fetal blood travels through umbilical arteries toward the placenta",
+        "The fetal head stretches the cervix during labour"
+      ],
+      "answer": 1,
+      "explanation": "The endometrium stays thick and uterine contractions are restrained. The steroid maintains secretory uterine tissue suitable for implantation."
+    },
+    {
+      "id": "reproduction-progesterone-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After progesterone remains high after ovulation, which explanation best links the change to its outcome?",
+      "options": [
+        "Large area, short distance and maintained concentration gradients favour diffusion and transport",
+        "The arteries carry blood away from the fetal heart despite their unusual oxygen content",
+        "The steroid maintains secretory uterine tissue suitable for implantation",
+        "A positive-feedback loop increases cervical stretch until delivery"
+      ],
+      "answer": 2,
+      "explanation": "The endometrium stays thick and uterine contractions are restrained. The steroid maintains secretory uterine tissue suitable for implantation."
+    },
+    {
+      "id": "reproduction-progesterone-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: progesterone remains high after ovulation?",
+      "options": [
+        "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing — Large area, short distance and maintained concentration gradients favour diffusion and transport",
+        "Relatively deoxygenated blood and wastes reach the exchange surface — The arteries carry blood away from the fetal heart despite their unusual oxygen content",
+        "Oxytocin release and uterine contractions intensify — A positive-feedback loop increases cervical stretch until delivery",
+        "The endometrium stays thick and uterine contractions are restrained — The steroid maintains secretory uterine tissue suitable for implantation"
+      ],
+      "answer": 3,
+      "explanation": "The endometrium stays thick and uterine contractions are restrained. The steroid maintains secretory uterine tissue suitable for implantation."
+    },
+    {
+      "id": "reproduction-placenta-exchange-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Maternal and fetal blood flow closely on opposite sides of thin placental villi. Which outcome follows most directly?",
+      "options": [
+        "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing",
+        "Relatively deoxygenated blood and wastes reach the exchange surface",
+        "Oxytocin release and uterine contractions intensify",
+        "Prolactin secretion supports milk production"
+      ],
+      "answer": 0,
+      "explanation": "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing. Large area, short distance and maintained concentration gradients favour diffusion and transport."
+    },
+    {
+      "id": "reproduction-placenta-exchange-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: gases, nutrients and wastes exchange efficiently without normal direct blood mixing?",
+      "options": [
+        "Fetal blood travels through umbilical arteries toward the placenta",
+        "Maternal and fetal blood flow closely on opposite sides of thin placental villi",
+        "The fetal head stretches the cervix during labour",
+        "Suckling stimulates sensory pathways after birth"
+      ],
+      "answer": 1,
+      "explanation": "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing. Large area, short distance and maintained concentration gradients favour diffusion and transport."
+    },
+    {
+      "id": "reproduction-placenta-exchange-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After maternal and fetal blood flow closely on opposite sides of thin placental villi, which explanation best links the change to its outcome?",
+      "options": [
+        "The arteries carry blood away from the fetal heart despite their unusual oxygen content",
+        "A positive-feedback loop increases cervical stretch until delivery",
+        "Large area, short distance and maintained concentration gradients favour diffusion and transport",
+        "Reduced hypothalamic dopamine permits anterior-pituitary prolactin release"
+      ],
+      "answer": 2,
+      "explanation": "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing. Large area, short distance and maintained concentration gradients favour diffusion and transport."
+    },
+    {
+      "id": "reproduction-placenta-exchange-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: maternal and fetal blood flow closely on opposite sides of thin placental villi?",
+      "options": [
+        "Relatively deoxygenated blood and wastes reach the exchange surface — The arteries carry blood away from the fetal heart despite their unusual oxygen content",
+        "Oxytocin release and uterine contractions intensify — A positive-feedback loop increases cervical stretch until delivery",
+        "Prolactin secretion supports milk production — Reduced hypothalamic dopamine permits anterior-pituitary prolactin release",
+        "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing — Large area, short distance and maintained concentration gradients favour diffusion and transport"
+      ],
+      "answer": 3,
+      "explanation": "Gases, nutrients and wastes exchange efficiently without normal direct blood mixing. Large area, short distance and maintained concentration gradients favour diffusion and transport."
+    },
+    {
+      "id": "reproduction-umbilical-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After fetal blood travels through umbilical arteries toward the placenta, which observation is most likely?",
+      "options": [
+        "Relatively deoxygenated blood and wastes reach the exchange surface",
+        "Oxytocin release and uterine contractions intensify",
+        "Prolactin secretion supports milk production",
+        "FSH and LH peaks are suppressed and ovulation is unlikely"
+      ],
+      "answer": 0,
+      "explanation": "Relatively deoxygenated blood and wastes reach the exchange surface. The arteries carry blood away from the fetal heart despite their unusual oxygen content."
+    },
+    {
+      "id": "reproduction-umbilical-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "A learner records that relatively deoxygenated blood and wastes reach the exchange surface. Which preceding event best accounts for it?",
+      "options": [
+        "The fetal head stretches the cervix during labour",
+        "Fetal blood travels through umbilical arteries toward the placenta",
+        "Suckling stimulates sensory pathways after birth",
+        "Steady synthetic oestrogen and progestogen provide negative feedback"
+      ],
+      "answer": 1,
+      "explanation": "Relatively deoxygenated blood and wastes reach the exchange surface. The arteries carry blood away from the fetal heart despite their unusual oxygen content."
+    },
+    {
+      "id": "reproduction-umbilical-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After fetal blood travels through umbilical arteries toward the placenta, which explanation best links the change to its outcome?",
+      "options": [
+        "A positive-feedback loop increases cervical stretch until delivery",
+        "Reduced hypothalamic dopamine permits anterior-pituitary prolactin release",
+        "The arteries carry blood away from the fetal heart despite their unusual oxygen content",
+        "Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge"
+      ],
+      "answer": 2,
+      "explanation": "Relatively deoxygenated blood and wastes reach the exchange surface. The arteries carry blood away from the fetal heart despite their unusual oxygen content."
+    },
+    {
+      "id": "reproduction-umbilical-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: fetal blood travels through umbilical arteries toward the placenta?",
+      "options": [
+        "FSH and LH peaks are suppressed and ovulation is unlikely — Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge",
+        "Oxytocin release and uterine contractions intensify — A positive-feedback loop increases cervical stretch until delivery",
+        "Prolactin secretion supports milk production — Reduced hypothalamic dopamine permits anterior-pituitary prolactin release",
+        "Relatively deoxygenated blood and wastes reach the exchange surface — The arteries carry blood away from the fetal heart despite their unusual oxygen content"
+      ],
+      "answer": 3,
+      "explanation": "Relatively deoxygenated blood and wastes reach the exchange surface. The arteries carry blood away from the fetal heart despite their unusual oxygen content."
+    },
+    {
+      "id": "reproduction-oxytocin-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "A student models this change: The fetal head stretches the cervix during labour. What should the model predict first?",
+      "options": [
+        "Oxytocin release and uterine contractions intensify",
+        "FSH and LH peaks are suppressed and ovulation is unlikely",
+        "Prolactin secretion supports milk production",
+        "Semen contains almost no sperm but testosterone production continues"
+      ],
+      "answer": 0,
+      "explanation": "Oxytocin release and uterine contractions intensify. A positive-feedback loop increases cervical stretch until delivery."
+    },
+    {
+      "id": "reproduction-oxytocin-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when oxytocin release and uterine contractions intensify?",
+      "options": [
+        "Suckling stimulates sensory pathways after birth",
+        "The fetal head stretches the cervix during labour",
+        "Both vas deferens are cut and sealed",
+        "Steady synthetic oestrogen and progestogen provide negative feedback"
+      ],
+      "answer": 1,
+      "explanation": "Oxytocin release and uterine contractions intensify. A positive-feedback loop increases cervical stretch until delivery."
+    },
+    {
+      "id": "reproduction-oxytocin-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After the fetal head stretches the cervix during labour, which explanation best links the change to its outcome?",
+      "options": [
+        "Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge",
+        "Reduced hypothalamic dopamine permits anterior-pituitary prolactin release",
+        "A positive-feedback loop increases cervical stretch until delivery",
+        "Sperm transport is interrupted without removing endocrine tissue in the testes"
+      ],
+      "answer": 2,
+      "explanation": "Oxytocin release and uterine contractions intensify. A positive-feedback loop increases cervical stretch until delivery."
+    },
+    {
+      "id": "reproduction-oxytocin-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the fetal head stretches the cervix during labour?",
+      "options": [
+        "Prolactin secretion supports milk production — Reduced hypothalamic dopamine permits anterior-pituitary prolactin release",
+        "Semen contains almost no sperm but testosterone production continues — Sperm transport is interrupted without removing endocrine tissue in the testes",
+        "FSH and LH peaks are suppressed and ovulation is unlikely — Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge",
+        "Oxytocin release and uterine contractions intensify — A positive-feedback loop increases cervical stretch until delivery"
+      ],
+      "answer": 3,
+      "explanation": "Oxytocin release and uterine contractions intensify. A positive-feedback loop increases cervical stretch until delivery."
+    },
+    {
+      "id": "reproduction-prolactin-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Suckling stimulates sensory pathways after birth?",
+      "options": [
+        "Prolactin secretion supports milk production",
+        "Semen contains almost no sperm but testosterone production continues",
+        "A dangerous ectopic pregnancy may rupture maternal tissue",
+        "FSH and LH peaks are suppressed and ovulation is unlikely"
+      ],
+      "answer": 0,
+      "explanation": "Prolactin secretion supports milk production. Reduced hypothalamic dopamine permits anterior-pituitary prolactin release."
+    },
+    {
+      "id": "reproduction-prolactin-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: prolactin secretion supports milk production?",
+      "options": [
+        "Steady synthetic oestrogen and progestogen provide negative feedback",
+        "Suckling stimulates sensory pathways after birth",
+        "Both vas deferens are cut and sealed",
+        "An embryo implants in an oviduct rather than the uterus"
+      ],
+      "answer": 1,
+      "explanation": "Prolactin secretion supports milk production. Reduced hypothalamic dopamine permits anterior-pituitary prolactin release."
+    },
+    {
+      "id": "reproduction-prolactin-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After suckling stimulates sensory pathways after birth, which explanation best links the change to its outcome?",
+      "options": [
+        "Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge",
+        "Sperm transport is interrupted without removing endocrine tissue in the testes",
+        "Reduced hypothalamic dopamine permits anterior-pituitary prolactin release",
+        "The narrow tube cannot safely support placental invasion and fetal growth"
+      ],
+      "answer": 2,
+      "explanation": "Prolactin secretion supports milk production. Reduced hypothalamic dopamine permits anterior-pituitary prolactin release."
+    },
+    {
+      "id": "reproduction-prolactin-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: suckling stimulates sensory pathways after birth?",
+      "options": [
+        "FSH and LH peaks are suppressed and ovulation is unlikely — Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge",
+        "Semen contains almost no sperm but testosterone production continues — Sperm transport is interrupted without removing endocrine tissue in the testes",
+        "A dangerous ectopic pregnancy may rupture maternal tissue — The narrow tube cannot safely support placental invasion and fetal growth",
+        "Prolactin secretion supports milk production — Reduced hypothalamic dopamine permits anterior-pituitary prolactin release"
+      ],
+      "answer": 3,
+      "explanation": "Prolactin secretion supports milk production. Reduced hypothalamic dopamine permits anterior-pituitary prolactin release."
+    },
+    {
+      "id": "reproduction-contraceptive-pill-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Steady synthetic oestrogen and progestogen provide negative feedback. Which outcome follows most directly?",
+      "options": [
+        "FSH and LH peaks are suppressed and ovulation is unlikely",
+        "Semen contains almost no sperm but testosterone production continues",
+        "A dangerous ectopic pregnancy may rupture maternal tissue",
+        "All resulting gametes have an abnormal chromosome number"
+      ],
+      "answer": 0,
+      "explanation": "FSH and LH peaks are suppressed and ovulation is unlikely. Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge."
+    },
+    {
+      "id": "reproduction-contraceptive-pill-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: FSH and LH peaks are suppressed and ovulation is unlikely?",
+      "options": [
+        "Both vas deferens are cut and sealed",
+        "Steady synthetic oestrogen and progestogen provide negative feedback",
+        "An embryo implants in an oviduct rather than the uterus",
+        "Homologous chromosomes fail to separate during meiosis I"
+      ],
+      "answer": 1,
+      "explanation": "FSH and LH peaks are suppressed and ovulation is unlikely. Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge."
+    },
+    {
+      "id": "reproduction-contraceptive-pill-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After steady synthetic oestrogen and progestogen provide negative feedback, which explanation best links the change to its outcome?",
+      "options": [
+        "Sperm transport is interrupted without removing endocrine tissue in the testes",
+        "The narrow tube cannot safely support placental invasion and fetal growth",
+        "Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge",
+        "Both homologues enter one daughter cell and neither enters the other"
+      ],
+      "answer": 2,
+      "explanation": "FSH and LH peaks are suppressed and ovulation is unlikely. Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge."
+    },
+    {
+      "id": "reproduction-contraceptive-pill-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: steady synthetic oestrogen and progestogen provide negative feedback?",
+      "options": [
+        "Semen contains almost no sperm but testosterone production continues — Sperm transport is interrupted without removing endocrine tissue in the testes",
+        "A dangerous ectopic pregnancy may rupture maternal tissue — The narrow tube cannot safely support placental invasion and fetal growth",
+        "All resulting gametes have an abnormal chromosome number — Both homologues enter one daughter cell and neither enters the other",
+        "FSH and LH peaks are suppressed and ovulation is unlikely — Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge"
+      ],
+      "answer": 3,
+      "explanation": "FSH and LH peaks are suppressed and ovulation is unlikely. Pituitary gonadotropin release remains too low for dominant-follicle maturation and an LH surge."
+    },
+    {
+      "id": "reproduction-vasectomy-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After both vas deferens are cut and sealed, which observation is most likely?",
+      "options": [
+        "Semen contains almost no sperm but testosterone production continues",
+        "A dangerous ectopic pregnancy may rupture maternal tissue",
+        "All resulting gametes have an abnormal chromosome number",
+        "Maternal IgG may destroy fetal red blood cells"
+      ],
+      "answer": 0,
+      "explanation": "Semen contains almost no sperm but testosterone production continues. Sperm transport is interrupted without removing endocrine tissue in the testes."
+    },
+    {
+      "id": "reproduction-vasectomy-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "A learner records that semen contains almost no sperm but testosterone production continues. Which preceding event best accounts for it?",
+      "options": [
+        "An embryo implants in an oviduct rather than the uterus",
+        "Both vas deferens are cut and sealed",
+        "Homologous chromosomes fail to separate during meiosis I",
+        "An Rh-negative sensitized mother carries an Rh-positive fetus"
+      ],
+      "answer": 1,
+      "explanation": "Semen contains almost no sperm but testosterone production continues. Sperm transport is interrupted without removing endocrine tissue in the testes."
+    },
+    {
+      "id": "reproduction-vasectomy-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "After both vas deferens are cut and sealed, which explanation best links the change to its outcome?",
+      "options": [
+        "The narrow tube cannot safely support placental invasion and fetal growth",
+        "Both homologues enter one daughter cell and neither enters the other",
+        "Sperm transport is interrupted without removing endocrine tissue in the testes",
+        "Memory cells rapidly produce placental-crossing anti-Rh antibodies"
+      ],
+      "answer": 2,
+      "explanation": "Semen contains almost no sperm but testosterone production continues. Sperm transport is interrupted without removing endocrine tissue in the testes."
+    },
+    {
+      "id": "reproduction-vasectomy-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: both vas deferens are cut and sealed?",
+      "options": [
+        "Maternal IgG may destroy fetal red blood cells — Memory cells rapidly produce placental-crossing anti-Rh antibodies",
+        "A dangerous ectopic pregnancy may rupture maternal tissue — The narrow tube cannot safely support placental invasion and fetal growth",
+        "All resulting gametes have an abnormal chromosome number — Both homologues enter one daughter cell and neither enters the other",
+        "Semen contains almost no sperm but testosterone production continues — Sperm transport is interrupted without removing endocrine tissue in the testes"
+      ],
+      "answer": 3,
+      "explanation": "Semen contains almost no sperm but testosterone production continues. Sperm transport is interrupted without removing endocrine tissue in the testes."
+    },
+    {
+      "id": "reproduction-ectopic-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: An embryo implants in an oviduct rather than the uterus. What should the model predict first?",
+      "options": [
+        "A dangerous ectopic pregnancy may rupture maternal tissue",
+        "Maternal IgG may destroy fetal red blood cells",
+        "All resulting gametes have an abnormal chromosome number",
+        "Fertilization can bypass some causes of tubal or male-factor infertility"
+      ],
+      "answer": 0,
+      "explanation": "A dangerous ectopic pregnancy may rupture maternal tissue. The narrow tube cannot safely support placental invasion and fetal growth."
+    },
+    {
+      "id": "reproduction-ectopic-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when a dangerous ectopic pregnancy may rupture maternal tissue?",
+      "options": [
+        "Homologous chromosomes fail to separate during meiosis I",
+        "An embryo implants in an oviduct rather than the uterus",
+        "Eggs are fertilized with sperm in a laboratory and an embryo is transferred",
+        "An Rh-negative sensitized mother carries an Rh-positive fetus"
+      ],
+      "answer": 1,
+      "explanation": "A dangerous ectopic pregnancy may rupture maternal tissue. The narrow tube cannot safely support placental invasion and fetal growth."
+    },
+    {
+      "id": "reproduction-ectopic-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "After an embryo implants in an oviduct rather than the uterus, which explanation best links the change to its outcome?",
+      "options": [
+        "Memory cells rapidly produce placental-crossing anti-Rh antibodies",
+        "Both homologues enter one daughter cell and neither enters the other",
+        "The narrow tube cannot safely support placental invasion and fetal growth",
+        "Gametes are brought together under controlled conditions before uterine placement"
+      ],
+      "answer": 2,
+      "explanation": "A dangerous ectopic pregnancy may rupture maternal tissue. The narrow tube cannot safely support placental invasion and fetal growth."
+    },
+    {
+      "id": "reproduction-ectopic-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an embryo implants in an oviduct rather than the uterus?",
+      "options": [
+        "All resulting gametes have an abnormal chromosome number — Both homologues enter one daughter cell and neither enters the other",
+        "Fertilization can bypass some causes of tubal or male-factor infertility — Gametes are brought together under controlled conditions before uterine placement",
+        "Maternal IgG may destroy fetal red blood cells — Memory cells rapidly produce placental-crossing anti-Rh antibodies",
+        "A dangerous ectopic pregnancy may rupture maternal tissue — The narrow tube cannot safely support placental invasion and fetal growth"
+      ],
+      "answer": 3,
+      "explanation": "A dangerous ectopic pregnancy may rupture maternal tissue. The narrow tube cannot safely support placental invasion and fetal growth."
+    },
+    {
+      "id": "reproduction-nondisjunction-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Homologous chromosomes fail to separate during meiosis I?",
+      "options": [
+        "All resulting gametes have an abnormal chromosome number",
+        "Fertilization can bypass some causes of tubal or male-factor infertility",
+        "Oestrogen falls while FSH and LH become persistently high",
+        "Maternal IgG may destroy fetal red blood cells"
+      ],
+      "answer": 0,
+      "explanation": "All resulting gametes have an abnormal chromosome number. Both homologues enter one daughter cell and neither enters the other."
+    },
+    {
+      "id": "reproduction-nondisjunction-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: all resulting gametes have an abnormal chromosome number?",
+      "options": [
+        "An Rh-negative sensitized mother carries an Rh-positive fetus",
+        "Homologous chromosomes fail to separate during meiosis I",
+        "Eggs are fertilized with sperm in a laboratory and an embryo is transferred",
+        "Ovarian follicles are largely depleted"
+      ],
+      "answer": 1,
+      "explanation": "All resulting gametes have an abnormal chromosome number. Both homologues enter one daughter cell and neither enters the other."
+    },
+    {
+      "id": "reproduction-nondisjunction-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "After homologous chromosomes fail to separate during meiosis I, which explanation best links the change to its outcome?",
+      "options": [
+        "Memory cells rapidly produce placental-crossing anti-Rh antibodies",
+        "Gametes are brought together under controlled conditions before uterine placement",
+        "Both homologues enter one daughter cell and neither enters the other",
+        "Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary"
+      ],
+      "answer": 2,
+      "explanation": "All resulting gametes have an abnormal chromosome number. Both homologues enter one daughter cell and neither enters the other."
+    },
+    {
+      "id": "reproduction-nondisjunction-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: homologous chromosomes fail to separate during meiosis I?",
+      "options": [
+        "Maternal IgG may destroy fetal red blood cells — Memory cells rapidly produce placental-crossing anti-Rh antibodies",
+        "Fertilization can bypass some causes of tubal or male-factor infertility — Gametes are brought together under controlled conditions before uterine placement",
+        "Oestrogen falls while FSH and LH become persistently high — Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary",
+        "All resulting gametes have an abnormal chromosome number — Both homologues enter one daughter cell and neither enters the other"
+      ],
+      "answer": 3,
+      "explanation": "All resulting gametes have an abnormal chromosome number. Both homologues enter one daughter cell and neither enters the other."
+    },
+    {
+      "id": "reproduction-rh-disease-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "An Rh-negative sensitized mother carries an Rh-positive fetus. Which outcome follows most directly?",
+      "options": [
+        "Maternal IgG may destroy fetal red blood cells",
+        "Fertilization can bypass some causes of tubal or male-factor infertility",
+        "Oestrogen falls while FSH and LH become persistently high",
+        "Monozygotic twins with nearly identical nuclear genotypes form"
+      ],
+      "answer": 0,
+      "explanation": "Maternal IgG may destroy fetal red blood cells. Memory cells rapidly produce placental-crossing anti-Rh antibodies."
+    },
+    {
+      "id": "reproduction-rh-disease-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: maternal IgG may destroy fetal red blood cells?",
+      "options": [
+        "Eggs are fertilized with sperm in a laboratory and an embryo is transferred",
+        "An Rh-negative sensitized mother carries an Rh-positive fetus",
+        "Ovarian follicles are largely depleted",
+        "One early embryo splits into two developing individuals"
+      ],
+      "answer": 1,
+      "explanation": "Maternal IgG may destroy fetal red blood cells. Memory cells rapidly produce placental-crossing anti-Rh antibodies."
+    },
+    {
+      "id": "reproduction-rh-disease-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "After an Rh-negative sensitized mother carries an Rh-positive fetus, which explanation best links the change to its outcome?",
+      "options": [
+        "Gametes are brought together under controlled conditions before uterine placement",
+        "Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary",
+        "Memory cells rapidly produce placental-crossing anti-Rh antibodies",
+        "Both individuals originate from the same fertilized egg rather than two separate eggs"
+      ],
+      "answer": 2,
+      "explanation": "Maternal IgG may destroy fetal red blood cells. Memory cells rapidly produce placental-crossing anti-Rh antibodies."
+    },
+    {
+      "id": "reproduction-rh-disease-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an Rh-negative sensitized mother carries an Rh-positive fetus?",
+      "options": [
+        "Fertilization can bypass some causes of tubal or male-factor infertility — Gametes are brought together under controlled conditions before uterine placement",
+        "Oestrogen falls while FSH and LH become persistently high — Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary",
+        "Monozygotic twins with nearly identical nuclear genotypes form — Both individuals originate from the same fertilized egg rather than two separate eggs",
+        "Maternal IgG may destroy fetal red blood cells — Memory cells rapidly produce placental-crossing anti-Rh antibodies"
+      ],
+      "answer": 3,
+      "explanation": "Maternal IgG may destroy fetal red blood cells. Memory cells rapidly produce placental-crossing anti-Rh antibodies."
+    },
+    {
+      "id": "reproduction-ivf-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "After eggs are fertilized with sperm in a laboratory and an embryo is transferred, which observation is most likely?",
+      "options": [
+        "Fertilization can bypass some causes of tubal or male-factor infertility",
+        "Oestrogen falls while FSH and LH become persistently high",
+        "Monozygotic twins with nearly identical nuclear genotypes form",
+        "Haploid cells with varied allele combinations are produced"
+      ],
+      "answer": 0,
+      "explanation": "Fertilization can bypass some causes of tubal or male-factor infertility. Gametes are brought together under controlled conditions before uterine placement."
+    },
+    {
+      "id": "reproduction-ivf-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "A learner records that fertilization can bypass some causes of tubal or male-factor infertility. Which preceding event best accounts for it?",
+      "options": [
+        "Ovarian follicles are largely depleted",
+        "Eggs are fertilized with sperm in a laboratory and an embryo is transferred",
+        "One early embryo splits into two developing individuals",
+        "A diploid germ cell completes meiosis"
+      ],
+      "answer": 1,
+      "explanation": "Fertilization can bypass some causes of tubal or male-factor infertility. Gametes are brought together under controlled conditions before uterine placement."
+    },
+    {
+      "id": "reproduction-ivf-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "After eggs are fertilized with sperm in a laboratory and an embryo is transferred, which explanation best links the change to its outcome?",
+      "options": [
+        "Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary",
+        "Both individuals originate from the same fertilized egg rather than two separate eggs",
+        "Gametes are brought together under controlled conditions before uterine placement",
+        "Two divisions follow one DNA replication, with crossing over and independent assortment"
+      ],
+      "answer": 2,
+      "explanation": "Fertilization can bypass some causes of tubal or male-factor infertility. Gametes are brought together under controlled conditions before uterine placement."
+    },
+    {
+      "id": "reproduction-ivf-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: eggs are fertilized with sperm in a laboratory and an embryo is transferred?",
+      "options": [
+        "Haploid cells with varied allele combinations are produced — Two divisions follow one DNA replication, with crossing over and independent assortment",
+        "Oestrogen falls while FSH and LH become persistently high — Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary",
+        "Monozygotic twins with nearly identical nuclear genotypes form — Both individuals originate from the same fertilized egg rather than two separate eggs",
+        "Fertilization can bypass some causes of tubal or male-factor infertility — Gametes are brought together under controlled conditions before uterine placement"
+      ],
+      "answer": 3,
+      "explanation": "Fertilization can bypass some causes of tubal or male-factor infertility. Gametes are brought together under controlled conditions before uterine placement."
+    },
+    {
+      "id": "reproduction-menopause-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Ovarian follicles are largely depleted. What should the model predict first?",
+      "options": [
+        "Oestrogen falls while FSH and LH become persistently high",
+        "Haploid cells with varied allele combinations are produced",
+        "Monozygotic twins with nearly identical nuclear genotypes form",
+        "Testosterone secretion increases"
+      ],
+      "answer": 0,
+      "explanation": "Oestrogen falls while FSH and LH become persistently high. Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary."
+    },
+    {
+      "id": "reproduction-menopause-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when oestrogen falls while FSH and LH become persistently high?",
+      "options": [
+        "One early embryo splits into two developing individuals",
+        "Ovarian follicles are largely depleted",
+        "LH stimulates interstitial cells in the testes",
+        "A diploid germ cell completes meiosis"
+      ],
+      "answer": 1,
+      "explanation": "Oestrogen falls while FSH and LH become persistently high. Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary."
+    },
+    {
+      "id": "reproduction-menopause-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "After ovarian follicles are largely depleted, which explanation best links the change to its outcome?",
+      "options": [
+        "Two divisions follow one DNA replication, with crossing over and independent assortment",
+        "Both individuals originate from the same fertilized egg rather than two separate eggs",
+        "Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary",
+        "LH receptor signalling promotes steroid synthesis in Leydig cells"
+      ],
+      "answer": 2,
+      "explanation": "Oestrogen falls while FSH and LH become persistently high. Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary."
+    },
+    {
+      "id": "reproduction-menopause-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: ovarian follicles are largely depleted?",
+      "options": [
+        "Monozygotic twins with nearly identical nuclear genotypes form — Both individuals originate from the same fertilized egg rather than two separate eggs",
+        "Testosterone secretion increases — LH receptor signalling promotes steroid synthesis in Leydig cells",
+        "Haploid cells with varied allele combinations are produced — Two divisions follow one DNA replication, with crossing over and independent assortment",
+        "Oestrogen falls while FSH and LH become persistently high — Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary"
+      ],
+      "answer": 3,
+      "explanation": "Oestrogen falls while FSH and LH become persistently high. Loss of ovarian hormones removes negative feedback from hypothalamus and pituitary."
+    },
+    {
+      "id": "reproduction-twin-types-outcome",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: One early embryo splits into two developing individuals?",
+      "options": [
+        "Monozygotic twins with nearly identical nuclear genotypes form",
+        "Testosterone secretion increases",
+        "Sperm development is supported",
+        "Haploid cells with varied allele combinations are produced"
+      ],
+      "answer": 0,
+      "explanation": "Monozygotic twins with nearly identical nuclear genotypes form. Both individuals originate from the same fertilized egg rather than two separate eggs."
+    },
+    {
+      "id": "reproduction-twin-types-cause",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: monozygotic twins with nearly identical nuclear genotypes form?",
+      "options": [
+        "A diploid germ cell completes meiosis",
+        "One early embryo splits into two developing individuals",
+        "LH stimulates interstitial cells in the testes",
+        "FSH and testosterone act on seminiferous tubules"
+      ],
+      "answer": 1,
+      "explanation": "Monozygotic twins with nearly identical nuclear genotypes form. Both individuals originate from the same fertilized egg rather than two separate eggs."
+    },
+    {
+      "id": "reproduction-twin-types-mechanism",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "After one early embryo splits into two developing individuals, which explanation best links the change to its outcome?",
+      "options": [
+        "Two divisions follow one DNA replication, with crossing over and independent assortment",
+        "LH receptor signalling promotes steroid synthesis in Leydig cells",
+        "Both individuals originate from the same fertilized egg rather than two separate eggs",
+        "Sertoli cells respond by nurturing germ cells and regulating spermatogenesis"
+      ],
+      "answer": 2,
+      "explanation": "Monozygotic twins with nearly identical nuclear genotypes form. Both individuals originate from the same fertilized egg rather than two separate eggs."
+    },
+    {
+      "id": "reproduction-twin-types-integrated",
+      "chapter": "Reproduction",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: one early embryo splits into two developing individuals?",
+      "options": [
+        "Haploid cells with varied allele combinations are produced — Two divisions follow one DNA replication, with crossing over and independent assortment",
+        "Testosterone secretion increases — LH receptor signalling promotes steroid synthesis in Leydig cells",
+        "Sperm development is supported — Sertoli cells respond by nurturing germ cells and regulating spermatogenesis",
+        "Monozygotic twins with nearly identical nuclear genotypes form — Both individuals originate from the same fertilized egg rather than two separate eggs"
+      ],
+      "answer": 3,
+      "explanation": "Monozygotic twins with nearly identical nuclear genotypes form. Both individuals originate from the same fertilized egg rather than two separate eggs."
+    }
+  ]
+}

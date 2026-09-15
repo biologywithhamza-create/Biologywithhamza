@@ -30,7 +30,7 @@ export default function ResourcesPage() {
         "@type": "ListItem",
         position: index + 1,
         name: resource.title,
-        url: links.studentDrive,
+        url: resource.href?"https://hamzaramzan.online"+resource.href:links.studentDrive,
       })),
     },
   };

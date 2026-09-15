@@ -1,5 +1,8 @@
 "use client";
 
+import Link from "next/link";
+import {learningChapters} from "../learn/catalogue";
+import {StudyControls} from "../study-controls";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 import { Arrow, PlayIcon } from "../components";
@@ -25,6 +28,7 @@ const chapterRoadmap = [
 ];
 
 export function LessonExplorer() {
+  const [active,setActive]=useState<(typeof videos)[number]|null>(null);
   const [query, setQuery] = useState("");
   const [view, setView] = useState<"All" | "Direct lessons" | "Chapter roadmap">("All");
   const [chapter, setChapter] = useState("All chapters");
@@ -74,10 +78,11 @@ export function LessonExplorer() {
           </label>
         </div>
         <div className="lesson-result-row"><p aria-live="polite">{lessons.length} direct {lessons.length === 1 ? "lesson" : "lessons"} · {roadmap.length} chapter {roadmap.length === 1 ? "route" : "routes"}</p><a href={links.youtube} target="_blank" rel="noreferrer">See every upload on YouTube <Arrow /></a></div>
+{active&&<section className="lesson-player" aria-label="Selected lesson"><div><h2>{active.title}</h2><button onClick={()=>setActive(null)}>Close player ×</button></div><iframe key={active.href} src={"https://www.youtube-nocookie.com/embed/"+new URL(active.href).searchParams.get("v")} title={active.title} allow="encrypted-media; picture-in-picture" allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/><a href={active.href} target="_blank" rel="noreferrer">Open on YouTube ↗</a><StudyControls id={"/videos#"+new URL(active.href).searchParams.get("v")} title={active.title} notes/></section>}
         {showLessons && lessons.length ? (
           <div className="video-library lesson-library-grid">
             {lessons.map((video) => (
-              <a className="library-card" href={video.href} target="_blank" rel="noreferrer" key={video.href}>
+              <button className="library-card" onClick={()=>setActive(video)} key={video.href}>
                 <div className="library-card-image">
                   <Image src={video.image} alt="" width={1280} height={720} sizes="(max-width: 680px) 100vw, (max-width: 1080px) 50vw, 33vw" />
                   <span className="video-play"><PlayIcon /></span>
@@ -85,9 +90,9 @@ export function LessonExplorer() {
                 <div className="library-card-copy">
                   <span>{video.format} · {video.label}</span>
                   <h2>{video.title}</h2>
-                  <p>Watch the complete lesson on YouTube.</p>
+                  <p>Watch the lesson and keep your notes here.</p>
                 </div>
-              </a>
+              </button>
             ))}
           </div>
         ) : showLessons ? <div className="resource-empty"><h3>No direct lesson matches.</h3><p>Use the chapter roadmap or open the complete YouTube playlist.</p></div> : null}
@@ -97,12 +102,12 @@ export function LessonExplorer() {
         <section className="lesson-roadmap" aria-labelledby="lesson-roadmap-title">
           <div>
             <p className="eyebrow">MDCAT playlist roadmap</p>
-            <h2 id="lesson-roadmap-title">Open the full playlist by chapter.</h2>
-            <p>The verified playlist contains the broader lecture sequence. Chapter routes open that collection so students can choose the relevant lesson without relying on guessed video links.</p>
+            <h2 id="lesson-roadmap-title">Keep learning after the video.</h2>
+            <p>Chapter routes connect reading, activities and practice. The three featured lessons can be viewed above; the full playlist remains on YouTube.</p>
           </div>
           <div className="lesson-roadmap-list">
             {roadmap.length ? roadmap.map((item, index) => (
-              <a href={links.playlist} target="_blank" rel="noreferrer" key={item}><span>{String(index + 1).padStart(2, "0")}</span><strong>{item}</strong><Arrow /></a>
+              <Link href={"/learn/"+learningChapters.find(c=>c.title===item)?.slug} key={item}><span>{String(index + 1).padStart(2, "0")}</span><strong>{item}</strong><Arrow /></Link>
             )) : <div className="resource-empty"><h3>No chapter route matches.</h3><p>Clear the search or choose all chapters.</p></div>}
           </div>
         </section>

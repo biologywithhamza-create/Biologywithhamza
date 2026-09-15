@@ -1,0 +1,1408 @@
+{
+  "chapter": "Support & Movement",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "sarcomere-bands",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "During sarcomere shortening, which pattern is expected?",
+      "options": [
+        "I band and H zone narrow while A band remains constant",
+        "A band shortens while I band is constant",
+        "Actin filaments become shorter",
+        "Myosin filaments disappear"
+      ],
+      "answer": 0,
+      "explanation": "Thin filaments slide farther over thick filaments. Their lengths do not change, so the A band stays constant while the I band and H zone narrow."
+    },
+    {
+      "id": "atp-crossbridge-release",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which step of the cross-bridge cycle requires a fresh ATP molecule to bind directly to myosin?",
+      "options": [
+        "Exposure of actin sites by calcium",
+        "Detachment of myosin from actin",
+        "Release of acetylcholine",
+        "Diffusion of calcium from blood"
+      ],
+      "answer": 1,
+      "explanation": "ATP binding lowers myosin's affinity for actin and causes cross-bridge detachment. ATP hydrolysis then re-cocks the myosin head."
+    },
+    {
+      "id": "calcium-troponin",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Calcium initiates skeletal-muscle contraction by binding to:",
+      "options": [
+        "Collagen, shortening tendons",
+        "Myosin, dissolving the thick filament",
+        "Troponin, shifting tropomyosin from actin sites",
+        "ATP synthase, pumping sodium"
+      ],
+      "answer": 2,
+      "explanation": "Calcium binds troponin, altering the troponin–tropomyosin complex and exposing myosin-binding sites on actin."
+    },
+    {
+      "id": "osteoporosis-bone-density",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which change best explains the increased fracture risk in osteoporosis?",
+      "options": [
+        "Excess synovial fluid in every joint",
+        "Complete conversion of bone into cartilage",
+        "Permanent contraction of all skeletal muscles",
+        "Loss of bone mass and deterioration of bone microstructure"
+      ],
+      "answer": 3,
+      "explanation": "Osteoporosis weakens bone through reduced mass and disrupted internal architecture, so ordinary loads are more likely to cause fractures."
+    },
+    {
+      "id": "movement-skeleton-support-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "A rigid internal skeleton is present. Which outcome follows most directly?",
+      "options": [
+        "Soft tissues are supported and vulnerable organs are protected",
+        "Friction and impact damage are reduced",
+        "Excessive or abnormal joint movement is limited",
+        "Force is transmitted to a bone"
+      ],
+      "answer": 0,
+      "explanation": "Soft tissues are supported and vulnerable organs are protected. Bone provides a strong framework that distributes forces and encloses structures."
+    },
+    {
+      "id": "movement-skeleton-support-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: soft tissues are supported and vulnerable organs are protected?",
+      "options": [
+        "Articular cartilage covers the ends of bones at a synovial joint",
+        "A rigid internal skeleton is present",
+        "A ligament connects one bone to another across a joint",
+        "A contracting muscle pulls through its tendon"
+      ],
+      "answer": 1,
+      "explanation": "Soft tissues are supported and vulnerable organs are protected. Bone provides a strong framework that distributes forces and encloses structures."
+    },
+    {
+      "id": "movement-skeleton-support-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "After a rigid internal skeleton is present, which explanation best links the change to its outcome?",
+      "options": [
+        "The smooth resilient tissue spreads load and permits low-friction movement",
+        "Dense collagen fibres resist tensile forces while allowing controlled flexibility",
+        "Bone provides a strong framework that distributes forces and encloses structures",
+        "Parallel collagen fibres connect muscle to periosteum with high tensile strength"
+      ],
+      "answer": 2,
+      "explanation": "Soft tissues are supported and vulnerable organs are protected. Bone provides a strong framework that distributes forces and encloses structures."
+    },
+    {
+      "id": "movement-skeleton-support-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a rigid internal skeleton is present?",
+      "options": [
+        "Friction and impact damage are reduced — The smooth resilient tissue spreads load and permits low-friction movement",
+        "Excessive or abnormal joint movement is limited — Dense collagen fibres resist tensile forces while allowing controlled flexibility",
+        "Force is transmitted to a bone — Parallel collagen fibres connect muscle to periosteum with high tensile strength",
+        "Soft tissues are supported and vulnerable organs are protected — Bone provides a strong framework that distributes forces and encloses structures"
+      ],
+      "answer": 3,
+      "explanation": "Soft tissues are supported and vulnerable organs are protected. Bone provides a strong framework that distributes forces and encloses structures."
+    },
+    {
+      "id": "movement-joint-cartilage-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "After articular cartilage covers the ends of bones at a synovial joint, which observation is most likely?",
+      "options": [
+        "Friction and impact damage are reduced",
+        "Excessive or abnormal joint movement is limited",
+        "Force is transmitted to a bone",
+        "The forearm flexes at the elbow"
+      ],
+      "answer": 0,
+      "explanation": "Friction and impact damage are reduced. The smooth resilient tissue spreads load and permits low-friction movement."
+    },
+    {
+      "id": "movement-joint-cartilage-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "A learner records that friction and impact damage are reduced. Which preceding event best accounts for it?",
+      "options": [
+        "A ligament connects one bone to another across a joint",
+        "Articular cartilage covers the ends of bones at a synovial joint",
+        "A contracting muscle pulls through its tendon",
+        "The biceps contracts while the triceps relaxes"
+      ],
+      "answer": 1,
+      "explanation": "Friction and impact damage are reduced. The smooth resilient tissue spreads load and permits low-friction movement."
+    },
+    {
+      "id": "movement-joint-cartilage-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "After articular cartilage covers the ends of bones at a synovial joint, which explanation best links the change to its outcome?",
+      "options": [
+        "Dense collagen fibres resist tensile forces while allowing controlled flexibility",
+        "Parallel collagen fibres connect muscle to periosteum with high tensile strength",
+        "The smooth resilient tissue spreads load and permits low-friction movement",
+        "Antagonistic muscles pull in opposite directions because muscles cannot actively push"
+      ],
+      "answer": 2,
+      "explanation": "Friction and impact damage are reduced. The smooth resilient tissue spreads load and permits low-friction movement."
+    },
+    {
+      "id": "movement-joint-cartilage-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: articular cartilage covers the ends of bones at a synovial joint?",
+      "options": [
+        "The forearm flexes at the elbow — Antagonistic muscles pull in opposite directions because muscles cannot actively push",
+        "Excessive or abnormal joint movement is limited — Dense collagen fibres resist tensile forces while allowing controlled flexibility",
+        "Force is transmitted to a bone — Parallel collagen fibres connect muscle to periosteum with high tensile strength",
+        "Friction and impact damage are reduced — The smooth resilient tissue spreads load and permits low-friction movement"
+      ],
+      "answer": 3,
+      "explanation": "Friction and impact damage are reduced. The smooth resilient tissue spreads load and permits low-friction movement."
+    },
+    {
+      "id": "movement-ligament-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: A ligament connects one bone to another across a joint. What should the model predict first?",
+      "options": [
+        "Excessive or abnormal joint movement is limited",
+        "The forearm flexes at the elbow",
+        "Force is transmitted to a bone",
+        "Myosin-binding sites on actin become exposed"
+      ],
+      "answer": 0,
+      "explanation": "Excessive or abnormal joint movement is limited. Dense collagen fibres resist tensile forces while allowing controlled flexibility."
+    },
+    {
+      "id": "movement-ligament-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when excessive or abnormal joint movement is limited?",
+      "options": [
+        "A contracting muscle pulls through its tendon",
+        "A ligament connects one bone to another across a joint",
+        "Calcium binds to troponin in a skeletal-muscle fibre",
+        "The biceps contracts while the triceps relaxes"
+      ],
+      "answer": 1,
+      "explanation": "Excessive or abnormal joint movement is limited. Dense collagen fibres resist tensile forces while allowing controlled flexibility."
+    },
+    {
+      "id": "movement-ligament-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "After a ligament connects one bone to another across a joint, which explanation best links the change to its outcome?",
+      "options": [
+        "Antagonistic muscles pull in opposite directions because muscles cannot actively push",
+        "Parallel collagen fibres connect muscle to periosteum with high tensile strength",
+        "Dense collagen fibres resist tensile forces while allowing controlled flexibility",
+        "Troponin changes shape and shifts tropomyosin away from the sites"
+      ],
+      "answer": 2,
+      "explanation": "Excessive or abnormal joint movement is limited. Dense collagen fibres resist tensile forces while allowing controlled flexibility."
+    },
+    {
+      "id": "movement-ligament-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a ligament connects one bone to another across a joint?",
+      "options": [
+        "Force is transmitted to a bone — Parallel collagen fibres connect muscle to periosteum with high tensile strength",
+        "Myosin-binding sites on actin become exposed — Troponin changes shape and shifts tropomyosin away from the sites",
+        "The forearm flexes at the elbow — Antagonistic muscles pull in opposite directions because muscles cannot actively push",
+        "Excessive or abnormal joint movement is limited — Dense collagen fibres resist tensile forces while allowing controlled flexibility"
+      ],
+      "answer": 3,
+      "explanation": "Excessive or abnormal joint movement is limited. Dense collagen fibres resist tensile forces while allowing controlled flexibility."
+    },
+    {
+      "id": "movement-tendon-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: A contracting muscle pulls through its tendon?",
+      "options": [
+        "Force is transmitted to a bone",
+        "Myosin-binding sites on actin become exposed",
+        "Acetylcholine is released and the muscle membrane depolarizes",
+        "The forearm flexes at the elbow"
+      ],
+      "answer": 0,
+      "explanation": "Force is transmitted to a bone. Parallel collagen fibres connect muscle to periosteum with high tensile strength."
+    },
+    {
+      "id": "movement-tendon-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: force is transmitted to a bone?",
+      "options": [
+        "The biceps contracts while the triceps relaxes",
+        "A contracting muscle pulls through its tendon",
+        "Calcium binds to troponin in a skeletal-muscle fibre",
+        "A motor-neuron action potential reaches a neuromuscular junction"
+      ],
+      "answer": 1,
+      "explanation": "Force is transmitted to a bone. Parallel collagen fibres connect muscle to periosteum with high tensile strength."
+    },
+    {
+      "id": "movement-tendon-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "After a contracting muscle pulls through its tendon, which explanation best links the change to its outcome?",
+      "options": [
+        "Antagonistic muscles pull in opposite directions because muscles cannot actively push",
+        "Troponin changes shape and shifts tropomyosin away from the sites",
+        "Parallel collagen fibres connect muscle to periosteum with high tensile strength",
+        "Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate"
+      ],
+      "answer": 2,
+      "explanation": "Force is transmitted to a bone. Parallel collagen fibres connect muscle to periosteum with high tensile strength."
+    },
+    {
+      "id": "movement-tendon-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a contracting muscle pulls through its tendon?",
+      "options": [
+        "The forearm flexes at the elbow — Antagonistic muscles pull in opposite directions because muscles cannot actively push",
+        "Myosin-binding sites on actin become exposed — Troponin changes shape and shifts tropomyosin away from the sites",
+        "Acetylcholine is released and the muscle membrane depolarizes — Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate",
+        "Force is transmitted to a bone — Parallel collagen fibres connect muscle to periosteum with high tensile strength"
+      ],
+      "answer": 3,
+      "explanation": "Force is transmitted to a bone. Parallel collagen fibres connect muscle to periosteum with high tensile strength."
+    },
+    {
+      "id": "movement-antagonistic-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "The biceps contracts while the triceps relaxes. Which outcome follows most directly?",
+      "options": [
+        "The forearm flexes at the elbow",
+        "Myosin-binding sites on actin become exposed",
+        "Acetylcholine is released and the muscle membrane depolarizes",
+        "Calcium is released throughout the muscle fibre nearly simultaneously"
+      ],
+      "answer": 0,
+      "explanation": "The forearm flexes at the elbow. Antagonistic muscles pull in opposite directions because muscles cannot actively push."
+    },
+    {
+      "id": "movement-antagonistic-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: the forearm flexes at the elbow?",
+      "options": [
+        "Calcium binds to troponin in a skeletal-muscle fibre",
+        "The biceps contracts while the triceps relaxes",
+        "A motor-neuron action potential reaches a neuromuscular junction",
+        "An action potential travels down transverse tubules"
+      ],
+      "answer": 1,
+      "explanation": "The forearm flexes at the elbow. Antagonistic muscles pull in opposite directions because muscles cannot actively push."
+    },
+    {
+      "id": "movement-antagonistic-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "After the biceps contracts while the triceps relaxes, which explanation best links the change to its outcome?",
+      "options": [
+        "Troponin changes shape and shifts tropomyosin away from the sites",
+        "Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate",
+        "Antagonistic muscles pull in opposite directions because muscles cannot actively push",
+        "Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels"
+      ],
+      "answer": 2,
+      "explanation": "The forearm flexes at the elbow. Antagonistic muscles pull in opposite directions because muscles cannot actively push."
+    },
+    {
+      "id": "movement-antagonistic-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: the biceps contracts while the triceps relaxes?",
+      "options": [
+        "Myosin-binding sites on actin become exposed — Troponin changes shape and shifts tropomyosin away from the sites",
+        "Acetylcholine is released and the muscle membrane depolarizes — Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate",
+        "Calcium is released throughout the muscle fibre nearly simultaneously — Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels",
+        "The forearm flexes at the elbow — Antagonistic muscles pull in opposite directions because muscles cannot actively push"
+      ],
+      "answer": 3,
+      "explanation": "The forearm flexes at the elbow. Antagonistic muscles pull in opposite directions because muscles cannot actively push."
+    },
+    {
+      "id": "movement-calcium-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "After calcium binds to troponin in a skeletal-muscle fibre, which observation is most likely?",
+      "options": [
+        "Myosin-binding sites on actin become exposed",
+        "Acetylcholine is released and the muscle membrane depolarizes",
+        "Calcium is released throughout the muscle fibre nearly simultaneously",
+        "The head pivots and pulls the thin filament"
+      ],
+      "answer": 0,
+      "explanation": "Myosin-binding sites on actin become exposed. Troponin changes shape and shifts tropomyosin away from the sites."
+    },
+    {
+      "id": "movement-calcium-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "A learner records that myosin-binding sites on actin become exposed. Which preceding event best accounts for it?",
+      "options": [
+        "A motor-neuron action potential reaches a neuromuscular junction",
+        "Calcium binds to troponin in a skeletal-muscle fibre",
+        "An action potential travels down transverse tubules",
+        "A myosin head releases phosphate while attached to actin"
+      ],
+      "answer": 1,
+      "explanation": "Myosin-binding sites on actin become exposed. Troponin changes shape and shifts tropomyosin away from the sites."
+    },
+    {
+      "id": "movement-calcium-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "After calcium binds to troponin in a skeletal-muscle fibre, which explanation best links the change to its outcome?",
+      "options": [
+        "Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate",
+        "Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels",
+        "Troponin changes shape and shifts tropomyosin away from the sites",
+        "Stored energy from ATP hydrolysis drives the cross-bridge power stroke"
+      ],
+      "answer": 2,
+      "explanation": "Myosin-binding sites on actin become exposed. Troponin changes shape and shifts tropomyosin away from the sites."
+    },
+    {
+      "id": "movement-calcium-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: calcium binds to troponin in a skeletal-muscle fibre?",
+      "options": [
+        "The head pivots and pulls the thin filament — Stored energy from ATP hydrolysis drives the cross-bridge power stroke",
+        "Acetylcholine is released and the muscle membrane depolarizes — Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate",
+        "Calcium is released throughout the muscle fibre nearly simultaneously — Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels",
+        "Myosin-binding sites on actin become exposed — Troponin changes shape and shifts tropomyosin away from the sites"
+      ],
+      "answer": 3,
+      "explanation": "Myosin-binding sites on actin become exposed. Troponin changes shape and shifts tropomyosin away from the sites."
+    },
+    {
+      "id": "movement-motor-neuron-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A motor-neuron action potential reaches a neuromuscular junction. What should the model predict first?",
+      "options": [
+        "Acetylcholine is released and the muscle membrane depolarizes",
+        "The head pivots and pulls the thin filament",
+        "Calcium is released throughout the muscle fibre nearly simultaneously",
+        "The cross-bridge detaches"
+      ],
+      "answer": 0,
+      "explanation": "Acetylcholine is released and the muscle membrane depolarizes. Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate."
+    },
+    {
+      "id": "movement-motor-neuron-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when acetylcholine is released and the muscle membrane depolarizes?",
+      "options": [
+        "An action potential travels down transverse tubules",
+        "A motor-neuron action potential reaches a neuromuscular junction",
+        "A fresh ATP molecule binds to an actin-attached myosin head",
+        "A myosin head releases phosphate while attached to actin"
+      ],
+      "answer": 1,
+      "explanation": "Acetylcholine is released and the muscle membrane depolarizes. Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate."
+    },
+    {
+      "id": "movement-motor-neuron-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a motor-neuron action potential reaches a neuromuscular junction, which explanation best links the change to its outcome?",
+      "options": [
+        "Stored energy from ATP hydrolysis drives the cross-bridge power stroke",
+        "Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels",
+        "Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate",
+        "ATP binding lowers myosin's affinity for actin"
+      ],
+      "answer": 2,
+      "explanation": "Acetylcholine is released and the muscle membrane depolarizes. Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate."
+    },
+    {
+      "id": "movement-motor-neuron-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a motor-neuron action potential reaches a neuromuscular junction?",
+      "options": [
+        "Calcium is released throughout the muscle fibre nearly simultaneously — Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels",
+        "The cross-bridge detaches — ATP binding lowers myosin's affinity for actin",
+        "The head pivots and pulls the thin filament — Stored energy from ATP hydrolysis drives the cross-bridge power stroke",
+        "Acetylcholine is released and the muscle membrane depolarizes — Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate"
+      ],
+      "answer": 3,
+      "explanation": "Acetylcholine is released and the muscle membrane depolarizes. Calcium-dependent exocytosis activates nicotinic receptors on the motor end plate."
+    },
+    {
+      "id": "movement-t-tubule-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: An action potential travels down transverse tubules?",
+      "options": [
+        "Calcium is released throughout the muscle fibre nearly simultaneously",
+        "The cross-bridge detaches",
+        "The head returns to a high-energy cocked position",
+        "The head pivots and pulls the thin filament"
+      ],
+      "answer": 0,
+      "explanation": "Calcium is released throughout the muscle fibre nearly simultaneously. Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels."
+    },
+    {
+      "id": "movement-t-tubule-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: calcium is released throughout the muscle fibre nearly simultaneously?",
+      "options": [
+        "A myosin head releases phosphate while attached to actin",
+        "An action potential travels down transverse tubules",
+        "A fresh ATP molecule binds to an actin-attached myosin head",
+        "Myosin hydrolyses bound ATP"
+      ],
+      "answer": 1,
+      "explanation": "Calcium is released throughout the muscle fibre nearly simultaneously. Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels."
+    },
+    {
+      "id": "movement-t-tubule-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After an action potential travels down transverse tubules, which explanation best links the change to its outcome?",
+      "options": [
+        "Stored energy from ATP hydrolysis drives the cross-bridge power stroke",
+        "ATP binding lowers myosin's affinity for actin",
+        "Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels",
+        "Energy from hydrolysis is stored in a conformational change before rebinding"
+      ],
+      "answer": 2,
+      "explanation": "Calcium is released throughout the muscle fibre nearly simultaneously. Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels."
+    },
+    {
+      "id": "movement-t-tubule-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: an action potential travels down transverse tubules?",
+      "options": [
+        "The head pivots and pulls the thin filament — Stored energy from ATP hydrolysis drives the cross-bridge power stroke",
+        "The cross-bridge detaches — ATP binding lowers myosin's affinity for actin",
+        "The head returns to a high-energy cocked position — Energy from hydrolysis is stored in a conformational change before rebinding",
+        "Calcium is released throughout the muscle fibre nearly simultaneously — Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels"
+      ],
+      "answer": 3,
+      "explanation": "Calcium is released throughout the muscle fibre nearly simultaneously. Voltage sensors couple membrane excitation to sarcoplasmic-reticulum calcium channels."
+    },
+    {
+      "id": "movement-power-stroke-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A myosin head releases phosphate while attached to actin. Which outcome follows most directly?",
+      "options": [
+        "The head pivots and pulls the thin filament",
+        "The cross-bridge detaches",
+        "The head returns to a high-energy cocked position",
+        "The sarcomere shortens while filament lengths remain constant"
+      ],
+      "answer": 0,
+      "explanation": "The head pivots and pulls the thin filament. Stored energy from ATP hydrolysis drives the cross-bridge power stroke."
+    },
+    {
+      "id": "movement-power-stroke-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: the head pivots and pulls the thin filament?",
+      "options": [
+        "A fresh ATP molecule binds to an actin-attached myosin head",
+        "A myosin head releases phosphate while attached to actin",
+        "Myosin hydrolyses bound ATP",
+        "Thin filaments slide farther over thick filaments"
+      ],
+      "answer": 1,
+      "explanation": "The head pivots and pulls the thin filament. Stored energy from ATP hydrolysis drives the cross-bridge power stroke."
+    },
+    {
+      "id": "movement-power-stroke-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a myosin head releases phosphate while attached to actin, which explanation best links the change to its outcome?",
+      "options": [
+        "ATP binding lowers myosin's affinity for actin",
+        "Energy from hydrolysis is stored in a conformational change before rebinding",
+        "Stored energy from ATP hydrolysis drives the cross-bridge power stroke",
+        "Repeated cross-bridge cycles pull Z lines toward the centre"
+      ],
+      "answer": 2,
+      "explanation": "The head pivots and pulls the thin filament. Stored energy from ATP hydrolysis drives the cross-bridge power stroke."
+    },
+    {
+      "id": "movement-power-stroke-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a myosin head releases phosphate while attached to actin?",
+      "options": [
+        "The cross-bridge detaches — ATP binding lowers myosin's affinity for actin",
+        "The head returns to a high-energy cocked position — Energy from hydrolysis is stored in a conformational change before rebinding",
+        "The sarcomere shortens while filament lengths remain constant — Repeated cross-bridge cycles pull Z lines toward the centre",
+        "The head pivots and pulls the thin filament — Stored energy from ATP hydrolysis drives the cross-bridge power stroke"
+      ],
+      "answer": 3,
+      "explanation": "The head pivots and pulls the thin filament. Stored energy from ATP hydrolysis drives the cross-bridge power stroke."
+    },
+    {
+      "id": "movement-atp-detach-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a fresh ATP molecule binds to an actin-attached myosin head, which observation is most likely?",
+      "options": [
+        "The cross-bridge detaches",
+        "The head returns to a high-energy cocked position",
+        "The sarcomere shortens while filament lengths remain constant",
+        "The I band and H zone narrow but the A band stays constant"
+      ],
+      "answer": 0,
+      "explanation": "The cross-bridge detaches. ATP binding lowers myosin's affinity for actin."
+    },
+    {
+      "id": "movement-atp-detach-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A learner records that the cross-bridge detaches. Which preceding event best accounts for it?",
+      "options": [
+        "Myosin hydrolyses bound ATP",
+        "A fresh ATP molecule binds to an actin-attached myosin head",
+        "Thin filaments slide farther over thick filaments",
+        "A skeletal-muscle sarcomere contracts"
+      ],
+      "answer": 1,
+      "explanation": "The cross-bridge detaches. ATP binding lowers myosin's affinity for actin."
+    },
+    {
+      "id": "movement-atp-detach-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a fresh ATP molecule binds to an actin-attached myosin head, which explanation best links the change to its outcome?",
+      "options": [
+        "Energy from hydrolysis is stored in a conformational change before rebinding",
+        "Repeated cross-bridge cycles pull Z lines toward the centre",
+        "ATP binding lowers myosin's affinity for actin",
+        "Overlap changes while the length of the thick filament does not"
+      ],
+      "answer": 2,
+      "explanation": "The cross-bridge detaches. ATP binding lowers myosin's affinity for actin."
+    },
+    {
+      "id": "movement-atp-detach-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a fresh ATP molecule binds to an actin-attached myosin head?",
+      "options": [
+        "The I band and H zone narrow but the A band stays constant — Overlap changes while the length of the thick filament does not",
+        "The head returns to a high-energy cocked position — Energy from hydrolysis is stored in a conformational change before rebinding",
+        "The sarcomere shortens while filament lengths remain constant — Repeated cross-bridge cycles pull Z lines toward the centre",
+        "The cross-bridge detaches — ATP binding lowers myosin's affinity for actin"
+      ],
+      "answer": 3,
+      "explanation": "The cross-bridge detaches. ATP binding lowers myosin's affinity for actin."
+    },
+    {
+      "id": "movement-atp-recocks-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Myosin hydrolyses bound ATP. What should the model predict first?",
+      "options": [
+        "The head returns to a high-energy cocked position",
+        "The I band and H zone narrow but the A band stays constant",
+        "The sarcomere shortens while filament lengths remain constant",
+        "It resists fatigue during prolonged activity"
+      ],
+      "answer": 0,
+      "explanation": "The head returns to a high-energy cocked position. Energy from hydrolysis is stored in a conformational change before rebinding."
+    },
+    {
+      "id": "movement-atp-recocks-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the head returns to a high-energy cocked position?",
+      "options": [
+        "Thin filaments slide farther over thick filaments",
+        "Myosin hydrolyses bound ATP",
+        "A muscle fibre contains many mitochondria, capillaries and myoglobin",
+        "A skeletal-muscle sarcomere contracts"
+      ],
+      "answer": 1,
+      "explanation": "The head returns to a high-energy cocked position. Energy from hydrolysis is stored in a conformational change before rebinding."
+    },
+    {
+      "id": "movement-atp-recocks-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After myosin hydrolyses bound ATP, which explanation best links the change to its outcome?",
+      "options": [
+        "Overlap changes while the length of the thick filament does not",
+        "Repeated cross-bridge cycles pull Z lines toward the centre",
+        "Energy from hydrolysis is stored in a conformational change before rebinding",
+        "High oxygen delivery and oxidative capacity sustain aerobic ATP production"
+      ],
+      "answer": 2,
+      "explanation": "The head returns to a high-energy cocked position. Energy from hydrolysis is stored in a conformational change before rebinding."
+    },
+    {
+      "id": "movement-atp-recocks-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: myosin hydrolyses bound ATP?",
+      "options": [
+        "The sarcomere shortens while filament lengths remain constant — Repeated cross-bridge cycles pull Z lines toward the centre",
+        "It resists fatigue during prolonged activity — High oxygen delivery and oxidative capacity sustain aerobic ATP production",
+        "The I band and H zone narrow but the A band stays constant — Overlap changes while the length of the thick filament does not",
+        "The head returns to a high-energy cocked position — Energy from hydrolysis is stored in a conformational change before rebinding"
+      ],
+      "answer": 3,
+      "explanation": "The head returns to a high-energy cocked position. Energy from hydrolysis is stored in a conformational change before rebinding."
+    },
+    {
+      "id": "movement-sarcomere-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Thin filaments slide farther over thick filaments?",
+      "options": [
+        "The sarcomere shortens while filament lengths remain constant",
+        "It resists fatigue during prolonged activity",
+        "It produces rapid force but fatigues relatively quickly",
+        "The I band and H zone narrow but the A band stays constant"
+      ],
+      "answer": 0,
+      "explanation": "The sarcomere shortens while filament lengths remain constant. Repeated cross-bridge cycles pull Z lines toward the centre."
+    },
+    {
+      "id": "movement-sarcomere-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: the sarcomere shortens while filament lengths remain constant?",
+      "options": [
+        "A skeletal-muscle sarcomere contracts",
+        "Thin filaments slide farther over thick filaments",
+        "A muscle fibre contains many mitochondria, capillaries and myoglobin",
+        "A fibre has abundant glycogen and powerful glycolytic enzymes"
+      ],
+      "answer": 1,
+      "explanation": "The sarcomere shortens while filament lengths remain constant. Repeated cross-bridge cycles pull Z lines toward the centre."
+    },
+    {
+      "id": "movement-sarcomere-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After thin filaments slide farther over thick filaments, which explanation best links the change to its outcome?",
+      "options": [
+        "Overlap changes while the length of the thick filament does not",
+        "High oxygen delivery and oxidative capacity sustain aerobic ATP production",
+        "Repeated cross-bridge cycles pull Z lines toward the centre",
+        "Anaerobic ATP supply is fast but limited and promotes metabolite accumulation"
+      ],
+      "answer": 2,
+      "explanation": "The sarcomere shortens while filament lengths remain constant. Repeated cross-bridge cycles pull Z lines toward the centre."
+    },
+    {
+      "id": "movement-sarcomere-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: thin filaments slide farther over thick filaments?",
+      "options": [
+        "The I band and H zone narrow but the A band stays constant — Overlap changes while the length of the thick filament does not",
+        "It resists fatigue during prolonged activity — High oxygen delivery and oxidative capacity sustain aerobic ATP production",
+        "It produces rapid force but fatigues relatively quickly — Anaerobic ATP supply is fast but limited and promotes metabolite accumulation",
+        "The sarcomere shortens while filament lengths remain constant — Repeated cross-bridge cycles pull Z lines toward the centre"
+      ],
+      "answer": 3,
+      "explanation": "The sarcomere shortens while filament lengths remain constant. Repeated cross-bridge cycles pull Z lines toward the centre."
+    },
+    {
+      "id": "movement-band-pattern-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A skeletal-muscle sarcomere contracts. Which outcome follows most directly?",
+      "options": [
+        "The I band and H zone narrow but the A band stays constant",
+        "It resists fatigue during prolonged activity",
+        "It produces rapid force but fatigues relatively quickly",
+        "Bone is remodelled along lines of force"
+      ],
+      "answer": 0,
+      "explanation": "The I band and H zone narrow but the A band stays constant. Overlap changes while the length of the thick filament does not."
+    },
+    {
+      "id": "movement-band-pattern-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: the I band and H zone narrow but the A band stays constant?",
+      "options": [
+        "A muscle fibre contains many mitochondria, capillaries and myoglobin",
+        "A skeletal-muscle sarcomere contracts",
+        "A fibre has abundant glycogen and powerful glycolytic enzymes",
+        "Mechanical loading repeatedly stresses healthy bone"
+      ],
+      "answer": 1,
+      "explanation": "The I band and H zone narrow but the A band stays constant. Overlap changes while the length of the thick filament does not."
+    },
+    {
+      "id": "movement-band-pattern-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a skeletal-muscle sarcomere contracts, which explanation best links the change to its outcome?",
+      "options": [
+        "High oxygen delivery and oxidative capacity sustain aerobic ATP production",
+        "Anaerobic ATP supply is fast but limited and promotes metabolite accumulation",
+        "Overlap changes while the length of the thick filament does not",
+        "Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads"
+      ],
+      "answer": 2,
+      "explanation": "The I band and H zone narrow but the A band stays constant. Overlap changes while the length of the thick filament does not."
+    },
+    {
+      "id": "movement-band-pattern-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a skeletal-muscle sarcomere contracts?",
+      "options": [
+        "It resists fatigue during prolonged activity — High oxygen delivery and oxidative capacity sustain aerobic ATP production",
+        "It produces rapid force but fatigues relatively quickly — Anaerobic ATP supply is fast but limited and promotes metabolite accumulation",
+        "Bone is remodelled along lines of force — Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads",
+        "The I band and H zone narrow but the A band stays constant — Overlap changes while the length of the thick filament does not"
+      ],
+      "answer": 3,
+      "explanation": "The I band and H zone narrow but the A band stays constant. Overlap changes while the length of the thick filament does not."
+    },
+    {
+      "id": "movement-slow-fibre-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a muscle fibre contains many mitochondria, capillaries and myoglobin, which observation is most likely?",
+      "options": [
+        "It resists fatigue during prolonged activity",
+        "It produces rapid force but fatigues relatively quickly",
+        "Bone is remodelled along lines of force",
+        "Callus formation and gradual remodelling can restore continuity"
+      ],
+      "answer": 0,
+      "explanation": "It resists fatigue during prolonged activity. High oxygen delivery and oxidative capacity sustain aerobic ATP production."
+    },
+    {
+      "id": "movement-slow-fibre-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A learner records that it resists fatigue during prolonged activity. Which preceding event best accounts for it?",
+      "options": [
+        "A fibre has abundant glycogen and powerful glycolytic enzymes",
+        "A muscle fibre contains many mitochondria, capillaries and myoglobin",
+        "Mechanical loading repeatedly stresses healthy bone",
+        "A broken bone is stabilized with an adequate blood supply"
+      ],
+      "answer": 1,
+      "explanation": "It resists fatigue during prolonged activity. High oxygen delivery and oxidative capacity sustain aerobic ATP production."
+    },
+    {
+      "id": "movement-slow-fibre-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a muscle fibre contains many mitochondria, capillaries and myoglobin, which explanation best links the change to its outcome?",
+      "options": [
+        "Anaerobic ATP supply is fast but limited and promotes metabolite accumulation",
+        "Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads",
+        "High oxygen delivery and oxidative capacity sustain aerobic ATP production",
+        "Inflammation is followed by cartilage, woven bone and then organized lamellar bone"
+      ],
+      "answer": 2,
+      "explanation": "It resists fatigue during prolonged activity. High oxygen delivery and oxidative capacity sustain aerobic ATP production."
+    },
+    {
+      "id": "movement-slow-fibre-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a muscle fibre contains many mitochondria, capillaries and myoglobin?",
+      "options": [
+        "Callus formation and gradual remodelling can restore continuity — Inflammation is followed by cartilage, woven bone and then organized lamellar bone",
+        "It produces rapid force but fatigues relatively quickly — Anaerobic ATP supply is fast but limited and promotes metabolite accumulation",
+        "Bone is remodelled along lines of force — Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads",
+        "It resists fatigue during prolonged activity — High oxygen delivery and oxidative capacity sustain aerobic ATP production"
+      ],
+      "answer": 3,
+      "explanation": "It resists fatigue during prolonged activity. High oxygen delivery and oxidative capacity sustain aerobic ATP production."
+    },
+    {
+      "id": "movement-fast-fibre-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A fibre has abundant glycogen and powerful glycolytic enzymes. What should the model predict first?",
+      "options": [
+        "It produces rapid force but fatigues relatively quickly",
+        "Callus formation and gradual remodelling can restore continuity",
+        "Bone is remodelled along lines of force",
+        "Articular surfaces move with less friction"
+      ],
+      "answer": 0,
+      "explanation": "It produces rapid force but fatigues relatively quickly. Anaerobic ATP supply is fast but limited and promotes metabolite accumulation."
+    },
+    {
+      "id": "movement-fast-fibre-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when it produces rapid force but fatigues relatively quickly?",
+      "options": [
+        "Mechanical loading repeatedly stresses healthy bone",
+        "A fibre has abundant glycogen and powerful glycolytic enzymes",
+        "Synovial membrane secretes lubricating fluid into a joint cavity",
+        "A broken bone is stabilized with an adequate blood supply"
+      ],
+      "answer": 1,
+      "explanation": "It produces rapid force but fatigues relatively quickly. Anaerobic ATP supply is fast but limited and promotes metabolite accumulation."
+    },
+    {
+      "id": "movement-fast-fibre-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a fibre has abundant glycogen and powerful glycolytic enzymes, which explanation best links the change to its outcome?",
+      "options": [
+        "Inflammation is followed by cartilage, woven bone and then organized lamellar bone",
+        "Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads",
+        "Anaerobic ATP supply is fast but limited and promotes metabolite accumulation",
+        "The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage"
+      ],
+      "answer": 2,
+      "explanation": "It produces rapid force but fatigues relatively quickly. Anaerobic ATP supply is fast but limited and promotes metabolite accumulation."
+    },
+    {
+      "id": "movement-fast-fibre-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a fibre has abundant glycogen and powerful glycolytic enzymes?",
+      "options": [
+        "Bone is remodelled along lines of force — Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads",
+        "Articular surfaces move with less friction — The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage",
+        "Callus formation and gradual remodelling can restore continuity — Inflammation is followed by cartilage, woven bone and then organized lamellar bone",
+        "It produces rapid force but fatigues relatively quickly — Anaerobic ATP supply is fast but limited and promotes metabolite accumulation"
+      ],
+      "answer": 3,
+      "explanation": "It produces rapid force but fatigues relatively quickly. Anaerobic ATP supply is fast but limited and promotes metabolite accumulation."
+    },
+    {
+      "id": "movement-bone-remodelling-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Mechanical loading repeatedly stresses healthy bone?",
+      "options": [
+        "Bone is remodelled along lines of force",
+        "Articular surfaces move with less friction",
+        "Actin-myosin cross-bridges remain attached and muscles stiffen",
+        "Callus formation and gradual remodelling can restore continuity"
+      ],
+      "answer": 0,
+      "explanation": "Bone is remodelled along lines of force. Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads."
+    },
+    {
+      "id": "movement-bone-remodelling-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: bone is remodelled along lines of force?",
+      "options": [
+        "A broken bone is stabilized with an adequate blood supply",
+        "Mechanical loading repeatedly stresses healthy bone",
+        "Synovial membrane secretes lubricating fluid into a joint cavity",
+        "ATP production stops after death while calcium remains elevated"
+      ],
+      "answer": 1,
+      "explanation": "Bone is remodelled along lines of force. Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads."
+    },
+    {
+      "id": "movement-bone-remodelling-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After mechanical loading repeatedly stresses healthy bone, which explanation best links the change to its outcome?",
+      "options": [
+        "Inflammation is followed by cartilage, woven bone and then organized lamellar bone",
+        "The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage",
+        "Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads",
+        "Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium"
+      ],
+      "answer": 2,
+      "explanation": "Bone is remodelled along lines of force. Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads."
+    },
+    {
+      "id": "movement-bone-remodelling-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: mechanical loading repeatedly stresses healthy bone?",
+      "options": [
+        "Callus formation and gradual remodelling can restore continuity — Inflammation is followed by cartilage, woven bone and then organized lamellar bone",
+        "Articular surfaces move with less friction — The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage",
+        "Actin-myosin cross-bridges remain attached and muscles stiffen — Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium",
+        "Bone is remodelled along lines of force — Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads"
+      ],
+      "answer": 3,
+      "explanation": "Bone is remodelled along lines of force. Osteoclast resorption and osteoblast deposition adapt architecture to habitual loads."
+    },
+    {
+      "id": "movement-fracture-heal-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A broken bone is stabilized with an adequate blood supply. Which outcome follows most directly?",
+      "options": [
+        "Callus formation and gradual remodelling can restore continuity",
+        "Articular surfaces move with less friction",
+        "Actin-myosin cross-bridges remain attached and muscles stiffen",
+        "Muscle contractions weaken with repeated use"
+      ],
+      "answer": 0,
+      "explanation": "Callus formation and gradual remodelling can restore continuity. Inflammation is followed by cartilage, woven bone and then organized lamellar bone."
+    },
+    {
+      "id": "movement-fracture-heal-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: callus formation and gradual remodelling can restore continuity?",
+      "options": [
+        "Synovial membrane secretes lubricating fluid into a joint cavity",
+        "A broken bone is stabilized with an adequate blood supply",
+        "ATP production stops after death while calcium remains elevated",
+        "Autoantibodies reduce functional acetylcholine receptors at motor end plates"
+      ],
+      "answer": 1,
+      "explanation": "Callus formation and gradual remodelling can restore continuity. Inflammation is followed by cartilage, woven bone and then organized lamellar bone."
+    },
+    {
+      "id": "movement-fracture-heal-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After a broken bone is stabilized with an adequate blood supply, which explanation best links the change to its outcome?",
+      "options": [
+        "The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage",
+        "Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium",
+        "Inflammation is followed by cartilage, woven bone and then organized lamellar bone",
+        "End-plate potentials less reliably reach threshold for muscle action potentials"
+      ],
+      "answer": 2,
+      "explanation": "Callus formation and gradual remodelling can restore continuity. Inflammation is followed by cartilage, woven bone and then organized lamellar bone."
+    },
+    {
+      "id": "movement-fracture-heal-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a broken bone is stabilized with an adequate blood supply?",
+      "options": [
+        "Articular surfaces move with less friction — The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage",
+        "Actin-myosin cross-bridges remain attached and muscles stiffen — Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium",
+        "Muscle contractions weaken with repeated use — End-plate potentials less reliably reach threshold for muscle action potentials",
+        "Callus formation and gradual remodelling can restore continuity — Inflammation is followed by cartilage, woven bone and then organized lamellar bone"
+      ],
+      "answer": 3,
+      "explanation": "Callus formation and gradual remodelling can restore continuity. Inflammation is followed by cartilage, woven bone and then organized lamellar bone."
+    },
+    {
+      "id": "movement-synovial-fluid-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After synovial membrane secretes lubricating fluid into a joint cavity, which observation is most likely?",
+      "options": [
+        "Articular surfaces move with less friction",
+        "Actin-myosin cross-bridges remain attached and muscles stiffen",
+        "Muscle contractions weaken with repeated use",
+        "Individual twitches summate into sustained tension"
+      ],
+      "answer": 0,
+      "explanation": "Articular surfaces move with less friction. The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage."
+    },
+    {
+      "id": "movement-synovial-fluid-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "A learner records that articular surfaces move with less friction. Which preceding event best accounts for it?",
+      "options": [
+        "ATP production stops after death while calcium remains elevated",
+        "Synovial membrane secretes lubricating fluid into a joint cavity",
+        "Autoantibodies reduce functional acetylcholine receptors at motor end plates",
+        "Motor neurons stimulate a muscle repeatedly before it relaxes"
+      ],
+      "answer": 1,
+      "explanation": "Articular surfaces move with less friction. The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage."
+    },
+    {
+      "id": "movement-synovial-fluid-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "After synovial membrane secretes lubricating fluid into a joint cavity, which explanation best links the change to its outcome?",
+      "options": [
+        "Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium",
+        "End-plate potentials less reliably reach threshold for muscle action potentials",
+        "The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage",
+        "Cytosolic calcium remains elevated and additional cross-bridges continue cycling"
+      ],
+      "answer": 2,
+      "explanation": "Articular surfaces move with less friction. The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage."
+    },
+    {
+      "id": "movement-synovial-fluid-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: synovial membrane secretes lubricating fluid into a joint cavity?",
+      "options": [
+        "Individual twitches summate into sustained tension — Cytosolic calcium remains elevated and additional cross-bridges continue cycling",
+        "Actin-myosin cross-bridges remain attached and muscles stiffen — Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium",
+        "Muscle contractions weaken with repeated use — End-plate potentials less reliably reach threshold for muscle action potentials",
+        "Articular surfaces move with less friction — The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage"
+      ],
+      "answer": 3,
+      "explanation": "Articular surfaces move with less friction. The viscous fluid separates cartilage surfaces and supplies nutrients to avascular cartilage."
+    },
+    {
+      "id": "movement-rigor-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: ATP production stops after death while calcium remains elevated. What should the model predict first?",
+      "options": [
+        "Actin-myosin cross-bridges remain attached and muscles stiffen",
+        "Individual twitches summate into sustained tension",
+        "Muscle contractions weaken with repeated use",
+        "Bone mass and structural strength decline"
+      ],
+      "answer": 0,
+      "explanation": "Actin-myosin cross-bridges remain attached and muscles stiffen. Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium."
+    },
+    {
+      "id": "movement-rigor-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when actin-myosin cross-bridges remain attached and muscles stiffen?",
+      "options": [
+        "Autoantibodies reduce functional acetylcholine receptors at motor end plates",
+        "ATP production stops after death while calcium remains elevated",
+        "Bone resorption chronically exceeds bone formation",
+        "Motor neurons stimulate a muscle repeatedly before it relaxes"
+      ],
+      "answer": 1,
+      "explanation": "Actin-myosin cross-bridges remain attached and muscles stiffen. Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium."
+    },
+    {
+      "id": "movement-rigor-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "After ATP production stops after death while calcium remains elevated, which explanation best links the change to its outcome?",
+      "options": [
+        "Cytosolic calcium remains elevated and additional cross-bridges continue cycling",
+        "End-plate potentials less reliably reach threshold for muscle action potentials",
+        "Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium",
+        "Trabeculae thin and cortical porosity rises, increasing fracture risk"
+      ],
+      "answer": 2,
+      "explanation": "Actin-myosin cross-bridges remain attached and muscles stiffen. Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium."
+    },
+    {
+      "id": "movement-rigor-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: ATP production stops after death while calcium remains elevated?",
+      "options": [
+        "Muscle contractions weaken with repeated use — End-plate potentials less reliably reach threshold for muscle action potentials",
+        "Bone mass and structural strength decline — Trabeculae thin and cortical porosity rises, increasing fracture risk",
+        "Individual twitches summate into sustained tension — Cytosolic calcium remains elevated and additional cross-bridges continue cycling",
+        "Actin-myosin cross-bridges remain attached and muscles stiffen — Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium"
+      ],
+      "answer": 3,
+      "explanation": "Actin-myosin cross-bridges remain attached and muscles stiffen. Without ATP, myosin cannot detach and calcium pumps cannot restore low cytosolic calcium."
+    },
+    {
+      "id": "movement-myasthenia-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Autoantibodies reduce functional acetylcholine receptors at motor end plates?",
+      "options": [
+        "Muscle contractions weaken with repeated use",
+        "Bone mass and structural strength decline",
+        "Calcium availability increases through bone, kidney and intestinal effects",
+        "Individual twitches summate into sustained tension"
+      ],
+      "answer": 0,
+      "explanation": "Muscle contractions weaken with repeated use. End-plate potentials less reliably reach threshold for muscle action potentials."
+    },
+    {
+      "id": "movement-myasthenia-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: muscle contractions weaken with repeated use?",
+      "options": [
+        "Motor neurons stimulate a muscle repeatedly before it relaxes",
+        "Autoantibodies reduce functional acetylcholine receptors at motor end plates",
+        "Bone resorption chronically exceeds bone formation",
+        "Blood calcium falls and parathyroid hormone secretion rises"
+      ],
+      "answer": 1,
+      "explanation": "Muscle contractions weaken with repeated use. End-plate potentials less reliably reach threshold for muscle action potentials."
+    },
+    {
+      "id": "movement-myasthenia-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "After autoantibodies reduce functional acetylcholine receptors at motor end plates, which explanation best links the change to its outcome?",
+      "options": [
+        "Cytosolic calcium remains elevated and additional cross-bridges continue cycling",
+        "Trabeculae thin and cortical porosity rises, increasing fracture risk",
+        "End-plate potentials less reliably reach threshold for muscle action potentials",
+        "The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization"
+      ],
+      "answer": 2,
+      "explanation": "Muscle contractions weaken with repeated use. End-plate potentials less reliably reach threshold for muscle action potentials."
+    },
+    {
+      "id": "movement-myasthenia-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: autoantibodies reduce functional acetylcholine receptors at motor end plates?",
+      "options": [
+        "Individual twitches summate into sustained tension — Cytosolic calcium remains elevated and additional cross-bridges continue cycling",
+        "Bone mass and structural strength decline — Trabeculae thin and cortical porosity rises, increasing fracture risk",
+        "Calcium availability increases through bone, kidney and intestinal effects — The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization",
+        "Muscle contractions weaken with repeated use — End-plate potentials less reliably reach threshold for muscle action potentials"
+      ],
+      "answer": 3,
+      "explanation": "Muscle contractions weaken with repeated use. End-plate potentials less reliably reach threshold for muscle action potentials."
+    },
+    {
+      "id": "movement-tetanus-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Motor neurons stimulate a muscle repeatedly before it relaxes. Which outcome follows most directly?",
+      "options": [
+        "Individual twitches summate into sustained tension",
+        "Bone mass and structural strength decline",
+        "Calcium availability increases through bone, kidney and intestinal effects",
+        "Load distribution and joint stability decline"
+      ],
+      "answer": 0,
+      "explanation": "Individual twitches summate into sustained tension. Cytosolic calcium remains elevated and additional cross-bridges continue cycling."
+    },
+    {
+      "id": "movement-tetanus-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: individual twitches summate into sustained tension?",
+      "options": [
+        "Bone resorption chronically exceeds bone formation",
+        "Motor neurons stimulate a muscle repeatedly before it relaxes",
+        "Blood calcium falls and parathyroid hormone secretion rises",
+        "A knee meniscus is torn"
+      ],
+      "answer": 1,
+      "explanation": "Individual twitches summate into sustained tension. Cytosolic calcium remains elevated and additional cross-bridges continue cycling."
+    },
+    {
+      "id": "movement-tetanus-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "After motor neurons stimulate a muscle repeatedly before it relaxes, which explanation best links the change to its outcome?",
+      "options": [
+        "Trabeculae thin and cortical porosity rises, increasing fracture risk",
+        "The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization",
+        "Cytosolic calcium remains elevated and additional cross-bridges continue cycling",
+        "Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface"
+      ],
+      "answer": 2,
+      "explanation": "Individual twitches summate into sustained tension. Cytosolic calcium remains elevated and additional cross-bridges continue cycling."
+    },
+    {
+      "id": "movement-tetanus-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: motor neurons stimulate a muscle repeatedly before it relaxes?",
+      "options": [
+        "Bone mass and structural strength decline — Trabeculae thin and cortical porosity rises, increasing fracture risk",
+        "Calcium availability increases through bone, kidney and intestinal effects — The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization",
+        "Load distribution and joint stability decline — Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface",
+        "Individual twitches summate into sustained tension — Cytosolic calcium remains elevated and additional cross-bridges continue cycling"
+      ],
+      "answer": 3,
+      "explanation": "Individual twitches summate into sustained tension. Cytosolic calcium remains elevated and additional cross-bridges continue cycling."
+    },
+    {
+      "id": "movement-osteoporosis-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "After bone resorption chronically exceeds bone formation, which observation is most likely?",
+      "options": [
+        "Bone mass and structural strength decline",
+        "Calcium availability increases through bone, kidney and intestinal effects",
+        "Load distribution and joint stability decline",
+        "Soft tissues are supported and vulnerable organs are protected"
+      ],
+      "answer": 0,
+      "explanation": "Bone mass and structural strength decline. Trabeculae thin and cortical porosity rises, increasing fracture risk."
+    },
+    {
+      "id": "movement-osteoporosis-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "A learner records that bone mass and structural strength decline. Which preceding event best accounts for it?",
+      "options": [
+        "Blood calcium falls and parathyroid hormone secretion rises",
+        "Bone resorption chronically exceeds bone formation",
+        "A knee meniscus is torn",
+        "A rigid internal skeleton is present"
+      ],
+      "answer": 1,
+      "explanation": "Bone mass and structural strength decline. Trabeculae thin and cortical porosity rises, increasing fracture risk."
+    },
+    {
+      "id": "movement-osteoporosis-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "After bone resorption chronically exceeds bone formation, which explanation best links the change to its outcome?",
+      "options": [
+        "The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization",
+        "Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface",
+        "Trabeculae thin and cortical porosity rises, increasing fracture risk",
+        "Bone provides a strong framework that distributes forces and encloses structures"
+      ],
+      "answer": 2,
+      "explanation": "Bone mass and structural strength decline. Trabeculae thin and cortical porosity rises, increasing fracture risk."
+    },
+    {
+      "id": "movement-osteoporosis-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: bone resorption chronically exceeds bone formation?",
+      "options": [
+        "Soft tissues are supported and vulnerable organs are protected — Bone provides a strong framework that distributes forces and encloses structures",
+        "Calcium availability increases through bone, kidney and intestinal effects — The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization",
+        "Load distribution and joint stability decline — Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface",
+        "Bone mass and structural strength decline — Trabeculae thin and cortical porosity rises, increasing fracture risk"
+      ],
+      "answer": 3,
+      "explanation": "Bone mass and structural strength decline. Trabeculae thin and cortical porosity rises, increasing fracture risk."
+    },
+    {
+      "id": "movement-parathyroid-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Blood calcium falls and parathyroid hormone secretion rises. What should the model predict first?",
+      "options": [
+        "Calcium availability increases through bone, kidney and intestinal effects",
+        "Soft tissues are supported and vulnerable organs are protected",
+        "Load distribution and joint stability decline",
+        "Friction and impact damage are reduced"
+      ],
+      "answer": 0,
+      "explanation": "Calcium availability increases through bone, kidney and intestinal effects. The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization."
+    },
+    {
+      "id": "movement-parathyroid-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when calcium availability increases through bone, kidney and intestinal effects?",
+      "options": [
+        "A knee meniscus is torn",
+        "Blood calcium falls and parathyroid hormone secretion rises",
+        "Articular cartilage covers the ends of bones at a synovial joint",
+        "A rigid internal skeleton is present"
+      ],
+      "answer": 1,
+      "explanation": "Calcium availability increases through bone, kidney and intestinal effects. The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization."
+    },
+    {
+      "id": "movement-parathyroid-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "After blood calcium falls and parathyroid hormone secretion rises, which explanation best links the change to its outcome?",
+      "options": [
+        "Bone provides a strong framework that distributes forces and encloses structures",
+        "Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface",
+        "The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization",
+        "The smooth resilient tissue spreads load and permits low-friction movement"
+      ],
+      "answer": 2,
+      "explanation": "Calcium availability increases through bone, kidney and intestinal effects. The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization."
+    },
+    {
+      "id": "movement-parathyroid-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: blood calcium falls and parathyroid hormone secretion rises?",
+      "options": [
+        "Load distribution and joint stability decline — Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface",
+        "Friction and impact damage are reduced — The smooth resilient tissue spreads load and permits low-friction movement",
+        "Soft tissues are supported and vulnerable organs are protected — Bone provides a strong framework that distributes forces and encloses structures",
+        "Calcium availability increases through bone, kidney and intestinal effects — The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization"
+      ],
+      "answer": 3,
+      "explanation": "Calcium availability increases through bone, kidney and intestinal effects. The hormone promotes renal conservation, vitamin-D activation and net skeletal calcium mobilization."
+    },
+    {
+      "id": "movement-meniscus-outcome",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: A knee meniscus is torn?",
+      "options": [
+        "Load distribution and joint stability decline",
+        "Friction and impact damage are reduced",
+        "Excessive or abnormal joint movement is limited",
+        "Soft tissues are supported and vulnerable organs are protected"
+      ],
+      "answer": 0,
+      "explanation": "Load distribution and joint stability decline. Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface."
+    },
+    {
+      "id": "movement-meniscus-cause",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: load distribution and joint stability decline?",
+      "options": [
+        "A rigid internal skeleton is present",
+        "A knee meniscus is torn",
+        "Articular cartilage covers the ends of bones at a synovial joint",
+        "A ligament connects one bone to another across a joint"
+      ],
+      "answer": 1,
+      "explanation": "Load distribution and joint stability decline. Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface."
+    },
+    {
+      "id": "movement-meniscus-mechanism",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "After a knee meniscus is torn, which explanation best links the change to its outcome?",
+      "options": [
+        "Bone provides a strong framework that distributes forces and encloses structures",
+        "The smooth resilient tissue spreads load and permits low-friction movement",
+        "Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface",
+        "Dense collagen fibres resist tensile forces while allowing controlled flexibility"
+      ],
+      "answer": 2,
+      "explanation": "Load distribution and joint stability decline. Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface."
+    },
+    {
+      "id": "movement-meniscus-integrated",
+      "chapter": "Support & Movement",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a knee meniscus is torn?",
+      "options": [
+        "Soft tissues are supported and vulnerable organs are protected — Bone provides a strong framework that distributes forces and encloses structures",
+        "Friction and impact damage are reduced — The smooth resilient tissue spreads load and permits low-friction movement",
+        "Excessive or abnormal joint movement is limited — Dense collagen fibres resist tensile forces while allowing controlled flexibility",
+        "Load distribution and joint stability decline — Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface"
+      ],
+      "answer": 3,
+      "explanation": "Load distribution and joint stability decline. Damaged fibrocartilage cannot spread compressive force effectively across the tibial surface."
+    }
+  ]
+}

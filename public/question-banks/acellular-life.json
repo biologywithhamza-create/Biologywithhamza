@@ -1,0 +1,1408 @@
+{
+  "chapter": "Acellular Life",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "virus-envelope-entry",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "The host-derived envelope is removed from an otherwise intact influenza virion. Which function should decline most sharply?",
+      "options": [
+        "Receptor-mediated entry",
+        "Capsomere assembly",
+        "Viral RNA synthesis",
+        "Copying of host DNA"
+      ],
+      "answer": 0,
+      "explanation": "Influenza envelope glycoproteins attach to host receptors and mediate membrane entry. Removing the envelope damages this earliest host-recognition step."
+    },
+    {
+      "id": "positive-rna",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Why can the genome of a positive-sense RNA virus begin directing protein synthesis soon after uncoating?",
+      "options": [
+        "It contains host ribosomes",
+        "It acts directly as mRNA",
+        "It first becomes a prion",
+        "It is always double-stranded"
+      ],
+      "answer": 1,
+      "explanation": "Positive-sense RNA has the same readable orientation as mRNA, so host ribosomes can translate it directly."
+    },
+    {
+      "id": "negative-rna-polymerase",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "A negative-sense RNA virus enters a cell without a functional RNA-dependent RNA polymerase. What is the most immediate consequence?",
+      "options": [
+        "Its capsid cannot attach",
+        "Its DNA cannot integrate",
+        "Its genome cannot produce readable mRNA",
+        "Its envelope becomes bacterial"
+      ],
+      "answer": 2,
+      "explanation": "Negative-sense RNA is complementary to mRNA. A viral polymerase must first make a positive-sense RNA that host ribosomes can read."
+    },
+    {
+      "id": "provirus",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which description identifies a provirus rather than a free virion?",
+      "options": [
+        "Protein-only infectious agent",
+        "Circular plant RNA without capsid",
+        "Complete particle outside a host cell",
+        "Viral DNA integrated into host DNA"
+      ],
+      "answer": 3,
+      "explanation": "A provirus is a viral DNA stage integrated into the host genome. A virion is the complete extracellular infectious particle."
+    },
+    {
+      "id": "acellular-capsid-protection-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "A viral genome becomes enclosed by a complete capsid. Which outcome follows most directly?",
+      "options": [
+        "The nucleic acid becomes better protected outside the host cell",
+        "The virus fails to infect that cell efficiently",
+        "It cannot independently synthesize proteins or reproduce",
+        "The phage attaches to a susceptible bacterium"
+      ],
+      "answer": 0,
+      "explanation": "The nucleic acid becomes better protected outside the host cell. Capsid proteins shield the genome from nucleases and environmental damage."
+    },
+    {
+      "id": "acellular-capsid-protection-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: the nucleic acid becomes better protected outside the host cell?",
+      "options": [
+        "A virus lacks a surface protein able to bind a cell's receptor",
+        "A viral genome becomes enclosed by a complete capsid",
+        "A virion remains outside a living host cell",
+        "A bacteriophage tail fibre recognizes a bacterial surface receptor"
+      ],
+      "answer": 1,
+      "explanation": "The nucleic acid becomes better protected outside the host cell. Capsid proteins shield the genome from nucleases and environmental damage."
+    },
+    {
+      "id": "acellular-capsid-protection-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "After a viral genome becomes enclosed by a complete capsid, which explanation best links the change to its outcome?",
+      "options": [
+        "Attachment requires molecular complementarity between viral ligands and host receptors",
+        "Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "Capsid proteins shield the genome from nucleases and environmental damage",
+        "Specific binding anchors the particle before genome injection"
+      ],
+      "answer": 2,
+      "explanation": "The nucleic acid becomes better protected outside the host cell. Capsid proteins shield the genome from nucleases and environmental damage."
+    },
+    {
+      "id": "acellular-capsid-protection-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a viral genome becomes enclosed by a complete capsid?",
+      "options": [
+        "The virus fails to infect that cell efficiently — Attachment requires molecular complementarity between viral ligands and host receptors",
+        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection",
+        "The nucleic acid becomes better protected outside the host cell — Capsid proteins shield the genome from nucleases and environmental damage"
+      ],
+      "answer": 3,
+      "explanation": "The nucleic acid becomes better protected outside the host cell. Capsid proteins shield the genome from nucleases and environmental damage."
+    },
+    {
+      "id": "acellular-host-specificity-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "After a virus lacks a surface protein able to bind a cell's receptor, which observation is most likely?",
+      "options": [
+        "The virus fails to infect that cell efficiently",
+        "It cannot independently synthesize proteins or reproduce",
+        "The phage attaches to a susceptible bacterium",
+        "The bacterial cell ruptures and releases new phages"
+      ],
+      "answer": 0,
+      "explanation": "The virus fails to infect that cell efficiently. Attachment requires molecular complementarity between viral ligands and host receptors."
+    },
+    {
+      "id": "acellular-host-specificity-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "A learner records that the virus fails to infect that cell efficiently. Which preceding event best accounts for it?",
+      "options": [
+        "A virion remains outside a living host cell",
+        "A virus lacks a surface protein able to bind a cell's receptor",
+        "A bacteriophage tail fibre recognizes a bacterial surface receptor",
+        "A bacteriophage completes a lytic replication cycle"
+      ],
+      "answer": 1,
+      "explanation": "The virus fails to infect that cell efficiently. Attachment requires molecular complementarity between viral ligands and host receptors."
+    },
+    {
+      "id": "acellular-host-specificity-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "After a virus lacks a surface protein able to bind a cell's receptor, which explanation best links the change to its outcome?",
+      "options": [
+        "Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "Specific binding anchors the particle before genome injection",
+        "Attachment requires molecular complementarity between viral ligands and host receptors",
+        "Viral components assemble before phage enzymes weaken the host wall and membrane"
+      ],
+      "answer": 2,
+      "explanation": "The virus fails to infect that cell efficiently. Attachment requires molecular complementarity between viral ligands and host receptors."
+    },
+    {
+      "id": "acellular-host-specificity-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a virus lacks a surface protein able to bind a cell's receptor?",
+      "options": [
+        "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection",
+        "The virus fails to infect that cell efficiently — Attachment requires molecular complementarity between viral ligands and host receptors"
+      ],
+      "answer": 3,
+      "explanation": "The virus fails to infect that cell efficiently. Attachment requires molecular complementarity between viral ligands and host receptors."
+    },
+    {
+      "id": "acellular-obligate-parasite-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: A virion remains outside a living host cell. What should the model predict first?",
+      "options": [
+        "It cannot independently synthesize proteins or reproduce",
+        "The bacterial cell ruptures and releases new phages",
+        "The phage attaches to a susceptible bacterium",
+        "Virus-specific memory cells form without the full disease"
+      ],
+      "answer": 0,
+      "explanation": "It cannot independently synthesize proteins or reproduce. Viruses lack ribosomes and the complete metabolic machinery required for replication."
+    },
+    {
+      "id": "acellular-obligate-parasite-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when it cannot independently synthesize proteins or reproduce?",
+      "options": [
+        "A bacteriophage tail fibre recognizes a bacterial surface receptor",
+        "A virion remains outside a living host cell",
+        "A safe viral antigen is introduced by vaccination",
+        "A bacteriophage completes a lytic replication cycle"
+      ],
+      "answer": 1,
+      "explanation": "It cannot independently synthesize proteins or reproduce. Viruses lack ribosomes and the complete metabolic machinery required for replication."
+    },
+    {
+      "id": "acellular-obligate-parasite-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "After a virion remains outside a living host cell, which explanation best links the change to its outcome?",
+      "options": [
+        "Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "Specific binding anchors the particle before genome injection",
+        "Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "Adaptive lymphocytes undergo clonal selection after recognizing the antigen"
+      ],
+      "answer": 2,
+      "explanation": "It cannot independently synthesize proteins or reproduce. Viruses lack ribosomes and the complete metabolic machinery required for replication."
+    },
+    {
+      "id": "acellular-obligate-parasite-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a virion remains outside a living host cell?",
+      "options": [
+        "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection",
+        "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
+        "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication"
+      ],
+      "answer": 3,
+      "explanation": "It cannot independently synthesize proteins or reproduce. Viruses lack ribosomes and the complete metabolic machinery required for replication."
+    },
+    {
+      "id": "acellular-bacteriophage-tail-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: A bacteriophage tail fibre recognizes a bacterial surface receptor?",
+      "options": [
+        "The phage attaches to a susceptible bacterium",
+        "Virus-specific memory cells form without the full disease",
+        "Its ability to enter host cells declines sharply",
+        "The bacterial cell ruptures and releases new phages"
+      ],
+      "answer": 0,
+      "explanation": "The phage attaches to a susceptible bacterium. Specific binding anchors the particle before genome injection."
+    },
+    {
+      "id": "acellular-bacteriophage-tail-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: the phage attaches to a susceptible bacterium?",
+      "options": [
+        "A bacteriophage completes a lytic replication cycle",
+        "A bacteriophage tail fibre recognizes a bacterial surface receptor",
+        "A safe viral antigen is introduced by vaccination",
+        "A lipid-envelope virus is exposed to a detergent"
+      ],
+      "answer": 1,
+      "explanation": "The phage attaches to a susceptible bacterium. Specific binding anchors the particle before genome injection."
+    },
+    {
+      "id": "acellular-bacteriophage-tail-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "After a bacteriophage tail fibre recognizes a bacterial surface receptor, which explanation best links the change to its outcome?",
+      "options": [
+        "Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
+        "Specific binding anchors the particle before genome injection",
+        "Detergent disrupts the membrane carrying the viral attachment and fusion proteins"
+      ],
+      "answer": 2,
+      "explanation": "The phage attaches to a susceptible bacterium. Specific binding anchors the particle before genome injection."
+    },
+    {
+      "id": "acellular-bacteriophage-tail-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a bacteriophage tail fibre recognizes a bacterial surface receptor?",
+      "options": [
+        "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
+        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
+        "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection"
+      ],
+      "answer": 3,
+      "explanation": "The phage attaches to a susceptible bacterium. Specific binding anchors the particle before genome injection."
+    },
+    {
+      "id": "acellular-lytic-release-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "A bacteriophage completes a lytic replication cycle. Which outcome follows most directly?",
+      "options": [
+        "The bacterial cell ruptures and releases new phages",
+        "Virus-specific memory cells form without the full disease",
+        "Its ability to enter host cells declines sharply",
+        "The prophage may leave the chromosome and enter the lytic cycle"
+      ],
+      "answer": 0,
+      "explanation": "The bacterial cell ruptures and releases new phages. Viral components assemble before phage enzymes weaken the host wall and membrane."
+    },
+    {
+      "id": "acellular-lytic-release-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: the bacterial cell ruptures and releases new phages?",
+      "options": [
+        "A safe viral antigen is introduced by vaccination",
+        "A bacteriophage completes a lytic replication cycle",
+        "A lipid-envelope virus is exposed to a detergent",
+        "DNA damage activates an integrated bacteriophage genome"
+      ],
+      "answer": 1,
+      "explanation": "The bacterial cell ruptures and releases new phages. Viral components assemble before phage enzymes weaken the host wall and membrane."
+    },
+    {
+      "id": "acellular-lytic-release-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "After a bacteriophage completes a lytic replication cycle, which explanation best links the change to its outcome?",
+      "options": [
+        "Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
+        "Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
+        "Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "Stress-induced regulatory changes switch viral genes from latency to active replication"
+      ],
+      "answer": 2,
+      "explanation": "The bacterial cell ruptures and releases new phages. Viral components assemble before phage enzymes weaken the host wall and membrane."
+    },
+    {
+      "id": "acellular-lytic-release-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a bacteriophage completes a lytic replication cycle?",
+      "options": [
+        "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
+        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
+        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication",
+        "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane"
+      ],
+      "answer": 3,
+      "explanation": "The bacterial cell ruptures and releases new phages. Viral components assemble before phage enzymes weaken the host wall and membrane."
+    },
+    {
+      "id": "acellular-vaccine-antigen-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "After a safe viral antigen is introduced by vaccination, which observation is most likely?",
+      "options": [
+        "Virus-specific memory cells form without the full disease",
+        "Its ability to enter host cells declines sharply",
+        "The prophage may leave the chromosome and enter the lytic cycle",
+        "It cannot efficiently produce a DNA copy of its RNA genome"
+      ],
+      "answer": 0,
+      "explanation": "Virus-specific memory cells form without the full disease. Adaptive lymphocytes undergo clonal selection after recognizing the antigen."
+    },
+    {
+      "id": "acellular-vaccine-antigen-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "A learner records that virus-specific memory cells form without the full disease. Which preceding event best accounts for it?",
+      "options": [
+        "A lipid-envelope virus is exposed to a detergent",
+        "A safe viral antigen is introduced by vaccination",
+        "DNA damage activates an integrated bacteriophage genome",
+        "A retrovirus loses functional reverse transcriptase"
+      ],
+      "answer": 1,
+      "explanation": "Virus-specific memory cells form without the full disease. Adaptive lymphocytes undergo clonal selection after recognizing the antigen."
+    },
+    {
+      "id": "acellular-vaccine-antigen-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "After a safe viral antigen is introduced by vaccination, which explanation best links the change to its outcome?",
+      "options": [
+        "Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
+        "Stress-induced regulatory changes switch viral genes from latency to active replication",
+        "Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
+        "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration"
+      ],
+      "answer": 2,
+      "explanation": "Virus-specific memory cells form without the full disease. Adaptive lymphocytes undergo clonal selection after recognizing the antigen."
+    },
+    {
+      "id": "acellular-vaccine-antigen-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a safe viral antigen is introduced by vaccination?",
+      "options": [
+        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
+        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication",
+        "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen"
+      ],
+      "answer": 3,
+      "explanation": "Virus-specific memory cells form without the full disease. Adaptive lymphocytes undergo clonal selection after recognizing the antigen."
+    },
+    {
+      "id": "acellular-envelope-detergent-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A lipid-envelope virus is exposed to a detergent. What should the model predict first?",
+      "options": [
+        "Its ability to enter host cells declines sharply",
+        "It cannot efficiently produce a DNA copy of its RNA genome",
+        "The prophage may leave the chromosome and enter the lytic cycle",
+        "Both antibody and cytotoxic immune responses become poorly coordinated"
+      ],
+      "answer": 0,
+      "explanation": "Its ability to enter host cells declines sharply. Detergent disrupts the membrane carrying the viral attachment and fusion proteins."
+    },
+    {
+      "id": "acellular-envelope-detergent-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when its ability to enter host cells declines sharply?",
+      "options": [
+        "DNA damage activates an integrated bacteriophage genome",
+        "A lipid-envelope virus is exposed to a detergent",
+        "HIV progressively destroys many CD4 helper T cells",
+        "A retrovirus loses functional reverse transcriptase"
+      ],
+      "answer": 1,
+      "explanation": "Its ability to enter host cells declines sharply. Detergent disrupts the membrane carrying the viral attachment and fusion proteins."
+    },
+    {
+      "id": "acellular-envelope-detergent-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a lipid-envelope virus is exposed to a detergent, which explanation best links the change to its outcome?",
+      "options": [
+        "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "Stress-induced regulatory changes switch viral genes from latency to active replication",
+        "Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
+        "Helper T-cell signals normally activate and sustain several adaptive immune pathways"
+      ],
+      "answer": 2,
+      "explanation": "Its ability to enter host cells declines sharply. Detergent disrupts the membrane carrying the viral attachment and fusion proteins."
+    },
+    {
+      "id": "acellular-envelope-detergent-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a lipid-envelope virus is exposed to a detergent?",
+      "options": [
+        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication",
+        "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways",
+        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins"
+      ],
+      "answer": 3,
+      "explanation": "Its ability to enter host cells declines sharply. Detergent disrupts the membrane carrying the viral attachment and fusion proteins."
+    },
+    {
+      "id": "acellular-lysogenic-induction-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: DNA damage activates an integrated bacteriophage genome?",
+      "options": [
+        "The prophage may leave the chromosome and enter the lytic cycle",
+        "Both antibody and cytotoxic immune responses become poorly coordinated",
+        "Existing antibodies bind some new viral strains less effectively",
+        "It cannot efficiently produce a DNA copy of its RNA genome"
+      ],
+      "answer": 0,
+      "explanation": "The prophage may leave the chromosome and enter the lytic cycle. Stress-induced regulatory changes switch viral genes from latency to active replication."
+    },
+    {
+      "id": "acellular-lysogenic-induction-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: the prophage may leave the chromosome and enter the lytic cycle?",
+      "options": [
+        "A retrovirus loses functional reverse transcriptase",
+        "DNA damage activates an integrated bacteriophage genome",
+        "HIV progressively destroys many CD4 helper T cells",
+        "Small mutations accumulate in viral surface-antigen genes"
+      ],
+      "answer": 1,
+      "explanation": "The prophage may leave the chromosome and enter the lytic cycle. Stress-induced regulatory changes switch viral genes from latency to active replication."
+    },
+    {
+      "id": "acellular-lysogenic-induction-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After DNA damage activates an integrated bacteriophage genome, which explanation best links the change to its outcome?",
+      "options": [
+        "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "Helper T-cell signals normally activate and sustain several adaptive immune pathways",
+        "Stress-induced regulatory changes switch viral genes from latency to active replication",
+        "Altered epitopes reduce complementarity with antibodies generated against earlier strains"
+      ],
+      "answer": 2,
+      "explanation": "The prophage may leave the chromosome and enter the lytic cycle. Stress-induced regulatory changes switch viral genes from latency to active replication."
+    },
+    {
+      "id": "acellular-lysogenic-induction-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: DNA damage activates an integrated bacteriophage genome?",
+      "options": [
+        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways",
+        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication"
+      ],
+      "answer": 3,
+      "explanation": "The prophage may leave the chromosome and enter the lytic cycle. Stress-induced regulatory changes switch viral genes from latency to active replication."
+    },
+    {
+      "id": "acellular-reverse-transcription-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A retrovirus loses functional reverse transcriptase. Which outcome follows most directly?",
+      "options": [
+        "It cannot efficiently produce a DNA copy of its RNA genome",
+        "Both antibody and cytotoxic immune responses become poorly coordinated",
+        "Existing antibodies bind some new viral strains less effectively",
+        "A virus with a substantially new antigen combination can appear"
+      ],
+      "answer": 0,
+      "explanation": "It cannot efficiently produce a DNA copy of its RNA genome. Reverse transcriptase catalyses RNA-directed DNA synthesis before integration."
+    },
+    {
+      "id": "acellular-reverse-transcription-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: it cannot efficiently produce a DNA copy of its RNA genome?",
+      "options": [
+        "HIV progressively destroys many CD4 helper T cells",
+        "A retrovirus loses functional reverse transcriptase",
+        "Small mutations accumulate in viral surface-antigen genes",
+        "Two influenza strains exchange genome segments in one host cell"
+      ],
+      "answer": 1,
+      "explanation": "It cannot efficiently produce a DNA copy of its RNA genome. Reverse transcriptase catalyses RNA-directed DNA synthesis before integration."
+    },
+    {
+      "id": "acellular-reverse-transcription-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a retrovirus loses functional reverse transcriptase, which explanation best links the change to its outcome?",
+      "options": [
+        "Helper T-cell signals normally activate and sustain several adaptive immune pathways",
+        "Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "Reassortment mixes segmented RNA genomes and may create novel surface proteins"
+      ],
+      "answer": 2,
+      "explanation": "It cannot efficiently produce a DNA copy of its RNA genome. Reverse transcriptase catalyses RNA-directed DNA synthesis before integration."
+    },
+    {
+      "id": "acellular-reverse-transcription-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a retrovirus loses functional reverse transcriptase?",
+      "options": [
+        "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways",
+        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins",
+        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration"
+      ],
+      "answer": 3,
+      "explanation": "It cannot efficiently produce a DNA copy of its RNA genome. Reverse transcriptase catalyses RNA-directed DNA synthesis before integration."
+    },
+    {
+      "id": "acellular-hiv-cd4-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After HIV progressively destroys many CD4 helper T cells, which observation is most likely?",
+      "options": [
+        "Both antibody and cytotoxic immune responses become poorly coordinated",
+        "Existing antibodies bind some new viral strains less effectively",
+        "A virus with a substantially new antigen combination can appear",
+        "Clinical symptoms may disappear while the infection remains"
+      ],
+      "answer": 0,
+      "explanation": "Both antibody and cytotoxic immune responses become poorly coordinated. Helper T-cell signals normally activate and sustain several adaptive immune pathways."
+    },
+    {
+      "id": "acellular-hiv-cd4-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A learner records that both antibody and cytotoxic immune responses become poorly coordinated. Which preceding event best accounts for it?",
+      "options": [
+        "Small mutations accumulate in viral surface-antigen genes",
+        "HIV progressively destroys many CD4 helper T cells",
+        "Two influenza strains exchange genome segments in one host cell",
+        "A viral genome persists in host cells with limited gene expression"
+      ],
+      "answer": 1,
+      "explanation": "Both antibody and cytotoxic immune responses become poorly coordinated. Helper T-cell signals normally activate and sustain several adaptive immune pathways."
+    },
+    {
+      "id": "acellular-hiv-cd4-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After HIV progressively destroys many CD4 helper T cells, which explanation best links the change to its outcome?",
+      "options": [
+        "Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
+        "Helper T-cell signals normally activate and sustain several adaptive immune pathways",
+        "Latency minimizes particle production and immune detection until reactivation"
+      ],
+      "answer": 2,
+      "explanation": "Both antibody and cytotoxic immune responses become poorly coordinated. Helper T-cell signals normally activate and sustain several adaptive immune pathways."
+    },
+    {
+      "id": "acellular-hiv-cd4-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: HIV progressively destroys many CD4 helper T cells?",
+      "options": [
+        "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation",
+        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins",
+        "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways"
+      ],
+      "answer": 3,
+      "explanation": "Both antibody and cytotoxic immune responses become poorly coordinated. Helper T-cell signals normally activate and sustain several adaptive immune pathways."
+    },
+    {
+      "id": "acellular-antigenic-drift-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Small mutations accumulate in viral surface-antigen genes. What should the model predict first?",
+      "options": [
+        "Existing antibodies bind some new viral strains less effectively",
+        "Clinical symptoms may disappear while the infection remains",
+        "A virus with a substantially new antigen combination can appear",
+        "Nearby cells become more resistant to viral replication"
+      ],
+      "answer": 0,
+      "explanation": "Existing antibodies bind some new viral strains less effectively. Altered epitopes reduce complementarity with antibodies generated against earlier strains."
+    },
+    {
+      "id": "acellular-antigenic-drift-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when existing antibodies bind some new viral strains less effectively?",
+      "options": [
+        "Two influenza strains exchange genome segments in one host cell",
+        "Small mutations accumulate in viral surface-antigen genes",
+        "A virus-infected cell releases type I interferons",
+        "A viral genome persists in host cells with limited gene expression"
+      ],
+      "answer": 1,
+      "explanation": "Existing antibodies bind some new viral strains less effectively. Altered epitopes reduce complementarity with antibodies generated against earlier strains."
+    },
+    {
+      "id": "acellular-antigenic-drift-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After small mutations accumulate in viral surface-antigen genes, which explanation best links the change to its outcome?",
+      "options": [
+        "Latency minimizes particle production and immune detection until reactivation",
+        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
+        "Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "Interferon signalling induces antiviral proteins that inhibit genome copying and translation"
+      ],
+      "answer": 2,
+      "explanation": "Existing antibodies bind some new viral strains less effectively. Altered epitopes reduce complementarity with antibodies generated against earlier strains."
+    },
+    {
+      "id": "acellular-antigenic-drift-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: small mutations accumulate in viral surface-antigen genes?",
+      "options": [
+        "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins",
+        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
+        "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation",
+        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains"
+      ],
+      "answer": 3,
+      "explanation": "Existing antibodies bind some new viral strains less effectively. Altered epitopes reduce complementarity with antibodies generated against earlier strains."
+    },
+    {
+      "id": "acellular-antigenic-shift-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Two influenza strains exchange genome segments in one host cell?",
+      "options": [
+        "A virus with a substantially new antigen combination can appear",
+        "Nearby cells become more resistant to viral replication",
+        "Attachment and entry into host cells are reduced",
+        "Clinical symptoms may disappear while the infection remains"
+      ],
+      "answer": 0,
+      "explanation": "A virus with a substantially new antigen combination can appear. Reassortment mixes segmented RNA genomes and may create novel surface proteins."
+    },
+    {
+      "id": "acellular-antigenic-shift-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: a virus with a substantially new antigen combination can appear?",
+      "options": [
+        "A viral genome persists in host cells with limited gene expression",
+        "Two influenza strains exchange genome segments in one host cell",
+        "A virus-infected cell releases type I interferons",
+        "Antibodies cover a virus's receptor-binding proteins"
+      ],
+      "answer": 1,
+      "explanation": "A virus with a substantially new antigen combination can appear. Reassortment mixes segmented RNA genomes and may create novel surface proteins."
+    },
+    {
+      "id": "acellular-antigenic-shift-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After two influenza strains exchange genome segments in one host cell, which explanation best links the change to its outcome?",
+      "options": [
+        "Latency minimizes particle production and immune detection until reactivation",
+        "Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
+        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
+        "Neutralization blocks the viral structures needed to recognize cellular receptors"
+      ],
+      "answer": 2,
+      "explanation": "A virus with a substantially new antigen combination can appear. Reassortment mixes segmented RNA genomes and may create novel surface proteins."
+    },
+    {
+      "id": "acellular-antigenic-shift-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: two influenza strains exchange genome segments in one host cell?",
+      "options": [
+        "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation",
+        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
+        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors",
+        "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins"
+      ],
+      "answer": 3,
+      "explanation": "A virus with a substantially new antigen combination can appear. Reassortment mixes segmented RNA genomes and may create novel surface proteins."
+    },
+    {
+      "id": "acellular-latent-virus-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A viral genome persists in host cells with limited gene expression. Which outcome follows most directly?",
+      "options": [
+        "Clinical symptoms may disappear while the infection remains",
+        "Nearby cells become more resistant to viral replication",
+        "Attachment and entry into host cells are reduced",
+        "More proteins adopt the abnormal aggregation-prone shape"
+      ],
+      "answer": 0,
+      "explanation": "Clinical symptoms may disappear while the infection remains. Latency minimizes particle production and immune detection until reactivation."
+    },
+    {
+      "id": "acellular-latent-virus-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: clinical symptoms may disappear while the infection remains?",
+      "options": [
+        "A virus-infected cell releases type I interferons",
+        "A viral genome persists in host cells with limited gene expression",
+        "Antibodies cover a virus's receptor-binding proteins",
+        "A misfolded prion protein contacts the normal form of the protein"
+      ],
+      "answer": 1,
+      "explanation": "Clinical symptoms may disappear while the infection remains. Latency minimizes particle production and immune detection until reactivation."
+    },
+    {
+      "id": "acellular-latent-virus-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a viral genome persists in host cells with limited gene expression, which explanation best links the change to its outcome?",
+      "options": [
+        "Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
+        "Neutralization blocks the viral structures needed to recognize cellular receptors",
+        "Latency minimizes particle production and immune detection until reactivation",
+        "The abnormal conformation templates misfolding without using nucleic acid"
+      ],
+      "answer": 2,
+      "explanation": "Clinical symptoms may disappear while the infection remains. Latency minimizes particle production and immune detection until reactivation."
+    },
+    {
+      "id": "acellular-latent-virus-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a viral genome persists in host cells with limited gene expression?",
+      "options": [
+        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
+        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors",
+        "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid",
+        "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation"
+      ],
+      "answer": 3,
+      "explanation": "Clinical symptoms may disappear while the infection remains. Latency minimizes particle production and immune detection until reactivation."
+    },
+    {
+      "id": "acellular-interferon-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a virus-infected cell releases type I interferons, which observation is most likely?",
+      "options": [
+        "Nearby cells become more resistant to viral replication",
+        "Attachment and entry into host cells are reduced",
+        "More proteins adopt the abnormal aggregation-prone shape",
+        "Plant gene regulation and growth may be disrupted"
+      ],
+      "answer": 0,
+      "explanation": "Nearby cells become more resistant to viral replication. Interferon signalling induces antiviral proteins that inhibit genome copying and translation."
+    },
+    {
+      "id": "acellular-interferon-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A learner records that nearby cells become more resistant to viral replication. Which preceding event best accounts for it?",
+      "options": [
+        "Antibodies cover a virus's receptor-binding proteins",
+        "A virus-infected cell releases type I interferons",
+        "A misfolded prion protein contacts the normal form of the protein",
+        "A small circular viroid RNA enters a susceptible plant"
+      ],
+      "answer": 1,
+      "explanation": "Nearby cells become more resistant to viral replication. Interferon signalling induces antiviral proteins that inhibit genome copying and translation."
+    },
+    {
+      "id": "acellular-interferon-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a virus-infected cell releases type I interferons, which explanation best links the change to its outcome?",
+      "options": [
+        "Neutralization blocks the viral structures needed to recognize cellular receptors",
+        "The abnormal conformation templates misfolding without using nucleic acid",
+        "Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
+        "The naked RNA interacts with host pathways despite encoding no capsid proteins"
+      ],
+      "answer": 2,
+      "explanation": "Nearby cells become more resistant to viral replication. Interferon signalling induces antiviral proteins that inhibit genome copying and translation."
+    },
+    {
+      "id": "acellular-interferon-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a virus-infected cell releases type I interferons?",
+      "options": [
+        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors",
+        "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid",
+        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation"
+      ],
+      "answer": 3,
+      "explanation": "Nearby cells become more resistant to viral replication. Interferon signalling induces antiviral proteins that inhibit genome copying and translation."
+    },
+    {
+      "id": "acellular-neutralizing-antibody-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Antibodies cover a virus's receptor-binding proteins. What should the model predict first?",
+      "options": [
+        "Attachment and entry into host cells are reduced",
+        "Plant gene regulation and growth may be disrupted",
+        "More proteins adopt the abnormal aggregation-prone shape",
+        "Production of new viral genomes declines"
+      ],
+      "answer": 0,
+      "explanation": "Attachment and entry into host cells are reduced. Neutralization blocks the viral structures needed to recognize cellular receptors."
+    },
+    {
+      "id": "acellular-neutralizing-antibody-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when attachment and entry into host cells are reduced?",
+      "options": [
+        "A misfolded prion protein contacts the normal form of the protein",
+        "Antibodies cover a virus's receptor-binding proteins",
+        "A drug selectively inhibits an essential viral polymerase",
+        "A small circular viroid RNA enters a susceptible plant"
+      ],
+      "answer": 1,
+      "explanation": "Attachment and entry into host cells are reduced. Neutralization blocks the viral structures needed to recognize cellular receptors."
+    },
+    {
+      "id": "acellular-neutralizing-antibody-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After antibodies cover a virus's receptor-binding proteins, which explanation best links the change to its outcome?",
+      "options": [
+        "The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "The abnormal conformation templates misfolding without using nucleic acid",
+        "Neutralization blocks the viral structures needed to recognize cellular receptors",
+        "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected"
+      ],
+      "answer": 2,
+      "explanation": "Attachment and entry into host cells are reduced. Neutralization blocks the viral structures needed to recognize cellular receptors."
+    },
+    {
+      "id": "acellular-neutralizing-antibody-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: antibodies cover a virus's receptor-binding proteins?",
+      "options": [
+        "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid",
+        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
+        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors"
+      ],
+      "answer": 3,
+      "explanation": "Attachment and entry into host cells are reduced. Neutralization blocks the viral structures needed to recognize cellular receptors."
+    },
+    {
+      "id": "acellular-prion-conversion-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: A misfolded prion protein contacts the normal form of the protein?",
+      "options": [
+        "More proteins adopt the abnormal aggregation-prone shape",
+        "Production of new viral genomes declines",
+        "No complete infectious particles are briefly detectable inside the cell",
+        "Plant gene regulation and growth may be disrupted"
+      ],
+      "answer": 0,
+      "explanation": "More proteins adopt the abnormal aggregation-prone shape. The abnormal conformation templates misfolding without using nucleic acid."
+    },
+    {
+      "id": "acellular-prion-conversion-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: more proteins adopt the abnormal aggregation-prone shape?",
+      "options": [
+        "A small circular viroid RNA enters a susceptible plant",
+        "A misfolded prion protein contacts the normal form of the protein",
+        "A drug selectively inhibits an essential viral polymerase",
+        "A virus has entered and uncoated inside a host cell"
+      ],
+      "answer": 1,
+      "explanation": "More proteins adopt the abnormal aggregation-prone shape. The abnormal conformation templates misfolding without using nucleic acid."
+    },
+    {
+      "id": "acellular-prion-conversion-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a misfolded prion protein contacts the normal form of the protein, which explanation best links the change to its outcome?",
+      "options": [
+        "The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
+        "The abnormal conformation templates misfolding without using nucleic acid",
+        "Parental virions are disassembled before newly synthesized parts have been assembled"
+      ],
+      "answer": 2,
+      "explanation": "More proteins adopt the abnormal aggregation-prone shape. The abnormal conformation templates misfolding without using nucleic acid."
+    },
+    {
+      "id": "acellular-prion-conversion-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a misfolded prion protein contacts the normal form of the protein?",
+      "options": [
+        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
+        "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled",
+        "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid"
+      ],
+      "answer": 3,
+      "explanation": "More proteins adopt the abnormal aggregation-prone shape. The abnormal conformation templates misfolding without using nucleic acid."
+    },
+    {
+      "id": "acellular-viroid-rna-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A small circular viroid RNA enters a susceptible plant. Which outcome follows most directly?",
+      "options": [
+        "Plant gene regulation and growth may be disrupted",
+        "Production of new viral genomes declines",
+        "No complete infectious particles are briefly detectable inside the cell",
+        "Progeny may contain genome segments from both parental viruses"
+      ],
+      "answer": 0,
+      "explanation": "Plant gene regulation and growth may be disrupted. The naked RNA interacts with host pathways despite encoding no capsid proteins."
+    },
+    {
+      "id": "acellular-viroid-rna-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: plant gene regulation and growth may be disrupted?",
+      "options": [
+        "A drug selectively inhibits an essential viral polymerase",
+        "A small circular viroid RNA enters a susceptible plant",
+        "A virus has entered and uncoated inside a host cell",
+        "Two related segmented viruses infect the same cell simultaneously"
+      ],
+      "answer": 1,
+      "explanation": "Plant gene regulation and growth may be disrupted. The naked RNA interacts with host pathways despite encoding no capsid proteins."
+    },
+    {
+      "id": "acellular-viroid-rna-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a small circular viroid RNA enters a susceptible plant, which explanation best links the change to its outcome?",
+      "options": [
+        "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
+        "Parental virions are disassembled before newly synthesized parts have been assembled",
+        "The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Shared assembly machinery can package a reassorted combination of compatible segments"
+      ],
+      "answer": 2,
+      "explanation": "Plant gene regulation and growth may be disrupted. The naked RNA interacts with host pathways despite encoding no capsid proteins."
+    },
+    {
+      "id": "acellular-viroid-rna-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a small circular viroid RNA enters a susceptible plant?",
+      "options": [
+        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
+        "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled",
+        "Progeny may contain genome segments from both parental viruses — Shared assembly machinery can package a reassorted combination of compatible segments",
+        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins"
+      ],
+      "answer": 3,
+      "explanation": "Plant gene regulation and growth may be disrupted. The naked RNA interacts with host pathways despite encoding no capsid proteins."
+    },
+    {
+      "id": "acellular-viral-polymerase-target-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a drug selectively inhibits an essential viral polymerase, which observation is most likely?",
+      "options": [
+        "Production of new viral genomes declines",
+        "No complete infectious particles are briefly detectable inside the cell",
+        "Progeny may contain genome segments from both parental viruses",
+        "The host cell's normal gene function may be disrupted"
+      ],
+      "answer": 0,
+      "explanation": "Production of new viral genomes declines. Genome replication cannot proceed normally while most host DNA enzymes remain unaffected."
+    },
+    {
+      "id": "acellular-viral-polymerase-target-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "A learner records that production of new viral genomes declines. Which preceding event best accounts for it?",
+      "options": [
+        "A virus has entered and uncoated inside a host cell",
+        "A drug selectively inhibits an essential viral polymerase",
+        "Two related segmented viruses infect the same cell simultaneously",
+        "Integration inserts retroviral DNA into an essential host gene"
+      ],
+      "answer": 1,
+      "explanation": "Production of new viral genomes declines. Genome replication cannot proceed normally while most host DNA enzymes remain unaffected."
+    },
+    {
+      "id": "acellular-viral-polymerase-target-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "After a drug selectively inhibits an essential viral polymerase, which explanation best links the change to its outcome?",
+      "options": [
+        "Parental virions are disassembled before newly synthesized parts have been assembled",
+        "Shared assembly machinery can package a reassorted combination of compatible segments",
+        "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
+        "Insertional mutagenesis changes the coding sequence or its regulation"
+      ],
+      "answer": 2,
+      "explanation": "Production of new viral genomes declines. Genome replication cannot proceed normally while most host DNA enzymes remain unaffected."
+    },
+    {
+      "id": "acellular-viral-polymerase-target-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a drug selectively inhibits an essential viral polymerase?",
+      "options": [
+        "The host cell's normal gene function may be disrupted — Insertional mutagenesis changes the coding sequence or its regulation",
+        "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled",
+        "Progeny may contain genome segments from both parental viruses — Shared assembly machinery can package a reassorted combination of compatible segments",
+        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected"
+      ],
+      "answer": 3,
+      "explanation": "Production of new viral genomes declines. Genome replication cannot proceed normally while most host DNA enzymes remain unaffected."
+    },
+    {
+      "id": "acellular-eclipse-period-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A virus has entered and uncoated inside a host cell. What should the model predict first?",
+      "options": [
+        "No complete infectious particles are briefly detectable inside the cell",
+        "The host cell's normal gene function may be disrupted",
+        "Progeny may contain genome segments from both parental viruses",
+        "The viral population accumulates genetic variation rapidly"
+      ],
+      "answer": 0,
+      "explanation": "No complete infectious particles are briefly detectable inside the cell. Parental virions are disassembled before newly synthesized parts have been assembled."
+    },
+    {
+      "id": "acellular-eclipse-period-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when no complete infectious particles are briefly detectable inside the cell?",
+      "options": [
+        "Two related segmented viruses infect the same cell simultaneously",
+        "A virus has entered and uncoated inside a host cell",
+        "An RNA virus polymerase lacks effective proofreading",
+        "Integration inserts retroviral DNA into an essential host gene"
+      ],
+      "answer": 1,
+      "explanation": "No complete infectious particles are briefly detectable inside the cell. Parental virions are disassembled before newly synthesized parts have been assembled."
+    },
+    {
+      "id": "acellular-eclipse-period-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "After a virus has entered and uncoated inside a host cell, which explanation best links the change to its outcome?",
+      "options": [
+        "Insertional mutagenesis changes the coding sequence or its regulation",
+        "Shared assembly machinery can package a reassorted combination of compatible segments",
+        "Parental virions are disassembled before newly synthesized parts have been assembled",
+        "Replication errors persist instead of being corrected before progeny genomes form"
+      ],
+      "answer": 2,
+      "explanation": "No complete infectious particles are briefly detectable inside the cell. Parental virions are disassembled before newly synthesized parts have been assembled."
+    },
+    {
+      "id": "acellular-eclipse-period-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a virus has entered and uncoated inside a host cell?",
+      "options": [
+        "Progeny may contain genome segments from both parental viruses — Shared assembly machinery can package a reassorted combination of compatible segments",
+        "The viral population accumulates genetic variation rapidly — Replication errors persist instead of being corrected before progeny genomes form",
+        "The host cell's normal gene function may be disrupted — Insertional mutagenesis changes the coding sequence or its regulation",
+        "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled"
+      ],
+      "answer": 3,
+      "explanation": "No complete infectious particles are briefly detectable inside the cell. Parental virions are disassembled before newly synthesized parts have been assembled."
+    },
+    {
+      "id": "acellular-multiplicity-reassortment-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Two related segmented viruses infect the same cell simultaneously?",
+      "options": [
+        "Progeny may contain genome segments from both parental viruses",
+        "The viral population accumulates genetic variation rapidly",
+        "Transmission chains are interrupted and susceptible people receive indirect protection",
+        "The host cell's normal gene function may be disrupted"
+      ],
+      "answer": 0,
+      "explanation": "Progeny may contain genome segments from both parental viruses. Shared assembly machinery can package a reassorted combination of compatible segments."
+    },
+    {
+      "id": "acellular-multiplicity-reassortment-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: progeny may contain genome segments from both parental viruses?",
+      "options": [
+        "Integration inserts retroviral DNA into an essential host gene",
+        "Two related segmented viruses infect the same cell simultaneously",
+        "An RNA virus polymerase lacks effective proofreading",
+        "A high proportion of a population becomes immune to a virus"
+      ],
+      "answer": 1,
+      "explanation": "Progeny may contain genome segments from both parental viruses. Shared assembly machinery can package a reassorted combination of compatible segments."
+    },
+    {
+      "id": "acellular-multiplicity-reassortment-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "After two related segmented viruses infect the same cell simultaneously, which explanation best links the change to its outcome?",
+      "options": [
+        "Insertional mutagenesis changes the coding sequence or its regulation",
+        "Replication errors persist instead of being corrected before progeny genomes form",
+        "Shared assembly machinery can package a reassorted combination of compatible segments",
+        "Infectious individuals encounter fewer hosts capable of sustaining further spread"
+      ],
+      "answer": 2,
+      "explanation": "Progeny may contain genome segments from both parental viruses. Shared assembly machinery can package a reassorted combination of compatible segments."
+    },
+    {
+      "id": "acellular-multiplicity-reassortment-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: two related segmented viruses infect the same cell simultaneously?",
+      "options": [
+        "The host cell's normal gene function may be disrupted — Insertional mutagenesis changes the coding sequence or its regulation",
+        "The viral population accumulates genetic variation rapidly — Replication errors persist instead of being corrected before progeny genomes form",
+        "Transmission chains are interrupted and susceptible people receive indirect protection — Infectious individuals encounter fewer hosts capable of sustaining further spread",
+        "Progeny may contain genome segments from both parental viruses — Shared assembly machinery can package a reassorted combination of compatible segments"
+      ],
+      "answer": 3,
+      "explanation": "Progeny may contain genome segments from both parental viruses. Shared assembly machinery can package a reassorted combination of compatible segments."
+    },
+    {
+      "id": "acellular-provirus-mutation-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Integration inserts retroviral DNA into an essential host gene. Which outcome follows most directly?",
+      "options": [
+        "The host cell's normal gene function may be disrupted",
+        "The viral population accumulates genetic variation rapidly",
+        "Transmission chains are interrupted and susceptible people receive indirect protection",
+        "Stable insertion of viral DNA into host chromosomes is reduced"
+      ],
+      "answer": 0,
+      "explanation": "The host cell's normal gene function may be disrupted. Insertional mutagenesis changes the coding sequence or its regulation."
+    },
+    {
+      "id": "acellular-provirus-mutation-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: the host cell's normal gene function may be disrupted?",
+      "options": [
+        "An RNA virus polymerase lacks effective proofreading",
+        "Integration inserts retroviral DNA into an essential host gene",
+        "A high proportion of a population becomes immune to a virus",
+        "An effective integrase inhibitor is given early in HIV infection"
+      ],
+      "answer": 1,
+      "explanation": "The host cell's normal gene function may be disrupted. Insertional mutagenesis changes the coding sequence or its regulation."
+    },
+    {
+      "id": "acellular-provirus-mutation-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "After integration inserts retroviral DNA into an essential host gene, which explanation best links the change to its outcome?",
+      "options": [
+        "Replication errors persist instead of being corrected before progeny genomes form",
+        "Infectious individuals encounter fewer hosts capable of sustaining further spread",
+        "Insertional mutagenesis changes the coding sequence or its regulation",
+        "The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA"
+      ],
+      "answer": 2,
+      "explanation": "The host cell's normal gene function may be disrupted. Insertional mutagenesis changes the coding sequence or its regulation."
+    },
+    {
+      "id": "acellular-provirus-mutation-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: integration inserts retroviral DNA into an essential host gene?",
+      "options": [
+        "The viral population accumulates genetic variation rapidly — Replication errors persist instead of being corrected before progeny genomes form",
+        "Transmission chains are interrupted and susceptible people receive indirect protection — Infectious individuals encounter fewer hosts capable of sustaining further spread",
+        "Stable insertion of viral DNA into host chromosomes is reduced — The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA",
+        "The host cell's normal gene function may be disrupted — Insertional mutagenesis changes the coding sequence or its regulation"
+      ],
+      "answer": 3,
+      "explanation": "The host cell's normal gene function may be disrupted. Insertional mutagenesis changes the coding sequence or its regulation."
+    },
+    {
+      "id": "acellular-rna-error-rate-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "After an RNA virus polymerase lacks effective proofreading, which observation is most likely?",
+      "options": [
+        "The viral population accumulates genetic variation rapidly",
+        "Transmission chains are interrupted and susceptible people receive indirect protection",
+        "Stable insertion of viral DNA into host chromosomes is reduced",
+        "The nucleic acid becomes better protected outside the host cell"
+      ],
+      "answer": 0,
+      "explanation": "The viral population accumulates genetic variation rapidly. Replication errors persist instead of being corrected before progeny genomes form."
+    },
+    {
+      "id": "acellular-rna-error-rate-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "A learner records that the viral population accumulates genetic variation rapidly. Which preceding event best accounts for it?",
+      "options": [
+        "A high proportion of a population becomes immune to a virus",
+        "An RNA virus polymerase lacks effective proofreading",
+        "An effective integrase inhibitor is given early in HIV infection",
+        "A viral genome becomes enclosed by a complete capsid"
+      ],
+      "answer": 1,
+      "explanation": "The viral population accumulates genetic variation rapidly. Replication errors persist instead of being corrected before progeny genomes form."
+    },
+    {
+      "id": "acellular-rna-error-rate-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "After an RNA virus polymerase lacks effective proofreading, which explanation best links the change to its outcome?",
+      "options": [
+        "Infectious individuals encounter fewer hosts capable of sustaining further spread",
+        "The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA",
+        "Replication errors persist instead of being corrected before progeny genomes form",
+        "Capsid proteins shield the genome from nucleases and environmental damage"
+      ],
+      "answer": 2,
+      "explanation": "The viral population accumulates genetic variation rapidly. Replication errors persist instead of being corrected before progeny genomes form."
+    },
+    {
+      "id": "acellular-rna-error-rate-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an RNA virus polymerase lacks effective proofreading?",
+      "options": [
+        "The nucleic acid becomes better protected outside the host cell — Capsid proteins shield the genome from nucleases and environmental damage",
+        "Transmission chains are interrupted and susceptible people receive indirect protection — Infectious individuals encounter fewer hosts capable of sustaining further spread",
+        "Stable insertion of viral DNA into host chromosomes is reduced — The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA",
+        "The viral population accumulates genetic variation rapidly — Replication errors persist instead of being corrected before progeny genomes form"
+      ],
+      "answer": 3,
+      "explanation": "The viral population accumulates genetic variation rapidly. Replication errors persist instead of being corrected before progeny genomes form."
+    },
+    {
+      "id": "acellular-herd-immunity-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A high proportion of a population becomes immune to a virus. What should the model predict first?",
+      "options": [
+        "Transmission chains are interrupted and susceptible people receive indirect protection",
+        "The nucleic acid becomes better protected outside the host cell",
+        "Stable insertion of viral DNA into host chromosomes is reduced",
+        "The virus fails to infect that cell efficiently"
+      ],
+      "answer": 0,
+      "explanation": "Transmission chains are interrupted and susceptible people receive indirect protection. Infectious individuals encounter fewer hosts capable of sustaining further spread."
+    },
+    {
+      "id": "acellular-herd-immunity-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when transmission chains are interrupted and susceptible people receive indirect protection?",
+      "options": [
+        "An effective integrase inhibitor is given early in HIV infection",
+        "A high proportion of a population becomes immune to a virus",
+        "A virus lacks a surface protein able to bind a cell's receptor",
+        "A viral genome becomes enclosed by a complete capsid"
+      ],
+      "answer": 1,
+      "explanation": "Transmission chains are interrupted and susceptible people receive indirect protection. Infectious individuals encounter fewer hosts capable of sustaining further spread."
+    },
+    {
+      "id": "acellular-herd-immunity-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "After a high proportion of a population becomes immune to a virus, which explanation best links the change to its outcome?",
+      "options": [
+        "Capsid proteins shield the genome from nucleases and environmental damage",
+        "The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA",
+        "Infectious individuals encounter fewer hosts capable of sustaining further spread",
+        "Attachment requires molecular complementarity between viral ligands and host receptors"
+      ],
+      "answer": 2,
+      "explanation": "Transmission chains are interrupted and susceptible people receive indirect protection. Infectious individuals encounter fewer hosts capable of sustaining further spread."
+    },
+    {
+      "id": "acellular-herd-immunity-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a high proportion of a population becomes immune to a virus?",
+      "options": [
+        "Stable insertion of viral DNA into host chromosomes is reduced — The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA",
+        "The virus fails to infect that cell efficiently — Attachment requires molecular complementarity between viral ligands and host receptors",
+        "The nucleic acid becomes better protected outside the host cell — Capsid proteins shield the genome from nucleases and environmental damage",
+        "Transmission chains are interrupted and susceptible people receive indirect protection — Infectious individuals encounter fewer hosts capable of sustaining further spread"
+      ],
+      "answer": 3,
+      "explanation": "Transmission chains are interrupted and susceptible people receive indirect protection. Infectious individuals encounter fewer hosts capable of sustaining further spread."
+    },
+    {
+      "id": "acellular-integration-inhibitor-outcome",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: An effective integrase inhibitor is given early in HIV infection?",
+      "options": [
+        "Stable insertion of viral DNA into host chromosomes is reduced",
+        "The virus fails to infect that cell efficiently",
+        "It cannot independently synthesize proteins or reproduce",
+        "The nucleic acid becomes better protected outside the host cell"
+      ],
+      "answer": 0,
+      "explanation": "Stable insertion of viral DNA into host chromosomes is reduced. The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA."
+    },
+    {
+      "id": "acellular-integration-inhibitor-cause",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: stable insertion of viral DNA into host chromosomes is reduced?",
+      "options": [
+        "A viral genome becomes enclosed by a complete capsid",
+        "An effective integrase inhibitor is given early in HIV infection",
+        "A virus lacks a surface protein able to bind a cell's receptor",
+        "A virion remains outside a living host cell"
+      ],
+      "answer": 1,
+      "explanation": "Stable insertion of viral DNA into host chromosomes is reduced. The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA."
+    },
+    {
+      "id": "acellular-integration-inhibitor-mechanism",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "After an effective integrase inhibitor is given early in HIV infection, which explanation best links the change to its outcome?",
+      "options": [
+        "Capsid proteins shield the genome from nucleases and environmental damage",
+        "Attachment requires molecular complementarity between viral ligands and host receptors",
+        "The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA",
+        "Viruses lack ribosomes and the complete metabolic machinery required for replication"
+      ],
+      "answer": 2,
+      "explanation": "Stable insertion of viral DNA into host chromosomes is reduced. The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA."
+    },
+    {
+      "id": "acellular-integration-inhibitor-integrated",
+      "chapter": "Acellular Life",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an effective integrase inhibitor is given early in HIV infection?",
+      "options": [
+        "The nucleic acid becomes better protected outside the host cell — Capsid proteins shield the genome from nucleases and environmental damage",
+        "The virus fails to infect that cell efficiently — Attachment requires molecular complementarity between viral ligands and host receptors",
+        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "Stable insertion of viral DNA into host chromosomes is reduced — The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA"
+      ],
+      "answer": 3,
+      "explanation": "Stable insertion of viral DNA into host chromosomes is reduced. The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA."
+    }
+  ]
+}

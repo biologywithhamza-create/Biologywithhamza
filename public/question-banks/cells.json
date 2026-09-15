@@ -1,0 +1,1408 @@
+{
+  "chapter": "Cell Structure & Function",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "sodium-pump",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "A toxin blocks all sodium–potassium pumps in an animal cell. Which change should develop gradually?",
+      "options": [
+        "Loss of sodium and potassium gradients",
+        "Immediate destruction of nuclear DNA",
+        "Permanent closure of every ion channel",
+        "Conversion of lysosomes into ribosomes"
+      ],
+      "answer": 0,
+      "explanation": "The pump continually maintains unequal sodium and potassium distributions. Existing gradients persist briefly but dissipate as ions continue moving through channels."
+    },
+    {
+      "id": "lysosome-ph",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Why does rupture of a few lysosomes not normally digest the entire cytoplasm immediately?",
+      "options": [
+        "Their enzymes contain no peptide bonds",
+        "Many lysosomal enzymes work best at acidic pH",
+        "Cytoplasm has no water",
+        "The enzymes can digest only lipids"
+      ],
+      "answer": 1,
+      "explanation": "Lysosomal hydrolases are optimized for an acidic compartment. The near-neutral cytosol reduces their activity, although extensive rupture can still injure the cell."
+    },
+    {
+      "id": "cristae",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "An increase in mitochondrial cristae most directly provides more surface for:",
+      "options": [
+        "DNA replication in the nucleus",
+        "Glycolysis in the cytosol",
+        "Electron transport and ATP synthase",
+        "Protein digestion in lysosomes"
+      ],
+      "answer": 2,
+      "explanation": "The inner mitochondrial membrane contains electron-transport proteins and ATP synthase. Cristae increase its usable surface area."
+    },
+    {
+      "id": "osmosis-cell",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A red blood cell is placed in a solution with a lower water potential than its cytoplasm. What follows first?",
+      "options": [
+        "Water enters and the cell lyses",
+        "ATP production stops instantly",
+        "Solute leaves by osmosis",
+        "Water leaves and the cell shrinks"
+      ],
+      "answer": 3,
+      "explanation": "Water moves from higher to lower water potential across the membrane, so it leaves the cell and the cell becomes crenated."
+    },
+    {
+      "id": "cells-nucleus-control-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "The nucleus retains intact DNA and functional transcription machinery. Which outcome follows most directly?",
+      "options": [
+        "The cell can produce RNA instructions for protein synthesis",
+        "A polypeptide can be assembled in the encoded amino-acid sequence",
+        "Its rough endoplasmic reticulum becomes especially prominent",
+        "They are modified, sorted and packaged into vesicles"
+      ],
+      "answer": 0,
+      "explanation": "The cell can produce RNA instructions for protein synthesis. Genes serve as templates for transcription before ribosomes translate the messages."
+    },
+    {
+      "id": "cells-nucleus-control-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: the cell can produce RNA instructions for protein synthesis?",
+      "options": [
+        "A ribosome binds an mRNA molecule",
+        "The nucleus retains intact DNA and functional transcription machinery",
+        "A cell begins secreting large quantities of protein",
+        "New secretory proteins arrive at the Golgi apparatus"
+      ],
+      "answer": 1,
+      "explanation": "The cell can produce RNA instructions for protein synthesis. Genes serve as templates for transcription before ribosomes translate the messages."
+    },
+    {
+      "id": "cells-nucleus-control-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "After the nucleus retains intact DNA and functional transcription machinery, which explanation best links the change to its outcome?",
+      "options": [
+        "The ribosome coordinates codon recognition and peptide-bond formation",
+        "Attached ribosomes synthesize proteins that enter the endomembrane pathway",
+        "Genes serve as templates for transcription before ribosomes translate the messages",
+        "Ordered Golgi cisternae process cargo and direct it toward specific destinations"
+      ],
+      "answer": 2,
+      "explanation": "The cell can produce RNA instructions for protein synthesis. Genes serve as templates for transcription before ribosomes translate the messages."
+    },
+    {
+      "id": "cells-nucleus-control-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: the nucleus retains intact DNA and functional transcription machinery?",
+      "options": [
+        "A polypeptide can be assembled in the encoded amino-acid sequence — The ribosome coordinates codon recognition and peptide-bond formation",
+        "Its rough endoplasmic reticulum becomes especially prominent — Attached ribosomes synthesize proteins that enter the endomembrane pathway",
+        "They are modified, sorted and packaged into vesicles — Ordered Golgi cisternae process cargo and direct it toward specific destinations",
+        "The cell can produce RNA instructions for protein synthesis — Genes serve as templates for transcription before ribosomes translate the messages"
+      ],
+      "answer": 3,
+      "explanation": "The cell can produce RNA instructions for protein synthesis. Genes serve as templates for transcription before ribosomes translate the messages."
+    },
+    {
+      "id": "cells-ribosome-role-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "After a ribosome binds an mRNA molecule, which observation is most likely?",
+      "options": [
+        "A polypeptide can be assembled in the encoded amino-acid sequence",
+        "Its rough endoplasmic reticulum becomes especially prominent",
+        "They are modified, sorted and packaged into vesicles",
+        "It commonly contains numerous mitochondria"
+      ],
+      "answer": 0,
+      "explanation": "A polypeptide can be assembled in the encoded amino-acid sequence. The ribosome coordinates codon recognition and peptide-bond formation."
+    },
+    {
+      "id": "cells-ribosome-role-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "A learner records that a polypeptide can be assembled in the encoded amino-acid sequence. Which preceding event best accounts for it?",
+      "options": [
+        "A cell begins secreting large quantities of protein",
+        "A ribosome binds an mRNA molecule",
+        "New secretory proteins arrive at the Golgi apparatus",
+        "A cell has a persistently high demand for aerobic ATP"
+      ],
+      "answer": 1,
+      "explanation": "A polypeptide can be assembled in the encoded amino-acid sequence. The ribosome coordinates codon recognition and peptide-bond formation."
+    },
+    {
+      "id": "cells-ribosome-role-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "After a ribosome binds an mRNA molecule, which explanation best links the change to its outcome?",
+      "options": [
+        "Attached ribosomes synthesize proteins that enter the endomembrane pathway",
+        "Ordered Golgi cisternae process cargo and direct it toward specific destinations",
+        "The ribosome coordinates codon recognition and peptide-bond formation",
+        "Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery"
+      ],
+      "answer": 2,
+      "explanation": "A polypeptide can be assembled in the encoded amino-acid sequence. The ribosome coordinates codon recognition and peptide-bond formation."
+    },
+    {
+      "id": "cells-ribosome-role-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a ribosome binds an mRNA molecule?",
+      "options": [
+        "It commonly contains numerous mitochondria — Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery",
+        "Its rough endoplasmic reticulum becomes especially prominent — Attached ribosomes synthesize proteins that enter the endomembrane pathway",
+        "They are modified, sorted and packaged into vesicles — Ordered Golgi cisternae process cargo and direct it toward specific destinations",
+        "A polypeptide can be assembled in the encoded amino-acid sequence — The ribosome coordinates codon recognition and peptide-bond formation"
+      ],
+      "answer": 3,
+      "explanation": "A polypeptide can be assembled in the encoded amino-acid sequence. The ribosome coordinates codon recognition and peptide-bond formation."
+    },
+    {
+      "id": "cells-rough-er-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: A cell begins secreting large quantities of protein. What should the model predict first?",
+      "options": [
+        "Its rough endoplasmic reticulum becomes especially prominent",
+        "It commonly contains numerous mitochondria",
+        "They are modified, sorted and packaged into vesicles",
+        "Electrons become energized for the light-dependent reactions"
+      ],
+      "answer": 0,
+      "explanation": "Its rough endoplasmic reticulum becomes especially prominent. Attached ribosomes synthesize proteins that enter the endomembrane pathway."
+    },
+    {
+      "id": "cells-rough-er-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when its rough endoplasmic reticulum becomes especially prominent?",
+      "options": [
+        "New secretory proteins arrive at the Golgi apparatus",
+        "A cell begins secreting large quantities of protein",
+        "Chlorophyll absorbs suitable wavelengths of light",
+        "A cell has a persistently high demand for aerobic ATP"
+      ],
+      "answer": 1,
+      "explanation": "Its rough endoplasmic reticulum becomes especially prominent. Attached ribosomes synthesize proteins that enter the endomembrane pathway."
+    },
+    {
+      "id": "cells-rough-er-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "After a cell begins secreting large quantities of protein, which explanation best links the change to its outcome?",
+      "options": [
+        "Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery",
+        "Ordered Golgi cisternae process cargo and direct it toward specific destinations",
+        "Attached ribosomes synthesize proteins that enter the endomembrane pathway",
+        "Excited chlorophyll electrons enter transport chains in thylakoid membranes"
+      ],
+      "answer": 2,
+      "explanation": "Its rough endoplasmic reticulum becomes especially prominent. Attached ribosomes synthesize proteins that enter the endomembrane pathway."
+    },
+    {
+      "id": "cells-rough-er-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a cell begins secreting large quantities of protein?",
+      "options": [
+        "They are modified, sorted and packaged into vesicles — Ordered Golgi cisternae process cargo and direct it toward specific destinations",
+        "Electrons become energized for the light-dependent reactions — Excited chlorophyll electrons enter transport chains in thylakoid membranes",
+        "It commonly contains numerous mitochondria — Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery",
+        "Its rough endoplasmic reticulum becomes especially prominent — Attached ribosomes synthesize proteins that enter the endomembrane pathway"
+      ],
+      "answer": 3,
+      "explanation": "Its rough endoplasmic reticulum becomes especially prominent. Attached ribosomes synthesize proteins that enter the endomembrane pathway."
+    },
+    {
+      "id": "cells-golgi-packaging-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: New secretory proteins arrive at the Golgi apparatus?",
+      "options": [
+        "They are modified, sorted and packaged into vesicles",
+        "Electrons become energized for the light-dependent reactions",
+        "Its undegraded substrate accumulates inside lysosomes",
+        "It commonly contains numerous mitochondria"
+      ],
+      "answer": 0,
+      "explanation": "They are modified, sorted and packaged into vesicles. Ordered Golgi cisternae process cargo and direct it toward specific destinations."
+    },
+    {
+      "id": "cells-golgi-packaging-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: they are modified, sorted and packaged into vesicles?",
+      "options": [
+        "A cell has a persistently high demand for aerobic ATP",
+        "New secretory proteins arrive at the Golgi apparatus",
+        "Chlorophyll absorbs suitable wavelengths of light",
+        "A lysosomal hydrolase is absent because of a genetic defect"
+      ],
+      "answer": 1,
+      "explanation": "They are modified, sorted and packaged into vesicles. Ordered Golgi cisternae process cargo and direct it toward specific destinations."
+    },
+    {
+      "id": "cells-golgi-packaging-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "After new secretory proteins arrive at the Golgi apparatus, which explanation best links the change to its outcome?",
+      "options": [
+        "Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery",
+        "Excited chlorophyll electrons enter transport chains in thylakoid membranes",
+        "Ordered Golgi cisternae process cargo and direct it toward specific destinations",
+        "Macromolecular recycling stalls when the required acidic enzyme is missing"
+      ],
+      "answer": 2,
+      "explanation": "They are modified, sorted and packaged into vesicles. Ordered Golgi cisternae process cargo and direct it toward specific destinations."
+    },
+    {
+      "id": "cells-golgi-packaging-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: new secretory proteins arrive at the Golgi apparatus?",
+      "options": [
+        "It commonly contains numerous mitochondria — Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery",
+        "Electrons become energized for the light-dependent reactions — Excited chlorophyll electrons enter transport chains in thylakoid membranes",
+        "Its undegraded substrate accumulates inside lysosomes — Macromolecular recycling stalls when the required acidic enzyme is missing",
+        "They are modified, sorted and packaged into vesicles — Ordered Golgi cisternae process cargo and direct it toward specific destinations"
+      ],
+      "answer": 3,
+      "explanation": "They are modified, sorted and packaged into vesicles. Ordered Golgi cisternae process cargo and direct it toward specific destinations."
+    },
+    {
+      "id": "cells-mitochondria-demand-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "A cell has a persistently high demand for aerobic ATP. Which outcome follows most directly?",
+      "options": [
+        "It commonly contains numerous mitochondria",
+        "Electrons become energized for the light-dependent reactions",
+        "Its undegraded substrate accumulates inside lysosomes",
+        "Its capacity for membrane transport and absorption increases"
+      ],
+      "answer": 0,
+      "explanation": "It commonly contains numerous mitochondria. Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery."
+    },
+    {
+      "id": "cells-mitochondria-demand-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: it commonly contains numerous mitochondria?",
+      "options": [
+        "Chlorophyll absorbs suitable wavelengths of light",
+        "A cell has a persistently high demand for aerobic ATP",
+        "A lysosomal hydrolase is absent because of a genetic defect",
+        "An epithelial cell develops many microvilli"
+      ],
+      "answer": 1,
+      "explanation": "It commonly contains numerous mitochondria. Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery."
+    },
+    {
+      "id": "cells-mitochondria-demand-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "After a cell has a persistently high demand for aerobic ATP, which explanation best links the change to its outcome?",
+      "options": [
+        "Excited chlorophyll electrons enter transport chains in thylakoid membranes",
+        "Macromolecular recycling stalls when the required acidic enzyme is missing",
+        "Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery",
+        "Membrane folds create a larger surface area for carriers and channels"
+      ],
+      "answer": 2,
+      "explanation": "It commonly contains numerous mitochondria. Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery."
+    },
+    {
+      "id": "cells-mitochondria-demand-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a cell has a persistently high demand for aerobic ATP?",
+      "options": [
+        "Electrons become energized for the light-dependent reactions — Excited chlorophyll electrons enter transport chains in thylakoid membranes",
+        "Its undegraded substrate accumulates inside lysosomes — Macromolecular recycling stalls when the required acidic enzyme is missing",
+        "Its capacity for membrane transport and absorption increases — Membrane folds create a larger surface area for carriers and channels",
+        "It commonly contains numerous mitochondria — Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery"
+      ],
+      "answer": 3,
+      "explanation": "It commonly contains numerous mitochondria. Mitochondria house the citric-acid cycle and oxidative-phosphorylation machinery."
+    },
+    {
+      "id": "cells-chloroplast-light-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "After chlorophyll absorbs suitable wavelengths of light, which observation is most likely?",
+      "options": [
+        "Electrons become energized for the light-dependent reactions",
+        "Its undegraded substrate accumulates inside lysosomes",
+        "Its capacity for membrane transport and absorption increases",
+        "Net diffusion initially occurs at a faster rate"
+      ],
+      "answer": 0,
+      "explanation": "Electrons become energized for the light-dependent reactions. Excited chlorophyll electrons enter transport chains in thylakoid membranes."
+    },
+    {
+      "id": "cells-chloroplast-light-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "A learner records that electrons become energized for the light-dependent reactions. Which preceding event best accounts for it?",
+      "options": [
+        "A lysosomal hydrolase is absent because of a genetic defect",
+        "Chlorophyll absorbs suitable wavelengths of light",
+        "An epithelial cell develops many microvilli",
+        "The concentration difference across a permeable membrane becomes steeper"
+      ],
+      "answer": 1,
+      "explanation": "Electrons become energized for the light-dependent reactions. Excited chlorophyll electrons enter transport chains in thylakoid membranes."
+    },
+    {
+      "id": "cells-chloroplast-light-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "After chlorophyll absorbs suitable wavelengths of light, which explanation best links the change to its outcome?",
+      "options": [
+        "Macromolecular recycling stalls when the required acidic enzyme is missing",
+        "Membrane folds create a larger surface area for carriers and channels",
+        "Excited chlorophyll electrons enter transport chains in thylakoid membranes",
+        "A larger imbalance produces more random movement in the downhill than uphill direction"
+      ],
+      "answer": 2,
+      "explanation": "Electrons become energized for the light-dependent reactions. Excited chlorophyll electrons enter transport chains in thylakoid membranes."
+    },
+    {
+      "id": "cells-chloroplast-light-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: chlorophyll absorbs suitable wavelengths of light?",
+      "options": [
+        "Net diffusion initially occurs at a faster rate — A larger imbalance produces more random movement in the downhill than uphill direction",
+        "Its undegraded substrate accumulates inside lysosomes — Macromolecular recycling stalls when the required acidic enzyme is missing",
+        "Its capacity for membrane transport and absorption increases — Membrane folds create a larger surface area for carriers and channels",
+        "Electrons become energized for the light-dependent reactions — Excited chlorophyll electrons enter transport chains in thylakoid membranes"
+      ],
+      "answer": 3,
+      "explanation": "Electrons become energized for the light-dependent reactions. Excited chlorophyll electrons enter transport chains in thylakoid membranes."
+    },
+    {
+      "id": "cells-lysosome-defect-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A lysosomal hydrolase is absent because of a genetic defect. What should the model predict first?",
+      "options": [
+        "Its undegraded substrate accumulates inside lysosomes",
+        "Net diffusion initially occurs at a faster rate",
+        "Its capacity for membrane transport and absorption increases",
+        "The solute crosses without direct ATP expenditure"
+      ],
+      "answer": 0,
+      "explanation": "Its undegraded substrate accumulates inside lysosomes. Macromolecular recycling stalls when the required acidic enzyme is missing."
+    },
+    {
+      "id": "cells-lysosome-defect-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when its undegraded substrate accumulates inside lysosomes?",
+      "options": [
+        "An epithelial cell develops many microvilli",
+        "A lysosomal hydrolase is absent because of a genetic defect",
+        "A polar solute moves down its concentration gradient through a carrier",
+        "The concentration difference across a permeable membrane becomes steeper"
+      ],
+      "answer": 1,
+      "explanation": "Its undegraded substrate accumulates inside lysosomes. Macromolecular recycling stalls when the required acidic enzyme is missing."
+    },
+    {
+      "id": "cells-lysosome-defect-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a lysosomal hydrolase is absent because of a genetic defect, which explanation best links the change to its outcome?",
+      "options": [
+        "A larger imbalance produces more random movement in the downhill than uphill direction",
+        "Membrane folds create a larger surface area for carriers and channels",
+        "Macromolecular recycling stalls when the required acidic enzyme is missing",
+        "A membrane protein provides a selective hydrophilic pathway for passive transport"
+      ],
+      "answer": 2,
+      "explanation": "Its undegraded substrate accumulates inside lysosomes. Macromolecular recycling stalls when the required acidic enzyme is missing."
+    },
+    {
+      "id": "cells-lysosome-defect-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a lysosomal hydrolase is absent because of a genetic defect?",
+      "options": [
+        "Its capacity for membrane transport and absorption increases — Membrane folds create a larger surface area for carriers and channels",
+        "The solute crosses without direct ATP expenditure — A membrane protein provides a selective hydrophilic pathway for passive transport",
+        "Net diffusion initially occurs at a faster rate — A larger imbalance produces more random movement in the downhill than uphill direction",
+        "Its undegraded substrate accumulates inside lysosomes — Macromolecular recycling stalls when the required acidic enzyme is missing"
+      ],
+      "answer": 3,
+      "explanation": "Its undegraded substrate accumulates inside lysosomes. Macromolecular recycling stalls when the required acidic enzyme is missing."
+    },
+    {
+      "id": "cells-microvilli-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: An epithelial cell develops many microvilli?",
+      "options": [
+        "Its capacity for membrane transport and absorption increases",
+        "The solute crosses without direct ATP expenditure",
+        "The solute can move against its electrochemical gradient",
+        "Net diffusion initially occurs at a faster rate"
+      ],
+      "answer": 0,
+      "explanation": "Its capacity for membrane transport and absorption increases. Membrane folds create a larger surface area for carriers and channels."
+    },
+    {
+      "id": "cells-microvilli-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: its capacity for membrane transport and absorption increases?",
+      "options": [
+        "The concentration difference across a permeable membrane becomes steeper",
+        "An epithelial cell develops many microvilli",
+        "A polar solute moves down its concentration gradient through a carrier",
+        "A membrane pump hydrolyses ATP while binding a solute"
+      ],
+      "answer": 1,
+      "explanation": "Its capacity for membrane transport and absorption increases. Membrane folds create a larger surface area for carriers and channels."
+    },
+    {
+      "id": "cells-microvilli-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After an epithelial cell develops many microvilli, which explanation best links the change to its outcome?",
+      "options": [
+        "A larger imbalance produces more random movement in the downhill than uphill direction",
+        "A membrane protein provides a selective hydrophilic pathway for passive transport",
+        "Membrane folds create a larger surface area for carriers and channels",
+        "Phosphorylation drives conformational changes that alternately expose the binding site"
+      ],
+      "answer": 2,
+      "explanation": "Its capacity for membrane transport and absorption increases. Membrane folds create a larger surface area for carriers and channels."
+    },
+    {
+      "id": "cells-microvilli-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: an epithelial cell develops many microvilli?",
+      "options": [
+        "Net diffusion initially occurs at a faster rate — A larger imbalance produces more random movement in the downhill than uphill direction",
+        "The solute crosses without direct ATP expenditure — A membrane protein provides a selective hydrophilic pathway for passive transport",
+        "The solute can move against its electrochemical gradient — Phosphorylation drives conformational changes that alternately expose the binding site",
+        "Its capacity for membrane transport and absorption increases — Membrane folds create a larger surface area for carriers and channels"
+      ],
+      "answer": 3,
+      "explanation": "Its capacity for membrane transport and absorption increases. Membrane folds create a larger surface area for carriers and channels."
+    },
+    {
+      "id": "cells-diffusion-gradient-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "The concentration difference across a permeable membrane becomes steeper. Which outcome follows most directly?",
+      "options": [
+        "Net diffusion initially occurs at a faster rate",
+        "The solute crosses without direct ATP expenditure",
+        "The solute can move against its electrochemical gradient",
+        "Water enters and the cell may lyse"
+      ],
+      "answer": 0,
+      "explanation": "Net diffusion initially occurs at a faster rate. A larger imbalance produces more random movement in the downhill than uphill direction."
+    },
+    {
+      "id": "cells-diffusion-gradient-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: net diffusion initially occurs at a faster rate?",
+      "options": [
+        "A polar solute moves down its concentration gradient through a carrier",
+        "The concentration difference across a permeable membrane becomes steeper",
+        "A membrane pump hydrolyses ATP while binding a solute",
+        "An animal cell is placed in a strongly hypotonic solution"
+      ],
+      "answer": 1,
+      "explanation": "Net diffusion initially occurs at a faster rate. A larger imbalance produces more random movement in the downhill than uphill direction."
+    },
+    {
+      "id": "cells-diffusion-gradient-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After the concentration difference across a permeable membrane becomes steeper, which explanation best links the change to its outcome?",
+      "options": [
+        "A membrane protein provides a selective hydrophilic pathway for passive transport",
+        "Phosphorylation drives conformational changes that alternately expose the binding site",
+        "A larger imbalance produces more random movement in the downhill than uphill direction",
+        "Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling"
+      ],
+      "answer": 2,
+      "explanation": "Net diffusion initially occurs at a faster rate. A larger imbalance produces more random movement in the downhill than uphill direction."
+    },
+    {
+      "id": "cells-diffusion-gradient-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the concentration difference across a permeable membrane becomes steeper?",
+      "options": [
+        "The solute crosses without direct ATP expenditure — A membrane protein provides a selective hydrophilic pathway for passive transport",
+        "The solute can move against its electrochemical gradient — Phosphorylation drives conformational changes that alternately expose the binding site",
+        "Water enters and the cell may lyse — Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling",
+        "Net diffusion initially occurs at a faster rate — A larger imbalance produces more random movement in the downhill than uphill direction"
+      ],
+      "answer": 3,
+      "explanation": "Net diffusion initially occurs at a faster rate. A larger imbalance produces more random movement in the downhill than uphill direction."
+    },
+    {
+      "id": "cells-facilitated-diffusion-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a polar solute moves down its concentration gradient through a carrier, which observation is most likely?",
+      "options": [
+        "The solute crosses without direct ATP expenditure",
+        "The solute can move against its electrochemical gradient",
+        "Water enters and the cell may lyse",
+        "It becomes turgid rather than bursting"
+      ],
+      "answer": 0,
+      "explanation": "The solute crosses without direct ATP expenditure. A membrane protein provides a selective hydrophilic pathway for passive transport."
+    },
+    {
+      "id": "cells-facilitated-diffusion-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A learner records that the solute crosses without direct ATP expenditure. Which preceding event best accounts for it?",
+      "options": [
+        "A membrane pump hydrolyses ATP while binding a solute",
+        "A polar solute moves down its concentration gradient through a carrier",
+        "An animal cell is placed in a strongly hypotonic solution",
+        "A healthy plant cell is placed in a hypotonic solution"
+      ],
+      "answer": 1,
+      "explanation": "The solute crosses without direct ATP expenditure. A membrane protein provides a selective hydrophilic pathway for passive transport."
+    },
+    {
+      "id": "cells-facilitated-diffusion-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a polar solute moves down its concentration gradient through a carrier, which explanation best links the change to its outcome?",
+      "options": [
+        "Phosphorylation drives conformational changes that alternately expose the binding site",
+        "Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling",
+        "A membrane protein provides a selective hydrophilic pathway for passive transport",
+        "Water entry raises turgor pressure until the rigid wall opposes further expansion"
+      ],
+      "answer": 2,
+      "explanation": "The solute crosses without direct ATP expenditure. A membrane protein provides a selective hydrophilic pathway for passive transport."
+    },
+    {
+      "id": "cells-facilitated-diffusion-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a polar solute moves down its concentration gradient through a carrier?",
+      "options": [
+        "It becomes turgid rather than bursting — Water entry raises turgor pressure until the rigid wall opposes further expansion",
+        "The solute can move against its electrochemical gradient — Phosphorylation drives conformational changes that alternately expose the binding site",
+        "Water enters and the cell may lyse — Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling",
+        "The solute crosses without direct ATP expenditure — A membrane protein provides a selective hydrophilic pathway for passive transport"
+      ],
+      "answer": 3,
+      "explanation": "The solute crosses without direct ATP expenditure. A membrane protein provides a selective hydrophilic pathway for passive transport."
+    },
+    {
+      "id": "cells-active-transport-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A membrane pump hydrolyses ATP while binding a solute. What should the model predict first?",
+      "options": [
+        "The solute can move against its electrochemical gradient",
+        "It becomes turgid rather than bursting",
+        "Water enters and the cell may lyse",
+        "The particle enters the cell inside a vesicle"
+      ],
+      "answer": 0,
+      "explanation": "The solute can move against its electrochemical gradient. Phosphorylation drives conformational changes that alternately expose the binding site."
+    },
+    {
+      "id": "cells-active-transport-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the solute can move against its electrochemical gradient?",
+      "options": [
+        "An animal cell is placed in a strongly hypotonic solution",
+        "A membrane pump hydrolyses ATP while binding a solute",
+        "The plasma membrane surrounds a large extracellular particle",
+        "A healthy plant cell is placed in a hypotonic solution"
+      ],
+      "answer": 1,
+      "explanation": "The solute can move against its electrochemical gradient. Phosphorylation drives conformational changes that alternately expose the binding site."
+    },
+    {
+      "id": "cells-active-transport-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a membrane pump hydrolyses ATP while binding a solute, which explanation best links the change to its outcome?",
+      "options": [
+        "Water entry raises turgor pressure until the rigid wall opposes further expansion",
+        "Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling",
+        "Phosphorylation drives conformational changes that alternately expose the binding site",
+        "Membrane invagination and scission perform bulk transport by endocytosis"
+      ],
+      "answer": 2,
+      "explanation": "The solute can move against its electrochemical gradient. Phosphorylation drives conformational changes that alternately expose the binding site."
+    },
+    {
+      "id": "cells-active-transport-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a membrane pump hydrolyses ATP while binding a solute?",
+      "options": [
+        "Water enters and the cell may lyse — Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling",
+        "The particle enters the cell inside a vesicle — Membrane invagination and scission perform bulk transport by endocytosis",
+        "It becomes turgid rather than bursting — Water entry raises turgor pressure until the rigid wall opposes further expansion",
+        "The solute can move against its electrochemical gradient — Phosphorylation drives conformational changes that alternately expose the binding site"
+      ],
+      "answer": 3,
+      "explanation": "The solute can move against its electrochemical gradient. Phosphorylation drives conformational changes that alternately expose the binding site."
+    },
+    {
+      "id": "cells-animal-hypotonic-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: An animal cell is placed in a strongly hypotonic solution?",
+      "options": [
+        "Water enters and the cell may lyse",
+        "The particle enters the cell inside a vesicle",
+        "Its soluble contents are released outside the cell",
+        "It becomes turgid rather than bursting"
+      ],
+      "answer": 0,
+      "explanation": "Water enters and the cell may lyse. Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling."
+    },
+    {
+      "id": "cells-animal-hypotonic-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: water enters and the cell may lyse?",
+      "options": [
+        "A healthy plant cell is placed in a hypotonic solution",
+        "An animal cell is placed in a strongly hypotonic solution",
+        "The plasma membrane surrounds a large extracellular particle",
+        "A secretory vesicle fuses with the plasma membrane"
+      ],
+      "answer": 1,
+      "explanation": "Water enters and the cell may lyse. Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling."
+    },
+    {
+      "id": "cells-animal-hypotonic-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After an animal cell is placed in a strongly hypotonic solution, which explanation best links the change to its outcome?",
+      "options": [
+        "Water entry raises turgor pressure until the rigid wall opposes further expansion",
+        "Membrane invagination and scission perform bulk transport by endocytosis",
+        "Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling",
+        "Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids"
+      ],
+      "answer": 2,
+      "explanation": "Water enters and the cell may lyse. Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling."
+    },
+    {
+      "id": "cells-animal-hypotonic-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: an animal cell is placed in a strongly hypotonic solution?",
+      "options": [
+        "It becomes turgid rather than bursting — Water entry raises turgor pressure until the rigid wall opposes further expansion",
+        "The particle enters the cell inside a vesicle — Membrane invagination and scission perform bulk transport by endocytosis",
+        "Its soluble contents are released outside the cell — Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids",
+        "Water enters and the cell may lyse — Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling"
+      ],
+      "answer": 3,
+      "explanation": "Water enters and the cell may lyse. Osmosis drives water toward the more concentrated cytoplasm without a rigid wall to resist swelling."
+    },
+    {
+      "id": "cells-plant-hypotonic-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A healthy plant cell is placed in a hypotonic solution. Which outcome follows most directly?",
+      "options": [
+        "It becomes turgid rather than bursting",
+        "The particle enters the cell inside a vesicle",
+        "Its soluble contents are released outside the cell",
+        "A bipolar spindle forms"
+      ],
+      "answer": 0,
+      "explanation": "It becomes turgid rather than bursting. Water entry raises turgor pressure until the rigid wall opposes further expansion."
+    },
+    {
+      "id": "cells-plant-hypotonic-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: it becomes turgid rather than bursting?",
+      "options": [
+        "The plasma membrane surrounds a large extracellular particle",
+        "A healthy plant cell is placed in a hypotonic solution",
+        "A secretory vesicle fuses with the plasma membrane",
+        "Centrosomes organize microtubules as an animal cell enters mitosis"
+      ],
+      "answer": 1,
+      "explanation": "It becomes turgid rather than bursting. Water entry raises turgor pressure until the rigid wall opposes further expansion."
+    },
+    {
+      "id": "cells-plant-hypotonic-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a healthy plant cell is placed in a hypotonic solution, which explanation best links the change to its outcome?",
+      "options": [
+        "Membrane invagination and scission perform bulk transport by endocytosis",
+        "Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids",
+        "Water entry raises turgor pressure until the rigid wall opposes further expansion",
+        "Microtubules extend from opposite poles and attach to chromosome kinetochores"
+      ],
+      "answer": 2,
+      "explanation": "It becomes turgid rather than bursting. Water entry raises turgor pressure until the rigid wall opposes further expansion."
+    },
+    {
+      "id": "cells-plant-hypotonic-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a healthy plant cell is placed in a hypotonic solution?",
+      "options": [
+        "The particle enters the cell inside a vesicle — Membrane invagination and scission perform bulk transport by endocytosis",
+        "Its soluble contents are released outside the cell — Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids",
+        "A bipolar spindle forms — Microtubules extend from opposite poles and attach to chromosome kinetochores",
+        "It becomes turgid rather than bursting — Water entry raises turgor pressure until the rigid wall opposes further expansion"
+      ],
+      "answer": 3,
+      "explanation": "It becomes turgid rather than bursting. Water entry raises turgor pressure until the rigid wall opposes further expansion."
+    },
+    {
+      "id": "cells-endocytosis-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After the plasma membrane surrounds a large extracellular particle, which observation is most likely?",
+      "options": [
+        "The particle enters the cell inside a vesicle",
+        "Its soluble contents are released outside the cell",
+        "A bipolar spindle forms",
+        "It can still translate proteins in its cytoplasm"
+      ],
+      "answer": 0,
+      "explanation": "The particle enters the cell inside a vesicle. Membrane invagination and scission perform bulk transport by endocytosis."
+    },
+    {
+      "id": "cells-endocytosis-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A learner records that the particle enters the cell inside a vesicle. Which preceding event best accounts for it?",
+      "options": [
+        "A secretory vesicle fuses with the plasma membrane",
+        "The plasma membrane surrounds a large extracellular particle",
+        "Centrosomes organize microtubules as an animal cell enters mitosis",
+        "A bacterial cell lacks membrane-bound organelles"
+      ],
+      "answer": 1,
+      "explanation": "The particle enters the cell inside a vesicle. Membrane invagination and scission perform bulk transport by endocytosis."
+    },
+    {
+      "id": "cells-endocytosis-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After the plasma membrane surrounds a large extracellular particle, which explanation best links the change to its outcome?",
+      "options": [
+        "Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids",
+        "Microtubules extend from opposite poles and attach to chromosome kinetochores",
+        "Membrane invagination and scission perform bulk transport by endocytosis",
+        "Free 70S ribosomes perform translation without an endoplasmic reticulum"
+      ],
+      "answer": 2,
+      "explanation": "The particle enters the cell inside a vesicle. Membrane invagination and scission perform bulk transport by endocytosis."
+    },
+    {
+      "id": "cells-endocytosis-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the plasma membrane surrounds a large extracellular particle?",
+      "options": [
+        "It can still translate proteins in its cytoplasm — Free 70S ribosomes perform translation without an endoplasmic reticulum",
+        "Its soluble contents are released outside the cell — Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids",
+        "A bipolar spindle forms — Microtubules extend from opposite poles and attach to chromosome kinetochores",
+        "The particle enters the cell inside a vesicle — Membrane invagination and scission perform bulk transport by endocytosis"
+      ],
+      "answer": 3,
+      "explanation": "The particle enters the cell inside a vesicle. Membrane invagination and scission perform bulk transport by endocytosis."
+    },
+    {
+      "id": "cells-exocytosis-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A secretory vesicle fuses with the plasma membrane. What should the model predict first?",
+      "options": [
+        "Its soluble contents are released outside the cell",
+        "It can still translate proteins in its cytoplasm",
+        "A bipolar spindle forms",
+        "Its surface-area-to-volume ratio decreases"
+      ],
+      "answer": 0,
+      "explanation": "Its soluble contents are released outside the cell. Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids."
+    },
+    {
+      "id": "cells-exocytosis-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when its soluble contents are released outside the cell?",
+      "options": [
+        "Centrosomes organize microtubules as an animal cell enters mitosis",
+        "A secretory vesicle fuses with the plasma membrane",
+        "A cell increases in diameter without changing shape",
+        "A bacterial cell lacks membrane-bound organelles"
+      ],
+      "answer": 1,
+      "explanation": "Its soluble contents are released outside the cell. Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids."
+    },
+    {
+      "id": "cells-exocytosis-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a secretory vesicle fuses with the plasma membrane, which explanation best links the change to its outcome?",
+      "options": [
+        "Free 70S ribosomes perform translation without an endoplasmic reticulum",
+        "Microtubules extend from opposite poles and attach to chromosome kinetochores",
+        "Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids",
+        "Volume rises with the cube of length while surface area rises with the square"
+      ],
+      "answer": 2,
+      "explanation": "Its soluble contents are released outside the cell. Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids."
+    },
+    {
+      "id": "cells-exocytosis-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a secretory vesicle fuses with the plasma membrane?",
+      "options": [
+        "A bipolar spindle forms — Microtubules extend from opposite poles and attach to chromosome kinetochores",
+        "Its surface-area-to-volume ratio decreases — Volume rises with the cube of length while surface area rises with the square",
+        "It can still translate proteins in its cytoplasm — Free 70S ribosomes perform translation without an endoplasmic reticulum",
+        "Its soluble contents are released outside the cell — Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids"
+      ],
+      "answer": 3,
+      "explanation": "Its soluble contents are released outside the cell. Fusion joins the vesicle lumen to the extracellular space while adding membrane lipids."
+    },
+    {
+      "id": "cells-centriole-spindle-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Centrosomes organize microtubules as an animal cell enters mitosis?",
+      "options": [
+        "A bipolar spindle forms",
+        "Its surface-area-to-volume ratio decreases",
+        "Oxidative phosphorylation and most aerobic ATP production rapidly fall",
+        "It can still translate proteins in its cytoplasm"
+      ],
+      "answer": 0,
+      "explanation": "A bipolar spindle forms. Microtubules extend from opposite poles and attach to chromosome kinetochores."
+    },
+    {
+      "id": "cells-centriole-spindle-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: a bipolar spindle forms?",
+      "options": [
+        "A bacterial cell lacks membrane-bound organelles",
+        "Centrosomes organize microtubules as an animal cell enters mitosis",
+        "A cell increases in diameter without changing shape",
+        "Cyanide blocks the final electron carrier in mitochondria"
+      ],
+      "answer": 1,
+      "explanation": "A bipolar spindle forms. Microtubules extend from opposite poles and attach to chromosome kinetochores."
+    },
+    {
+      "id": "cells-centriole-spindle-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After centrosomes organize microtubules as an animal cell enters mitosis, which explanation best links the change to its outcome?",
+      "options": [
+        "Free 70S ribosomes perform translation without an endoplasmic reticulum",
+        "Volume rises with the cube of length while surface area rises with the square",
+        "Microtubules extend from opposite poles and attach to chromosome kinetochores",
+        "Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase"
+      ],
+      "answer": 2,
+      "explanation": "A bipolar spindle forms. Microtubules extend from opposite poles and attach to chromosome kinetochores."
+    },
+    {
+      "id": "cells-centriole-spindle-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: centrosomes organize microtubules as an animal cell enters mitosis?",
+      "options": [
+        "It can still translate proteins in its cytoplasm — Free 70S ribosomes perform translation without an endoplasmic reticulum",
+        "Its surface-area-to-volume ratio decreases — Volume rises with the cube of length while surface area rises with the square",
+        "Oxidative phosphorylation and most aerobic ATP production rapidly fall — Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase",
+        "A bipolar spindle forms — Microtubules extend from opposite poles and attach to chromosome kinetochores"
+      ],
+      "answer": 3,
+      "explanation": "A bipolar spindle forms. Microtubules extend from opposite poles and attach to chromosome kinetochores."
+    },
+    {
+      "id": "cells-prokaryote-ribosome-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A bacterial cell lacks membrane-bound organelles. Which outcome follows most directly?",
+      "options": [
+        "It can still translate proteins in its cytoplasm",
+        "Its surface-area-to-volume ratio decreases",
+        "Oxidative phosphorylation and most aerobic ATP production rapidly fall",
+        "Ion gradients weaken and osmotic swelling may develop"
+      ],
+      "answer": 0,
+      "explanation": "It can still translate proteins in its cytoplasm. Free 70S ribosomes perform translation without an endoplasmic reticulum."
+    },
+    {
+      "id": "cells-prokaryote-ribosome-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: it can still translate proteins in its cytoplasm?",
+      "options": [
+        "A cell increases in diameter without changing shape",
+        "A bacterial cell lacks membrane-bound organelles",
+        "Cyanide blocks the final electron carrier in mitochondria",
+        "A sodium-potassium pump inhibitor is applied for several hours"
+      ],
+      "answer": 1,
+      "explanation": "It can still translate proteins in its cytoplasm. Free 70S ribosomes perform translation without an endoplasmic reticulum."
+    },
+    {
+      "id": "cells-prokaryote-ribosome-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a bacterial cell lacks membrane-bound organelles, which explanation best links the change to its outcome?",
+      "options": [
+        "Volume rises with the cube of length while surface area rises with the square",
+        "Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase",
+        "Free 70S ribosomes perform translation without an endoplasmic reticulum",
+        "Sodium accumulates intracellularly and water follows the rising solute concentration"
+      ],
+      "answer": 2,
+      "explanation": "It can still translate proteins in its cytoplasm. Free 70S ribosomes perform translation without an endoplasmic reticulum."
+    },
+    {
+      "id": "cells-prokaryote-ribosome-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a bacterial cell lacks membrane-bound organelles?",
+      "options": [
+        "Its surface-area-to-volume ratio decreases — Volume rises with the cube of length while surface area rises with the square",
+        "Oxidative phosphorylation and most aerobic ATP production rapidly fall — Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase",
+        "Ion gradients weaken and osmotic swelling may develop — Sodium accumulates intracellularly and water follows the rising solute concentration",
+        "It can still translate proteins in its cytoplasm — Free 70S ribosomes perform translation without an endoplasmic reticulum"
+      ],
+      "answer": 3,
+      "explanation": "It can still translate proteins in its cytoplasm. Free 70S ribosomes perform translation without an endoplasmic reticulum."
+    },
+    {
+      "id": "cells-surface-volume-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a cell increases in diameter without changing shape, which observation is most likely?",
+      "options": [
+        "Its surface-area-to-volume ratio decreases",
+        "Oxidative phosphorylation and most aerobic ATP production rapidly fall",
+        "Ion gradients weaken and osmotic swelling may develop",
+        "It remains more fluid than a membrane rich in saturated fatty acids"
+      ],
+      "answer": 0,
+      "explanation": "Its surface-area-to-volume ratio decreases. Volume rises with the cube of length while surface area rises with the square."
+    },
+    {
+      "id": "cells-surface-volume-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "A learner records that its surface-area-to-volume ratio decreases. Which preceding event best accounts for it?",
+      "options": [
+        "Cyanide blocks the final electron carrier in mitochondria",
+        "A cell increases in diameter without changing shape",
+        "A sodium-potassium pump inhibitor is applied for several hours",
+        "A membrane contains a high proportion of unsaturated fatty acids at low temperature"
+      ],
+      "answer": 1,
+      "explanation": "Its surface-area-to-volume ratio decreases. Volume rises with the cube of length while surface area rises with the square."
+    },
+    {
+      "id": "cells-surface-volume-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "After a cell increases in diameter without changing shape, which explanation best links the change to its outcome?",
+      "options": [
+        "Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase",
+        "Sodium accumulates intracellularly and water follows the rising solute concentration",
+        "Volume rises with the cube of length while surface area rises with the square",
+        "Cis double-bond kinks prevent close packing and extensive van der Waals interactions"
+      ],
+      "answer": 2,
+      "explanation": "Its surface-area-to-volume ratio decreases. Volume rises with the cube of length while surface area rises with the square."
+    },
+    {
+      "id": "cells-surface-volume-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a cell increases in diameter without changing shape?",
+      "options": [
+        "It remains more fluid than a membrane rich in saturated fatty acids — Cis double-bond kinks prevent close packing and extensive van der Waals interactions",
+        "Oxidative phosphorylation and most aerobic ATP production rapidly fall — Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase",
+        "Ion gradients weaken and osmotic swelling may develop — Sodium accumulates intracellularly and water follows the rising solute concentration",
+        "Its surface-area-to-volume ratio decreases — Volume rises with the cube of length while surface area rises with the square"
+      ],
+      "answer": 3,
+      "explanation": "Its surface-area-to-volume ratio decreases. Volume rises with the cube of length while surface area rises with the square."
+    },
+    {
+      "id": "cells-cyanide-mitochondria-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Cyanide blocks the final electron carrier in mitochondria. What should the model predict first?",
+      "options": [
+        "Oxidative phosphorylation and most aerobic ATP production rapidly fall",
+        "It remains more fluid than a membrane rich in saturated fatty acids",
+        "Ion gradients weaken and osmotic swelling may develop",
+        "Long-distance vesicle transport inside the cell slows"
+      ],
+      "answer": 0,
+      "explanation": "Oxidative phosphorylation and most aerobic ATP production rapidly fall. Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase."
+    },
+    {
+      "id": "cells-cyanide-mitochondria-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when oxidative phosphorylation and most aerobic ATP production rapidly fall?",
+      "options": [
+        "A sodium-potassium pump inhibitor is applied for several hours",
+        "Cyanide blocks the final electron carrier in mitochondria",
+        "Motor proteins are prevented from moving along cytoskeletal tracks",
+        "A membrane contains a high proportion of unsaturated fatty acids at low temperature"
+      ],
+      "answer": 1,
+      "explanation": "Oxidative phosphorylation and most aerobic ATP production rapidly fall. Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase."
+    },
+    {
+      "id": "cells-cyanide-mitochondria-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "After cyanide blocks the final electron carrier in mitochondria, which explanation best links the change to its outcome?",
+      "options": [
+        "Cis double-bond kinks prevent close packing and extensive van der Waals interactions",
+        "Sodium accumulates intracellularly and water follows the rising solute concentration",
+        "Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase",
+        "Kinesin and dynein normally carry cargo directionally along microtubules"
+      ],
+      "answer": 2,
+      "explanation": "Oxidative phosphorylation and most aerobic ATP production rapidly fall. Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase."
+    },
+    {
+      "id": "cells-cyanide-mitochondria-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: cyanide blocks the final electron carrier in mitochondria?",
+      "options": [
+        "Ion gradients weaken and osmotic swelling may develop — Sodium accumulates intracellularly and water follows the rising solute concentration",
+        "Long-distance vesicle transport inside the cell slows — Kinesin and dynein normally carry cargo directionally along microtubules",
+        "It remains more fluid than a membrane rich in saturated fatty acids — Cis double-bond kinks prevent close packing and extensive van der Waals interactions",
+        "Oxidative phosphorylation and most aerobic ATP production rapidly fall — Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase"
+      ],
+      "answer": 3,
+      "explanation": "Oxidative phosphorylation and most aerobic ATP production rapidly fall. Electron flow stops, proton pumping ceases and the gradient cannot power ATP synthase."
+    },
+    {
+      "id": "cells-ouabain-volume-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: A sodium-potassium pump inhibitor is applied for several hours?",
+      "options": [
+        "Ion gradients weaken and osmotic swelling may develop",
+        "Long-distance vesicle transport inside the cell slows",
+        "Production of new ribosomal subunits declines",
+        "It remains more fluid than a membrane rich in saturated fatty acids"
+      ],
+      "answer": 0,
+      "explanation": "Ion gradients weaken and osmotic swelling may develop. Sodium accumulates intracellularly and water follows the rising solute concentration."
+    },
+    {
+      "id": "cells-ouabain-volume-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: ion gradients weaken and osmotic swelling may develop?",
+      "options": [
+        "A membrane contains a high proportion of unsaturated fatty acids at low temperature",
+        "A sodium-potassium pump inhibitor is applied for several hours",
+        "Motor proteins are prevented from moving along cytoskeletal tracks",
+        "Ribosomal RNA synthesis in the nucleolus is inhibited"
+      ],
+      "answer": 1,
+      "explanation": "Ion gradients weaken and osmotic swelling may develop. Sodium accumulates intracellularly and water follows the rising solute concentration."
+    },
+    {
+      "id": "cells-ouabain-volume-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "After a sodium-potassium pump inhibitor is applied for several hours, which explanation best links the change to its outcome?",
+      "options": [
+        "Cis double-bond kinks prevent close packing and extensive van der Waals interactions",
+        "Kinesin and dynein normally carry cargo directionally along microtubules",
+        "Sodium accumulates intracellularly and water follows the rising solute concentration",
+        "The nucleolus normally combines rRNA with imported ribosomal proteins"
+      ],
+      "answer": 2,
+      "explanation": "Ion gradients weaken and osmotic swelling may develop. Sodium accumulates intracellularly and water follows the rising solute concentration."
+    },
+    {
+      "id": "cells-ouabain-volume-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a sodium-potassium pump inhibitor is applied for several hours?",
+      "options": [
+        "It remains more fluid than a membrane rich in saturated fatty acids — Cis double-bond kinks prevent close packing and extensive van der Waals interactions",
+        "Long-distance vesicle transport inside the cell slows — Kinesin and dynein normally carry cargo directionally along microtubules",
+        "Production of new ribosomal subunits declines — The nucleolus normally combines rRNA with imported ribosomal proteins",
+        "Ion gradients weaken and osmotic swelling may develop — Sodium accumulates intracellularly and water follows the rising solute concentration"
+      ],
+      "answer": 3,
+      "explanation": "Ion gradients weaken and osmotic swelling may develop. Sodium accumulates intracellularly and water follows the rising solute concentration."
+    },
+    {
+      "id": "cells-membrane-low-temp-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "A membrane contains a high proportion of unsaturated fatty acids at low temperature. Which outcome follows most directly?",
+      "options": [
+        "It remains more fluid than a membrane rich in saturated fatty acids",
+        "Long-distance vesicle transport inside the cell slows",
+        "Production of new ribosomal subunits declines",
+        "Hydrogen peroxide can accumulate and damage the cell"
+      ],
+      "answer": 0,
+      "explanation": "It remains more fluid than a membrane rich in saturated fatty acids. Cis double-bond kinks prevent close packing and extensive van der Waals interactions."
+    },
+    {
+      "id": "cells-membrane-low-temp-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: it remains more fluid than a membrane rich in saturated fatty acids?",
+      "options": [
+        "Motor proteins are prevented from moving along cytoskeletal tracks",
+        "A membrane contains a high proportion of unsaturated fatty acids at low temperature",
+        "Ribosomal RNA synthesis in the nucleolus is inhibited",
+        "Catalase is absent from peroxisomes"
+      ],
+      "answer": 1,
+      "explanation": "It remains more fluid than a membrane rich in saturated fatty acids. Cis double-bond kinks prevent close packing and extensive van der Waals interactions."
+    },
+    {
+      "id": "cells-membrane-low-temp-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "After a membrane contains a high proportion of unsaturated fatty acids at low temperature, which explanation best links the change to its outcome?",
+      "options": [
+        "Kinesin and dynein normally carry cargo directionally along microtubules",
+        "The nucleolus normally combines rRNA with imported ribosomal proteins",
+        "Cis double-bond kinks prevent close packing and extensive van der Waals interactions",
+        "Catalase normally converts the reactive peroxide into water and oxygen"
+      ],
+      "answer": 2,
+      "explanation": "It remains more fluid than a membrane rich in saturated fatty acids. Cis double-bond kinks prevent close packing and extensive van der Waals interactions."
+    },
+    {
+      "id": "cells-membrane-low-temp-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a membrane contains a high proportion of unsaturated fatty acids at low temperature?",
+      "options": [
+        "Long-distance vesicle transport inside the cell slows — Kinesin and dynein normally carry cargo directionally along microtubules",
+        "Production of new ribosomal subunits declines — The nucleolus normally combines rRNA with imported ribosomal proteins",
+        "Hydrogen peroxide can accumulate and damage the cell — Catalase normally converts the reactive peroxide into water and oxygen",
+        "It remains more fluid than a membrane rich in saturated fatty acids — Cis double-bond kinks prevent close packing and extensive van der Waals interactions"
+      ],
+      "answer": 3,
+      "explanation": "It remains more fluid than a membrane rich in saturated fatty acids. Cis double-bond kinks prevent close packing and extensive van der Waals interactions."
+    },
+    {
+      "id": "cells-vesicle-cytoskeleton-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "After motor proteins are prevented from moving along cytoskeletal tracks, which observation is most likely?",
+      "options": [
+        "Long-distance vesicle transport inside the cell slows",
+        "Production of new ribosomal subunits declines",
+        "Hydrogen peroxide can accumulate and damage the cell",
+        "The cell can produce RNA instructions for protein synthesis"
+      ],
+      "answer": 0,
+      "explanation": "Long-distance vesicle transport inside the cell slows. Kinesin and dynein normally carry cargo directionally along microtubules."
+    },
+    {
+      "id": "cells-vesicle-cytoskeleton-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "A learner records that long-distance vesicle transport inside the cell slows. Which preceding event best accounts for it?",
+      "options": [
+        "Ribosomal RNA synthesis in the nucleolus is inhibited",
+        "Motor proteins are prevented from moving along cytoskeletal tracks",
+        "Catalase is absent from peroxisomes",
+        "The nucleus retains intact DNA and functional transcription machinery"
+      ],
+      "answer": 1,
+      "explanation": "Long-distance vesicle transport inside the cell slows. Kinesin and dynein normally carry cargo directionally along microtubules."
+    },
+    {
+      "id": "cells-vesicle-cytoskeleton-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "After motor proteins are prevented from moving along cytoskeletal tracks, which explanation best links the change to its outcome?",
+      "options": [
+        "The nucleolus normally combines rRNA with imported ribosomal proteins",
+        "Catalase normally converts the reactive peroxide into water and oxygen",
+        "Kinesin and dynein normally carry cargo directionally along microtubules",
+        "Genes serve as templates for transcription before ribosomes translate the messages"
+      ],
+      "answer": 2,
+      "explanation": "Long-distance vesicle transport inside the cell slows. Kinesin and dynein normally carry cargo directionally along microtubules."
+    },
+    {
+      "id": "cells-vesicle-cytoskeleton-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: motor proteins are prevented from moving along cytoskeletal tracks?",
+      "options": [
+        "The cell can produce RNA instructions for protein synthesis — Genes serve as templates for transcription before ribosomes translate the messages",
+        "Production of new ribosomal subunits declines — The nucleolus normally combines rRNA with imported ribosomal proteins",
+        "Hydrogen peroxide can accumulate and damage the cell — Catalase normally converts the reactive peroxide into water and oxygen",
+        "Long-distance vesicle transport inside the cell slows — Kinesin and dynein normally carry cargo directionally along microtubules"
+      ],
+      "answer": 3,
+      "explanation": "Long-distance vesicle transport inside the cell slows. Kinesin and dynein normally carry cargo directionally along microtubules."
+    },
+    {
+      "id": "cells-nucleolus-inhibition-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Ribosomal RNA synthesis in the nucleolus is inhibited. What should the model predict first?",
+      "options": [
+        "Production of new ribosomal subunits declines",
+        "The cell can produce RNA instructions for protein synthesis",
+        "Hydrogen peroxide can accumulate and damage the cell",
+        "A polypeptide can be assembled in the encoded amino-acid sequence"
+      ],
+      "answer": 0,
+      "explanation": "Production of new ribosomal subunits declines. The nucleolus normally combines rRNA with imported ribosomal proteins."
+    },
+    {
+      "id": "cells-nucleolus-inhibition-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when production of new ribosomal subunits declines?",
+      "options": [
+        "Catalase is absent from peroxisomes",
+        "Ribosomal RNA synthesis in the nucleolus is inhibited",
+        "A ribosome binds an mRNA molecule",
+        "The nucleus retains intact DNA and functional transcription machinery"
+      ],
+      "answer": 1,
+      "explanation": "Production of new ribosomal subunits declines. The nucleolus normally combines rRNA with imported ribosomal proteins."
+    },
+    {
+      "id": "cells-nucleolus-inhibition-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "After ribosomal RNA synthesis in the nucleolus is inhibited, which explanation best links the change to its outcome?",
+      "options": [
+        "Genes serve as templates for transcription before ribosomes translate the messages",
+        "Catalase normally converts the reactive peroxide into water and oxygen",
+        "The nucleolus normally combines rRNA with imported ribosomal proteins",
+        "The ribosome coordinates codon recognition and peptide-bond formation"
+      ],
+      "answer": 2,
+      "explanation": "Production of new ribosomal subunits declines. The nucleolus normally combines rRNA with imported ribosomal proteins."
+    },
+    {
+      "id": "cells-nucleolus-inhibition-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: ribosomal RNA synthesis in the nucleolus is inhibited?",
+      "options": [
+        "Hydrogen peroxide can accumulate and damage the cell — Catalase normally converts the reactive peroxide into water and oxygen",
+        "A polypeptide can be assembled in the encoded amino-acid sequence — The ribosome coordinates codon recognition and peptide-bond formation",
+        "The cell can produce RNA instructions for protein synthesis — Genes serve as templates for transcription before ribosomes translate the messages",
+        "Production of new ribosomal subunits declines — The nucleolus normally combines rRNA with imported ribosomal proteins"
+      ],
+      "answer": 3,
+      "explanation": "Production of new ribosomal subunits declines. The nucleolus normally combines rRNA with imported ribosomal proteins."
+    },
+    {
+      "id": "cells-peroxisome-catalase-outcome",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Catalase is absent from peroxisomes?",
+      "options": [
+        "Hydrogen peroxide can accumulate and damage the cell",
+        "A polypeptide can be assembled in the encoded amino-acid sequence",
+        "Its rough endoplasmic reticulum becomes especially prominent",
+        "The cell can produce RNA instructions for protein synthesis"
+      ],
+      "answer": 0,
+      "explanation": "Hydrogen peroxide can accumulate and damage the cell. Catalase normally converts the reactive peroxide into water and oxygen."
+    },
+    {
+      "id": "cells-peroxisome-catalase-cause",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: hydrogen peroxide can accumulate and damage the cell?",
+      "options": [
+        "The nucleus retains intact DNA and functional transcription machinery",
+        "Catalase is absent from peroxisomes",
+        "A ribosome binds an mRNA molecule",
+        "A cell begins secreting large quantities of protein"
+      ],
+      "answer": 1,
+      "explanation": "Hydrogen peroxide can accumulate and damage the cell. Catalase normally converts the reactive peroxide into water and oxygen."
+    },
+    {
+      "id": "cells-peroxisome-catalase-mechanism",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "After catalase is absent from peroxisomes, which explanation best links the change to its outcome?",
+      "options": [
+        "Genes serve as templates for transcription before ribosomes translate the messages",
+        "The ribosome coordinates codon recognition and peptide-bond formation",
+        "Catalase normally converts the reactive peroxide into water and oxygen",
+        "Attached ribosomes synthesize proteins that enter the endomembrane pathway"
+      ],
+      "answer": 2,
+      "explanation": "Hydrogen peroxide can accumulate and damage the cell. Catalase normally converts the reactive peroxide into water and oxygen."
+    },
+    {
+      "id": "cells-peroxisome-catalase-integrated",
+      "chapter": "Cell Structure & Function",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: catalase is absent from peroxisomes?",
+      "options": [
+        "The cell can produce RNA instructions for protein synthesis — Genes serve as templates for transcription before ribosomes translate the messages",
+        "A polypeptide can be assembled in the encoded amino-acid sequence — The ribosome coordinates codon recognition and peptide-bond formation",
+        "Its rough endoplasmic reticulum becomes especially prominent — Attached ribosomes synthesize proteins that enter the endomembrane pathway",
+        "Hydrogen peroxide can accumulate and damage the cell — Catalase normally converts the reactive peroxide into water and oxygen"
+      ],
+      "answer": 3,
+      "explanation": "Hydrogen peroxide can accumulate and damage the cell. Catalase normally converts the reactive peroxide into water and oxygen."
+    }
+  ]
+}

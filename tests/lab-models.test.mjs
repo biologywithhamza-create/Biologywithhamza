@@ -28,8 +28,8 @@ test("inhibition and selection preserve their biological model boundaries",()=>{
  assert(selectionTrajectory(.3,.8).at(-1)<.3);
 });
 test("activity catalogue has complete chapter coverage and usable explanations",()=>{
- assert.equal(activities.length,61);
- assert.equal(new Set(activities.map(a=>a.slug)).size,61);
+ assert.equal(activities.length,69);
+ assert.equal(new Set(activities.map(a=>a.slug)).size,69);
  for(let c=1;c<=16;c++)assert(activities.some(a=>a.chapter===c));
  for(const a of activities){
   assert(a.question&&a.answer&&a.source);

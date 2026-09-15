@@ -42,12 +42,12 @@ export function ResourceExplorer() {
       {results.length ? (
         <div className="resource-library-grid">
           {results.map((resource, index) => (
-            <a href={links.studentDrive} target="_blank" rel="noreferrer" key={resource.title}>
+            <a href={resource.href??links.studentDrive} target={resource.href?undefined:"_blank"} rel={resource.href?undefined:"noreferrer"} key={resource.title}>
               <div><span>{String(index + 1).padStart(2, "0")}</span><small>{resource.format}</small></div>
               <p>{resource.group}</p>
               <h3>{resource.title}</h3>
               <strong>{resource.description}</strong>
-              <em>Find in Student Drive <Arrow /></em>
+              <em>{resource.href?"Read the guide":"Find in Student Drive"} <Arrow /></em>
             </a>
           ))}
         </div>

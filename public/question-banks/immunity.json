@@ -1,0 +1,1408 @@
+{
+  "chapter": "Immunity",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "memory-cells",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "A secondary immune response is faster mainly because the first exposure produced:",
+      "options": [
+        "Memory lymphocytes",
+        "Fewer antigen receptors",
+        "Permanent fever",
+        "More skin"
+      ],
+      "answer": 0,
+      "explanation": "Memory B and T cells persist after the primary response and expand rapidly when the same antigen returns."
+    },
+    {
+      "id": "antigen-presentation",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "A dendritic cell displays an extracellular pathogen-derived peptide on MHC class II. Which cell is activated most directly?",
+      "options": [
+        "Red blood cell",
+        "Helper T cell",
+        "Platelet",
+        "Skeletal muscle cell"
+      ],
+      "answer": 1,
+      "explanation": "CD4 helper T cells recognize antigen presented on MHC class II and coordinate adaptive immune responses."
+    },
+    {
+      "id": "vaccine-response",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "A vaccine protects without causing the full disease primarily by:",
+      "options": [
+        "Eliminating all white blood cells",
+        "Preventing every mutation",
+        "Generating antigen-specific memory",
+        "Replacing innate immunity"
+      ],
+      "answer": 2,
+      "explanation": "Vaccination exposes the immune system to safe antigenic material, producing memory cells that support a stronger later response."
+    },
+    {
+      "id": "innate-immunity",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which feature best distinguishes innate immunity from adaptive immunity?",
+      "options": [
+        "It always improves after each exposure",
+        "It is absent at birth",
+        "It depends only on antibodies",
+        "It responds rapidly through broadly recognizing mechanisms"
+      ],
+      "answer": 3,
+      "explanation": "Innate defences act rapidly and recognize broad danger patterns. Adaptive responses are antigen-specific and generate stronger memory."
+    },
+    {
+      "id": "immunity-skin-barrier-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Intact keratinized skin covers the body surface. Which outcome follows most directly?",
+      "options": [
+        "Many pathogens are prevented from entering tissues",
+        "The bacterium becomes enclosed and digested",
+        "Local blood flow and capillary permeability increase",
+        "The antibody binds that antigen selectively"
+      ],
+      "answer": 0,
+      "explanation": "Many pathogens are prevented from entering tissues. Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier."
+    },
+    {
+      "id": "immunity-skin-barrier-cause",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: many pathogens are prevented from entering tissues?",
+      "options": [
+        "A phagocyte recognizes and surrounds a bacterium",
+        "Intact keratinized skin covers the body surface",
+        "Damaged tissue releases inflammatory mediators",
+        "An antibody variable region is complementary to an antigenic epitope"
+      ],
+      "answer": 1,
+      "explanation": "Many pathogens are prevented from entering tissues. Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier."
+    },
+    {
+      "id": "immunity-skin-barrier-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "After intact keratinized skin covers the body surface, which explanation best links the change to its outcome?",
+      "options": [
+        "A phagosome fuses with enzyme-containing lysosomes",
+        "Vasodilation and endothelial changes deliver plasma proteins and leukocytes",
+        "Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier",
+        "Shape and charge complementarity permit specific non-covalent interactions"
+      ],
+      "answer": 2,
+      "explanation": "Many pathogens are prevented from entering tissues. Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier."
+    },
+    {
+      "id": "immunity-skin-barrier-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: intact keratinized skin covers the body surface?",
+      "options": [
+        "The bacterium becomes enclosed and digested — A phagosome fuses with enzyme-containing lysosomes",
+        "Local blood flow and capillary permeability increase — Vasodilation and endothelial changes deliver plasma proteins and leukocytes",
+        "The antibody binds that antigen selectively — Shape and charge complementarity permit specific non-covalent interactions",
+        "Many pathogens are prevented from entering tissues — Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier"
+      ],
+      "answer": 3,
+      "explanation": "Many pathogens are prevented from entering tissues. Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier."
+    },
+    {
+      "id": "immunity-phagocytosis-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "After a phagocyte recognizes and surrounds a bacterium, which observation is most likely?",
+      "options": [
+        "The bacterium becomes enclosed and digested",
+        "Local blood flow and capillary permeability increase",
+        "The antibody binds that antigen selectively",
+        "A clone of effector and memory cells develops"
+      ],
+      "answer": 0,
+      "explanation": "The bacterium becomes enclosed and digested. A phagosome fuses with enzyme-containing lysosomes."
+    },
+    {
+      "id": "immunity-phagocytosis-cause",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "A learner records that the bacterium becomes enclosed and digested. Which preceding event best accounts for it?",
+      "options": [
+        "Damaged tissue releases inflammatory mediators",
+        "A phagocyte recognizes and surrounds a bacterium",
+        "An antibody variable region is complementary to an antigenic epitope",
+        "An antigen activates a matching naive lymphocyte"
+      ],
+      "answer": 1,
+      "explanation": "The bacterium becomes enclosed and digested. A phagosome fuses with enzyme-containing lysosomes."
+    },
+    {
+      "id": "immunity-phagocytosis-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "After a phagocyte recognizes and surrounds a bacterium, which explanation best links the change to its outcome?",
+      "options": [
+        "Vasodilation and endothelial changes deliver plasma proteins and leukocytes",
+        "Shape and charge complementarity permit specific non-covalent interactions",
+        "A phagosome fuses with enzyme-containing lysosomes",
+        "Specific receptor recognition triggers proliferation and differentiation"
+      ],
+      "answer": 2,
+      "explanation": "The bacterium becomes enclosed and digested. A phagosome fuses with enzyme-containing lysosomes."
+    },
+    {
+      "id": "immunity-phagocytosis-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a phagocyte recognizes and surrounds a bacterium?",
+      "options": [
+        "A clone of effector and memory cells develops — Specific receptor recognition triggers proliferation and differentiation",
+        "Local blood flow and capillary permeability increase — Vasodilation and endothelial changes deliver plasma proteins and leukocytes",
+        "The antibody binds that antigen selectively — Shape and charge complementarity permit specific non-covalent interactions",
+        "The bacterium becomes enclosed and digested — A phagosome fuses with enzyme-containing lysosomes"
+      ],
+      "answer": 3,
+      "explanation": "The bacterium becomes enclosed and digested. A phagosome fuses with enzyme-containing lysosomes."
+    },
+    {
+      "id": "immunity-inflammation-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: Damaged tissue releases inflammatory mediators. What should the model predict first?",
+      "options": [
+        "Local blood flow and capillary permeability increase",
+        "A clone of effector and memory cells develops",
+        "The antibody binds that antigen selectively",
+        "Immunological memory forms before natural exposure"
+      ],
+      "answer": 0,
+      "explanation": "Local blood flow and capillary permeability increase. Vasodilation and endothelial changes deliver plasma proteins and leukocytes."
+    },
+    {
+      "id": "immunity-inflammation-cause",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when local blood flow and capillary permeability increase?",
+      "options": [
+        "An antibody variable region is complementary to an antigenic epitope",
+        "Damaged tissue releases inflammatory mediators",
+        "A person receives a safe preparation containing pathogen antigens",
+        "An antigen activates a matching naive lymphocyte"
+      ],
+      "answer": 1,
+      "explanation": "Local blood flow and capillary permeability increase. Vasodilation and endothelial changes deliver plasma proteins and leukocytes."
+    },
+    {
+      "id": "immunity-inflammation-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "After damaged tissue releases inflammatory mediators, which explanation best links the change to its outcome?",
+      "options": [
+        "Specific receptor recognition triggers proliferation and differentiation",
+        "Shape and charge complementarity permit specific non-covalent interactions",
+        "Vasodilation and endothelial changes deliver plasma proteins and leukocytes",
+        "A primary adaptive response generates long-lived antigen-specific lymphocytes"
+      ],
+      "answer": 2,
+      "explanation": "Local blood flow and capillary permeability increase. Vasodilation and endothelial changes deliver plasma proteins and leukocytes."
+    },
+    {
+      "id": "immunity-inflammation-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: damaged tissue releases inflammatory mediators?",
+      "options": [
+        "The antibody binds that antigen selectively — Shape and charge complementarity permit specific non-covalent interactions",
+        "Immunological memory forms before natural exposure — A primary adaptive response generates long-lived antigen-specific lymphocytes",
+        "A clone of effector and memory cells develops — Specific receptor recognition triggers proliferation and differentiation",
+        "Local blood flow and capillary permeability increase — Vasodilation and endothelial changes deliver plasma proteins and leukocytes"
+      ],
+      "answer": 3,
+      "explanation": "Local blood flow and capillary permeability increase. Vasodilation and endothelial changes deliver plasma proteins and leukocytes."
+    },
+    {
+      "id": "immunity-antibody-specific-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: An antibody variable region is complementary to an antigenic epitope?",
+      "options": [
+        "The antibody binds that antigen selectively",
+        "Immunological memory forms before natural exposure",
+        "Opsonization, inflammation and membrane damage are promoted",
+        "A clone of effector and memory cells develops"
+      ],
+      "answer": 0,
+      "explanation": "The antibody binds that antigen selectively. Shape and charge complementarity permit specific non-covalent interactions."
+    },
+    {
+      "id": "immunity-antibody-specific-cause",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: the antibody binds that antigen selectively?",
+      "options": [
+        "An antigen activates a matching naive lymphocyte",
+        "An antibody variable region is complementary to an antigenic epitope",
+        "A person receives a safe preparation containing pathogen antigens",
+        "Complement proteins become activated on a microbial surface"
+      ],
+      "answer": 1,
+      "explanation": "The antibody binds that antigen selectively. Shape and charge complementarity permit specific non-covalent interactions."
+    },
+    {
+      "id": "immunity-antibody-specific-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "After an antibody variable region is complementary to an antigenic epitope, which explanation best links the change to its outcome?",
+      "options": [
+        "Specific receptor recognition triggers proliferation and differentiation",
+        "A primary adaptive response generates long-lived antigen-specific lymphocytes",
+        "Shape and charge complementarity permit specific non-covalent interactions",
+        "A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes"
+      ],
+      "answer": 2,
+      "explanation": "The antibody binds that antigen selectively. Shape and charge complementarity permit specific non-covalent interactions."
+    },
+    {
+      "id": "immunity-antibody-specific-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: an antibody variable region is complementary to an antigenic epitope?",
+      "options": [
+        "A clone of effector and memory cells develops — Specific receptor recognition triggers proliferation and differentiation",
+        "Immunological memory forms before natural exposure — A primary adaptive response generates long-lived antigen-specific lymphocytes",
+        "Opsonization, inflammation and membrane damage are promoted — A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes",
+        "The antibody binds that antigen selectively — Shape and charge complementarity permit specific non-covalent interactions"
+      ],
+      "answer": 3,
+      "explanation": "The antibody binds that antigen selectively. Shape and charge complementarity permit specific non-covalent interactions."
+    },
+    {
+      "id": "immunity-clonal-selection-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "An antigen activates a matching naive lymphocyte. Which outcome follows most directly?",
+      "options": [
+        "A clone of effector and memory cells develops",
+        "Immunological memory forms before natural exposure",
+        "Opsonization, inflammation and membrane damage are promoted",
+        "Rapid phagocytosis and microbial killing increase"
+      ],
+      "answer": 0,
+      "explanation": "A clone of effector and memory cells develops. Specific receptor recognition triggers proliferation and differentiation."
+    },
+    {
+      "id": "immunity-clonal-selection-cause",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: a clone of effector and memory cells develops?",
+      "options": [
+        "A person receives a safe preparation containing pathogen antigens",
+        "An antigen activates a matching naive lymphocyte",
+        "Complement proteins become activated on a microbial surface",
+        "Chemotactic signals attract neutrophils to an acute bacterial infection"
+      ],
+      "answer": 1,
+      "explanation": "A clone of effector and memory cells develops. Specific receptor recognition triggers proliferation and differentiation."
+    },
+    {
+      "id": "immunity-clonal-selection-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "After an antigen activates a matching naive lymphocyte, which explanation best links the change to its outcome?",
+      "options": [
+        "A primary adaptive response generates long-lived antigen-specific lymphocytes",
+        "A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes",
+        "Specific receptor recognition triggers proliferation and differentiation",
+        "Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules"
+      ],
+      "answer": 2,
+      "explanation": "A clone of effector and memory cells develops. Specific receptor recognition triggers proliferation and differentiation."
+    },
+    {
+      "id": "immunity-clonal-selection-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: an antigen activates a matching naive lymphocyte?",
+      "options": [
+        "Immunological memory forms before natural exposure — A primary adaptive response generates long-lived antigen-specific lymphocytes",
+        "Opsonization, inflammation and membrane damage are promoted — A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes",
+        "Rapid phagocytosis and microbial killing increase — Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules",
+        "A clone of effector and memory cells develops — Specific receptor recognition triggers proliferation and differentiation"
+      ],
+      "answer": 3,
+      "explanation": "A clone of effector and memory cells develops. Specific receptor recognition triggers proliferation and differentiation."
+    },
+    {
+      "id": "immunity-vaccination-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "After a person receives a safe preparation containing pathogen antigens, which observation is most likely?",
+      "options": [
+        "Immunological memory forms before natural exposure",
+        "Opsonization, inflammation and membrane damage are promoted",
+        "Rapid phagocytosis and microbial killing increase",
+        "A matching CD4 helper T cell can become activated"
+      ],
+      "answer": 0,
+      "explanation": "Immunological memory forms before natural exposure. A primary adaptive response generates long-lived antigen-specific lymphocytes."
+    },
+    {
+      "id": "immunity-vaccination-cause",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "A learner records that immunological memory forms before natural exposure. Which preceding event best accounts for it?",
+      "options": [
+        "Complement proteins become activated on a microbial surface",
+        "A person receives a safe preparation containing pathogen antigens",
+        "Chemotactic signals attract neutrophils to an acute bacterial infection",
+        "An antigen-presenting cell displays an extracellular peptide on MHC class II"
+      ],
+      "answer": 1,
+      "explanation": "Immunological memory forms before natural exposure. A primary adaptive response generates long-lived antigen-specific lymphocytes."
+    },
+    {
+      "id": "immunity-vaccination-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "After a person receives a safe preparation containing pathogen antigens, which explanation best links the change to its outcome?",
+      "options": [
+        "A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes",
+        "Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules",
+        "A primary adaptive response generates long-lived antigen-specific lymphocytes",
+        "The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals"
+      ],
+      "answer": 2,
+      "explanation": "Immunological memory forms before natural exposure. A primary adaptive response generates long-lived antigen-specific lymphocytes."
+    },
+    {
+      "id": "immunity-vaccination-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a person receives a safe preparation containing pathogen antigens?",
+      "options": [
+        "A matching CD4 helper T cell can become activated — The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals",
+        "Opsonization, inflammation and membrane damage are promoted — A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes",
+        "Rapid phagocytosis and microbial killing increase — Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules",
+        "Immunological memory forms before natural exposure — A primary adaptive response generates long-lived antigen-specific lymphocytes"
+      ],
+      "answer": 3,
+      "explanation": "Immunological memory forms before natural exposure. A primary adaptive response generates long-lived antigen-specific lymphocytes."
+    },
+    {
+      "id": "immunity-complement-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Complement proteins become activated on a microbial surface. What should the model predict first?",
+      "options": [
+        "Opsonization, inflammation and membrane damage are promoted",
+        "A matching CD4 helper T cell can become activated",
+        "Rapid phagocytosis and microbial killing increase",
+        "B-cell and cytotoxic-T-cell responses are strengthened"
+      ],
+      "answer": 0,
+      "explanation": "Opsonization, inflammation and membrane damage are promoted. A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes."
+    },
+    {
+      "id": "immunity-complement-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when opsonization, inflammation and membrane damage are promoted?",
+      "options": [
+        "Chemotactic signals attract neutrophils to an acute bacterial infection",
+        "Complement proteins become activated on a microbial surface",
+        "Activated helper T cells release appropriate cytokines",
+        "An antigen-presenting cell displays an extracellular peptide on MHC class II"
+      ],
+      "answer": 1,
+      "explanation": "Opsonization, inflammation and membrane damage are promoted. A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes."
+    },
+    {
+      "id": "immunity-complement-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After complement proteins become activated on a microbial surface, which explanation best links the change to its outcome?",
+      "options": [
+        "The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals",
+        "Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules",
+        "A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes",
+        "Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes"
+      ],
+      "answer": 2,
+      "explanation": "Opsonization, inflammation and membrane damage are promoted. A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes."
+    },
+    {
+      "id": "immunity-complement-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: complement proteins become activated on a microbial surface?",
+      "options": [
+        "Rapid phagocytosis and microbial killing increase — Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules",
+        "B-cell and cytotoxic-T-cell responses are strengthened — Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes",
+        "A matching CD4 helper T cell can become activated — The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals",
+        "Opsonization, inflammation and membrane damage are promoted — A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes"
+      ],
+      "answer": 3,
+      "explanation": "Opsonization, inflammation and membrane damage are promoted. A proteolytic cascade deposits binding fragments and can assemble membrane-attack complexes."
+    },
+    {
+      "id": "immunity-neutrophil-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Chemotactic signals attract neutrophils to an acute bacterial infection?",
+      "options": [
+        "Rapid phagocytosis and microbial killing increase",
+        "B-cell and cytotoxic-T-cell responses are strengthened",
+        "Large quantities of one antibody specificity are secreted",
+        "A matching CD4 helper T cell can become activated"
+      ],
+      "answer": 0,
+      "explanation": "Rapid phagocytosis and microbial killing increase. Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules."
+    },
+    {
+      "id": "immunity-neutrophil-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: rapid phagocytosis and microbial killing increase?",
+      "options": [
+        "An antigen-presenting cell displays an extracellular peptide on MHC class II",
+        "Chemotactic signals attract neutrophils to an acute bacterial infection",
+        "Activated helper T cells release appropriate cytokines",
+        "An activated B cell differentiates into a plasma cell"
+      ],
+      "answer": 1,
+      "explanation": "Rapid phagocytosis and microbial killing increase. Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules."
+    },
+    {
+      "id": "immunity-neutrophil-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After chemotactic signals attract neutrophils to an acute bacterial infection, which explanation best links the change to its outcome?",
+      "options": [
+        "The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals",
+        "Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes",
+        "Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules",
+        "Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export"
+      ],
+      "answer": 2,
+      "explanation": "Rapid phagocytosis and microbial killing increase. Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules."
+    },
+    {
+      "id": "immunity-neutrophil-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: chemotactic signals attract neutrophils to an acute bacterial infection?",
+      "options": [
+        "A matching CD4 helper T cell can become activated — The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals",
+        "B-cell and cytotoxic-T-cell responses are strengthened — Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes",
+        "Large quantities of one antibody specificity are secreted — Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export",
+        "Rapid phagocytosis and microbial killing increase — Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules"
+      ],
+      "answer": 3,
+      "explanation": "Rapid phagocytosis and microbial killing increase. Neutrophils migrate through vessel walls and deploy granule enzymes and reactive molecules."
+    },
+    {
+      "id": "immunity-mhc-two-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "An antigen-presenting cell displays an extracellular peptide on MHC class II. Which outcome follows most directly?",
+      "options": [
+        "A matching CD4 helper T cell can become activated",
+        "B-cell and cytotoxic-T-cell responses are strengthened",
+        "Large quantities of one antibody specificity are secreted",
+        "The infected cell is induced to die"
+      ],
+      "answer": 0,
+      "explanation": "A matching CD4 helper T cell can become activated. The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals."
+    },
+    {
+      "id": "immunity-mhc-two-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: a matching CD4 helper T cell can become activated?",
+      "options": [
+        "Activated helper T cells release appropriate cytokines",
+        "An antigen-presenting cell displays an extracellular peptide on MHC class II",
+        "An activated B cell differentiates into a plasma cell",
+        "A cytotoxic T cell recognizes viral peptide on MHC class I"
+      ],
+      "answer": 1,
+      "explanation": "A matching CD4 helper T cell can become activated. The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals."
+    },
+    {
+      "id": "immunity-mhc-two-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After an antigen-presenting cell displays an extracellular peptide on MHC class II, which explanation best links the change to its outcome?",
+      "options": [
+        "Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes",
+        "Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export",
+        "The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals",
+        "Perforin and granzymes or death-receptor signals activate apoptosis"
+      ],
+      "answer": 2,
+      "explanation": "A matching CD4 helper T cell can become activated. The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals."
+    },
+    {
+      "id": "immunity-mhc-two-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: an antigen-presenting cell displays an extracellular peptide on MHC class II?",
+      "options": [
+        "B-cell and cytotoxic-T-cell responses are strengthened — Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes",
+        "Large quantities of one antibody specificity are secreted — Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export",
+        "The infected cell is induced to die — Perforin and granzymes or death-receptor signals activate apoptosis",
+        "A matching CD4 helper T cell can become activated — The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals"
+      ],
+      "answer": 3,
+      "explanation": "A matching CD4 helper T cell can become activated. The T-cell receptor recognizes the peptide-MHC complex with costimulatory signals."
+    },
+    {
+      "id": "immunity-helper-t-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After activated helper T cells release appropriate cytokines, which observation is most likely?",
+      "options": [
+        "B-cell and cytotoxic-T-cell responses are strengthened",
+        "Large quantities of one antibody specificity are secreted",
+        "The infected cell is induced to die",
+        "A faster and larger secondary response occurs"
+      ],
+      "answer": 0,
+      "explanation": "B-cell and cytotoxic-T-cell responses are strengthened. Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes."
+    },
+    {
+      "id": "immunity-helper-t-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "A learner records that b-cell and cytotoxic-T-cell responses are strengthened. Which preceding event best accounts for it?",
+      "options": [
+        "An activated B cell differentiates into a plasma cell",
+        "Activated helper T cells release appropriate cytokines",
+        "A cytotoxic T cell recognizes viral peptide on MHC class I",
+        "A previously encountered antigen enters the body again"
+      ],
+      "answer": 1,
+      "explanation": "B-cell and cytotoxic-T-cell responses are strengthened. Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes."
+    },
+    {
+      "id": "immunity-helper-t-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After activated helper T cells release appropriate cytokines, which explanation best links the change to its outcome?",
+      "options": [
+        "Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export",
+        "Perforin and granzymes or death-receptor signals activate apoptosis",
+        "Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes",
+        "Memory lymphocytes are more numerous and activate more readily than naive cells"
+      ],
+      "answer": 2,
+      "explanation": "B-cell and cytotoxic-T-cell responses are strengthened. Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes."
+    },
+    {
+      "id": "immunity-helper-t-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: activated helper T cells release appropriate cytokines?",
+      "options": [
+        "A faster and larger secondary response occurs — Memory lymphocytes are more numerous and activate more readily than naive cells",
+        "Large quantities of one antibody specificity are secreted — Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export",
+        "The infected cell is induced to die — Perforin and granzymes or death-receptor signals activate apoptosis",
+        "B-cell and cytotoxic-T-cell responses are strengthened — Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes"
+      ],
+      "answer": 3,
+      "explanation": "B-cell and cytotoxic-T-cell responses are strengthened. Cytokine signalling promotes clonal expansion and differentiation of adaptive lymphocytes."
+    },
+    {
+      "id": "immunity-plasma-cell-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "A student models this change: An activated B cell differentiates into a plasma cell. What should the model predict first?",
+      "options": [
+        "Large quantities of one antibody specificity are secreted",
+        "A faster and larger secondary response occurs",
+        "The infected cell is induced to die",
+        "Protection appears rapidly but is temporary"
+      ],
+      "answer": 0,
+      "explanation": "Large quantities of one antibody specificity are secreted. Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export."
+    },
+    {
+      "id": "immunity-plasma-cell-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when large quantities of one antibody specificity are secreted?",
+      "options": [
+        "A cytotoxic T cell recognizes viral peptide on MHC class I",
+        "An activated B cell differentiates into a plasma cell",
+        "Preformed antibodies are transferred to a non-immune person",
+        "A previously encountered antigen enters the body again"
+      ],
+      "answer": 1,
+      "explanation": "Large quantities of one antibody specificity are secreted. Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export."
+    },
+    {
+      "id": "immunity-plasma-cell-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After an activated B cell differentiates into a plasma cell, which explanation best links the change to its outcome?",
+      "options": [
+        "Memory lymphocytes are more numerous and activate more readily than naive cells",
+        "Perforin and granzymes or death-receptor signals activate apoptosis",
+        "Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export",
+        "Antibodies act immediately but no recipient memory-cell clone is generated"
+      ],
+      "answer": 2,
+      "explanation": "Large quantities of one antibody specificity are secreted. Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export."
+    },
+    {
+      "id": "immunity-plasma-cell-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: an activated B cell differentiates into a plasma cell?",
+      "options": [
+        "The infected cell is induced to die — Perforin and granzymes or death-receptor signals activate apoptosis",
+        "Protection appears rapidly but is temporary — Antibodies act immediately but no recipient memory-cell clone is generated",
+        "A faster and larger secondary response occurs — Memory lymphocytes are more numerous and activate more readily than naive cells",
+        "Large quantities of one antibody specificity are secreted — Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export"
+      ],
+      "answer": 3,
+      "explanation": "Large quantities of one antibody specificity are secreted. Expanded rough ER and Golgi support rapid immunoglobulin synthesis and export."
+    },
+    {
+      "id": "immunity-cytotoxic-t-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: A cytotoxic T cell recognizes viral peptide on MHC class I?",
+      "options": [
+        "The infected cell is induced to die",
+        "Protection appears rapidly but is temporary",
+        "Protection develops more slowly but can persist",
+        "A faster and larger secondary response occurs"
+      ],
+      "answer": 0,
+      "explanation": "The infected cell is induced to die. Perforin and granzymes or death-receptor signals activate apoptosis."
+    },
+    {
+      "id": "immunity-cytotoxic-t-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: the infected cell is induced to die?",
+      "options": [
+        "A previously encountered antigen enters the body again",
+        "A cytotoxic T cell recognizes viral peptide on MHC class I",
+        "Preformed antibodies are transferred to a non-immune person",
+        "A person mounts their own adaptive response to an antigen"
+      ],
+      "answer": 1,
+      "explanation": "The infected cell is induced to die. Perforin and granzymes or death-receptor signals activate apoptosis."
+    },
+    {
+      "id": "immunity-cytotoxic-t-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After a cytotoxic T cell recognizes viral peptide on MHC class I, which explanation best links the change to its outcome?",
+      "options": [
+        "Memory lymphocytes are more numerous and activate more readily than naive cells",
+        "Antibodies act immediately but no recipient memory-cell clone is generated",
+        "Perforin and granzymes or death-receptor signals activate apoptosis",
+        "Clonal selection produces effector cells and long-lived memory cells"
+      ],
+      "answer": 2,
+      "explanation": "The infected cell is induced to die. Perforin and granzymes or death-receptor signals activate apoptosis."
+    },
+    {
+      "id": "immunity-cytotoxic-t-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a cytotoxic T cell recognizes viral peptide on MHC class I?",
+      "options": [
+        "A faster and larger secondary response occurs — Memory lymphocytes are more numerous and activate more readily than naive cells",
+        "Protection appears rapidly but is temporary — Antibodies act immediately but no recipient memory-cell clone is generated",
+        "Protection develops more slowly but can persist — Clonal selection produces effector cells and long-lived memory cells",
+        "The infected cell is induced to die — Perforin and granzymes or death-receptor signals activate apoptosis"
+      ],
+      "answer": 3,
+      "explanation": "The infected cell is induced to die. Perforin and granzymes or death-receptor signals activate apoptosis."
+    },
+    {
+      "id": "immunity-memory-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "A previously encountered antigen enters the body again. Which outcome follows most directly?",
+      "options": [
+        "A faster and larger secondary response occurs",
+        "Protection appears rapidly but is temporary",
+        "Protection develops more slowly but can persist",
+        "The cells clump together"
+      ],
+      "answer": 0,
+      "explanation": "A faster and larger secondary response occurs. Memory lymphocytes are more numerous and activate more readily than naive cells."
+    },
+    {
+      "id": "immunity-memory-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: a faster and larger secondary response occurs?",
+      "options": [
+        "Preformed antibodies are transferred to a non-immune person",
+        "A previously encountered antigen enters the body again",
+        "A person mounts their own adaptive response to an antigen",
+        "Antibodies bind repeated antigens on several microbial cells"
+      ],
+      "answer": 1,
+      "explanation": "A faster and larger secondary response occurs. Memory lymphocytes are more numerous and activate more readily than naive cells."
+    },
+    {
+      "id": "immunity-memory-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After a previously encountered antigen enters the body again, which explanation best links the change to its outcome?",
+      "options": [
+        "Antibodies act immediately but no recipient memory-cell clone is generated",
+        "Clonal selection produces effector cells and long-lived memory cells",
+        "Memory lymphocytes are more numerous and activate more readily than naive cells",
+        "Multiple antigen-binding sites cross-link particles and improve clearance"
+      ],
+      "answer": 2,
+      "explanation": "A faster and larger secondary response occurs. Memory lymphocytes are more numerous and activate more readily than naive cells."
+    },
+    {
+      "id": "immunity-memory-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a previously encountered antigen enters the body again?",
+      "options": [
+        "Protection appears rapidly but is temporary — Antibodies act immediately but no recipient memory-cell clone is generated",
+        "Protection develops more slowly but can persist — Clonal selection produces effector cells and long-lived memory cells",
+        "The cells clump together — Multiple antigen-binding sites cross-link particles and improve clearance",
+        "A faster and larger secondary response occurs — Memory lymphocytes are more numerous and activate more readily than naive cells"
+      ],
+      "answer": 3,
+      "explanation": "A faster and larger secondary response occurs. Memory lymphocytes are more numerous and activate more readily than naive cells."
+    },
+    {
+      "id": "immunity-passive-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After preformed antibodies are transferred to a non-immune person, which observation is most likely?",
+      "options": [
+        "Protection appears rapidly but is temporary",
+        "Protection develops more slowly but can persist",
+        "The cells clump together",
+        "The toxin cannot attach effectively to target cells"
+      ],
+      "answer": 0,
+      "explanation": "Protection appears rapidly but is temporary. Antibodies act immediately but no recipient memory-cell clone is generated."
+    },
+    {
+      "id": "immunity-passive-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "A learner records that protection appears rapidly but is temporary. Which preceding event best accounts for it?",
+      "options": [
+        "A person mounts their own adaptive response to an antigen",
+        "Preformed antibodies are transferred to a non-immune person",
+        "Antibodies bind repeated antigens on several microbial cells",
+        "Antibodies bind a toxin's receptor-binding region"
+      ],
+      "answer": 1,
+      "explanation": "Protection appears rapidly but is temporary. Antibodies act immediately but no recipient memory-cell clone is generated."
+    },
+    {
+      "id": "immunity-passive-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After preformed antibodies are transferred to a non-immune person, which explanation best links the change to its outcome?",
+      "options": [
+        "Clonal selection produces effector cells and long-lived memory cells",
+        "Multiple antigen-binding sites cross-link particles and improve clearance",
+        "Antibodies act immediately but no recipient memory-cell clone is generated",
+        "Steric blocking prevents the molecular interaction required for toxicity"
+      ],
+      "answer": 2,
+      "explanation": "Protection appears rapidly but is temporary. Antibodies act immediately but no recipient memory-cell clone is generated."
+    },
+    {
+      "id": "immunity-passive-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: preformed antibodies are transferred to a non-immune person?",
+      "options": [
+        "The toxin cannot attach effectively to target cells — Steric blocking prevents the molecular interaction required for toxicity",
+        "Protection develops more slowly but can persist — Clonal selection produces effector cells and long-lived memory cells",
+        "The cells clump together — Multiple antigen-binding sites cross-link particles and improve clearance",
+        "Protection appears rapidly but is temporary — Antibodies act immediately but no recipient memory-cell clone is generated"
+      ],
+      "answer": 3,
+      "explanation": "Protection appears rapidly but is temporary. Antibodies act immediately but no recipient memory-cell clone is generated."
+    },
+    {
+      "id": "immunity-active-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A person mounts their own adaptive response to an antigen. What should the model predict first?",
+      "options": [
+        "Protection develops more slowly but can persist",
+        "The toxin cannot attach effectively to target cells",
+        "The cells clump together",
+        "Body temperature rises and some immune processes accelerate"
+      ],
+      "answer": 0,
+      "explanation": "Protection develops more slowly but can persist. Clonal selection produces effector cells and long-lived memory cells."
+    },
+    {
+      "id": "immunity-active-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when protection develops more slowly but can persist?",
+      "options": [
+        "Antibodies bind repeated antigens on several microbial cells",
+        "A person mounts their own adaptive response to an antigen",
+        "Pyrogens raise the hypothalamic set point during infection",
+        "Antibodies bind a toxin's receptor-binding region"
+      ],
+      "answer": 1,
+      "explanation": "Protection develops more slowly but can persist. Clonal selection produces effector cells and long-lived memory cells."
+    },
+    {
+      "id": "immunity-active-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After a person mounts their own adaptive response to an antigen, which explanation best links the change to its outcome?",
+      "options": [
+        "Steric blocking prevents the molecular interaction required for toxicity",
+        "Multiple antigen-binding sites cross-link particles and improve clearance",
+        "Clonal selection produces effector cells and long-lived memory cells",
+        "Heat-conserving and heat-producing responses continue until the new set point is reached"
+      ],
+      "answer": 2,
+      "explanation": "Protection develops more slowly but can persist. Clonal selection produces effector cells and long-lived memory cells."
+    },
+    {
+      "id": "immunity-active-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a person mounts their own adaptive response to an antigen?",
+      "options": [
+        "The cells clump together — Multiple antigen-binding sites cross-link particles and improve clearance",
+        "Body temperature rises and some immune processes accelerate — Heat-conserving and heat-producing responses continue until the new set point is reached",
+        "The toxin cannot attach effectively to target cells — Steric blocking prevents the molecular interaction required for toxicity",
+        "Protection develops more slowly but can persist — Clonal selection produces effector cells and long-lived memory cells"
+      ],
+      "answer": 3,
+      "explanation": "Protection develops more slowly but can persist. Clonal selection produces effector cells and long-lived memory cells."
+    },
+    {
+      "id": "immunity-agglutination-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Antibodies bind repeated antigens on several microbial cells?",
+      "options": [
+        "The cells clump together",
+        "Body temperature rises and some immune processes accelerate",
+        "Opportunistic infections become increasingly likely",
+        "The toxin cannot attach effectively to target cells"
+      ],
+      "answer": 0,
+      "explanation": "The cells clump together. Multiple antigen-binding sites cross-link particles and improve clearance."
+    },
+    {
+      "id": "immunity-agglutination-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: the cells clump together?",
+      "options": [
+        "Antibodies bind a toxin's receptor-binding region",
+        "Antibodies bind repeated antigens on several microbial cells",
+        "Pyrogens raise the hypothalamic set point during infection",
+        "HIV depletes CD4 helper T cells over time"
+      ],
+      "answer": 1,
+      "explanation": "The cells clump together. Multiple antigen-binding sites cross-link particles and improve clearance."
+    },
+    {
+      "id": "immunity-agglutination-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After antibodies bind repeated antigens on several microbial cells, which explanation best links the change to its outcome?",
+      "options": [
+        "Steric blocking prevents the molecular interaction required for toxicity",
+        "Heat-conserving and heat-producing responses continue until the new set point is reached",
+        "Multiple antigen-binding sites cross-link particles and improve clearance",
+        "Loss of helper signals undermines both cell-mediated and antibody responses"
+      ],
+      "answer": 2,
+      "explanation": "The cells clump together. Multiple antigen-binding sites cross-link particles and improve clearance."
+    },
+    {
+      "id": "immunity-agglutination-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: antibodies bind repeated antigens on several microbial cells?",
+      "options": [
+        "The toxin cannot attach effectively to target cells — Steric blocking prevents the molecular interaction required for toxicity",
+        "Body temperature rises and some immune processes accelerate — Heat-conserving and heat-producing responses continue until the new set point is reached",
+        "Opportunistic infections become increasingly likely — Loss of helper signals undermines both cell-mediated and antibody responses",
+        "The cells clump together — Multiple antigen-binding sites cross-link particles and improve clearance"
+      ],
+      "answer": 3,
+      "explanation": "The cells clump together. Multiple antigen-binding sites cross-link particles and improve clearance."
+    },
+    {
+      "id": "immunity-neutralization-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Antibodies bind a toxin's receptor-binding region. Which outcome follows most directly?",
+      "options": [
+        "The toxin cannot attach effectively to target cells",
+        "Body temperature rises and some immune processes accelerate",
+        "Opportunistic infections become increasingly likely",
+        "Immune attack damages the body's own tissues"
+      ],
+      "answer": 0,
+      "explanation": "The toxin cannot attach effectively to target cells. Steric blocking prevents the molecular interaction required for toxicity."
+    },
+    {
+      "id": "immunity-neutralization-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: the toxin cannot attach effectively to target cells?",
+      "options": [
+        "Pyrogens raise the hypothalamic set point during infection",
+        "Antibodies bind a toxin's receptor-binding region",
+        "HIV depletes CD4 helper T cells over time",
+        "Self-reactive lymphocytes escape tolerance and become activated"
+      ],
+      "answer": 1,
+      "explanation": "The toxin cannot attach effectively to target cells. Steric blocking prevents the molecular interaction required for toxicity."
+    },
+    {
+      "id": "immunity-neutralization-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After antibodies bind a toxin's receptor-binding region, which explanation best links the change to its outcome?",
+      "options": [
+        "Heat-conserving and heat-producing responses continue until the new set point is reached",
+        "Loss of helper signals undermines both cell-mediated and antibody responses",
+        "Steric blocking prevents the molecular interaction required for toxicity",
+        "Adaptive receptors recognize self antigens as targets"
+      ],
+      "answer": 2,
+      "explanation": "The toxin cannot attach effectively to target cells. Steric blocking prevents the molecular interaction required for toxicity."
+    },
+    {
+      "id": "immunity-neutralization-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: antibodies bind a toxin's receptor-binding region?",
+      "options": [
+        "Body temperature rises and some immune processes accelerate — Heat-conserving and heat-producing responses continue until the new set point is reached",
+        "Opportunistic infections become increasingly likely — Loss of helper signals undermines both cell-mediated and antibody responses",
+        "Immune attack damages the body's own tissues — Adaptive receptors recognize self antigens as targets",
+        "The toxin cannot attach effectively to target cells — Steric blocking prevents the molecular interaction required for toxicity"
+      ],
+      "answer": 3,
+      "explanation": "The toxin cannot attach effectively to target cells. Steric blocking prevents the molecular interaction required for toxicity."
+    },
+    {
+      "id": "immunity-fever-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After pyrogens raise the hypothalamic set point during infection, which observation is most likely?",
+      "options": [
+        "Body temperature rises and some immune processes accelerate",
+        "Opportunistic infections become increasingly likely",
+        "Immune attack damages the body's own tissues",
+        "Histamine and other mediators are rapidly released"
+      ],
+      "answer": 0,
+      "explanation": "Body temperature rises and some immune processes accelerate. Heat-conserving and heat-producing responses continue until the new set point is reached."
+    },
+    {
+      "id": "immunity-fever-cause",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "A learner records that body temperature rises and some immune processes accelerate. Which preceding event best accounts for it?",
+      "options": [
+        "HIV depletes CD4 helper T cells over time",
+        "Pyrogens raise the hypothalamic set point during infection",
+        "Self-reactive lymphocytes escape tolerance and become activated",
+        "An allergen cross-links IgE on sensitized mast cells"
+      ],
+      "answer": 1,
+      "explanation": "Body temperature rises and some immune processes accelerate. Heat-conserving and heat-producing responses continue until the new set point is reached."
+    },
+    {
+      "id": "immunity-fever-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "After pyrogens raise the hypothalamic set point during infection, which explanation best links the change to its outcome?",
+      "options": [
+        "Loss of helper signals undermines both cell-mediated and antibody responses",
+        "Adaptive receptors recognize self antigens as targets",
+        "Heat-conserving and heat-producing responses continue until the new set point is reached",
+        "Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects"
+      ],
+      "answer": 2,
+      "explanation": "Body temperature rises and some immune processes accelerate. Heat-conserving and heat-producing responses continue until the new set point is reached."
+    },
+    {
+      "id": "immunity-fever-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: pyrogens raise the hypothalamic set point during infection?",
+      "options": [
+        "Histamine and other mediators are rapidly released — Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects",
+        "Opportunistic infections become increasingly likely — Loss of helper signals undermines both cell-mediated and antibody responses",
+        "Immune attack damages the body's own tissues — Adaptive receptors recognize self antigens as targets",
+        "Body temperature rises and some immune processes accelerate — Heat-conserving and heat-producing responses continue until the new set point is reached"
+      ],
+      "answer": 3,
+      "explanation": "Body temperature rises and some immune processes accelerate. Heat-conserving and heat-producing responses continue until the new set point is reached."
+    },
+    {
+      "id": "immunity-hiv-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: HIV depletes CD4 helper T cells over time. What should the model predict first?",
+      "options": [
+        "Opportunistic infections become increasingly likely",
+        "Histamine and other mediators are rapidly released",
+        "Immune attack damages the body's own tissues",
+        "Immune rejection can damage the graft"
+      ],
+      "answer": 0,
+      "explanation": "Opportunistic infections become increasingly likely. Loss of helper signals undermines both cell-mediated and antibody responses."
+    },
+    {
+      "id": "immunity-hiv-cause",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when opportunistic infections become increasingly likely?",
+      "options": [
+        "Self-reactive lymphocytes escape tolerance and become activated",
+        "HIV depletes CD4 helper T cells over time",
+        "Recipient T cells recognize non-self MHC on a transplanted organ",
+        "An allergen cross-links IgE on sensitized mast cells"
+      ],
+      "answer": 1,
+      "explanation": "Opportunistic infections become increasingly likely. Loss of helper signals undermines both cell-mediated and antibody responses."
+    },
+    {
+      "id": "immunity-hiv-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "After HIV depletes CD4 helper T cells over time, which explanation best links the change to its outcome?",
+      "options": [
+        "Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects",
+        "Adaptive receptors recognize self antigens as targets",
+        "Loss of helper signals undermines both cell-mediated and antibody responses",
+        "Alloreactive lymphocytes activate cytotoxic and inflammatory pathways"
+      ],
+      "answer": 2,
+      "explanation": "Opportunistic infections become increasingly likely. Loss of helper signals undermines both cell-mediated and antibody responses."
+    },
+    {
+      "id": "immunity-hiv-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: HIV depletes CD4 helper T cells over time?",
+      "options": [
+        "Immune attack damages the body's own tissues — Adaptive receptors recognize self antigens as targets",
+        "Immune rejection can damage the graft — Alloreactive lymphocytes activate cytotoxic and inflammatory pathways",
+        "Histamine and other mediators are rapidly released — Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects",
+        "Opportunistic infections become increasingly likely — Loss of helper signals undermines both cell-mediated and antibody responses"
+      ],
+      "answer": 3,
+      "explanation": "Opportunistic infections become increasingly likely. Loss of helper signals undermines both cell-mediated and antibody responses."
+    },
+    {
+      "id": "immunity-autoimmunity-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Self-reactive lymphocytes escape tolerance and become activated?",
+      "options": [
+        "Immune attack damages the body's own tissues",
+        "Immune rejection can damage the graft",
+        "Established antibodies and memory cells become less effective",
+        "Histamine and other mediators are rapidly released"
+      ],
+      "answer": 0,
+      "explanation": "Immune attack damages the body's own tissues. Adaptive receptors recognize self antigens as targets."
+    },
+    {
+      "id": "immunity-autoimmunity-cause",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: immune attack damages the body's own tissues?",
+      "options": [
+        "An allergen cross-links IgE on sensitized mast cells",
+        "Self-reactive lymphocytes escape tolerance and become activated",
+        "Recipient T cells recognize non-self MHC on a transplanted organ",
+        "A pathogen repeatedly changes exposed antigenic structures"
+      ],
+      "answer": 1,
+      "explanation": "Immune attack damages the body's own tissues. Adaptive receptors recognize self antigens as targets."
+    },
+    {
+      "id": "immunity-autoimmunity-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "After self-reactive lymphocytes escape tolerance and become activated, which explanation best links the change to its outcome?",
+      "options": [
+        "Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects",
+        "Alloreactive lymphocytes activate cytotoxic and inflammatory pathways",
+        "Adaptive receptors recognize self antigens as targets",
+        "New epitopes are poorly recognized by clones selected against earlier variants"
+      ],
+      "answer": 2,
+      "explanation": "Immune attack damages the body's own tissues. Adaptive receptors recognize self antigens as targets."
+    },
+    {
+      "id": "immunity-autoimmunity-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: self-reactive lymphocytes escape tolerance and become activated?",
+      "options": [
+        "Histamine and other mediators are rapidly released — Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects",
+        "Immune rejection can damage the graft — Alloreactive lymphocytes activate cytotoxic and inflammatory pathways",
+        "Established antibodies and memory cells become less effective — New epitopes are poorly recognized by clones selected against earlier variants",
+        "Immune attack damages the body's own tissues — Adaptive receptors recognize self antigens as targets"
+      ],
+      "answer": 3,
+      "explanation": "Immune attack damages the body's own tissues. Adaptive receptors recognize self antigens as targets."
+    },
+    {
+      "id": "immunity-allergy-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "An allergen cross-links IgE on sensitized mast cells. Which outcome follows most directly?",
+      "options": [
+        "Histamine and other mediators are rapidly released",
+        "Immune rejection can damage the graft",
+        "Established antibodies and memory cells become less effective",
+        "Antibody concentration and average affinity rise rapidly"
+      ],
+      "answer": 0,
+      "explanation": "Histamine and other mediators are rapidly released. Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects."
+    },
+    {
+      "id": "immunity-allergy-cause",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: histamine and other mediators are rapidly released?",
+      "options": [
+        "Recipient T cells recognize non-self MHC on a transplanted organ",
+        "An allergen cross-links IgE on sensitized mast cells",
+        "A pathogen repeatedly changes exposed antigenic structures",
+        "A vaccine booster re-exposes a person to the same antigen"
+      ],
+      "answer": 1,
+      "explanation": "Histamine and other mediators are rapidly released. Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects."
+    },
+    {
+      "id": "immunity-allergy-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "After an allergen cross-links IgE on sensitized mast cells, which explanation best links the change to its outcome?",
+      "options": [
+        "Alloreactive lymphocytes activate cytotoxic and inflammatory pathways",
+        "New epitopes are poorly recognized by clones selected against earlier variants",
+        "Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects",
+        "Memory B cells expand and affinity-matured clones dominate the secondary response"
+      ],
+      "answer": 2,
+      "explanation": "Histamine and other mediators are rapidly released. Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects."
+    },
+    {
+      "id": "immunity-allergy-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: an allergen cross-links IgE on sensitized mast cells?",
+      "options": [
+        "Immune rejection can damage the graft — Alloreactive lymphocytes activate cytotoxic and inflammatory pathways",
+        "Established antibodies and memory cells become less effective — New epitopes are poorly recognized by clones selected against earlier variants",
+        "Antibody concentration and average affinity rise rapidly — Memory B cells expand and affinity-matured clones dominate the secondary response",
+        "Histamine and other mediators are rapidly released — Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects"
+      ],
+      "answer": 3,
+      "explanation": "Histamine and other mediators are rapidly released. Mast-cell degranulation produces vasodilation, permeability and smooth-muscle effects."
+    },
+    {
+      "id": "immunity-transplant-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "After recipient T cells recognize non-self MHC on a transplanted organ, which observation is most likely?",
+      "options": [
+        "Immune rejection can damage the graft",
+        "Established antibodies and memory cells become less effective",
+        "Antibody concentration and average affinity rise rapidly",
+        "Many pathogens are prevented from entering tissues"
+      ],
+      "answer": 0,
+      "explanation": "Immune rejection can damage the graft. Alloreactive lymphocytes activate cytotoxic and inflammatory pathways."
+    },
+    {
+      "id": "immunity-transplant-cause",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "A learner records that immune rejection can damage the graft. Which preceding event best accounts for it?",
+      "options": [
+        "A pathogen repeatedly changes exposed antigenic structures",
+        "Recipient T cells recognize non-self MHC on a transplanted organ",
+        "A vaccine booster re-exposes a person to the same antigen",
+        "Intact keratinized skin covers the body surface"
+      ],
+      "answer": 1,
+      "explanation": "Immune rejection can damage the graft. Alloreactive lymphocytes activate cytotoxic and inflammatory pathways."
+    },
+    {
+      "id": "immunity-transplant-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "After recipient T cells recognize non-self MHC on a transplanted organ, which explanation best links the change to its outcome?",
+      "options": [
+        "New epitopes are poorly recognized by clones selected against earlier variants",
+        "Memory B cells expand and affinity-matured clones dominate the secondary response",
+        "Alloreactive lymphocytes activate cytotoxic and inflammatory pathways",
+        "Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier"
+      ],
+      "answer": 2,
+      "explanation": "Immune rejection can damage the graft. Alloreactive lymphocytes activate cytotoxic and inflammatory pathways."
+    },
+    {
+      "id": "immunity-transplant-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: recipient T cells recognize non-self MHC on a transplanted organ?",
+      "options": [
+        "Many pathogens are prevented from entering tissues — Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier",
+        "Established antibodies and memory cells become less effective — New epitopes are poorly recognized by clones selected against earlier variants",
+        "Antibody concentration and average affinity rise rapidly — Memory B cells expand and affinity-matured clones dominate the secondary response",
+        "Immune rejection can damage the graft — Alloreactive lymphocytes activate cytotoxic and inflammatory pathways"
+      ],
+      "answer": 3,
+      "explanation": "Immune rejection can damage the graft. Alloreactive lymphocytes activate cytotoxic and inflammatory pathways."
+    },
+    {
+      "id": "immunity-antigenic-variation-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A pathogen repeatedly changes exposed antigenic structures. What should the model predict first?",
+      "options": [
+        "Established antibodies and memory cells become less effective",
+        "Many pathogens are prevented from entering tissues",
+        "Antibody concentration and average affinity rise rapidly",
+        "The bacterium becomes enclosed and digested"
+      ],
+      "answer": 0,
+      "explanation": "Established antibodies and memory cells become less effective. New epitopes are poorly recognized by clones selected against earlier variants."
+    },
+    {
+      "id": "immunity-antigenic-variation-cause",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when established antibodies and memory cells become less effective?",
+      "options": [
+        "A vaccine booster re-exposes a person to the same antigen",
+        "A pathogen repeatedly changes exposed antigenic structures",
+        "A phagocyte recognizes and surrounds a bacterium",
+        "Intact keratinized skin covers the body surface"
+      ],
+      "answer": 1,
+      "explanation": "Established antibodies and memory cells become less effective. New epitopes are poorly recognized by clones selected against earlier variants."
+    },
+    {
+      "id": "immunity-antigenic-variation-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "After a pathogen repeatedly changes exposed antigenic structures, which explanation best links the change to its outcome?",
+      "options": [
+        "Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier",
+        "Memory B cells expand and affinity-matured clones dominate the secondary response",
+        "New epitopes are poorly recognized by clones selected against earlier variants",
+        "A phagosome fuses with enzyme-containing lysosomes"
+      ],
+      "answer": 2,
+      "explanation": "Established antibodies and memory cells become less effective. New epitopes are poorly recognized by clones selected against earlier variants."
+    },
+    {
+      "id": "immunity-antigenic-variation-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a pathogen repeatedly changes exposed antigenic structures?",
+      "options": [
+        "Antibody concentration and average affinity rise rapidly — Memory B cells expand and affinity-matured clones dominate the secondary response",
+        "The bacterium becomes enclosed and digested — A phagosome fuses with enzyme-containing lysosomes",
+        "Many pathogens are prevented from entering tissues — Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier",
+        "Established antibodies and memory cells become less effective — New epitopes are poorly recognized by clones selected against earlier variants"
+      ],
+      "answer": 3,
+      "explanation": "Established antibodies and memory cells become less effective. New epitopes are poorly recognized by clones selected against earlier variants."
+    },
+    {
+      "id": "immunity-booster-outcome",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: A vaccine booster re-exposes a person to the same antigen?",
+      "options": [
+        "Antibody concentration and average affinity rise rapidly",
+        "The bacterium becomes enclosed and digested",
+        "Local blood flow and capillary permeability increase",
+        "Many pathogens are prevented from entering tissues"
+      ],
+      "answer": 0,
+      "explanation": "Antibody concentration and average affinity rise rapidly. Memory B cells expand and affinity-matured clones dominate the secondary response."
+    },
+    {
+      "id": "immunity-booster-cause",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: antibody concentration and average affinity rise rapidly?",
+      "options": [
+        "Intact keratinized skin covers the body surface",
+        "A vaccine booster re-exposes a person to the same antigen",
+        "A phagocyte recognizes and surrounds a bacterium",
+        "Damaged tissue releases inflammatory mediators"
+      ],
+      "answer": 1,
+      "explanation": "Antibody concentration and average affinity rise rapidly. Memory B cells expand and affinity-matured clones dominate the secondary response."
+    },
+    {
+      "id": "immunity-booster-mechanism",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "After a vaccine booster re-exposes a person to the same antigen, which explanation best links the change to its outcome?",
+      "options": [
+        "Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier",
+        "A phagosome fuses with enzyme-containing lysosomes",
+        "Memory B cells expand and affinity-matured clones dominate the secondary response",
+        "Vasodilation and endothelial changes deliver plasma proteins and leukocytes"
+      ],
+      "answer": 2,
+      "explanation": "Antibody concentration and average affinity rise rapidly. Memory B cells expand and affinity-matured clones dominate the secondary response."
+    },
+    {
+      "id": "immunity-booster-integrated",
+      "chapter": "Immunity",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a vaccine booster re-exposes a person to the same antigen?",
+      "options": [
+        "Many pathogens are prevented from entering tissues — Tightly joined cells, dryness and antimicrobial secretions create a physical and chemical barrier",
+        "The bacterium becomes enclosed and digested — A phagosome fuses with enzyme-containing lysosomes",
+        "Local blood flow and capillary permeability increase — Vasodilation and endothelial changes deliver plasma proteins and leukocytes",
+        "Antibody concentration and average affinity rise rapidly — Memory B cells expand and affinity-matured clones dominate the secondary response"
+      ],
+      "answer": 3,
+      "explanation": "Antibody concentration and average affinity rise rapidly. Memory B cells expand and affinity-matured clones dominate the secondary response."
+    }
+  ]
+}

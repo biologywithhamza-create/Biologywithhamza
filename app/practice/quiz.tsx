@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+import {learningChapters} from "../learn/catalogue";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type FormEvent } from "react";
 import { quizChapters, quizQuestions, type QuestionDifficulty, type QuizQuestion } from "./questions";
 import { createRandomizedAttempt } from "./quiz-randomization";
@@ -56,6 +58,7 @@ function formatTime(seconds: number) {
 }
 
 export function QuizExperience() {
+  const [wrongOnly,setWrongOnly]=useState(false);
   const [screen, setScreen] = useState<Screen>("setup");
   const [chapter, setChapter] = useState("All chapters");
   const [difficulty, setDifficulty] = useState<"All levels" | QuestionDifficulty>("All levels");
@@ -206,6 +209,7 @@ export function QuizExperience() {
     ].filter((id, index, items) => items.indexOf(id) === index)
       .slice(0, Math.min(available.length, Math.max(requestedCount * 3, 30)));
     saveLocal(recentQuestionKey, JSON.stringify(recentSets));
+    setWrongOnly(false);
     setAttempt(selected);
     setAnswers({});
     setDraftAnswer(null);
@@ -216,6 +220,7 @@ export function QuizExperience() {
     setScreen("active");
   }
 
+function retryMistakes(){const wrong=attempt.filter(q=>answers[q.id]!==q.answer);if(!wrong.length)return;const selected=createRandomizedAttempt(wrong,wrong.length,[]);setAttempt(selected);setAnswers({});setDraftAnswer(null);setCurrentIndex(0);setWrongOnly(false);answerLockInProgress.current=false;attemptDeadline.current=Date.now()+selected.length*60_000;setTimeLeft(selected.length*60);setAttemptId(crypto.randomUUID());setScreen("active");}
   function resetAttempt() {
     setAttempt([]);
     setAnswers({});
@@ -298,7 +303,7 @@ export function QuizExperience() {
           <h2 id="quiz-setup-title">Choose what you want to test.</h2>
           <p>Every question has one best answer and a biological explanation. You receive one minute per question.</p>
           <dl>
-            <div><dt>{quizQuestions.length}</dt><dd>concept questions</dd></div>
+            <div><dt>{quizQuestions.length}</dt><dd>practice items</dd></div>
             <div><dt>{quizChapters.length}</dt><dd>high-yield chapters</dd></div>
             <div><dt>3</dt><dd>difficulty levels</dd></div>
           </dl>
@@ -348,7 +353,7 @@ export function QuizExperience() {
           <div className="quiz-attempt-rules" aria-label="Attempt rules">
             <strong>Attempt rules</strong>
             <ul>
-              <li>Questions and answer choices are reshuffled for every new attempt.</li>
+              <li>Questions and choices are reshuffled. Different concept families are prioritised before related variants; large sets can contain several variants.</li>
               <li>One question appears at a time; lock it before continuing.</li>
               <li>Locked answers cannot be changed and there is no backtracking.</li>
             </ul>
@@ -383,16 +388,18 @@ export function QuizExperience() {
           <h2 id="quiz-results-title">{score} of {attempt.length} correct</h2>
           {profile && <p className="quiz-result-student">{profile.name} · {profile.id}</p>}
           <p>{percentage >= 80 ? "Strong biological judgment. Review the remaining explanations before moving on." : percentage >= 60 ? "A useful attempt. Repair the weak links below, then try a fresh set." : "Use the explanations as a revision map, then attempt the chapter again."}</p>
-          <button className="quiz-primary" type="button" onClick={resetAttempt}>Build another attempt</button>
+          <button className="quiz-primary" type="button" onClick={resetAttempt}>Build another attempt</button>{score<attempt.length&&<button className="quiz-retry" onClick={retryMistakes}>Retry {attempt.length-score} missed questions</button>}<div className="quiz-chapter-results"><h3>Choose what to revisit</h3>{[...new Set(attempt.map(q=>q.chapter))].map(c=>{const qs=attempt.filter(q=>q.chapter===c),n=qs.filter(q=>answers[q.id]===q.answer).length,r=learningChapters.find(r=>r.title===c);return <Link key={c} href={r?"/learn/"+r.slug:"/learn"}><span>{c} ↗</span><strong>{n}/{qs.length}</strong></Link>;})}</div>
         </div>
         <div className="quiz-review">
           <div className="quiz-review-head">
             <p className="eyebrow">Review every decision</p>
             <h2>Answer logic</h2>
           </div>
+          <label className="quiz-review-filter"><input type="checkbox" checked={wrongOnly} onChange={e=>setWrongOnly(e.target.checked)}/>Only incorrect or unanswered</label>
           {attempt.map((question, index) => {
             const selected = answers[question.id];
             const isCorrect = selected === question.answer;
+            if(wrongOnly&&isCorrect)return null;
             return (
               <article className={isCorrect ? "is-correct" : "is-incorrect"} key={question.id}>
                 <div className="quiz-review-label"><span>{String(index + 1).padStart(2, "0")}</span><strong>{isCorrect ? "Correct" : selected === undefined ? "Unanswered" : "Needs review"}</strong></div>

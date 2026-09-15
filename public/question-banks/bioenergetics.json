@@ -1,0 +1,1408 @@
+{
+  "chapter": "Bioenergetics",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "oxygen-acceptor",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "In aerobic respiration, oxygen is required most directly because it:",
+      "options": [
+        "Accepts electrons at the end of the transport chain",
+        "Carries ATP into the nucleus",
+        "Splits glucose during glycolysis",
+        "Converts pyruvate into glucose"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen accepts electrons and protons at the end of the electron-transport chain, allowing electron flow and oxidative phosphorylation to continue."
+    },
+    {
+      "id": "glycolysis-location",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "A cell temporarily loses functional mitochondria but retains an intact cytosol. Which process can still produce a small amount of ATP?",
+      "options": [
+        "Krebs cycle",
+        "Glycolysis",
+        "Oxidative phosphorylation",
+        "Link reaction"
+      ],
+      "answer": 1,
+      "explanation": "Glycolysis occurs in the cytosol and produces ATP by substrate-level phosphorylation without requiring mitochondria."
+    },
+    {
+      "id": "proton-gradient",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "The inner mitochondrial membrane suddenly becomes freely permeable to protons. Which event is affected most directly?",
+      "options": [
+        "DNA transcription in the nucleus",
+        "Glucose entry into glycolysis",
+        "ATP synthesis by chemiosmosis",
+        "Peptide-bond formation on ribosomes"
+      ],
+      "answer": 2,
+      "explanation": "ATP synthase depends on proton flow down an electrochemical gradient. A proton-permeable membrane collapses that gradient."
+    },
+    {
+      "id": "uncoupler",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "A mitochondrial uncoupler increases proton leakage. Which combination is most likely?",
+      "options": [
+        "Less oxygen use and more ATP",
+        "More ATP with no heat production",
+        "No electron transport and more ATP",
+        "More oxygen use but less ATP"
+      ],
+      "answer": 3,
+      "explanation": "Electron transport may accelerate while the gradient is dissipated as heat. Oxygen consumption can rise even though ATP production falls."
+    },
+    {
+      "id": "bioenergetics-atp-coupling-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "ATP transfers its terminal phosphate to another molecule. Which outcome follows most directly?",
+      "options": [
+        "The recipient becomes more reactive and can drive an energy-requiring process",
+        "Two pyruvate, a net two ATP and reduced NAD are produced",
+        "Pyruvate is reduced to lactate so glycolysis can continue",
+        "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed"
+      ],
+      "answer": 0,
+      "explanation": "The recipient becomes more reactive and can drive an energy-requiring process. Phosphorylation couples the exergonic hydrolysis of ATP to cellular work."
+    },
+    {
+      "id": "bioenergetics-atp-coupling-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: the recipient becomes more reactive and can drive an energy-requiring process?",
+      "options": [
+        "One glucose molecule completes glycolysis in the cytosol",
+        "ATP transfers its terminal phosphate to another molecule",
+        "Oxygen supply becomes inadequate in an actively contracting muscle",
+        "Pyruvate enters the mitochondrial matrix under aerobic conditions"
+      ],
+      "answer": 1,
+      "explanation": "The recipient becomes more reactive and can drive an energy-requiring process. Phosphorylation couples the exergonic hydrolysis of ATP to cellular work."
+    },
+    {
+      "id": "bioenergetics-atp-coupling-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "After ATP transfers its terminal phosphate to another molecule, which explanation best links the change to its outcome?",
+      "options": [
+        "A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar",
+        "Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis",
+        "Phosphorylation couples the exergonic hydrolysis of ATP to cellular work",
+        "Pyruvate is decarboxylated, oxidized and joined to coenzyme A"
+      ],
+      "answer": 2,
+      "explanation": "The recipient becomes more reactive and can drive an energy-requiring process. Phosphorylation couples the exergonic hydrolysis of ATP to cellular work."
+    },
+    {
+      "id": "bioenergetics-atp-coupling-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: ATP transfers its terminal phosphate to another molecule?",
+      "options": [
+        "Two pyruvate, a net two ATP and reduced NAD are produced — A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar",
+        "Pyruvate is reduced to lactate so glycolysis can continue — Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis",
+        "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed — Pyruvate is decarboxylated, oxidized and joined to coenzyme A",
+        "The recipient becomes more reactive and can drive an energy-requiring process — Phosphorylation couples the exergonic hydrolysis of ATP to cellular work"
+      ],
+      "answer": 3,
+      "explanation": "The recipient becomes more reactive and can drive an energy-requiring process. Phosphorylation couples the exergonic hydrolysis of ATP to cellular work."
+    },
+    {
+      "id": "bioenergetics-glycolysis-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "After one glucose molecule completes glycolysis in the cytosol, which observation is most likely?",
+      "options": [
+        "Two pyruvate, a net two ATP and reduced NAD are produced",
+        "Pyruvate is reduced to lactate so glycolysis can continue",
+        "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed",
+        "Carbon dioxide, reduced carriers and a small amount of ATP are generated"
+      ],
+      "answer": 0,
+      "explanation": "Two pyruvate, a net two ATP and reduced NAD are produced. A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar."
+    },
+    {
+      "id": "bioenergetics-glycolysis-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "A learner records that two pyruvate, a net two ATP and reduced NAD are produced. Which preceding event best accounts for it?",
+      "options": [
+        "Oxygen supply becomes inadequate in an actively contracting muscle",
+        "One glucose molecule completes glycolysis in the cytosol",
+        "Pyruvate enters the mitochondrial matrix under aerobic conditions",
+        "Acetyl coenzyme A enters the citric-acid cycle"
+      ],
+      "answer": 1,
+      "explanation": "Two pyruvate, a net two ATP and reduced NAD are produced. A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar."
+    },
+    {
+      "id": "bioenergetics-glycolysis-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "After one glucose molecule completes glycolysis in the cytosol, which explanation best links the change to its outcome?",
+      "options": [
+        "Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis",
+        "Pyruvate is decarboxylated, oxidized and joined to coenzyme A",
+        "A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar",
+        "Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate"
+      ],
+      "answer": 2,
+      "explanation": "Two pyruvate, a net two ATP and reduced NAD are produced. A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar."
+    },
+    {
+      "id": "bioenergetics-glycolysis-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: one glucose molecule completes glycolysis in the cytosol?",
+      "options": [
+        "Carbon dioxide, reduced carriers and a small amount of ATP are generated — Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate",
+        "Pyruvate is reduced to lactate so glycolysis can continue — Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis",
+        "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed — Pyruvate is decarboxylated, oxidized and joined to coenzyme A",
+        "Two pyruvate, a net two ATP and reduced NAD are produced — A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar"
+      ],
+      "answer": 3,
+      "explanation": "Two pyruvate, a net two ATP and reduced NAD are produced. A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar."
+    },
+    {
+      "id": "bioenergetics-anaerobic-lactate-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: Oxygen supply becomes inadequate in an actively contracting muscle. What should the model predict first?",
+      "options": [
+        "Pyruvate is reduced to lactate so glycolysis can continue",
+        "Carbon dioxide, reduced carriers and a small amount of ATP are generated",
+        "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed",
+        "Electron flow continues and water is formed"
+      ],
+      "answer": 0,
+      "explanation": "Pyruvate is reduced to lactate so glycolysis can continue. Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis."
+    },
+    {
+      "id": "bioenergetics-anaerobic-lactate-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when pyruvate is reduced to lactate so glycolysis can continue?",
+      "options": [
+        "Pyruvate enters the mitochondrial matrix under aerobic conditions",
+        "Oxygen supply becomes inadequate in an actively contracting muscle",
+        "Oxygen accepts electrons at the end of the respiratory chain",
+        "Acetyl coenzyme A enters the citric-acid cycle"
+      ],
+      "answer": 1,
+      "explanation": "Pyruvate is reduced to lactate so glycolysis can continue. Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis."
+    },
+    {
+      "id": "bioenergetics-anaerobic-lactate-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "After oxygen supply becomes inadequate in an actively contracting muscle, which explanation best links the change to its outcome?",
+      "options": [
+        "Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate",
+        "Pyruvate is decarboxylated, oxidized and joined to coenzyme A",
+        "Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis",
+        "Oxygen combines with electrons and protons, preventing the chain from remaining reduced"
+      ],
+      "answer": 2,
+      "explanation": "Pyruvate is reduced to lactate so glycolysis can continue. Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis."
+    },
+    {
+      "id": "bioenergetics-anaerobic-lactate-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: oxygen supply becomes inadequate in an actively contracting muscle?",
+      "options": [
+        "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed — Pyruvate is decarboxylated, oxidized and joined to coenzyme A",
+        "Electron flow continues and water is formed — Oxygen combines with electrons and protons, preventing the chain from remaining reduced",
+        "Carbon dioxide, reduced carriers and a small amount of ATP are generated — Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate",
+        "Pyruvate is reduced to lactate so glycolysis can continue — Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis"
+      ],
+      "answer": 3,
+      "explanation": "Pyruvate is reduced to lactate so glycolysis can continue. Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis."
+    },
+    {
+      "id": "bioenergetics-link-reaction-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: Pyruvate enters the mitochondrial matrix under aerobic conditions?",
+      "options": [
+        "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed",
+        "Electron flow continues and water is formed",
+        "ATP is formed without ATP synthase",
+        "Carbon dioxide, reduced carriers and a small amount of ATP are generated"
+      ],
+      "answer": 0,
+      "explanation": "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed. Pyruvate is decarboxylated, oxidized and joined to coenzyme A."
+    },
+    {
+      "id": "bioenergetics-link-reaction-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: acetyl coenzyme A, carbon dioxide and reduced NAD are formed?",
+      "options": [
+        "Acetyl coenzyme A enters the citric-acid cycle",
+        "Pyruvate enters the mitochondrial matrix under aerobic conditions",
+        "Oxygen accepts electrons at the end of the respiratory chain",
+        "A phosphorylated metabolic intermediate transfers phosphate directly to ADP"
+      ],
+      "answer": 1,
+      "explanation": "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed. Pyruvate is decarboxylated, oxidized and joined to coenzyme A."
+    },
+    {
+      "id": "bioenergetics-link-reaction-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "After pyruvate enters the mitochondrial matrix under aerobic conditions, which explanation best links the change to its outcome?",
+      "options": [
+        "Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate",
+        "Oxygen combines with electrons and protons, preventing the chain from remaining reduced",
+        "Pyruvate is decarboxylated, oxidized and joined to coenzyme A",
+        "Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond"
+      ],
+      "answer": 2,
+      "explanation": "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed. Pyruvate is decarboxylated, oxidized and joined to coenzyme A."
+    },
+    {
+      "id": "bioenergetics-link-reaction-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: pyruvate enters the mitochondrial matrix under aerobic conditions?",
+      "options": [
+        "Carbon dioxide, reduced carriers and a small amount of ATP are generated — Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate",
+        "Electron flow continues and water is formed — Oxygen combines with electrons and protons, preventing the chain from remaining reduced",
+        "ATP is formed without ATP synthase — Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond",
+        "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed — Pyruvate is decarboxylated, oxidized and joined to coenzyme A"
+      ],
+      "answer": 3,
+      "explanation": "Acetyl coenzyme A, carbon dioxide and reduced NAD are formed. Pyruvate is decarboxylated, oxidized and joined to coenzyme A."
+    },
+    {
+      "id": "bioenergetics-krebs-cycle-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Acetyl coenzyme A enters the citric-acid cycle. Which outcome follows most directly?",
+      "options": [
+        "Carbon dioxide, reduced carriers and a small amount of ATP are generated",
+        "Electron flow continues and water is formed",
+        "ATP is formed without ATP synthase",
+        "Reduced NAD carries high-energy electrons to another reaction"
+      ],
+      "answer": 0,
+      "explanation": "Carbon dioxide, reduced carriers and a small amount of ATP are generated. Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate."
+    },
+    {
+      "id": "bioenergetics-krebs-cycle-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: carbon dioxide, reduced carriers and a small amount of ATP are generated?",
+      "options": [
+        "Oxygen accepts electrons at the end of the respiratory chain",
+        "Acetyl coenzyme A enters the citric-acid cycle",
+        "A phosphorylated metabolic intermediate transfers phosphate directly to ADP",
+        "NAD accepts hydrogen during substrate oxidation"
+      ],
+      "answer": 1,
+      "explanation": "Carbon dioxide, reduced carriers and a small amount of ATP are generated. Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate."
+    },
+    {
+      "id": "bioenergetics-krebs-cycle-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "After acetyl coenzyme A enters the citric-acid cycle, which explanation best links the change to its outcome?",
+      "options": [
+        "Oxygen combines with electrons and protons, preventing the chain from remaining reduced",
+        "Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond",
+        "Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate",
+        "The coenzyme gains electrons and a proton and can later be reoxidized"
+      ],
+      "answer": 2,
+      "explanation": "Carbon dioxide, reduced carriers and a small amount of ATP are generated. Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate."
+    },
+    {
+      "id": "bioenergetics-krebs-cycle-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: acetyl coenzyme A enters the citric-acid cycle?",
+      "options": [
+        "Electron flow continues and water is formed — Oxygen combines with electrons and protons, preventing the chain from remaining reduced",
+        "ATP is formed without ATP synthase — Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond",
+        "Reduced NAD carries high-energy electrons to another reaction — The coenzyme gains electrons and a proton and can later be reoxidized",
+        "Carbon dioxide, reduced carriers and a small amount of ATP are generated — Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate"
+      ],
+      "answer": 3,
+      "explanation": "Carbon dioxide, reduced carriers and a small amount of ATP are generated. Cyclic oxidation transfers electrons to NAD and FAD while regenerating oxaloacetate."
+    },
+    {
+      "id": "bioenergetics-oxygen-final-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "After oxygen accepts electrons at the end of the respiratory chain, which observation is most likely?",
+      "options": [
+        "Electron flow continues and water is formed",
+        "ATP is formed without ATP synthase",
+        "Reduced NAD carries high-energy electrons to another reaction",
+        "It generally supports less ATP synthesis than reduced NAD"
+      ],
+      "answer": 0,
+      "explanation": "Electron flow continues and water is formed. Oxygen combines with electrons and protons, preventing the chain from remaining reduced."
+    },
+    {
+      "id": "bioenergetics-oxygen-final-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "A learner records that electron flow continues and water is formed. Which preceding event best accounts for it?",
+      "options": [
+        "A phosphorylated metabolic intermediate transfers phosphate directly to ADP",
+        "Oxygen accepts electrons at the end of the respiratory chain",
+        "NAD accepts hydrogen during substrate oxidation",
+        "Reduced FAD donates electrons to the respiratory chain after the first proton pump"
+      ],
+      "answer": 1,
+      "explanation": "Electron flow continues and water is formed. Oxygen combines with electrons and protons, preventing the chain from remaining reduced."
+    },
+    {
+      "id": "bioenergetics-oxygen-final-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "After oxygen accepts electrons at the end of the respiratory chain, which explanation best links the change to its outcome?",
+      "options": [
+        "Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond",
+        "The coenzyme gains electrons and a proton and can later be reoxidized",
+        "Oxygen combines with electrons and protons, preventing the chain from remaining reduced",
+        "Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement"
+      ],
+      "answer": 2,
+      "explanation": "Electron flow continues and water is formed. Oxygen combines with electrons and protons, preventing the chain from remaining reduced."
+    },
+    {
+      "id": "bioenergetics-oxygen-final-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: oxygen accepts electrons at the end of the respiratory chain?",
+      "options": [
+        "It generally supports less ATP synthesis than reduced NAD — Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement",
+        "ATP is formed without ATP synthase — Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond",
+        "Reduced NAD carries high-energy electrons to another reaction — The coenzyme gains electrons and a proton and can later be reoxidized",
+        "Electron flow continues and water is formed — Oxygen combines with electrons and protons, preventing the chain from remaining reduced"
+      ],
+      "answer": 3,
+      "explanation": "Electron flow continues and water is formed. Oxygen combines with electrons and protons, preventing the chain from remaining reduced."
+    },
+    {
+      "id": "bioenergetics-substrate-phosphorylation-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A phosphorylated metabolic intermediate transfers phosphate directly to ADP. What should the model predict first?",
+      "options": [
+        "ATP is formed without ATP synthase",
+        "It generally supports less ATP synthesis than reduced NAD",
+        "Reduced NAD carries high-energy electrons to another reaction",
+        "Protons accumulate in the intermembrane space"
+      ],
+      "answer": 0,
+      "explanation": "ATP is formed without ATP synthase. Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond."
+    },
+    {
+      "id": "bioenergetics-substrate-phosphorylation-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when ATP is formed without ATP synthase?",
+      "options": [
+        "NAD accepts hydrogen during substrate oxidation",
+        "A phosphorylated metabolic intermediate transfers phosphate directly to ADP",
+        "Electrons move through inner-membrane respiratory carriers",
+        "Reduced FAD donates electrons to the respiratory chain after the first proton pump"
+      ],
+      "answer": 1,
+      "explanation": "ATP is formed without ATP synthase. Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond."
+    },
+    {
+      "id": "bioenergetics-substrate-phosphorylation-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After a phosphorylated metabolic intermediate transfers phosphate directly to ADP, which explanation best links the change to its outcome?",
+      "options": [
+        "Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement",
+        "The coenzyme gains electrons and a proton and can later be reoxidized",
+        "Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond",
+        "Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane"
+      ],
+      "answer": 2,
+      "explanation": "ATP is formed without ATP synthase. Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond."
+    },
+    {
+      "id": "bioenergetics-substrate-phosphorylation-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a phosphorylated metabolic intermediate transfers phosphate directly to ADP?",
+      "options": [
+        "Reduced NAD carries high-energy electrons to another reaction — The coenzyme gains electrons and a proton and can later be reoxidized",
+        "Protons accumulate in the intermembrane space — Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane",
+        "It generally supports less ATP synthesis than reduced NAD — Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement",
+        "ATP is formed without ATP synthase — Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond"
+      ],
+      "answer": 3,
+      "explanation": "ATP is formed without ATP synthase. Substrate-level phosphorylation uses energy already stored in a high-energy phosphate bond."
+    },
+    {
+      "id": "bioenergetics-nad-electrons-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: NAD accepts hydrogen during substrate oxidation?",
+      "options": [
+        "Reduced NAD carries high-energy electrons to another reaction",
+        "Protons accumulate in the intermembrane space",
+        "ADP and phosphate are joined to form ATP",
+        "It generally supports less ATP synthesis than reduced NAD"
+      ],
+      "answer": 0,
+      "explanation": "Reduced NAD carries high-energy electrons to another reaction. The coenzyme gains electrons and a proton and can later be reoxidized."
+    },
+    {
+      "id": "bioenergetics-nad-electrons-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: reduced NAD carries high-energy electrons to another reaction?",
+      "options": [
+        "Reduced FAD donates electrons to the respiratory chain after the first proton pump",
+        "NAD accepts hydrogen during substrate oxidation",
+        "Electrons move through inner-membrane respiratory carriers",
+        "Protons flow through ATP synthase into the mitochondrial matrix"
+      ],
+      "answer": 1,
+      "explanation": "Reduced NAD carries high-energy electrons to another reaction. The coenzyme gains electrons and a proton and can later be reoxidized."
+    },
+    {
+      "id": "bioenergetics-nad-electrons-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After NAD accepts hydrogen during substrate oxidation, which explanation best links the change to its outcome?",
+      "options": [
+        "Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement",
+        "Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane",
+        "The coenzyme gains electrons and a proton and can later be reoxidized",
+        "Movement down the electrochemical gradient rotates catalytic parts of ATP synthase"
+      ],
+      "answer": 2,
+      "explanation": "Reduced NAD carries high-energy electrons to another reaction. The coenzyme gains electrons and a proton and can later be reoxidized."
+    },
+    {
+      "id": "bioenergetics-nad-electrons-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: NAD accepts hydrogen during substrate oxidation?",
+      "options": [
+        "It generally supports less ATP synthesis than reduced NAD — Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement",
+        "Protons accumulate in the intermembrane space — Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane",
+        "ADP and phosphate are joined to form ATP — Movement down the electrochemical gradient rotates catalytic parts of ATP synthase",
+        "Reduced NAD carries high-energy electrons to another reaction — The coenzyme gains electrons and a proton and can later be reoxidized"
+      ],
+      "answer": 3,
+      "explanation": "Reduced NAD carries high-energy electrons to another reaction. The coenzyme gains electrons and a proton and can later be reoxidized."
+    },
+    {
+      "id": "bioenergetics-fadh2-entry-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Reduced FAD donates electrons to the respiratory chain after the first proton pump. Which outcome follows most directly?",
+      "options": [
+        "It generally supports less ATP synthesis than reduced NAD",
+        "Protons accumulate in the intermembrane space",
+        "ADP and phosphate are joined to form ATP",
+        "Its maximum capacity for oxidative phosphorylation can increase"
+      ],
+      "answer": 0,
+      "explanation": "It generally supports less ATP synthesis than reduced NAD. Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement."
+    },
+    {
+      "id": "bioenergetics-fadh2-entry-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: it generally supports less ATP synthesis than reduced NAD?",
+      "options": [
+        "Electrons move through inner-membrane respiratory carriers",
+        "Reduced FAD donates electrons to the respiratory chain after the first proton pump",
+        "Protons flow through ATP synthase into the mitochondrial matrix",
+        "A mitochondrion develops more inner-membrane cristae"
+      ],
+      "answer": 1,
+      "explanation": "It generally supports less ATP synthesis than reduced NAD. Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement."
+    },
+    {
+      "id": "bioenergetics-fadh2-entry-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After reduced FAD donates electrons to the respiratory chain after the first proton pump, which explanation best links the change to its outcome?",
+      "options": [
+        "Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane",
+        "Movement down the electrochemical gradient rotates catalytic parts of ATP synthase",
+        "Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement",
+        "Extra membrane provides more space for respiratory complexes and ATP synthase"
+      ],
+      "answer": 2,
+      "explanation": "It generally supports less ATP synthesis than reduced NAD. Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement."
+    },
+    {
+      "id": "bioenergetics-fadh2-entry-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: reduced FAD donates electrons to the respiratory chain after the first proton pump?",
+      "options": [
+        "Protons accumulate in the intermembrane space — Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane",
+        "ADP and phosphate are joined to form ATP — Movement down the electrochemical gradient rotates catalytic parts of ATP synthase",
+        "Its maximum capacity for oxidative phosphorylation can increase — Extra membrane provides more space for respiratory complexes and ATP synthase",
+        "It generally supports less ATP synthesis than reduced NAD — Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement"
+      ],
+      "answer": 3,
+      "explanation": "It generally supports less ATP synthesis than reduced NAD. Its electrons drive proton pumping at fewer complexes and create a smaller proton displacement."
+    },
+    {
+      "id": "bioenergetics-proton-pumping-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After electrons move through inner-membrane respiratory carriers, which observation is most likely?",
+      "options": [
+        "Protons accumulate in the intermembrane space",
+        "ADP and phosphate are joined to form ATP",
+        "Its maximum capacity for oxidative phosphorylation can increase",
+        "Ethanol and carbon dioxide form while NAD is regenerated"
+      ],
+      "answer": 0,
+      "explanation": "Protons accumulate in the intermembrane space. Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane."
+    },
+    {
+      "id": "bioenergetics-proton-pumping-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "A learner records that protons accumulate in the intermembrane space. Which preceding event best accounts for it?",
+      "options": [
+        "Protons flow through ATP synthase into the mitochondrial matrix",
+        "Electrons move through inner-membrane respiratory carriers",
+        "A mitochondrion develops more inner-membrane cristae",
+        "Yeast respires anaerobically with glucose available"
+      ],
+      "answer": 1,
+      "explanation": "Protons accumulate in the intermembrane space. Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane."
+    },
+    {
+      "id": "bioenergetics-proton-pumping-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After electrons move through inner-membrane respiratory carriers, which explanation best links the change to its outcome?",
+      "options": [
+        "Movement down the electrochemical gradient rotates catalytic parts of ATP synthase",
+        "Extra membrane provides more space for respiratory complexes and ATP synthase",
+        "Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane",
+        "Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD"
+      ],
+      "answer": 2,
+      "explanation": "Protons accumulate in the intermembrane space. Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane."
+    },
+    {
+      "id": "bioenergetics-proton-pumping-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: electrons move through inner-membrane respiratory carriers?",
+      "options": [
+        "Ethanol and carbon dioxide form while NAD is regenerated — Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD",
+        "ADP and phosphate are joined to form ATP — Movement down the electrochemical gradient rotates catalytic parts of ATP synthase",
+        "Its maximum capacity for oxidative phosphorylation can increase — Extra membrane provides more space for respiratory complexes and ATP synthase",
+        "Protons accumulate in the intermembrane space — Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane"
+      ],
+      "answer": 3,
+      "explanation": "Protons accumulate in the intermembrane space. Energy released by electron transfer powers proton pumps in the inner mitochondrial membrane."
+    },
+    {
+      "id": "bioenergetics-chemiosmosis-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Protons flow through ATP synthase into the mitochondrial matrix. What should the model predict first?",
+      "options": [
+        "ADP and phosphate are joined to form ATP",
+        "Ethanol and carbon dioxide form while NAD is regenerated",
+        "Its maximum capacity for oxidative phosphorylation can increase",
+        "Elevated oxygen consumption continues during recovery"
+      ],
+      "answer": 0,
+      "explanation": "ADP and phosphate are joined to form ATP. Movement down the electrochemical gradient rotates catalytic parts of ATP synthase."
+    },
+    {
+      "id": "bioenergetics-chemiosmosis-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when ADP and phosphate are joined to form ATP?",
+      "options": [
+        "A mitochondrion develops more inner-membrane cristae",
+        "Protons flow through ATP synthase into the mitochondrial matrix",
+        "Vigorous exercise produces lactate faster than it is removed",
+        "Yeast respires anaerobically with glucose available"
+      ],
+      "answer": 1,
+      "explanation": "ADP and phosphate are joined to form ATP. Movement down the electrochemical gradient rotates catalytic parts of ATP synthase."
+    },
+    {
+      "id": "bioenergetics-chemiosmosis-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After protons flow through ATP synthase into the mitochondrial matrix, which explanation best links the change to its outcome?",
+      "options": [
+        "Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD",
+        "Extra membrane provides more space for respiratory complexes and ATP synthase",
+        "Movement down the electrochemical gradient rotates catalytic parts of ATP synthase",
+        "Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores"
+      ],
+      "answer": 2,
+      "explanation": "ADP and phosphate are joined to form ATP. Movement down the electrochemical gradient rotates catalytic parts of ATP synthase."
+    },
+    {
+      "id": "bioenergetics-chemiosmosis-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: protons flow through ATP synthase into the mitochondrial matrix?",
+      "options": [
+        "Its maximum capacity for oxidative phosphorylation can increase — Extra membrane provides more space for respiratory complexes and ATP synthase",
+        "Elevated oxygen consumption continues during recovery — Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores",
+        "Ethanol and carbon dioxide form while NAD is regenerated — Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD",
+        "ADP and phosphate are joined to form ATP — Movement down the electrochemical gradient rotates catalytic parts of ATP synthase"
+      ],
+      "answer": 3,
+      "explanation": "ADP and phosphate are joined to form ATP. Movement down the electrochemical gradient rotates catalytic parts of ATP synthase."
+    },
+    {
+      "id": "bioenergetics-cristae-area-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: A mitochondrion develops more inner-membrane cristae?",
+      "options": [
+        "Its maximum capacity for oxidative phosphorylation can increase",
+        "Elevated oxygen consumption continues during recovery",
+        "The respiratory quotient approaches one",
+        "Ethanol and carbon dioxide form while NAD is regenerated"
+      ],
+      "answer": 0,
+      "explanation": "Its maximum capacity for oxidative phosphorylation can increase. Extra membrane provides more space for respiratory complexes and ATP synthase."
+    },
+    {
+      "id": "bioenergetics-cristae-area-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: its maximum capacity for oxidative phosphorylation can increase?",
+      "options": [
+        "Yeast respires anaerobically with glucose available",
+        "A mitochondrion develops more inner-membrane cristae",
+        "Vigorous exercise produces lactate faster than it is removed",
+        "A person oxidizes mainly carbohydrate"
+      ],
+      "answer": 1,
+      "explanation": "Its maximum capacity for oxidative phosphorylation can increase. Extra membrane provides more space for respiratory complexes and ATP synthase."
+    },
+    {
+      "id": "bioenergetics-cristae-area-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After a mitochondrion develops more inner-membrane cristae, which explanation best links the change to its outcome?",
+      "options": [
+        "Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD",
+        "Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores",
+        "Extra membrane provides more space for respiratory complexes and ATP synthase",
+        "Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed"
+      ],
+      "answer": 2,
+      "explanation": "Its maximum capacity for oxidative phosphorylation can increase. Extra membrane provides more space for respiratory complexes and ATP synthase."
+    },
+    {
+      "id": "bioenergetics-cristae-area-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a mitochondrion develops more inner-membrane cristae?",
+      "options": [
+        "Ethanol and carbon dioxide form while NAD is regenerated — Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD",
+        "Elevated oxygen consumption continues during recovery — Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores",
+        "The respiratory quotient approaches one — Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed",
+        "Its maximum capacity for oxidative phosphorylation can increase — Extra membrane provides more space for respiratory complexes and ATP synthase"
+      ],
+      "answer": 3,
+      "explanation": "Its maximum capacity for oxidative phosphorylation can increase. Extra membrane provides more space for respiratory complexes and ATP synthase."
+    },
+    {
+      "id": "bioenergetics-fermentation-yeast-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Yeast respires anaerobically with glucose available. Which outcome follows most directly?",
+      "options": [
+        "Ethanol and carbon dioxide form while NAD is regenerated",
+        "Elevated oxygen consumption continues during recovery",
+        "The respiratory quotient approaches one",
+        "Many acetyl-CoA and reduced-coenzyme molecules are produced"
+      ],
+      "answer": 0,
+      "explanation": "Ethanol and carbon dioxide form while NAD is regenerated. Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD."
+    },
+    {
+      "id": "bioenergetics-fermentation-yeast-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: ethanol and carbon dioxide form while NAD is regenerated?",
+      "options": [
+        "Vigorous exercise produces lactate faster than it is removed",
+        "Yeast respires anaerobically with glucose available",
+        "A person oxidizes mainly carbohydrate",
+        "Fatty acids undergo beta oxidation"
+      ],
+      "answer": 1,
+      "explanation": "Ethanol and carbon dioxide form while NAD is regenerated. Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD."
+    },
+    {
+      "id": "bioenergetics-fermentation-yeast-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After yeast respires anaerobically with glucose available, which explanation best links the change to its outcome?",
+      "options": [
+        "Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores",
+        "Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed",
+        "Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD",
+        "Successive two-carbon units are removed while electrons are transferred to NAD and FAD"
+      ],
+      "answer": 2,
+      "explanation": "Ethanol and carbon dioxide form while NAD is regenerated. Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD."
+    },
+    {
+      "id": "bioenergetics-fermentation-yeast-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: yeast respires anaerobically with glucose available?",
+      "options": [
+        "Elevated oxygen consumption continues during recovery — Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores",
+        "The respiratory quotient approaches one — Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed",
+        "Many acetyl-CoA and reduced-coenzyme molecules are produced — Successive two-carbon units are removed while electrons are transferred to NAD and FAD",
+        "Ethanol and carbon dioxide form while NAD is regenerated — Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD"
+      ],
+      "answer": 3,
+      "explanation": "Ethanol and carbon dioxide form while NAD is regenerated. Pyruvate is decarboxylated and the product accepts hydrogen from reduced NAD."
+    },
+    {
+      "id": "bioenergetics-oxygen-debt-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After vigorous exercise produces lactate faster than it is removed, which observation is most likely?",
+      "options": [
+        "Elevated oxygen consumption continues during recovery",
+        "The respiratory quotient approaches one",
+        "Many acetyl-CoA and reduced-coenzyme molecules are produced",
+        "An electron is raised to a higher energy level and transferred to an acceptor"
+      ],
+      "answer": 0,
+      "explanation": "Elevated oxygen consumption continues during recovery. Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores."
+    },
+    {
+      "id": "bioenergetics-oxygen-debt-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "A learner records that elevated oxygen consumption continues during recovery. Which preceding event best accounts for it?",
+      "options": [
+        "A person oxidizes mainly carbohydrate",
+        "Vigorous exercise produces lactate faster than it is removed",
+        "Fatty acids undergo beta oxidation",
+        "Photosystem chlorophyll absorbs a photon"
+      ],
+      "answer": 1,
+      "explanation": "Elevated oxygen consumption continues during recovery. Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores."
+    },
+    {
+      "id": "bioenergetics-oxygen-debt-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After vigorous exercise produces lactate faster than it is removed, which explanation best links the change to its outcome?",
+      "options": [
+        "Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed",
+        "Successive two-carbon units are removed while electrons are transferred to NAD and FAD",
+        "Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores",
+        "Light energy excites a reaction-centre electron and initiates photosynthetic electron flow"
+      ],
+      "answer": 2,
+      "explanation": "Elevated oxygen consumption continues during recovery. Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores."
+    },
+    {
+      "id": "bioenergetics-oxygen-debt-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: vigorous exercise produces lactate faster than it is removed?",
+      "options": [
+        "An electron is raised to a higher energy level and transferred to an acceptor — Light energy excites a reaction-centre electron and initiates photosynthetic electron flow",
+        "The respiratory quotient approaches one — Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed",
+        "Many acetyl-CoA and reduced-coenzyme molecules are produced — Successive two-carbon units are removed while electrons are transferred to NAD and FAD",
+        "Elevated oxygen consumption continues during recovery — Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores"
+      ],
+      "answer": 3,
+      "explanation": "Elevated oxygen consumption continues during recovery. Additional oxygen supports lactate oxidation, glycogen restoration and replenishment of energy stores."
+    },
+    {
+      "id": "bioenergetics-respiratory-quotient-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A person oxidizes mainly carbohydrate. What should the model predict first?",
+      "options": [
+        "The respiratory quotient approaches one",
+        "An electron is raised to a higher energy level and transferred to an acceptor",
+        "Many acetyl-CoA and reduced-coenzyme molecules are produced",
+        "Electrons, protons and oxygen are produced"
+      ],
+      "answer": 0,
+      "explanation": "The respiratory quotient approaches one. Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed."
+    },
+    {
+      "id": "bioenergetics-respiratory-quotient-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the respiratory quotient approaches one?",
+      "options": [
+        "Fatty acids undergo beta oxidation",
+        "A person oxidizes mainly carbohydrate",
+        "Water is split at photosystem II",
+        "Photosystem chlorophyll absorbs a photon"
+      ],
+      "answer": 1,
+      "explanation": "The respiratory quotient approaches one. Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed."
+    },
+    {
+      "id": "bioenergetics-respiratory-quotient-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After a person oxidizes mainly carbohydrate, which explanation best links the change to its outcome?",
+      "options": [
+        "Light energy excites a reaction-centre electron and initiates photosynthetic electron flow",
+        "Successive two-carbon units are removed while electrons are transferred to NAD and FAD",
+        "Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed",
+        "The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation"
+      ],
+      "answer": 2,
+      "explanation": "The respiratory quotient approaches one. Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed."
+    },
+    {
+      "id": "bioenergetics-respiratory-quotient-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a person oxidizes mainly carbohydrate?",
+      "options": [
+        "Many acetyl-CoA and reduced-coenzyme molecules are produced — Successive two-carbon units are removed while electrons are transferred to NAD and FAD",
+        "Electrons, protons and oxygen are produced — The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation",
+        "An electron is raised to a higher energy level and transferred to an acceptor — Light energy excites a reaction-centre electron and initiates photosynthetic electron flow",
+        "The respiratory quotient approaches one — Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed"
+      ],
+      "answer": 3,
+      "explanation": "The respiratory quotient approaches one. Complete carbohydrate oxidation releases approximately one carbon dioxide per oxygen molecule consumed."
+    },
+    {
+      "id": "bioenergetics-fat-respiration-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Fatty acids undergo beta oxidation?",
+      "options": [
+        "Many acetyl-CoA and reduced-coenzyme molecules are produced",
+        "Electrons, protons and oxygen are produced",
+        "The respiratory chain becomes reduced and ATP synthesis collapses",
+        "An electron is raised to a higher energy level and transferred to an acceptor"
+      ],
+      "answer": 0,
+      "explanation": "Many acetyl-CoA and reduced-coenzyme molecules are produced. Successive two-carbon units are removed while electrons are transferred to NAD and FAD."
+    },
+    {
+      "id": "bioenergetics-fat-respiration-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: many acetyl-CoA and reduced-coenzyme molecules are produced?",
+      "options": [
+        "Photosystem chlorophyll absorbs a photon",
+        "Fatty acids undergo beta oxidation",
+        "Water is split at photosystem II",
+        "Cyanide prevents electrons from passing to oxygen in mitochondria"
+      ],
+      "answer": 1,
+      "explanation": "Many acetyl-CoA and reduced-coenzyme molecules are produced. Successive two-carbon units are removed while electrons are transferred to NAD and FAD."
+    },
+    {
+      "id": "bioenergetics-fat-respiration-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After fatty acids undergo beta oxidation, which explanation best links the change to its outcome?",
+      "options": [
+        "Light energy excites a reaction-centre electron and initiates photosynthetic electron flow",
+        "The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation",
+        "Successive two-carbon units are removed while electrons are transferred to NAD and FAD",
+        "Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient"
+      ],
+      "answer": 2,
+      "explanation": "Many acetyl-CoA and reduced-coenzyme molecules are produced. Successive two-carbon units are removed while electrons are transferred to NAD and FAD."
+    },
+    {
+      "id": "bioenergetics-fat-respiration-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: fatty acids undergo beta oxidation?",
+      "options": [
+        "An electron is raised to a higher energy level and transferred to an acceptor — Light energy excites a reaction-centre electron and initiates photosynthetic electron flow",
+        "Electrons, protons and oxygen are produced — The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation",
+        "The respiratory chain becomes reduced and ATP synthesis collapses — Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient",
+        "Many acetyl-CoA and reduced-coenzyme molecules are produced — Successive two-carbon units are removed while electrons are transferred to NAD and FAD"
+      ],
+      "answer": 3,
+      "explanation": "Many acetyl-CoA and reduced-coenzyme molecules are produced. Successive two-carbon units are removed while electrons are transferred to NAD and FAD."
+    },
+    {
+      "id": "bioenergetics-light-absorption-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Photosystem chlorophyll absorbs a photon. Which outcome follows most directly?",
+      "options": [
+        "An electron is raised to a higher energy level and transferred to an acceptor",
+        "Electrons, protons and oxygen are produced",
+        "The respiratory chain becomes reduced and ATP synthesis collapses",
+        "Heat production rises while ATP yield per oxygen falls"
+      ],
+      "answer": 0,
+      "explanation": "An electron is raised to a higher energy level and transferred to an acceptor. Light energy excites a reaction-centre electron and initiates photosynthetic electron flow."
+    },
+    {
+      "id": "bioenergetics-light-absorption-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: an electron is raised to a higher energy level and transferred to an acceptor?",
+      "options": [
+        "Water is split at photosystem II",
+        "Photosystem chlorophyll absorbs a photon",
+        "Cyanide prevents electrons from passing to oxygen in mitochondria",
+        "A chemical carries protons freely across the inner mitochondrial membrane"
+      ],
+      "answer": 1,
+      "explanation": "An electron is raised to a higher energy level and transferred to an acceptor. Light energy excites a reaction-centre electron and initiates photosynthetic electron flow."
+    },
+    {
+      "id": "bioenergetics-light-absorption-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After photosystem chlorophyll absorbs a photon, which explanation best links the change to its outcome?",
+      "options": [
+        "The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation",
+        "Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient",
+        "Light energy excites a reaction-centre electron and initiates photosynthetic electron flow",
+        "Electron transport continues but the proton gradient bypasses ATP synthase"
+      ],
+      "answer": 2,
+      "explanation": "An electron is raised to a higher energy level and transferred to an acceptor. Light energy excites a reaction-centre electron and initiates photosynthetic electron flow."
+    },
+    {
+      "id": "bioenergetics-light-absorption-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: photosystem chlorophyll absorbs a photon?",
+      "options": [
+        "Electrons, protons and oxygen are produced — The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation",
+        "The respiratory chain becomes reduced and ATP synthesis collapses — Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient",
+        "Heat production rises while ATP yield per oxygen falls — Electron transport continues but the proton gradient bypasses ATP synthase",
+        "An electron is raised to a higher energy level and transferred to an acceptor — Light energy excites a reaction-centre electron and initiates photosynthetic electron flow"
+      ],
+      "answer": 3,
+      "explanation": "An electron is raised to a higher energy level and transferred to an acceptor. Light energy excites a reaction-centre electron and initiates photosynthetic electron flow."
+    },
+    {
+      "id": "bioenergetics-photolysis-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After water is split at photosystem II, which observation is most likely?",
+      "options": [
+        "Electrons, protons and oxygen are produced",
+        "The respiratory chain becomes reduced and ATP synthesis collapses",
+        "Heat production rises while ATP yield per oxygen falls",
+        "ATP production stops and electron transport soon slows"
+      ],
+      "answer": 0,
+      "explanation": "Electrons, protons and oxygen are produced. The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation."
+    },
+    {
+      "id": "bioenergetics-photolysis-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "A learner records that electrons, protons and oxygen are produced. Which preceding event best accounts for it?",
+      "options": [
+        "Cyanide prevents electrons from passing to oxygen in mitochondria",
+        "Water is split at photosystem II",
+        "A chemical carries protons freely across the inner mitochondrial membrane",
+        "ATP synthase proton channels are blocked"
+      ],
+      "answer": 1,
+      "explanation": "Electrons, protons and oxygen are produced. The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation."
+    },
+    {
+      "id": "bioenergetics-photolysis-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "After water is split at photosystem II, which explanation best links the change to its outcome?",
+      "options": [
+        "Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient",
+        "Electron transport continues but the proton gradient bypasses ATP synthase",
+        "The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation",
+        "Protons cannot return through the enzyme, so the growing gradient opposes further pumping"
+      ],
+      "answer": 2,
+      "explanation": "Electrons, protons and oxygen are produced. The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation."
+    },
+    {
+      "id": "bioenergetics-photolysis-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: water is split at photosystem II?",
+      "options": [
+        "ATP production stops and electron transport soon slows — Protons cannot return through the enzyme, so the growing gradient opposes further pumping",
+        "The respiratory chain becomes reduced and ATP synthesis collapses — Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient",
+        "Heat production rises while ATP yield per oxygen falls — Electron transport continues but the proton gradient bypasses ATP synthase",
+        "Electrons, protons and oxygen are produced — The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation"
+      ],
+      "answer": 3,
+      "explanation": "Electrons, protons and oxygen are produced. The oxygen-evolving complex replaces electrons lost by chlorophyll using light-driven water oxidation."
+    },
+    {
+      "id": "bioenergetics-cyanide-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Cyanide prevents electrons from passing to oxygen in mitochondria. What should the model predict first?",
+      "options": [
+        "The respiratory chain becomes reduced and ATP synthesis collapses",
+        "ATP production stops and electron transport soon slows",
+        "Heat production rises while ATP yield per oxygen falls",
+        "Succinate oxidation and FAD reduction in the cycle decline"
+      ],
+      "answer": 0,
+      "explanation": "The respiratory chain becomes reduced and ATP synthesis collapses. Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient."
+    },
+    {
+      "id": "bioenergetics-cyanide-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when the respiratory chain becomes reduced and ATP synthesis collapses?",
+      "options": [
+        "A chemical carries protons freely across the inner mitochondrial membrane",
+        "Cyanide prevents electrons from passing to oxygen in mitochondria",
+        "Malonate competitively inhibits succinate dehydrogenase",
+        "ATP synthase proton channels are blocked"
+      ],
+      "answer": 1,
+      "explanation": "The respiratory chain becomes reduced and ATP synthesis collapses. Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient."
+    },
+    {
+      "id": "bioenergetics-cyanide-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "After cyanide prevents electrons from passing to oxygen in mitochondria, which explanation best links the change to its outcome?",
+      "options": [
+        "Protons cannot return through the enzyme, so the growing gradient opposes further pumping",
+        "Electron transport continues but the proton gradient bypasses ATP synthase",
+        "Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient",
+        "The inhibitor resembles succinate and occupies the enzyme's active site"
+      ],
+      "answer": 2,
+      "explanation": "The respiratory chain becomes reduced and ATP synthesis collapses. Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient."
+    },
+    {
+      "id": "bioenergetics-cyanide-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: cyanide prevents electrons from passing to oxygen in mitochondria?",
+      "options": [
+        "Heat production rises while ATP yield per oxygen falls — Electron transport continues but the proton gradient bypasses ATP synthase",
+        "Succinate oxidation and FAD reduction in the cycle decline — The inhibitor resembles succinate and occupies the enzyme's active site",
+        "ATP production stops and electron transport soon slows — Protons cannot return through the enzyme, so the growing gradient opposes further pumping",
+        "The respiratory chain becomes reduced and ATP synthesis collapses — Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient"
+      ],
+      "answer": 3,
+      "explanation": "The respiratory chain becomes reduced and ATP synthesis collapses. Blocked terminal electron transfer stops proton pumping and dissipates the usable gradient."
+    },
+    {
+      "id": "bioenergetics-uncoupling-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: A chemical carries protons freely across the inner mitochondrial membrane?",
+      "options": [
+        "Heat production rises while ATP yield per oxygen falls",
+        "Succinate oxidation and FAD reduction in the cycle decline",
+        "Carbon fixation cannot continue for long even if carbon dioxide is present",
+        "ATP production stops and electron transport soon slows"
+      ],
+      "answer": 0,
+      "explanation": "Heat production rises while ATP yield per oxygen falls. Electron transport continues but the proton gradient bypasses ATP synthase."
+    },
+    {
+      "id": "bioenergetics-uncoupling-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: heat production rises while ATP yield per oxygen falls?",
+      "options": [
+        "ATP synthase proton channels are blocked",
+        "A chemical carries protons freely across the inner mitochondrial membrane",
+        "Malonate competitively inhibits succinate dehydrogenase",
+        "The light-dependent reactions stop supplying ATP and reduced NADP"
+      ],
+      "answer": 1,
+      "explanation": "Heat production rises while ATP yield per oxygen falls. Electron transport continues but the proton gradient bypasses ATP synthase."
+    },
+    {
+      "id": "bioenergetics-uncoupling-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "After a chemical carries protons freely across the inner mitochondrial membrane, which explanation best links the change to its outcome?",
+      "options": [
+        "Protons cannot return through the enzyme, so the growing gradient opposes further pumping",
+        "The inhibitor resembles succinate and occupies the enzyme's active site",
+        "Electron transport continues but the proton gradient bypasses ATP synthase",
+        "The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP"
+      ],
+      "answer": 2,
+      "explanation": "Heat production rises while ATP yield per oxygen falls. Electron transport continues but the proton gradient bypasses ATP synthase."
+    },
+    {
+      "id": "bioenergetics-uncoupling-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a chemical carries protons freely across the inner mitochondrial membrane?",
+      "options": [
+        "ATP production stops and electron transport soon slows — Protons cannot return through the enzyme, so the growing gradient opposes further pumping",
+        "Succinate oxidation and FAD reduction in the cycle decline — The inhibitor resembles succinate and occupies the enzyme's active site",
+        "Carbon fixation cannot continue for long even if carbon dioxide is present — The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP",
+        "Heat production rises while ATP yield per oxygen falls — Electron transport continues but the proton gradient bypasses ATP synthase"
+      ],
+      "answer": 3,
+      "explanation": "Heat production rises while ATP yield per oxygen falls. Electron transport continues but the proton gradient bypasses ATP synthase."
+    },
+    {
+      "id": "bioenergetics-oligomycin-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "ATP synthase proton channels are blocked. Which outcome follows most directly?",
+      "options": [
+        "ATP production stops and electron transport soon slows",
+        "Succinate oxidation and FAD reduction in the cycle decline",
+        "Carbon fixation cannot continue for long even if carbon dioxide is present",
+        "Net carbohydrate production falls"
+      ],
+      "answer": 0,
+      "explanation": "ATP production stops and electron transport soon slows. Protons cannot return through the enzyme, so the growing gradient opposes further pumping."
+    },
+    {
+      "id": "bioenergetics-oligomycin-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: ATP production stops and electron transport soon slows?",
+      "options": [
+        "Malonate competitively inhibits succinate dehydrogenase",
+        "ATP synthase proton channels are blocked",
+        "The light-dependent reactions stop supplying ATP and reduced NADP",
+        "Rubisco binds oxygen more often during hot dry conditions"
+      ],
+      "answer": 1,
+      "explanation": "ATP production stops and electron transport soon slows. Protons cannot return through the enzyme, so the growing gradient opposes further pumping."
+    },
+    {
+      "id": "bioenergetics-oligomycin-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "After ATP synthase proton channels are blocked, which explanation best links the change to its outcome?",
+      "options": [
+        "The inhibitor resembles succinate and occupies the enzyme's active site",
+        "The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP",
+        "Protons cannot return through the enzyme, so the growing gradient opposes further pumping",
+        "Photorespiration consumes fixed carbon and energy without producing sugar"
+      ],
+      "answer": 2,
+      "explanation": "ATP production stops and electron transport soon slows. Protons cannot return through the enzyme, so the growing gradient opposes further pumping."
+    },
+    {
+      "id": "bioenergetics-oligomycin-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: ATP synthase proton channels are blocked?",
+      "options": [
+        "Succinate oxidation and FAD reduction in the cycle decline — The inhibitor resembles succinate and occupies the enzyme's active site",
+        "Carbon fixation cannot continue for long even if carbon dioxide is present — The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP",
+        "Net carbohydrate production falls — Photorespiration consumes fixed carbon and energy without producing sugar",
+        "ATP production stops and electron transport soon slows — Protons cannot return through the enzyme, so the growing gradient opposes further pumping"
+      ],
+      "answer": 3,
+      "explanation": "ATP production stops and electron transport soon slows. Protons cannot return through the enzyme, so the growing gradient opposes further pumping."
+    },
+    {
+      "id": "bioenergetics-malonate-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "After malonate competitively inhibits succinate dehydrogenase, which observation is most likely?",
+      "options": [
+        "Succinate oxidation and FAD reduction in the cycle decline",
+        "Carbon fixation cannot continue for long even if carbon dioxide is present",
+        "Net carbohydrate production falls",
+        "The recipient becomes more reactive and can drive an energy-requiring process"
+      ],
+      "answer": 0,
+      "explanation": "Succinate oxidation and FAD reduction in the cycle decline. The inhibitor resembles succinate and occupies the enzyme's active site."
+    },
+    {
+      "id": "bioenergetics-malonate-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "A learner records that succinate oxidation and FAD reduction in the cycle decline. Which preceding event best accounts for it?",
+      "options": [
+        "The light-dependent reactions stop supplying ATP and reduced NADP",
+        "Malonate competitively inhibits succinate dehydrogenase",
+        "Rubisco binds oxygen more often during hot dry conditions",
+        "ATP transfers its terminal phosphate to another molecule"
+      ],
+      "answer": 1,
+      "explanation": "Succinate oxidation and FAD reduction in the cycle decline. The inhibitor resembles succinate and occupies the enzyme's active site."
+    },
+    {
+      "id": "bioenergetics-malonate-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "After malonate competitively inhibits succinate dehydrogenase, which explanation best links the change to its outcome?",
+      "options": [
+        "The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP",
+        "Photorespiration consumes fixed carbon and energy without producing sugar",
+        "The inhibitor resembles succinate and occupies the enzyme's active site",
+        "Phosphorylation couples the exergonic hydrolysis of ATP to cellular work"
+      ],
+      "answer": 2,
+      "explanation": "Succinate oxidation and FAD reduction in the cycle decline. The inhibitor resembles succinate and occupies the enzyme's active site."
+    },
+    {
+      "id": "bioenergetics-malonate-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: malonate competitively inhibits succinate dehydrogenase?",
+      "options": [
+        "The recipient becomes more reactive and can drive an energy-requiring process — Phosphorylation couples the exergonic hydrolysis of ATP to cellular work",
+        "Carbon fixation cannot continue for long even if carbon dioxide is present — The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP",
+        "Net carbohydrate production falls — Photorespiration consumes fixed carbon and energy without producing sugar",
+        "Succinate oxidation and FAD reduction in the cycle decline — The inhibitor resembles succinate and occupies the enzyme's active site"
+      ],
+      "answer": 3,
+      "explanation": "Succinate oxidation and FAD reduction in the cycle decline. The inhibitor resembles succinate and occupies the enzyme's active site."
+    },
+    {
+      "id": "bioenergetics-calvin-atp-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: The light-dependent reactions stop supplying ATP and reduced NADP. What should the model predict first?",
+      "options": [
+        "Carbon fixation cannot continue for long even if carbon dioxide is present",
+        "The recipient becomes more reactive and can drive an energy-requiring process",
+        "Net carbohydrate production falls",
+        "Two pyruvate, a net two ATP and reduced NAD are produced"
+      ],
+      "answer": 0,
+      "explanation": "Carbon fixation cannot continue for long even if carbon dioxide is present. The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP."
+    },
+    {
+      "id": "bioenergetics-calvin-atp-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when carbon fixation cannot continue for long even if carbon dioxide is present?",
+      "options": [
+        "Rubisco binds oxygen more often during hot dry conditions",
+        "The light-dependent reactions stop supplying ATP and reduced NADP",
+        "One glucose molecule completes glycolysis in the cytosol",
+        "ATP transfers its terminal phosphate to another molecule"
+      ],
+      "answer": 1,
+      "explanation": "Carbon fixation cannot continue for long even if carbon dioxide is present. The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP."
+    },
+    {
+      "id": "bioenergetics-calvin-atp-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "After the light-dependent reactions stop supplying ATP and reduced NADP, which explanation best links the change to its outcome?",
+      "options": [
+        "Phosphorylation couples the exergonic hydrolysis of ATP to cellular work",
+        "Photorespiration consumes fixed carbon and energy without producing sugar",
+        "The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP",
+        "A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar"
+      ],
+      "answer": 2,
+      "explanation": "Carbon fixation cannot continue for long even if carbon dioxide is present. The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP."
+    },
+    {
+      "id": "bioenergetics-calvin-atp-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: the light-dependent reactions stop supplying ATP and reduced NADP?",
+      "options": [
+        "Net carbohydrate production falls — Photorespiration consumes fixed carbon and energy without producing sugar",
+        "Two pyruvate, a net two ATP and reduced NAD are produced — A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar",
+        "The recipient becomes more reactive and can drive an energy-requiring process — Phosphorylation couples the exergonic hydrolysis of ATP to cellular work",
+        "Carbon fixation cannot continue for long even if carbon dioxide is present — The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP"
+      ],
+      "answer": 3,
+      "explanation": "Carbon fixation cannot continue for long even if carbon dioxide is present. The Calvin cycle needs both energy and reducing power to reduce glycerate phosphate and regenerate RuBP."
+    },
+    {
+      "id": "bioenergetics-photorespiration-outcome",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Rubisco binds oxygen more often during hot dry conditions?",
+      "options": [
+        "Net carbohydrate production falls",
+        "Two pyruvate, a net two ATP and reduced NAD are produced",
+        "Pyruvate is reduced to lactate so glycolysis can continue",
+        "The recipient becomes more reactive and can drive an energy-requiring process"
+      ],
+      "answer": 0,
+      "explanation": "Net carbohydrate production falls. Photorespiration consumes fixed carbon and energy without producing sugar."
+    },
+    {
+      "id": "bioenergetics-photorespiration-cause",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: net carbohydrate production falls?",
+      "options": [
+        "ATP transfers its terminal phosphate to another molecule",
+        "Rubisco binds oxygen more often during hot dry conditions",
+        "One glucose molecule completes glycolysis in the cytosol",
+        "Oxygen supply becomes inadequate in an actively contracting muscle"
+      ],
+      "answer": 1,
+      "explanation": "Net carbohydrate production falls. Photorespiration consumes fixed carbon and energy without producing sugar."
+    },
+    {
+      "id": "bioenergetics-photorespiration-mechanism",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "After rubisco binds oxygen more often during hot dry conditions, which explanation best links the change to its outcome?",
+      "options": [
+        "Phosphorylation couples the exergonic hydrolysis of ATP to cellular work",
+        "A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar",
+        "Photorespiration consumes fixed carbon and energy without producing sugar",
+        "Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis"
+      ],
+      "answer": 2,
+      "explanation": "Net carbohydrate production falls. Photorespiration consumes fixed carbon and energy without producing sugar."
+    },
+    {
+      "id": "bioenergetics-photorespiration-integrated",
+      "chapter": "Bioenergetics",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: rubisco binds oxygen more often during hot dry conditions?",
+      "options": [
+        "The recipient becomes more reactive and can drive an energy-requiring process — Phosphorylation couples the exergonic hydrolysis of ATP to cellular work",
+        "Two pyruvate, a net two ATP and reduced NAD are produced — A sequence of enzyme reactions splits and partially oxidizes the six-carbon sugar",
+        "Pyruvate is reduced to lactate so glycolysis can continue — Lactate dehydrogenase regenerates NAD from reduced NAD for the oxidation step of glycolysis",
+        "Net carbohydrate production falls — Photorespiration consumes fixed carbon and energy without producing sugar"
+      ],
+      "answer": 3,
+      "explanation": "Net carbohydrate production falls. Photorespiration consumes fixed carbon and energy without producing sugar."
+    }
+  ]
+}

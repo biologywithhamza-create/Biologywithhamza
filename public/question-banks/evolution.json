@@ -1,0 +1,1408 @@
+{
+  "chapter": "Evolution",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "antibiotic-selection",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After antibiotic treatment, resistant bacteria become common. The most accurate explanation is that the antibiotic:",
+      "options": [
+        "Selected resistant variants already present in the population",
+        "Taught every bacterium how to resist",
+        "Prevented all bacterial reproduction",
+        "Converted viruses into bacteria"
+      ],
+      "answer": 0,
+      "explanation": "Resistance variants arise before exposure through mutation or gene transfer. Antibiotic treatment removes susceptible competitors and increases the relative success of resistant cells."
+    },
+    {
+      "id": "homologous-structures",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "The same underlying forelimb bone pattern in whales, bats and humans is strongest evidence for:",
+      "options": [
+        "Identical present-day functions",
+        "Common ancestry followed by divergent evolution",
+        "Inheritance of acquired characters",
+        "Absence of natural selection"
+      ],
+      "answer": 1,
+      "explanation": "Homologous structures share an underlying developmental origin despite different functions, supporting descent from a common ancestor and later divergence."
+    },
+    {
+      "id": "hardy-weinberg-change",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "A large randomly mating population has no mutation, migration or selection. Which outcome is expected across generations?",
+      "options": [
+        "Every recessive allele disappears",
+        "All individuals become heterozygous",
+        "Allele frequencies remain approximately constant",
+        "Natural selection becomes stronger each generation"
+      ],
+      "answer": 2,
+      "explanation": "These conditions approximate Hardy–Weinberg equilibrium, under which allele and genotype frequencies remain stable apart from sampling error."
+    },
+    {
+      "id": "founder-effect",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "A few individuals colonise an isolated island and carry allele frequencies unlike the source population. This is an example of:",
+      "options": [
+        "Artificial selection",
+        "Convergent evolution",
+        "Gene flow into a large population",
+        "The founder effect"
+      ],
+      "answer": 3,
+      "explanation": "A new population founded by a small sample may begin with unrepresentative allele frequencies, a form of genetic drift called the founder effect."
+    },
+    {
+      "id": "evolution-variation-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Mutation and sexual reproduction create heritable differences in a population. Which outcome follows most directly?",
+      "options": [
+        "Individuals vary in traits on which selection can act",
+        "Its allele tends to become more common over generations",
+        "The population becomes better suited to its environment",
+        "Changes and extinctions through geological time can be reconstructed"
+      ],
+      "answer": 0,
+      "explanation": "Individuals vary in traits on which selection can act. New alleles and reshuffled allele combinations produce genetic diversity."
+    },
+    {
+      "id": "evolution-variation-cause",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: individuals vary in traits on which selection can act?",
+      "options": [
+        "A heritable trait improves survival and reproduction in one environment",
+        "Mutation and sexual reproduction create heritable differences in a population",
+        "Natural selection repeatedly favours a useful inherited characteristic",
+        "Organisms are preserved in a dated sequence of rock layers"
+      ],
+      "answer": 1,
+      "explanation": "Individuals vary in traits on which selection can act. New alleles and reshuffled allele combinations produce genetic diversity."
+    },
+    {
+      "id": "evolution-variation-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After mutation and sexual reproduction create heritable differences in a population, which explanation best links the change to its outcome?",
+      "options": [
+        "Carriers contribute more offspring and allele copies to the next generation",
+        "Differential reproductive success accumulates favourable alleles",
+        "New alleles and reshuffled allele combinations produce genetic diversity",
+        "Relative and radiometric dating place fossil forms in chronological order"
+      ],
+      "answer": 2,
+      "explanation": "Individuals vary in traits on which selection can act. New alleles and reshuffled allele combinations produce genetic diversity."
+    },
+    {
+      "id": "evolution-variation-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: mutation and sexual reproduction create heritable differences in a population?",
+      "options": [
+        "Its allele tends to become more common over generations — Carriers contribute more offspring and allele copies to the next generation",
+        "The population becomes better suited to its environment — Differential reproductive success accumulates favourable alleles",
+        "Changes and extinctions through geological time can be reconstructed — Relative and radiometric dating place fossil forms in chronological order",
+        "Individuals vary in traits on which selection can act — New alleles and reshuffled allele combinations produce genetic diversity"
+      ],
+      "answer": 3,
+      "explanation": "Individuals vary in traits on which selection can act. New alleles and reshuffled allele combinations produce genetic diversity."
+    },
+    {
+      "id": "evolution-selection-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After a heritable trait improves survival and reproduction in one environment, which observation is most likely?",
+      "options": [
+        "Its allele tends to become more common over generations",
+        "The population becomes better suited to its environment",
+        "Changes and extinctions through geological time can be reconstructed",
+        "Common ancestry is supported"
+      ],
+      "answer": 0,
+      "explanation": "Its allele tends to become more common over generations. Carriers contribute more offspring and allele copies to the next generation."
+    },
+    {
+      "id": "evolution-selection-cause",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "A learner records that its allele tends to become more common over generations. Which preceding event best accounts for it?",
+      "options": [
+        "Natural selection repeatedly favours a useful inherited characteristic",
+        "A heritable trait improves survival and reproduction in one environment",
+        "Organisms are preserved in a dated sequence of rock layers",
+        "Different species share the same underlying limb-bone arrangement"
+      ],
+      "answer": 1,
+      "explanation": "Its allele tends to become more common over generations. Carriers contribute more offspring and allele copies to the next generation."
+    },
+    {
+      "id": "evolution-selection-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After a heritable trait improves survival and reproduction in one environment, which explanation best links the change to its outcome?",
+      "options": [
+        "Differential reproductive success accumulates favourable alleles",
+        "Relative and radiometric dating place fossil forms in chronological order",
+        "Carriers contribute more offspring and allele copies to the next generation",
+        "The structure was inherited and modified for divergent functions"
+      ],
+      "answer": 2,
+      "explanation": "Its allele tends to become more common over generations. Carriers contribute more offspring and allele copies to the next generation."
+    },
+    {
+      "id": "evolution-selection-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a heritable trait improves survival and reproduction in one environment?",
+      "options": [
+        "Common ancestry is supported — The structure was inherited and modified for divergent functions",
+        "The population becomes better suited to its environment — Differential reproductive success accumulates favourable alleles",
+        "Changes and extinctions through geological time can be reconstructed — Relative and radiometric dating place fossil forms in chronological order",
+        "Its allele tends to become more common over generations — Carriers contribute more offspring and allele copies to the next generation"
+      ],
+      "answer": 3,
+      "explanation": "Its allele tends to become more common over generations. Carriers contribute more offspring and allele copies to the next generation."
+    },
+    {
+      "id": "evolution-adaptation-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: Natural selection repeatedly favours a useful inherited characteristic. What should the model predict first?",
+      "options": [
+        "The population becomes better suited to its environment",
+        "Common ancestry is supported",
+        "Changes and extinctions through geological time can be reconstructed",
+        "Resistance becomes more common in later generations"
+      ],
+      "answer": 0,
+      "explanation": "The population becomes better suited to its environment. Differential reproductive success accumulates favourable alleles."
+    },
+    {
+      "id": "evolution-adaptation-cause",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when the population becomes better suited to its environment?",
+      "options": [
+        "Organisms are preserved in a dated sequence of rock layers",
+        "Natural selection repeatedly favours a useful inherited characteristic",
+        "An antibiotic kills susceptible bacteria but resistant variants survive",
+        "Different species share the same underlying limb-bone arrangement"
+      ],
+      "answer": 1,
+      "explanation": "The population becomes better suited to its environment. Differential reproductive success accumulates favourable alleles."
+    },
+    {
+      "id": "evolution-adaptation-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After natural selection repeatedly favours a useful inherited characteristic, which explanation best links the change to its outcome?",
+      "options": [
+        "The structure was inherited and modified for divergent functions",
+        "Relative and radiometric dating place fossil forms in chronological order",
+        "Differential reproductive success accumulates favourable alleles",
+        "Treatment creates differential survival rather than intentionally causing adaptive mutations"
+      ],
+      "answer": 2,
+      "explanation": "The population becomes better suited to its environment. Differential reproductive success accumulates favourable alleles."
+    },
+    {
+      "id": "evolution-adaptation-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: natural selection repeatedly favours a useful inherited characteristic?",
+      "options": [
+        "Changes and extinctions through geological time can be reconstructed — Relative and radiometric dating place fossil forms in chronological order",
+        "Resistance becomes more common in later generations — Treatment creates differential survival rather than intentionally causing adaptive mutations",
+        "Common ancestry is supported — The structure was inherited and modified for divergent functions",
+        "The population becomes better suited to its environment — Differential reproductive success accumulates favourable alleles"
+      ],
+      "answer": 3,
+      "explanation": "The population becomes better suited to its environment. Differential reproductive success accumulates favourable alleles."
+    },
+    {
+      "id": "evolution-fossils-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: Organisms are preserved in a dated sequence of rock layers?",
+      "options": [
+        "Changes and extinctions through geological time can be reconstructed",
+        "Resistance becomes more common in later generations",
+        "The population mean shifts toward that extreme",
+        "Common ancestry is supported"
+      ],
+      "answer": 0,
+      "explanation": "Changes and extinctions through geological time can be reconstructed. Relative and radiometric dating place fossil forms in chronological order."
+    },
+    {
+      "id": "evolution-fossils-cause",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: changes and extinctions through geological time can be reconstructed?",
+      "options": [
+        "Different species share the same underlying limb-bone arrangement",
+        "Organisms are preserved in a dated sequence of rock layers",
+        "An antibiotic kills susceptible bacteria but resistant variants survive",
+        "One extreme phenotype consistently has the highest fitness"
+      ],
+      "answer": 1,
+      "explanation": "Changes and extinctions through geological time can be reconstructed. Relative and radiometric dating place fossil forms in chronological order."
+    },
+    {
+      "id": "evolution-fossils-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After organisms are preserved in a dated sequence of rock layers, which explanation best links the change to its outcome?",
+      "options": [
+        "The structure was inherited and modified for divergent functions",
+        "Treatment creates differential survival rather than intentionally causing adaptive mutations",
+        "Relative and radiometric dating place fossil forms in chronological order",
+        "Directional selection increases alleles associated with the favoured end of the range"
+      ],
+      "answer": 2,
+      "explanation": "Changes and extinctions through geological time can be reconstructed. Relative and radiometric dating place fossil forms in chronological order."
+    },
+    {
+      "id": "evolution-fossils-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: organisms are preserved in a dated sequence of rock layers?",
+      "options": [
+        "Common ancestry is supported — The structure was inherited and modified for divergent functions",
+        "Resistance becomes more common in later generations — Treatment creates differential survival rather than intentionally causing adaptive mutations",
+        "The population mean shifts toward that extreme — Directional selection increases alleles associated with the favoured end of the range",
+        "Changes and extinctions through geological time can be reconstructed — Relative and radiometric dating place fossil forms in chronological order"
+      ],
+      "answer": 3,
+      "explanation": "Changes and extinctions through geological time can be reconstructed. Relative and radiometric dating place fossil forms in chronological order."
+    },
+    {
+      "id": "evolution-homology-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Different species share the same underlying limb-bone arrangement. Which outcome follows most directly?",
+      "options": [
+        "Common ancestry is supported",
+        "Resistance becomes more common in later generations",
+        "The population mean shifts toward that extreme",
+        "Variation narrows around the existing mean"
+      ],
+      "answer": 0,
+      "explanation": "Common ancestry is supported. The structure was inherited and modified for divergent functions."
+    },
+    {
+      "id": "evolution-homology-cause",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: common ancestry is supported?",
+      "options": [
+        "An antibiotic kills susceptible bacteria but resistant variants survive",
+        "Different species share the same underlying limb-bone arrangement",
+        "One extreme phenotype consistently has the highest fitness",
+        "Intermediate phenotypes survive better than both extremes"
+      ],
+      "answer": 1,
+      "explanation": "Common ancestry is supported. The structure was inherited and modified for divergent functions."
+    },
+    {
+      "id": "evolution-homology-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After different species share the same underlying limb-bone arrangement, which explanation best links the change to its outcome?",
+      "options": [
+        "Treatment creates differential survival rather than intentionally causing adaptive mutations",
+        "Directional selection increases alleles associated with the favoured end of the range",
+        "The structure was inherited and modified for divergent functions",
+        "Stabilizing selection removes alleles contributing to extreme trait values"
+      ],
+      "answer": 2,
+      "explanation": "Common ancestry is supported. The structure was inherited and modified for divergent functions."
+    },
+    {
+      "id": "evolution-homology-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: different species share the same underlying limb-bone arrangement?",
+      "options": [
+        "Resistance becomes more common in later generations — Treatment creates differential survival rather than intentionally causing adaptive mutations",
+        "The population mean shifts toward that extreme — Directional selection increases alleles associated with the favoured end of the range",
+        "Variation narrows around the existing mean — Stabilizing selection removes alleles contributing to extreme trait values",
+        "Common ancestry is supported — The structure was inherited and modified for divergent functions"
+      ],
+      "answer": 3,
+      "explanation": "Common ancestry is supported. The structure was inherited and modified for divergent functions."
+    },
+    {
+      "id": "evolution-antibiotic-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After an antibiotic kills susceptible bacteria but resistant variants survive, which observation is most likely?",
+      "options": [
+        "Resistance becomes more common in later generations",
+        "The population mean shifts toward that extreme",
+        "Variation narrows around the existing mean",
+        "The trait distribution can become bimodal"
+      ],
+      "answer": 0,
+      "explanation": "Resistance becomes more common in later generations. Treatment creates differential survival rather than intentionally causing adaptive mutations."
+    },
+    {
+      "id": "evolution-antibiotic-cause",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "A learner records that resistance becomes more common in later generations. Which preceding event best accounts for it?",
+      "options": [
+        "One extreme phenotype consistently has the highest fitness",
+        "An antibiotic kills susceptible bacteria but resistant variants survive",
+        "Intermediate phenotypes survive better than both extremes",
+        "Both extreme phenotypes outperform intermediate individuals"
+      ],
+      "answer": 1,
+      "explanation": "Resistance becomes more common in later generations. Treatment creates differential survival rather than intentionally causing adaptive mutations."
+    },
+    {
+      "id": "evolution-antibiotic-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "After an antibiotic kills susceptible bacteria but resistant variants survive, which explanation best links the change to its outcome?",
+      "options": [
+        "Directional selection increases alleles associated with the favoured end of the range",
+        "Stabilizing selection removes alleles contributing to extreme trait values",
+        "Treatment creates differential survival rather than intentionally causing adaptive mutations",
+        "Disruptive selection favours different adaptations at opposite ends of the range"
+      ],
+      "answer": 2,
+      "explanation": "Resistance becomes more common in later generations. Treatment creates differential survival rather than intentionally causing adaptive mutations."
+    },
+    {
+      "id": "evolution-antibiotic-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: an antibiotic kills susceptible bacteria but resistant variants survive?",
+      "options": [
+        "The trait distribution can become bimodal — Disruptive selection favours different adaptations at opposite ends of the range",
+        "The population mean shifts toward that extreme — Directional selection increases alleles associated with the favoured end of the range",
+        "Variation narrows around the existing mean — Stabilizing selection removes alleles contributing to extreme trait values",
+        "Resistance becomes more common in later generations — Treatment creates differential survival rather than intentionally causing adaptive mutations"
+      ],
+      "answer": 3,
+      "explanation": "Resistance becomes more common in later generations. Treatment creates differential survival rather than intentionally causing adaptive mutations."
+    },
+    {
+      "id": "evolution-directional-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "A student models this change: One extreme phenotype consistently has the highest fitness. What should the model predict first?",
+      "options": [
+        "The population mean shifts toward that extreme",
+        "The trait distribution can become bimodal",
+        "Variation narrows around the existing mean",
+        "The trait can spread through the population"
+      ],
+      "answer": 0,
+      "explanation": "The population mean shifts toward that extreme. Directional selection increases alleles associated with the favoured end of the range."
+    },
+    {
+      "id": "evolution-directional-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the population mean shifts toward that extreme?",
+      "options": [
+        "Intermediate phenotypes survive better than both extremes",
+        "One extreme phenotype consistently has the highest fitness",
+        "A display trait strongly increases mating success despite a survival cost",
+        "Both extreme phenotypes outperform intermediate individuals"
+      ],
+      "answer": 1,
+      "explanation": "The population mean shifts toward that extreme. Directional selection increases alleles associated with the favoured end of the range."
+    },
+    {
+      "id": "evolution-directional-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After one extreme phenotype consistently has the highest fitness, which explanation best links the change to its outcome?",
+      "options": [
+        "Disruptive selection favours different adaptations at opposite ends of the range",
+        "Stabilizing selection removes alleles contributing to extreme trait values",
+        "Directional selection increases alleles associated with the favoured end of the range",
+        "Reproductive advantage can outweigh reduced viability in total fitness"
+      ],
+      "answer": 2,
+      "explanation": "The population mean shifts toward that extreme. Directional selection increases alleles associated with the favoured end of the range."
+    },
+    {
+      "id": "evolution-directional-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: one extreme phenotype consistently has the highest fitness?",
+      "options": [
+        "Variation narrows around the existing mean — Stabilizing selection removes alleles contributing to extreme trait values",
+        "The trait can spread through the population — Reproductive advantage can outweigh reduced viability in total fitness",
+        "The trait distribution can become bimodal — Disruptive selection favours different adaptations at opposite ends of the range",
+        "The population mean shifts toward that extreme — Directional selection increases alleles associated with the favoured end of the range"
+      ],
+      "answer": 3,
+      "explanation": "The population mean shifts toward that extreme. Directional selection increases alleles associated with the favoured end of the range."
+    },
+    {
+      "id": "evolution-stabilizing-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Intermediate phenotypes survive better than both extremes?",
+      "options": [
+        "Variation narrows around the existing mean",
+        "The trait can spread through the population",
+        "Alleles may be lost or fixed independently of fitness",
+        "The trait distribution can become bimodal"
+      ],
+      "answer": 0,
+      "explanation": "Variation narrows around the existing mean. Stabilizing selection removes alleles contributing to extreme trait values."
+    },
+    {
+      "id": "evolution-stabilizing-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: variation narrows around the existing mean?",
+      "options": [
+        "Both extreme phenotypes outperform intermediate individuals",
+        "Intermediate phenotypes survive better than both extremes",
+        "A display trait strongly increases mating success despite a survival cost",
+        "Allele frequencies change through random sampling in a small population"
+      ],
+      "answer": 1,
+      "explanation": "Variation narrows around the existing mean. Stabilizing selection removes alleles contributing to extreme trait values."
+    },
+    {
+      "id": "evolution-stabilizing-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After intermediate phenotypes survive better than both extremes, which explanation best links the change to its outcome?",
+      "options": [
+        "Disruptive selection favours different adaptations at opposite ends of the range",
+        "Reproductive advantage can outweigh reduced viability in total fitness",
+        "Stabilizing selection removes alleles contributing to extreme trait values",
+        "Chance differences in which individuals reproduce have large proportional effects"
+      ],
+      "answer": 2,
+      "explanation": "Variation narrows around the existing mean. Stabilizing selection removes alleles contributing to extreme trait values."
+    },
+    {
+      "id": "evolution-stabilizing-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: intermediate phenotypes survive better than both extremes?",
+      "options": [
+        "The trait distribution can become bimodal — Disruptive selection favours different adaptations at opposite ends of the range",
+        "The trait can spread through the population — Reproductive advantage can outweigh reduced viability in total fitness",
+        "Alleles may be lost or fixed independently of fitness — Chance differences in which individuals reproduce have large proportional effects",
+        "Variation narrows around the existing mean — Stabilizing selection removes alleles contributing to extreme trait values"
+      ],
+      "answer": 3,
+      "explanation": "Variation narrows around the existing mean. Stabilizing selection removes alleles contributing to extreme trait values."
+    },
+    {
+      "id": "evolution-disruptive-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Both extreme phenotypes outperform intermediate individuals. Which outcome follows most directly?",
+      "options": [
+        "The trait distribution can become bimodal",
+        "The trait can spread through the population",
+        "Alleles may be lost or fixed independently of fitness",
+        "Genetic diversity falls and allele frequencies may shift"
+      ],
+      "answer": 0,
+      "explanation": "The trait distribution can become bimodal. Disruptive selection favours different adaptations at opposite ends of the range."
+    },
+    {
+      "id": "evolution-disruptive-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: the trait distribution can become bimodal?",
+      "options": [
+        "A display trait strongly increases mating success despite a survival cost",
+        "Both extreme phenotypes outperform intermediate individuals",
+        "Allele frequencies change through random sampling in a small population",
+        "A population is suddenly reduced to a few random survivors"
+      ],
+      "answer": 1,
+      "explanation": "The trait distribution can become bimodal. Disruptive selection favours different adaptations at opposite ends of the range."
+    },
+    {
+      "id": "evolution-disruptive-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After both extreme phenotypes outperform intermediate individuals, which explanation best links the change to its outcome?",
+      "options": [
+        "Reproductive advantage can outweigh reduced viability in total fitness",
+        "Chance differences in which individuals reproduce have large proportional effects",
+        "Disruptive selection favours different adaptations at opposite ends of the range",
+        "The survivors carry only a non-representative sample of the original gene pool"
+      ],
+      "answer": 2,
+      "explanation": "The trait distribution can become bimodal. Disruptive selection favours different adaptations at opposite ends of the range."
+    },
+    {
+      "id": "evolution-disruptive-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: both extreme phenotypes outperform intermediate individuals?",
+      "options": [
+        "The trait can spread through the population — Reproductive advantage can outweigh reduced viability in total fitness",
+        "Alleles may be lost or fixed independently of fitness — Chance differences in which individuals reproduce have large proportional effects",
+        "Genetic diversity falls and allele frequencies may shift — The survivors carry only a non-representative sample of the original gene pool",
+        "The trait distribution can become bimodal — Disruptive selection favours different adaptations at opposite ends of the range"
+      ],
+      "answer": 3,
+      "explanation": "The trait distribution can become bimodal. Disruptive selection favours different adaptations at opposite ends of the range."
+    },
+    {
+      "id": "evolution-sexual-selection-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After a display trait strongly increases mating success despite a survival cost, which observation is most likely?",
+      "options": [
+        "The trait can spread through the population",
+        "Alleles may be lost or fixed independently of fitness",
+        "Genetic diversity falls and allele frequencies may shift",
+        "Its allele frequencies differ by chance from the source population"
+      ],
+      "answer": 0,
+      "explanation": "The trait can spread through the population. Reproductive advantage can outweigh reduced viability in total fitness."
+    },
+    {
+      "id": "evolution-sexual-selection-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "A learner records that the trait can spread through the population. Which preceding event best accounts for it?",
+      "options": [
+        "Allele frequencies change through random sampling in a small population",
+        "A display trait strongly increases mating success despite a survival cost",
+        "A population is suddenly reduced to a few random survivors",
+        "A small group establishes a new isolated population"
+      ],
+      "answer": 1,
+      "explanation": "The trait can spread through the population. Reproductive advantage can outweigh reduced viability in total fitness."
+    },
+    {
+      "id": "evolution-sexual-selection-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After a display trait strongly increases mating success despite a survival cost, which explanation best links the change to its outcome?",
+      "options": [
+        "Chance differences in which individuals reproduce have large proportional effects",
+        "The survivors carry only a non-representative sample of the original gene pool",
+        "Reproductive advantage can outweigh reduced viability in total fitness",
+        "The founders bring only a sample of the original population's alleles"
+      ],
+      "answer": 2,
+      "explanation": "The trait can spread through the population. Reproductive advantage can outweigh reduced viability in total fitness."
+    },
+    {
+      "id": "evolution-sexual-selection-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a display trait strongly increases mating success despite a survival cost?",
+      "options": [
+        "Its allele frequencies differ by chance from the source population — The founders bring only a sample of the original population's alleles",
+        "Alleles may be lost or fixed independently of fitness — Chance differences in which individuals reproduce have large proportional effects",
+        "Genetic diversity falls and allele frequencies may shift — The survivors carry only a non-representative sample of the original gene pool",
+        "The trait can spread through the population — Reproductive advantage can outweigh reduced viability in total fitness"
+      ],
+      "answer": 3,
+      "explanation": "The trait can spread through the population. Reproductive advantage can outweigh reduced viability in total fitness."
+    },
+    {
+      "id": "evolution-genetic-drift-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Allele frequencies change through random sampling in a small population. What should the model predict first?",
+      "options": [
+        "Alleles may be lost or fixed independently of fitness",
+        "Its allele frequencies differ by chance from the source population",
+        "Genetic diversity falls and allele frequencies may shift",
+        "Alleles move between gene pools and populations may become more similar"
+      ],
+      "answer": 0,
+      "explanation": "Alleles may be lost or fixed independently of fitness. Chance differences in which individuals reproduce have large proportional effects."
+    },
+    {
+      "id": "evolution-genetic-drift-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when alleles may be lost or fixed independently of fitness?",
+      "options": [
+        "A population is suddenly reduced to a few random survivors",
+        "Allele frequencies change through random sampling in a small population",
+        "Individuals migrate and reproduce in another population",
+        "A small group establishes a new isolated population"
+      ],
+      "answer": 1,
+      "explanation": "Alleles may be lost or fixed independently of fitness. Chance differences in which individuals reproduce have large proportional effects."
+    },
+    {
+      "id": "evolution-genetic-drift-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After allele frequencies change through random sampling in a small population, which explanation best links the change to its outcome?",
+      "options": [
+        "The founders bring only a sample of the original population's alleles",
+        "The survivors carry only a non-representative sample of the original gene pool",
+        "Chance differences in which individuals reproduce have large proportional effects",
+        "Migrants contribute their gametes to the recipient population"
+      ],
+      "answer": 2,
+      "explanation": "Alleles may be lost or fixed independently of fitness. Chance differences in which individuals reproduce have large proportional effects."
+    },
+    {
+      "id": "evolution-genetic-drift-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: allele frequencies change through random sampling in a small population?",
+      "options": [
+        "Genetic diversity falls and allele frequencies may shift — The survivors carry only a non-representative sample of the original gene pool",
+        "Alleles move between gene pools and populations may become more similar — Migrants contribute their gametes to the recipient population",
+        "Its allele frequencies differ by chance from the source population — The founders bring only a sample of the original population's alleles",
+        "Alleles may be lost or fixed independently of fitness — Chance differences in which individuals reproduce have large proportional effects"
+      ],
+      "answer": 3,
+      "explanation": "Alleles may be lost or fixed independently of fitness. Chance differences in which individuals reproduce have large proportional effects."
+    },
+    {
+      "id": "evolution-bottleneck-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: A population is suddenly reduced to a few random survivors?",
+      "options": [
+        "Genetic diversity falls and allele frequencies may shift",
+        "Alleles move between gene pools and populations may become more similar",
+        "They can accumulate independent genetic differences",
+        "Its allele frequencies differ by chance from the source population"
+      ],
+      "answer": 0,
+      "explanation": "Genetic diversity falls and allele frequencies may shift. The survivors carry only a non-representative sample of the original gene pool."
+    },
+    {
+      "id": "evolution-bottleneck-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: genetic diversity falls and allele frequencies may shift?",
+      "options": [
+        "A small group establishes a new isolated population",
+        "A population is suddenly reduced to a few random survivors",
+        "Individuals migrate and reproduce in another population",
+        "Two populations stop exchanging genes"
+      ],
+      "answer": 1,
+      "explanation": "Genetic diversity falls and allele frequencies may shift. The survivors carry only a non-representative sample of the original gene pool."
+    },
+    {
+      "id": "evolution-bottleneck-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After a population is suddenly reduced to a few random survivors, which explanation best links the change to its outcome?",
+      "options": [
+        "The founders bring only a sample of the original population's alleles",
+        "Migrants contribute their gametes to the recipient population",
+        "The survivors carry only a non-representative sample of the original gene pool",
+        "Mutation, drift and selection act separately without homogenizing gene flow"
+      ],
+      "answer": 2,
+      "explanation": "Genetic diversity falls and allele frequencies may shift. The survivors carry only a non-representative sample of the original gene pool."
+    },
+    {
+      "id": "evolution-bottleneck-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a population is suddenly reduced to a few random survivors?",
+      "options": [
+        "Its allele frequencies differ by chance from the source population — The founders bring only a sample of the original population's alleles",
+        "Alleles move between gene pools and populations may become more similar — Migrants contribute their gametes to the recipient population",
+        "They can accumulate independent genetic differences — Mutation, drift and selection act separately without homogenizing gene flow",
+        "Genetic diversity falls and allele frequencies may shift — The survivors carry only a non-representative sample of the original gene pool"
+      ],
+      "answer": 3,
+      "explanation": "Genetic diversity falls and allele frequencies may shift. The survivors carry only a non-representative sample of the original gene pool."
+    },
+    {
+      "id": "evolution-founder-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "A small group establishes a new isolated population. Which outcome follows most directly?",
+      "options": [
+        "Its allele frequencies differ by chance from the source population",
+        "Alleles move between gene pools and populations may become more similar",
+        "They can accumulate independent genetic differences",
+        "Allopatric speciation may occur"
+      ],
+      "answer": 0,
+      "explanation": "Its allele frequencies differ by chance from the source population. The founders bring only a sample of the original population's alleles."
+    },
+    {
+      "id": "evolution-founder-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: its allele frequencies differ by chance from the source population?",
+      "options": [
+        "Individuals migrate and reproduce in another population",
+        "A small group establishes a new isolated population",
+        "Two populations stop exchanging genes",
+        "A physical barrier divides one population for many generations"
+      ],
+      "answer": 1,
+      "explanation": "Its allele frequencies differ by chance from the source population. The founders bring only a sample of the original population's alleles."
+    },
+    {
+      "id": "evolution-founder-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After a small group establishes a new isolated population, which explanation best links the change to its outcome?",
+      "options": [
+        "Migrants contribute their gametes to the recipient population",
+        "Mutation, drift and selection act separately without homogenizing gene flow",
+        "The founders bring only a sample of the original population's alleles",
+        "Geographic isolation permits divergence until reproductive isolation evolves"
+      ],
+      "answer": 2,
+      "explanation": "Its allele frequencies differ by chance from the source population. The founders bring only a sample of the original population's alleles."
+    },
+    {
+      "id": "evolution-founder-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a small group establishes a new isolated population?",
+      "options": [
+        "Alleles move between gene pools and populations may become more similar — Migrants contribute their gametes to the recipient population",
+        "They can accumulate independent genetic differences — Mutation, drift and selection act separately without homogenizing gene flow",
+        "Allopatric speciation may occur — Geographic isolation permits divergence until reproductive isolation evolves",
+        "Its allele frequencies differ by chance from the source population — The founders bring only a sample of the original population's alleles"
+      ],
+      "answer": 3,
+      "explanation": "Its allele frequencies differ by chance from the source population. The founders bring only a sample of the original population's alleles."
+    },
+    {
+      "id": "evolution-gene-flow-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After individuals migrate and reproduce in another population, which observation is most likely?",
+      "options": [
+        "Alleles move between gene pools and populations may become more similar",
+        "They can accumulate independent genetic differences",
+        "Allopatric speciation may occur",
+        "Analogous traits with similar functions may evolve"
+      ],
+      "answer": 0,
+      "explanation": "Alleles move between gene pools and populations may become more similar. Migrants contribute their gametes to the recipient population."
+    },
+    {
+      "id": "evolution-gene-flow-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "A learner records that alleles move between gene pools and populations may become more similar. Which preceding event best accounts for it?",
+      "options": [
+        "Two populations stop exchanging genes",
+        "Individuals migrate and reproduce in another population",
+        "A physical barrier divides one population for many generations",
+        "Unrelated lineages face similar environmental pressures"
+      ],
+      "answer": 1,
+      "explanation": "Alleles move between gene pools and populations may become more similar. Migrants contribute their gametes to the recipient population."
+    },
+    {
+      "id": "evolution-gene-flow-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After individuals migrate and reproduce in another population, which explanation best links the change to its outcome?",
+      "options": [
+        "Mutation, drift and selection act separately without homogenizing gene flow",
+        "Geographic isolation permits divergence until reproductive isolation evolves",
+        "Migrants contribute their gametes to the recipient population",
+        "Natural selection independently favours comparable solutions rather than shared ancestry"
+      ],
+      "answer": 2,
+      "explanation": "Alleles move between gene pools and populations may become more similar. Migrants contribute their gametes to the recipient population."
+    },
+    {
+      "id": "evolution-gene-flow-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: individuals migrate and reproduce in another population?",
+      "options": [
+        "Analogous traits with similar functions may evolve — Natural selection independently favours comparable solutions rather than shared ancestry",
+        "They can accumulate independent genetic differences — Mutation, drift and selection act separately without homogenizing gene flow",
+        "Allopatric speciation may occur — Geographic isolation permits divergence until reproductive isolation evolves",
+        "Alleles move between gene pools and populations may become more similar — Migrants contribute their gametes to the recipient population"
+      ],
+      "answer": 3,
+      "explanation": "Alleles move between gene pools and populations may become more similar. Migrants contribute their gametes to the recipient population."
+    },
+    {
+      "id": "evolution-reproductive-isolation-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Two populations stop exchanging genes. What should the model predict first?",
+      "options": [
+        "They can accumulate independent genetic differences",
+        "Analogous traits with similar functions may evolve",
+        "Allopatric speciation may occur",
+        "Their divergence time can be estimated"
+      ],
+      "answer": 0,
+      "explanation": "They can accumulate independent genetic differences. Mutation, drift and selection act separately without homogenizing gene flow."
+    },
+    {
+      "id": "evolution-reproductive-isolation-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when they can accumulate independent genetic differences?",
+      "options": [
+        "A physical barrier divides one population for many generations",
+        "Two populations stop exchanging genes",
+        "Neutral sequence differences accumulate between isolated lineages",
+        "Unrelated lineages face similar environmental pressures"
+      ],
+      "answer": 1,
+      "explanation": "They can accumulate independent genetic differences. Mutation, drift and selection act separately without homogenizing gene flow."
+    },
+    {
+      "id": "evolution-reproductive-isolation-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After two populations stop exchanging genes, which explanation best links the change to its outcome?",
+      "options": [
+        "Natural selection independently favours comparable solutions rather than shared ancestry",
+        "Geographic isolation permits divergence until reproductive isolation evolves",
+        "Mutation, drift and selection act separately without homogenizing gene flow",
+        "A calibrated average substitution rate converts genetic distance into elapsed time"
+      ],
+      "answer": 2,
+      "explanation": "They can accumulate independent genetic differences. Mutation, drift and selection act separately without homogenizing gene flow."
+    },
+    {
+      "id": "evolution-reproductive-isolation-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: two populations stop exchanging genes?",
+      "options": [
+        "Allopatric speciation may occur — Geographic isolation permits divergence until reproductive isolation evolves",
+        "Their divergence time can be estimated — A calibrated average substitution rate converts genetic distance into elapsed time",
+        "Analogous traits with similar functions may evolve — Natural selection independently favours comparable solutions rather than shared ancestry",
+        "They can accumulate independent genetic differences — Mutation, drift and selection act separately without homogenizing gene flow"
+      ],
+      "answer": 3,
+      "explanation": "They can accumulate independent genetic differences. Mutation, drift and selection act separately without homogenizing gene flow."
+    },
+    {
+      "id": "evolution-allopatric-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: A physical barrier divides one population for many generations?",
+      "options": [
+        "Allopatric speciation may occur",
+        "Their divergence time can be estimated",
+        "Allele and genotype frequencies remain approximately constant",
+        "Analogous traits with similar functions may evolve"
+      ],
+      "answer": 0,
+      "explanation": "Allopatric speciation may occur. Geographic isolation permits divergence until reproductive isolation evolves."
+    },
+    {
+      "id": "evolution-allopatric-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: allopatric speciation may occur?",
+      "options": [
+        "Unrelated lineages face similar environmental pressures",
+        "A physical barrier divides one population for many generations",
+        "Neutral sequence differences accumulate between isolated lineages",
+        "A large population mates randomly with no selection, mutation or migration"
+      ],
+      "answer": 1,
+      "explanation": "Allopatric speciation may occur. Geographic isolation permits divergence until reproductive isolation evolves."
+    },
+    {
+      "id": "evolution-allopatric-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After a physical barrier divides one population for many generations, which explanation best links the change to its outcome?",
+      "options": [
+        "Natural selection independently favours comparable solutions rather than shared ancestry",
+        "A calibrated average substitution rate converts genetic distance into elapsed time",
+        "Geographic isolation permits divergence until reproductive isolation evolves",
+        "The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift"
+      ],
+      "answer": 2,
+      "explanation": "Allopatric speciation may occur. Geographic isolation permits divergence until reproductive isolation evolves."
+    },
+    {
+      "id": "evolution-allopatric-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a physical barrier divides one population for many generations?",
+      "options": [
+        "Analogous traits with similar functions may evolve — Natural selection independently favours comparable solutions rather than shared ancestry",
+        "Their divergence time can be estimated — A calibrated average substitution rate converts genetic distance into elapsed time",
+        "Allele and genotype frequencies remain approximately constant — The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift",
+        "Allopatric speciation may occur — Geographic isolation permits divergence until reproductive isolation evolves"
+      ],
+      "answer": 3,
+      "explanation": "Allopatric speciation may occur. Geographic isolation permits divergence until reproductive isolation evolves."
+    },
+    {
+      "id": "evolution-convergent-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Unrelated lineages face similar environmental pressures. Which outcome follows most directly?",
+      "options": [
+        "Analogous traits with similar functions may evolve",
+        "Their divergence time can be estimated",
+        "Allele and genotype frequencies remain approximately constant",
+        "Its relative frequency tends to decline under selection"
+      ],
+      "answer": 0,
+      "explanation": "Analogous traits with similar functions may evolve. Natural selection independently favours comparable solutions rather than shared ancestry."
+    },
+    {
+      "id": "evolution-convergent-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: analogous traits with similar functions may evolve?",
+      "options": [
+        "Neutral sequence differences accumulate between isolated lineages",
+        "Unrelated lineages face similar environmental pressures",
+        "A large population mates randomly with no selection, mutation or migration",
+        "One genotype leaves fewer viable offspring than another"
+      ],
+      "answer": 1,
+      "explanation": "Analogous traits with similar functions may evolve. Natural selection independently favours comparable solutions rather than shared ancestry."
+    },
+    {
+      "id": "evolution-convergent-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After unrelated lineages face similar environmental pressures, which explanation best links the change to its outcome?",
+      "options": [
+        "A calibrated average substitution rate converts genetic distance into elapsed time",
+        "The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift",
+        "Natural selection independently favours comparable solutions rather than shared ancestry",
+        "Lower relative fitness reduces its proportional genetic contribution each generation"
+      ],
+      "answer": 2,
+      "explanation": "Analogous traits with similar functions may evolve. Natural selection independently favours comparable solutions rather than shared ancestry."
+    },
+    {
+      "id": "evolution-convergent-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: unrelated lineages face similar environmental pressures?",
+      "options": [
+        "Their divergence time can be estimated — A calibrated average substitution rate converts genetic distance into elapsed time",
+        "Allele and genotype frequencies remain approximately constant — The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift",
+        "Its relative frequency tends to decline under selection — Lower relative fitness reduces its proportional genetic contribution each generation",
+        "Analogous traits with similar functions may evolve — Natural selection independently favours comparable solutions rather than shared ancestry"
+      ],
+      "answer": 3,
+      "explanation": "Analogous traits with similar functions may evolve. Natural selection independently favours comparable solutions rather than shared ancestry."
+    },
+    {
+      "id": "evolution-molecular-clock-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After neutral sequence differences accumulate between isolated lineages, which observation is most likely?",
+      "options": [
+        "Their divergence time can be estimated",
+        "Allele and genotype frequencies remain approximately constant",
+        "Its relative frequency tends to decline under selection",
+        "Both alleles can remain in the population"
+      ],
+      "answer": 0,
+      "explanation": "Their divergence time can be estimated. A calibrated average substitution rate converts genetic distance into elapsed time."
+    },
+    {
+      "id": "evolution-molecular-clock-cause",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "A learner records that their divergence time can be estimated. Which preceding event best accounts for it?",
+      "options": [
+        "A large population mates randomly with no selection, mutation or migration",
+        "Neutral sequence differences accumulate between isolated lineages",
+        "One genotype leaves fewer viable offspring than another",
+        "Heterozygotes have higher fitness than either homozygote"
+      ],
+      "answer": 1,
+      "explanation": "Their divergence time can be estimated. A calibrated average substitution rate converts genetic distance into elapsed time."
+    },
+    {
+      "id": "evolution-molecular-clock-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "After neutral sequence differences accumulate between isolated lineages, which explanation best links the change to its outcome?",
+      "options": [
+        "The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift",
+        "Lower relative fitness reduces its proportional genetic contribution each generation",
+        "A calibrated average substitution rate converts genetic distance into elapsed time",
+        "Balancing selection removes neither allele because each gains an advantage in heterozygotes"
+      ],
+      "answer": 2,
+      "explanation": "Their divergence time can be estimated. A calibrated average substitution rate converts genetic distance into elapsed time."
+    },
+    {
+      "id": "evolution-molecular-clock-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: neutral sequence differences accumulate between isolated lineages?",
+      "options": [
+        "Both alleles can remain in the population — Balancing selection removes neither allele because each gains an advantage in heterozygotes",
+        "Allele and genotype frequencies remain approximately constant — The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift",
+        "Its relative frequency tends to decline under selection — Lower relative fitness reduces its proportional genetic contribution each generation",
+        "Their divergence time can be estimated — A calibrated average substitution rate converts genetic distance into elapsed time"
+      ],
+      "answer": 3,
+      "explanation": "Their divergence time can be estimated. A calibrated average substitution rate converts genetic distance into elapsed time."
+    },
+    {
+      "id": "evolution-hardy-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A large population mates randomly with no selection, mutation or migration. What should the model predict first?",
+      "options": [
+        "Allele and genotype frequencies remain approximately constant",
+        "Both alleles can remain in the population",
+        "Its relative frequency tends to decline under selection",
+        "Multiple species with distinct adaptations can evolve rapidly"
+      ],
+      "answer": 0,
+      "explanation": "Allele and genotype frequencies remain approximately constant. The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift."
+    },
+    {
+      "id": "evolution-hardy-cause",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when allele and genotype frequencies remain approximately constant?",
+      "options": [
+        "One genotype leaves fewer viable offspring than another",
+        "A large population mates randomly with no selection, mutation or migration",
+        "One ancestral lineage enters several underused ecological niches",
+        "Heterozygotes have higher fitness than either homozygote"
+      ],
+      "answer": 1,
+      "explanation": "Allele and genotype frequencies remain approximately constant. The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift."
+    },
+    {
+      "id": "evolution-hardy-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "After a large population mates randomly with no selection, mutation or migration, which explanation best links the change to its outcome?",
+      "options": [
+        "Balancing selection removes neither allele because each gains an advantage in heterozygotes",
+        "Lower relative fitness reduces its proportional genetic contribution each generation",
+        "The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift",
+        "Divergent selection favours specialized forms as populations exploit different resources"
+      ],
+      "answer": 2,
+      "explanation": "Allele and genotype frequencies remain approximately constant. The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift."
+    },
+    {
+      "id": "evolution-hardy-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a large population mates randomly with no selection, mutation or migration?",
+      "options": [
+        "Its relative frequency tends to decline under selection — Lower relative fitness reduces its proportional genetic contribution each generation",
+        "Multiple species with distinct adaptations can evolve rapidly — Divergent selection favours specialized forms as populations exploit different resources",
+        "Both alleles can remain in the population — Balancing selection removes neither allele because each gains an advantage in heterozygotes",
+        "Allele and genotype frequencies remain approximately constant — The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift"
+      ],
+      "answer": 3,
+      "explanation": "Allele and genotype frequencies remain approximately constant. The Hardy-Weinberg conditions prevent systematic evolutionary forces and minimize drift."
+    },
+    {
+      "id": "evolution-selection-coefficient-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: One genotype leaves fewer viable offspring than another?",
+      "options": [
+        "Its relative frequency tends to decline under selection",
+        "Multiple species with distinct adaptations can evolve rapidly",
+        "Selection favours parasites able to overcome that defence",
+        "Both alleles can remain in the population"
+      ],
+      "answer": 0,
+      "explanation": "Its relative frequency tends to decline under selection. Lower relative fitness reduces its proportional genetic contribution each generation."
+    },
+    {
+      "id": "evolution-selection-coefficient-cause",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: its relative frequency tends to decline under selection?",
+      "options": [
+        "Heterozygotes have higher fitness than either homozygote",
+        "One genotype leaves fewer viable offspring than another",
+        "One ancestral lineage enters several underused ecological niches",
+        "A host evolves a defence that reduces parasite success"
+      ],
+      "answer": 1,
+      "explanation": "Its relative frequency tends to decline under selection. Lower relative fitness reduces its proportional genetic contribution each generation."
+    },
+    {
+      "id": "evolution-selection-coefficient-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "After one genotype leaves fewer viable offspring than another, which explanation best links the change to its outcome?",
+      "options": [
+        "Balancing selection removes neither allele because each gains an advantage in heterozygotes",
+        "Divergent selection favours specialized forms as populations exploit different resources",
+        "Lower relative fitness reduces its proportional genetic contribution each generation",
+        "Reciprocal selective pressures drive continuing change in interacting species"
+      ],
+      "answer": 2,
+      "explanation": "Its relative frequency tends to decline under selection. Lower relative fitness reduces its proportional genetic contribution each generation."
+    },
+    {
+      "id": "evolution-selection-coefficient-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: one genotype leaves fewer viable offspring than another?",
+      "options": [
+        "Both alleles can remain in the population — Balancing selection removes neither allele because each gains an advantage in heterozygotes",
+        "Multiple species with distinct adaptations can evolve rapidly — Divergent selection favours specialized forms as populations exploit different resources",
+        "Selection favours parasites able to overcome that defence — Reciprocal selective pressures drive continuing change in interacting species",
+        "Its relative frequency tends to decline under selection — Lower relative fitness reduces its proportional genetic contribution each generation"
+      ],
+      "answer": 3,
+      "explanation": "Its relative frequency tends to decline under selection. Lower relative fitness reduces its proportional genetic contribution each generation."
+    },
+    {
+      "id": "evolution-heterozygote-advantage-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Heterozygotes have higher fitness than either homozygote. Which outcome follows most directly?",
+      "options": [
+        "Both alleles can remain in the population",
+        "Multiple species with distinct adaptations can evolve rapidly",
+        "Selection favours parasites able to overcome that defence",
+        "Its frequency changes mainly through genetic drift"
+      ],
+      "answer": 0,
+      "explanation": "Both alleles can remain in the population. Balancing selection removes neither allele because each gains an advantage in heterozygotes."
+    },
+    {
+      "id": "evolution-heterozygote-advantage-cause",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: both alleles can remain in the population?",
+      "options": [
+        "One ancestral lineage enters several underused ecological niches",
+        "Heterozygotes have higher fitness than either homozygote",
+        "A host evolves a defence that reduces parasite success",
+        "A new allele has little or no effect on reproductive fitness"
+      ],
+      "answer": 1,
+      "explanation": "Both alleles can remain in the population. Balancing selection removes neither allele because each gains an advantage in heterozygotes."
+    },
+    {
+      "id": "evolution-heterozygote-advantage-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "After heterozygotes have higher fitness than either homozygote, which explanation best links the change to its outcome?",
+      "options": [
+        "Divergent selection favours specialized forms as populations exploit different resources",
+        "Reciprocal selective pressures drive continuing change in interacting species",
+        "Balancing selection removes neither allele because each gains an advantage in heterozygotes",
+        "Without consistent selection, chance sampling determines its long-term fate"
+      ],
+      "answer": 2,
+      "explanation": "Both alleles can remain in the population. Balancing selection removes neither allele because each gains an advantage in heterozygotes."
+    },
+    {
+      "id": "evolution-heterozygote-advantage-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: heterozygotes have higher fitness than either homozygote?",
+      "options": [
+        "Multiple species with distinct adaptations can evolve rapidly — Divergent selection favours specialized forms as populations exploit different resources",
+        "Selection favours parasites able to overcome that defence — Reciprocal selective pressures drive continuing change in interacting species",
+        "Its frequency changes mainly through genetic drift — Without consistent selection, chance sampling determines its long-term fate",
+        "Both alleles can remain in the population — Balancing selection removes neither allele because each gains an advantage in heterozygotes"
+      ],
+      "answer": 3,
+      "explanation": "Both alleles can remain in the population. Balancing selection removes neither allele because each gains an advantage in heterozygotes."
+    },
+    {
+      "id": "evolution-adaptive-radiation-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "After one ancestral lineage enters several underused ecological niches, which observation is most likely?",
+      "options": [
+        "Multiple species with distinct adaptations can evolve rapidly",
+        "Selection favours parasites able to overcome that defence",
+        "Its frequency changes mainly through genetic drift",
+        "Individuals vary in traits on which selection can act"
+      ],
+      "answer": 0,
+      "explanation": "Multiple species with distinct adaptations can evolve rapidly. Divergent selection favours specialized forms as populations exploit different resources."
+    },
+    {
+      "id": "evolution-adaptive-radiation-cause",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "A learner records that multiple species with distinct adaptations can evolve rapidly. Which preceding event best accounts for it?",
+      "options": [
+        "A host evolves a defence that reduces parasite success",
+        "One ancestral lineage enters several underused ecological niches",
+        "A new allele has little or no effect on reproductive fitness",
+        "Mutation and sexual reproduction create heritable differences in a population"
+      ],
+      "answer": 1,
+      "explanation": "Multiple species with distinct adaptations can evolve rapidly. Divergent selection favours specialized forms as populations exploit different resources."
+    },
+    {
+      "id": "evolution-adaptive-radiation-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "After one ancestral lineage enters several underused ecological niches, which explanation best links the change to its outcome?",
+      "options": [
+        "Reciprocal selective pressures drive continuing change in interacting species",
+        "Without consistent selection, chance sampling determines its long-term fate",
+        "Divergent selection favours specialized forms as populations exploit different resources",
+        "New alleles and reshuffled allele combinations produce genetic diversity"
+      ],
+      "answer": 2,
+      "explanation": "Multiple species with distinct adaptations can evolve rapidly. Divergent selection favours specialized forms as populations exploit different resources."
+    },
+    {
+      "id": "evolution-adaptive-radiation-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: one ancestral lineage enters several underused ecological niches?",
+      "options": [
+        "Individuals vary in traits on which selection can act — New alleles and reshuffled allele combinations produce genetic diversity",
+        "Selection favours parasites able to overcome that defence — Reciprocal selective pressures drive continuing change in interacting species",
+        "Its frequency changes mainly through genetic drift — Without consistent selection, chance sampling determines its long-term fate",
+        "Multiple species with distinct adaptations can evolve rapidly — Divergent selection favours specialized forms as populations exploit different resources"
+      ],
+      "answer": 3,
+      "explanation": "Multiple species with distinct adaptations can evolve rapidly. Divergent selection favours specialized forms as populations exploit different resources."
+    },
+    {
+      "id": "evolution-coevolution-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A host evolves a defence that reduces parasite success. What should the model predict first?",
+      "options": [
+        "Selection favours parasites able to overcome that defence",
+        "Individuals vary in traits on which selection can act",
+        "Its frequency changes mainly through genetic drift",
+        "Its allele tends to become more common over generations"
+      ],
+      "answer": 0,
+      "explanation": "Selection favours parasites able to overcome that defence. Reciprocal selective pressures drive continuing change in interacting species."
+    },
+    {
+      "id": "evolution-coevolution-cause",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when selection favours parasites able to overcome that defence?",
+      "options": [
+        "A new allele has little or no effect on reproductive fitness",
+        "A host evolves a defence that reduces parasite success",
+        "A heritable trait improves survival and reproduction in one environment",
+        "Mutation and sexual reproduction create heritable differences in a population"
+      ],
+      "answer": 1,
+      "explanation": "Selection favours parasites able to overcome that defence. Reciprocal selective pressures drive continuing change in interacting species."
+    },
+    {
+      "id": "evolution-coevolution-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "After a host evolves a defence that reduces parasite success, which explanation best links the change to its outcome?",
+      "options": [
+        "New alleles and reshuffled allele combinations produce genetic diversity",
+        "Without consistent selection, chance sampling determines its long-term fate",
+        "Reciprocal selective pressures drive continuing change in interacting species",
+        "Carriers contribute more offspring and allele copies to the next generation"
+      ],
+      "answer": 2,
+      "explanation": "Selection favours parasites able to overcome that defence. Reciprocal selective pressures drive continuing change in interacting species."
+    },
+    {
+      "id": "evolution-coevolution-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a host evolves a defence that reduces parasite success?",
+      "options": [
+        "Its frequency changes mainly through genetic drift — Without consistent selection, chance sampling determines its long-term fate",
+        "Its allele tends to become more common over generations — Carriers contribute more offspring and allele copies to the next generation",
+        "Individuals vary in traits on which selection can act — New alleles and reshuffled allele combinations produce genetic diversity",
+        "Selection favours parasites able to overcome that defence — Reciprocal selective pressures drive continuing change in interacting species"
+      ],
+      "answer": 3,
+      "explanation": "Selection favours parasites able to overcome that defence. Reciprocal selective pressures drive continuing change in interacting species."
+    },
+    {
+      "id": "evolution-neutral-theory-outcome",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: A new allele has little or no effect on reproductive fitness?",
+      "options": [
+        "Its frequency changes mainly through genetic drift",
+        "Its allele tends to become more common over generations",
+        "The population becomes better suited to its environment",
+        "Individuals vary in traits on which selection can act"
+      ],
+      "answer": 0,
+      "explanation": "Its frequency changes mainly through genetic drift. Without consistent selection, chance sampling determines its long-term fate."
+    },
+    {
+      "id": "evolution-neutral-theory-cause",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: its frequency changes mainly through genetic drift?",
+      "options": [
+        "Mutation and sexual reproduction create heritable differences in a population",
+        "A new allele has little or no effect on reproductive fitness",
+        "A heritable trait improves survival and reproduction in one environment",
+        "Natural selection repeatedly favours a useful inherited characteristic"
+      ],
+      "answer": 1,
+      "explanation": "Its frequency changes mainly through genetic drift. Without consistent selection, chance sampling determines its long-term fate."
+    },
+    {
+      "id": "evolution-neutral-theory-mechanism",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "After a new allele has little or no effect on reproductive fitness, which explanation best links the change to its outcome?",
+      "options": [
+        "New alleles and reshuffled allele combinations produce genetic diversity",
+        "Carriers contribute more offspring and allele copies to the next generation",
+        "Without consistent selection, chance sampling determines its long-term fate",
+        "Differential reproductive success accumulates favourable alleles"
+      ],
+      "answer": 2,
+      "explanation": "Its frequency changes mainly through genetic drift. Without consistent selection, chance sampling determines its long-term fate."
+    },
+    {
+      "id": "evolution-neutral-theory-integrated",
+      "chapter": "Evolution",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a new allele has little or no effect on reproductive fitness?",
+      "options": [
+        "Individuals vary in traits on which selection can act — New alleles and reshuffled allele combinations produce genetic diversity",
+        "Its allele tends to become more common over generations — Carriers contribute more offspring and allele copies to the next generation",
+        "The population becomes better suited to its environment — Differential reproductive success accumulates favourable alleles",
+        "Its frequency changes mainly through genetic drift — Without consistent selection, chance sampling determines its long-term fate"
+      ],
+      "answer": 3,
+      "explanation": "Its frequency changes mainly through genetic drift. Without consistent selection, chance sampling determines its long-term fate."
+    }
+  ]
+}

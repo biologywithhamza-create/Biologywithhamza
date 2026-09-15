@@ -2,6 +2,7 @@ export type ResourceGroup = "Foundations" | "Human physiology" | "Genetics & con
 
 export type StudentResource = {
   title: string;
+  href?: string;
   group: ResourceGroup;
   format: string;
   description: string;
@@ -25,9 +26,9 @@ export const studentResources: StudentResource[] = [
   { title: "Inheritance", group: "Genetics & continuity", format: "Lecture notes", description: "Meiosis, Mendelian crosses, linkage, variation and genetic reasoning.", keywords: ["genetics", "meiosis", "cross"] },
   { title: "Evolution", group: "Genetics & continuity", format: "Lecture notes", description: "Lamarck, Darwin, natural selection, evidence and population change.", keywords: ["Darwin", "selection", "variation"] },
   { title: "Biotechnology", group: "Disease & biotechnology", format: "Lecture notes", description: "Recombinant DNA, diagnostics, monoclonal antibodies and gene therapy.", keywords: ["DNA", "PCR", "gene therapy"] },
-  { title: "Cambridge Practical Skills", group: "Foundations", format: "Exam guide", description: "Variables, controls, food tests, measurements, graphs and evaluation of methods.", keywords: ["practical", "ATP", "variables"] },
-  { title: "Cambridge Data Handling", group: "Foundations", format: "Exam guide", description: "Reading tables, plotting graphs, calculating rates and explaining biological patterns.", keywords: ["graph", "calculation", "data"] },
-  { title: "MDCAT MCQ Reasoning", group: "Foundations", format: "Exam guide", description: "A practical method for identifying the tested concept and eliminating distractors.", keywords: ["MCQ", "exam", "reasoning"] },
+  { title: "Cambridge Practical Skills", href:"/articles/o-level-practical-skills-food-tests", group: "Foundations", format: "Exam guide", description: "Variables, controls, food tests, measurements, graphs and evaluation of methods.", keywords: ["practical", "ATP", "variables"] },
+  { title: "Cambridge Data Handling", href:"/articles/o-level-data-graphs-and-structured-answers", group: "Foundations", format: "Exam guide", description: "Reading tables, plotting graphs, calculating rates and explaining biological patterns.", keywords: ["graph", "calculation", "data"] },
+  { title: "MDCAT MCQ Reasoning", href:"/articles/thinking-through-difficult-mcqs", group: "Foundations", format: "Exam guide", description: "A practical method for identifying the tested concept and eliminating distractors.", keywords: ["MCQ", "exam", "reasoning"] },
 ];
 
 export const resourceGroups: Array<"All resources" | ResourceGroup> = [

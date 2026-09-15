@@ -1,0 +1,1408 @@
+{
+  "chapter": "Homeostasis",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "adh-collecting-duct",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After heavy sweating, increased ADH most directly causes the collecting ducts to:",
+      "options": [
+        "Become more permeable to water",
+        "Stop receiving filtrate",
+        "Secrete glucose into urine",
+        "Destroy the medullary gradient"
+      ],
+      "answer": 0,
+      "explanation": "ADH promotes insertion of aquaporins, increasing water reabsorption from the collecting ducts and producing a smaller volume of concentrated urine."
+    },
+    {
+      "id": "loop-henle-gradient",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "The countercurrent arrangement of the loop of Henle is most important for establishing:",
+      "options": [
+        "A high glucose concentration in urine",
+        "An osmotic gradient in the renal medulla",
+        "A pressure gradient in the aorta",
+        "An acidic environment in the stomach"
+      ],
+      "answer": 1,
+      "explanation": "Opposing flow and different permeabilities in the loop multiply a medullary osmotic gradient, which later allows water reabsorption from collecting ducts."
+    },
+    {
+      "id": "negative-feedback-fever",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "In a negative-feedback pathway, an effective response must ultimately:",
+      "options": [
+        "Amplify the original deviation",
+        "Operate without a receptor",
+        "Move the regulated variable back toward its set range",
+        "Continue unchanged after balance returns"
+      ],
+      "answer": 2,
+      "explanation": "Negative feedback opposes the initial change. The response diminishes as the regulated condition returns toward its normal range."
+    },
+    {
+      "id": "beta-cell-damage",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Selective destruction of pancreatic beta cells most directly impairs the response to:",
+      "options": [
+        "Falling blood glucose through glucagon",
+        "Rising body temperature through sweating",
+        "Falling water potential through ADH",
+        "Rising blood glucose through insulin"
+      ],
+      "answer": 3,
+      "explanation": "Beta cells secrete insulin when blood glucose rises. Loss of these cells weakens glucose uptake and storage, allowing hyperglycaemia."
+    },
+    {
+      "id": "homeostasis-negative-feedback-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "A regulated variable moves away from its normal range. Which outcome follows most directly?",
+      "options": [
+        "Corrective responses oppose the original disturbance",
+        "Sweat production increases and the skin cools",
+        "Heat loss from the body surface increases",
+        "Heat transfer from core blood to the environment decreases"
+      ],
+      "answer": 0,
+      "explanation": "Corrective responses oppose the original disturbance. Negative feedback reduces the error detected by receptors and control centres."
+    },
+    {
+      "id": "homeostasis-negative-feedback-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: corrective responses oppose the original disturbance?",
+      "options": [
+        "Core body temperature rises above its set range",
+        "A regulated variable moves away from its normal range",
+        "Skin arterioles dilate in a hot environment",
+        "Skin arterioles constrict in a cold environment"
+      ],
+      "answer": 1,
+      "explanation": "Corrective responses oppose the original disturbance. Negative feedback reduces the error detected by receptors and control centres."
+    },
+    {
+      "id": "homeostasis-negative-feedback-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After a regulated variable moves away from its normal range, which explanation best links the change to its outcome?",
+      "options": [
+        "Evaporation requires latent heat that is drawn from the body surface",
+        "More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Negative feedback reduces the error detected by receptors and control centres",
+        "Less blood reaches superficial capillary beds near the cool surface"
+      ],
+      "answer": 2,
+      "explanation": "Corrective responses oppose the original disturbance. Negative feedback reduces the error detected by receptors and control centres."
+    },
+    {
+      "id": "homeostasis-negative-feedback-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a regulated variable moves away from its normal range?",
+      "options": [
+        "Sweat production increases and the skin cools — Evaporation requires latent heat that is drawn from the body surface",
+        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface",
+        "Corrective responses oppose the original disturbance — Negative feedback reduces the error detected by receptors and control centres"
+      ],
+      "answer": 3,
+      "explanation": "Corrective responses oppose the original disturbance. Negative feedback reduces the error detected by receptors and control centres."
+    },
+    {
+      "id": "homeostasis-sweating-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After core body temperature rises above its set range, which observation is most likely?",
+      "options": [
+        "Sweat production increases and the skin cools",
+        "Heat loss from the body surface increases",
+        "Heat transfer from core blood to the environment decreases",
+        "Pancreatic beta cells release more insulin"
+      ],
+      "answer": 0,
+      "explanation": "Sweat production increases and the skin cools. Evaporation requires latent heat that is drawn from the body surface."
+    },
+    {
+      "id": "homeostasis-sweating-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "A learner records that sweat production increases and the skin cools. Which preceding event best accounts for it?",
+      "options": [
+        "Skin arterioles dilate in a hot environment",
+        "Core body temperature rises above its set range",
+        "Skin arterioles constrict in a cold environment",
+        "Blood glucose rises after a carbohydrate-rich meal"
+      ],
+      "answer": 1,
+      "explanation": "Sweat production increases and the skin cools. Evaporation requires latent heat that is drawn from the body surface."
+    },
+    {
+      "id": "homeostasis-sweating-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After core body temperature rises above its set range, which explanation best links the change to its outcome?",
+      "options": [
+        "More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Less blood reaches superficial capillary beds near the cool surface",
+        "Evaporation requires latent heat that is drawn from the body surface",
+        "Insulin promotes glucose uptake and storage, lowering the original increase"
+      ],
+      "answer": 2,
+      "explanation": "Sweat production increases and the skin cools. Evaporation requires latent heat that is drawn from the body surface."
+    },
+    {
+      "id": "homeostasis-sweating-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: core body temperature rises above its set range?",
+      "options": [
+        "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface",
+        "Sweat production increases and the skin cools — Evaporation requires latent heat that is drawn from the body surface"
+      ],
+      "answer": 3,
+      "explanation": "Sweat production increases and the skin cools. Evaporation requires latent heat that is drawn from the body surface."
+    },
+    {
+      "id": "homeostasis-vasodilation-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: Skin arterioles dilate in a hot environment. What should the model predict first?",
+      "options": [
+        "Heat loss from the body surface increases",
+        "Pancreatic beta cells release more insulin",
+        "Heat transfer from core blood to the environment decreases",
+        "Pancreatic alpha cells increase glucagon secretion"
+      ],
+      "answer": 0,
+      "explanation": "Heat loss from the body surface increases. More warm blood flows through superficial capillaries, enhancing radiation and convection."
+    },
+    {
+      "id": "homeostasis-vasodilation-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when heat loss from the body surface increases?",
+      "options": [
+        "Skin arterioles constrict in a cold environment",
+        "Skin arterioles dilate in a hot environment",
+        "Blood glucose falls between meals",
+        "Blood glucose rises after a carbohydrate-rich meal"
+      ],
+      "answer": 1,
+      "explanation": "Heat loss from the body surface increases. More warm blood flows through superficial capillaries, enhancing radiation and convection."
+    },
+    {
+      "id": "homeostasis-vasodilation-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After skin arterioles dilate in a hot environment, which explanation best links the change to its outcome?",
+      "options": [
+        "Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Less blood reaches superficial capillary beds near the cool surface",
+        "More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Glucagon stimulates hepatic glycogen breakdown and glucose release"
+      ],
+      "answer": 2,
+      "explanation": "Heat loss from the body surface increases. More warm blood flows through superficial capillaries, enhancing radiation and convection."
+    },
+    {
+      "id": "homeostasis-vasodilation-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: skin arterioles dilate in a hot environment?",
+      "options": [
+        "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface",
+        "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release",
+        "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection"
+      ],
+      "answer": 3,
+      "explanation": "Heat loss from the body surface increases. More warm blood flows through superficial capillaries, enhancing radiation and convection."
+    },
+    {
+      "id": "homeostasis-vasoconstriction-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: Skin arterioles constrict in a cold environment?",
+      "options": [
+        "Heat transfer from core blood to the environment decreases",
+        "Pancreatic alpha cells increase glucagon secretion",
+        "Water and small solutes enter Bowman's capsule",
+        "Pancreatic beta cells release more insulin"
+      ],
+      "answer": 0,
+      "explanation": "Heat transfer from core blood to the environment decreases. Less blood reaches superficial capillary beds near the cool surface."
+    },
+    {
+      "id": "homeostasis-vasoconstriction-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: heat transfer from core blood to the environment decreases?",
+      "options": [
+        "Blood glucose rises after a carbohydrate-rich meal",
+        "Skin arterioles constrict in a cold environment",
+        "Blood glucose falls between meals",
+        "High hydrostatic pressure develops in a glomerulus"
+      ],
+      "answer": 1,
+      "explanation": "Heat transfer from core blood to the environment decreases. Less blood reaches superficial capillary beds near the cool surface."
+    },
+    {
+      "id": "homeostasis-vasoconstriction-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After skin arterioles constrict in a cold environment, which explanation best links the change to its outcome?",
+      "options": [
+        "Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Glucagon stimulates hepatic glycogen breakdown and glucose release",
+        "Less blood reaches superficial capillary beds near the cool surface",
+        "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins"
+      ],
+      "answer": 2,
+      "explanation": "Heat transfer from core blood to the environment decreases. Less blood reaches superficial capillary beds near the cool surface."
+    },
+    {
+      "id": "homeostasis-vasoconstriction-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: skin arterioles constrict in a cold environment?",
+      "options": [
+        "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release",
+        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
+        "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface"
+      ],
+      "answer": 3,
+      "explanation": "Heat transfer from core blood to the environment decreases. Less blood reaches superficial capillary beds near the cool surface."
+    },
+    {
+      "id": "homeostasis-insulin-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Blood glucose rises after a carbohydrate-rich meal. Which outcome follows most directly?",
+      "options": [
+        "Pancreatic beta cells release more insulin",
+        "Pancreatic alpha cells increase glucagon secretion",
+        "Water and small solutes enter Bowman's capsule",
+        "Nearly all of it returns to the blood in the proximal tubule"
+      ],
+      "answer": 0,
+      "explanation": "Pancreatic beta cells release more insulin. Insulin promotes glucose uptake and storage, lowering the original increase."
+    },
+    {
+      "id": "homeostasis-insulin-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: pancreatic beta cells release more insulin?",
+      "options": [
+        "Blood glucose falls between meals",
+        "Blood glucose rises after a carbohydrate-rich meal",
+        "High hydrostatic pressure develops in a glomerulus",
+        "Glucose is present in normal glomerular filtrate"
+      ],
+      "answer": 1,
+      "explanation": "Pancreatic beta cells release more insulin. Insulin promotes glucose uptake and storage, lowering the original increase."
+    },
+    {
+      "id": "homeostasis-insulin-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After blood glucose rises after a carbohydrate-rich meal, which explanation best links the change to its outcome?",
+      "options": [
+        "Glucagon stimulates hepatic glycogen breakdown and glucose release",
+        "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
+        "Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium"
+      ],
+      "answer": 2,
+      "explanation": "Pancreatic beta cells release more insulin. Insulin promotes glucose uptake and storage, lowering the original increase."
+    },
+    {
+      "id": "homeostasis-insulin-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: blood glucose rises after a carbohydrate-rich meal?",
+      "options": [
+        "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release",
+        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
+        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
+        "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase"
+      ],
+      "answer": 3,
+      "explanation": "Pancreatic beta cells release more insulin. Insulin promotes glucose uptake and storage, lowering the original increase."
+    },
+    {
+      "id": "homeostasis-glucagon-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After blood glucose falls between meals, which observation is most likely?",
+      "options": [
+        "Pancreatic alpha cells increase glucagon secretion",
+        "Water and small solutes enter Bowman's capsule",
+        "Nearly all of it returns to the blood in the proximal tubule",
+        "Water leaves and the tubular fluid becomes concentrated"
+      ],
+      "answer": 0,
+      "explanation": "Pancreatic alpha cells increase glucagon secretion. Glucagon stimulates hepatic glycogen breakdown and glucose release."
+    },
+    {
+      "id": "homeostasis-glucagon-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "A learner records that pancreatic alpha cells increase glucagon secretion. Which preceding event best accounts for it?",
+      "options": [
+        "High hydrostatic pressure develops in a glomerulus",
+        "Blood glucose falls between meals",
+        "Glucose is present in normal glomerular filtrate",
+        "Filtrate descends through the water-permeable limb of the loop of Henle"
+      ],
+      "answer": 1,
+      "explanation": "Pancreatic alpha cells increase glucagon secretion. Glucagon stimulates hepatic glycogen breakdown and glucose release."
+    },
+    {
+      "id": "homeostasis-glucagon-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "After blood glucose falls between meals, which explanation best links the change to its outcome?",
+      "options": [
+        "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
+        "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
+        "Glucagon stimulates hepatic glycogen breakdown and glucose release",
+        "The increasingly hypertonic medulla draws water out by osmosis"
+      ],
+      "answer": 2,
+      "explanation": "Pancreatic alpha cells increase glucagon secretion. Glucagon stimulates hepatic glycogen breakdown and glucose release."
+    },
+    {
+      "id": "homeostasis-glucagon-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: blood glucose falls between meals?",
+      "options": [
+        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis",
+        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
+        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
+        "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release"
+      ],
+      "answer": 3,
+      "explanation": "Pancreatic alpha cells increase glucagon secretion. Glucagon stimulates hepatic glycogen breakdown and glucose release."
+    },
+    {
+      "id": "homeostasis-filtration-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "A student models this change: High hydrostatic pressure develops in a glomerulus. What should the model predict first?",
+      "options": [
+        "Water and small solutes enter Bowman's capsule",
+        "Water leaves and the tubular fluid becomes concentrated",
+        "Nearly all of it returns to the blood in the proximal tubule",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens"
+      ],
+      "answer": 0,
+      "explanation": "Water and small solutes enter Bowman's capsule. Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins."
+    },
+    {
+      "id": "homeostasis-filtration-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when water and small solutes enter Bowman's capsule?",
+      "options": [
+        "Glucose is present in normal glomerular filtrate",
+        "High hydrostatic pressure develops in a glomerulus",
+        "Sodium and chloride leave the water-impermeable ascending limb",
+        "Filtrate descends through the water-permeable limb of the loop of Henle"
+      ],
+      "answer": 1,
+      "explanation": "Water and small solutes enter Bowman's capsule. Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins."
+    },
+    {
+      "id": "homeostasis-filtration-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After high hydrostatic pressure develops in a glomerulus, which explanation best links the change to its outcome?",
+      "options": [
+        "The increasingly hypertonic medulla draws water out by osmosis",
+        "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
+        "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
+        "Salt transport occurs without accompanying osmotic water loss"
+      ],
+      "answer": 2,
+      "explanation": "Water and small solutes enter Bowman's capsule. Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins."
+    },
+    {
+      "id": "homeostasis-filtration-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: high hydrostatic pressure develops in a glomerulus?",
+      "options": [
+        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss",
+        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis",
+        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins"
+      ],
+      "answer": 3,
+      "explanation": "Water and small solutes enter Bowman's capsule. Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins."
+    },
+    {
+      "id": "homeostasis-selective-reabsorption-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Glucose is present in normal glomerular filtrate?",
+      "options": [
+        "Nearly all of it returns to the blood in the proximal tubule",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens",
+        "ADH secretion rises and urine volume decreases",
+        "Water leaves and the tubular fluid becomes concentrated"
+      ],
+      "answer": 0,
+      "explanation": "Nearly all of it returns to the blood in the proximal tubule. Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium."
+    },
+    {
+      "id": "homeostasis-selective-reabsorption-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: nearly all of it returns to the blood in the proximal tubule?",
+      "options": [
+        "Filtrate descends through the water-permeable limb of the loop of Henle",
+        "Glucose is present in normal glomerular filtrate",
+        "Sodium and chloride leave the water-impermeable ascending limb",
+        "Blood water potential falls after dehydration"
+      ],
+      "answer": 1,
+      "explanation": "Nearly all of it returns to the blood in the proximal tubule. Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium."
+    },
+    {
+      "id": "homeostasis-selective-reabsorption-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After glucose is present in normal glomerular filtrate, which explanation best links the change to its outcome?",
+      "options": [
+        "The increasingly hypertonic medulla draws water out by osmosis",
+        "Salt transport occurs without accompanying osmotic water loss",
+        "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
+        "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption"
+      ],
+      "answer": 2,
+      "explanation": "Nearly all of it returns to the blood in the proximal tubule. Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium."
+    },
+    {
+      "id": "homeostasis-selective-reabsorption-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: glucose is present in normal glomerular filtrate?",
+      "options": [
+        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss",
+        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium"
+      ],
+      "answer": 3,
+      "explanation": "Nearly all of it returns to the blood in the proximal tubule. Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium."
+    },
+    {
+      "id": "homeostasis-descending-loop-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Filtrate descends through the water-permeable limb of the loop of Henle. Which outcome follows most directly?",
+      "options": [
+        "Water leaves and the tubular fluid becomes concentrated",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens",
+        "ADH secretion rises and urine volume decreases",
+        "Sodium reabsorption increases while potassium secretion rises"
+      ],
+      "answer": 0,
+      "explanation": "Water leaves and the tubular fluid becomes concentrated. The increasingly hypertonic medulla draws water out by osmosis."
+    },
+    {
+      "id": "homeostasis-descending-loop-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: water leaves and the tubular fluid becomes concentrated?",
+      "options": [
+        "Sodium and chloride leave the water-impermeable ascending limb",
+        "Filtrate descends through the water-permeable limb of the loop of Henle",
+        "Blood water potential falls after dehydration",
+        "Aldosterone acts on distal nephron cells"
+      ],
+      "answer": 1,
+      "explanation": "Water leaves and the tubular fluid becomes concentrated. The increasingly hypertonic medulla draws water out by osmosis."
+    },
+    {
+      "id": "homeostasis-descending-loop-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After filtrate descends through the water-permeable limb of the loop of Henle, which explanation best links the change to its outcome?",
+      "options": [
+        "Salt transport occurs without accompanying osmotic water loss",
+        "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "The increasingly hypertonic medulla draws water out by osmosis",
+        "The hormone increases epithelial sodium channels and sodium-potassium pumps"
+      ],
+      "answer": 2,
+      "explanation": "Water leaves and the tubular fluid becomes concentrated. The increasingly hypertonic medulla draws water out by osmosis."
+    },
+    {
+      "id": "homeostasis-descending-loop-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: filtrate descends through the water-permeable limb of the loop of Henle?",
+      "options": [
+        "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss",
+        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps",
+        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis"
+      ],
+      "answer": 3,
+      "explanation": "Water leaves and the tubular fluid becomes concentrated. The increasingly hypertonic medulla draws water out by osmosis."
+    },
+    {
+      "id": "homeostasis-ascending-loop-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After sodium and chloride leave the water-impermeable ascending limb, which observation is most likely?",
+      "options": [
+        "Tubular fluid becomes dilute while the medullary gradient strengthens",
+        "ADH secretion rises and urine volume decreases",
+        "Sodium reabsorption increases while potassium secretion rises",
+        "Ammonia is produced and then converted to urea"
+      ],
+      "answer": 0,
+      "explanation": "Tubular fluid becomes dilute while the medullary gradient strengthens. Salt transport occurs without accompanying osmotic water loss."
+    },
+    {
+      "id": "homeostasis-ascending-loop-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "A learner records that tubular fluid becomes dilute while the medullary gradient strengthens. Which preceding event best accounts for it?",
+      "options": [
+        "Blood water potential falls after dehydration",
+        "Sodium and chloride leave the water-impermeable ascending limb",
+        "Aldosterone acts on distal nephron cells",
+        "The liver metabolizes excess amino acids"
+      ],
+      "answer": 1,
+      "explanation": "Tubular fluid becomes dilute while the medullary gradient strengthens. Salt transport occurs without accompanying osmotic water loss."
+    },
+    {
+      "id": "homeostasis-ascending-loop-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After sodium and chloride leave the water-impermeable ascending limb, which explanation best links the change to its outcome?",
+      "options": [
+        "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
+        "Salt transport occurs without accompanying osmotic water loss",
+        "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion"
+      ],
+      "answer": 2,
+      "explanation": "Tubular fluid becomes dilute while the medullary gradient strengthens. Salt transport occurs without accompanying osmotic water loss."
+    },
+    {
+      "id": "homeostasis-ascending-loop-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: sodium and chloride leave the water-impermeable ascending limb?",
+      "options": [
+        "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss"
+      ],
+      "answer": 3,
+      "explanation": "Tubular fluid becomes dilute while the medullary gradient strengthens. Salt transport occurs without accompanying osmotic water loss."
+    },
+    {
+      "id": "homeostasis-adh-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Blood water potential falls after dehydration. What should the model predict first?",
+      "options": [
+        "ADH secretion rises and urine volume decreases",
+        "Ammonia is produced and then converted to urea",
+        "Sodium reabsorption increases while potassium secretion rises",
+        "Urea diffuses out while blood cells and proteins remain"
+      ],
+      "answer": 0,
+      "explanation": "ADH secretion rises and urine volume decreases. ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption."
+    },
+    {
+      "id": "homeostasis-adh-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when ADH secretion rises and urine volume decreases?",
+      "options": [
+        "Aldosterone acts on distal nephron cells",
+        "Blood water potential falls after dehydration",
+        "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
+        "The liver metabolizes excess amino acids"
+      ],
+      "answer": 1,
+      "explanation": "ADH secretion rises and urine volume decreases. ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption."
+    },
+    {
+      "id": "homeostasis-adh-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After blood water potential falls after dehydration, which explanation best links the change to its outcome?",
+      "options": [
+        "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
+        "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "A maintained concentration gradient removes small wastes that can cross the membrane"
+      ],
+      "answer": 2,
+      "explanation": "ADH secretion rises and urine volume decreases. ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption."
+    },
+    {
+      "id": "homeostasis-adh-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: blood water potential falls after dehydration?",
+      "options": [
+        "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps",
+        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane",
+        "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption"
+      ],
+      "answer": 3,
+      "explanation": "ADH secretion rises and urine volume decreases. ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption."
+    },
+    {
+      "id": "homeostasis-aldosterone-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Aldosterone acts on distal nephron cells?",
+      "options": [
+        "Sodium reabsorption increases while potassium secretion rises",
+        "Urea diffuses out while blood cells and proteins remain",
+        "The person initially feels cold and generates heat despite a normal starting temperature",
+        "Ammonia is produced and then converted to urea"
+      ],
+      "answer": 0,
+      "explanation": "Sodium reabsorption increases while potassium secretion rises. The hormone increases epithelial sodium channels and sodium-potassium pumps."
+    },
+    {
+      "id": "homeostasis-aldosterone-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: sodium reabsorption increases while potassium secretion rises?",
+      "options": [
+        "The liver metabolizes excess amino acids",
+        "Aldosterone acts on distal nephron cells",
+        "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
+        "Pyrogens raise the hypothalamic temperature set point"
+      ],
+      "answer": 1,
+      "explanation": "Sodium reabsorption increases while potassium secretion rises. The hormone increases epithelial sodium channels and sodium-potassium pumps."
+    },
+    {
+      "id": "homeostasis-aldosterone-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After aldosterone acts on distal nephron cells, which explanation best links the change to its outcome?",
+      "options": [
+        "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "A maintained concentration gradient removes small wastes that can cross the membrane",
+        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
+        "The control system treats the current temperature as below its newly elevated target"
+      ],
+      "answer": 2,
+      "explanation": "Sodium reabsorption increases while potassium secretion rises. The hormone increases epithelial sodium channels and sodium-potassium pumps."
+    },
+    {
+      "id": "homeostasis-aldosterone-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: aldosterone acts on distal nephron cells?",
+      "options": [
+        "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane",
+        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target",
+        "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps"
+      ],
+      "answer": 3,
+      "explanation": "Sodium reabsorption increases while potassium secretion rises. The hormone increases epithelial sodium channels and sodium-potassium pumps."
+    },
+    {
+      "id": "homeostasis-deamination-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "The liver metabolizes excess amino acids. Which outcome follows most directly?",
+      "options": [
+        "Ammonia is produced and then converted to urea",
+        "Urea diffuses out while blood cells and proteins remain",
+        "The person initially feels cold and generates heat despite a normal starting temperature",
+        "Pituitary TSH secretion normally increases"
+      ],
+      "answer": 0,
+      "explanation": "Ammonia is produced and then converted to urea. Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion."
+    },
+    {
+      "id": "homeostasis-deamination-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: ammonia is produced and then converted to urea?",
+      "options": [
+        "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
+        "The liver metabolizes excess amino acids",
+        "Pyrogens raise the hypothalamic temperature set point",
+        "Blood thyroxine concentration falls"
+      ],
+      "answer": 1,
+      "explanation": "Ammonia is produced and then converted to urea. Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion."
+    },
+    {
+      "id": "homeostasis-deamination-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After the liver metabolizes excess amino acids, which explanation best links the change to its outcome?",
+      "options": [
+        "A maintained concentration gradient removes small wastes that can cross the membrane",
+        "The control system treats the current temperature as below its newly elevated target",
+        "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid"
+      ],
+      "answer": 2,
+      "explanation": "Ammonia is produced and then converted to urea. Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion."
+    },
+    {
+      "id": "homeostasis-deamination-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the liver metabolizes excess amino acids?",
+      "options": [
+        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane",
+        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target",
+        "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
+        "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion"
+      ],
+      "answer": 3,
+      "explanation": "Ammonia is produced and then converted to urea. Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion."
+    },
+    {
+      "id": "homeostasis-dialysis-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After a patient's blood flows beside dialysis fluid across a partially permeable membrane, which observation is most likely?",
+      "options": [
+        "Urea diffuses out while blood cells and proteins remain",
+        "The person initially feels cold and generates heat despite a normal starting temperature",
+        "Pituitary TSH secretion normally increases",
+        "It may be chemically modified into a more excretable product"
+      ],
+      "answer": 0,
+      "explanation": "Urea diffuses out while blood cells and proteins remain. A maintained concentration gradient removes small wastes that can cross the membrane."
+    },
+    {
+      "id": "homeostasis-dialysis-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "A learner records that urea diffuses out while blood cells and proteins remain. Which preceding event best accounts for it?",
+      "options": [
+        "Pyrogens raise the hypothalamic temperature set point",
+        "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
+        "Blood thyroxine concentration falls",
+        "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells"
+      ],
+      "answer": 1,
+      "explanation": "Urea diffuses out while blood cells and proteins remain. A maintained concentration gradient removes small wastes that can cross the membrane."
+    },
+    {
+      "id": "homeostasis-dialysis-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After a patient's blood flows beside dialysis fluid across a partially permeable membrane, which explanation best links the change to its outcome?",
+      "options": [
+        "The control system treats the current temperature as below its newly elevated target",
+        "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
+        "A maintained concentration gradient removes small wastes that can cross the membrane",
+        "Detoxification enzymes add or expose polar groups that improve water solubility"
+      ],
+      "answer": 2,
+      "explanation": "Urea diffuses out while blood cells and proteins remain. A maintained concentration gradient removes small wastes that can cross the membrane."
+    },
+    {
+      "id": "homeostasis-dialysis-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a patient's blood flows beside dialysis fluid across a partially permeable membrane?",
+      "options": [
+        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility",
+        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target",
+        "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
+        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane"
+      ],
+      "answer": 3,
+      "explanation": "Urea diffuses out while blood cells and proteins remain. A maintained concentration gradient removes small wastes that can cross the membrane."
+    },
+    {
+      "id": "homeostasis-fever-setpoint-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Pyrogens raise the hypothalamic temperature set point. What should the model predict first?",
+      "options": [
+        "The person initially feels cold and generates heat despite a normal starting temperature",
+        "It may be chemically modified into a more excretable product",
+        "Pituitary TSH secretion normally increases",
+        "Kidneys increase hydrogen secretion and conserve bicarbonate"
+      ],
+      "answer": 0,
+      "explanation": "The person initially feels cold and generates heat despite a normal starting temperature. The control system treats the current temperature as below its newly elevated target."
+    },
+    {
+      "id": "homeostasis-fever-setpoint-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when the person initially feels cold and generates heat despite a normal starting temperature?",
+      "options": [
+        "Blood thyroxine concentration falls",
+        "Pyrogens raise the hypothalamic temperature set point",
+        "The body accumulates excess hydrogen ions",
+        "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells"
+      ],
+      "answer": 1,
+      "explanation": "The person initially feels cold and generates heat despite a normal starting temperature. The control system treats the current temperature as below its newly elevated target."
+    },
+    {
+      "id": "homeostasis-fever-setpoint-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After pyrogens raise the hypothalamic temperature set point, which explanation best links the change to its outcome?",
+      "options": [
+        "Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
+        "The control system treats the current temperature as below its newly elevated target",
+        "Tubular transport helps restore extracellular pH while producing more acidic urine"
+      ],
+      "answer": 2,
+      "explanation": "The person initially feels cold and generates heat despite a normal starting temperature. The control system treats the current temperature as below its newly elevated target."
+    },
+    {
+      "id": "homeostasis-fever-setpoint-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: pyrogens raise the hypothalamic temperature set point?",
+      "options": [
+        "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
+        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine",
+        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility",
+        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target"
+      ],
+      "answer": 3,
+      "explanation": "The person initially feels cold and generates heat despite a normal starting temperature. The control system treats the current temperature as below its newly elevated target."
+    },
+    {
+      "id": "homeostasis-thyroxine-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Blood thyroxine concentration falls?",
+      "options": [
+        "Pituitary TSH secretion normally increases",
+        "Kidneys increase hydrogen secretion and conserve bicarbonate",
+        "Hyperglycaemia and glucose loss in urine may occur",
+        "It may be chemically modified into a more excretable product"
+      ],
+      "answer": 0,
+      "explanation": "Pituitary TSH secretion normally increases. Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid."
+    },
+    {
+      "id": "homeostasis-thyroxine-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: pituitary TSH secretion normally increases?",
+      "options": [
+        "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells",
+        "Blood thyroxine concentration falls",
+        "The body accumulates excess hydrogen ions",
+        "Insulin action is severely deficient"
+      ],
+      "answer": 1,
+      "explanation": "Pituitary TSH secretion normally increases. Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid."
+    },
+    {
+      "id": "homeostasis-thyroxine-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After blood thyroxine concentration falls, which explanation best links the change to its outcome?",
+      "options": [
+        "Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Tubular transport helps restore extracellular pH while producing more acidic urine",
+        "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
+        "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity"
+      ],
+      "answer": 2,
+      "explanation": "Pituitary TSH secretion normally increases. Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid."
+    },
+    {
+      "id": "homeostasis-thyroxine-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: blood thyroxine concentration falls?",
+      "options": [
+        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine",
+        "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
+        "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid"
+      ],
+      "answer": 3,
+      "explanation": "Pituitary TSH secretion normally increases. Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid."
+    },
+    {
+      "id": "homeostasis-liver-detox-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells. Which outcome follows most directly?",
+      "options": [
+        "It may be chemically modified into a more excretable product",
+        "Kidneys increase hydrogen secretion and conserve bicarbonate",
+        "Hyperglycaemia and glucose loss in urine may occur",
+        "A large volume of dilute urine is produced"
+      ],
+      "answer": 0,
+      "explanation": "It may be chemically modified into a more excretable product. Detoxification enzymes add or expose polar groups that improve water solubility."
+    },
+    {
+      "id": "homeostasis-liver-detox-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: it may be chemically modified into a more excretable product?",
+      "options": [
+        "The body accumulates excess hydrogen ions",
+        "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells",
+        "Insulin action is severely deficient",
+        "The kidneys fail to respond to ADH"
+      ],
+      "answer": 1,
+      "explanation": "It may be chemically modified into a more excretable product. Detoxification enzymes add or expose polar groups that improve water solubility."
+    },
+    {
+      "id": "homeostasis-liver-detox-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After a lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells, which explanation best links the change to its outcome?",
+      "options": [
+        "Tubular transport helps restore extracellular pH while producing more acidic urine",
+        "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
+        "Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Collecting ducts remain poorly permeable to water despite dehydration"
+      ],
+      "answer": 2,
+      "explanation": "It may be chemically modified into a more excretable product. Detoxification enzymes add or expose polar groups that improve water solubility."
+    },
+    {
+      "id": "homeostasis-liver-detox-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells?",
+      "options": [
+        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine",
+        "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
+        "A large volume of dilute urine is produced — Collecting ducts remain poorly permeable to water despite dehydration",
+        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility"
+      ],
+      "answer": 3,
+      "explanation": "It may be chemically modified into a more excretable product. Detoxification enzymes add or expose polar groups that improve water solubility."
+    },
+    {
+      "id": "homeostasis-kidney-acid-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After the body accumulates excess hydrogen ions, which observation is most likely?",
+      "options": [
+        "Kidneys increase hydrogen secretion and conserve bicarbonate",
+        "Hyperglycaemia and glucose loss in urine may occur",
+        "A large volume of dilute urine is produced",
+        "Renin release and the renin-angiotensin-aldosterone pathway increase"
+      ],
+      "answer": 0,
+      "explanation": "Kidneys increase hydrogen secretion and conserve bicarbonate. Tubular transport helps restore extracellular pH while producing more acidic urine."
+    },
+    {
+      "id": "homeostasis-kidney-acid-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "A learner records that kidneys increase hydrogen secretion and conserve bicarbonate. Which preceding event best accounts for it?",
+      "options": [
+        "Insulin action is severely deficient",
+        "The body accumulates excess hydrogen ions",
+        "The kidneys fail to respond to ADH",
+        "Renal arterial pressure falls substantially"
+      ],
+      "answer": 1,
+      "explanation": "Kidneys increase hydrogen secretion and conserve bicarbonate. Tubular transport helps restore extracellular pH while producing more acidic urine."
+    },
+    {
+      "id": "homeostasis-kidney-acid-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "After the body accumulates excess hydrogen ions, which explanation best links the change to its outcome?",
+      "options": [
+        "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
+        "Collecting ducts remain poorly permeable to water despite dehydration",
+        "Tubular transport helps restore extracellular pH while producing more acidic urine",
+        "Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses"
+      ],
+      "answer": 2,
+      "explanation": "Kidneys increase hydrogen secretion and conserve bicarbonate. Tubular transport helps restore extracellular pH while producing more acidic urine."
+    },
+    {
+      "id": "homeostasis-kidney-acid-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the body accumulates excess hydrogen ions?",
+      "options": [
+        "Renin release and the renin-angiotensin-aldosterone pathway increase — Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
+        "A large volume of dilute urine is produced — Collecting ducts remain poorly permeable to water despite dehydration",
+        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine"
+      ],
+      "answer": 3,
+      "explanation": "Kidneys increase hydrogen secretion and conserve bicarbonate. Tubular transport helps restore extracellular pH while producing more acidic urine."
+    },
+    {
+      "id": "homeostasis-diabetes-mellitus-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Insulin action is severely deficient. What should the model predict first?",
+      "options": [
+        "Hyperglycaemia and glucose loss in urine may occur",
+        "Renin release and the renin-angiotensin-aldosterone pathway increase",
+        "A large volume of dilute urine is produced",
+        "Plasma proteins appear in urine and oedema may follow"
+      ],
+      "answer": 0,
+      "explanation": "Hyperglycaemia and glucose loss in urine may occur. Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity."
+    },
+    {
+      "id": "homeostasis-diabetes-mellitus-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when hyperglycaemia and glucose loss in urine may occur?",
+      "options": [
+        "The kidneys fail to respond to ADH",
+        "Insulin action is severely deficient",
+        "The glomerular filtration barrier loses its charge and size selectivity",
+        "Renal arterial pressure falls substantially"
+      ],
+      "answer": 1,
+      "explanation": "Hyperglycaemia and glucose loss in urine may occur. Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity."
+    },
+    {
+      "id": "homeostasis-diabetes-mellitus-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "After insulin action is severely deficient, which explanation best links the change to its outcome?",
+      "options": [
+        "Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Collecting ducts remain poorly permeable to water despite dehydration",
+        "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
+        "Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries"
+      ],
+      "answer": 2,
+      "explanation": "Hyperglycaemia and glucose loss in urine may occur. Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity."
+    },
+    {
+      "id": "homeostasis-diabetes-mellitus-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: insulin action is severely deficient?",
+      "options": [
+        "A large volume of dilute urine is produced — Collecting ducts remain poorly permeable to water despite dehydration",
+        "Plasma proteins appear in urine and oedema may follow — Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries",
+        "Renin release and the renin-angiotensin-aldosterone pathway increase — Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity"
+      ],
+      "answer": 3,
+      "explanation": "Hyperglycaemia and glucose loss in urine may occur. Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity."
+    },
+    {
+      "id": "homeostasis-diabetes-insipidus-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: The kidneys fail to respond to ADH?",
+      "options": [
+        "A large volume of dilute urine is produced",
+        "Plasma proteins appear in urine and oedema may follow",
+        "The medullary gradient weakens and more water is excreted",
+        "Renin release and the renin-angiotensin-aldosterone pathway increase"
+      ],
+      "answer": 0,
+      "explanation": "A large volume of dilute urine is produced. Collecting ducts remain poorly permeable to water despite dehydration."
+    },
+    {
+      "id": "homeostasis-diabetes-insipidus-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: a large volume of dilute urine is produced?",
+      "options": [
+        "Renal arterial pressure falls substantially",
+        "The kidneys fail to respond to ADH",
+        "The glomerular filtration barrier loses its charge and size selectivity",
+        "Salt transport in the ascending loop of Henle is inhibited"
+      ],
+      "answer": 1,
+      "explanation": "A large volume of dilute urine is produced. Collecting ducts remain poorly permeable to water despite dehydration."
+    },
+    {
+      "id": "homeostasis-diabetes-insipidus-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "After the kidneys fail to respond to ADH, which explanation best links the change to its outcome?",
+      "options": [
+        "Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries",
+        "Collecting ducts remain poorly permeable to water despite dehydration",
+        "Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts"
+      ],
+      "answer": 2,
+      "explanation": "A large volume of dilute urine is produced. Collecting ducts remain poorly permeable to water despite dehydration."
+    },
+    {
+      "id": "homeostasis-diabetes-insipidus-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: the kidneys fail to respond to ADH?",
+      "options": [
+        "Renin release and the renin-angiotensin-aldosterone pathway increase — Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Plasma proteins appear in urine and oedema may follow — Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries",
+        "The medullary gradient weakens and more water is excreted — Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts",
+        "A large volume of dilute urine is produced — Collecting ducts remain poorly permeable to water despite dehydration"
+      ],
+      "answer": 3,
+      "explanation": "A large volume of dilute urine is produced. Collecting ducts remain poorly permeable to water despite dehydration."
+    },
+    {
+      "id": "homeostasis-renal-artery-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Renal arterial pressure falls substantially. Which outcome follows most directly?",
+      "options": [
+        "Renin release and the renin-angiotensin-aldosterone pathway increase",
+        "Plasma proteins appear in urine and oedema may follow",
+        "The medullary gradient weakens and more water is excreted",
+        "Core temperature can rise dangerously despite skin vasodilation"
+      ],
+      "answer": 0,
+      "explanation": "Renin release and the renin-angiotensin-aldosterone pathway increase. Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses."
+    },
+    {
+      "id": "homeostasis-renal-artery-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: renin release and the renin-angiotensin-aldosterone pathway increase?",
+      "options": [
+        "The glomerular filtration barrier loses its charge and size selectivity",
+        "Renal arterial pressure falls substantially",
+        "Salt transport in the ascending loop of Henle is inhibited",
+        "Severe dehydration prevents adequate sweating during intense heat"
+      ],
+      "answer": 1,
+      "explanation": "Renin release and the renin-angiotensin-aldosterone pathway increase. Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses."
+    },
+    {
+      "id": "homeostasis-renal-artery-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "After renal arterial pressure falls substantially, which explanation best links the change to its outcome?",
+      "options": [
+        "Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries",
+        "Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts",
+        "Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Loss of evaporative cooling makes environmental heat dissipation insufficient"
+      ],
+      "answer": 2,
+      "explanation": "Renin release and the renin-angiotensin-aldosterone pathway increase. Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses."
+    },
+    {
+      "id": "homeostasis-renal-artery-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: renal arterial pressure falls substantially?",
+      "options": [
+        "Plasma proteins appear in urine and oedema may follow — Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries",
+        "The medullary gradient weakens and more water is excreted — Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts",
+        "Core temperature can rise dangerously despite skin vasodilation — Loss of evaporative cooling makes environmental heat dissipation insufficient",
+        "Renin release and the renin-angiotensin-aldosterone pathway increase — Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses"
+      ],
+      "answer": 3,
+      "explanation": "Renin release and the renin-angiotensin-aldosterone pathway increase. Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses."
+    },
+    {
+      "id": "homeostasis-proteinuria-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "After the glomerular filtration barrier loses its charge and size selectivity, which observation is most likely?",
+      "options": [
+        "Plasma proteins appear in urine and oedema may follow",
+        "The medullary gradient weakens and more water is excreted",
+        "Core temperature can rise dangerously despite skin vasodilation",
+        "Corrective responses oppose the original disturbance"
+      ],
+      "answer": 0,
+      "explanation": "Plasma proteins appear in urine and oedema may follow. Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries."
+    },
+    {
+      "id": "homeostasis-proteinuria-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "A learner records that plasma proteins appear in urine and oedema may follow. Which preceding event best accounts for it?",
+      "options": [
+        "Salt transport in the ascending loop of Henle is inhibited",
+        "The glomerular filtration barrier loses its charge and size selectivity",
+        "Severe dehydration prevents adequate sweating during intense heat",
+        "A regulated variable moves away from its normal range"
+      ],
+      "answer": 1,
+      "explanation": "Plasma proteins appear in urine and oedema may follow. Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries."
+    },
+    {
+      "id": "homeostasis-proteinuria-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "After the glomerular filtration barrier loses its charge and size selectivity, which explanation best links the change to its outcome?",
+      "options": [
+        "Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts",
+        "Loss of evaporative cooling makes environmental heat dissipation insufficient",
+        "Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries",
+        "Negative feedback reduces the error detected by receptors and control centres"
+      ],
+      "answer": 2,
+      "explanation": "Plasma proteins appear in urine and oedema may follow. Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries."
+    },
+    {
+      "id": "homeostasis-proteinuria-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: the glomerular filtration barrier loses its charge and size selectivity?",
+      "options": [
+        "Corrective responses oppose the original disturbance — Negative feedback reduces the error detected by receptors and control centres",
+        "The medullary gradient weakens and more water is excreted — Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts",
+        "Core temperature can rise dangerously despite skin vasodilation — Loss of evaporative cooling makes environmental heat dissipation insufficient",
+        "Plasma proteins appear in urine and oedema may follow — Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries"
+      ],
+      "answer": 3,
+      "explanation": "Plasma proteins appear in urine and oedema may follow. Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries."
+    },
+    {
+      "id": "homeostasis-loop-diuretic-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Salt transport in the ascending loop of Henle is inhibited. What should the model predict first?",
+      "options": [
+        "The medullary gradient weakens and more water is excreted",
+        "Corrective responses oppose the original disturbance",
+        "Core temperature can rise dangerously despite skin vasodilation",
+        "Sweat production increases and the skin cools"
+      ],
+      "answer": 0,
+      "explanation": "The medullary gradient weakens and more water is excreted. Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts."
+    },
+    {
+      "id": "homeostasis-loop-diuretic-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when the medullary gradient weakens and more water is excreted?",
+      "options": [
+        "Severe dehydration prevents adequate sweating during intense heat",
+        "Salt transport in the ascending loop of Henle is inhibited",
+        "Core body temperature rises above its set range",
+        "A regulated variable moves away from its normal range"
+      ],
+      "answer": 1,
+      "explanation": "The medullary gradient weakens and more water is excreted. Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts."
+    },
+    {
+      "id": "homeostasis-loop-diuretic-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "After salt transport in the ascending loop of Henle is inhibited, which explanation best links the change to its outcome?",
+      "options": [
+        "Negative feedback reduces the error detected by receptors and control centres",
+        "Loss of evaporative cooling makes environmental heat dissipation insufficient",
+        "Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts",
+        "Evaporation requires latent heat that is drawn from the body surface"
+      ],
+      "answer": 2,
+      "explanation": "The medullary gradient weakens and more water is excreted. Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts."
+    },
+    {
+      "id": "homeostasis-loop-diuretic-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: salt transport in the ascending loop of Henle is inhibited?",
+      "options": [
+        "Core temperature can rise dangerously despite skin vasodilation — Loss of evaporative cooling makes environmental heat dissipation insufficient",
+        "Sweat production increases and the skin cools — Evaporation requires latent heat that is drawn from the body surface",
+        "Corrective responses oppose the original disturbance — Negative feedback reduces the error detected by receptors and control centres",
+        "The medullary gradient weakens and more water is excreted — Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts"
+      ],
+      "answer": 3,
+      "explanation": "The medullary gradient weakens and more water is excreted. Reduced countercurrent multiplication limits osmotic water recovery from collecting ducts."
+    },
+    {
+      "id": "homeostasis-thermoregulation-failure-outcome",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Severe dehydration prevents adequate sweating during intense heat?",
+      "options": [
+        "Core temperature can rise dangerously despite skin vasodilation",
+        "Sweat production increases and the skin cools",
+        "Heat loss from the body surface increases",
+        "Corrective responses oppose the original disturbance"
+      ],
+      "answer": 0,
+      "explanation": "Core temperature can rise dangerously despite skin vasodilation. Loss of evaporative cooling makes environmental heat dissipation insufficient."
+    },
+    {
+      "id": "homeostasis-thermoregulation-failure-cause",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: core temperature can rise dangerously despite skin vasodilation?",
+      "options": [
+        "A regulated variable moves away from its normal range",
+        "Severe dehydration prevents adequate sweating during intense heat",
+        "Core body temperature rises above its set range",
+        "Skin arterioles dilate in a hot environment"
+      ],
+      "answer": 1,
+      "explanation": "Core temperature can rise dangerously despite skin vasodilation. Loss of evaporative cooling makes environmental heat dissipation insufficient."
+    },
+    {
+      "id": "homeostasis-thermoregulation-failure-mechanism",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "After severe dehydration prevents adequate sweating during intense heat, which explanation best links the change to its outcome?",
+      "options": [
+        "Negative feedback reduces the error detected by receptors and control centres",
+        "Evaporation requires latent heat that is drawn from the body surface",
+        "Loss of evaporative cooling makes environmental heat dissipation insufficient",
+        "More warm blood flows through superficial capillaries, enhancing radiation and convection"
+      ],
+      "answer": 2,
+      "explanation": "Core temperature can rise dangerously despite skin vasodilation. Loss of evaporative cooling makes environmental heat dissipation insufficient."
+    },
+    {
+      "id": "homeostasis-thermoregulation-failure-integrated",
+      "chapter": "Homeostasis",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: severe dehydration prevents adequate sweating during intense heat?",
+      "options": [
+        "Corrective responses oppose the original disturbance — Negative feedback reduces the error detected by receptors and control centres",
+        "Sweat production increases and the skin cools — Evaporation requires latent heat that is drawn from the body surface",
+        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Core temperature can rise dangerously despite skin vasodilation — Loss of evaporative cooling makes environmental heat dissipation insufficient"
+      ],
+      "answer": 3,
+      "explanation": "Core temperature can rise dangerously despite skin vasodilation. Loss of evaporative cooling makes environmental heat dissipation insufficient."
+    }
+  ]
+}

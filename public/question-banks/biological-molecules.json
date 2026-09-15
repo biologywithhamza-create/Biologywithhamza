@@ -1,0 +1,1408 @@
+{
+  "chapter": "Biological Molecules",
+  "count": 100,
+  "answerIndex": "zero-based",
+  "notice": "Original practice items including related concept variants; not official examination questions.",
+  "questions": [
+    {
+      "id": "water-solvent",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Why can water transport many ions and polar molecules through blood plasma and cytoplasm?",
+      "options": [
+        "Its polarity surrounds and separates charged particles",
+        "Its molecules are non-polar",
+        "It has no intermolecular attractions",
+        "It converts every solute into a lipid"
+      ],
+      "answer": 0,
+      "explanation": "Water is polar. Its partially charged regions form hydration shells around ions and interact with other polar substances, allowing them to remain dispersed in solution."
+    },
+    {
+      "id": "polysaccharide-hydrolysis",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A storage polysaccharide is completely hydrolysed. Which change is expected in the reaction mixture?",
+      "options": [
+        "Fewer reducing-sugar molecules",
+        "More monosaccharide molecules",
+        "More peptide bonds",
+        "Formation of phospholipid bilayers"
+      ],
+      "answer": 1,
+      "explanation": "Hydrolysis uses water to break glycosidic bonds, releasing the monosaccharide units from which the polysaccharide was built."
+    },
+    {
+      "id": "phospholipid-bilayer",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Phospholipids spontaneously form bilayers in water mainly because each molecule:",
+      "options": [
+        "Is made entirely of amino acids",
+        "Contains two hydrophilic tails",
+        "Has a hydrophilic head and hydrophobic tails",
+        "Forms covalent bonds with every neighbouring molecule"
+      ],
+      "answer": 2,
+      "explanation": "The polar heads interact with water while the non-polar fatty-acid tails avoid it. This amphipathic character drives bilayer formation."
+    },
+    {
+      "id": "protein-denaturation-level",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "A globular protein is heat-denatured without hydrolysis. Which feature is most likely to remain intact?",
+      "options": [
+        "Its precise active-site shape",
+        "All hydrogen bonds",
+        "Its normal tertiary structure",
+        "The amino-acid sequence of each polypeptide"
+      ],
+      "answer": 3,
+      "explanation": "Denaturation disrupts interactions that maintain secondary and tertiary structure, but it does not normally break the peptide bonds of the primary amino-acid sequence."
+    },
+    {
+      "id": "molecules-water-cohesion-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Many hydrogen bonds form between neighbouring water molecules. Which outcome follows most directly?",
+      "options": [
+        "Water shows strong cohesion and a relatively high surface tension",
+        "Its temperature rises more slowly than that of many other small molecules",
+        "A disaccharide and one molecule of water are formed",
+        "A compact insoluble carbohydrate store accumulates"
+      ],
+      "answer": 0,
+      "explanation": "Water shows strong cohesion and a relatively high surface tension. Each weak hydrogen bond contributes to a large cooperative attraction in bulk water."
+    },
+    {
+      "id": "molecules-water-cohesion-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: water shows strong cohesion and a relatively high surface tension?",
+      "options": [
+        "Heat energy is added to liquid water",
+        "Many hydrogen bonds form between neighbouring water molecules",
+        "Two monosaccharides join by a condensation reaction",
+        "Plant cells convert many glucose molecules into starch"
+      ],
+      "answer": 1,
+      "explanation": "Water shows strong cohesion and a relatively high surface tension. Each weak hydrogen bond contributes to a large cooperative attraction in bulk water."
+    },
+    {
+      "id": "molecules-water-cohesion-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "After many hydrogen bonds form between neighbouring water molecules, which explanation best links the change to its outcome?",
+      "options": [
+        "Much of the input energy first disrupts hydrogen-bond interactions",
+        "A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl",
+        "Each weak hydrogen bond contributes to a large cooperative attraction in bulk water",
+        "Polymerization reduces osmotic activity while coiling allows dense storage"
+      ],
+      "answer": 2,
+      "explanation": "Water shows strong cohesion and a relatively high surface tension. Each weak hydrogen bond contributes to a large cooperative attraction in bulk water."
+    },
+    {
+      "id": "molecules-water-cohesion-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: many hydrogen bonds form between neighbouring water molecules?",
+      "options": [
+        "Its temperature rises more slowly than that of many other small molecules — Much of the input energy first disrupts hydrogen-bond interactions",
+        "A disaccharide and one molecule of water are formed — A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl",
+        "A compact insoluble carbohydrate store accumulates — Polymerization reduces osmotic activity while coiling allows dense storage",
+        "Water shows strong cohesion and a relatively high surface tension — Each weak hydrogen bond contributes to a large cooperative attraction in bulk water"
+      ],
+      "answer": 3,
+      "explanation": "Water shows strong cohesion and a relatively high surface tension. Each weak hydrogen bond contributes to a large cooperative attraction in bulk water."
+    },
+    {
+      "id": "molecules-water-heat-capacity-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "After heat energy is added to liquid water, which observation is most likely?",
+      "options": [
+        "Its temperature rises more slowly than that of many other small molecules",
+        "A disaccharide and one molecule of water are formed",
+        "A compact insoluble carbohydrate store accumulates",
+        "A large energy yield becomes available"
+      ],
+      "answer": 0,
+      "explanation": "Its temperature rises more slowly than that of many other small molecules. Much of the input energy first disrupts hydrogen-bond interactions."
+    },
+    {
+      "id": "molecules-water-heat-capacity-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "A learner records that its temperature rises more slowly than that of many other small molecules. Which preceding event best accounts for it?",
+      "options": [
+        "Two monosaccharides join by a condensation reaction",
+        "Heat energy is added to liquid water",
+        "Plant cells convert many glucose molecules into starch",
+        "A cell oxidizes fatty acids from a triglyceride"
+      ],
+      "answer": 1,
+      "explanation": "Its temperature rises more slowly than that of many other small molecules. Much of the input energy first disrupts hydrogen-bond interactions."
+    },
+    {
+      "id": "molecules-water-heat-capacity-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "After heat energy is added to liquid water, which explanation best links the change to its outcome?",
+      "options": [
+        "A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl",
+        "Polymerization reduces osmotic activity while coiling allows dense storage",
+        "Much of the input energy first disrupts hydrogen-bond interactions",
+        "Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds"
+      ],
+      "answer": 2,
+      "explanation": "Its temperature rises more slowly than that of many other small molecules. Much of the input energy first disrupts hydrogen-bond interactions."
+    },
+    {
+      "id": "molecules-water-heat-capacity-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: heat energy is added to liquid water?",
+      "options": [
+        "A large energy yield becomes available — Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds",
+        "A disaccharide and one molecule of water are formed — A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl",
+        "A compact insoluble carbohydrate store accumulates — Polymerization reduces osmotic activity while coiling allows dense storage",
+        "Its temperature rises more slowly than that of many other small molecules — Much of the input energy first disrupts hydrogen-bond interactions"
+      ],
+      "answer": 3,
+      "explanation": "Its temperature rises more slowly than that of many other small molecules. Much of the input energy first disrupts hydrogen-bond interactions."
+    },
+    {
+      "id": "molecules-condensation-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "A student models this change: Two monosaccharides join by a condensation reaction. What should the model predict first?",
+      "options": [
+        "A disaccharide and one molecule of water are formed",
+        "A large energy yield becomes available",
+        "A compact insoluble carbohydrate store accumulates",
+        "A peptide bond forms between the amino acids"
+      ],
+      "answer": 0,
+      "explanation": "A disaccharide and one molecule of water are formed. A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl."
+    },
+    {
+      "id": "molecules-condensation-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "What is the most likely cause when a disaccharide and one molecule of water are formed?",
+      "options": [
+        "Plant cells convert many glucose molecules into starch",
+        "Two monosaccharides join by a condensation reaction",
+        "The amino group of one amino acid reacts with the carboxyl group of another",
+        "A cell oxidizes fatty acids from a triglyceride"
+      ],
+      "answer": 1,
+      "explanation": "A disaccharide and one molecule of water are formed. A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl."
+    },
+    {
+      "id": "molecules-condensation-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "After two monosaccharides join by a condensation reaction, which explanation best links the change to its outcome?",
+      "options": [
+        "Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds",
+        "Polymerization reduces osmotic activity while coiling allows dense storage",
+        "A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl",
+        "A condensation reaction removes water and creates a covalent carbon-nitrogen link"
+      ],
+      "answer": 2,
+      "explanation": "A disaccharide and one molecule of water are formed. A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl."
+    },
+    {
+      "id": "molecules-condensation-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: two monosaccharides join by a condensation reaction?",
+      "options": [
+        "A compact insoluble carbohydrate store accumulates — Polymerization reduces osmotic activity while coiling allows dense storage",
+        "A peptide bond forms between the amino acids — A condensation reaction removes water and creates a covalent carbon-nitrogen link",
+        "A large energy yield becomes available — Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds",
+        "A disaccharide and one molecule of water are formed — A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl"
+      ],
+      "answer": 3,
+      "explanation": "A disaccharide and one molecule of water are formed. A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl."
+    },
+    {
+      "id": "molecules-starch-storage-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which immediate result is most consistent with this condition: Plant cells convert many glucose molecules into starch?",
+      "options": [
+        "A compact insoluble carbohydrate store accumulates",
+        "A peptide bond forms between the amino acids",
+        "Strong microfibrils develop in the plant cell wall",
+        "A large energy yield becomes available"
+      ],
+      "answer": 0,
+      "explanation": "A compact insoluble carbohydrate store accumulates. Polymerization reduces osmotic activity while coiling allows dense storage."
+    },
+    {
+      "id": "molecules-starch-storage-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which condition would most specifically produce this result: a compact insoluble carbohydrate store accumulates?",
+      "options": [
+        "A cell oxidizes fatty acids from a triglyceride",
+        "Plant cells convert many glucose molecules into starch",
+        "The amino group of one amino acid reacts with the carboxyl group of another",
+        "Parallel cellulose chains form many hydrogen bonds with one another"
+      ],
+      "answer": 1,
+      "explanation": "A compact insoluble carbohydrate store accumulates. Polymerization reduces osmotic activity while coiling allows dense storage."
+    },
+    {
+      "id": "molecules-starch-storage-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "After plant cells convert many glucose molecules into starch, which explanation best links the change to its outcome?",
+      "options": [
+        "Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds",
+        "A condensation reaction removes water and creates a covalent carbon-nitrogen link",
+        "Polymerization reduces osmotic activity while coiling allows dense storage",
+        "Cross-linking distributes tension across long unbranched beta-glucose polymers"
+      ],
+      "answer": 2,
+      "explanation": "A compact insoluble carbohydrate store accumulates. Polymerization reduces osmotic activity while coiling allows dense storage."
+    },
+    {
+      "id": "molecules-starch-storage-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: plant cells convert many glucose molecules into starch?",
+      "options": [
+        "A large energy yield becomes available — Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds",
+        "A peptide bond forms between the amino acids — A condensation reaction removes water and creates a covalent carbon-nitrogen link",
+        "Strong microfibrils develop in the plant cell wall — Cross-linking distributes tension across long unbranched beta-glucose polymers",
+        "A compact insoluble carbohydrate store accumulates — Polymerization reduces osmotic activity while coiling allows dense storage"
+      ],
+      "answer": 3,
+      "explanation": "A compact insoluble carbohydrate store accumulates. Polymerization reduces osmotic activity while coiling allows dense storage."
+    },
+    {
+      "id": "molecules-triglyceride-energy-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "A cell oxidizes fatty acids from a triglyceride. Which outcome follows most directly?",
+      "options": [
+        "A large energy yield becomes available",
+        "A peptide bond forms between the amino acids",
+        "Strong microfibrils develop in the plant cell wall",
+        "Glucose units can be added or removed rapidly at multiple ends"
+      ],
+      "answer": 0,
+      "explanation": "A large energy yield becomes available. Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds."
+    },
+    {
+      "id": "molecules-triglyceride-energy-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which change most directly explains this observation: a large energy yield becomes available?",
+      "options": [
+        "The amino group of one amino acid reacts with the carboxyl group of another",
+        "A cell oxidizes fatty acids from a triglyceride",
+        "Parallel cellulose chains form many hydrogen bonds with one another",
+        "Glycogen contains many branch points"
+      ],
+      "answer": 1,
+      "explanation": "A large energy yield becomes available. Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds."
+    },
+    {
+      "id": "molecules-triglyceride-energy-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "After a cell oxidizes fatty acids from a triglyceride, which explanation best links the change to its outcome?",
+      "options": [
+        "A condensation reaction removes water and creates a covalent carbon-nitrogen link",
+        "Cross-linking distributes tension across long unbranched beta-glucose polymers",
+        "Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds",
+        "Branching creates numerous terminal sites accessible to metabolic enzymes"
+      ],
+      "answer": 2,
+      "explanation": "A large energy yield becomes available. Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds."
+    },
+    {
+      "id": "molecules-triglyceride-energy-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: a cell oxidizes fatty acids from a triglyceride?",
+      "options": [
+        "A peptide bond forms between the amino acids — A condensation reaction removes water and creates a covalent carbon-nitrogen link",
+        "Strong microfibrils develop in the plant cell wall — Cross-linking distributes tension across long unbranched beta-glucose polymers",
+        "Glucose units can be added or removed rapidly at multiple ends — Branching creates numerous terminal sites accessible to metabolic enzymes",
+        "A large energy yield becomes available — Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds"
+      ],
+      "answer": 3,
+      "explanation": "A large energy yield becomes available. Hydrocarbon chains contain many energy-rich carbon-hydrogen bonds."
+    },
+    {
+      "id": "molecules-amino-acid-link-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "After the amino group of one amino acid reacts with the carboxyl group of another, which observation is most likely?",
+      "options": [
+        "A peptide bond forms between the amino acids",
+        "Strong microfibrils develop in the plant cell wall",
+        "Glucose units can be added or removed rapidly at multiple ends",
+        "The phospholipids pack less tightly and membrane fluidity increases"
+      ],
+      "answer": 0,
+      "explanation": "A peptide bond forms between the amino acids. A condensation reaction removes water and creates a covalent carbon-nitrogen link."
+    },
+    {
+      "id": "molecules-amino-acid-link-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "A learner records that a peptide bond forms between the amino acids. Which preceding event best accounts for it?",
+      "options": [
+        "Parallel cellulose chains form many hydrogen bonds with one another",
+        "The amino group of one amino acid reacts with the carboxyl group of another",
+        "Glycogen contains many branch points",
+        "Cis double bonds occur in membrane fatty-acid tails"
+      ],
+      "answer": 1,
+      "explanation": "A peptide bond forms between the amino acids. A condensation reaction removes water and creates a covalent carbon-nitrogen link."
+    },
+    {
+      "id": "molecules-amino-acid-link-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "After the amino group of one amino acid reacts with the carboxyl group of another, which explanation best links the change to its outcome?",
+      "options": [
+        "Cross-linking distributes tension across long unbranched beta-glucose polymers",
+        "Branching creates numerous terminal sites accessible to metabolic enzymes",
+        "A condensation reaction removes water and creates a covalent carbon-nitrogen link",
+        "Double-bond kinks prevent close alignment of adjacent hydrocarbon chains"
+      ],
+      "answer": 2,
+      "explanation": "A peptide bond forms between the amino acids. A condensation reaction removes water and creates a covalent carbon-nitrogen link."
+    },
+    {
+      "id": "molecules-amino-acid-link-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Foundation",
+      "stem": "Which paired outcome and explanation best follows from this condition: the amino group of one amino acid reacts with the carboxyl group of another?",
+      "options": [
+        "The phospholipids pack less tightly and membrane fluidity increases — Double-bond kinks prevent close alignment of adjacent hydrocarbon chains",
+        "Strong microfibrils develop in the plant cell wall — Cross-linking distributes tension across long unbranched beta-glucose polymers",
+        "Glucose units can be added or removed rapidly at multiple ends — Branching creates numerous terminal sites accessible to metabolic enzymes",
+        "A peptide bond forms between the amino acids — A condensation reaction removes water and creates a covalent carbon-nitrogen link"
+      ],
+      "answer": 3,
+      "explanation": "A peptide bond forms between the amino acids. A condensation reaction removes water and creates a covalent carbon-nitrogen link."
+    },
+    {
+      "id": "molecules-cellulose-strength-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A student models this change: Parallel cellulose chains form many hydrogen bonds with one another. What should the model predict first?",
+      "options": [
+        "Strong microfibrils develop in the plant cell wall",
+        "The phospholipids pack less tightly and membrane fluidity increases",
+        "Glucose units can be added or removed rapidly at multiple ends",
+        "Extreme changes in membrane fluidity are reduced"
+      ],
+      "answer": 0,
+      "explanation": "Strong microfibrils develop in the plant cell wall. Cross-linking distributes tension across long unbranched beta-glucose polymers."
+    },
+    {
+      "id": "molecules-cellulose-strength-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when strong microfibrils develop in the plant cell wall?",
+      "options": [
+        "Glycogen contains many branch points",
+        "Parallel cellulose chains form many hydrogen bonds with one another",
+        "Cholesterol is inserted among phospholipids in an animal membrane",
+        "Cis double bonds occur in membrane fatty-acid tails"
+      ],
+      "answer": 1,
+      "explanation": "Strong microfibrils develop in the plant cell wall. Cross-linking distributes tension across long unbranched beta-glucose polymers."
+    },
+    {
+      "id": "molecules-cellulose-strength-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After parallel cellulose chains form many hydrogen bonds with one another, which explanation best links the change to its outcome?",
+      "options": [
+        "Double-bond kinks prevent close alignment of adjacent hydrocarbon chains",
+        "Branching creates numerous terminal sites accessible to metabolic enzymes",
+        "Cross-linking distributes tension across long unbranched beta-glucose polymers",
+        "Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature"
+      ],
+      "answer": 2,
+      "explanation": "Strong microfibrils develop in the plant cell wall. Cross-linking distributes tension across long unbranched beta-glucose polymers."
+    },
+    {
+      "id": "molecules-cellulose-strength-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: parallel cellulose chains form many hydrogen bonds with one another?",
+      "options": [
+        "Glucose units can be added or removed rapidly at multiple ends — Branching creates numerous terminal sites accessible to metabolic enzymes",
+        "Extreme changes in membrane fluidity are reduced — Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature",
+        "The phospholipids pack less tightly and membrane fluidity increases — Double-bond kinks prevent close alignment of adjacent hydrocarbon chains",
+        "Strong microfibrils develop in the plant cell wall — Cross-linking distributes tension across long unbranched beta-glucose polymers"
+      ],
+      "answer": 3,
+      "explanation": "Strong microfibrils develop in the plant cell wall. Cross-linking distributes tension across long unbranched beta-glucose polymers."
+    },
+    {
+      "id": "molecules-glycogen-branching-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Glycogen contains many branch points?",
+      "options": [
+        "Glucose units can be added or removed rapidly at multiple ends",
+        "Extreme changes in membrane fluidity are reduced",
+        "Protein folding or function may change",
+        "The phospholipids pack less tightly and membrane fluidity increases"
+      ],
+      "answer": 0,
+      "explanation": "Glucose units can be added or removed rapidly at multiple ends. Branching creates numerous terminal sites accessible to metabolic enzymes."
+    },
+    {
+      "id": "molecules-glycogen-branching-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: glucose units can be added or removed rapidly at multiple ends?",
+      "options": [
+        "Cis double bonds occur in membrane fatty-acid tails",
+        "Glycogen contains many branch points",
+        "Cholesterol is inserted among phospholipids in an animal membrane",
+        "A mutation replaces one amino acid in a polypeptide"
+      ],
+      "answer": 1,
+      "explanation": "Glucose units can be added or removed rapidly at multiple ends. Branching creates numerous terminal sites accessible to metabolic enzymes."
+    },
+    {
+      "id": "molecules-glycogen-branching-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After glycogen contains many branch points, which explanation best links the change to its outcome?",
+      "options": [
+        "Double-bond kinks prevent close alignment of adjacent hydrocarbon chains",
+        "Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature",
+        "Branching creates numerous terminal sites accessible to metabolic enzymes",
+        "Primary sequence determines side-chain interactions that establish higher levels of structure"
+      ],
+      "answer": 2,
+      "explanation": "Glucose units can be added or removed rapidly at multiple ends. Branching creates numerous terminal sites accessible to metabolic enzymes."
+    },
+    {
+      "id": "molecules-glycogen-branching-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: glycogen contains many branch points?",
+      "options": [
+        "The phospholipids pack less tightly and membrane fluidity increases — Double-bond kinks prevent close alignment of adjacent hydrocarbon chains",
+        "Extreme changes in membrane fluidity are reduced — Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature",
+        "Protein folding or function may change — Primary sequence determines side-chain interactions that establish higher levels of structure",
+        "Glucose units can be added or removed rapidly at multiple ends — Branching creates numerous terminal sites accessible to metabolic enzymes"
+      ],
+      "answer": 3,
+      "explanation": "Glucose units can be added or removed rapidly at multiple ends. Branching creates numerous terminal sites accessible to metabolic enzymes."
+    },
+    {
+      "id": "molecules-unsaturated-fat-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Cis double bonds occur in membrane fatty-acid tails. Which outcome follows most directly?",
+      "options": [
+        "The phospholipids pack less tightly and membrane fluidity increases",
+        "Extreme changes in membrane fluidity are reduced",
+        "Protein folding or function may change",
+        "A covalent disulfide bridge can stabilize the protein"
+      ],
+      "answer": 0,
+      "explanation": "The phospholipids pack less tightly and membrane fluidity increases. Double-bond kinks prevent close alignment of adjacent hydrocarbon chains."
+    },
+    {
+      "id": "molecules-unsaturated-fat-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: the phospholipids pack less tightly and membrane fluidity increases?",
+      "options": [
+        "Cholesterol is inserted among phospholipids in an animal membrane",
+        "Cis double bonds occur in membrane fatty-acid tails",
+        "A mutation replaces one amino acid in a polypeptide",
+        "Two cysteine side chains become oxidized near each other"
+      ],
+      "answer": 1,
+      "explanation": "The phospholipids pack less tightly and membrane fluidity increases. Double-bond kinks prevent close alignment of adjacent hydrocarbon chains."
+    },
+    {
+      "id": "molecules-unsaturated-fat-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After cis double bonds occur in membrane fatty-acid tails, which explanation best links the change to its outcome?",
+      "options": [
+        "Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature",
+        "Primary sequence determines side-chain interactions that establish higher levels of structure",
+        "Double-bond kinks prevent close alignment of adjacent hydrocarbon chains",
+        "Sulfur atoms link distant parts of one chain or separate polypeptide chains"
+      ],
+      "answer": 2,
+      "explanation": "The phospholipids pack less tightly and membrane fluidity increases. Double-bond kinks prevent close alignment of adjacent hydrocarbon chains."
+    },
+    {
+      "id": "molecules-unsaturated-fat-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: cis double bonds occur in membrane fatty-acid tails?",
+      "options": [
+        "Extreme changes in membrane fluidity are reduced — Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature",
+        "Protein folding or function may change — Primary sequence determines side-chain interactions that establish higher levels of structure",
+        "A covalent disulfide bridge can stabilize the protein — Sulfur atoms link distant parts of one chain or separate polypeptide chains",
+        "The phospholipids pack less tightly and membrane fluidity increases — Double-bond kinks prevent close alignment of adjacent hydrocarbon chains"
+      ],
+      "answer": 3,
+      "explanation": "The phospholipids pack less tightly and membrane fluidity increases. Double-bond kinks prevent close alignment of adjacent hydrocarbon chains."
+    },
+    {
+      "id": "molecules-cholesterol-buffer-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After cholesterol is inserted among phospholipids in an animal membrane, which observation is most likely?",
+      "options": [
+        "Extreme changes in membrane fluidity are reduced",
+        "Protein folding or function may change",
+        "A covalent disulfide bridge can stabilize the protein",
+        "The protein can remain dispersed in an aqueous cytoplasm"
+      ],
+      "answer": 0,
+      "explanation": "Extreme changes in membrane fluidity are reduced. Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature."
+    },
+    {
+      "id": "molecules-cholesterol-buffer-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A learner records that extreme changes in membrane fluidity are reduced. Which preceding event best accounts for it?",
+      "options": [
+        "A mutation replaces one amino acid in a polypeptide",
+        "Cholesterol is inserted among phospholipids in an animal membrane",
+        "Two cysteine side chains become oxidized near each other",
+        "A globular protein folds with hydrophilic groups exposed"
+      ],
+      "answer": 1,
+      "explanation": "Extreme changes in membrane fluidity are reduced. Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature."
+    },
+    {
+      "id": "molecules-cholesterol-buffer-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After cholesterol is inserted among phospholipids in an animal membrane, which explanation best links the change to its outcome?",
+      "options": [
+        "Primary sequence determines side-chain interactions that establish higher levels of structure",
+        "Sulfur atoms link distant parts of one chain or separate polypeptide chains",
+        "Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature",
+        "Polar and charged side chains form favourable interactions with surrounding water"
+      ],
+      "answer": 2,
+      "explanation": "Extreme changes in membrane fluidity are reduced. Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature."
+    },
+    {
+      "id": "molecules-cholesterol-buffer-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: cholesterol is inserted among phospholipids in an animal membrane?",
+      "options": [
+        "The protein can remain dispersed in an aqueous cytoplasm — Polar and charged side chains form favourable interactions with surrounding water",
+        "Protein folding or function may change — Primary sequence determines side-chain interactions that establish higher levels of structure",
+        "A covalent disulfide bridge can stabilize the protein — Sulfur atoms link distant parts of one chain or separate polypeptide chains",
+        "Extreme changes in membrane fluidity are reduced — Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature"
+      ],
+      "answer": 3,
+      "explanation": "Extreme changes in membrane fluidity are reduced. Its rigid structure restrains movement at high temperature and prevents tight packing at low temperature."
+    },
+    {
+      "id": "molecules-protein-primary-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A student models this change: A mutation replaces one amino acid in a polypeptide. What should the model predict first?",
+      "options": [
+        "Protein folding or function may change",
+        "The protein can remain dispersed in an aqueous cytoplasm",
+        "A covalent disulfide bridge can stabilize the protein",
+        "The resulting fibres resist stretching"
+      ],
+      "answer": 0,
+      "explanation": "Protein folding or function may change. Primary sequence determines side-chain interactions that establish higher levels of structure."
+    },
+    {
+      "id": "molecules-protein-primary-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when protein folding or function may change?",
+      "options": [
+        "Two cysteine side chains become oxidized near each other",
+        "A mutation replaces one amino acid in a polypeptide",
+        "Three collagen polypeptides wind into a cross-linked triple helix",
+        "A globular protein folds with hydrophilic groups exposed"
+      ],
+      "answer": 1,
+      "explanation": "Protein folding or function may change. Primary sequence determines side-chain interactions that establish higher levels of structure."
+    },
+    {
+      "id": "molecules-protein-primary-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After a mutation replaces one amino acid in a polypeptide, which explanation best links the change to its outcome?",
+      "options": [
+        "Polar and charged side chains form favourable interactions with surrounding water",
+        "Sulfur atoms link distant parts of one chain or separate polypeptide chains",
+        "Primary sequence determines side-chain interactions that establish higher levels of structure",
+        "The rope-like arrangement and covalent cross-links provide high tensile strength"
+      ],
+      "answer": 2,
+      "explanation": "Protein folding or function may change. Primary sequence determines side-chain interactions that establish higher levels of structure."
+    },
+    {
+      "id": "molecules-protein-primary-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a mutation replaces one amino acid in a polypeptide?",
+      "options": [
+        "A covalent disulfide bridge can stabilize the protein — Sulfur atoms link distant parts of one chain or separate polypeptide chains",
+        "The resulting fibres resist stretching — The rope-like arrangement and covalent cross-links provide high tensile strength",
+        "The protein can remain dispersed in an aqueous cytoplasm — Polar and charged side chains form favourable interactions with surrounding water",
+        "Protein folding or function may change — Primary sequence determines side-chain interactions that establish higher levels of structure"
+      ],
+      "answer": 3,
+      "explanation": "Protein folding or function may change. Primary sequence determines side-chain interactions that establish higher levels of structure."
+    },
+    {
+      "id": "molecules-disulfide-bond-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: Two cysteine side chains become oxidized near each other?",
+      "options": [
+        "A covalent disulfide bridge can stabilize the protein",
+        "The resulting fibres resist stretching",
+        "Each strand can act as a template for a complementary strand",
+        "The protein can remain dispersed in an aqueous cytoplasm"
+      ],
+      "answer": 0,
+      "explanation": "A covalent disulfide bridge can stabilize the protein. Sulfur atoms link distant parts of one chain or separate polypeptide chains."
+    },
+    {
+      "id": "molecules-disulfide-bond-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: a covalent disulfide bridge can stabilize the protein?",
+      "options": [
+        "A globular protein folds with hydrophilic groups exposed",
+        "Two cysteine side chains become oxidized near each other",
+        "Three collagen polypeptides wind into a cross-linked triple helix",
+        "The two DNA strands separate without breaking their phosphodiester backbones"
+      ],
+      "answer": 1,
+      "explanation": "A covalent disulfide bridge can stabilize the protein. Sulfur atoms link distant parts of one chain or separate polypeptide chains."
+    },
+    {
+      "id": "molecules-disulfide-bond-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After two cysteine side chains become oxidized near each other, which explanation best links the change to its outcome?",
+      "options": [
+        "Polar and charged side chains form favourable interactions with surrounding water",
+        "The rope-like arrangement and covalent cross-links provide high tensile strength",
+        "Sulfur atoms link distant parts of one chain or separate polypeptide chains",
+        "Specific adenine-thymine and cytosine-guanine pairing preserves sequence information"
+      ],
+      "answer": 2,
+      "explanation": "A covalent disulfide bridge can stabilize the protein. Sulfur atoms link distant parts of one chain or separate polypeptide chains."
+    },
+    {
+      "id": "molecules-disulfide-bond-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: two cysteine side chains become oxidized near each other?",
+      "options": [
+        "The protein can remain dispersed in an aqueous cytoplasm — Polar and charged side chains form favourable interactions with surrounding water",
+        "The resulting fibres resist stretching — The rope-like arrangement and covalent cross-links provide high tensile strength",
+        "Each strand can act as a template for a complementary strand — Specific adenine-thymine and cytosine-guanine pairing preserves sequence information",
+        "A covalent disulfide bridge can stabilize the protein — Sulfur atoms link distant parts of one chain or separate polypeptide chains"
+      ],
+      "answer": 3,
+      "explanation": "A covalent disulfide bridge can stabilize the protein. Sulfur atoms link distant parts of one chain or separate polypeptide chains."
+    },
+    {
+      "id": "molecules-globular-solubility-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A globular protein folds with hydrophilic groups exposed. Which outcome follows most directly?",
+      "options": [
+        "The protein can remain dispersed in an aqueous cytoplasm",
+        "The resulting fibres resist stretching",
+        "Each strand can act as a template for a complementary strand",
+        "Usable free energy can be coupled to cellular work"
+      ],
+      "answer": 0,
+      "explanation": "The protein can remain dispersed in an aqueous cytoplasm. Polar and charged side chains form favourable interactions with surrounding water."
+    },
+    {
+      "id": "molecules-globular-solubility-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: the protein can remain dispersed in an aqueous cytoplasm?",
+      "options": [
+        "Three collagen polypeptides wind into a cross-linked triple helix",
+        "A globular protein folds with hydrophilic groups exposed",
+        "The two DNA strands separate without breaking their phosphodiester backbones",
+        "ATP is hydrolysed to ADP and inorganic phosphate"
+      ],
+      "answer": 1,
+      "explanation": "The protein can remain dispersed in an aqueous cytoplasm. Polar and charged side chains form favourable interactions with surrounding water."
+    },
+    {
+      "id": "molecules-globular-solubility-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After a globular protein folds with hydrophilic groups exposed, which explanation best links the change to its outcome?",
+      "options": [
+        "The rope-like arrangement and covalent cross-links provide high tensile strength",
+        "Specific adenine-thymine and cytosine-guanine pairing preserves sequence information",
+        "Polar and charged side chains form favourable interactions with surrounding water",
+        "Products are more stable and phosphorylation can alter the reactivity of another molecule"
+      ],
+      "answer": 2,
+      "explanation": "The protein can remain dispersed in an aqueous cytoplasm. Polar and charged side chains form favourable interactions with surrounding water."
+    },
+    {
+      "id": "molecules-globular-solubility-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a globular protein folds with hydrophilic groups exposed?",
+      "options": [
+        "The resulting fibres resist stretching — The rope-like arrangement and covalent cross-links provide high tensile strength",
+        "Each strand can act as a template for a complementary strand — Specific adenine-thymine and cytosine-guanine pairing preserves sequence information",
+        "Usable free energy can be coupled to cellular work — Products are more stable and phosphorylation can alter the reactivity of another molecule",
+        "The protein can remain dispersed in an aqueous cytoplasm — Polar and charged side chains form favourable interactions with surrounding water"
+      ],
+      "answer": 3,
+      "explanation": "The protein can remain dispersed in an aqueous cytoplasm. Polar and charged side chains form favourable interactions with surrounding water."
+    },
+    {
+      "id": "molecules-collagen-structure-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After three collagen polypeptides wind into a cross-linked triple helix, which observation is most likely?",
+      "options": [
+        "The resulting fibres resist stretching",
+        "Each strand can act as a template for a complementary strand",
+        "Usable free energy can be coupled to cellular work",
+        "The blue reagent forms a green-to-brick-red precipitate depending on concentration"
+      ],
+      "answer": 0,
+      "explanation": "The resulting fibres resist stretching. The rope-like arrangement and covalent cross-links provide high tensile strength."
+    },
+    {
+      "id": "molecules-collagen-structure-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A learner records that the resulting fibres resist stretching. Which preceding event best accounts for it?",
+      "options": [
+        "The two DNA strands separate without breaking their phosphodiester backbones",
+        "Three collagen polypeptides wind into a cross-linked triple helix",
+        "ATP is hydrolysed to ADP and inorganic phosphate",
+        "A heated sample containing a reducing sugar is mixed with Benedict's reagent"
+      ],
+      "answer": 1,
+      "explanation": "The resulting fibres resist stretching. The rope-like arrangement and covalent cross-links provide high tensile strength."
+    },
+    {
+      "id": "molecules-collagen-structure-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After three collagen polypeptides wind into a cross-linked triple helix, which explanation best links the change to its outcome?",
+      "options": [
+        "Specific adenine-thymine and cytosine-guanine pairing preserves sequence information",
+        "Products are more stable and phosphorylation can alter the reactivity of another molecule",
+        "The rope-like arrangement and covalent cross-links provide high tensile strength",
+        "The sugar reduces copper(II) ions to insoluble copper(I) oxide"
+      ],
+      "answer": 2,
+      "explanation": "The resulting fibres resist stretching. The rope-like arrangement and covalent cross-links provide high tensile strength."
+    },
+    {
+      "id": "molecules-collagen-structure-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: three collagen polypeptides wind into a cross-linked triple helix?",
+      "options": [
+        "The blue reagent forms a green-to-brick-red precipitate depending on concentration — The sugar reduces copper(II) ions to insoluble copper(I) oxide",
+        "Each strand can act as a template for a complementary strand — Specific adenine-thymine and cytosine-guanine pairing preserves sequence information",
+        "Usable free energy can be coupled to cellular work — Products are more stable and phosphorylation can alter the reactivity of another molecule",
+        "The resulting fibres resist stretching — The rope-like arrangement and covalent cross-links provide high tensile strength"
+      ],
+      "answer": 3,
+      "explanation": "The resulting fibres resist stretching. The rope-like arrangement and covalent cross-links provide high tensile strength."
+    },
+    {
+      "id": "molecules-dna-base-pair-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A student models this change: The two DNA strands separate without breaking their phosphodiester backbones. What should the model predict first?",
+      "options": [
+        "Each strand can act as a template for a complementary strand",
+        "The blue reagent forms a green-to-brick-red precipitate depending on concentration",
+        "Usable free energy can be coupled to cellular work",
+        "A lilac or purple colour develops"
+      ],
+      "answer": 0,
+      "explanation": "Each strand can act as a template for a complementary strand. Specific adenine-thymine and cytosine-guanine pairing preserves sequence information."
+    },
+    {
+      "id": "molecules-dna-base-pair-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "What is the most likely cause when each strand can act as a template for a complementary strand?",
+      "options": [
+        "ATP is hydrolysed to ADP and inorganic phosphate",
+        "The two DNA strands separate without breaking their phosphodiester backbones",
+        "A sample with many peptide bonds is treated with Biuret reagent",
+        "A heated sample containing a reducing sugar is mixed with Benedict's reagent"
+      ],
+      "answer": 1,
+      "explanation": "Each strand can act as a template for a complementary strand. Specific adenine-thymine and cytosine-guanine pairing preserves sequence information."
+    },
+    {
+      "id": "molecules-dna-base-pair-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After the two DNA strands separate without breaking their phosphodiester backbones, which explanation best links the change to its outcome?",
+      "options": [
+        "The sugar reduces copper(II) ions to insoluble copper(I) oxide",
+        "Products are more stable and phosphorylation can alter the reactivity of another molecule",
+        "Specific adenine-thymine and cytosine-guanine pairing preserves sequence information",
+        "Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions"
+      ],
+      "answer": 2,
+      "explanation": "Each strand can act as a template for a complementary strand. Specific adenine-thymine and cytosine-guanine pairing preserves sequence information."
+    },
+    {
+      "id": "molecules-dna-base-pair-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: the two DNA strands separate without breaking their phosphodiester backbones?",
+      "options": [
+        "Usable free energy can be coupled to cellular work — Products are more stable and phosphorylation can alter the reactivity of another molecule",
+        "A lilac or purple colour develops — Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions",
+        "The blue reagent forms a green-to-brick-red precipitate depending on concentration — The sugar reduces copper(II) ions to insoluble copper(I) oxide",
+        "Each strand can act as a template for a complementary strand — Specific adenine-thymine and cytosine-guanine pairing preserves sequence information"
+      ],
+      "answer": 3,
+      "explanation": "Each strand can act as a template for a complementary strand. Specific adenine-thymine and cytosine-guanine pairing preserves sequence information."
+    },
+    {
+      "id": "molecules-atp-hydrolysis-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which immediate result is most consistent with this condition: ATP is hydrolysed to ADP and inorganic phosphate?",
+      "options": [
+        "Usable free energy can be coupled to cellular work",
+        "A lilac or purple colour develops",
+        "They can spontaneously form sealed bilayers or vesicles",
+        "The blue reagent forms a green-to-brick-red precipitate depending on concentration"
+      ],
+      "answer": 0,
+      "explanation": "Usable free energy can be coupled to cellular work. Products are more stable and phosphorylation can alter the reactivity of another molecule."
+    },
+    {
+      "id": "molecules-atp-hydrolysis-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which condition would most specifically produce this result: usable free energy can be coupled to cellular work?",
+      "options": [
+        "A heated sample containing a reducing sugar is mixed with Benedict's reagent",
+        "ATP is hydrolysed to ADP and inorganic phosphate",
+        "A sample with many peptide bonds is treated with Biuret reagent",
+        "Phospholipids are dispersed in water"
+      ],
+      "answer": 1,
+      "explanation": "Usable free energy can be coupled to cellular work. Products are more stable and phosphorylation can alter the reactivity of another molecule."
+    },
+    {
+      "id": "molecules-atp-hydrolysis-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After ATP is hydrolysed to ADP and inorganic phosphate, which explanation best links the change to its outcome?",
+      "options": [
+        "The sugar reduces copper(II) ions to insoluble copper(I) oxide",
+        "Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions",
+        "Products are more stable and phosphorylation can alter the reactivity of another molecule",
+        "Hydrophilic heads face water while hydrophobic tails cluster away from it"
+      ],
+      "answer": 2,
+      "explanation": "Usable free energy can be coupled to cellular work. Products are more stable and phosphorylation can alter the reactivity of another molecule."
+    },
+    {
+      "id": "molecules-atp-hydrolysis-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: ATP is hydrolysed to ADP and inorganic phosphate?",
+      "options": [
+        "The blue reagent forms a green-to-brick-red precipitate depending on concentration — The sugar reduces copper(II) ions to insoluble copper(I) oxide",
+        "A lilac or purple colour develops — Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions",
+        "They can spontaneously form sealed bilayers or vesicles — Hydrophilic heads face water while hydrophobic tails cluster away from it",
+        "Usable free energy can be coupled to cellular work — Products are more stable and phosphorylation can alter the reactivity of another molecule"
+      ],
+      "answer": 3,
+      "explanation": "Usable free energy can be coupled to cellular work. Products are more stable and phosphorylation can alter the reactivity of another molecule."
+    },
+    {
+      "id": "molecules-reducing-sugar-test-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A heated sample containing a reducing sugar is mixed with Benedict's reagent. Which outcome follows most directly?",
+      "options": [
+        "The blue reagent forms a green-to-brick-red precipitate depending on concentration",
+        "A lilac or purple colour develops",
+        "They can spontaneously form sealed bilayers or vesicles",
+        "Catalytic activity declines even if peptide bonds remain intact"
+      ],
+      "answer": 0,
+      "explanation": "The blue reagent forms a green-to-brick-red precipitate depending on concentration. The sugar reduces copper(II) ions to insoluble copper(I) oxide."
+    },
+    {
+      "id": "molecules-reducing-sugar-test-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which change most directly explains this observation: the blue reagent forms a green-to-brick-red precipitate depending on concentration?",
+      "options": [
+        "A sample with many peptide bonds is treated with Biuret reagent",
+        "A heated sample containing a reducing sugar is mixed with Benedict's reagent",
+        "Phospholipids are dispersed in water",
+        "Heat disrupts ionic bonds and hydrogen bonds in an enzyme"
+      ],
+      "answer": 1,
+      "explanation": "The blue reagent forms a green-to-brick-red precipitate depending on concentration. The sugar reduces copper(II) ions to insoluble copper(I) oxide."
+    },
+    {
+      "id": "molecules-reducing-sugar-test-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After a heated sample containing a reducing sugar is mixed with Benedict's reagent, which explanation best links the change to its outcome?",
+      "options": [
+        "Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions",
+        "Hydrophilic heads face water while hydrophobic tails cluster away from it",
+        "The sugar reduces copper(II) ions to insoluble copper(I) oxide",
+        "Loss of tertiary structure changes the geometry and chemistry of the active site"
+      ],
+      "answer": 2,
+      "explanation": "The blue reagent forms a green-to-brick-red precipitate depending on concentration. The sugar reduces copper(II) ions to insoluble copper(I) oxide."
+    },
+    {
+      "id": "molecules-reducing-sugar-test-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a heated sample containing a reducing sugar is mixed with Benedict's reagent?",
+      "options": [
+        "A lilac or purple colour develops — Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions",
+        "They can spontaneously form sealed bilayers or vesicles — Hydrophilic heads face water while hydrophobic tails cluster away from it",
+        "Catalytic activity declines even if peptide bonds remain intact — Loss of tertiary structure changes the geometry and chemistry of the active site",
+        "The blue reagent forms a green-to-brick-red precipitate depending on concentration — The sugar reduces copper(II) ions to insoluble copper(I) oxide"
+      ],
+      "answer": 3,
+      "explanation": "The blue reagent forms a green-to-brick-red precipitate depending on concentration. The sugar reduces copper(II) ions to insoluble copper(I) oxide."
+    },
+    {
+      "id": "molecules-biuret-test-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After a sample with many peptide bonds is treated with Biuret reagent, which observation is most likely?",
+      "options": [
+        "A lilac or purple colour develops",
+        "They can spontaneously form sealed bilayers or vesicles",
+        "Catalytic activity declines even if peptide bonds remain intact",
+        "The pH changes less than it would in pure water"
+      ],
+      "answer": 0,
+      "explanation": "A lilac or purple colour develops. Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions."
+    },
+    {
+      "id": "molecules-biuret-test-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "A learner records that a lilac or purple colour develops. Which preceding event best accounts for it?",
+      "options": [
+        "Phospholipids are dispersed in water",
+        "A sample with many peptide bonds is treated with Biuret reagent",
+        "Heat disrupts ionic bonds and hydrogen bonds in an enzyme",
+        "A small amount of acid is added to a biological buffer"
+      ],
+      "answer": 1,
+      "explanation": "A lilac or purple colour develops. Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions."
+    },
+    {
+      "id": "molecules-biuret-test-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "After a sample with many peptide bonds is treated with Biuret reagent, which explanation best links the change to its outcome?",
+      "options": [
+        "Hydrophilic heads face water while hydrophobic tails cluster away from it",
+        "Loss of tertiary structure changes the geometry and chemistry of the active site",
+        "Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions",
+        "The buffer's conjugate base accepts much of the added hydrogen ions"
+      ],
+      "answer": 2,
+      "explanation": "A lilac or purple colour develops. Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions."
+    },
+    {
+      "id": "molecules-biuret-test-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Standard",
+      "stem": "Which paired outcome and explanation best follows from this condition: a sample with many peptide bonds is treated with Biuret reagent?",
+      "options": [
+        "The pH changes less than it would in pure water — The buffer's conjugate base accepts much of the added hydrogen ions",
+        "They can spontaneously form sealed bilayers or vesicles — Hydrophilic heads face water while hydrophobic tails cluster away from it",
+        "Catalytic activity declines even if peptide bonds remain intact — Loss of tertiary structure changes the geometry and chemistry of the active site",
+        "A lilac or purple colour develops — Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions"
+      ],
+      "answer": 3,
+      "explanation": "A lilac or purple colour develops. Copper ions form coloured complexes with peptide-bond nitrogens in alkaline conditions."
+    },
+    {
+      "id": "molecules-phospholipid-vesicle-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: Phospholipids are dispersed in water. What should the model predict first?",
+      "options": [
+        "They can spontaneously form sealed bilayers or vesicles",
+        "The pH changes less than it would in pure water",
+        "Catalytic activity declines even if peptide bonds remain intact",
+        "The polymer separates into nucleotide components"
+      ],
+      "answer": 0,
+      "explanation": "They can spontaneously form sealed bilayers or vesicles. Hydrophilic heads face water while hydrophobic tails cluster away from it."
+    },
+    {
+      "id": "molecules-phospholipid-vesicle-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when they can spontaneously form sealed bilayers or vesicles?",
+      "options": [
+        "Heat disrupts ionic bonds and hydrogen bonds in an enzyme",
+        "Phospholipids are dispersed in water",
+        "Phosphodiester bonds in DNA are completely hydrolysed",
+        "A small amount of acid is added to a biological buffer"
+      ],
+      "answer": 1,
+      "explanation": "They can spontaneously form sealed bilayers or vesicles. Hydrophilic heads face water while hydrophobic tails cluster away from it."
+    },
+    {
+      "id": "molecules-phospholipid-vesicle-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "After phospholipids are dispersed in water, which explanation best links the change to its outcome?",
+      "options": [
+        "The buffer's conjugate base accepts much of the added hydrogen ions",
+        "Loss of tertiary structure changes the geometry and chemistry of the active site",
+        "Hydrophilic heads face water while hydrophobic tails cluster away from it",
+        "Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides"
+      ],
+      "answer": 2,
+      "explanation": "They can spontaneously form sealed bilayers or vesicles. Hydrophilic heads face water while hydrophobic tails cluster away from it."
+    },
+    {
+      "id": "molecules-phospholipid-vesicle-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: phospholipids are dispersed in water?",
+      "options": [
+        "Catalytic activity declines even if peptide bonds remain intact — Loss of tertiary structure changes the geometry and chemistry of the active site",
+        "The polymer separates into nucleotide components — Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides",
+        "The pH changes less than it would in pure water — The buffer's conjugate base accepts much of the added hydrogen ions",
+        "They can spontaneously form sealed bilayers or vesicles — Hydrophilic heads face water while hydrophobic tails cluster away from it"
+      ],
+      "answer": 3,
+      "explanation": "They can spontaneously form sealed bilayers or vesicles. Hydrophilic heads face water while hydrophobic tails cluster away from it."
+    },
+    {
+      "id": "molecules-enzyme-denaturation-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: Heat disrupts ionic bonds and hydrogen bonds in an enzyme?",
+      "options": [
+        "Catalytic activity declines even if peptide bonds remain intact",
+        "The polymer separates into nucleotide components",
+        "Its complete oxidation generally yields more ATP",
+        "The pH changes less than it would in pure water"
+      ],
+      "answer": 0,
+      "explanation": "Catalytic activity declines even if peptide bonds remain intact. Loss of tertiary structure changes the geometry and chemistry of the active site."
+    },
+    {
+      "id": "molecules-enzyme-denaturation-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: catalytic activity declines even if peptide bonds remain intact?",
+      "options": [
+        "A small amount of acid is added to a biological buffer",
+        "Heat disrupts ionic bonds and hydrogen bonds in an enzyme",
+        "Phosphodiester bonds in DNA are completely hydrolysed",
+        "A triglyceride contains longer and more reduced fatty-acid chains"
+      ],
+      "answer": 1,
+      "explanation": "Catalytic activity declines even if peptide bonds remain intact. Loss of tertiary structure changes the geometry and chemistry of the active site."
+    },
+    {
+      "id": "molecules-enzyme-denaturation-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "After heat disrupts ionic bonds and hydrogen bonds in an enzyme, which explanation best links the change to its outcome?",
+      "options": [
+        "The buffer's conjugate base accepts much of the added hydrogen ions",
+        "Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides",
+        "Loss of tertiary structure changes the geometry and chemistry of the active site",
+        "More carbon-hydrogen bonds supply additional electrons to respiratory carriers"
+      ],
+      "answer": 2,
+      "explanation": "Catalytic activity declines even if peptide bonds remain intact. Loss of tertiary structure changes the geometry and chemistry of the active site."
+    },
+    {
+      "id": "molecules-enzyme-denaturation-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: heat disrupts ionic bonds and hydrogen bonds in an enzyme?",
+      "options": [
+        "The pH changes less than it would in pure water — The buffer's conjugate base accepts much of the added hydrogen ions",
+        "The polymer separates into nucleotide components — Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides",
+        "Its complete oxidation generally yields more ATP — More carbon-hydrogen bonds supply additional electrons to respiratory carriers",
+        "Catalytic activity declines even if peptide bonds remain intact — Loss of tertiary structure changes the geometry and chemistry of the active site"
+      ],
+      "answer": 3,
+      "explanation": "Catalytic activity declines even if peptide bonds remain intact. Loss of tertiary structure changes the geometry and chemistry of the active site."
+    },
+    {
+      "id": "molecules-buffer-action-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "A small amount of acid is added to a biological buffer. Which outcome follows most directly?",
+      "options": [
+        "The pH changes less than it would in pure water",
+        "The polymer separates into nucleotide components",
+        "Its complete oxidation generally yields more ATP",
+        "The protein may precipitate from solution"
+      ],
+      "answer": 0,
+      "explanation": "The pH changes less than it would in pure water. The buffer's conjugate base accepts much of the added hydrogen ions."
+    },
+    {
+      "id": "molecules-buffer-action-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which change most directly explains this observation: the pH changes less than it would in pure water?",
+      "options": [
+        "Phosphodiester bonds in DNA are completely hydrolysed",
+        "A small amount of acid is added to a biological buffer",
+        "A triglyceride contains longer and more reduced fatty-acid chains",
+        "A very high salt concentration surrounds a soluble protein"
+      ],
+      "answer": 1,
+      "explanation": "The pH changes less than it would in pure water. The buffer's conjugate base accepts much of the added hydrogen ions."
+    },
+    {
+      "id": "molecules-buffer-action-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "After a small amount of acid is added to a biological buffer, which explanation best links the change to its outcome?",
+      "options": [
+        "Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides",
+        "More carbon-hydrogen bonds supply additional electrons to respiratory carriers",
+        "The buffer's conjugate base accepts much of the added hydrogen ions",
+        "Ions compete for water and weaken the hydration shell around exposed protein groups"
+      ],
+      "answer": 2,
+      "explanation": "The pH changes less than it would in pure water. The buffer's conjugate base accepts much of the added hydrogen ions."
+    },
+    {
+      "id": "molecules-buffer-action-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a small amount of acid is added to a biological buffer?",
+      "options": [
+        "The polymer separates into nucleotide components — Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides",
+        "Its complete oxidation generally yields more ATP — More carbon-hydrogen bonds supply additional electrons to respiratory carriers",
+        "The protein may precipitate from solution — Ions compete for water and weaken the hydration shell around exposed protein groups",
+        "The pH changes less than it would in pure water — The buffer's conjugate base accepts much of the added hydrogen ions"
+      ],
+      "answer": 3,
+      "explanation": "The pH changes less than it would in pure water. The buffer's conjugate base accepts much of the added hydrogen ions."
+    },
+    {
+      "id": "molecules-dna-hydrolysis-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "After phosphodiester bonds in DNA are completely hydrolysed, which observation is most likely?",
+      "options": [
+        "The polymer separates into nucleotide components",
+        "Its complete oxidation generally yields more ATP",
+        "The protein may precipitate from solution",
+        "Water shows strong cohesion and a relatively high surface tension"
+      ],
+      "answer": 0,
+      "explanation": "The polymer separates into nucleotide components. Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides."
+    },
+    {
+      "id": "molecules-dna-hydrolysis-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "A learner records that the polymer separates into nucleotide components. Which preceding event best accounts for it?",
+      "options": [
+        "A triglyceride contains longer and more reduced fatty-acid chains",
+        "Phosphodiester bonds in DNA are completely hydrolysed",
+        "A very high salt concentration surrounds a soluble protein",
+        "Many hydrogen bonds form between neighbouring water molecules"
+      ],
+      "answer": 1,
+      "explanation": "The polymer separates into nucleotide components. Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides."
+    },
+    {
+      "id": "molecules-dna-hydrolysis-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "After phosphodiester bonds in DNA are completely hydrolysed, which explanation best links the change to its outcome?",
+      "options": [
+        "More carbon-hydrogen bonds supply additional electrons to respiratory carriers",
+        "Ions compete for water and weaken the hydration shell around exposed protein groups",
+        "Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides",
+        "Each weak hydrogen bond contributes to a large cooperative attraction in bulk water"
+      ],
+      "answer": 2,
+      "explanation": "The polymer separates into nucleotide components. Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides."
+    },
+    {
+      "id": "molecules-dna-hydrolysis-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: phosphodiester bonds in DNA are completely hydrolysed?",
+      "options": [
+        "Water shows strong cohesion and a relatively high surface tension — Each weak hydrogen bond contributes to a large cooperative attraction in bulk water",
+        "Its complete oxidation generally yields more ATP — More carbon-hydrogen bonds supply additional electrons to respiratory carriers",
+        "The protein may precipitate from solution — Ions compete for water and weaken the hydration shell around exposed protein groups",
+        "The polymer separates into nucleotide components — Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides"
+      ],
+      "answer": 3,
+      "explanation": "The polymer separates into nucleotide components. Cleavage breaks the covalent sugar-phosphate links between adjacent nucleotides."
+    },
+    {
+      "id": "molecules-omega-oxidation-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "A student models this change: A triglyceride contains longer and more reduced fatty-acid chains. What should the model predict first?",
+      "options": [
+        "Its complete oxidation generally yields more ATP",
+        "Water shows strong cohesion and a relatively high surface tension",
+        "The protein may precipitate from solution",
+        "Its temperature rises more slowly than that of many other small molecules"
+      ],
+      "answer": 0,
+      "explanation": "Its complete oxidation generally yields more ATP. More carbon-hydrogen bonds supply additional electrons to respiratory carriers."
+    },
+    {
+      "id": "molecules-omega-oxidation-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "What is the most likely cause when its complete oxidation generally yields more ATP?",
+      "options": [
+        "A very high salt concentration surrounds a soluble protein",
+        "A triglyceride contains longer and more reduced fatty-acid chains",
+        "Heat energy is added to liquid water",
+        "Many hydrogen bonds form between neighbouring water molecules"
+      ],
+      "answer": 1,
+      "explanation": "Its complete oxidation generally yields more ATP. More carbon-hydrogen bonds supply additional electrons to respiratory carriers."
+    },
+    {
+      "id": "molecules-omega-oxidation-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "After a triglyceride contains longer and more reduced fatty-acid chains, which explanation best links the change to its outcome?",
+      "options": [
+        "Each weak hydrogen bond contributes to a large cooperative attraction in bulk water",
+        "Ions compete for water and weaken the hydration shell around exposed protein groups",
+        "More carbon-hydrogen bonds supply additional electrons to respiratory carriers",
+        "Much of the input energy first disrupts hydrogen-bond interactions"
+      ],
+      "answer": 2,
+      "explanation": "Its complete oxidation generally yields more ATP. More carbon-hydrogen bonds supply additional electrons to respiratory carriers."
+    },
+    {
+      "id": "molecules-omega-oxidation-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a triglyceride contains longer and more reduced fatty-acid chains?",
+      "options": [
+        "The protein may precipitate from solution — Ions compete for water and weaken the hydration shell around exposed protein groups",
+        "Its temperature rises more slowly than that of many other small molecules — Much of the input energy first disrupts hydrogen-bond interactions",
+        "Water shows strong cohesion and a relatively high surface tension — Each weak hydrogen bond contributes to a large cooperative attraction in bulk water",
+        "Its complete oxidation generally yields more ATP — More carbon-hydrogen bonds supply additional electrons to respiratory carriers"
+      ],
+      "answer": 3,
+      "explanation": "Its complete oxidation generally yields more ATP. More carbon-hydrogen bonds supply additional electrons to respiratory carriers."
+    },
+    {
+      "id": "molecules-protein-salting-outcome",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which immediate result is most consistent with this condition: A very high salt concentration surrounds a soluble protein?",
+      "options": [
+        "The protein may precipitate from solution",
+        "Its temperature rises more slowly than that of many other small molecules",
+        "A disaccharide and one molecule of water are formed",
+        "Water shows strong cohesion and a relatively high surface tension"
+      ],
+      "answer": 0,
+      "explanation": "The protein may precipitate from solution. Ions compete for water and weaken the hydration shell around exposed protein groups."
+    },
+    {
+      "id": "molecules-protein-salting-cause",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which condition would most specifically produce this result: the protein may precipitate from solution?",
+      "options": [
+        "Many hydrogen bonds form between neighbouring water molecules",
+        "A very high salt concentration surrounds a soluble protein",
+        "Heat energy is added to liquid water",
+        "Two monosaccharides join by a condensation reaction"
+      ],
+      "answer": 1,
+      "explanation": "The protein may precipitate from solution. Ions compete for water and weaken the hydration shell around exposed protein groups."
+    },
+    {
+      "id": "molecules-protein-salting-mechanism",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "After a very high salt concentration surrounds a soluble protein, which explanation best links the change to its outcome?",
+      "options": [
+        "Each weak hydrogen bond contributes to a large cooperative attraction in bulk water",
+        "Much of the input energy first disrupts hydrogen-bond interactions",
+        "Ions compete for water and weaken the hydration shell around exposed protein groups",
+        "A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl"
+      ],
+      "answer": 2,
+      "explanation": "The protein may precipitate from solution. Ions compete for water and weaken the hydration shell around exposed protein groups."
+    },
+    {
+      "id": "molecules-protein-salting-integrated",
+      "chapter": "Biological Molecules",
+      "difficulty": "Challenge",
+      "stem": "Which paired outcome and explanation best follows from this condition: a very high salt concentration surrounds a soluble protein?",
+      "options": [
+        "Water shows strong cohesion and a relatively high surface tension — Each weak hydrogen bond contributes to a large cooperative attraction in bulk water",
+        "Its temperature rises more slowly than that of many other small molecules — Much of the input energy first disrupts hydrogen-bond interactions",
+        "A disaccharide and one molecule of water are formed — A glycosidic bond forms as hydroxyl groups contribute hydrogen and hydroxyl",
+        "The protein may precipitate from solution — Ions compete for water and weaken the hydration shell around exposed protein groups"
+      ],
+      "answer": 3,
+      "explanation": "The protein may precipitate from solution. Ions compete for water and weaken the hydration shell around exposed protein groups."
+    }
+  ]
+}

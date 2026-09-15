@@ -1,3 +1,4 @@
+import {StudyControls} from "../../study-controls";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -71,7 +72,7 @@ export default async function CambridgeTopicPage({ params }: TopicPageProps) {
           <div><span>5090 syllabus route</span><span>Concept · skill · exam language</span></div>
         </header>
 
-        <div className="cambridge-topic-content">
+        <div className="cambridge-topic-content"><StudyControls id={"/cambridge-o-level/"+topic.slug} title={topic.title} notes/>
           <section className="cambridge-topic-section cambridge-topic-focus">
             <div><p className="eyebrow">What to know</p><h2>Build the topic around four anchors.</h2></div>
             <ol>{topic.focus.map((item, index) => <li key={item}><span>{String(index + 1).padStart(2, "0")}</span><strong>{item}</strong></li>)}</ol>

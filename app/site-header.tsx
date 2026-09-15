@@ -9,7 +9,7 @@ import { links } from "./content";
 
 export type SearchEntry = { title: string; href: string; type: string; keywords: string };
 const navigation = [
-  ["/articles", "Learn"], ["/practice", "Practice"], ["/lab", "Lab"], ["/atlas", "Human Atlas"],
+  ["/learn", "Learn"], ["/practice", "Practice"], ["/lab", "Lab"], ["/atlas", "Human Atlas"],
   ["/cambridge-o-level", "O Level"], ["/resources", "Resources"], ["/about", "About"],
 ];
 

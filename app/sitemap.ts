@@ -1,3 +1,5 @@
+import {learningChapters} from "./learn/catalogue";
+import {getArticleUpdatedISO} from "./article-data";
 import type { MetadataRoute } from "next";
 import { cambridgeTopics } from "./cambridge-o-level/topics";
 import { articles } from "./content";
@@ -9,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const origin = "https://hamzaramzan.online";
   const now = new Date("2026-09-07");
   return [
+    {url:origin+"/learn",priority:0.9},
+    ...learningChapters.map(c=>({url:origin+"/learn/"+c.slug,priority:0.8})),
     { url: origin, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${origin}/articles`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${origin}/videos`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
@@ -27,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...activities.map(a=>({url:origin+"/lab/"+a.slug,lastModified:new Date("2026-09-08"),changeFrequency:"monthly" as const,priority:0.8})),
     ...articles.map((article) => ({
       url: `${origin}/articles/${article.slug}`,
-      lastModified: new Date(article.dateISO),
+      lastModified: new Date(getArticleUpdatedISO(article)),
       changeFrequency: "monthly" as const,
       priority: 0.75,
     })),

@@ -1,3 +1,4 @@
+import {learningChapters} from "./learn/catalogue";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { articles, links } from "./content";
@@ -28,6 +29,8 @@ export function PlayIcon() {
 
 export function Header() {
   const entries = [
+    {title:"Learning workspace",href:"/learn",type:"Learn",keywords:"saved progress notes planner"},
+    ...learningChapters.map(c=>({title:c.title+" learning route",href:"/learn/"+c.slug,type:"Chapter",keywords:c.title})),
     { title: "3D Human Atlas", href: "/atlas", type: "Explore", keywords: "human anatomy organs systems layers skeleton muscles heart brain" },
     { title: "MDCAT Practice Centre", href: "/practice", type: "Practice", keywords: "MCQs quiz test chapters" },
     { title: "Interactive Biology Lab", href: "/lab", type: "Explore", keywords: "osmosis enzymes genetics simulation" },
@@ -53,7 +56,7 @@ export function Footer() {
         </div>
         <div className="footer-links">
           <div>
-            <p>Explore</p>
+            <p>Explore</p><Link href="/learn">Learning workspace</Link>
             <Link href="/atlas">3D Human Atlas</Link>
             <Link href="/lab">Interactive Biology Lab</Link>
             <Link href="/practice">MDCAT practice centre</Link>

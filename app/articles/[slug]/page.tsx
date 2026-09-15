@@ -1,3 +1,4 @@
+import {StudyControls} from "../../study-controls";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,8 +7,7 @@ import { ArticleActions, ReadingProgress } from "../../article-actions";
 import { Arrow, ArticleCard, ConceptDiagram, Footer, Header } from "../../components";
 import { articles, links } from "../../content";
 import {
-  ARTICLE_REVIEW_DATE,
-  ARTICLE_REVIEW_DATE_ISO,
+  getArticleUpdatedISO,
   getArticleReadTime,
   getArticleReferences,
   getArticleSyllabusAlignment,
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
       description: article.description,
       type: "article",
       publishedTime: article.dateISO,
-      modifiedTime: ARTICLE_REVIEW_DATE_ISO,
+      modifiedTime: getArticleUpdatedISO(article),
       authors: ["Hamza Ramzan"],
       images: [],
     },
@@ -69,7 +69,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
     headline: article.title,
     description: article.description,
     datePublished: article.dateISO,
-    dateModified: ARTICLE_REVIEW_DATE_ISO,
+    dateModified: getArticleUpdatedISO(article),
     mainEntityOfPage: `https://hamzaramzan.online/articles/${article.slug}`,
     author: { "@type": "Person", name: "Hamza Ramzan", url: "https://hamzaramzan.online/about" },
     publisher: { "@type": "Person", name: "Hamza Ramzan", url: "https://hamzaramzan.online" },
@@ -98,7 +98,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
               <span>Senior Biology lecturer · Academic Lead</span>
             </div>
           </div>
-          <ArticleActions />
+          <ArticleActions/><StudyControls id={"/articles/"+article.slug} title={article.title} notes/>
         </header>
 
         <section className="article-objectives" aria-labelledby="objectives-title">
@@ -111,8 +111,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
 
         <section className="article-evidence" aria-label="Article review and syllabus information">
           <div>
-            <span>Last reviewed</span>
-            <strong>{ARTICLE_REVIEW_DATE}</strong>
+            <span>Content updated</span><strong>{getArticleUpdatedISO(article)}</strong>
           </div>
           <div>
             <span>Syllabus alignment</span>
