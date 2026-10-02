@@ -1,5 +1,6 @@
 "use client";
 
+import { ThemeSwitch } from "./appearance";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -40,9 +41,9 @@ export function SiteHeader({ entries }: { entries: SearchEntry[] }) {
       <div className="header-inner">
         <Link className="brand" href="/" aria-label="Biology with Hamza home"><BiologyMark /><span className="brand-copy"><strong>Biology<span> with Hamza</span></strong><small>UNDERSTAND. CONNECT. EXCEL.</small></span></Link>
         <nav className="desktop-nav" aria-label="Primary navigation">{navigation.map(([href,label]) => <Link href={href} key={href} aria-current={path === href || path.startsWith(`${href}/`) ? "page" : undefined}>{label}{href === "/atlas" && <span className="new-tag">NEW</span>}</Link>)}</nav>
-        <div className="header-tools"><button ref={opener} className="search-trigger" type="button" onClick={openSearch} aria-label="Search the website"><Icon name="search" /><kbd>⌘ K</kbd></button><Link className="header-practice" href="/practice">Let’s practice <Icon name="arrow" /></Link><button type="button" className="menu-toggle" aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} aria-controls="mobile-navigation" onClick={() => setMenuOpen(!menuOpen)}><Icon name={menuOpen ? "close" : "menu"} /></button></div>
+        <div className="header-tools"><ThemeSwitch /><button ref={opener} className="search-trigger" type="button" onClick={openSearch} aria-label="Search the website"><Icon name="search" /><kbd>⌘ K</kbd></button><Link className="header-practice" href="/practice">Let’s practice <Icon name="arrow" /></Link><button type="button" className="menu-toggle" aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} aria-controls="mobile-navigation" onClick={() => setMenuOpen(!menuOpen)}><Icon name={menuOpen ? "close" : "menu"} /></button></div>
       </div>
-      {menuOpen && <nav id="mobile-navigation" className="mobile-navigation" aria-label="Mobile navigation">{navigation.map(([href,label]) => <Link href={href} key={href} onClick={() => setMenuOpen(false)}>{label}<Icon name="arrow" /></Link>)}<Link href="/videos" onClick={() => setMenuOpen(false)}>Video lessons<Icon name="play" /></Link></nav>}
+      {menuOpen && <nav onKeyDown={e => { if(e.key === "Escape") { setMenuOpen(false); document.querySelector<HTMLButtonElement>(".menu-toggle")?.focus(); } }} id="mobile-navigation" className="mobile-navigation" aria-label="Mobile navigation">{navigation.map(([href,label]) => <Link href={href} key={href} onClick={() => setMenuOpen(false)} aria-current={path === href || path.startsWith(`${href}/`) ? "page" : undefined}>{label}<Icon name="arrow" /></Link>)}<Link href="/videos" onClick={() => setMenuOpen(false)}>Video lessons<Icon name="play" /></Link></nav>}
     </header>
     <dialog className="search-dialog" ref={dialog} aria-labelledby="search-dialog-title" onClick={e => { if(e.target === e.currentTarget) closeSearch(); }}>
       <div className="search-dialog-inner"><div className="search-dialog-head"><p id="search-dialog-title">What would you like to understand?</p><button type="button" onClick={closeSearch} aria-label="Close search"><Icon name="close" /></button></div>
