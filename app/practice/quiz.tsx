@@ -1,6 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { QuestionVisual, QuestionReport } from "./question-tools";
+import { makeAttempt, reviewPool, type PracticeMode } from "../revision/model";
+import { useRevision, saveAttempt, notifyRevision, validProfile } from "../revision/store";
 import {learningChapters} from "../learn/catalogue";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type FormEvent } from "react";
 import { quizChapters, quizQuestions, type QuestionDifficulty, type QuizQuestion } from "./questions";
@@ -59,6 +62,10 @@ function formatTime(seconds: number) {
 
 export function QuizExperience() {
   const [wrongOnly,setWrongOnly]=useState(false);
+  const [mode,setMode]=useState<"fresh"|"mistakes"|"due">("fresh");
+  const [attemptMode,setAttemptMode]=useState<PracticeMode>("fresh");
+  const [saveError,setSaveError]=useState("");
+  const [saving,setSaving]=useState(false);
   const [screen, setScreen] = useState<Screen>("setup");
   const [chapter, setChapter] = useState("All chapters");
   const [difficulty, setDifficulty] = useState<"All levels" | QuestionDifficulty>("All levels");
@@ -80,11 +87,12 @@ export function QuizExperience() {
   const attemptDeadline = useRef(0);
   const questionHeading = useRef<HTMLHeadingElement>(null);
 
+  const revision = useRevision(profile?.id ?? null);
   const available = useMemo(
-    () => quizQuestions.filter((question) =>
+    () => (mode === "fresh" ? quizQuestions : reviewPool(revision,quizQuestions,mode)).filter((question) =>
       (chapter === "All chapters" || question.chapter === chapter) &&
       (difficulty === "All levels" || question.difficulty === difficulty)),
-    [chapter, difficulty],
+    [chapter, difficulty, mode, revision],
   );
 
   useEffect(() => {
@@ -108,11 +116,13 @@ export function QuizExperience() {
     const timer = window.setTimeout(() => {
       const requestedChapter = new URLSearchParams(window.location.search).get("chapter");
       if (requestedChapter && quizChapters.includes(requestedChapter)) setChapter(requestedChapter);
+      const requestedMode = new URLSearchParams(window.location.search).get("mode");
+      if (requestedMode === "mistakes" || requestedMode === "due") setMode(requestedMode);
       try {
         const stored = window.localStorage.getItem(profileKey);
         if (stored) {
           const value = JSON.parse(stored) as StudentProfile;
-          if (typeof value.id === "string" && typeof value.name === "string") setProfile(value);
+          if (validProfile(value)) setProfile(value);
         }
       } catch { /* Storage may be unavailable; a profile can still be used for this visit. */ }
       setProfileLoaded(true);
@@ -150,6 +160,8 @@ export function QuizExperience() {
   useEffect(() => {
     if (screen !== "results" || !attemptId || !profile || savedAttempts.current.has(attemptId)) return;
     savedAttempts.current.add(attemptId);
+    const problem = saveAttempt(profile.id, makeAttempt(attemptId,attemptMode,attempt,answers));
+    queueMicrotask(() => { setSaveError(problem); setSaving(false); });
     const entry: AttemptHistory = {
       id: attemptId,
       completedAt: new Date().toISOString(),
@@ -163,7 +175,7 @@ export function QuizExperience() {
       saveLocal(profileHistoryKey(profile.id), JSON.stringify(next));
       return next;
     });
-  }, [attempt.length, attemptId, chapter, difficulty, profile, score, screen]);
+  }, [attempt, answers, attemptMode, attemptId, chapter, difficulty, profile, score, screen]);
 
   function createProfile(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -180,11 +192,13 @@ export function QuizExperience() {
     };
     saveLocal(profileKey, JSON.stringify(nextProfile));
     setProfile(nextProfile);
+    notifyRevision();
     setProfileError("");
   }
 
   function useDifferentProfile() {
     removeLocal(profileKey);
+    notifyRevision();
     setProfile(null);
     setStudentName("");
     setStudentTrack("MDCAT");
@@ -192,7 +206,10 @@ export function QuizExperience() {
   }
 
   function beginAttempt() {
-    if (!profile) return;
+    if (!profile || !available.length) return;
+    setAttemptMode(mode);
+    setSaveError("");
+    setSaving(true);
     const selectionKey = `${profile.id}::${chapter}::${difficulty}`;
     let recentSets: Record<string, string[]> = {};
     try {
@@ -216,11 +233,11 @@ export function QuizExperience() {
     setCurrentIndex(0);
     attemptDeadline.current = Date.now() + selected.length * 60_000;
     setTimeLeft(selected.length * 60);
-    setAttemptId(`${Date.now()}-${selected.map((question) => question.id).join("-")}`);
+    setAttemptId(crypto.randomUUID());
     setScreen("active");
   }
 
-function retryMistakes(){const wrong=attempt.filter(q=>answers[q.id]!==q.answer);if(!wrong.length)return;const selected=createRandomizedAttempt(wrong,wrong.length,[]);setAttempt(selected);setAnswers({});setDraftAnswer(null);setCurrentIndex(0);setWrongOnly(false);answerLockInProgress.current=false;attemptDeadline.current=Date.now()+selected.length*60_000;setTimeLeft(selected.length*60);setAttemptId(crypto.randomUUID());setScreen("active");}
+function retryMistakes(){setAttemptMode("retry");setSaveError("");setSaving(true);const wrong=attempt.filter(q=>answers[q.id]!==q.answer);if(!wrong.length)return;const selected=createRandomizedAttempt(wrong,wrong.length,[]);setAttempt(selected);setAnswers({});setDraftAnswer(null);setCurrentIndex(0);setWrongOnly(false);answerLockInProgress.current=false;attemptDeadline.current=Date.now()+selected.length*60_000;setTimeLeft(selected.length*60);setAttemptId(crypto.randomUUID());setScreen("active");}
   function resetAttempt() {
     setAttempt([]);
     setAnswers({});
@@ -319,6 +336,9 @@ function retryMistakes(){const wrong=attempt.filter(q=>answers[q.id]!==q.answer)
               <button type="button" onClick={useDifferentProfile}>Use a different ID</button>
             </div>
           )}
+          <Link className="revision-entry" href="/revision">Open your revision dashboard & mistake notebook ↗</Link>
+          <label><span>Practice mode</span><select value={mode} onChange={e=>setMode(e.target.value as typeof mode)}><option value="fresh">Fresh practice</option><option value="mistakes">Mistakes to revisit</option><option value="due">Scheduled review due now</option></select></label>
+          {mode !== "fresh" && <p className="quiz-mode-note">{mode === "due" ? "Questions you previously missed and are scheduled to revisit. A correct response when due advances the review interval." : "Previously missed questions with fewer than two successful spaced reviews. Immediate retries do not advance the review interval."}</p>}
           <label>
             <span>Chapter</span>
             <select value={chapter} onChange={(event) => setChapter(event.target.value)}>
@@ -358,6 +378,7 @@ function retryMistakes(){const wrong=attempt.filter(q=>answers[q.id]!==q.answer)
               <li>Locked answers cannot be changed and there is no backtracking.</li>
             </ul>
           </div>
+          {!available.length && <p role="status">{mode === "fresh" ? "No questions match these filters." : "No review questions match these filters yet. Try a fresh attempt, or check your next review date in Revision."}</p>}
           <button className="quiz-primary" type="button" onClick={beginAttempt} disabled={available.length === 0}>Start timed attempt</button>
           {history.length > 0 && (
             <div className="quiz-history">
@@ -383,7 +404,10 @@ function retryMistakes(){const wrong=attempt.filter(q=>answers[q.id]!==q.answer)
     return (
       <section className="quiz-results" aria-labelledby="quiz-results-title">
         <div className="quiz-score-card">
-          <p className="eyebrow">Attempt complete</p>
+          <p className="eyebrow">Attempt complete · {attemptMode === 'fresh' ? 'Fresh practice' : 'Revision'}</p>
+          <p role="status">{saving ? "Saving your revision record…" : saveError ? "This attempt could not be saved: "+saveError : "Attempt recorded. Missed questions are in your notebook."}</p>
+          {saveError && <button type="button" className="quiz-retry" onClick={()=>{if(profile)setSaveError(saveAttempt(profile.id,makeAttempt(attemptId,attemptMode,attempt,answers)));}}>Retry saving</button>}
+          <Link className="revision-entry" href="/revision">View revision dashboard ↗</Link>
           <strong>{percentage}%</strong>
           <h2 id="quiz-results-title">{score} of {attempt.length} correct</h2>
           {profile && <p className="quiz-result-student">{profile.name} · {profile.id}</p>}
@@ -404,9 +428,11 @@ function retryMistakes(){const wrong=attempt.filter(q=>answers[q.id]!==q.answer)
               <article className={isCorrect ? "is-correct" : "is-incorrect"} key={question.id}>
                 <div className="quiz-review-label"><span>{String(index + 1).padStart(2, "0")}</span><strong>{isCorrect ? "Correct" : selected === undefined ? "Unanswered" : "Needs review"}</strong></div>
                 <h3>{question.stem}</h3>
+                <QuestionVisual question={question}/>
                 <p><b>Correct answer:</b> {question.options[question.answer]}</p>
                 {!isCorrect && selected !== undefined && <p><b>Your answer:</b> {question.options[selected]}</p>}
-                <div>{question.explanation}</div>
+                <div className="quiz-explanation">{question.explanation}</div>
+                <QuestionReport question={question}/>
               </article>
             );
           })}
@@ -429,6 +455,7 @@ function retryMistakes(){const wrong=attempt.filter(q=>answers[q.id]!==q.answer)
       <article className="quiz-question">
         <div className="quiz-question-meta"><span>{question.chapter}</span><span>{question.difficulty}</span></div>
         <h2 id="active-question-title" tabIndex={-1} ref={questionHeading}>{question.stem}</h2>
+        <QuestionVisual question={question}/>
         <fieldset>
           <legend className="sr-only">Choose one answer</legend>
           {question.options.map((option, index) => (
@@ -480,6 +507,7 @@ function DailyQuestionCard({ index }: { index: number }) {
       </div>
       <div className="daily-question-card">
         <h3>{question.stem}</h3>
+        <QuestionVisual question={question}/>
         <div className="daily-question-options" role="group" aria-label="Choose one answer">
           {question.options.map((option, index) => {
             const optionState = revealed
@@ -512,6 +540,7 @@ function DailyQuestionCard({ index }: { index: number }) {
           <div className={`daily-question-explanation ${isCorrect ? "is-correct" : "is-incorrect"}`} aria-live="polite">
             <strong>{isCorrect ? "Correct." : `Correct answer: ${String.fromCharCode(65 + question.answer)}.`}</strong>
             <p>{question.explanation}</p>
+            <QuestionReport question={question}/>
           </div>
         )}
       </div>

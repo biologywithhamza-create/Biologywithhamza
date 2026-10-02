@@ -103,31 +103,17 @@
       "explanation": "Corrective responses oppose the original disturbance. Negative feedback reduces the error detected by receptors and control centres."
     },
     {
-      "id": "homeostasis-negative-feedback-integrated",
-      "chapter": "Homeostasis",
-      "difficulty": "Foundation",
-      "stem": "Which paired outcome and explanation best follows from this condition: a regulated variable moves away from its normal range?",
-      "options": [
-        "Sweat production increases and the skin cools — Evaporation requires latent heat that is drawn from the body surface",
-        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection",
-        "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface",
-        "Corrective responses oppose the original disturbance — Negative feedback reduces the error detected by receptors and control centres"
-      ],
-      "answer": 3,
-      "explanation": "Corrective responses oppose the original disturbance. Negative feedback reduces the error detected by receptors and control centres."
-    },
-    {
       "id": "homeostasis-sweating-outcome",
       "chapter": "Homeostasis",
       "difficulty": "Foundation",
       "stem": "After core body temperature rises above its set range, which observation is most likely?",
       "options": [
-        "Sweat production increases and the skin cools",
         "Heat loss from the body surface increases",
+        "Pancreatic beta cells release more insulin",
         "Heat transfer from core blood to the environment decreases",
-        "Pancreatic beta cells release more insulin"
+        "Sweat production increases and the skin cools"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Sweat production increases and the skin cools. Evaporation requires latent heat that is drawn from the body surface."
     },
     {
@@ -136,12 +122,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that sweat production increases and the skin cools. Which preceding event best accounts for it?",
       "options": [
-        "Skin arterioles dilate in a hot environment",
         "Core body temperature rises above its set range",
         "Skin arterioles constrict in a cold environment",
+        "Skin arterioles dilate in a hot environment",
         "Blood glucose rises after a carbohydrate-rich meal"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Sweat production increases and the skin cools. Evaporation requires latent heat that is drawn from the body surface."
     },
     {
@@ -151,11 +137,11 @@
       "stem": "After core body temperature rises above its set range, which explanation best links the change to its outcome?",
       "options": [
         "More warm blood flows through superficial capillaries, enhancing radiation and convection",
-        "Less blood reaches superficial capillary beds near the cool surface",
         "Evaporation requires latent heat that is drawn from the body surface",
-        "Insulin promotes glucose uptake and storage, lowering the original increase"
+        "Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Less blood reaches superficial capillary beds near the cool surface"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Sweat production increases and the skin cools. Evaporation requires latent heat that is drawn from the body surface."
     },
     {
@@ -164,12 +150,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: core body temperature rises above its set range?",
       "options": [
-        "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase",
-        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection",
         "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface",
-        "Sweat production increases and the skin cools — Evaporation requires latent heat that is drawn from the body surface"
+        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Sweat production increases and the skin cools — Evaporation requires latent heat that is drawn from the body surface",
+        "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Sweat production increases and the skin cools. Evaporation requires latent heat that is drawn from the body surface."
     },
     {
@@ -178,12 +164,12 @@
       "difficulty": "Foundation",
       "stem": "A student models this change: Skin arterioles dilate in a hot environment. What should the model predict first?",
       "options": [
-        "Heat loss from the body surface increases",
-        "Pancreatic beta cells release more insulin",
         "Heat transfer from core blood to the environment decreases",
-        "Pancreatic alpha cells increase glucagon secretion"
+        "Pancreatic beta cells release more insulin",
+        "Pancreatic alpha cells increase glucagon secretion",
+        "Heat loss from the body surface increases"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Heat loss from the body surface increases. More warm blood flows through superficial capillaries, enhancing radiation and convection."
     },
     {
@@ -192,12 +178,12 @@
       "difficulty": "Foundation",
       "stem": "What is the most likely cause when heat loss from the body surface increases?",
       "options": [
-        "Skin arterioles constrict in a cold environment",
         "Skin arterioles dilate in a hot environment",
+        "Blood glucose rises after a carbohydrate-rich meal",
         "Blood glucose falls between meals",
-        "Blood glucose rises after a carbohydrate-rich meal"
+        "Skin arterioles constrict in a cold environment"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Heat loss from the body surface increases. More warm blood flows through superficial capillaries, enhancing radiation and convection."
     },
     {
@@ -206,12 +192,12 @@
       "difficulty": "Foundation",
       "stem": "After skin arterioles dilate in a hot environment, which explanation best links the change to its outcome?",
       "options": [
-        "Insulin promotes glucose uptake and storage, lowering the original increase",
         "Less blood reaches superficial capillary beds near the cool surface",
         "More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Insulin promotes glucose uptake and storage, lowering the original increase",
         "Glucagon stimulates hepatic glycogen breakdown and glucose release"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Heat loss from the body surface increases. More warm blood flows through superficial capillaries, enhancing radiation and convection."
     },
     {
@@ -221,11 +207,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: skin arterioles dilate in a hot environment?",
       "options": [
         "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface",
-        "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release",
         "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase",
-        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection"
+        "Heat loss from the body surface increases — More warm blood flows through superficial capillaries, enhancing radiation and convection",
+        "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Heat loss from the body surface increases. More warm blood flows through superficial capillaries, enhancing radiation and convection."
     },
     {
@@ -234,12 +220,12 @@
       "difficulty": "Foundation",
       "stem": "Which immediate result is most consistent with this condition: Skin arterioles constrict in a cold environment?",
       "options": [
-        "Heat transfer from core blood to the environment decreases",
+        "Pancreatic beta cells release more insulin",
         "Pancreatic alpha cells increase glucagon secretion",
         "Water and small solutes enter Bowman's capsule",
-        "Pancreatic beta cells release more insulin"
+        "Heat transfer from core blood to the environment decreases"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Heat transfer from core blood to the environment decreases. Less blood reaches superficial capillary beds near the cool surface."
     },
     {
@@ -248,12 +234,12 @@
       "difficulty": "Foundation",
       "stem": "Which condition would most specifically produce this result: heat transfer from core blood to the environment decreases?",
       "options": [
-        "Blood glucose rises after a carbohydrate-rich meal",
         "Skin arterioles constrict in a cold environment",
+        "Blood glucose rises after a carbohydrate-rich meal",
         "Blood glucose falls between meals",
         "High hydrostatic pressure develops in a glomerulus"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Heat transfer from core blood to the environment decreases. Less blood reaches superficial capillary beds near the cool surface."
     },
     {
@@ -263,11 +249,11 @@
       "stem": "After skin arterioles constrict in a cold environment, which explanation best links the change to its outcome?",
       "options": [
         "Insulin promotes glucose uptake and storage, lowering the original increase",
-        "Glucagon stimulates hepatic glycogen breakdown and glucose release",
         "Less blood reaches superficial capillary beds near the cool surface",
+        "Glucagon stimulates hepatic glycogen breakdown and glucose release",
         "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Heat transfer from core blood to the environment decreases. Less blood reaches superficial capillary beds near the cool surface."
     },
     {
@@ -278,10 +264,10 @@
       "options": [
         "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase",
         "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release",
-        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
-        "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface"
+        "Heat transfer from core blood to the environment decreases — Less blood reaches superficial capillary beds near the cool surface",
+        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Heat transfer from core blood to the environment decreases. Less blood reaches superficial capillary beds near the cool surface."
     },
     {
@@ -290,12 +276,12 @@
       "difficulty": "Foundation",
       "stem": "Blood glucose rises after a carbohydrate-rich meal. Which outcome follows most directly?",
       "options": [
-        "Pancreatic beta cells release more insulin",
+        "Nearly all of it returns to the blood in the proximal tubule",
         "Pancreatic alpha cells increase glucagon secretion",
         "Water and small solutes enter Bowman's capsule",
-        "Nearly all of it returns to the blood in the proximal tubule"
+        "Pancreatic beta cells release more insulin"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Pancreatic beta cells release more insulin. Insulin promotes glucose uptake and storage, lowering the original increase."
     },
     {
@@ -304,12 +290,12 @@
       "difficulty": "Foundation",
       "stem": "Which change most directly explains this observation: pancreatic beta cells release more insulin?",
       "options": [
-        "Blood glucose falls between meals",
         "Blood glucose rises after a carbohydrate-rich meal",
+        "Blood glucose falls between meals",
         "High hydrostatic pressure develops in a glomerulus",
         "Glucose is present in normal glomerular filtrate"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Pancreatic beta cells release more insulin. Insulin promotes glucose uptake and storage, lowering the original increase."
     },
     {
@@ -319,11 +305,11 @@
       "stem": "After blood glucose rises after a carbohydrate-rich meal, which explanation best links the change to its outcome?",
       "options": [
         "Glucagon stimulates hepatic glycogen breakdown and glucose release",
-        "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
         "Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
         "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Pancreatic beta cells release more insulin. Insulin promotes glucose uptake and storage, lowering the original increase."
     },
     {
@@ -334,10 +320,10 @@
       "options": [
         "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release",
         "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
-        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
-        "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase"
+        "Pancreatic beta cells release more insulin — Insulin promotes glucose uptake and storage, lowering the original increase",
+        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Pancreatic beta cells release more insulin. Insulin promotes glucose uptake and storage, lowering the original increase."
     },
     {
@@ -346,12 +332,12 @@
       "difficulty": "Foundation",
       "stem": "After blood glucose falls between meals, which observation is most likely?",
       "options": [
-        "Pancreatic alpha cells increase glucagon secretion",
         "Water and small solutes enter Bowman's capsule",
+        "Water leaves and the tubular fluid becomes concentrated",
         "Nearly all of it returns to the blood in the proximal tubule",
-        "Water leaves and the tubular fluid becomes concentrated"
+        "Pancreatic alpha cells increase glucagon secretion"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Pancreatic alpha cells increase glucagon secretion. Glucagon stimulates hepatic glycogen breakdown and glucose release."
     },
     {
@@ -360,12 +346,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that pancreatic alpha cells increase glucagon secretion. Which preceding event best accounts for it?",
       "options": [
-        "High hydrostatic pressure develops in a glomerulus",
         "Blood glucose falls between meals",
         "Glucose is present in normal glomerular filtrate",
+        "High hydrostatic pressure develops in a glomerulus",
         "Filtrate descends through the water-permeable limb of the loop of Henle"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Pancreatic alpha cells increase glucagon secretion. Glucagon stimulates hepatic glycogen breakdown and glucose release."
     },
     {
@@ -375,11 +361,11 @@
       "stem": "After blood glucose falls between meals, which explanation best links the change to its outcome?",
       "options": [
         "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
-        "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
         "Glucagon stimulates hepatic glycogen breakdown and glucose release",
-        "The increasingly hypertonic medulla draws water out by osmosis"
+        "The increasingly hypertonic medulla draws water out by osmosis",
+        "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Pancreatic alpha cells increase glucagon secretion. Glucagon stimulates hepatic glycogen breakdown and glucose release."
     },
     {
@@ -388,12 +374,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: blood glucose falls between meals?",
       "options": [
-        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis",
-        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
         "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
-        "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release"
+        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
+        "Pancreatic alpha cells increase glucagon secretion — Glucagon stimulates hepatic glycogen breakdown and glucose release",
+        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Pancreatic alpha cells increase glucagon secretion. Glucagon stimulates hepatic glycogen breakdown and glucose release."
     },
     {
@@ -402,12 +388,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: High hydrostatic pressure develops in a glomerulus. What should the model predict first?",
       "options": [
-        "Water and small solutes enter Bowman's capsule",
-        "Water leaves and the tubular fluid becomes concentrated",
         "Nearly all of it returns to the blood in the proximal tubule",
-        "Tubular fluid becomes dilute while the medullary gradient strengthens"
+        "Water leaves and the tubular fluid becomes concentrated",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens",
+        "Water and small solutes enter Bowman's capsule"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Water and small solutes enter Bowman's capsule. Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins."
     },
     {
@@ -416,12 +402,12 @@
       "difficulty": "Standard",
       "stem": "What is the most likely cause when water and small solutes enter Bowman's capsule?",
       "options": [
-        "Glucose is present in normal glomerular filtrate",
         "High hydrostatic pressure develops in a glomerulus",
+        "Filtrate descends through the water-permeable limb of the loop of Henle",
         "Sodium and chloride leave the water-impermeable ascending limb",
-        "Filtrate descends through the water-permeable limb of the loop of Henle"
+        "Glucose is present in normal glomerular filtrate"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Water and small solutes enter Bowman's capsule. Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins."
     },
     {
@@ -430,26 +416,12 @@
       "difficulty": "Standard",
       "stem": "After high hydrostatic pressure develops in a glomerulus, which explanation best links the change to its outcome?",
       "options": [
-        "The increasingly hypertonic medulla draws water out by osmosis",
         "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
         "Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins",
+        "The increasingly hypertonic medulla draws water out by osmosis",
         "Salt transport occurs without accompanying osmotic water loss"
       ],
-      "answer": 2,
-      "explanation": "Water and small solutes enter Bowman's capsule. Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins."
-    },
-    {
-      "id": "homeostasis-filtration-integrated",
-      "chapter": "Homeostasis",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: high hydrostatic pressure develops in a glomerulus?",
-      "options": [
-        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
-        "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss",
-        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis",
-        "Water and small solutes enter Bowman's capsule — Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins"
-      ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Water and small solutes enter Bowman's capsule. Pressure forces ultrafiltrate through fenestrations and the basement membrane while retaining cells and most proteins."
     },
     {
@@ -458,12 +430,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Glucose is present in normal glomerular filtrate?",
       "options": [
-        "Nearly all of it returns to the blood in the proximal tubule",
+        "Water leaves and the tubular fluid becomes concentrated",
         "Tubular fluid becomes dilute while the medullary gradient strengthens",
-        "ADH secretion rises and urine volume decreases",
-        "Water leaves and the tubular fluid becomes concentrated"
+        "Nearly all of it returns to the blood in the proximal tubule",
+        "ADH secretion rises and urine volume decreases"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Nearly all of it returns to the blood in the proximal tubule. Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium."
     },
     {
@@ -472,12 +444,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: nearly all of it returns to the blood in the proximal tubule?",
       "options": [
+        "Blood water potential falls after dehydration",
         "Filtrate descends through the water-permeable limb of the loop of Henle",
-        "Glucose is present in normal glomerular filtrate",
         "Sodium and chloride leave the water-impermeable ascending limb",
-        "Blood water potential falls after dehydration"
+        "Glucose is present in normal glomerular filtrate"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Nearly all of it returns to the blood in the proximal tubule. Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium."
     },
     {
@@ -486,12 +458,12 @@
       "difficulty": "Standard",
       "stem": "After glucose is present in normal glomerular filtrate, which explanation best links the change to its outcome?",
       "options": [
+        "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
         "The increasingly hypertonic medulla draws water out by osmosis",
         "Salt transport occurs without accompanying osmotic water loss",
-        "Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
         "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Nearly all of it returns to the blood in the proximal tubule. Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium."
     },
     {
@@ -501,11 +473,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: glucose is present in normal glomerular filtrate?",
       "options": [
         "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis",
+        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium",
         "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss",
-        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
-        "Nearly all of it returns to the blood in the proximal tubule — Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium"
+        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Nearly all of it returns to the blood in the proximal tubule. Sodium-linked cotransport and facilitated diffusion move glucose across the tubular epithelium."
     },
     {
@@ -514,12 +486,12 @@
       "difficulty": "Standard",
       "stem": "Filtrate descends through the water-permeable limb of the loop of Henle. Which outcome follows most directly?",
       "options": [
-        "Water leaves and the tubular fluid becomes concentrated",
-        "Tubular fluid becomes dilute while the medullary gradient strengthens",
         "ADH secretion rises and urine volume decreases",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens",
+        "Water leaves and the tubular fluid becomes concentrated",
         "Sodium reabsorption increases while potassium secretion rises"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Water leaves and the tubular fluid becomes concentrated. The increasingly hypertonic medulla draws water out by osmosis."
     },
     {
@@ -529,11 +501,11 @@
       "stem": "Which change most directly explains this observation: water leaves and the tubular fluid becomes concentrated?",
       "options": [
         "Sodium and chloride leave the water-impermeable ascending limb",
-        "Filtrate descends through the water-permeable limb of the loop of Henle",
+        "Aldosterone acts on distal nephron cells",
         "Blood water potential falls after dehydration",
-        "Aldosterone acts on distal nephron cells"
+        "Filtrate descends through the water-permeable limb of the loop of Henle"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Water leaves and the tubular fluid becomes concentrated. The increasingly hypertonic medulla draws water out by osmosis."
     },
     {
@@ -542,12 +514,12 @@
       "difficulty": "Standard",
       "stem": "After filtrate descends through the water-permeable limb of the loop of Henle, which explanation best links the change to its outcome?",
       "options": [
-        "Salt transport occurs without accompanying osmotic water loss",
-        "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
         "The increasingly hypertonic medulla draws water out by osmosis",
+        "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "Salt transport occurs without accompanying osmotic water loss",
         "The hormone increases epithelial sodium channels and sodium-potassium pumps"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Water leaves and the tubular fluid becomes concentrated. The increasingly hypertonic medulla draws water out by osmosis."
     },
     {
@@ -557,11 +529,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: filtrate descends through the water-permeable limb of the loop of Henle?",
       "options": [
         "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss",
-        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis",
         "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps",
-        "Water leaves and the tubular fluid becomes concentrated — The increasingly hypertonic medulla draws water out by osmosis"
+        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Water leaves and the tubular fluid becomes concentrated. The increasingly hypertonic medulla draws water out by osmosis."
     },
     {
@@ -570,12 +542,12 @@
       "difficulty": "Standard",
       "stem": "After sodium and chloride leave the water-impermeable ascending limb, which observation is most likely?",
       "options": [
-        "Tubular fluid becomes dilute while the medullary gradient strengthens",
         "ADH secretion rises and urine volume decreases",
         "Sodium reabsorption increases while potassium secretion rises",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens",
         "Ammonia is produced and then converted to urea"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Tubular fluid becomes dilute while the medullary gradient strengthens. Salt transport occurs without accompanying osmotic water loss."
     },
     {
@@ -585,11 +557,11 @@
       "stem": "A learner records that tubular fluid becomes dilute while the medullary gradient strengthens. Which preceding event best accounts for it?",
       "options": [
         "Blood water potential falls after dehydration",
-        "Sodium and chloride leave the water-impermeable ascending limb",
         "Aldosterone acts on distal nephron cells",
-        "The liver metabolizes excess amino acids"
+        "The liver metabolizes excess amino acids",
+        "Sodium and chloride leave the water-impermeable ascending limb"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Tubular fluid becomes dilute while the medullary gradient strengthens. Salt transport occurs without accompanying osmotic water loss."
     },
     {
@@ -598,12 +570,12 @@
       "difficulty": "Standard",
       "stem": "After sodium and chloride leave the water-impermeable ascending limb, which explanation best links the change to its outcome?",
       "options": [
-        "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
-        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
         "Salt transport occurs without accompanying osmotic water loss",
-        "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion"
+        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
+        "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Tubular fluid becomes dilute while the medullary gradient strengthens. Salt transport occurs without accompanying osmotic water loss."
     },
     {
@@ -612,12 +584,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: sodium and chloride leave the water-impermeable ascending limb?",
       "options": [
-        "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
         "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss",
         "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps",
-        "Tubular fluid becomes dilute while the medullary gradient strengthens — Salt transport occurs without accompanying osmotic water loss"
+        "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Tubular fluid becomes dilute while the medullary gradient strengthens. Salt transport occurs without accompanying osmotic water loss."
     },
     {
@@ -626,12 +598,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Blood water potential falls after dehydration. What should the model predict first?",
       "options": [
-        "ADH secretion rises and urine volume decreases",
-        "Ammonia is produced and then converted to urea",
         "Sodium reabsorption increases while potassium secretion rises",
+        "Ammonia is produced and then converted to urea",
+        "ADH secretion rises and urine volume decreases",
         "Urea diffuses out while blood cells and proteins remain"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "ADH secretion rises and urine volume decreases. ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption."
     },
     {
@@ -641,11 +613,11 @@
       "stem": "What is the most likely cause when ADH secretion rises and urine volume decreases?",
       "options": [
         "Aldosterone acts on distal nephron cells",
-        "Blood water potential falls after dehydration",
+        "The liver metabolizes excess amino acids",
         "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
-        "The liver metabolizes excess amino acids"
+        "Blood water potential falls after dehydration"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "ADH secretion rises and urine volume decreases. ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption."
     },
     {
@@ -654,12 +626,12 @@
       "difficulty": "Standard",
       "stem": "After blood water potential falls after dehydration, which explanation best links the change to its outcome?",
       "options": [
-        "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
-        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
         "ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
+        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
+        "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
         "A maintained concentration gradient removes small wastes that can cross the membrane"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "ADH secretion rises and urine volume decreases. ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption."
     },
     {
@@ -669,11 +641,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: blood water potential falls after dehydration?",
       "options": [
         "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps",
-        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane",
+        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption",
         "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
-        "ADH secretion rises and urine volume decreases — ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption"
+        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "ADH secretion rises and urine volume decreases. ADH inserts aquaporins into collecting-duct cells, increasing water reabsorption."
     },
     {
@@ -682,12 +654,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Aldosterone acts on distal nephron cells?",
       "options": [
-        "Sodium reabsorption increases while potassium secretion rises",
+        "Ammonia is produced and then converted to urea",
         "Urea diffuses out while blood cells and proteins remain",
-        "The person initially feels cold and generates heat despite a normal starting temperature",
-        "Ammonia is produced and then converted to urea"
+        "Sodium reabsorption increases while potassium secretion rises",
+        "The person initially feels cold and generates heat despite a normal starting temperature"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Sodium reabsorption increases while potassium secretion rises. The hormone increases epithelial sodium channels and sodium-potassium pumps."
     },
     {
@@ -696,12 +668,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: sodium reabsorption increases while potassium secretion rises?",
       "options": [
+        "Pyrogens raise the hypothalamic temperature set point",
         "The liver metabolizes excess amino acids",
-        "Aldosterone acts on distal nephron cells",
         "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
-        "Pyrogens raise the hypothalamic temperature set point"
+        "Aldosterone acts on distal nephron cells"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Sodium reabsorption increases while potassium secretion rises. The hormone increases epithelial sodium channels and sodium-potassium pumps."
     },
     {
@@ -710,12 +682,12 @@
       "difficulty": "Standard",
       "stem": "After aldosterone acts on distal nephron cells, which explanation best links the change to its outcome?",
       "options": [
+        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
         "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
         "A maintained concentration gradient removes small wastes that can cross the membrane",
-        "The hormone increases epithelial sodium channels and sodium-potassium pumps",
         "The control system treats the current temperature as below its newly elevated target"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Sodium reabsorption increases while potassium secretion rises. The hormone increases epithelial sodium channels and sodium-potassium pumps."
     },
     {
@@ -725,11 +697,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: aldosterone acts on distal nephron cells?",
       "options": [
         "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps",
         "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane",
-        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target",
-        "Sodium reabsorption increases while potassium secretion rises — The hormone increases epithelial sodium channels and sodium-potassium pumps"
+        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Sodium reabsorption increases while potassium secretion rises. The hormone increases epithelial sodium channels and sodium-potassium pumps."
     },
     {
@@ -738,12 +710,12 @@
       "difficulty": "Standard",
       "stem": "The liver metabolizes excess amino acids. Which outcome follows most directly?",
       "options": [
-        "Ammonia is produced and then converted to urea",
-        "Urea diffuses out while blood cells and proteins remain",
         "The person initially feels cold and generates heat despite a normal starting temperature",
+        "Urea diffuses out while blood cells and proteins remain",
+        "Ammonia is produced and then converted to urea",
         "Pituitary TSH secretion normally increases"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Ammonia is produced and then converted to urea. Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion."
     },
     {
@@ -753,11 +725,11 @@
       "stem": "Which change most directly explains this observation: ammonia is produced and then converted to urea?",
       "options": [
         "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
-        "The liver metabolizes excess amino acids",
+        "Blood thyroxine concentration falls",
         "Pyrogens raise the hypothalamic temperature set point",
-        "Blood thyroxine concentration falls"
+        "The liver metabolizes excess amino acids"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Ammonia is produced and then converted to urea. Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion."
     },
     {
@@ -766,26 +738,12 @@
       "difficulty": "Standard",
       "stem": "After the liver metabolizes excess amino acids, which explanation best links the change to its outcome?",
       "options": [
-        "A maintained concentration gradient removes small wastes that can cross the membrane",
-        "The control system treats the current temperature as below its newly elevated target",
         "Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion",
+        "The control system treats the current temperature as below its newly elevated target",
+        "A maintained concentration gradient removes small wastes that can cross the membrane",
         "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid"
       ],
-      "answer": 2,
-      "explanation": "Ammonia is produced and then converted to urea. Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion."
-    },
-    {
-      "id": "homeostasis-deamination-integrated",
-      "chapter": "Homeostasis",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: the liver metabolizes excess amino acids?",
-      "options": [
-        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane",
-        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target",
-        "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
-        "Ammonia is produced and then converted to urea — Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion"
-      ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Ammonia is produced and then converted to urea. Deamination removes amino groups and the urea cycle detoxifies nitrogen for excretion."
     },
     {
@@ -794,12 +752,12 @@
       "difficulty": "Standard",
       "stem": "After a patient's blood flows beside dialysis fluid across a partially permeable membrane, which observation is most likely?",
       "options": [
-        "Urea diffuses out while blood cells and proteins remain",
         "The person initially feels cold and generates heat despite a normal starting temperature",
+        "Urea diffuses out while blood cells and proteins remain",
         "Pituitary TSH secretion normally increases",
         "It may be chemically modified into a more excretable product"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Urea diffuses out while blood cells and proteins remain. A maintained concentration gradient removes small wastes that can cross the membrane."
     },
     {
@@ -809,11 +767,11 @@
       "stem": "A learner records that urea diffuses out while blood cells and proteins remain. Which preceding event best accounts for it?",
       "options": [
         "Pyrogens raise the hypothalamic temperature set point",
-        "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
         "Blood thyroxine concentration falls",
+        "A patient's blood flows beside dialysis fluid across a partially permeable membrane",
         "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Urea diffuses out while blood cells and proteins remain. A maintained concentration gradient removes small wastes that can cross the membrane."
     },
     {
@@ -824,10 +782,10 @@
       "options": [
         "The control system treats the current temperature as below its newly elevated target",
         "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
-        "A maintained concentration gradient removes small wastes that can cross the membrane",
-        "Detoxification enzymes add or expose polar groups that improve water solubility"
+        "Detoxification enzymes add or expose polar groups that improve water solubility",
+        "A maintained concentration gradient removes small wastes that can cross the membrane"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Urea diffuses out while blood cells and proteins remain. A maintained concentration gradient removes small wastes that can cross the membrane."
     },
     {
@@ -836,12 +794,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a patient's blood flows beside dialysis fluid across a partially permeable membrane?",
       "options": [
-        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane",
         "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target",
         "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
-        "Urea diffuses out while blood cells and proteins remain — A maintained concentration gradient removes small wastes that can cross the membrane"
+        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Urea diffuses out while blood cells and proteins remain. A maintained concentration gradient removes small wastes that can cross the membrane."
     },
     {
@@ -850,12 +808,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Pyrogens raise the hypothalamic temperature set point. What should the model predict first?",
       "options": [
+        "Pituitary TSH secretion normally increases",
         "The person initially feels cold and generates heat despite a normal starting temperature",
         "It may be chemically modified into a more excretable product",
-        "Pituitary TSH secretion normally increases",
         "Kidneys increase hydrogen secretion and conserve bicarbonate"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The person initially feels cold and generates heat despite a normal starting temperature. The control system treats the current temperature as below its newly elevated target."
     },
     {
@@ -865,11 +823,11 @@
       "stem": "What is the most likely cause when the person initially feels cold and generates heat despite a normal starting temperature?",
       "options": [
         "Blood thyroxine concentration falls",
+        "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells",
         "Pyrogens raise the hypothalamic temperature set point",
-        "The body accumulates excess hydrogen ions",
-        "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells"
+        "The body accumulates excess hydrogen ions"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "The person initially feels cold and generates heat despite a normal starting temperature. The control system treats the current temperature as below its newly elevated target."
     },
     {
@@ -878,12 +836,12 @@
       "difficulty": "Standard",
       "stem": "After pyrogens raise the hypothalamic temperature set point, which explanation best links the change to its outcome?",
       "options": [
-        "Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Tubular transport helps restore extracellular pH while producing more acidic urine",
         "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
-        "The control system treats the current temperature as below its newly elevated target",
-        "Tubular transport helps restore extracellular pH while producing more acidic urine"
+        "Detoxification enzymes add or expose polar groups that improve water solubility",
+        "The control system treats the current temperature as below its newly elevated target"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "The person initially feels cold and generates heat despite a normal starting temperature. The control system treats the current temperature as below its newly elevated target."
     },
     {
@@ -892,12 +850,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: pyrogens raise the hypothalamic temperature set point?",
       "options": [
+        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target",
         "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
-        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine",
         "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility",
-        "The person initially feels cold and generates heat despite a normal starting temperature — The control system treats the current temperature as below its newly elevated target"
+        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "The person initially feels cold and generates heat despite a normal starting temperature. The control system treats the current temperature as below its newly elevated target."
     },
     {
@@ -906,12 +864,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Blood thyroxine concentration falls?",
       "options": [
+        "It may be chemically modified into a more excretable product",
         "Pituitary TSH secretion normally increases",
-        "Kidneys increase hydrogen secretion and conserve bicarbonate",
         "Hyperglycaemia and glucose loss in urine may occur",
-        "It may be chemically modified into a more excretable product"
+        "Kidneys increase hydrogen secretion and conserve bicarbonate"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Pituitary TSH secretion normally increases. Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid."
     },
     {
@@ -920,12 +878,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: pituitary TSH secretion normally increases?",
       "options": [
+        "The body accumulates excess hydrogen ions",
         "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells",
         "Blood thyroxine concentration falls",
-        "The body accumulates excess hydrogen ions",
         "Insulin action is severely deficient"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Pituitary TSH secretion normally increases. Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid."
     },
     {
@@ -935,11 +893,11 @@
       "stem": "After blood thyroxine concentration falls, which explanation best links the change to its outcome?",
       "options": [
         "Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
         "Tubular transport helps restore extracellular pH while producing more acidic urine",
-        "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
-        "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity"
+        "Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Pituitary TSH secretion normally increases. Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid."
     },
     {
@@ -948,12 +906,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: blood thyroxine concentration falls?",
       "options": [
-        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid",
         "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine",
-        "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
-        "Pituitary TSH secretion normally increases — Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid"
+        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility",
+        "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Pituitary TSH secretion normally increases. Reduced negative feedback permits hypothalamic and pituitary stimulation of the thyroid."
     },
     {
@@ -962,12 +920,12 @@
       "difficulty": "Standard",
       "stem": "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells. Which outcome follows most directly?",
       "options": [
-        "It may be chemically modified into a more excretable product",
         "Kidneys increase hydrogen secretion and conserve bicarbonate",
+        "It may be chemically modified into a more excretable product",
         "Hyperglycaemia and glucose loss in urine may occur",
         "A large volume of dilute urine is produced"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "It may be chemically modified into a more excretable product. Detoxification enzymes add or expose polar groups that improve water solubility."
     },
     {
@@ -977,11 +935,11 @@
       "stem": "Which change most directly explains this observation: it may be chemically modified into a more excretable product?",
       "options": [
         "The body accumulates excess hydrogen ions",
-        "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells",
         "Insulin action is severely deficient",
+        "A lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells",
         "The kidneys fail to respond to ADH"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "It may be chemically modified into a more excretable product. Detoxification enzymes add or expose polar groups that improve water solubility."
     },
     {
@@ -992,10 +950,10 @@
       "options": [
         "Tubular transport helps restore extracellular pH while producing more acidic urine",
         "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
-        "Detoxification enzymes add or expose polar groups that improve water solubility",
-        "Collecting ducts remain poorly permeable to water despite dehydration"
+        "Collecting ducts remain poorly permeable to water despite dehydration",
+        "Detoxification enzymes add or expose polar groups that improve water solubility"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "It may be chemically modified into a more excretable product. Detoxification enzymes add or expose polar groups that improve water solubility."
     },
     {
@@ -1004,12 +962,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a lipid-soluble drug reaches smooth endoplasmic reticulum in liver cells?",
       "options": [
-        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine",
+        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility",
         "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
         "A large volume of dilute urine is produced — Collecting ducts remain poorly permeable to water despite dehydration",
-        "It may be chemically modified into a more excretable product — Detoxification enzymes add or expose polar groups that improve water solubility"
+        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "It may be chemically modified into a more excretable product. Detoxification enzymes add or expose polar groups that improve water solubility."
     },
     {
@@ -1018,12 +976,12 @@
       "difficulty": "Standard",
       "stem": "After the body accumulates excess hydrogen ions, which observation is most likely?",
       "options": [
-        "Kidneys increase hydrogen secretion and conserve bicarbonate",
         "Hyperglycaemia and glucose loss in urine may occur",
+        "Kidneys increase hydrogen secretion and conserve bicarbonate",
         "A large volume of dilute urine is produced",
         "Renin release and the renin-angiotensin-aldosterone pathway increase"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Kidneys increase hydrogen secretion and conserve bicarbonate. Tubular transport helps restore extracellular pH while producing more acidic urine."
     },
     {
@@ -1033,11 +991,11 @@
       "stem": "A learner records that kidneys increase hydrogen secretion and conserve bicarbonate. Which preceding event best accounts for it?",
       "options": [
         "Insulin action is severely deficient",
-        "The body accumulates excess hydrogen ions",
         "The kidneys fail to respond to ADH",
+        "The body accumulates excess hydrogen ions",
         "Renal arterial pressure falls substantially"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Kidneys increase hydrogen secretion and conserve bicarbonate. Tubular transport helps restore extracellular pH while producing more acidic urine."
     },
     {
@@ -1048,10 +1006,10 @@
       "options": [
         "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
         "Collecting ducts remain poorly permeable to water despite dehydration",
-        "Tubular transport helps restore extracellular pH while producing more acidic urine",
-        "Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses"
+        "Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Tubular transport helps restore extracellular pH while producing more acidic urine"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Kidneys increase hydrogen secretion and conserve bicarbonate. Tubular transport helps restore extracellular pH while producing more acidic urine."
     },
     {
@@ -1060,12 +1018,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: the body accumulates excess hydrogen ions?",
       "options": [
-        "Renin release and the renin-angiotensin-aldosterone pathway increase — Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine",
         "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
         "A large volume of dilute urine is produced — Collecting ducts remain poorly permeable to water despite dehydration",
-        "Kidneys increase hydrogen secretion and conserve bicarbonate — Tubular transport helps restore extracellular pH while producing more acidic urine"
+        "Renin release and the renin-angiotensin-aldosterone pathway increase — Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Kidneys increase hydrogen secretion and conserve bicarbonate. Tubular transport helps restore extracellular pH while producing more acidic urine."
     },
     {
@@ -1074,12 +1032,12 @@
       "difficulty": "Challenge",
       "stem": "A student models this change: Insulin action is severely deficient. What should the model predict first?",
       "options": [
+        "A large volume of dilute urine is produced",
         "Hyperglycaemia and glucose loss in urine may occur",
         "Renin release and the renin-angiotensin-aldosterone pathway increase",
-        "A large volume of dilute urine is produced",
         "Plasma proteins appear in urine and oedema may follow"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Hyperglycaemia and glucose loss in urine may occur. Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity."
     },
     {
@@ -1089,11 +1047,11 @@
       "stem": "What is the most likely cause when hyperglycaemia and glucose loss in urine may occur?",
       "options": [
         "The kidneys fail to respond to ADH",
+        "Renal arterial pressure falls substantially",
         "Insulin action is severely deficient",
-        "The glomerular filtration barrier loses its charge and size selectivity",
-        "Renal arterial pressure falls substantially"
+        "The glomerular filtration barrier loses its charge and size selectivity"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Hyperglycaemia and glucose loss in urine may occur. Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity."
     },
     {
@@ -1102,24 +1060,10 @@
       "difficulty": "Challenge",
       "stem": "After insulin action is severely deficient, which explanation best links the change to its outcome?",
       "options": [
-        "Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries",
         "Collecting ducts remain poorly permeable to water despite dehydration",
-        "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity",
-        "Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries"
-      ],
-      "answer": 2,
-      "explanation": "Hyperglycaemia and glucose loss in urine may occur. Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity."
-    },
-    {
-      "id": "homeostasis-diabetes-mellitus-integrated",
-      "chapter": "Homeostasis",
-      "difficulty": "Challenge",
-      "stem": "Which paired outcome and explanation best follows from this condition: insulin action is severely deficient?",
-      "options": [
-        "A large volume of dilute urine is produced — Collecting ducts remain poorly permeable to water despite dehydration",
-        "Plasma proteins appear in urine and oedema may follow — Protein leakage lowers plasma oncotic pressure and reduces fluid reabsorption by capillaries",
-        "Renin release and the renin-angiotensin-aldosterone pathway increase — Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
-        "Hyperglycaemia and glucose loss in urine may occur — Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity"
+        "Juxtaglomerular cells sense reduced perfusion and initiate sodium-retaining, vasoconstrictor responses",
+        "Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity"
       ],
       "answer": 3,
       "explanation": "Hyperglycaemia and glucose loss in urine may occur. Cells take up less glucose and filtered glucose exceeds the nephron's reabsorptive capacity."
@@ -1403,6 +1347,72 @@
       ],
       "answer": 3,
       "explanation": "Core temperature can rise dangerously despite skin vasodilation. Loss of evaporative cooling makes environmental heat dissipation insufficient."
+    },
+    {
+      "chapter": "Homeostasis",
+      "id": "applied-filtered-reabsorbed",
+      "difficulty": "Standard",
+      "stem": "A kidney model filters 180 L per day and returns 178.5 L per day to blood. If no further water is added, what volume leaves as urine?",
+      "options": [
+        "1.5 L per day",
+        "0.15 L per day",
+        "178.5 L per day",
+        "358.5 L per day"
+      ],
+      "answer": 0,
+      "explanation": "Final water output is filtered volume minus reabsorbed volume: 180 − 178.5 = 1.5 L per day. Filtration volume is not urine volume."
+    },
+    {
+      "chapter": "Homeostasis",
+      "id": "applied-adh-response",
+      "difficulty": "Standard",
+      "stem": "A healthy person becomes dehydrated. Which response helps conserve water?",
+      "options": [
+        "Less ADH and increased water loss in urine",
+        "More ADH, increased collecting-duct water permeability and a smaller urine volume",
+        "More ADH and no change in water permeability",
+        "Complete shutdown of all filtration"
+      ],
+      "answer": 1,
+      "explanation": "Dehydration normally promotes ADH release. Increased collecting-duct water permeability allows more water reabsorption when the medullary gradient is present."
+    },
+    {
+      "chapter": "Homeostasis",
+      "id": "applied-feedback-label",
+      "difficulty": "Foundation",
+      "stem": "What is the role of sweating in this negative-feedback pathway?",
+      "options": [
+        "It is the temperature receptor itself",
+        "It is the original rise in body temperature",
+        "It acts as an effector response that increases heat loss",
+        "It raises the temperature set point permanently"
+      ],
+      "answer": 2,
+      "explanation": "Sweat evaporation increases heat loss and helps counter the original temperature rise. The effector response reduces the deviation from the regulated condition.",
+      "visual": {
+        "kind": "flow",
+        "caption": "Temperature regulation",
+        "nodes": [
+          "Body temperature rises",
+          "Control system activates sweat glands",
+          "Sweating",
+          "Heat loss increases"
+        ]
+      }
+    },
+    {
+      "chapter": "Homeostasis",
+      "id": "applied-clearance-interpret",
+      "difficulty": "Challenge",
+      "stem": "A substance is freely filtered and neither reabsorbed nor secreted. Its urinary excretion rate most directly equals:",
+      "options": [
+        "The total rate of plasma flow",
+        "Its reabsorbed load",
+        "Zero in every healthy person",
+        "Its filtered load"
+      ],
+      "answer": 3,
+      "explanation": "For such a substance, excretion equals filtration because there is no net tubular addition or removal. Filtered load is filtration rate multiplied by plasma concentration."
     }
   ]
 }

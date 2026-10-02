@@ -103,31 +103,17 @@
       "explanation": "It passes through the heart twice during one full journey. The right heart sends blood to lungs and the left heart sends it to the body."
     },
     {
-      "id": "circulation-double-circuit-integrated",
-      "chapter": "Circulation",
-      "difficulty": "Foundation",
-      "stem": "Which paired outcome and explanation best follows from this condition: blood completes separate pulmonary and systemic circuits?",
-      "options": [
-        "Its thick elastic wall stretches and recoils — Elastic tissue smooths pressure changes while muscle and collagen resist rupture",
-        "Backflow is limited when blood pressure is low — Valve cusps close if blood begins moving away from the heart",
-        "Exchange with tissues occurs efficiently — The network provides a large area, short diffusion distance and slower flow",
-        "It passes through the heart twice during one full journey — The right heart sends blood to lungs and the left heart sends it to the body"
-      ],
-      "answer": 3,
-      "explanation": "It passes through the heart twice during one full journey. The right heart sends blood to lungs and the left heart sends it to the body."
-    },
-    {
       "id": "circulation-artery-wall-outcome",
       "chapter": "Circulation",
       "difficulty": "Foundation",
       "stem": "After an artery receives high-pressure blood from a ventricle, which observation is most likely?",
       "options": [
-        "Its thick elastic wall stretches and recoils",
         "Backflow is limited when blood pressure is low",
+        "It carries oxygen efficiently",
         "Exchange with tissues occurs efficiently",
-        "It carries oxygen efficiently"
+        "Its thick elastic wall stretches and recoils"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Its thick elastic wall stretches and recoils. Elastic tissue smooths pressure changes while muscle and collagen resist rupture."
     },
     {
@@ -136,12 +122,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that its thick elastic wall stretches and recoils. Which preceding event best accounts for it?",
       "options": [
-        "A limb vein contains one-way valves",
         "An artery receives high-pressure blood from a ventricle",
         "Blood enters a network of narrow one-cell-thick capillaries",
+        "A limb vein contains one-way valves",
         "A red blood cell has a biconcave shape and no nucleus"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Its thick elastic wall stretches and recoils. Elastic tissue smooths pressure changes while muscle and collagen resist rupture."
     },
     {
@@ -151,11 +137,11 @@
       "stem": "After an artery receives high-pressure blood from a ventricle, which explanation best links the change to its outcome?",
       "options": [
         "Valve cusps close if blood begins moving away from the heart",
-        "The network provides a large area, short diffusion distance and slower flow",
         "Elastic tissue smooths pressure changes while muscle and collagen resist rupture",
-        "The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin"
+        "The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
+        "The network provides a large area, short diffusion distance and slower flow"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Its thick elastic wall stretches and recoils. Elastic tissue smooths pressure changes while muscle and collagen resist rupture."
     },
     {
@@ -164,12 +150,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: an artery receives high-pressure blood from a ventricle?",
       "options": [
-        "It carries oxygen efficiently — The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
-        "Backflow is limited when blood pressure is low — Valve cusps close if blood begins moving away from the heart",
         "Exchange with tissues occurs efficiently — The network provides a large area, short diffusion distance and slower flow",
-        "Its thick elastic wall stretches and recoils — Elastic tissue smooths pressure changes while muscle and collagen resist rupture"
+        "Backflow is limited when blood pressure is low — Valve cusps close if blood begins moving away from the heart",
+        "Its thick elastic wall stretches and recoils — Elastic tissue smooths pressure changes while muscle and collagen resist rupture",
+        "It carries oxygen efficiently — The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Its thick elastic wall stretches and recoils. Elastic tissue smooths pressure changes while muscle and collagen resist rupture."
     },
     {
@@ -178,12 +164,12 @@
       "difficulty": "Foundation",
       "stem": "A student models this change: A limb vein contains one-way valves. What should the model predict first?",
       "options": [
-        "Backflow is limited when blood pressure is low",
-        "It carries oxygen efficiently",
         "Exchange with tissues occurs efficiently",
-        "They aggregate and form an initial haemostatic plug"
+        "It carries oxygen efficiently",
+        "They aggregate and form an initial haemostatic plug",
+        "Backflow is limited when blood pressure is low"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Backflow is limited when blood pressure is low. Valve cusps close if blood begins moving away from the heart."
     },
     {
@@ -192,12 +178,12 @@
       "difficulty": "Foundation",
       "stem": "What is the most likely cause when backflow is limited when blood pressure is low?",
       "options": [
-        "Blood enters a network of narrow one-cell-thick capillaries",
         "A limb vein contains one-way valves",
+        "A red blood cell has a biconcave shape and no nucleus",
         "Platelets contact exposed collagen at a damaged vessel",
-        "A red blood cell has a biconcave shape and no nucleus"
+        "Blood enters a network of narrow one-cell-thick capillaries"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Backflow is limited when blood pressure is low. Valve cusps close if blood begins moving away from the heart."
     },
     {
@@ -206,12 +192,12 @@
       "difficulty": "Foundation",
       "stem": "After a limb vein contains one-way valves, which explanation best links the change to its outcome?",
       "options": [
-        "The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
         "The network provides a large area, short diffusion distance and slower flow",
         "Valve cusps close if blood begins moving away from the heart",
+        "The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
         "Adhesion activates platelets to release signals that recruit additional platelets"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Backflow is limited when blood pressure is low. Valve cusps close if blood begins moving away from the heart."
     },
     {
@@ -221,11 +207,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: a limb vein contains one-way valves?",
       "options": [
         "Exchange with tissues occurs efficiently — The network provides a large area, short diffusion distance and slower flow",
-        "They aggregate and form an initial haemostatic plug — Adhesion activates platelets to release signals that recruit additional platelets",
         "It carries oxygen efficiently — The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
-        "Backflow is limited when blood pressure is low — Valve cusps close if blood begins moving away from the heart"
+        "Backflow is limited when blood pressure is low — Valve cusps close if blood begins moving away from the heart",
+        "They aggregate and form an initial haemostatic plug — Adhesion activates platelets to release signals that recruit additional platelets"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Backflow is limited when blood pressure is low. Valve cusps close if blood begins moving away from the heart."
     },
     {
@@ -234,12 +220,12 @@
       "difficulty": "Foundation",
       "stem": "Which immediate result is most consistent with this condition: Blood enters a network of narrow one-cell-thick capillaries?",
       "options": [
-        "Exchange with tissues occurs efficiently",
+        "It carries oxygen efficiently",
         "They aggregate and form an initial haemostatic plug",
         "A wave of excitation spreads across both atria",
-        "It carries oxygen efficiently"
+        "Exchange with tissues occurs efficiently"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Exchange with tissues occurs efficiently. The network provides a large area, short diffusion distance and slower flow."
     },
     {
@@ -248,12 +234,12 @@
       "difficulty": "Foundation",
       "stem": "Which condition would most specifically produce this result: exchange with tissues occurs efficiently?",
       "options": [
-        "A red blood cell has a biconcave shape and no nucleus",
         "Blood enters a network of narrow one-cell-thick capillaries",
+        "A red blood cell has a biconcave shape and no nucleus",
         "Platelets contact exposed collagen at a damaged vessel",
         "The sinoatrial node spontaneously depolarizes"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Exchange with tissues occurs efficiently. The network provides a large area, short diffusion distance and slower flow."
     },
     {
@@ -263,11 +249,11 @@
       "stem": "After blood enters a network of narrow one-cell-thick capillaries, which explanation best links the change to its outcome?",
       "options": [
         "The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
-        "Adhesion activates platelets to release signals that recruit additional platelets",
         "The network provides a large area, short diffusion distance and slower flow",
+        "Adhesion activates platelets to release signals that recruit additional platelets",
         "Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Exchange with tissues occurs efficiently. The network provides a large area, short diffusion distance and slower flow."
     },
     {
@@ -278,10 +264,10 @@
       "options": [
         "It carries oxygen efficiently — The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
         "They aggregate and form an initial haemostatic plug — Adhesion activates platelets to release signals that recruit additional platelets",
-        "A wave of excitation spreads across both atria — Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal",
-        "Exchange with tissues occurs efficiently — The network provides a large area, short diffusion distance and slower flow"
+        "Exchange with tissues occurs efficiently — The network provides a large area, short diffusion distance and slower flow",
+        "A wave of excitation spreads across both atria — Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Exchange with tissues occurs efficiently. The network provides a large area, short diffusion distance and slower flow."
     },
     {
@@ -290,12 +276,12 @@
       "difficulty": "Foundation",
       "stem": "A red blood cell has a biconcave shape and no nucleus. Which outcome follows most directly?",
       "options": [
-        "It carries oxygen efficiently",
+        "Atria finish contracting before the ventricles begin systole",
         "They aggregate and form an initial haemostatic plug",
         "A wave of excitation spreads across both atria",
-        "Atria finish contracting before the ventricles begin systole"
+        "It carries oxygen efficiently"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "It carries oxygen efficiently. The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin."
     },
     {
@@ -304,12 +290,12 @@
       "difficulty": "Foundation",
       "stem": "Which change most directly explains this observation: it carries oxygen efficiently?",
       "options": [
-        "Platelets contact exposed collagen at a damaged vessel",
         "A red blood cell has a biconcave shape and no nucleus",
+        "Platelets contact exposed collagen at a damaged vessel",
         "The sinoatrial node spontaneously depolarizes",
         "Conduction slows briefly at the atrioventricular node"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "It carries oxygen efficiently. The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin."
     },
     {
@@ -319,11 +305,11 @@
       "stem": "After a red blood cell has a biconcave shape and no nucleus, which explanation best links the change to its outcome?",
       "options": [
         "Adhesion activates platelets to release signals that recruit additional platelets",
-        "Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal",
         "The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
+        "Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal",
         "The delay permits ventricular filling before excitation travels through the bundle of His"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "It carries oxygen efficiently. The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin."
     },
     {
@@ -334,10 +320,10 @@
       "options": [
         "They aggregate and form an initial haemostatic plug — Adhesion activates platelets to release signals that recruit additional platelets",
         "A wave of excitation spreads across both atria — Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal",
-        "Atria finish contracting before the ventricles begin systole — The delay permits ventricular filling before excitation travels through the bundle of His",
-        "It carries oxygen efficiently — The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin"
+        "It carries oxygen efficiently — The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin",
+        "Atria finish contracting before the ventricles begin systole — The delay permits ventricular filling before excitation travels through the bundle of His"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "It carries oxygen efficiently. The shape increases surface-to-volume ratio and the lost nucleus leaves more room for haemoglobin."
     },
     {
@@ -346,12 +332,12 @@
       "difficulty": "Foundation",
       "stem": "After platelets contact exposed collagen at a damaged vessel, which observation is most likely?",
       "options": [
-        "They aggregate and form an initial haemostatic plug",
         "A wave of excitation spreads across both atria",
+        "The semilunar valves open",
         "Atria finish contracting before the ventricles begin systole",
-        "The semilunar valves open"
+        "They aggregate and form an initial haemostatic plug"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "They aggregate and form an initial haemostatic plug. Adhesion activates platelets to release signals that recruit additional platelets."
     },
     {
@@ -360,12 +346,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that they aggregate and form an initial haemostatic plug. Which preceding event best accounts for it?",
       "options": [
-        "The sinoatrial node spontaneously depolarizes",
         "Platelets contact exposed collagen at a damaged vessel",
         "Conduction slows briefly at the atrioventricular node",
+        "The sinoatrial node spontaneously depolarizes",
         "Ventricular pressure rises above pressure in the aorta and pulmonary artery"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "They aggregate and form an initial haemostatic plug. Adhesion activates platelets to release signals that recruit additional platelets."
     },
     {
@@ -375,11 +361,11 @@
       "stem": "After platelets contact exposed collagen at a damaged vessel, which explanation best links the change to its outcome?",
       "options": [
         "Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal",
-        "The delay permits ventricular filling before excitation travels through the bundle of His",
         "Adhesion activates platelets to release signals that recruit additional platelets",
-        "The pressure gradient pushes the cusps aside and permits ventricular ejection"
+        "The pressure gradient pushes the cusps aside and permits ventricular ejection",
+        "The delay permits ventricular filling before excitation travels through the bundle of His"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "They aggregate and form an initial haemostatic plug. Adhesion activates platelets to release signals that recruit additional platelets."
     },
     {
@@ -388,12 +374,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: platelets contact exposed collagen at a damaged vessel?",
       "options": [
-        "The semilunar valves open — The pressure gradient pushes the cusps aside and permits ventricular ejection",
-        "A wave of excitation spreads across both atria — Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal",
         "Atria finish contracting before the ventricles begin systole — The delay permits ventricular filling before excitation travels through the bundle of His",
-        "They aggregate and form an initial haemostatic plug — Adhesion activates platelets to release signals that recruit additional platelets"
+        "A wave of excitation spreads across both atria — Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal",
+        "They aggregate and form an initial haemostatic plug — Adhesion activates platelets to release signals that recruit additional platelets",
+        "The semilunar valves open — The pressure gradient pushes the cusps aside and permits ventricular ejection"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "They aggregate and form an initial haemostatic plug. Adhesion activates platelets to release signals that recruit additional platelets."
     },
     {
@@ -402,12 +388,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: The sinoatrial node spontaneously depolarizes. What should the model predict first?",
       "options": [
-        "A wave of excitation spreads across both atria",
-        "The semilunar valves open",
         "Atria finish contracting before the ventricles begin systole",
-        "Atrioventricular valves close and the first heart sound occurs"
+        "The semilunar valves open",
+        "Atrioventricular valves close and the first heart sound occurs",
+        "A wave of excitation spreads across both atria"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "A wave of excitation spreads across both atria. Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal."
     },
     {
@@ -416,12 +402,12 @@
       "difficulty": "Standard",
       "stem": "What is the most likely cause when a wave of excitation spreads across both atria?",
       "options": [
-        "Conduction slows briefly at the atrioventricular node",
         "The sinoatrial node spontaneously depolarizes",
+        "Ventricular pressure rises above pressure in the aorta and pulmonary artery",
         "Ventricular pressure exceeds atrial pressure at the start of systole",
-        "Ventricular pressure rises above pressure in the aorta and pulmonary artery"
+        "Conduction slows briefly at the atrioventricular node"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "A wave of excitation spreads across both atria. Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal."
     },
     {
@@ -430,26 +416,12 @@
       "difficulty": "Standard",
       "stem": "After the sinoatrial node spontaneously depolarizes, which explanation best links the change to its outcome?",
       "options": [
-        "The pressure gradient pushes the cusps aside and permits ventricular ejection",
         "The delay permits ventricular filling before excitation travels through the bundle of His",
         "Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal",
+        "The pressure gradient pushes the cusps aside and permits ventricular ejection",
         "Reversed pressure lifts the valve cusps while chordae prevent prolapse"
       ],
-      "answer": 2,
-      "explanation": "A wave of excitation spreads across both atria. Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal."
-    },
-    {
-      "id": "circulation-sa-node-integrated",
-      "chapter": "Circulation",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: the sinoatrial node spontaneously depolarizes?",
-      "options": [
-        "Atria finish contracting before the ventricles begin systole — The delay permits ventricular filling before excitation travels through the bundle of His",
-        "Atrioventricular valves close and the first heart sound occurs — Reversed pressure lifts the valve cusps while chordae prevent prolapse",
-        "The semilunar valves open — The pressure gradient pushes the cusps aside and permits ventricular ejection",
-        "A wave of excitation spreads across both atria — Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal"
-      ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "A wave of excitation spreads across both atria. Pacemaker cells initiate each heartbeat and atrial gap junctions conduct the signal."
     },
     {
@@ -458,12 +430,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Conduction slows briefly at the atrioventricular node?",
       "options": [
-        "Atria finish contracting before the ventricles begin systole",
+        "The semilunar valves open",
         "Atrioventricular valves close and the first heart sound occurs",
-        "Cardiac output increases",
-        "The semilunar valves open"
+        "Atria finish contracting before the ventricles begin systole",
+        "Cardiac output increases"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Atria finish contracting before the ventricles begin systole. The delay permits ventricular filling before excitation travels through the bundle of His."
     },
     {
@@ -472,12 +444,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: atria finish contracting before the ventricles begin systole?",
       "options": [
+        "Heart rate rises while stroke volume remains constant",
         "Ventricular pressure rises above pressure in the aorta and pulmonary artery",
-        "Conduction slows briefly at the atrioventricular node",
         "Ventricular pressure exceeds atrial pressure at the start of systole",
-        "Heart rate rises while stroke volume remains constant"
+        "Conduction slows briefly at the atrioventricular node"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Atria finish contracting before the ventricles begin systole. The delay permits ventricular filling before excitation travels through the bundle of His."
     },
     {
@@ -486,12 +458,12 @@
       "difficulty": "Standard",
       "stem": "After conduction slows briefly at the atrioventricular node, which explanation best links the change to its outcome?",
       "options": [
+        "The delay permits ventricular filling before excitation travels through the bundle of His",
         "The pressure gradient pushes the cusps aside and permits ventricular ejection",
         "Reversed pressure lifts the valve cusps while chordae prevent prolapse",
-        "The delay permits ventricular filling before excitation travels through the bundle of His",
         "Output per minute equals heart rate multiplied by volume ejected per beat"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Atria finish contracting before the ventricles begin systole. The delay permits ventricular filling before excitation travels through the bundle of His."
     },
     {
@@ -501,11 +473,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: conduction slows briefly at the atrioventricular node?",
       "options": [
         "The semilunar valves open — The pressure gradient pushes the cusps aside and permits ventricular ejection",
+        "Atria finish contracting before the ventricles begin systole — The delay permits ventricular filling before excitation travels through the bundle of His",
         "Atrioventricular valves close and the first heart sound occurs — Reversed pressure lifts the valve cusps while chordae prevent prolapse",
-        "Cardiac output increases — Output per minute equals heart rate multiplied by volume ejected per beat",
-        "Atria finish contracting before the ventricles begin systole — The delay permits ventricular filling before excitation travels through the bundle of His"
+        "Cardiac output increases — Output per minute equals heart rate multiplied by volume ejected per beat"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Atria finish contracting before the ventricles begin systole. The delay permits ventricular filling before excitation travels through the bundle of His."
     },
     {
@@ -514,12 +486,12 @@
       "difficulty": "Standard",
       "stem": "Ventricular pressure rises above pressure in the aorta and pulmonary artery. Which outcome follows most directly?",
       "options": [
-        "The semilunar valves open",
-        "Atrioventricular valves close and the first heart sound occurs",
         "Cardiac output increases",
+        "Atrioventricular valves close and the first heart sound occurs",
+        "The semilunar valves open",
         "Venous return to the heart increases"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The semilunar valves open. The pressure gradient pushes the cusps aside and permits ventricular ejection."
     },
     {
@@ -529,11 +501,11 @@
       "stem": "Which change most directly explains this observation: the semilunar valves open?",
       "options": [
         "Ventricular pressure exceeds atrial pressure at the start of systole",
-        "Ventricular pressure rises above pressure in the aorta and pulmonary artery",
+        "Skeletal muscles rhythmically compress limb veins",
         "Heart rate rises while stroke volume remains constant",
-        "Skeletal muscles rhythmically compress limb veins"
+        "Ventricular pressure rises above pressure in the aorta and pulmonary artery"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The semilunar valves open. The pressure gradient pushes the cusps aside and permits ventricular ejection."
     },
     {
@@ -542,12 +514,12 @@
       "difficulty": "Standard",
       "stem": "After ventricular pressure rises above pressure in the aorta and pulmonary artery, which explanation best links the change to its outcome?",
       "options": [
-        "Reversed pressure lifts the valve cusps while chordae prevent prolapse",
-        "Output per minute equals heart rate multiplied by volume ejected per beat",
         "The pressure gradient pushes the cusps aside and permits ventricular ejection",
+        "Output per minute equals heart rate multiplied by volume ejected per beat",
+        "Reversed pressure lifts the valve cusps while chordae prevent prolapse",
         "One-way valves direct the squeezed blood centrally and prevent reverse movement"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "The semilunar valves open. The pressure gradient pushes the cusps aside and permits ventricular ejection."
     },
     {
@@ -557,11 +529,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: ventricular pressure rises above pressure in the aorta and pulmonary artery?",
       "options": [
         "Atrioventricular valves close and the first heart sound occurs — Reversed pressure lifts the valve cusps while chordae prevent prolapse",
-        "Cardiac output increases — Output per minute equals heart rate multiplied by volume ejected per beat",
+        "The semilunar valves open — The pressure gradient pushes the cusps aside and permits ventricular ejection",
         "Venous return to the heart increases — One-way valves direct the squeezed blood centrally and prevent reverse movement",
-        "The semilunar valves open — The pressure gradient pushes the cusps aside and permits ventricular ejection"
+        "Cardiac output increases — Output per minute equals heart rate multiplied by volume ejected per beat"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "The semilunar valves open. The pressure gradient pushes the cusps aside and permits ventricular ejection."
     },
     {
@@ -570,12 +542,12 @@
       "difficulty": "Standard",
       "stem": "After ventricular pressure exceeds atrial pressure at the start of systole, which observation is most likely?",
       "options": [
-        "Atrioventricular valves close and the first heart sound occurs",
         "Cardiac output increases",
         "Venous return to the heart increases",
+        "Atrioventricular valves close and the first heart sound occurs",
         "Fluid filters from plasma into tissue spaces"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Atrioventricular valves close and the first heart sound occurs. Reversed pressure lifts the valve cusps while chordae prevent prolapse."
     },
     {
@@ -585,11 +557,11 @@
       "stem": "A learner records that atrioventricular valves close and the first heart sound occurs. Which preceding event best accounts for it?",
       "options": [
         "Heart rate rises while stroke volume remains constant",
-        "Ventricular pressure exceeds atrial pressure at the start of systole",
         "Skeletal muscles rhythmically compress limb veins",
-        "Hydrostatic pressure is high at the arterial end of a capillary"
+        "Hydrostatic pressure is high at the arterial end of a capillary",
+        "Ventricular pressure exceeds atrial pressure at the start of systole"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Atrioventricular valves close and the first heart sound occurs. Reversed pressure lifts the valve cusps while chordae prevent prolapse."
     },
     {
@@ -598,12 +570,12 @@
       "difficulty": "Standard",
       "stem": "After ventricular pressure exceeds atrial pressure at the start of systole, which explanation best links the change to its outcome?",
       "options": [
-        "Output per minute equals heart rate multiplied by volume ejected per beat",
-        "One-way valves direct the squeezed blood centrally and prevent reverse movement",
         "Reversed pressure lifts the valve cusps while chordae prevent prolapse",
-        "Outward pressure exceeds the opposing oncotic and tissue pressures"
+        "One-way valves direct the squeezed blood centrally and prevent reverse movement",
+        "Outward pressure exceeds the opposing oncotic and tissue pressures",
+        "Output per minute equals heart rate multiplied by volume ejected per beat"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Atrioventricular valves close and the first heart sound occurs. Reversed pressure lifts the valve cusps while chordae prevent prolapse."
     },
     {
@@ -612,12 +584,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: ventricular pressure exceeds atrial pressure at the start of systole?",
       "options": [
-        "Fluid filters from plasma into tissue spaces — Outward pressure exceeds the opposing oncotic and tissue pressures",
         "Cardiac output increases — Output per minute equals heart rate multiplied by volume ejected per beat",
+        "Atrioventricular valves close and the first heart sound occurs — Reversed pressure lifts the valve cusps while chordae prevent prolapse",
         "Venous return to the heart increases — One-way valves direct the squeezed blood centrally and prevent reverse movement",
-        "Atrioventricular valves close and the first heart sound occurs — Reversed pressure lifts the valve cusps while chordae prevent prolapse"
+        "Fluid filters from plasma into tissue spaces — Outward pressure exceeds the opposing oncotic and tissue pressures"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Atrioventricular valves close and the first heart sound occurs. Reversed pressure lifts the valve cusps while chordae prevent prolapse."
     },
     {
@@ -626,12 +598,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Heart rate rises while stroke volume remains constant. What should the model predict first?",
       "options": [
-        "Cardiac output increases",
-        "Fluid filters from plasma into tissue spaces",
         "Venous return to the heart increases",
+        "Fluid filters from plasma into tissue spaces",
+        "Cardiac output increases",
         "Plasma proteins favour net reabsorption of tissue fluid"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Cardiac output increases. Output per minute equals heart rate multiplied by volume ejected per beat."
     },
     {
@@ -641,11 +613,11 @@
       "stem": "What is the most likely cause when cardiac output increases?",
       "options": [
         "Skeletal muscles rhythmically compress limb veins",
-        "Heart rate rises while stroke volume remains constant",
+        "Hydrostatic pressure is high at the arterial end of a capillary",
         "Capillary hydrostatic pressure falls toward the venous end",
-        "Hydrostatic pressure is high at the arterial end of a capillary"
+        "Heart rate rises while stroke volume remains constant"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Cardiac output increases. Output per minute equals heart rate multiplied by volume ejected per beat."
     },
     {
@@ -654,12 +626,12 @@
       "difficulty": "Standard",
       "stem": "After heart rate rises while stroke volume remains constant, which explanation best links the change to its outcome?",
       "options": [
-        "Outward pressure exceeds the opposing oncotic and tissue pressures",
-        "One-way valves direct the squeezed blood centrally and prevent reverse movement",
         "Output per minute equals heart rate multiplied by volume ejected per beat",
+        "One-way valves direct the squeezed blood centrally and prevent reverse movement",
+        "Outward pressure exceeds the opposing oncotic and tissue pressures",
         "Protein-generated oncotic pressure becomes greater than the remaining outward pressure"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Cardiac output increases. Output per minute equals heart rate multiplied by volume ejected per beat."
     },
     {
@@ -669,11 +641,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: heart rate rises while stroke volume remains constant?",
       "options": [
         "Venous return to the heart increases — One-way valves direct the squeezed blood centrally and prevent reverse movement",
-        "Plasma proteins favour net reabsorption of tissue fluid — Protein-generated oncotic pressure becomes greater than the remaining outward pressure",
+        "Cardiac output increases — Output per minute equals heart rate multiplied by volume ejected per beat",
         "Fluid filters from plasma into tissue spaces — Outward pressure exceeds the opposing oncotic and tissue pressures",
-        "Cardiac output increases — Output per minute equals heart rate multiplied by volume ejected per beat"
+        "Plasma proteins favour net reabsorption of tissue fluid — Protein-generated oncotic pressure becomes greater than the remaining outward pressure"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Cardiac output increases. Output per minute equals heart rate multiplied by volume ejected per beat."
     },
     {
@@ -682,12 +654,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Skeletal muscles rhythmically compress limb veins?",
       "options": [
-        "Venous return to the heart increases",
+        "Fluid filters from plasma into tissue spaces",
         "Plasma proteins favour net reabsorption of tissue fluid",
-        "The fluid and leaked proteins eventually return to the blood",
-        "Fluid filters from plasma into tissue spaces"
+        "Venous return to the heart increases",
+        "The fluid and leaked proteins eventually return to the blood"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Venous return to the heart increases. One-way valves direct the squeezed blood centrally and prevent reverse movement."
     },
     {
@@ -696,12 +668,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: venous return to the heart increases?",
       "options": [
+        "Excess tissue fluid enters blind-ended lymph capillaries",
         "Hydrostatic pressure is high at the arterial end of a capillary",
-        "Skeletal muscles rhythmically compress limb veins",
         "Capillary hydrostatic pressure falls toward the venous end",
-        "Excess tissue fluid enters blind-ended lymph capillaries"
+        "Skeletal muscles rhythmically compress limb veins"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Venous return to the heart increases. One-way valves direct the squeezed blood centrally and prevent reverse movement."
     },
     {
@@ -710,12 +682,12 @@
       "difficulty": "Standard",
       "stem": "After skeletal muscles rhythmically compress limb veins, which explanation best links the change to its outcome?",
       "options": [
+        "One-way valves direct the squeezed blood centrally and prevent reverse movement",
         "Outward pressure exceeds the opposing oncotic and tissue pressures",
         "Protein-generated oncotic pressure becomes greater than the remaining outward pressure",
-        "One-way valves direct the squeezed blood centrally and prevent reverse movement",
         "Lymph vessels drain through larger ducts into veins near the heart"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Venous return to the heart increases. One-way valves direct the squeezed blood centrally and prevent reverse movement."
     },
     {
@@ -725,11 +697,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: skeletal muscles rhythmically compress limb veins?",
       "options": [
         "Fluid filters from plasma into tissue spaces — Outward pressure exceeds the opposing oncotic and tissue pressures",
+        "Venous return to the heart increases — One-way valves direct the squeezed blood centrally and prevent reverse movement",
         "Plasma proteins favour net reabsorption of tissue fluid — Protein-generated oncotic pressure becomes greater than the remaining outward pressure",
-        "The fluid and leaked proteins eventually return to the blood — Lymph vessels drain through larger ducts into veins near the heart",
-        "Venous return to the heart increases — One-way valves direct the squeezed blood centrally and prevent reverse movement"
+        "The fluid and leaked proteins eventually return to the blood — Lymph vessels drain through larger ducts into veins near the heart"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Venous return to the heart increases. One-way valves direct the squeezed blood centrally and prevent reverse movement."
     },
     {
@@ -738,12 +710,12 @@
       "difficulty": "Standard",
       "stem": "Hydrostatic pressure is high at the arterial end of a capillary. Which outcome follows most directly?",
       "options": [
-        "Fluid filters from plasma into tissue spaces",
-        "Plasma proteins favour net reabsorption of tissue fluid",
         "The fluid and leaked proteins eventually return to the blood",
+        "Plasma proteins favour net reabsorption of tissue fluid",
+        "Fluid filters from plasma into tissue spaces",
         "Haemoglobin releases oxygen more readily"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Fluid filters from plasma into tissue spaces. Outward pressure exceeds the opposing oncotic and tissue pressures."
     },
     {
@@ -753,11 +725,11 @@
       "stem": "Which change most directly explains this observation: fluid filters from plasma into tissue spaces?",
       "options": [
         "Capillary hydrostatic pressure falls toward the venous end",
-        "Hydrostatic pressure is high at the arterial end of a capillary",
+        "Carbon dioxide and hydrogen-ion concentration rise in active tissue",
         "Excess tissue fluid enters blind-ended lymph capillaries",
-        "Carbon dioxide and hydrogen-ion concentration rise in active tissue"
+        "Hydrostatic pressure is high at the arterial end of a capillary"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Fluid filters from plasma into tissue spaces. Outward pressure exceeds the opposing oncotic and tissue pressures."
     },
     {
@@ -766,26 +738,12 @@
       "difficulty": "Standard",
       "stem": "After hydrostatic pressure is high at the arterial end of a capillary, which explanation best links the change to its outcome?",
       "options": [
-        "Protein-generated oncotic pressure becomes greater than the remaining outward pressure",
-        "Lymph vessels drain through larger ducts into veins near the heart",
         "Outward pressure exceeds the opposing oncotic and tissue pressures",
+        "Lymph vessels drain through larger ducts into veins near the heart",
+        "Protein-generated oncotic pressure becomes greater than the remaining outward pressure",
         "Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right"
       ],
-      "answer": 2,
-      "explanation": "Fluid filters from plasma into tissue spaces. Outward pressure exceeds the opposing oncotic and tissue pressures."
-    },
-    {
-      "id": "circulation-tissue-fluid-integrated",
-      "chapter": "Circulation",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: hydrostatic pressure is high at the arterial end of a capillary?",
-      "options": [
-        "Plasma proteins favour net reabsorption of tissue fluid — Protein-generated oncotic pressure becomes greater than the remaining outward pressure",
-        "The fluid and leaked proteins eventually return to the blood — Lymph vessels drain through larger ducts into veins near the heart",
-        "Haemoglobin releases oxygen more readily — Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right",
-        "Fluid filters from plasma into tissue spaces — Outward pressure exceeds the opposing oncotic and tissue pressures"
-      ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Fluid filters from plasma into tissue spaces. Outward pressure exceeds the opposing oncotic and tissue pressures."
     },
     {
@@ -794,12 +752,12 @@
       "difficulty": "Standard",
       "stem": "After capillary hydrostatic pressure falls toward the venous end, which observation is most likely?",
       "options": [
-        "Plasma proteins favour net reabsorption of tissue fluid",
         "The fluid and leaked proteins eventually return to the blood",
+        "Plasma proteins favour net reabsorption of tissue fluid",
         "Haemoglobin releases oxygen more readily",
         "Part of the cardiac muscle receives less oxygen"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Plasma proteins favour net reabsorption of tissue fluid. Protein-generated oncotic pressure becomes greater than the remaining outward pressure."
     },
     {
@@ -809,11 +767,11 @@
       "stem": "A learner records that plasma proteins favour net reabsorption of tissue fluid. Which preceding event best accounts for it?",
       "options": [
         "Excess tissue fluid enters blind-ended lymph capillaries",
-        "Capillary hydrostatic pressure falls toward the venous end",
         "Carbon dioxide and hydrogen-ion concentration rise in active tissue",
+        "Capillary hydrostatic pressure falls toward the venous end",
         "A coronary artery becomes severely narrowed"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Plasma proteins favour net reabsorption of tissue fluid. Protein-generated oncotic pressure becomes greater than the remaining outward pressure."
     },
     {
@@ -824,10 +782,10 @@
       "options": [
         "Lymph vessels drain through larger ducts into veins near the heart",
         "Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right",
-        "Protein-generated oncotic pressure becomes greater than the remaining outward pressure",
-        "Reduced coronary flow limits aerobic respiration in the myocardium"
+        "Reduced coronary flow limits aerobic respiration in the myocardium",
+        "Protein-generated oncotic pressure becomes greater than the remaining outward pressure"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Plasma proteins favour net reabsorption of tissue fluid. Protein-generated oncotic pressure becomes greater than the remaining outward pressure."
     },
     {
@@ -836,12 +794,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: capillary hydrostatic pressure falls toward the venous end?",
       "options": [
-        "Part of the cardiac muscle receives less oxygen — Reduced coronary flow limits aerobic respiration in the myocardium",
+        "Plasma proteins favour net reabsorption of tissue fluid — Protein-generated oncotic pressure becomes greater than the remaining outward pressure",
         "The fluid and leaked proteins eventually return to the blood — Lymph vessels drain through larger ducts into veins near the heart",
         "Haemoglobin releases oxygen more readily — Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right",
-        "Plasma proteins favour net reabsorption of tissue fluid — Protein-generated oncotic pressure becomes greater than the remaining outward pressure"
+        "Part of the cardiac muscle receives less oxygen — Reduced coronary flow limits aerobic respiration in the myocardium"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Plasma proteins favour net reabsorption of tissue fluid. Protein-generated oncotic pressure becomes greater than the remaining outward pressure."
     },
     {
@@ -850,12 +808,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Excess tissue fluid enters blind-ended lymph capillaries. What should the model predict first?",
       "options": [
+        "Haemoglobin releases oxygen more readily",
         "The fluid and leaked proteins eventually return to the blood",
         "Part of the cardiac muscle receives less oxygen",
-        "Haemoglobin releases oxygen more readily",
         "The left ventricle works harder and vessel walls face greater damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The fluid and leaked proteins eventually return to the blood. Lymph vessels drain through larger ducts into veins near the heart."
     },
     {
@@ -865,11 +823,11 @@
       "stem": "What is the most likely cause when the fluid and leaked proteins eventually return to the blood?",
       "options": [
         "Carbon dioxide and hydrogen-ion concentration rise in active tissue",
+        "A coronary artery becomes severely narrowed",
         "Excess tissue fluid enters blind-ended lymph capillaries",
-        "Systemic arterial pressure remains chronically elevated",
-        "A coronary artery becomes severely narrowed"
+        "Systemic arterial pressure remains chronically elevated"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "The fluid and leaked proteins eventually return to the blood. Lymph vessels drain through larger ducts into veins near the heart."
     },
     {
@@ -878,12 +836,12 @@
       "difficulty": "Standard",
       "stem": "After excess tissue fluid enters blind-ended lymph capillaries, which explanation best links the change to its outcome?",
       "options": [
-        "Reduced coronary flow limits aerobic respiration in the myocardium",
+        "Higher afterload opposes ejection and increases mechanical stress on endothelium",
         "Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right",
-        "Lymph vessels drain through larger ducts into veins near the heart",
-        "Higher afterload opposes ejection and increases mechanical stress on endothelium"
+        "Reduced coronary flow limits aerobic respiration in the myocardium",
+        "Lymph vessels drain through larger ducts into veins near the heart"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "The fluid and leaked proteins eventually return to the blood. Lymph vessels drain through larger ducts into veins near the heart."
     },
     {
@@ -892,12 +850,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: excess tissue fluid enters blind-ended lymph capillaries?",
       "options": [
+        "The fluid and leaked proteins eventually return to the blood — Lymph vessels drain through larger ducts into veins near the heart",
         "Haemoglobin releases oxygen more readily — Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right",
-        "The left ventricle works harder and vessel walls face greater damage — Higher afterload opposes ejection and increases mechanical stress on endothelium",
         "Part of the cardiac muscle receives less oxygen — Reduced coronary flow limits aerobic respiration in the myocardium",
-        "The fluid and leaked proteins eventually return to the blood — Lymph vessels drain through larger ducts into veins near the heart"
+        "The left ventricle works harder and vessel walls face greater damage — Higher afterload opposes ejection and increases mechanical stress on endothelium"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "The fluid and leaked proteins eventually return to the blood. Lymph vessels drain through larger ducts into veins near the heart."
     },
     {
@@ -906,12 +864,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Carbon dioxide and hydrogen-ion concentration rise in active tissue?",
       "options": [
+        "Part of the cardiac muscle receives less oxygen",
         "Haemoglobin releases oxygen more readily",
-        "The left ventricle works harder and vessel walls face greater damage",
         "Venous return, stroke volume and arterial pressure fall",
-        "Part of the cardiac muscle receives less oxygen"
+        "The left ventricle works harder and vessel walls face greater damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Haemoglobin releases oxygen more readily. Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right."
     },
     {
@@ -920,12 +878,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: haemoglobin releases oxygen more readily?",
       "options": [
+        "Systemic arterial pressure remains chronically elevated",
         "A coronary artery becomes severely narrowed",
         "Carbon dioxide and hydrogen-ion concentration rise in active tissue",
-        "Systemic arterial pressure remains chronically elevated",
         "A person rapidly loses a large volume of blood"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Haemoglobin releases oxygen more readily. Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right."
     },
     {
@@ -935,11 +893,11 @@
       "stem": "After carbon dioxide and hydrogen-ion concentration rise in active tissue, which explanation best links the change to its outcome?",
       "options": [
         "Reduced coronary flow limits aerobic respiration in the myocardium",
+        "Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship",
         "Higher afterload opposes ejection and increases mechanical stress on endothelium",
-        "Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right",
-        "Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship"
+        "Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Haemoglobin releases oxygen more readily. Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right."
     },
     {
@@ -948,12 +906,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: carbon dioxide and hydrogen-ion concentration rise in active tissue?",
       "options": [
-        "Part of the cardiac muscle receives less oxygen — Reduced coronary flow limits aerobic respiration in the myocardium",
+        "Haemoglobin releases oxygen more readily — Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right",
         "The left ventricle works harder and vessel walls face greater damage — Higher afterload opposes ejection and increases mechanical stress on endothelium",
-        "Venous return, stroke volume and arterial pressure fall — Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship",
-        "Haemoglobin releases oxygen more readily — Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right"
+        "Part of the cardiac muscle receives less oxygen — Reduced coronary flow limits aerobic respiration in the myocardium",
+        "Venous return, stroke volume and arterial pressure fall — Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Haemoglobin releases oxygen more readily. Lower pH reduces haemoglobin's oxygen affinity and shifts the dissociation curve right."
     },
     {
@@ -962,12 +920,12 @@
       "difficulty": "Standard",
       "stem": "A coronary artery becomes severely narrowed. Which outcome follows most directly?",
       "options": [
-        "Part of the cardiac muscle receives less oxygen",
         "The left ventricle works harder and vessel walls face greater damage",
+        "Part of the cardiac muscle receives less oxygen",
         "Venous return, stroke volume and arterial pressure fall",
         "Heart rate and contractility increase"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Part of the cardiac muscle receives less oxygen. Reduced coronary flow limits aerobic respiration in the myocardium."
     },
     {
@@ -977,11 +935,11 @@
       "stem": "Which change most directly explains this observation: part of the cardiac muscle receives less oxygen?",
       "options": [
         "Systemic arterial pressure remains chronically elevated",
-        "A coronary artery becomes severely narrowed",
         "A person rapidly loses a large volume of blood",
+        "A coronary artery becomes severely narrowed",
         "Sympathetic stimulation rises during exercise"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Part of the cardiac muscle receives less oxygen. Reduced coronary flow limits aerobic respiration in the myocardium."
     },
     {
@@ -992,10 +950,10 @@
       "options": [
         "Higher afterload opposes ejection and increases mechanical stress on endothelium",
         "Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship",
-        "Reduced coronary flow limits aerobic respiration in the myocardium",
-        "Noradrenaline acts on cardiac beta receptors to accelerate pacemaker activity and calcium cycling"
+        "Noradrenaline acts on cardiac beta receptors to accelerate pacemaker activity and calcium cycling",
+        "Reduced coronary flow limits aerobic respiration in the myocardium"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Part of the cardiac muscle receives less oxygen. Reduced coronary flow limits aerobic respiration in the myocardium."
     },
     {
@@ -1004,12 +962,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a coronary artery becomes severely narrowed?",
       "options": [
-        "The left ventricle works harder and vessel walls face greater damage — Higher afterload opposes ejection and increases mechanical stress on endothelium",
+        "Part of the cardiac muscle receives less oxygen — Reduced coronary flow limits aerobic respiration in the myocardium",
         "Venous return, stroke volume and arterial pressure fall — Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship",
         "Heart rate and contractility increase — Noradrenaline acts on cardiac beta receptors to accelerate pacemaker activity and calcium cycling",
-        "Part of the cardiac muscle receives less oxygen — Reduced coronary flow limits aerobic respiration in the myocardium"
+        "The left ventricle works harder and vessel walls face greater damage — Higher afterload opposes ejection and increases mechanical stress on endothelium"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Part of the cardiac muscle receives less oxygen. Reduced coronary flow limits aerobic respiration in the myocardium."
     },
     {
@@ -1018,12 +976,12 @@
       "difficulty": "Standard",
       "stem": "After systemic arterial pressure remains chronically elevated, which observation is most likely?",
       "options": [
-        "The left ventricle works harder and vessel walls face greater damage",
         "Venous return, stroke volume and arterial pressure fall",
+        "The left ventricle works harder and vessel walls face greater damage",
         "Heart rate and contractility increase",
         "It binds a higher proportion of oxygen"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The left ventricle works harder and vessel walls face greater damage. Higher afterload opposes ejection and increases mechanical stress on endothelium."
     },
     {
@@ -1033,11 +991,11 @@
       "stem": "A learner records that the left ventricle works harder and vessel walls face greater damage. Which preceding event best accounts for it?",
       "options": [
         "A person rapidly loses a large volume of blood",
-        "Systemic arterial pressure remains chronically elevated",
         "Sympathetic stimulation rises during exercise",
+        "Systemic arterial pressure remains chronically elevated",
         "Fetal haemoglobin is exposed to the same oxygen pressure as adult haemoglobin"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "The left ventricle works harder and vessel walls face greater damage. Higher afterload opposes ejection and increases mechanical stress on endothelium."
     },
     {
@@ -1048,10 +1006,10 @@
       "options": [
         "Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship",
         "Noradrenaline acts on cardiac beta receptors to accelerate pacemaker activity and calcium cycling",
-        "Higher afterload opposes ejection and increases mechanical stress on endothelium",
-        "Its greater oxygen affinity helps transfer oxygen from maternal to fetal blood"
+        "Its greater oxygen affinity helps transfer oxygen from maternal to fetal blood",
+        "Higher afterload opposes ejection and increases mechanical stress on endothelium"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "The left ventricle works harder and vessel walls face greater damage. Higher afterload opposes ejection and increases mechanical stress on endothelium."
     },
     {
@@ -1060,12 +1018,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: systemic arterial pressure remains chronically elevated?",
       "options": [
-        "It binds a higher proportion of oxygen — Its greater oxygen affinity helps transfer oxygen from maternal to fetal blood",
+        "The left ventricle works harder and vessel walls face greater damage — Higher afterload opposes ejection and increases mechanical stress on endothelium",
         "Venous return, stroke volume and arterial pressure fall — Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship",
         "Heart rate and contractility increase — Noradrenaline acts on cardiac beta receptors to accelerate pacemaker activity and calcium cycling",
-        "The left ventricle works harder and vessel walls face greater damage — Higher afterload opposes ejection and increases mechanical stress on endothelium"
+        "It binds a higher proportion of oxygen — Its greater oxygen affinity helps transfer oxygen from maternal to fetal blood"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "The left ventricle works harder and vessel walls face greater damage. Higher afterload opposes ejection and increases mechanical stress on endothelium."
     },
     {
@@ -1074,12 +1032,12 @@
       "difficulty": "Challenge",
       "stem": "A student models this change: A person rapidly loses a large volume of blood. What should the model predict first?",
       "options": [
+        "Heart rate and contractility increase",
         "Venous return, stroke volume and arterial pressure fall",
         "It binds a higher proportion of oxygen",
-        "Heart rate and contractility increase",
         "Tissue oedema becomes more likely"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Venous return, stroke volume and arterial pressure fall. Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship."
     },
     {
@@ -1089,11 +1047,11 @@
       "stem": "What is the most likely cause when venous return, stroke volume and arterial pressure fall?",
       "options": [
         "Sympathetic stimulation rises during exercise",
+        "Fetal haemoglobin is exposed to the same oxygen pressure as adult haemoglobin",
         "A person rapidly loses a large volume of blood",
-        "Plasma albumin concentration falls markedly",
-        "Fetal haemoglobin is exposed to the same oxygen pressure as adult haemoglobin"
+        "Plasma albumin concentration falls markedly"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Venous return, stroke volume and arterial pressure fall. Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship."
     },
     {
@@ -1102,24 +1060,10 @@
       "difficulty": "Challenge",
       "stem": "After a person rapidly loses a large volume of blood, which explanation best links the change to its outcome?",
       "options": [
-        "Its greater oxygen affinity helps transfer oxygen from maternal to fetal blood",
+        "Reduced plasma oncotic pressure decreases capillary reabsorption of filtered fluid",
         "Noradrenaline acts on cardiac beta receptors to accelerate pacemaker activity and calcium cycling",
-        "Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship",
-        "Reduced plasma oncotic pressure decreases capillary reabsorption of filtered fluid"
-      ],
-      "answer": 2,
-      "explanation": "Venous return, stroke volume and arterial pressure fall. Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship."
-    },
-    {
-      "id": "circulation-haemorrhage-integrated",
-      "chapter": "Circulation",
-      "difficulty": "Challenge",
-      "stem": "Which paired outcome and explanation best follows from this condition: a person rapidly loses a large volume of blood?",
-      "options": [
-        "Heart rate and contractility increase — Noradrenaline acts on cardiac beta receptors to accelerate pacemaker activity and calcium cycling",
-        "Tissue oedema becomes more likely — Reduced plasma oncotic pressure decreases capillary reabsorption of filtered fluid",
-        "It binds a higher proportion of oxygen — Its greater oxygen affinity helps transfer oxygen from maternal to fetal blood",
-        "Venous return, stroke volume and arterial pressure fall — Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship"
+        "Its greater oxygen affinity helps transfer oxygen from maternal to fetal blood",
+        "Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship"
       ],
       "answer": 3,
       "explanation": "Venous return, stroke volume and arterial pressure fall. Reduced circulating volume lowers ventricular filling through the Frank-Starling relationship."
@@ -1403,6 +1347,72 @@
       ],
       "answer": 3,
       "explanation": "The ventricles depolarize less synchronously. The affected region must receive excitation by slower cell-to-cell spread from the intact side."
+    },
+    {
+      "chapter": "Circulation",
+      "id": "applied-cardiac-output",
+      "difficulty": "Standard",
+      "stem": "A heart beats 75 times per minute with a stroke volume of 80 mL. What is its cardiac output?",
+      "options": [
+        "6 L min⁻¹",
+        "0.6 L min⁻¹",
+        "60 L min⁻¹",
+        "155 mL min⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "Cardiac output = heart rate × stroke volume = 75 × 80 = 6,000 mL min⁻¹, or 6 L min⁻¹."
+    },
+    {
+      "chapter": "Circulation",
+      "id": "applied-valve-pressure",
+      "difficulty": "Challenge",
+      "stem": "At one instant, left ventricular pressure is greater than left atrial pressure but lower than aortic pressure. Which valve state is expected?",
+      "options": [
+        "Mitral open; aortic open",
+        "Mitral closed; aortic closed",
+        "Mitral open; aortic closed",
+        "Mitral closed; aortic open"
+      ],
+      "answer": 1,
+      "explanation": "Ventricular pressure above atrial pressure closes the mitral valve. Aortic pressure above ventricular pressure keeps the aortic valve closed. Both can be closed during isovolumetric phases."
+    },
+    {
+      "chapter": "Circulation",
+      "id": "applied-pulmonary-route",
+      "difficulty": "Foundation",
+      "stem": "Which chamber is X in this route?",
+      "options": [
+        "Right atrium",
+        "Left ventricle",
+        "Left atrium",
+        "Right ventricle"
+      ],
+      "answer": 2,
+      "explanation": "Oxygenated blood returning from the lungs enters the left atrium through pulmonary veins, then passes to the left ventricle.",
+      "visual": {
+        "kind": "flow",
+        "caption": "Blood returning from gas exchange",
+        "nodes": [
+          "Lung capillaries",
+          "Pulmonary veins",
+          "X",
+          "Left ventricle"
+        ]
+      }
+    },
+    {
+      "chapter": "Circulation",
+      "id": "applied-capillary-velocity",
+      "difficulty": "Standard",
+      "stem": "Why is mean blood speed relatively low across the systemic capillary network?",
+      "options": [
+        "All blood pressure disappears at the arterial end",
+        "Each capillary has its own beating heart",
+        "Capillary blood contains no water",
+        "The network has a very large combined cross-sectional area"
+      ],
+      "answer": 3,
+      "explanation": "For a given volume flow, a larger total cross-sectional area corresponds to lower mean velocity. The many parallel capillaries create this large combined area."
     }
   ]
 }

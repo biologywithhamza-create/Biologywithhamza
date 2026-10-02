@@ -58,3 +58,5 @@ import "./site-upgrade.css";
 
 import "./theme-surfaces.css";
 import "./appearance.css";
+
+import "./revision/revision.css";

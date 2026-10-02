@@ -29,6 +29,7 @@ export function PlayIcon() {
 
 export function Header() {
   const entries = [
+    {title:"Revision dashboard and mistake notebook",href:"/revision",type:"Revision",keywords:"mistakes scores accuracy due review attempts backup"},
     {title:"Learning workspace",href:"/learn",type:"Learn",keywords:"saved progress notes planner"},
     ...learningChapters.map(c=>({title:c.title+" learning route",href:"/learn/"+c.slug,type:"Chapter",keywords:c.title})),
     { title: "3D Human Atlas", href: "/atlas", type: "Explore", keywords: "human anatomy organs systems layers skeleton muscles heart brain" },
@@ -60,6 +61,7 @@ export function Footer() {
             <Link href="/atlas">3D Human Atlas</Link>
             <Link href="/lab">Interactive Biology Lab</Link>
             <Link href="/practice">MDCAT practice centre</Link>
+            <Link href="/revision">Revision & mistake notebook</Link>
             <Link href="/articles">Biology articles</Link>
             <Link href="/videos">Video lessons</Link>
             <Link href="/about">About Hamza</Link>

@@ -103,31 +103,17 @@
       "explanation": "A generator potential develops in the receptor membrane. Stimulus energy opens or closes ion channels and changes membrane potential."
     },
     {
-      "id": "coordination-receptor-integrated",
-      "chapter": "Coordination & Control",
-      "difficulty": "Foundation",
-      "stem": "Which paired outcome and explanation best follows from this condition: a sensory receptor detects an adequate stimulus?",
-      "options": [
-        "Its interior remains negative relative to the outside — Potassium leakage and the sodium-potassium pump create unequal charge distribution",
-        "An all-or-none action potential begins — Sufficient voltage-gated sodium channels open through positive feedback",
-        "Impulses travel rapidly by saltatory conduction — Current spreads beneath myelin and action potentials regenerate mainly at nodes",
-        "A generator potential develops in the receptor membrane — Stimulus energy opens or closes ion channels and changes membrane potential"
-      ],
-      "answer": 3,
-      "explanation": "A generator potential develops in the receptor membrane. Stimulus energy opens or closes ion channels and changes membrane potential."
-    },
-    {
       "id": "coordination-resting-potential-outcome",
       "chapter": "Coordination & Control",
       "difficulty": "Foundation",
       "stem": "After a neuron maintains ion gradients and greater resting permeability to potassium, which observation is most likely?",
       "options": [
-        "Its interior remains negative relative to the outside",
         "An all-or-none action potential begins",
+        "Neurotransmitter can be released into the synaptic cleft",
         "Impulses travel rapidly by saltatory conduction",
-        "Neurotransmitter can be released into the synaptic cleft"
+        "Its interior remains negative relative to the outside"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Its interior remains negative relative to the outside. Potassium leakage and the sodium-potassium pump create unequal charge distribution."
     },
     {
@@ -136,12 +122,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that its interior remains negative relative to the outside. Which preceding event best accounts for it?",
       "options": [
-        "Membrane depolarization reaches threshold at an axon hillock",
         "A neuron maintains ion gradients and greater resting permeability to potassium",
         "An axon is wrapped in insulating myelin",
+        "Membrane depolarization reaches threshold at an axon hillock",
         "An action potential reaches a presynaptic terminal"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Its interior remains negative relative to the outside. Potassium leakage and the sodium-potassium pump create unequal charge distribution."
     },
     {
@@ -151,11 +137,11 @@
       "stem": "After a neuron maintains ion gradients and greater resting permeability to potassium, which explanation best links the change to its outcome?",
       "options": [
         "Sufficient voltage-gated sodium channels open through positive feedback",
-        "Current spreads beneath myelin and action potentials regenerate mainly at nodes",
         "Potassium leakage and the sodium-potassium pump create unequal charge distribution",
-        "Depolarization opens calcium channels and calcium triggers vesicle fusion"
+        "Depolarization opens calcium channels and calcium triggers vesicle fusion",
+        "Current spreads beneath myelin and action potentials regenerate mainly at nodes"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Its interior remains negative relative to the outside. Potassium leakage and the sodium-potassium pump create unequal charge distribution."
     },
     {
@@ -164,12 +150,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: a neuron maintains ion gradients and greater resting permeability to potassium?",
       "options": [
-        "Neurotransmitter can be released into the synaptic cleft — Depolarization opens calcium channels and calcium triggers vesicle fusion",
-        "An all-or-none action potential begins — Sufficient voltage-gated sodium channels open through positive feedback",
         "Impulses travel rapidly by saltatory conduction — Current spreads beneath myelin and action potentials regenerate mainly at nodes",
-        "Its interior remains negative relative to the outside — Potassium leakage and the sodium-potassium pump create unequal charge distribution"
+        "An all-or-none action potential begins — Sufficient voltage-gated sodium channels open through positive feedback",
+        "Its interior remains negative relative to the outside — Potassium leakage and the sodium-potassium pump create unequal charge distribution",
+        "Neurotransmitter can be released into the synaptic cleft — Depolarization opens calcium channels and calcium triggers vesicle fusion"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Its interior remains negative relative to the outside. Potassium leakage and the sodium-potassium pump create unequal charge distribution."
     },
     {
@@ -178,12 +164,12 @@
       "difficulty": "Foundation",
       "stem": "A student models this change: Membrane depolarization reaches threshold at an axon hillock. What should the model predict first?",
       "options": [
-        "An all-or-none action potential begins",
-        "Neurotransmitter can be released into the synaptic cleft",
         "Impulses travel rapidly by saltatory conduction",
-        "The limb moves before conscious analysis is complete"
+        "Neurotransmitter can be released into the synaptic cleft",
+        "The limb moves before conscious analysis is complete",
+        "An all-or-none action potential begins"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "An all-or-none action potential begins. Sufficient voltage-gated sodium channels open through positive feedback."
     },
     {
@@ -192,12 +178,12 @@
       "difficulty": "Foundation",
       "stem": "What is the most likely cause when an all-or-none action potential begins?",
       "options": [
-        "An axon is wrapped in insulating myelin",
         "Membrane depolarization reaches threshold at an axon hillock",
+        "An action potential reaches a presynaptic terminal",
         "A painful stimulus activates a spinal withdrawal reflex",
-        "An action potential reaches a presynaptic terminal"
+        "An axon is wrapped in insulating myelin"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "An all-or-none action potential begins. Sufficient voltage-gated sodium channels open through positive feedback."
     },
     {
@@ -206,12 +192,12 @@
       "difficulty": "Foundation",
       "stem": "After membrane depolarization reaches threshold at an axon hillock, which explanation best links the change to its outcome?",
       "options": [
-        "Depolarization opens calcium channels and calcium triggers vesicle fusion",
         "Current spreads beneath myelin and action potentials regenerate mainly at nodes",
         "Sufficient voltage-gated sodium channels open through positive feedback",
+        "Depolarization opens calcium channels and calcium triggers vesicle fusion",
         "Interneurons link sensory and motor pathways within the spinal cord"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "An all-or-none action potential begins. Sufficient voltage-gated sodium channels open through positive feedback."
     },
     {
@@ -221,11 +207,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: membrane depolarization reaches threshold at an axon hillock?",
       "options": [
         "Impulses travel rapidly by saltatory conduction — Current spreads beneath myelin and action potentials regenerate mainly at nodes",
-        "The limb moves before conscious analysis is complete — Interneurons link sensory and motor pathways within the spinal cord",
         "Neurotransmitter can be released into the synaptic cleft — Depolarization opens calcium channels and calcium triggers vesicle fusion",
-        "An all-or-none action potential begins — Sufficient voltage-gated sodium channels open through positive feedback"
+        "An all-or-none action potential begins — Sufficient voltage-gated sodium channels open through positive feedback",
+        "The limb moves before conscious analysis is complete — Interneurons link sensory and motor pathways within the spinal cord"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "An all-or-none action potential begins. Sufficient voltage-gated sodium channels open through positive feedback."
     },
     {
@@ -234,12 +220,12 @@
       "difficulty": "Foundation",
       "stem": "Which immediate result is most consistent with this condition: An axon is wrapped in insulating myelin?",
       "options": [
-        "Impulses travel rapidly by saltatory conduction",
+        "Neurotransmitter can be released into the synaptic cleft",
         "The limb moves before conscious analysis is complete",
         "Sodium enters and the membrane potential rapidly becomes less negative",
-        "Neurotransmitter can be released into the synaptic cleft"
+        "Impulses travel rapidly by saltatory conduction"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Impulses travel rapidly by saltatory conduction. Current spreads beneath myelin and action potentials regenerate mainly at nodes."
     },
     {
@@ -248,12 +234,12 @@
       "difficulty": "Foundation",
       "stem": "Which condition would most specifically produce this result: impulses travel rapidly by saltatory conduction?",
       "options": [
-        "An action potential reaches a presynaptic terminal",
         "An axon is wrapped in insulating myelin",
+        "An action potential reaches a presynaptic terminal",
         "A painful stimulus activates a spinal withdrawal reflex",
         "Voltage-gated sodium channels open in an axon membrane"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Impulses travel rapidly by saltatory conduction. Current spreads beneath myelin and action potentials regenerate mainly at nodes."
     },
     {
@@ -263,11 +249,11 @@
       "stem": "After an axon is wrapped in insulating myelin, which explanation best links the change to its outcome?",
       "options": [
         "Depolarization opens calcium channels and calcium triggers vesicle fusion",
-        "Interneurons link sensory and motor pathways within the spinal cord",
         "Current spreads beneath myelin and action potentials regenerate mainly at nodes",
+        "Interneurons link sensory and motor pathways within the spinal cord",
         "Sodium moves inward down both its concentration and electrical gradients"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Impulses travel rapidly by saltatory conduction. Current spreads beneath myelin and action potentials regenerate mainly at nodes."
     },
     {
@@ -278,10 +264,10 @@
       "options": [
         "Neurotransmitter can be released into the synaptic cleft — Depolarization opens calcium channels and calcium triggers vesicle fusion",
         "The limb moves before conscious analysis is complete — Interneurons link sensory and motor pathways within the spinal cord",
-        "Sodium enters and the membrane potential rapidly becomes less negative — Sodium moves inward down both its concentration and electrical gradients",
-        "Impulses travel rapidly by saltatory conduction — Current spreads beneath myelin and action potentials regenerate mainly at nodes"
+        "Impulses travel rapidly by saltatory conduction — Current spreads beneath myelin and action potentials regenerate mainly at nodes",
+        "Sodium enters and the membrane potential rapidly becomes less negative — Sodium moves inward down both its concentration and electrical gradients"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Impulses travel rapidly by saltatory conduction. Current spreads beneath myelin and action potentials regenerate mainly at nodes."
     },
     {
@@ -290,12 +276,12 @@
       "difficulty": "Foundation",
       "stem": "An action potential reaches a presynaptic terminal. Which outcome follows most directly?",
       "options": [
-        "Neurotransmitter can be released into the synaptic cleft",
+        "The action-potential membrane repolarizes",
         "The limb moves before conscious analysis is complete",
         "Sodium enters and the membrane potential rapidly becomes less negative",
-        "The action-potential membrane repolarizes"
+        "Neurotransmitter can be released into the synaptic cleft"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Neurotransmitter can be released into the synaptic cleft. Depolarization opens calcium channels and calcium triggers vesicle fusion."
     },
     {
@@ -304,12 +290,12 @@
       "difficulty": "Foundation",
       "stem": "Which change most directly explains this observation: neurotransmitter can be released into the synaptic cleft?",
       "options": [
-        "A painful stimulus activates a spinal withdrawal reflex",
         "An action potential reaches a presynaptic terminal",
+        "A painful stimulus activates a spinal withdrawal reflex",
         "Voltage-gated sodium channels open in an axon membrane",
         "Sodium channels inactivate and voltage-gated potassium channels open"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Neurotransmitter can be released into the synaptic cleft. Depolarization opens calcium channels and calcium triggers vesicle fusion."
     },
     {
@@ -319,11 +305,11 @@
       "stem": "After an action potential reaches a presynaptic terminal, which explanation best links the change to its outcome?",
       "options": [
         "Interneurons link sensory and motor pathways within the spinal cord",
-        "Sodium moves inward down both its concentration and electrical gradients",
         "Depolarization opens calcium channels and calcium triggers vesicle fusion",
+        "Sodium moves inward down both its concentration and electrical gradients",
         "Potassium efflux restores a negative internal potential"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Neurotransmitter can be released into the synaptic cleft. Depolarization opens calcium channels and calcium triggers vesicle fusion."
     },
     {
@@ -334,10 +320,10 @@
       "options": [
         "The limb moves before conscious analysis is complete — Interneurons link sensory and motor pathways within the spinal cord",
         "Sodium enters and the membrane potential rapidly becomes less negative — Sodium moves inward down both its concentration and electrical gradients",
-        "The action-potential membrane repolarizes — Potassium efflux restores a negative internal potential",
-        "Neurotransmitter can be released into the synaptic cleft — Depolarization opens calcium channels and calcium triggers vesicle fusion"
+        "Neurotransmitter can be released into the synaptic cleft — Depolarization opens calcium channels and calcium triggers vesicle fusion",
+        "The action-potential membrane repolarizes — Potassium efflux restores a negative internal potential"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Neurotransmitter can be released into the synaptic cleft. Depolarization opens calcium channels and calcium triggers vesicle fusion."
     },
     {
@@ -346,12 +332,12 @@
       "difficulty": "Foundation",
       "stem": "After a painful stimulus activates a spinal withdrawal reflex, which observation is most likely?",
       "options": [
-        "The limb moves before conscious analysis is complete",
         "Sodium enters and the membrane potential rapidly becomes less negative",
+        "The same region cannot fire again at once",
         "The action-potential membrane repolarizes",
-        "The same region cannot fire again at once"
+        "The limb moves before conscious analysis is complete"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The limb moves before conscious analysis is complete. Interneurons link sensory and motor pathways within the spinal cord."
     },
     {
@@ -360,12 +346,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that the limb moves before conscious analysis is complete. Which preceding event best accounts for it?",
       "options": [
-        "Voltage-gated sodium channels open in an axon membrane",
         "A painful stimulus activates a spinal withdrawal reflex",
         "Sodium channels inactivate and voltage-gated potassium channels open",
+        "Voltage-gated sodium channels open in an axon membrane",
         "Sodium channels remain inactivated immediately after an action potential"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "The limb moves before conscious analysis is complete. Interneurons link sensory and motor pathways within the spinal cord."
     },
     {
@@ -375,11 +361,11 @@
       "stem": "After a painful stimulus activates a spinal withdrawal reflex, which explanation best links the change to its outcome?",
       "options": [
         "Sodium moves inward down both its concentration and electrical gradients",
-        "Potassium efflux restores a negative internal potential",
         "Interneurons link sensory and motor pathways within the spinal cord",
-        "Channel recovery requires repolarization and creates the absolute refractory period"
+        "Channel recovery requires repolarization and creates the absolute refractory period",
+        "Potassium efflux restores a negative internal potential"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "The limb moves before conscious analysis is complete. Interneurons link sensory and motor pathways within the spinal cord."
     },
     {
@@ -388,12 +374,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: a painful stimulus activates a spinal withdrawal reflex?",
       "options": [
-        "The same region cannot fire again at once — Channel recovery requires repolarization and creates the absolute refractory period",
-        "Sodium enters and the membrane potential rapidly becomes less negative — Sodium moves inward down both its concentration and electrical gradients",
         "The action-potential membrane repolarizes — Potassium efflux restores a negative internal potential",
-        "The limb moves before conscious analysis is complete — Interneurons link sensory and motor pathways within the spinal cord"
+        "Sodium enters and the membrane potential rapidly becomes less negative — Sodium moves inward down both its concentration and electrical gradients",
+        "The limb moves before conscious analysis is complete — Interneurons link sensory and motor pathways within the spinal cord",
+        "The same region cannot fire again at once — Channel recovery requires repolarization and creates the absolute refractory period"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "The limb moves before conscious analysis is complete. Interneurons link sensory and motor pathways within the spinal cord."
     },
     {
@@ -402,12 +388,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Voltage-gated sodium channels open in an axon membrane. What should the model predict first?",
       "options": [
-        "Sodium enters and the membrane potential rapidly becomes less negative",
-        "The same region cannot fire again at once",
         "The action-potential membrane repolarizes",
-        "Conduction speed increases"
+        "The same region cannot fire again at once",
+        "Conduction speed increases",
+        "Sodium enters and the membrane potential rapidly becomes less negative"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Sodium enters and the membrane potential rapidly becomes less negative. Sodium moves inward down both its concentration and electrical gradients."
     },
     {
@@ -416,12 +402,12 @@
       "difficulty": "Standard",
       "stem": "What is the most likely cause when sodium enters and the membrane potential rapidly becomes less negative?",
       "options": [
-        "Sodium channels inactivate and voltage-gated potassium channels open",
         "Voltage-gated sodium channels open in an axon membrane",
+        "Sodium channels remain inactivated immediately after an action potential",
         "Axon diameter increases while other properties remain equal",
-        "Sodium channels remain inactivated immediately after an action potential"
+        "Sodium channels inactivate and voltage-gated potassium channels open"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Sodium enters and the membrane potential rapidly becomes less negative. Sodium moves inward down both its concentration and electrical gradients."
     },
     {
@@ -430,26 +416,12 @@
       "difficulty": "Standard",
       "stem": "After voltage-gated sodium channels open in an axon membrane, which explanation best links the change to its outcome?",
       "options": [
-        "Channel recovery requires repolarization and creates the absolute refractory period",
         "Potassium efflux restores a negative internal potential",
         "Sodium moves inward down both its concentration and electrical gradients",
+        "Channel recovery requires repolarization and creates the absolute refractory period",
         "The wider axon offers lower internal resistance to local current flow"
       ],
-      "answer": 2,
-      "explanation": "Sodium enters and the membrane potential rapidly becomes less negative. Sodium moves inward down both its concentration and electrical gradients."
-    },
-    {
-      "id": "coordination-depolarization-integrated",
-      "chapter": "Coordination & Control",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: voltage-gated sodium channels open in an axon membrane?",
-      "options": [
-        "The action-potential membrane repolarizes — Potassium efflux restores a negative internal potential",
-        "Conduction speed increases — The wider axon offers lower internal resistance to local current flow",
-        "The same region cannot fire again at once — Channel recovery requires repolarization and creates the absolute refractory period",
-        "Sodium enters and the membrane potential rapidly becomes less negative — Sodium moves inward down both its concentration and electrical gradients"
-      ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Sodium enters and the membrane potential rapidly becomes less negative. Sodium moves inward down both its concentration and electrical gradients."
     },
     {
@@ -458,12 +430,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Sodium channels inactivate and voltage-gated potassium channels open?",
       "options": [
-        "The action-potential membrane repolarizes",
+        "The same region cannot fire again at once",
         "Conduction speed increases",
-        "The postsynaptic membrane depolarizes toward threshold",
-        "The same region cannot fire again at once"
+        "The action-potential membrane repolarizes",
+        "The postsynaptic membrane depolarizes toward threshold"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The action-potential membrane repolarizes. Potassium efflux restores a negative internal potential."
     },
     {
@@ -472,12 +444,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: the action-potential membrane repolarizes?",
       "options": [
+        "An excitatory neurotransmitter opens ligand-gated cation channels",
         "Sodium channels remain inactivated immediately after an action potential",
-        "Sodium channels inactivate and voltage-gated potassium channels open",
         "Axon diameter increases while other properties remain equal",
-        "An excitatory neurotransmitter opens ligand-gated cation channels"
+        "Sodium channels inactivate and voltage-gated potassium channels open"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The action-potential membrane repolarizes. Potassium efflux restores a negative internal potential."
     },
     {
@@ -486,12 +458,12 @@
       "difficulty": "Standard",
       "stem": "After sodium channels inactivate and voltage-gated potassium channels open, which explanation best links the change to its outcome?",
       "options": [
+        "Potassium efflux restores a negative internal potential",
         "Channel recovery requires repolarization and creates the absolute refractory period",
         "The wider axon offers lower internal resistance to local current flow",
-        "Potassium efflux restores a negative internal potential",
         "Net positive-ion entry creates an excitatory postsynaptic potential"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "The action-potential membrane repolarizes. Potassium efflux restores a negative internal potential."
     },
     {
@@ -501,11 +473,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: sodium channels inactivate and voltage-gated potassium channels open?",
       "options": [
         "The same region cannot fire again at once — Channel recovery requires repolarization and creates the absolute refractory period",
+        "The action-potential membrane repolarizes — Potassium efflux restores a negative internal potential",
         "Conduction speed increases — The wider axon offers lower internal resistance to local current flow",
-        "The postsynaptic membrane depolarizes toward threshold — Net positive-ion entry creates an excitatory postsynaptic potential",
-        "The action-potential membrane repolarizes — Potassium efflux restores a negative internal potential"
+        "The postsynaptic membrane depolarizes toward threshold — Net positive-ion entry creates an excitatory postsynaptic potential"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "The action-potential membrane repolarizes. Potassium efflux restores a negative internal potential."
     },
     {
@@ -514,12 +486,12 @@
       "difficulty": "Standard",
       "stem": "Sodium channels remain inactivated immediately after an action potential. Which outcome follows most directly?",
       "options": [
-        "The same region cannot fire again at once",
-        "Conduction speed increases",
         "The postsynaptic membrane depolarizes toward threshold",
+        "Conduction speed increases",
+        "The same region cannot fire again at once",
         "Action-potential generation becomes less likely"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The same region cannot fire again at once. Channel recovery requires repolarization and creates the absolute refractory period."
     },
     {
@@ -529,11 +501,11 @@
       "stem": "Which change most directly explains this observation: the same region cannot fire again at once?",
       "options": [
         "Axon diameter increases while other properties remain equal",
-        "Sodium channels remain inactivated immediately after an action potential",
+        "An inhibitory transmitter opens chloride channels",
         "An excitatory neurotransmitter opens ligand-gated cation channels",
-        "An inhibitory transmitter opens chloride channels"
+        "Sodium channels remain inactivated immediately after an action potential"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The same region cannot fire again at once. Channel recovery requires repolarization and creates the absolute refractory period."
     },
     {
@@ -542,12 +514,12 @@
       "difficulty": "Standard",
       "stem": "After sodium channels remain inactivated immediately after an action potential, which explanation best links the change to its outcome?",
       "options": [
-        "The wider axon offers lower internal resistance to local current flow",
-        "Net positive-ion entry creates an excitatory postsynaptic potential",
         "Channel recovery requires repolarization and creates the absolute refractory period",
+        "Net positive-ion entry creates an excitatory postsynaptic potential",
+        "The wider axon offers lower internal resistance to local current flow",
         "Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "The same region cannot fire again at once. Channel recovery requires repolarization and creates the absolute refractory period."
     },
     {
@@ -557,11 +529,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: sodium channels remain inactivated immediately after an action potential?",
       "options": [
         "Conduction speed increases — The wider axon offers lower internal resistance to local current flow",
-        "The postsynaptic membrane depolarizes toward threshold — Net positive-ion entry creates an excitatory postsynaptic potential",
+        "The same region cannot fire again at once — Channel recovery requires repolarization and creates the absolute refractory period",
         "Action-potential generation becomes less likely — Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
-        "The same region cannot fire again at once — Channel recovery requires repolarization and creates the absolute refractory period"
+        "The postsynaptic membrane depolarizes toward threshold — Net positive-ion entry creates an excitatory postsynaptic potential"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "The same region cannot fire again at once. Channel recovery requires repolarization and creates the absolute refractory period."
     },
     {
@@ -570,12 +542,12 @@
       "difficulty": "Standard",
       "stem": "After axon diameter increases while other properties remain equal, which observation is most likely?",
       "options": [
-        "Conduction speed increases",
         "The postsynaptic membrane depolarizes toward threshold",
         "Action-potential generation becomes less likely",
+        "Conduction speed increases",
         "Conscious perception, planning and voluntary action become possible"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Conduction speed increases. The wider axon offers lower internal resistance to local current flow."
     },
     {
@@ -585,11 +557,11 @@
       "stem": "A learner records that conduction speed increases. Which preceding event best accounts for it?",
       "options": [
         "An excitatory neurotransmitter opens ligand-gated cation channels",
-        "Axon diameter increases while other properties remain equal",
         "An inhibitory transmitter opens chloride channels",
-        "Neural activity is processed in the cerebral cortex"
+        "Neural activity is processed in the cerebral cortex",
+        "Axon diameter increases while other properties remain equal"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Conduction speed increases. The wider axon offers lower internal resistance to local current flow."
     },
     {
@@ -598,12 +570,12 @@
       "difficulty": "Standard",
       "stem": "After axon diameter increases while other properties remain equal, which explanation best links the change to its outcome?",
       "options": [
-        "Net positive-ion entry creates an excitatory postsynaptic potential",
-        "Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
         "The wider axon offers lower internal resistance to local current flow",
-        "Specialized cortical areas integrate sensory input with memory and motor commands"
+        "Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
+        "Specialized cortical areas integrate sensory input with memory and motor commands",
+        "Net positive-ion entry creates an excitatory postsynaptic potential"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Conduction speed increases. The wider axon offers lower internal resistance to local current flow."
     },
     {
@@ -612,12 +584,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: axon diameter increases while other properties remain equal?",
       "options": [
-        "Conscious perception, planning and voluntary action become possible — Specialized cortical areas integrate sensory input with memory and motor commands",
         "The postsynaptic membrane depolarizes toward threshold — Net positive-ion entry creates an excitatory postsynaptic potential",
+        "Conduction speed increases — The wider axon offers lower internal resistance to local current flow",
         "Action-potential generation becomes less likely — Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
-        "Conduction speed increases — The wider axon offers lower internal resistance to local current flow"
+        "Conscious perception, planning and voluntary action become possible — Specialized cortical areas integrate sensory input with memory and motor commands"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Conduction speed increases. The wider axon offers lower internal resistance to local current flow."
     },
     {
@@ -626,12 +598,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: An excitatory neurotransmitter opens ligand-gated cation channels. What should the model predict first?",
       "options": [
-        "The postsynaptic membrane depolarizes toward threshold",
-        "Conscious perception, planning and voluntary action become possible",
         "Action-potential generation becomes less likely",
+        "Conscious perception, planning and voluntary action become possible",
+        "The postsynaptic membrane depolarizes toward threshold",
         "Posture, balance and movement precision improve"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The postsynaptic membrane depolarizes toward threshold. Net positive-ion entry creates an excitatory postsynaptic potential."
     },
     {
@@ -641,11 +613,11 @@
       "stem": "What is the most likely cause when the postsynaptic membrane depolarizes toward threshold?",
       "options": [
         "An inhibitory transmitter opens chloride channels",
-        "An excitatory neurotransmitter opens ligand-gated cation channels",
+        "Neural activity is processed in the cerebral cortex",
         "The cerebellum compares intended movement with sensory feedback",
-        "Neural activity is processed in the cerebral cortex"
+        "An excitatory neurotransmitter opens ligand-gated cation channels"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The postsynaptic membrane depolarizes toward threshold. Net positive-ion entry creates an excitatory postsynaptic potential."
     },
     {
@@ -654,12 +626,12 @@
       "difficulty": "Standard",
       "stem": "After an excitatory neurotransmitter opens ligand-gated cation channels, which explanation best links the change to its outcome?",
       "options": [
-        "Specialized cortical areas integrate sensory input with memory and motor commands",
-        "Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
         "Net positive-ion entry creates an excitatory postsynaptic potential",
+        "Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
+        "Specialized cortical areas integrate sensory input with memory and motor commands",
         "Error signals fine-tune motor output without initiating conscious commands"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "The postsynaptic membrane depolarizes toward threshold. Net positive-ion entry creates an excitatory postsynaptic potential."
     },
     {
@@ -669,11 +641,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: an excitatory neurotransmitter opens ligand-gated cation channels?",
       "options": [
         "Action-potential generation becomes less likely — Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
-        "Posture, balance and movement precision improve — Error signals fine-tune motor output without initiating conscious commands",
+        "The postsynaptic membrane depolarizes toward threshold — Net positive-ion entry creates an excitatory postsynaptic potential",
         "Conscious perception, planning and voluntary action become possible — Specialized cortical areas integrate sensory input with memory and motor commands",
-        "The postsynaptic membrane depolarizes toward threshold — Net positive-ion entry creates an excitatory postsynaptic potential"
+        "Posture, balance and movement precision improve — Error signals fine-tune motor output without initiating conscious commands"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "The postsynaptic membrane depolarizes toward threshold. Net positive-ion entry creates an excitatory postsynaptic potential."
     },
     {
@@ -682,12 +654,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: An inhibitory transmitter opens chloride channels?",
       "options": [
-        "Action-potential generation becomes less likely",
+        "Conscious perception, planning and voluntary action become possible",
         "Posture, balance and movement precision improve",
-        "Medullary respiratory centres increase ventilation",
-        "Conscious perception, planning and voluntary action become possible"
+        "Action-potential generation becomes less likely",
+        "Medullary respiratory centres increase ventilation"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Action-potential generation becomes less likely. Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane."
     },
     {
@@ -696,12 +668,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: action-potential generation becomes less likely?",
       "options": [
+        "Blood carbon dioxide rises",
         "Neural activity is processed in the cerebral cortex",
-        "An inhibitory transmitter opens chloride channels",
         "The cerebellum compares intended movement with sensory feedback",
-        "Blood carbon dioxide rises"
+        "An inhibitory transmitter opens chloride channels"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Action-potential generation becomes less likely. Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane."
     },
     {
@@ -710,12 +682,12 @@
       "difficulty": "Standard",
       "stem": "After an inhibitory transmitter opens chloride channels, which explanation best links the change to its outcome?",
       "options": [
+        "Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
         "Specialized cortical areas integrate sensory input with memory and motor commands",
         "Error signals fine-tune motor output without initiating conscious commands",
-        "Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
         "Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Action-potential generation becomes less likely. Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane."
     },
     {
@@ -725,11 +697,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: an inhibitory transmitter opens chloride channels?",
       "options": [
         "Conscious perception, planning and voluntary action become possible — Specialized cortical areas integrate sensory input with memory and motor commands",
+        "Action-potential generation becomes less likely — Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane",
         "Posture, balance and movement precision improve — Error signals fine-tune motor output without initiating conscious commands",
-        "Medullary respiratory centres increase ventilation — Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing",
-        "Action-potential generation becomes less likely — Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane"
+        "Medullary respiratory centres increase ventilation — Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Action-potential generation becomes less likely. Chloride entry stabilizes or hyperpolarizes the postsynaptic membrane."
     },
     {
@@ -738,12 +710,12 @@
       "difficulty": "Standard",
       "stem": "Neural activity is processed in the cerebral cortex. Which outcome follows most directly?",
       "options": [
-        "Conscious perception, planning and voluntary action become possible",
-        "Posture, balance and movement precision improve",
         "Medullary respiratory centres increase ventilation",
+        "Posture, balance and movement precision improve",
+        "Conscious perception, planning and voluntary action become possible",
         "The pupil constricts"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Conscious perception, planning and voluntary action become possible. Specialized cortical areas integrate sensory input with memory and motor commands."
     },
     {
@@ -753,11 +725,11 @@
       "stem": "Which change most directly explains this observation: conscious perception, planning and voluntary action become possible?",
       "options": [
         "The cerebellum compares intended movement with sensory feedback",
-        "Neural activity is processed in the cerebral cortex",
+        "Bright light strikes the retina",
         "Blood carbon dioxide rises",
-        "Bright light strikes the retina"
+        "Neural activity is processed in the cerebral cortex"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Conscious perception, planning and voluntary action become possible. Specialized cortical areas integrate sensory input with memory and motor commands."
     },
     {
@@ -766,26 +738,12 @@
       "difficulty": "Standard",
       "stem": "After neural activity is processed in the cerebral cortex, which explanation best links the change to its outcome?",
       "options": [
-        "Error signals fine-tune motor output without initiating conscious commands",
-        "Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing",
         "Specialized cortical areas integrate sensory input with memory and motor commands",
+        "Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing",
+        "Error signals fine-tune motor output without initiating conscious commands",
         "A parasympathetic reflex contracts circular iris muscles and limits retinal illumination"
       ],
-      "answer": 2,
-      "explanation": "Conscious perception, planning and voluntary action become possible. Specialized cortical areas integrate sensory input with memory and motor commands."
-    },
-    {
-      "id": "coordination-cerebrum-integrated",
-      "chapter": "Coordination & Control",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: neural activity is processed in the cerebral cortex?",
-      "options": [
-        "Posture, balance and movement precision improve — Error signals fine-tune motor output without initiating conscious commands",
-        "Medullary respiratory centres increase ventilation — Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing",
-        "The pupil constricts — A parasympathetic reflex contracts circular iris muscles and limits retinal illumination",
-        "Conscious perception, planning and voluntary action become possible — Specialized cortical areas integrate sensory input with memory and motor commands"
-      ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Conscious perception, planning and voluntary action become possible. Specialized cortical areas integrate sensory input with memory and motor commands."
     },
     {
@@ -794,12 +752,12 @@
       "difficulty": "Standard",
       "stem": "After the cerebellum compares intended movement with sensory feedback, which observation is most likely?",
       "options": [
-        "Posture, balance and movement precision improve",
         "Medullary respiratory centres increase ventilation",
+        "Posture, balance and movement precision improve",
         "The pupil constricts",
         "The lens becomes thicker and more strongly convex"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Posture, balance and movement precision improve. Error signals fine-tune motor output without initiating conscious commands."
     },
     {
@@ -809,11 +767,11 @@
       "stem": "A learner records that posture, balance and movement precision improve. Which preceding event best accounts for it?",
       "options": [
         "Blood carbon dioxide rises",
-        "The cerebellum compares intended movement with sensory feedback",
         "Bright light strikes the retina",
+        "The cerebellum compares intended movement with sensory feedback",
         "The eye focuses on a nearby object"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Posture, balance and movement precision improve. Error signals fine-tune motor output without initiating conscious commands."
     },
     {
@@ -824,10 +782,10 @@
       "options": [
         "Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing",
         "A parasympathetic reflex contracts circular iris muscles and limits retinal illumination",
-        "Error signals fine-tune motor output without initiating conscious commands",
-        "Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases"
+        "Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
+        "Error signals fine-tune motor output without initiating conscious commands"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Posture, balance and movement precision improve. Error signals fine-tune motor output without initiating conscious commands."
     },
     {
@@ -836,12 +794,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: the cerebellum compares intended movement with sensory feedback?",
       "options": [
-        "The lens becomes thicker and more strongly convex — Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
+        "Posture, balance and movement precision improve — Error signals fine-tune motor output without initiating conscious commands",
         "Medullary respiratory centres increase ventilation — Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing",
         "The pupil constricts — A parasympathetic reflex contracts circular iris muscles and limits retinal illumination",
-        "Posture, balance and movement precision improve — Error signals fine-tune motor output without initiating conscious commands"
+        "The lens becomes thicker and more strongly convex — Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Posture, balance and movement precision improve. Error signals fine-tune motor output without initiating conscious commands."
     },
     {
@@ -850,12 +808,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Blood carbon dioxide rises. What should the model predict first?",
       "options": [
+        "The pupil constricts",
         "Medullary respiratory centres increase ventilation",
         "The lens becomes thicker and more strongly convex",
-        "The pupil constricts",
         "Heart rate rises and fuel becomes rapidly available"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Medullary respiratory centres increase ventilation. Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing."
     },
     {
@@ -865,11 +823,11 @@
       "stem": "What is the most likely cause when medullary respiratory centres increase ventilation?",
       "options": [
         "Bright light strikes the retina",
+        "The eye focuses on a nearby object",
         "Blood carbon dioxide rises",
-        "Adrenaline enters the circulation during acute stress",
-        "The eye focuses on a nearby object"
+        "Adrenaline enters the circulation during acute stress"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Medullary respiratory centres increase ventilation. Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing."
     },
     {
@@ -878,12 +836,12 @@
       "difficulty": "Standard",
       "stem": "After blood carbon dioxide rises, which explanation best links the change to its outcome?",
       "options": [
-        "Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
+        "The hormone activates adrenergic receptors in several target organs",
         "A parasympathetic reflex contracts circular iris muscles and limits retinal illumination",
-        "Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing",
-        "The hormone activates adrenergic receptors in several target organs"
+        "Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
+        "Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Medullary respiratory centres increase ventilation. Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing."
     },
     {
@@ -892,12 +850,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: blood carbon dioxide rises?",
       "options": [
+        "Medullary respiratory centres increase ventilation — Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing",
         "The pupil constricts — A parasympathetic reflex contracts circular iris muscles and limits retinal illumination",
-        "Heart rate rises and fuel becomes rapidly available — The hormone activates adrenergic receptors in several target organs",
         "The lens becomes thicker and more strongly convex — Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
-        "Medullary respiratory centres increase ventilation — Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing"
+        "Heart rate rises and fuel becomes rapidly available — The hormone activates adrenergic receptors in several target organs"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Medullary respiratory centres increase ventilation. Chemoreceptor input reflects hydrogen-ion changes and adjusts automatic breathing."
     },
     {
@@ -906,12 +864,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Bright light strikes the retina?",
       "options": [
+        "The lens becomes thicker and more strongly convex",
         "The pupil constricts",
-        "Heart rate rises and fuel becomes rapidly available",
         "Action potentials fail to propagate and paralysis may develop",
-        "The lens becomes thicker and more strongly convex"
+        "Heart rate rises and fuel becomes rapidly available"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The pupil constricts. A parasympathetic reflex contracts circular iris muscles and limits retinal illumination."
     },
     {
@@ -920,12 +878,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: the pupil constricts?",
       "options": [
+        "Adrenaline enters the circulation during acute stress",
         "The eye focuses on a nearby object",
         "Bright light strikes the retina",
-        "Adrenaline enters the circulation during acute stress",
         "Tetrodotoxin blocks voltage-gated sodium channels"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "The pupil constricts. A parasympathetic reflex contracts circular iris muscles and limits retinal illumination."
     },
     {
@@ -935,11 +893,11 @@
       "stem": "After bright light strikes the retina, which explanation best links the change to its outcome?",
       "options": [
         "Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
+        "Regenerative sodium entry cannot produce depolarization in successive axon regions",
         "The hormone activates adrenergic receptors in several target organs",
-        "A parasympathetic reflex contracts circular iris muscles and limits retinal illumination",
-        "Regenerative sodium entry cannot produce depolarization in successive axon regions"
+        "A parasympathetic reflex contracts circular iris muscles and limits retinal illumination"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "The pupil constricts. A parasympathetic reflex contracts circular iris muscles and limits retinal illumination."
     },
     {
@@ -948,12 +906,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: bright light strikes the retina?",
       "options": [
-        "The lens becomes thicker and more strongly convex — Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
+        "The pupil constricts — A parasympathetic reflex contracts circular iris muscles and limits retinal illumination",
         "Heart rate rises and fuel becomes rapidly available — The hormone activates adrenergic receptors in several target organs",
-        "Action potentials fail to propagate and paralysis may develop — Regenerative sodium entry cannot produce depolarization in successive axon regions",
-        "The pupil constricts — A parasympathetic reflex contracts circular iris muscles and limits retinal illumination"
+        "The lens becomes thicker and more strongly convex — Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
+        "Action potentials fail to propagate and paralysis may develop — Regenerative sodium entry cannot produce depolarization in successive axon regions"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "The pupil constricts. A parasympathetic reflex contracts circular iris muscles and limits retinal illumination."
     },
     {
@@ -962,12 +920,12 @@
       "difficulty": "Standard",
       "stem": "The eye focuses on a nearby object. Which outcome follows most directly?",
       "options": [
-        "The lens becomes thicker and more strongly convex",
         "Heart rate rises and fuel becomes rapidly available",
+        "The lens becomes thicker and more strongly convex",
         "Action potentials fail to propagate and paralysis may develop",
         "Conduction slows or fails"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The lens becomes thicker and more strongly convex. Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases."
     },
     {
@@ -977,11 +935,11 @@
       "stem": "Which change most directly explains this observation: the lens becomes thicker and more strongly convex?",
       "options": [
         "Adrenaline enters the circulation during acute stress",
-        "The eye focuses on a nearby object",
         "Tetrodotoxin blocks voltage-gated sodium channels",
+        "The eye focuses on a nearby object",
         "Myelin is lost from sections of a central neuron"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "The lens becomes thicker and more strongly convex. Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases."
     },
     {
@@ -992,10 +950,10 @@
       "options": [
         "The hormone activates adrenergic receptors in several target organs",
         "Regenerative sodium entry cannot produce depolarization in successive axon regions",
-        "Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
-        "Current leaks across exposed membrane before it can depolarize the next node"
+        "Current leaks across exposed membrane before it can depolarize the next node",
+        "Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "The lens becomes thicker and more strongly convex. Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases."
     },
     {
@@ -1004,12 +962,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: the eye focuses on a nearby object?",
       "options": [
-        "Heart rate rises and fuel becomes rapidly available — The hormone activates adrenergic receptors in several target organs",
+        "The lens becomes thicker and more strongly convex — Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases",
         "Action potentials fail to propagate and paralysis may develop — Regenerative sodium entry cannot produce depolarization in successive axon regions",
         "Conduction slows or fails — Current leaks across exposed membrane before it can depolarize the next node",
-        "The lens becomes thicker and more strongly convex — Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases"
+        "Heart rate rises and fuel becomes rapidly available — The hormone activates adrenergic receptors in several target organs"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "The lens becomes thicker and more strongly convex. Ciliary muscles contract, suspensory ligaments slacken and elastic lens curvature increases."
     },
     {
@@ -1018,12 +976,12 @@
       "difficulty": "Standard",
       "stem": "After adrenaline enters the circulation during acute stress, which observation is most likely?",
       "options": [
-        "Heart rate rises and fuel becomes rapidly available",
         "Action potentials fail to propagate and paralysis may develop",
+        "Heart rate rises and fuel becomes rapidly available",
         "Conduction slows or fails",
         "Postsynaptic receptors remain stimulated longer than normal"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Heart rate rises and fuel becomes rapidly available. The hormone activates adrenergic receptors in several target organs."
     },
     {
@@ -1033,11 +991,11 @@
       "stem": "A learner records that heart rate rises and fuel becomes rapidly available. Which preceding event best accounts for it?",
       "options": [
         "Tetrodotoxin blocks voltage-gated sodium channels",
-        "Adrenaline enters the circulation during acute stress",
         "Myelin is lost from sections of a central neuron",
+        "Adrenaline enters the circulation during acute stress",
         "Acetylcholinesterase is inhibited at a cholinergic synapse"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Heart rate rises and fuel becomes rapidly available. The hormone activates adrenergic receptors in several target organs."
     },
     {
@@ -1048,10 +1006,10 @@
       "options": [
         "Regenerative sodium entry cannot produce depolarization in successive axon regions",
         "Current leaks across exposed membrane before it can depolarize the next node",
-        "The hormone activates adrenergic receptors in several target organs",
-        "Acetylcholine accumulates because enzymatic clearance from the cleft is reduced"
+        "Acetylcholine accumulates because enzymatic clearance from the cleft is reduced",
+        "The hormone activates adrenergic receptors in several target organs"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Heart rate rises and fuel becomes rapidly available. The hormone activates adrenergic receptors in several target organs."
     },
     {
@@ -1060,12 +1018,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: adrenaline enters the circulation during acute stress?",
       "options": [
-        "Postsynaptic receptors remain stimulated longer than normal — Acetylcholine accumulates because enzymatic clearance from the cleft is reduced",
+        "Heart rate rises and fuel becomes rapidly available — The hormone activates adrenergic receptors in several target organs",
         "Action potentials fail to propagate and paralysis may develop — Regenerative sodium entry cannot produce depolarization in successive axon regions",
         "Conduction slows or fails — Current leaks across exposed membrane before it can depolarize the next node",
-        "Heart rate rises and fuel becomes rapidly available — The hormone activates adrenergic receptors in several target organs"
+        "Postsynaptic receptors remain stimulated longer than normal — Acetylcholine accumulates because enzymatic clearance from the cleft is reduced"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Heart rate rises and fuel becomes rapidly available. The hormone activates adrenergic receptors in several target organs."
     },
     {
@@ -1074,12 +1032,12 @@
       "difficulty": "Challenge",
       "stem": "A student models this change: Tetrodotoxin blocks voltage-gated sodium channels. What should the model predict first?",
       "options": [
+        "Conduction slows or fails",
         "Action potentials fail to propagate and paralysis may develop",
         "Postsynaptic receptors remain stimulated longer than normal",
-        "Conduction slows or fails",
         "Successive postsynaptic potentials may add to reach threshold"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Action potentials fail to propagate and paralysis may develop. Regenerative sodium entry cannot produce depolarization in successive axon regions."
     },
     {
@@ -1089,11 +1047,11 @@
       "stem": "What is the most likely cause when action potentials fail to propagate and paralysis may develop?",
       "options": [
         "Myelin is lost from sections of a central neuron",
+        "Acetylcholinesterase is inhibited at a cholinergic synapse",
         "Tetrodotoxin blocks voltage-gated sodium channels",
-        "One presynaptic neuron fires repeatedly in rapid succession",
-        "Acetylcholinesterase is inhibited at a cholinergic synapse"
+        "One presynaptic neuron fires repeatedly in rapid succession"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Action potentials fail to propagate and paralysis may develop. Regenerative sodium entry cannot produce depolarization in successive axon regions."
     },
     {
@@ -1102,24 +1060,10 @@
       "difficulty": "Challenge",
       "stem": "After tetrodotoxin blocks voltage-gated sodium channels, which explanation best links the change to its outcome?",
       "options": [
-        "Acetylcholine accumulates because enzymatic clearance from the cleft is reduced",
+        "The membrane has not fully returned to baseline before the next signal arrives",
         "Current leaks across exposed membrane before it can depolarize the next node",
-        "Regenerative sodium entry cannot produce depolarization in successive axon regions",
-        "The membrane has not fully returned to baseline before the next signal arrives"
-      ],
-      "answer": 2,
-      "explanation": "Action potentials fail to propagate and paralysis may develop. Regenerative sodium entry cannot produce depolarization in successive axon regions."
-    },
-    {
-      "id": "coordination-tetrodotoxin-integrated",
-      "chapter": "Coordination & Control",
-      "difficulty": "Challenge",
-      "stem": "Which paired outcome and explanation best follows from this condition: tetrodotoxin blocks voltage-gated sodium channels?",
-      "options": [
-        "Conduction slows or fails — Current leaks across exposed membrane before it can depolarize the next node",
-        "Successive postsynaptic potentials may add to reach threshold — The membrane has not fully returned to baseline before the next signal arrives",
-        "Postsynaptic receptors remain stimulated longer than normal — Acetylcholine accumulates because enzymatic clearance from the cleft is reduced",
-        "Action potentials fail to propagate and paralysis may develop — Regenerative sodium entry cannot produce depolarization in successive axon regions"
+        "Acetylcholine accumulates because enzymatic clearance from the cleft is reduced",
+        "Regenerative sodium entry cannot produce depolarization in successive axon regions"
       ],
       "answer": 3,
       "explanation": "Action potentials fail to propagate and paralysis may develop. Regenerative sodium entry cannot produce depolarization in successive axon regions."
@@ -1403,6 +1347,73 @@
       ],
       "answer": 3,
       "explanation": "Blood glucose may remain high despite abundant insulin. The hormone cannot trigger intracellular signalling for glucose uptake and storage."
+    },
+    {
+      "chapter": "Coordination & Control",
+      "id": "applied-reflex-order",
+      "difficulty": "Foundation",
+      "stem": "Which label belongs at X in the simplified withdrawal reflex pathway?",
+      "options": [
+        "Sensory neuron",
+        "Photoreceptor",
+        "Endocrine gland",
+        "Motor neuron"
+      ],
+      "answer": 0,
+      "explanation": "The sensory neuron carries impulses from the receptor towards the spinal cord. A motor neuron carries the output towards the effector.",
+      "visual": {
+        "kind": "flow",
+        "caption": "Withdrawal reflex; arrows show impulse direction",
+        "nodes": [
+          "Skin receptor",
+          "X",
+          "Spinal cord relay",
+          "Motor neuron",
+          "Muscle"
+        ]
+      }
+    },
+    {
+      "chapter": "Coordination & Control",
+      "id": "applied-conduction-speed",
+      "difficulty": "Standard",
+      "stem": "An impulse travels 0.8 m along an axon in 0.02 s. What is its average conduction speed?",
+      "options": [
+        "0.016 m s⁻¹",
+        "40 m s⁻¹",
+        "4 m s⁻¹",
+        "400 m s⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "Speed = distance ÷ time = 0.8 ÷ 0.02 = 40 m s⁻¹. The units are metres per second, not seconds per metre."
+    },
+    {
+      "chapter": "Coordination & Control",
+      "id": "applied-synaptic-calcium",
+      "difficulty": "Challenge",
+      "stem": "An action potential reaches a presynaptic terminal, but its voltage-gated calcium channels are blocked. What should decline first?",
+      "options": [
+        "Neurotransmitter receptor synthesis throughout the body",
+        "Action potential amplitude in every sensory neuron",
+        "Vesicle fusion and neurotransmitter release",
+        "Myelin thickness along the postsynaptic neuron"
+      ],
+      "answer": 2,
+      "explanation": "Calcium entry at the terminal triggers vesicle fusion. Blocking that entry reduces transmitter release even though the impulse has reached the terminal."
+    },
+    {
+      "chapter": "Coordination & Control",
+      "id": "applied-stimulus-frequency",
+      "difficulty": "Standard",
+      "stem": "A stronger stimulus produces more action potentials per second in the same sensory axon. The height of individual action potentials stays approximately constant. This illustrates:",
+      "options": [
+        "Continuous graded conduction along the entire axon",
+        "Larger action potentials encoding every stronger stimulus",
+        "A complete loss of the refractory period",
+        "Stimulus intensity encoded mainly by impulse frequency in that axon"
+      ],
+      "answer": 3,
+      "explanation": "Action potentials are approximately all-or-none events. Within the axon’s operating limits, a stronger stimulus can increase frequency rather than individual impulse amplitude."
     }
   ]
 }

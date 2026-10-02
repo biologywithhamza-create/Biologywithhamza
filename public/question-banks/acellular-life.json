@@ -103,31 +103,17 @@
       "explanation": "The nucleic acid becomes better protected outside the host cell. Capsid proteins shield the genome from nucleases and environmental damage."
     },
     {
-      "id": "acellular-capsid-protection-integrated",
-      "chapter": "Acellular Life",
-      "difficulty": "Foundation",
-      "stem": "Which paired outcome and explanation best follows from this condition: a viral genome becomes enclosed by a complete capsid?",
-      "options": [
-        "The virus fails to infect that cell efficiently — Attachment requires molecular complementarity between viral ligands and host receptors",
-        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication",
-        "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection",
-        "The nucleic acid becomes better protected outside the host cell — Capsid proteins shield the genome from nucleases and environmental damage"
-      ],
-      "answer": 3,
-      "explanation": "The nucleic acid becomes better protected outside the host cell. Capsid proteins shield the genome from nucleases and environmental damage."
-    },
-    {
       "id": "acellular-host-specificity-outcome",
       "chapter": "Acellular Life",
       "difficulty": "Foundation",
       "stem": "After a virus lacks a surface protein able to bind a cell's receptor, which observation is most likely?",
       "options": [
-        "The virus fails to infect that cell efficiently",
         "It cannot independently synthesize proteins or reproduce",
+        "The bacterial cell ruptures and releases new phages",
         "The phage attaches to a susceptible bacterium",
-        "The bacterial cell ruptures and releases new phages"
+        "The virus fails to infect that cell efficiently"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The virus fails to infect that cell efficiently. Attachment requires molecular complementarity between viral ligands and host receptors."
     },
     {
@@ -136,12 +122,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that the virus fails to infect that cell efficiently. Which preceding event best accounts for it?",
       "options": [
-        "A virion remains outside a living host cell",
         "A virus lacks a surface protein able to bind a cell's receptor",
         "A bacteriophage tail fibre recognizes a bacterial surface receptor",
+        "A virion remains outside a living host cell",
         "A bacteriophage completes a lytic replication cycle"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "The virus fails to infect that cell efficiently. Attachment requires molecular complementarity between viral ligands and host receptors."
     },
     {
@@ -151,11 +137,11 @@
       "stem": "After a virus lacks a surface protein able to bind a cell's receptor, which explanation best links the change to its outcome?",
       "options": [
         "Viruses lack ribosomes and the complete metabolic machinery required for replication",
-        "Specific binding anchors the particle before genome injection",
         "Attachment requires molecular complementarity between viral ligands and host receptors",
-        "Viral components assemble before phage enzymes weaken the host wall and membrane"
+        "Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "Specific binding anchors the particle before genome injection"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "The virus fails to infect that cell efficiently. Attachment requires molecular complementarity between viral ligands and host receptors."
     },
     {
@@ -164,12 +150,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: a virus lacks a surface protein able to bind a cell's receptor?",
       "options": [
-        "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane",
-        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication",
         "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection",
-        "The virus fails to infect that cell efficiently — Attachment requires molecular complementarity between viral ligands and host receptors"
+        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "The virus fails to infect that cell efficiently — Attachment requires molecular complementarity between viral ligands and host receptors",
+        "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "The virus fails to infect that cell efficiently. Attachment requires molecular complementarity between viral ligands and host receptors."
     },
     {
@@ -178,12 +164,12 @@
       "difficulty": "Foundation",
       "stem": "A student models this change: A virion remains outside a living host cell. What should the model predict first?",
       "options": [
-        "It cannot independently synthesize proteins or reproduce",
-        "The bacterial cell ruptures and releases new phages",
         "The phage attaches to a susceptible bacterium",
-        "Virus-specific memory cells form without the full disease"
+        "The bacterial cell ruptures and releases new phages",
+        "Virus-specific memory cells form without the full disease",
+        "It cannot independently synthesize proteins or reproduce"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "It cannot independently synthesize proteins or reproduce. Viruses lack ribosomes and the complete metabolic machinery required for replication."
     },
     {
@@ -192,12 +178,12 @@
       "difficulty": "Foundation",
       "stem": "What is the most likely cause when it cannot independently synthesize proteins or reproduce?",
       "options": [
-        "A bacteriophage tail fibre recognizes a bacterial surface receptor",
         "A virion remains outside a living host cell",
+        "A bacteriophage completes a lytic replication cycle",
         "A safe viral antigen is introduced by vaccination",
-        "A bacteriophage completes a lytic replication cycle"
+        "A bacteriophage tail fibre recognizes a bacterial surface receptor"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "It cannot independently synthesize proteins or reproduce. Viruses lack ribosomes and the complete metabolic machinery required for replication."
     },
     {
@@ -206,12 +192,12 @@
       "difficulty": "Foundation",
       "stem": "After a virion remains outside a living host cell, which explanation best links the change to its outcome?",
       "options": [
-        "Viral components assemble before phage enzymes weaken the host wall and membrane",
         "Specific binding anchors the particle before genome injection",
         "Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "Viral components assemble before phage enzymes weaken the host wall and membrane",
         "Adaptive lymphocytes undergo clonal selection after recognizing the antigen"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "It cannot independently synthesize proteins or reproduce. Viruses lack ribosomes and the complete metabolic machinery required for replication."
     },
     {
@@ -221,11 +207,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: a virion remains outside a living host cell?",
       "options": [
         "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection",
-        "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
         "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane",
-        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication"
+        "It cannot independently synthesize proteins or reproduce — Viruses lack ribosomes and the complete metabolic machinery required for replication",
+        "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "It cannot independently synthesize proteins or reproduce. Viruses lack ribosomes and the complete metabolic machinery required for replication."
     },
     {
@@ -234,12 +220,12 @@
       "difficulty": "Foundation",
       "stem": "Which immediate result is most consistent with this condition: A bacteriophage tail fibre recognizes a bacterial surface receptor?",
       "options": [
-        "The phage attaches to a susceptible bacterium",
+        "The bacterial cell ruptures and releases new phages",
         "Virus-specific memory cells form without the full disease",
         "Its ability to enter host cells declines sharply",
-        "The bacterial cell ruptures and releases new phages"
+        "The phage attaches to a susceptible bacterium"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The phage attaches to a susceptible bacterium. Specific binding anchors the particle before genome injection."
     },
     {
@@ -248,12 +234,12 @@
       "difficulty": "Foundation",
       "stem": "Which condition would most specifically produce this result: the phage attaches to a susceptible bacterium?",
       "options": [
-        "A bacteriophage completes a lytic replication cycle",
         "A bacteriophage tail fibre recognizes a bacterial surface receptor",
+        "A bacteriophage completes a lytic replication cycle",
         "A safe viral antigen is introduced by vaccination",
         "A lipid-envelope virus is exposed to a detergent"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "The phage attaches to a susceptible bacterium. Specific binding anchors the particle before genome injection."
     },
     {
@@ -263,11 +249,11 @@
       "stem": "After a bacteriophage tail fibre recognizes a bacterial surface receptor, which explanation best links the change to its outcome?",
       "options": [
         "Viral components assemble before phage enzymes weaken the host wall and membrane",
-        "Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
         "Specific binding anchors the particle before genome injection",
+        "Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
         "Detergent disrupts the membrane carrying the viral attachment and fusion proteins"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "The phage attaches to a susceptible bacterium. Specific binding anchors the particle before genome injection."
     },
     {
@@ -278,10 +264,10 @@
       "options": [
         "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane",
         "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
-        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
-        "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection"
+        "The phage attaches to a susceptible bacterium — Specific binding anchors the particle before genome injection",
+        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "The phage attaches to a susceptible bacterium. Specific binding anchors the particle before genome injection."
     },
     {
@@ -290,12 +276,12 @@
       "difficulty": "Foundation",
       "stem": "A bacteriophage completes a lytic replication cycle. Which outcome follows most directly?",
       "options": [
-        "The bacterial cell ruptures and releases new phages",
+        "The prophage may leave the chromosome and enter the lytic cycle",
         "Virus-specific memory cells form without the full disease",
         "Its ability to enter host cells declines sharply",
-        "The prophage may leave the chromosome and enter the lytic cycle"
+        "The bacterial cell ruptures and releases new phages"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The bacterial cell ruptures and releases new phages. Viral components assemble before phage enzymes weaken the host wall and membrane."
     },
     {
@@ -304,12 +290,12 @@
       "difficulty": "Foundation",
       "stem": "Which change most directly explains this observation: the bacterial cell ruptures and releases new phages?",
       "options": [
-        "A safe viral antigen is introduced by vaccination",
         "A bacteriophage completes a lytic replication cycle",
+        "A safe viral antigen is introduced by vaccination",
         "A lipid-envelope virus is exposed to a detergent",
         "DNA damage activates an integrated bacteriophage genome"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "The bacterial cell ruptures and releases new phages. Viral components assemble before phage enzymes weaken the host wall and membrane."
     },
     {
@@ -319,11 +305,11 @@
       "stem": "After a bacteriophage completes a lytic replication cycle, which explanation best links the change to its outcome?",
       "options": [
         "Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
-        "Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
         "Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
         "Stress-induced regulatory changes switch viral genes from latency to active replication"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "The bacterial cell ruptures and releases new phages. Viral components assemble before phage enzymes weaken the host wall and membrane."
     },
     {
@@ -334,10 +320,10 @@
       "options": [
         "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
         "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
-        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication",
-        "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane"
+        "The bacterial cell ruptures and releases new phages — Viral components assemble before phage enzymes weaken the host wall and membrane",
+        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "The bacterial cell ruptures and releases new phages. Viral components assemble before phage enzymes weaken the host wall and membrane."
     },
     {
@@ -346,12 +332,12 @@
       "difficulty": "Foundation",
       "stem": "After a safe viral antigen is introduced by vaccination, which observation is most likely?",
       "options": [
-        "Virus-specific memory cells form without the full disease",
         "Its ability to enter host cells declines sharply",
+        "It cannot efficiently produce a DNA copy of its RNA genome",
         "The prophage may leave the chromosome and enter the lytic cycle",
-        "It cannot efficiently produce a DNA copy of its RNA genome"
+        "Virus-specific memory cells form without the full disease"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Virus-specific memory cells form without the full disease. Adaptive lymphocytes undergo clonal selection after recognizing the antigen."
     },
     {
@@ -360,12 +346,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that virus-specific memory cells form without the full disease. Which preceding event best accounts for it?",
       "options": [
-        "A lipid-envelope virus is exposed to a detergent",
         "A safe viral antigen is introduced by vaccination",
         "DNA damage activates an integrated bacteriophage genome",
+        "A lipid-envelope virus is exposed to a detergent",
         "A retrovirus loses functional reverse transcriptase"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Virus-specific memory cells form without the full disease. Adaptive lymphocytes undergo clonal selection after recognizing the antigen."
     },
     {
@@ -375,11 +361,11 @@
       "stem": "After a safe viral antigen is introduced by vaccination, which explanation best links the change to its outcome?",
       "options": [
         "Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
-        "Stress-induced regulatory changes switch viral genes from latency to active replication",
         "Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
-        "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration"
+        "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "Stress-induced regulatory changes switch viral genes from latency to active replication"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Virus-specific memory cells form without the full disease. Adaptive lymphocytes undergo clonal selection after recognizing the antigen."
     },
     {
@@ -388,12 +374,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: a safe viral antigen is introduced by vaccination?",
       "options": [
-        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
-        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
         "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication",
-        "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen"
+        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
+        "Virus-specific memory cells form without the full disease — Adaptive lymphocytes undergo clonal selection after recognizing the antigen",
+        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Virus-specific memory cells form without the full disease. Adaptive lymphocytes undergo clonal selection after recognizing the antigen."
     },
     {
@@ -402,12 +388,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: A lipid-envelope virus is exposed to a detergent. What should the model predict first?",
       "options": [
-        "Its ability to enter host cells declines sharply",
-        "It cannot efficiently produce a DNA copy of its RNA genome",
         "The prophage may leave the chromosome and enter the lytic cycle",
-        "Both antibody and cytotoxic immune responses become poorly coordinated"
+        "It cannot efficiently produce a DNA copy of its RNA genome",
+        "Both antibody and cytotoxic immune responses become poorly coordinated",
+        "Its ability to enter host cells declines sharply"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Its ability to enter host cells declines sharply. Detergent disrupts the membrane carrying the viral attachment and fusion proteins."
     },
     {
@@ -416,12 +402,12 @@
       "difficulty": "Standard",
       "stem": "What is the most likely cause when its ability to enter host cells declines sharply?",
       "options": [
-        "DNA damage activates an integrated bacteriophage genome",
         "A lipid-envelope virus is exposed to a detergent",
+        "A retrovirus loses functional reverse transcriptase",
         "HIV progressively destroys many CD4 helper T cells",
-        "A retrovirus loses functional reverse transcriptase"
+        "DNA damage activates an integrated bacteriophage genome"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Its ability to enter host cells declines sharply. Detergent disrupts the membrane carrying the viral attachment and fusion proteins."
     },
     {
@@ -430,26 +416,12 @@
       "difficulty": "Standard",
       "stem": "After a lipid-envelope virus is exposed to a detergent, which explanation best links the change to its outcome?",
       "options": [
-        "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
         "Stress-induced regulatory changes switch viral genes from latency to active replication",
         "Detergent disrupts the membrane carrying the viral attachment and fusion proteins",
+        "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
         "Helper T-cell signals normally activate and sustain several adaptive immune pathways"
       ],
-      "answer": 2,
-      "explanation": "Its ability to enter host cells declines sharply. Detergent disrupts the membrane carrying the viral attachment and fusion proteins."
-    },
-    {
-      "id": "acellular-envelope-detergent-integrated",
-      "chapter": "Acellular Life",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: a lipid-envelope virus is exposed to a detergent?",
-      "options": [
-        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication",
-        "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways",
-        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
-        "Its ability to enter host cells declines sharply — Detergent disrupts the membrane carrying the viral attachment and fusion proteins"
-      ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Its ability to enter host cells declines sharply. Detergent disrupts the membrane carrying the viral attachment and fusion proteins."
     },
     {
@@ -458,12 +430,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: DNA damage activates an integrated bacteriophage genome?",
       "options": [
-        "The prophage may leave the chromosome and enter the lytic cycle",
+        "It cannot efficiently produce a DNA copy of its RNA genome",
         "Both antibody and cytotoxic immune responses become poorly coordinated",
-        "Existing antibodies bind some new viral strains less effectively",
-        "It cannot efficiently produce a DNA copy of its RNA genome"
+        "The prophage may leave the chromosome and enter the lytic cycle",
+        "Existing antibodies bind some new viral strains less effectively"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The prophage may leave the chromosome and enter the lytic cycle. Stress-induced regulatory changes switch viral genes from latency to active replication."
     },
     {
@@ -472,12 +444,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: the prophage may leave the chromosome and enter the lytic cycle?",
       "options": [
+        "Small mutations accumulate in viral surface-antigen genes",
         "A retrovirus loses functional reverse transcriptase",
-        "DNA damage activates an integrated bacteriophage genome",
         "HIV progressively destroys many CD4 helper T cells",
-        "Small mutations accumulate in viral surface-antigen genes"
+        "DNA damage activates an integrated bacteriophage genome"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The prophage may leave the chromosome and enter the lytic cycle. Stress-induced regulatory changes switch viral genes from latency to active replication."
     },
     {
@@ -486,12 +458,12 @@
       "difficulty": "Standard",
       "stem": "After DNA damage activates an integrated bacteriophage genome, which explanation best links the change to its outcome?",
       "options": [
+        "Stress-induced regulatory changes switch viral genes from latency to active replication",
         "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
         "Helper T-cell signals normally activate and sustain several adaptive immune pathways",
-        "Stress-induced regulatory changes switch viral genes from latency to active replication",
         "Altered epitopes reduce complementarity with antibodies generated against earlier strains"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "The prophage may leave the chromosome and enter the lytic cycle. Stress-induced regulatory changes switch viral genes from latency to active replication."
     },
     {
@@ -501,11 +473,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: DNA damage activates an integrated bacteriophage genome?",
       "options": [
         "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication",
         "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways",
-        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains",
-        "The prophage may leave the chromosome and enter the lytic cycle — Stress-induced regulatory changes switch viral genes from latency to active replication"
+        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "The prophage may leave the chromosome and enter the lytic cycle. Stress-induced regulatory changes switch viral genes from latency to active replication."
     },
     {
@@ -514,12 +486,12 @@
       "difficulty": "Standard",
       "stem": "A retrovirus loses functional reverse transcriptase. Which outcome follows most directly?",
       "options": [
-        "It cannot efficiently produce a DNA copy of its RNA genome",
-        "Both antibody and cytotoxic immune responses become poorly coordinated",
         "Existing antibodies bind some new viral strains less effectively",
+        "Both antibody and cytotoxic immune responses become poorly coordinated",
+        "It cannot efficiently produce a DNA copy of its RNA genome",
         "A virus with a substantially new antigen combination can appear"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "It cannot efficiently produce a DNA copy of its RNA genome. Reverse transcriptase catalyses RNA-directed DNA synthesis before integration."
     },
     {
@@ -529,11 +501,11 @@
       "stem": "Which change most directly explains this observation: it cannot efficiently produce a DNA copy of its RNA genome?",
       "options": [
         "HIV progressively destroys many CD4 helper T cells",
-        "A retrovirus loses functional reverse transcriptase",
+        "Two influenza strains exchange genome segments in one host cell",
         "Small mutations accumulate in viral surface-antigen genes",
-        "Two influenza strains exchange genome segments in one host cell"
+        "A retrovirus loses functional reverse transcriptase"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "It cannot efficiently produce a DNA copy of its RNA genome. Reverse transcriptase catalyses RNA-directed DNA synthesis before integration."
     },
     {
@@ -542,12 +514,12 @@
       "difficulty": "Standard",
       "stem": "After a retrovirus loses functional reverse transcriptase, which explanation best links the change to its outcome?",
       "options": [
-        "Helper T-cell signals normally activate and sustain several adaptive immune pathways",
-        "Altered epitopes reduce complementarity with antibodies generated against earlier strains",
         "Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
+        "Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "Helper T-cell signals normally activate and sustain several adaptive immune pathways",
         "Reassortment mixes segmented RNA genomes and may create novel surface proteins"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "It cannot efficiently produce a DNA copy of its RNA genome. Reverse transcriptase catalyses RNA-directed DNA synthesis before integration."
     },
     {
@@ -557,11 +529,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: a retrovirus loses functional reverse transcriptase?",
       "options": [
         "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways",
-        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration",
         "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins",
-        "It cannot efficiently produce a DNA copy of its RNA genome — Reverse transcriptase catalyses RNA-directed DNA synthesis before integration"
+        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "It cannot efficiently produce a DNA copy of its RNA genome. Reverse transcriptase catalyses RNA-directed DNA synthesis before integration."
     },
     {
@@ -570,12 +542,12 @@
       "difficulty": "Standard",
       "stem": "After HIV progressively destroys many CD4 helper T cells, which observation is most likely?",
       "options": [
-        "Both antibody and cytotoxic immune responses become poorly coordinated",
         "Existing antibodies bind some new viral strains less effectively",
         "A virus with a substantially new antigen combination can appear",
+        "Both antibody and cytotoxic immune responses become poorly coordinated",
         "Clinical symptoms may disappear while the infection remains"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Both antibody and cytotoxic immune responses become poorly coordinated. Helper T-cell signals normally activate and sustain several adaptive immune pathways."
     },
     {
@@ -585,11 +557,11 @@
       "stem": "A learner records that both antibody and cytotoxic immune responses become poorly coordinated. Which preceding event best accounts for it?",
       "options": [
         "Small mutations accumulate in viral surface-antigen genes",
-        "HIV progressively destroys many CD4 helper T cells",
         "Two influenza strains exchange genome segments in one host cell",
-        "A viral genome persists in host cells with limited gene expression"
+        "A viral genome persists in host cells with limited gene expression",
+        "HIV progressively destroys many CD4 helper T cells"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Both antibody and cytotoxic immune responses become poorly coordinated. Helper T-cell signals normally activate and sustain several adaptive immune pathways."
     },
     {
@@ -598,12 +570,12 @@
       "difficulty": "Standard",
       "stem": "After HIV progressively destroys many CD4 helper T cells, which explanation best links the change to its outcome?",
       "options": [
-        "Altered epitopes reduce complementarity with antibodies generated against earlier strains",
-        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
         "Helper T-cell signals normally activate and sustain several adaptive immune pathways",
-        "Latency minimizes particle production and immune detection until reactivation"
+        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
+        "Latency minimizes particle production and immune detection until reactivation",
+        "Altered epitopes reduce complementarity with antibodies generated against earlier strains"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Both antibody and cytotoxic immune responses become poorly coordinated. Helper T-cell signals normally activate and sustain several adaptive immune pathways."
     },
     {
@@ -612,12 +584,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: HIV progressively destroys many CD4 helper T cells?",
       "options": [
-        "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation",
         "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways",
         "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins",
-        "Both antibody and cytotoxic immune responses become poorly coordinated — Helper T-cell signals normally activate and sustain several adaptive immune pathways"
+        "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Both antibody and cytotoxic immune responses become poorly coordinated. Helper T-cell signals normally activate and sustain several adaptive immune pathways."
     },
     {
@@ -626,12 +598,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Small mutations accumulate in viral surface-antigen genes. What should the model predict first?",
       "options": [
-        "Existing antibodies bind some new viral strains less effectively",
-        "Clinical symptoms may disappear while the infection remains",
         "A virus with a substantially new antigen combination can appear",
+        "Clinical symptoms may disappear while the infection remains",
+        "Existing antibodies bind some new viral strains less effectively",
         "Nearby cells become more resistant to viral replication"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Existing antibodies bind some new viral strains less effectively. Altered epitopes reduce complementarity with antibodies generated against earlier strains."
     },
     {
@@ -641,11 +613,11 @@
       "stem": "What is the most likely cause when existing antibodies bind some new viral strains less effectively?",
       "options": [
         "Two influenza strains exchange genome segments in one host cell",
-        "Small mutations accumulate in viral surface-antigen genes",
+        "A viral genome persists in host cells with limited gene expression",
         "A virus-infected cell releases type I interferons",
-        "A viral genome persists in host cells with limited gene expression"
+        "Small mutations accumulate in viral surface-antigen genes"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Existing antibodies bind some new viral strains less effectively. Altered epitopes reduce complementarity with antibodies generated against earlier strains."
     },
     {
@@ -654,12 +626,12 @@
       "difficulty": "Standard",
       "stem": "After small mutations accumulate in viral surface-antigen genes, which explanation best links the change to its outcome?",
       "options": [
-        "Latency minimizes particle production and immune detection until reactivation",
-        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
         "Altered epitopes reduce complementarity with antibodies generated against earlier strains",
+        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
+        "Latency minimizes particle production and immune detection until reactivation",
         "Interferon signalling induces antiviral proteins that inhibit genome copying and translation"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Existing antibodies bind some new viral strains less effectively. Altered epitopes reduce complementarity with antibodies generated against earlier strains."
     },
     {
@@ -669,11 +641,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: small mutations accumulate in viral surface-antigen genes?",
       "options": [
         "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins",
-        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
+        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains",
         "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation",
-        "Existing antibodies bind some new viral strains less effectively — Altered epitopes reduce complementarity with antibodies generated against earlier strains"
+        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Existing antibodies bind some new viral strains less effectively. Altered epitopes reduce complementarity with antibodies generated against earlier strains."
     },
     {
@@ -682,12 +654,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: Two influenza strains exchange genome segments in one host cell?",
       "options": [
-        "A virus with a substantially new antigen combination can appear",
+        "Clinical symptoms may disappear while the infection remains",
         "Nearby cells become more resistant to viral replication",
-        "Attachment and entry into host cells are reduced",
-        "Clinical symptoms may disappear while the infection remains"
+        "A virus with a substantially new antigen combination can appear",
+        "Attachment and entry into host cells are reduced"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "A virus with a substantially new antigen combination can appear. Reassortment mixes segmented RNA genomes and may create novel surface proteins."
     },
     {
@@ -696,12 +668,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: a virus with a substantially new antigen combination can appear?",
       "options": [
+        "Antibodies cover a virus's receptor-binding proteins",
         "A viral genome persists in host cells with limited gene expression",
-        "Two influenza strains exchange genome segments in one host cell",
         "A virus-infected cell releases type I interferons",
-        "Antibodies cover a virus's receptor-binding proteins"
+        "Two influenza strains exchange genome segments in one host cell"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "A virus with a substantially new antigen combination can appear. Reassortment mixes segmented RNA genomes and may create novel surface proteins."
     },
     {
@@ -710,12 +682,12 @@
       "difficulty": "Standard",
       "stem": "After two influenza strains exchange genome segments in one host cell, which explanation best links the change to its outcome?",
       "options": [
+        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
         "Latency minimizes particle production and immune detection until reactivation",
         "Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
-        "Reassortment mixes segmented RNA genomes and may create novel surface proteins",
         "Neutralization blocks the viral structures needed to recognize cellular receptors"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "A virus with a substantially new antigen combination can appear. Reassortment mixes segmented RNA genomes and may create novel surface proteins."
     },
     {
@@ -725,11 +697,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: two influenza strains exchange genome segments in one host cell?",
       "options": [
         "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation",
+        "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins",
         "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
-        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors",
-        "A virus with a substantially new antigen combination can appear — Reassortment mixes segmented RNA genomes and may create novel surface proteins"
+        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "A virus with a substantially new antigen combination can appear. Reassortment mixes segmented RNA genomes and may create novel surface proteins."
     },
     {
@@ -738,12 +710,12 @@
       "difficulty": "Standard",
       "stem": "A viral genome persists in host cells with limited gene expression. Which outcome follows most directly?",
       "options": [
-        "Clinical symptoms may disappear while the infection remains",
-        "Nearby cells become more resistant to viral replication",
         "Attachment and entry into host cells are reduced",
+        "Nearby cells become more resistant to viral replication",
+        "Clinical symptoms may disappear while the infection remains",
         "More proteins adopt the abnormal aggregation-prone shape"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Clinical symptoms may disappear while the infection remains. Latency minimizes particle production and immune detection until reactivation."
     },
     {
@@ -753,11 +725,11 @@
       "stem": "Which change most directly explains this observation: clinical symptoms may disappear while the infection remains?",
       "options": [
         "A virus-infected cell releases type I interferons",
-        "A viral genome persists in host cells with limited gene expression",
+        "A misfolded prion protein contacts the normal form of the protein",
         "Antibodies cover a virus's receptor-binding proteins",
-        "A misfolded prion protein contacts the normal form of the protein"
+        "A viral genome persists in host cells with limited gene expression"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Clinical symptoms may disappear while the infection remains. Latency minimizes particle production and immune detection until reactivation."
     },
     {
@@ -766,26 +738,12 @@
       "difficulty": "Standard",
       "stem": "After a viral genome persists in host cells with limited gene expression, which explanation best links the change to its outcome?",
       "options": [
-        "Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
-        "Neutralization blocks the viral structures needed to recognize cellular receptors",
         "Latency minimizes particle production and immune detection until reactivation",
+        "Neutralization blocks the viral structures needed to recognize cellular receptors",
+        "Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
         "The abnormal conformation templates misfolding without using nucleic acid"
       ],
-      "answer": 2,
-      "explanation": "Clinical symptoms may disappear while the infection remains. Latency minimizes particle production and immune detection until reactivation."
-    },
-    {
-      "id": "acellular-latent-virus-integrated",
-      "chapter": "Acellular Life",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: a viral genome persists in host cells with limited gene expression?",
-      "options": [
-        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
-        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors",
-        "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid",
-        "Clinical symptoms may disappear while the infection remains — Latency minimizes particle production and immune detection until reactivation"
-      ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Clinical symptoms may disappear while the infection remains. Latency minimizes particle production and immune detection until reactivation."
     },
     {
@@ -794,12 +752,12 @@
       "difficulty": "Standard",
       "stem": "After a virus-infected cell releases type I interferons, which observation is most likely?",
       "options": [
-        "Nearby cells become more resistant to viral replication",
         "Attachment and entry into host cells are reduced",
+        "Nearby cells become more resistant to viral replication",
         "More proteins adopt the abnormal aggregation-prone shape",
         "Plant gene regulation and growth may be disrupted"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Nearby cells become more resistant to viral replication. Interferon signalling induces antiviral proteins that inhibit genome copying and translation."
     },
     {
@@ -809,11 +767,11 @@
       "stem": "A learner records that nearby cells become more resistant to viral replication. Which preceding event best accounts for it?",
       "options": [
         "Antibodies cover a virus's receptor-binding proteins",
-        "A virus-infected cell releases type I interferons",
         "A misfolded prion protein contacts the normal form of the protein",
+        "A virus-infected cell releases type I interferons",
         "A small circular viroid RNA enters a susceptible plant"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Nearby cells become more resistant to viral replication. Interferon signalling induces antiviral proteins that inhibit genome copying and translation."
     },
     {
@@ -824,10 +782,10 @@
       "options": [
         "Neutralization blocks the viral structures needed to recognize cellular receptors",
         "The abnormal conformation templates misfolding without using nucleic acid",
-        "Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
-        "The naked RNA interacts with host pathways despite encoding no capsid proteins"
+        "The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Interferon signalling induces antiviral proteins that inhibit genome copying and translation"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Nearby cells become more resistant to viral replication. Interferon signalling induces antiviral proteins that inhibit genome copying and translation."
     },
     {
@@ -836,12 +794,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a virus-infected cell releases type I interferons?",
       "options": [
-        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation",
         "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors",
         "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid",
-        "Nearby cells become more resistant to viral replication — Interferon signalling induces antiviral proteins that inhibit genome copying and translation"
+        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Nearby cells become more resistant to viral replication. Interferon signalling induces antiviral proteins that inhibit genome copying and translation."
     },
     {
@@ -850,12 +808,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Antibodies cover a virus's receptor-binding proteins. What should the model predict first?",
       "options": [
+        "More proteins adopt the abnormal aggregation-prone shape",
         "Attachment and entry into host cells are reduced",
         "Plant gene regulation and growth may be disrupted",
-        "More proteins adopt the abnormal aggregation-prone shape",
         "Production of new viral genomes declines"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Attachment and entry into host cells are reduced. Neutralization blocks the viral structures needed to recognize cellular receptors."
     },
     {
@@ -865,11 +823,11 @@
       "stem": "What is the most likely cause when attachment and entry into host cells are reduced?",
       "options": [
         "A misfolded prion protein contacts the normal form of the protein",
+        "A small circular viroid RNA enters a susceptible plant",
         "Antibodies cover a virus's receptor-binding proteins",
-        "A drug selectively inhibits an essential viral polymerase",
-        "A small circular viroid RNA enters a susceptible plant"
+        "A drug selectively inhibits an essential viral polymerase"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Attachment and entry into host cells are reduced. Neutralization blocks the viral structures needed to recognize cellular receptors."
     },
     {
@@ -878,12 +836,12 @@
       "difficulty": "Standard",
       "stem": "After antibodies cover a virus's receptor-binding proteins, which explanation best links the change to its outcome?",
       "options": [
-        "The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
         "The abnormal conformation templates misfolding without using nucleic acid",
-        "Neutralization blocks the viral structures needed to recognize cellular receptors",
-        "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected"
+        "The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Neutralization blocks the viral structures needed to recognize cellular receptors"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Attachment and entry into host cells are reduced. Neutralization blocks the viral structures needed to recognize cellular receptors."
     },
     {
@@ -892,12 +850,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: antibodies cover a virus's receptor-binding proteins?",
       "options": [
+        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors",
         "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid",
-        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
         "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins",
-        "Attachment and entry into host cells are reduced — Neutralization blocks the viral structures needed to recognize cellular receptors"
+        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Attachment and entry into host cells are reduced. Neutralization blocks the viral structures needed to recognize cellular receptors."
     },
     {
@@ -906,12 +864,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: A misfolded prion protein contacts the normal form of the protein?",
       "options": [
+        "Plant gene regulation and growth may be disrupted",
         "More proteins adopt the abnormal aggregation-prone shape",
-        "Production of new viral genomes declines",
         "No complete infectious particles are briefly detectable inside the cell",
-        "Plant gene regulation and growth may be disrupted"
+        "Production of new viral genomes declines"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "More proteins adopt the abnormal aggregation-prone shape. The abnormal conformation templates misfolding without using nucleic acid."
     },
     {
@@ -920,12 +878,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: more proteins adopt the abnormal aggregation-prone shape?",
       "options": [
+        "A drug selectively inhibits an essential viral polymerase",
         "A small circular viroid RNA enters a susceptible plant",
         "A misfolded prion protein contacts the normal form of the protein",
-        "A drug selectively inhibits an essential viral polymerase",
         "A virus has entered and uncoated inside a host cell"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "More proteins adopt the abnormal aggregation-prone shape. The abnormal conformation templates misfolding without using nucleic acid."
     },
     {
@@ -935,11 +893,11 @@
       "stem": "After a misfolded prion protein contacts the normal form of the protein, which explanation best links the change to its outcome?",
       "options": [
         "The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "Parental virions are disassembled before newly synthesized parts have been assembled",
         "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
-        "The abnormal conformation templates misfolding without using nucleic acid",
-        "Parental virions are disassembled before newly synthesized parts have been assembled"
+        "The abnormal conformation templates misfolding without using nucleic acid"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "More proteins adopt the abnormal aggregation-prone shape. The abnormal conformation templates misfolding without using nucleic acid."
     },
     {
@@ -948,12 +906,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a misfolded prion protein contacts the normal form of the protein?",
       "options": [
-        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid",
         "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
-        "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled",
-        "More proteins adopt the abnormal aggregation-prone shape — The abnormal conformation templates misfolding without using nucleic acid"
+        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins",
+        "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "More proteins adopt the abnormal aggregation-prone shape. The abnormal conformation templates misfolding without using nucleic acid."
     },
     {
@@ -962,12 +920,12 @@
       "difficulty": "Standard",
       "stem": "A small circular viroid RNA enters a susceptible plant. Which outcome follows most directly?",
       "options": [
-        "Plant gene regulation and growth may be disrupted",
         "Production of new viral genomes declines",
+        "Plant gene regulation and growth may be disrupted",
         "No complete infectious particles are briefly detectable inside the cell",
         "Progeny may contain genome segments from both parental viruses"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Plant gene regulation and growth may be disrupted. The naked RNA interacts with host pathways despite encoding no capsid proteins."
     },
     {
@@ -977,11 +935,11 @@
       "stem": "Which change most directly explains this observation: plant gene regulation and growth may be disrupted?",
       "options": [
         "A drug selectively inhibits an essential viral polymerase",
-        "A small circular viroid RNA enters a susceptible plant",
         "A virus has entered and uncoated inside a host cell",
+        "A small circular viroid RNA enters a susceptible plant",
         "Two related segmented viruses infect the same cell simultaneously"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Plant gene regulation and growth may be disrupted. The naked RNA interacts with host pathways despite encoding no capsid proteins."
     },
     {
@@ -992,10 +950,10 @@
       "options": [
         "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
         "Parental virions are disassembled before newly synthesized parts have been assembled",
-        "The naked RNA interacts with host pathways despite encoding no capsid proteins",
-        "Shared assembly machinery can package a reassorted combination of compatible segments"
+        "Shared assembly machinery can package a reassorted combination of compatible segments",
+        "The naked RNA interacts with host pathways despite encoding no capsid proteins"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Plant gene regulation and growth may be disrupted. The naked RNA interacts with host pathways despite encoding no capsid proteins."
     },
     {
@@ -1004,12 +962,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a small circular viroid RNA enters a susceptible plant?",
       "options": [
-        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
+        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins",
         "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled",
         "Progeny may contain genome segments from both parental viruses — Shared assembly machinery can package a reassorted combination of compatible segments",
-        "Plant gene regulation and growth may be disrupted — The naked RNA interacts with host pathways despite encoding no capsid proteins"
+        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Plant gene regulation and growth may be disrupted. The naked RNA interacts with host pathways despite encoding no capsid proteins."
     },
     {
@@ -1018,12 +976,12 @@
       "difficulty": "Standard",
       "stem": "After a drug selectively inhibits an essential viral polymerase, which observation is most likely?",
       "options": [
-        "Production of new viral genomes declines",
         "No complete infectious particles are briefly detectable inside the cell",
+        "Production of new viral genomes declines",
         "Progeny may contain genome segments from both parental viruses",
         "The host cell's normal gene function may be disrupted"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Production of new viral genomes declines. Genome replication cannot proceed normally while most host DNA enzymes remain unaffected."
     },
     {
@@ -1033,11 +991,11 @@
       "stem": "A learner records that production of new viral genomes declines. Which preceding event best accounts for it?",
       "options": [
         "A virus has entered and uncoated inside a host cell",
-        "A drug selectively inhibits an essential viral polymerase",
         "Two related segmented viruses infect the same cell simultaneously",
+        "A drug selectively inhibits an essential viral polymerase",
         "Integration inserts retroviral DNA into an essential host gene"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Production of new viral genomes declines. Genome replication cannot proceed normally while most host DNA enzymes remain unaffected."
     },
     {
@@ -1048,10 +1006,10 @@
       "options": [
         "Parental virions are disassembled before newly synthesized parts have been assembled",
         "Shared assembly machinery can package a reassorted combination of compatible segments",
-        "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
-        "Insertional mutagenesis changes the coding sequence or its regulation"
+        "Insertional mutagenesis changes the coding sequence or its regulation",
+        "Genome replication cannot proceed normally while most host DNA enzymes remain unaffected"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Production of new viral genomes declines. Genome replication cannot proceed normally while most host DNA enzymes remain unaffected."
     },
     {
@@ -1060,12 +1018,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a drug selectively inhibits an essential viral polymerase?",
       "options": [
-        "The host cell's normal gene function may be disrupted — Insertional mutagenesis changes the coding sequence or its regulation",
+        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected",
         "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled",
         "Progeny may contain genome segments from both parental viruses — Shared assembly machinery can package a reassorted combination of compatible segments",
-        "Production of new viral genomes declines — Genome replication cannot proceed normally while most host DNA enzymes remain unaffected"
+        "The host cell's normal gene function may be disrupted — Insertional mutagenesis changes the coding sequence or its regulation"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Production of new viral genomes declines. Genome replication cannot proceed normally while most host DNA enzymes remain unaffected."
     },
     {
@@ -1074,12 +1032,12 @@
       "difficulty": "Challenge",
       "stem": "A student models this change: A virus has entered and uncoated inside a host cell. What should the model predict first?",
       "options": [
+        "Progeny may contain genome segments from both parental viruses",
         "No complete infectious particles are briefly detectable inside the cell",
         "The host cell's normal gene function may be disrupted",
-        "Progeny may contain genome segments from both parental viruses",
         "The viral population accumulates genetic variation rapidly"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "No complete infectious particles are briefly detectable inside the cell. Parental virions are disassembled before newly synthesized parts have been assembled."
     },
     {
@@ -1089,11 +1047,11 @@
       "stem": "What is the most likely cause when no complete infectious particles are briefly detectable inside the cell?",
       "options": [
         "Two related segmented viruses infect the same cell simultaneously",
+        "Integration inserts retroviral DNA into an essential host gene",
         "A virus has entered and uncoated inside a host cell",
-        "An RNA virus polymerase lacks effective proofreading",
-        "Integration inserts retroviral DNA into an essential host gene"
+        "An RNA virus polymerase lacks effective proofreading"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "No complete infectious particles are briefly detectable inside the cell. Parental virions are disassembled before newly synthesized parts have been assembled."
     },
     {
@@ -1102,24 +1060,10 @@
       "difficulty": "Challenge",
       "stem": "After a virus has entered and uncoated inside a host cell, which explanation best links the change to its outcome?",
       "options": [
-        "Insertional mutagenesis changes the coding sequence or its regulation",
+        "Replication errors persist instead of being corrected before progeny genomes form",
         "Shared assembly machinery can package a reassorted combination of compatible segments",
-        "Parental virions are disassembled before newly synthesized parts have been assembled",
-        "Replication errors persist instead of being corrected before progeny genomes form"
-      ],
-      "answer": 2,
-      "explanation": "No complete infectious particles are briefly detectable inside the cell. Parental virions are disassembled before newly synthesized parts have been assembled."
-    },
-    {
-      "id": "acellular-eclipse-period-integrated",
-      "chapter": "Acellular Life",
-      "difficulty": "Challenge",
-      "stem": "Which paired outcome and explanation best follows from this condition: a virus has entered and uncoated inside a host cell?",
-      "options": [
-        "Progeny may contain genome segments from both parental viruses — Shared assembly machinery can package a reassorted combination of compatible segments",
-        "The viral population accumulates genetic variation rapidly — Replication errors persist instead of being corrected before progeny genomes form",
-        "The host cell's normal gene function may be disrupted — Insertional mutagenesis changes the coding sequence or its regulation",
-        "No complete infectious particles are briefly detectable inside the cell — Parental virions are disassembled before newly synthesized parts have been assembled"
+        "Insertional mutagenesis changes the coding sequence or its regulation",
+        "Parental virions are disassembled before newly synthesized parts have been assembled"
       ],
       "answer": 3,
       "explanation": "No complete infectious particles are briefly detectable inside the cell. Parental virions are disassembled before newly synthesized parts have been assembled."
@@ -1403,6 +1347,94 @@
       ],
       "answer": 3,
       "explanation": "Stable insertion of viral DNA into host chromosomes is reduced. The drug blocks the enzyme that normally joins reverse-transcribed viral DNA to host DNA."
+    },
+    {
+      "chapter": "Acellular Life",
+      "id": "applied-phage-burst",
+      "difficulty": "Standard",
+      "stem": "After unadsorbed phages are removed, 200 infected bacteria release 16,000 new infectious phages in one cycle. Assuming every infected cell lyses, what is the mean burst size?",
+      "options": [
+        "80 phages per bacterium",
+        "200 phages per bacterium",
+        "8 phages per bacterium",
+        "16,000 phages per bacterium"
+      ],
+      "answer": 0,
+      "explanation": "Burst size is progeny released per infected cell: 16,000 ÷ 200 = 80. It is not the total number of particles in the culture."
+    },
+    {
+      "chapter": "Acellular Life",
+      "id": "applied-viral-block",
+      "difficulty": "Challenge",
+      "stem": "A drug does not change the number of viral genomes inside cells just after entry, but it sharply reduces viral protein production. Which early step is most directly affected?",
+      "options": [
+        "Attachment to receptors",
+        "Translation of viral mRNA",
+        "Release of mature virions",
+        "Adsorption to the cell surface"
+      ],
+      "answer": 1,
+      "explanation": "Comparable intracellular genome numbers indicate entry occurred. Reduced viral protein production points most directly to translation, although later replication can also fall as a consequence."
+    },
+    {
+      "chapter": "Acellular Life",
+      "id": "applied-retrovirus-order",
+      "difficulty": "Standard",
+      "stem": "In the simplified retrovirus pathway, which enzyme performs step X?",
+      "options": [
+        "DNA ligase",
+        "RNA-dependent RNA polymerase",
+        "Reverse transcriptase",
+        "Restriction endonuclease"
+      ],
+      "answer": 2,
+      "explanation": "Reverse transcriptase synthesizes DNA using viral RNA as a template. Integrase is involved later in inserting the DNA into the host genome.",
+      "visual": {
+        "kind": "flow",
+        "caption": "Retrovirus information pathway",
+        "nodes": [
+          "Viral RNA",
+          "X",
+          "Viral DNA",
+          "Integration into host DNA"
+        ]
+      }
+    },
+    {
+      "chapter": "Acellular Life",
+      "id": "applied-treatment-control",
+      "difficulty": "Standard",
+      "stem": "What does the table best support about this virus under the conditions tested?",
+      "options": [
+        "Its genome must be DNA",
+        "Its capsid is made of phospholipid only",
+        "It reproduces outside living cells",
+        "It contains a detergent-sensitive structure important for infectivity"
+      ],
+      "answer": 3,
+      "explanation": "Detergent sensitivity supports a role for a lipid envelope in infection. These results alone do not identify the genome type or prove that the capsid consists of lipid.",
+      "visual": {
+        "kind": "table",
+        "caption": "Equal virus samples; infectivity measured after treatment",
+        "headers": [
+          "Treatment",
+          "Relative infectious units"
+        ],
+        "rows": [
+          [
+            "Untreated",
+            "100"
+          ],
+          [
+            "Detergent",
+            "2"
+          ],
+          [
+            "Control buffer",
+            "98"
+          ]
+        ]
+      }
     }
   ]
 }

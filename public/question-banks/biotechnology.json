@@ -103,31 +103,17 @@
       "explanation": "The DNA backbone is cut at or near that site. The enzyme hydrolyses phosphodiester bonds in both strands."
     },
     {
-      "id": "biotechnology-restriction-integrated",
-      "chapter": "Biotechnology",
-      "difficulty": "Foundation",
-      "stem": "Which paired outcome and explanation best follows from this condition: a restriction endonuclease recognizes its specific DNA sequence?",
-      "options": [
-        "They align by base pairing — Hydrogen bonds between matching overhangs hold the fragments together for ligation",
-        "A continuous recombinant DNA backbone forms — The enzyme creates phosphodiester bonds between neighbouring nucleotides",
-        "The inserted DNA can be copied as the plasmid replicates — The vector contains an origin of replication recognized by bacterial machinery",
-        "The DNA backbone is cut at or near that site — The enzyme hydrolyses phosphodiester bonds in both strands"
-      ],
-      "answer": 3,
-      "explanation": "The DNA backbone is cut at or near that site. The enzyme hydrolyses phosphodiester bonds in both strands."
-    },
-    {
       "id": "biotechnology-sticky-outcome",
       "chapter": "Biotechnology",
       "difficulty": "Foundation",
       "stem": "After two DNA fragments have complementary sticky ends, which observation is most likely?",
       "options": [
-        "They align by base pairing",
         "A continuous recombinant DNA backbone forms",
+        "Only cells carrying the resistance-marked plasmid form colonies",
         "The inserted DNA can be copied as the plasmid replicates",
-        "Only cells carrying the resistance-marked plasmid form colonies"
+        "They align by base pairing"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "They align by base pairing. Hydrogen bonds between matching overhangs hold the fragments together for ligation."
     },
     {
@@ -136,12 +122,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that they align by base pairing. Which preceding event best accounts for it?",
       "options": [
-        "DNA ligase acts on adjacent aligned DNA fragments",
         "Two DNA fragments have complementary sticky ends",
         "A recombinant plasmid enters a compatible bacterial cell",
+        "DNA ligase acts on adjacent aligned DNA fragments",
         "Transformed bacteria are placed on an antibiotic medium"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "They align by base pairing. Hydrogen bonds between matching overhangs hold the fragments together for ligation."
     },
     {
@@ -151,11 +137,11 @@
       "stem": "After two DNA fragments have complementary sticky ends, which explanation best links the change to its outcome?",
       "options": [
         "The enzyme creates phosphodiester bonds between neighbouring nucleotides",
-        "The vector contains an origin of replication recognized by bacterial machinery",
         "Hydrogen bonds between matching overhangs hold the fragments together for ligation",
-        "The selectable marker permits survival in the presence of the drug"
+        "The selectable marker permits survival in the presence of the drug",
+        "The vector contains an origin of replication recognized by bacterial machinery"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "They align by base pairing. Hydrogen bonds between matching overhangs hold the fragments together for ligation."
     },
     {
@@ -164,12 +150,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: two DNA fragments have complementary sticky ends?",
       "options": [
-        "Only cells carrying the resistance-marked plasmid form colonies — The selectable marker permits survival in the presence of the drug",
-        "A continuous recombinant DNA backbone forms — The enzyme creates phosphodiester bonds between neighbouring nucleotides",
         "The inserted DNA can be copied as the plasmid replicates — The vector contains an origin of replication recognized by bacterial machinery",
-        "They align by base pairing — Hydrogen bonds between matching overhangs hold the fragments together for ligation"
+        "A continuous recombinant DNA backbone forms — The enzyme creates phosphodiester bonds between neighbouring nucleotides",
+        "They align by base pairing — Hydrogen bonds between matching overhangs hold the fragments together for ligation",
+        "Only cells carrying the resistance-marked plasmid form colonies — The selectable marker permits survival in the presence of the drug"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "They align by base pairing. Hydrogen bonds between matching overhangs hold the fragments together for ligation."
     },
     {
@@ -178,12 +164,12 @@
       "difficulty": "Foundation",
       "stem": "A student models this change: DNA ligase acts on adjacent aligned DNA fragments. What should the model predict first?",
       "options": [
-        "A continuous recombinant DNA backbone forms",
-        "Only cells carrying the resistance-marked plasmid form colonies",
         "The inserted DNA can be copied as the plasmid replicates",
-        "Millions of copies accumulate"
+        "Only cells carrying the resistance-marked plasmid form colonies",
+        "Millions of copies accumulate",
+        "A continuous recombinant DNA backbone forms"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "A continuous recombinant DNA backbone forms. The enzyme creates phosphodiester bonds between neighbouring nucleotides."
     },
     {
@@ -192,12 +178,12 @@
       "difficulty": "Foundation",
       "stem": "What is the most likely cause when a continuous recombinant DNA backbone forms?",
       "options": [
-        "A recombinant plasmid enters a compatible bacterial cell",
         "DNA ligase acts on adjacent aligned DNA fragments",
+        "Transformed bacteria are placed on an antibiotic medium",
         "A target DNA region undergoes repeated PCR cycles with suitable primers",
-        "Transformed bacteria are placed on an antibiotic medium"
+        "A recombinant plasmid enters a compatible bacterial cell"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "A continuous recombinant DNA backbone forms. The enzyme creates phosphodiester bonds between neighbouring nucleotides."
     },
     {
@@ -206,12 +192,12 @@
       "difficulty": "Foundation",
       "stem": "After DNA ligase acts on adjacent aligned DNA fragments, which explanation best links the change to its outcome?",
       "options": [
-        "The selectable marker permits survival in the presence of the drug",
         "The vector contains an origin of replication recognized by bacterial machinery",
         "The enzyme creates phosphodiester bonds between neighbouring nucleotides",
+        "The selectable marker permits survival in the presence of the drug",
         "Denaturation, annealing and extension approximately double the target each efficient cycle"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "A continuous recombinant DNA backbone forms. The enzyme creates phosphodiester bonds between neighbouring nucleotides."
     },
     {
@@ -221,11 +207,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: DNA ligase acts on adjacent aligned DNA fragments?",
       "options": [
         "The inserted DNA can be copied as the plasmid replicates — The vector contains an origin of replication recognized by bacterial machinery",
-        "Millions of copies accumulate — Denaturation, annealing and extension approximately double the target each efficient cycle",
         "Only cells carrying the resistance-marked plasmid form colonies — The selectable marker permits survival in the presence of the drug",
-        "A continuous recombinant DNA backbone forms — The enzyme creates phosphodiester bonds between neighbouring nucleotides"
+        "A continuous recombinant DNA backbone forms — The enzyme creates phosphodiester bonds between neighbouring nucleotides",
+        "Millions of copies accumulate — Denaturation, annealing and extension approximately double the target each efficient cycle"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "A continuous recombinant DNA backbone forms. The enzyme creates phosphodiester bonds between neighbouring nucleotides."
     },
     {
@@ -234,12 +220,12 @@
       "difficulty": "Foundation",
       "stem": "Which immediate result is most consistent with this condition: A recombinant plasmid enters a compatible bacterial cell?",
       "options": [
-        "The inserted DNA can be copied as the plasmid replicates",
+        "Only cells carrying the resistance-marked plasmid form colonies",
         "Millions of copies accumulate",
         "Complementary DNA without introns is produced",
-        "Only cells carrying the resistance-marked plasmid form colonies"
+        "The inserted DNA can be copied as the plasmid replicates"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The inserted DNA can be copied as the plasmid replicates. The vector contains an origin of replication recognized by bacterial machinery."
     },
     {
@@ -248,12 +234,12 @@
       "difficulty": "Foundation",
       "stem": "Which condition would most specifically produce this result: the inserted DNA can be copied as the plasmid replicates?",
       "options": [
-        "Transformed bacteria are placed on an antibiotic medium",
         "A recombinant plasmid enters a compatible bacterial cell",
+        "Transformed bacteria are placed on an antibiotic medium",
         "A target DNA region undergoes repeated PCR cycles with suitable primers",
         "Mature mRNA is used as a template by reverse transcriptase"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "The inserted DNA can be copied as the plasmid replicates. The vector contains an origin of replication recognized by bacterial machinery."
     },
     {
@@ -263,11 +249,11 @@
       "stem": "After a recombinant plasmid enters a compatible bacterial cell, which explanation best links the change to its outcome?",
       "options": [
         "The selectable marker permits survival in the presence of the drug",
-        "Denaturation, annealing and extension approximately double the target each efficient cycle",
         "The vector contains an origin of replication recognized by bacterial machinery",
+        "Denaturation, annealing and extension approximately double the target each efficient cycle",
         "RNA-directed DNA synthesis copies the processed transcript"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "The inserted DNA can be copied as the plasmid replicates. The vector contains an origin of replication recognized by bacterial machinery."
     },
     {
@@ -278,10 +264,10 @@
       "options": [
         "Only cells carrying the resistance-marked plasmid form colonies — The selectable marker permits survival in the presence of the drug",
         "Millions of copies accumulate — Denaturation, annealing and extension approximately double the target each efficient cycle",
-        "Complementary DNA without introns is produced — RNA-directed DNA synthesis copies the processed transcript",
-        "The inserted DNA can be copied as the plasmid replicates — The vector contains an origin of replication recognized by bacterial machinery"
+        "The inserted DNA can be copied as the plasmid replicates — The vector contains an origin of replication recognized by bacterial machinery",
+        "Complementary DNA without introns is produced — RNA-directed DNA synthesis copies the processed transcript"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "The inserted DNA can be copied as the plasmid replicates. The vector contains an origin of replication recognized by bacterial machinery."
     },
     {
@@ -290,12 +276,12 @@
       "difficulty": "Foundation",
       "stem": "Transformed bacteria are placed on an antibiotic medium. Which outcome follows most directly?",
       "options": [
-        "Only cells carrying the resistance-marked plasmid form colonies",
+        "Bacteria can translate the uninterrupted coding region",
         "Millions of copies accumulate",
         "Complementary DNA without introns is produced",
-        "Bacteria can translate the uninterrupted coding region"
+        "Only cells carrying the resistance-marked plasmid form colonies"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Only cells carrying the resistance-marked plasmid form colonies. The selectable marker permits survival in the presence of the drug."
     },
     {
@@ -304,12 +290,12 @@
       "difficulty": "Foundation",
       "stem": "Which change most directly explains this observation: only cells carrying the resistance-marked plasmid form colonies?",
       "options": [
-        "A target DNA region undergoes repeated PCR cycles with suitable primers",
         "Transformed bacteria are placed on an antibiotic medium",
+        "A target DNA region undergoes repeated PCR cycles with suitable primers",
         "Mature mRNA is used as a template by reverse transcriptase",
         "A human coding sequence made from cDNA is expressed in bacteria"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Only cells carrying the resistance-marked plasmid form colonies. The selectable marker permits survival in the presence of the drug."
     },
     {
@@ -319,11 +305,11 @@
       "stem": "After transformed bacteria are placed on an antibiotic medium, which explanation best links the change to its outcome?",
       "options": [
         "Denaturation, annealing and extension approximately double the target each efficient cycle",
-        "RNA-directed DNA synthesis copies the processed transcript",
         "The selectable marker permits survival in the presence of the drug",
+        "RNA-directed DNA synthesis copies the processed transcript",
         "The cDNA lacks introns that bacteria cannot remove by splicing"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Only cells carrying the resistance-marked plasmid form colonies. The selectable marker permits survival in the presence of the drug."
     },
     {
@@ -334,10 +320,10 @@
       "options": [
         "Millions of copies accumulate — Denaturation, annealing and extension approximately double the target each efficient cycle",
         "Complementary DNA without introns is produced — RNA-directed DNA synthesis copies the processed transcript",
-        "Bacteria can translate the uninterrupted coding region — The cDNA lacks introns that bacteria cannot remove by splicing",
-        "Only cells carrying the resistance-marked plasmid form colonies — The selectable marker permits survival in the presence of the drug"
+        "Only cells carrying the resistance-marked plasmid form colonies — The selectable marker permits survival in the presence of the drug",
+        "Bacteria can translate the uninterrupted coding region — The cDNA lacks introns that bacteria cannot remove by splicing"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Only cells carrying the resistance-marked plasmid form colonies. The selectable marker permits survival in the presence of the drug."
     },
     {
@@ -346,12 +332,12 @@
       "difficulty": "Foundation",
       "stem": "After a target DNA region undergoes repeated PCR cycles with suitable primers, which observation is most likely?",
       "options": [
-        "Millions of copies accumulate",
         "Complementary DNA without introns is produced",
+        "Amplification is concentrated on that DNA segment",
         "Bacteria can translate the uninterrupted coding region",
-        "Amplification is concentrated on that DNA segment"
+        "Millions of copies accumulate"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Millions of copies accumulate. Denaturation, annealing and extension approximately double the target each efficient cycle."
     },
     {
@@ -360,12 +346,12 @@
       "difficulty": "Foundation",
       "stem": "A learner records that millions of copies accumulate. Which preceding event best accounts for it?",
       "options": [
-        "Mature mRNA is used as a template by reverse transcriptase",
         "A target DNA region undergoes repeated PCR cycles with suitable primers",
         "A human coding sequence made from cDNA is expressed in bacteria",
+        "Mature mRNA is used as a template by reverse transcriptase",
         "PCR primers bind sequences flanking only the desired locus"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Millions of copies accumulate. Denaturation, annealing and extension approximately double the target each efficient cycle."
     },
     {
@@ -375,11 +361,11 @@
       "stem": "After a target DNA region undergoes repeated PCR cycles with suitable primers, which explanation best links the change to its outcome?",
       "options": [
         "RNA-directed DNA synthesis copies the processed transcript",
-        "The cDNA lacks introns that bacteria cannot remove by splicing",
         "Denaturation, annealing and extension approximately double the target each efficient cycle",
-        "DNA polymerase extends only from annealed primer three-prime ends"
+        "DNA polymerase extends only from annealed primer three-prime ends",
+        "The cDNA lacks introns that bacteria cannot remove by splicing"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Millions of copies accumulate. Denaturation, annealing and extension approximately double the target each efficient cycle."
     },
     {
@@ -388,12 +374,12 @@
       "difficulty": "Foundation",
       "stem": "Which paired outcome and explanation best follows from this condition: a target DNA region undergoes repeated PCR cycles with suitable primers?",
       "options": [
-        "Amplification is concentrated on that DNA segment — DNA polymerase extends only from annealed primer three-prime ends",
-        "Complementary DNA without introns is produced — RNA-directed DNA synthesis copies the processed transcript",
         "Bacteria can translate the uninterrupted coding region — The cDNA lacks introns that bacteria cannot remove by splicing",
-        "Millions of copies accumulate — Denaturation, annealing and extension approximately double the target each efficient cycle"
+        "Complementary DNA without introns is produced — RNA-directed DNA synthesis copies the processed transcript",
+        "Millions of copies accumulate — Denaturation, annealing and extension approximately double the target each efficient cycle",
+        "Amplification is concentrated on that DNA segment — DNA polymerase extends only from annealed primer three-prime ends"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Millions of copies accumulate. Denaturation, annealing and extension approximately double the target each efficient cycle."
     },
     {
@@ -402,12 +388,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Mature mRNA is used as a template by reverse transcriptase. What should the model predict first?",
       "options": [
-        "Complementary DNA without introns is produced",
-        "Amplification is concentrated on that DNA segment",
         "Bacteria can translate the uninterrupted coding region",
-        "The enzyme survives repeated high-temperature denaturation steps"
+        "Amplification is concentrated on that DNA segment",
+        "The enzyme survives repeated high-temperature denaturation steps",
+        "Complementary DNA without introns is produced"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Complementary DNA without introns is produced. RNA-directed DNA synthesis copies the processed transcript."
     },
     {
@@ -416,12 +402,12 @@
       "difficulty": "Standard",
       "stem": "What is the most likely cause when complementary DNA without introns is produced?",
       "options": [
-        "A human coding sequence made from cDNA is expressed in bacteria",
         "Mature mRNA is used as a template by reverse transcriptase",
+        "PCR primers bind sequences flanking only the desired locus",
         "A thermostable polymerase is used in PCR",
-        "PCR primers bind sequences flanking only the desired locus"
+        "A human coding sequence made from cDNA is expressed in bacteria"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Complementary DNA without introns is produced. RNA-directed DNA synthesis copies the processed transcript."
     },
     {
@@ -430,26 +416,12 @@
       "difficulty": "Standard",
       "stem": "After mature mRNA is used as a template by reverse transcriptase, which explanation best links the change to its outcome?",
       "options": [
-        "DNA polymerase extends only from annealed primer three-prime ends",
         "The cDNA lacks introns that bacteria cannot remove by splicing",
         "RNA-directed DNA synthesis copies the processed transcript",
+        "DNA polymerase extends only from annealed primer three-prime ends",
         "Its heat-stable structure avoids replacement after every cycle"
       ],
-      "answer": 2,
-      "explanation": "Complementary DNA without introns is produced. RNA-directed DNA synthesis copies the processed transcript."
-    },
-    {
-      "id": "biotechnology-reverse-transcriptase-integrated",
-      "chapter": "Biotechnology",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: mature mRNA is used as a template by reverse transcriptase?",
-      "options": [
-        "Bacteria can translate the uninterrupted coding region — The cDNA lacks introns that bacteria cannot remove by splicing",
-        "The enzyme survives repeated high-temperature denaturation steps — Its heat-stable structure avoids replacement after every cycle",
-        "Amplification is concentrated on that DNA segment — DNA polymerase extends only from annealed primer three-prime ends",
-        "Complementary DNA without introns is produced — RNA-directed DNA synthesis copies the processed transcript"
-      ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Complementary DNA without introns is produced. RNA-directed DNA synthesis copies the processed transcript."
     },
     {
@@ -458,12 +430,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: A human coding sequence made from cDNA is expressed in bacteria?",
       "options": [
-        "Bacteria can translate the uninterrupted coding region",
+        "Amplification is concentrated on that DNA segment",
         "The enzyme survives repeated high-temperature denaturation steps",
-        "Smaller fragments generally migrate farther toward the positive electrode",
-        "Amplification is concentrated on that DNA segment"
+        "Bacteria can translate the uninterrupted coding region",
+        "Smaller fragments generally migrate farther toward the positive electrode"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Bacteria can translate the uninterrupted coding region. The cDNA lacks introns that bacteria cannot remove by splicing."
     },
     {
@@ -472,12 +444,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: bacteria can translate the uninterrupted coding region?",
       "options": [
+        "DNA fragments are exposed to an electric field in agarose gel",
         "PCR primers bind sequences flanking only the desired locus",
-        "A human coding sequence made from cDNA is expressed in bacteria",
         "A thermostable polymerase is used in PCR",
-        "DNA fragments are exposed to an electric field in agarose gel"
+        "A human coding sequence made from cDNA is expressed in bacteria"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Bacteria can translate the uninterrupted coding region. The cDNA lacks introns that bacteria cannot remove by splicing."
     },
     {
@@ -486,12 +458,12 @@
       "difficulty": "Standard",
       "stem": "After a human coding sequence made from cDNA is expressed in bacteria, which explanation best links the change to its outcome?",
       "options": [
+        "The cDNA lacks introns that bacteria cannot remove by splicing",
         "DNA polymerase extends only from annealed primer three-prime ends",
         "Its heat-stable structure avoids replacement after every cycle",
-        "The cDNA lacks introns that bacteria cannot remove by splicing",
         "Negatively charged DNA moves through pores that impede larger molecules more strongly"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Bacteria can translate the uninterrupted coding region. The cDNA lacks introns that bacteria cannot remove by splicing."
     },
     {
@@ -501,11 +473,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: a human coding sequence made from cDNA is expressed in bacteria?",
       "options": [
         "Amplification is concentrated on that DNA segment — DNA polymerase extends only from annealed primer three-prime ends",
+        "Bacteria can translate the uninterrupted coding region — The cDNA lacks introns that bacteria cannot remove by splicing",
         "The enzyme survives repeated high-temperature denaturation steps — Its heat-stable structure avoids replacement after every cycle",
-        "Smaller fragments generally migrate farther toward the positive electrode — Negatively charged DNA moves through pores that impede larger molecules more strongly",
-        "Bacteria can translate the uninterrupted coding region — The cDNA lacks introns that bacteria cannot remove by splicing"
+        "Smaller fragments generally migrate farther toward the positive electrode — Negatively charged DNA moves through pores that impede larger molecules more strongly"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Bacteria can translate the uninterrupted coding region. The cDNA lacks introns that bacteria cannot remove by splicing."
     },
     {
@@ -514,12 +486,12 @@
       "difficulty": "Standard",
       "stem": "PCR primers bind sequences flanking only the desired locus. Which outcome follows most directly?",
       "options": [
-        "Amplification is concentrated on that DNA segment",
-        "The enzyme survives repeated high-temperature denaturation steps",
         "Smaller fragments generally migrate farther toward the positive electrode",
+        "The enzyme survives repeated high-temperature denaturation steps",
+        "Amplification is concentrated on that DNA segment",
         "The target can be detected by the probe's signal"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Amplification is concentrated on that DNA segment. DNA polymerase extends only from annealed primer three-prime ends."
     },
     {
@@ -529,11 +501,11 @@
       "stem": "Which change most directly explains this observation: amplification is concentrated on that DNA segment?",
       "options": [
         "A thermostable polymerase is used in PCR",
-        "PCR primers bind sequences flanking only the desired locus",
+        "A labelled single-stranded DNA probe meets a complementary target sequence",
         "DNA fragments are exposed to an electric field in agarose gel",
-        "A labelled single-stranded DNA probe meets a complementary target sequence"
+        "PCR primers bind sequences flanking only the desired locus"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Amplification is concentrated on that DNA segment. DNA polymerase extends only from annealed primer three-prime ends."
     },
     {
@@ -542,12 +514,12 @@
       "difficulty": "Standard",
       "stem": "After PCR primers bind sequences flanking only the desired locus, which explanation best links the change to its outcome?",
       "options": [
-        "Its heat-stable structure avoids replacement after every cycle",
-        "Negatively charged DNA moves through pores that impede larger molecules more strongly",
         "DNA polymerase extends only from annealed primer three-prime ends",
+        "Negatively charged DNA moves through pores that impede larger molecules more strongly",
+        "Its heat-stable structure avoids replacement after every cycle",
         "Specific base pairing retains the label at the matching location"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Amplification is concentrated on that DNA segment. DNA polymerase extends only from annealed primer three-prime ends."
     },
     {
@@ -557,11 +529,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: PCR primers bind sequences flanking only the desired locus?",
       "options": [
         "The enzyme survives repeated high-temperature denaturation steps — Its heat-stable structure avoids replacement after every cycle",
-        "Smaller fragments generally migrate farther toward the positive electrode — Negatively charged DNA moves through pores that impede larger molecules more strongly",
+        "Amplification is concentrated on that DNA segment — DNA polymerase extends only from annealed primer three-prime ends",
         "The target can be detected by the probe's signal — Specific base pairing retains the label at the matching location",
-        "Amplification is concentrated on that DNA segment — DNA polymerase extends only from annealed primer three-prime ends"
+        "Smaller fragments generally migrate farther toward the positive electrode — Negatively charged DNA moves through pores that impede larger molecules more strongly"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Amplification is concentrated on that DNA segment. DNA polymerase extends only from annealed primer three-prime ends."
     },
     {
@@ -570,12 +542,12 @@
       "difficulty": "Standard",
       "stem": "After a thermostable polymerase is used in PCR, which observation is most likely?",
       "options": [
-        "The enzyme survives repeated high-temperature denaturation steps",
         "Smaller fragments generally migrate farther toward the positive electrode",
         "The target can be detected by the probe's signal",
+        "The enzyme survives repeated high-temperature denaturation steps",
         "Mutations and predicted coding changes can be identified"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The enzyme survives repeated high-temperature denaturation steps. Its heat-stable structure avoids replacement after every cycle."
     },
     {
@@ -585,11 +557,11 @@
       "stem": "A learner records that the enzyme survives repeated high-temperature denaturation steps. Which preceding event best accounts for it?",
       "options": [
         "DNA fragments are exposed to an electric field in agarose gel",
-        "A thermostable polymerase is used in PCR",
         "A labelled single-stranded DNA probe meets a complementary target sequence",
-        "The order of bases in a gene is determined"
+        "The order of bases in a gene is determined",
+        "A thermostable polymerase is used in PCR"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The enzyme survives repeated high-temperature denaturation steps. Its heat-stable structure avoids replacement after every cycle."
     },
     {
@@ -598,12 +570,12 @@
       "difficulty": "Standard",
       "stem": "After a thermostable polymerase is used in PCR, which explanation best links the change to its outcome?",
       "options": [
-        "Negatively charged DNA moves through pores that impede larger molecules more strongly",
-        "Specific base pairing retains the label at the matching location",
         "Its heat-stable structure avoids replacement after every cycle",
-        "Sequence data are aligned with a reference and translated using the genetic code"
+        "Specific base pairing retains the label at the matching location",
+        "Sequence data are aligned with a reference and translated using the genetic code",
+        "Negatively charged DNA moves through pores that impede larger molecules more strongly"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "The enzyme survives repeated high-temperature denaturation steps. Its heat-stable structure avoids replacement after every cycle."
     },
     {
@@ -612,12 +584,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a thermostable polymerase is used in PCR?",
       "options": [
-        "Mutations and predicted coding changes can be identified — Sequence data are aligned with a reference and translated using the genetic code",
         "Smaller fragments generally migrate farther toward the positive electrode — Negatively charged DNA moves through pores that impede larger molecules more strongly",
+        "The enzyme survives repeated high-temperature denaturation steps — Its heat-stable structure avoids replacement after every cycle",
         "The target can be detected by the probe's signal — Specific base pairing retains the label at the matching location",
-        "The enzyme survives repeated high-temperature denaturation steps — Its heat-stable structure avoids replacement after every cycle"
+        "Mutations and predicted coding changes can be identified — Sequence data are aligned with a reference and translated using the genetic code"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "The enzyme survives repeated high-temperature denaturation steps. Its heat-stable structure avoids replacement after every cycle."
     },
     {
@@ -626,12 +598,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: DNA fragments are exposed to an electric field in agarose gel. What should the model predict first?",
       "options": [
-        "Smaller fragments generally migrate farther toward the positive electrode",
-        "Mutations and predicted coding changes can be identified",
         "The target can be detected by the probe's signal",
+        "Mutations and predicted coding changes can be identified",
+        "Smaller fragments generally migrate farther toward the positive electrode",
         "Cas nuclease cuts at a defined location"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Smaller fragments generally migrate farther toward the positive electrode. Negatively charged DNA moves through pores that impede larger molecules more strongly."
     },
     {
@@ -641,11 +613,11 @@
       "stem": "What is the most likely cause when smaller fragments generally migrate farther toward the positive electrode?",
       "options": [
         "A labelled single-stranded DNA probe meets a complementary target sequence",
-        "DNA fragments are exposed to an electric field in agarose gel",
+        "The order of bases in a gene is determined",
         "A CRISPR guide RNA pairs with its chosen genomic target beside a suitable PAM",
-        "The order of bases in a gene is determined"
+        "DNA fragments are exposed to an electric field in agarose gel"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Smaller fragments generally migrate farther toward the positive electrode. Negatively charged DNA moves through pores that impede larger molecules more strongly."
     },
     {
@@ -654,12 +626,12 @@
       "difficulty": "Standard",
       "stem": "After DNA fragments are exposed to an electric field in agarose gel, which explanation best links the change to its outcome?",
       "options": [
-        "Sequence data are aligned with a reference and translated using the genetic code",
-        "Specific base pairing retains the label at the matching location",
         "Negatively charged DNA moves through pores that impede larger molecules more strongly",
+        "Specific base pairing retains the label at the matching location",
+        "Sequence data are aligned with a reference and translated using the genetic code",
         "RNA-DNA complementarity positions the nuclease for site-specific cleavage"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Smaller fragments generally migrate farther toward the positive electrode. Negatively charged DNA moves through pores that impede larger molecules more strongly."
     },
     {
@@ -669,11 +641,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: DNA fragments are exposed to an electric field in agarose gel?",
       "options": [
         "The target can be detected by the probe's signal — Specific base pairing retains the label at the matching location",
-        "Cas nuclease cuts at a defined location — RNA-DNA complementarity positions the nuclease for site-specific cleavage",
+        "Smaller fragments generally migrate farther toward the positive electrode — Negatively charged DNA moves through pores that impede larger molecules more strongly",
         "Mutations and predicted coding changes can be identified — Sequence data are aligned with a reference and translated using the genetic code",
-        "Smaller fragments generally migrate farther toward the positive electrode — Negatively charged DNA moves through pores that impede larger molecules more strongly"
+        "Cas nuclease cuts at a defined location — RNA-DNA complementarity positions the nuclease for site-specific cleavage"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Smaller fragments generally migrate farther toward the positive electrode. Negatively charged DNA moves through pores that impede larger molecules more strongly."
     },
     {
@@ -682,12 +654,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: A labelled single-stranded DNA probe meets a complementary target sequence?",
       "options": [
-        "The target can be detected by the probe's signal",
+        "Mutations and predicted coding changes can be identified",
         "Cas nuclease cuts at a defined location",
-        "Small insertions or deletions may disable the gene",
-        "Mutations and predicted coding changes can be identified"
+        "The target can be detected by the probe's signal",
+        "Small insertions or deletions may disable the gene"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The target can be detected by the probe's signal. Specific base pairing retains the label at the matching location."
     },
     {
@@ -696,12 +668,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: the target can be detected by the probe's signal?",
       "options": [
+        "Error-prone repair joins a CRISPR-induced double-strand break",
         "The order of bases in a gene is determined",
-        "A labelled single-stranded DNA probe meets a complementary target sequence",
         "A CRISPR guide RNA pairs with its chosen genomic target beside a suitable PAM",
-        "Error-prone repair joins a CRISPR-induced double-strand break"
+        "A labelled single-stranded DNA probe meets a complementary target sequence"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The target can be detected by the probe's signal. Specific base pairing retains the label at the matching location."
     },
     {
@@ -710,12 +682,12 @@
       "difficulty": "Standard",
       "stem": "After a labelled single-stranded DNA probe meets a complementary target sequence, which explanation best links the change to its outcome?",
       "options": [
+        "Specific base pairing retains the label at the matching location",
         "Sequence data are aligned with a reference and translated using the genetic code",
         "RNA-DNA complementarity positions the nuclease for site-specific cleavage",
-        "Specific base pairing retains the label at the matching location",
         "Frameshifts or disrupted regulatory sequences arise during non-homologous end joining"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "The target can be detected by the probe's signal. Specific base pairing retains the label at the matching location."
     },
     {
@@ -725,11 +697,11 @@
       "stem": "Which paired outcome and explanation best follows from this condition: a labelled single-stranded DNA probe meets a complementary target sequence?",
       "options": [
         "Mutations and predicted coding changes can be identified — Sequence data are aligned with a reference and translated using the genetic code",
+        "The target can be detected by the probe's signal — Specific base pairing retains the label at the matching location",
         "Cas nuclease cuts at a defined location — RNA-DNA complementarity positions the nuclease for site-specific cleavage",
-        "Small insertions or deletions may disable the gene — Frameshifts or disrupted regulatory sequences arise during non-homologous end joining",
-        "The target can be detected by the probe's signal — Specific base pairing retains the label at the matching location"
+        "Small insertions or deletions may disable the gene — Frameshifts or disrupted regulatory sequences arise during non-homologous end joining"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "The target can be detected by the probe's signal. Specific base pairing retains the label at the matching location."
     },
     {
@@ -738,12 +710,12 @@
       "difficulty": "Standard",
       "stem": "The order of bases in a gene is determined. Which outcome follows most directly?",
       "options": [
-        "Mutations and predicted coding changes can be identified",
-        "Cas nuclease cuts at a defined location",
         "Small insertions or deletions may disable the gene",
+        "Cas nuclease cuts at a defined location",
+        "Mutations and predicted coding changes can be identified",
         "The organism can express a new inherited trait"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Mutations and predicted coding changes can be identified. Sequence data are aligned with a reference and translated using the genetic code."
     },
     {
@@ -753,11 +725,11 @@
       "stem": "Which change most directly explains this observation: mutations and predicted coding changes can be identified?",
       "options": [
         "A CRISPR guide RNA pairs with its chosen genomic target beside a suitable PAM",
-        "The order of bases in a gene is determined",
+        "A functional foreign gene is stably inserted into an organism's genome",
         "Error-prone repair joins a CRISPR-induced double-strand break",
-        "A functional foreign gene is stably inserted into an organism's genome"
+        "The order of bases in a gene is determined"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Mutations and predicted coding changes can be identified. Sequence data are aligned with a reference and translated using the genetic code."
     },
     {
@@ -766,26 +738,12 @@
       "difficulty": "Standard",
       "stem": "After the order of bases in a gene is determined, which explanation best links the change to its outcome?",
       "options": [
-        "RNA-DNA complementarity positions the nuclease for site-specific cleavage",
-        "Frameshifts or disrupted regulatory sequences arise during non-homologous end joining",
         "Sequence data are aligned with a reference and translated using the genetic code",
+        "Frameshifts or disrupted regulatory sequences arise during non-homologous end joining",
+        "RNA-DNA complementarity positions the nuclease for site-specific cleavage",
         "The transgene is copied with host DNA and transcribed under appropriate regulatory control"
       ],
-      "answer": 2,
-      "explanation": "Mutations and predicted coding changes can be identified. Sequence data are aligned with a reference and translated using the genetic code."
-    },
-    {
-      "id": "biotechnology-sequencing-integrated",
-      "chapter": "Biotechnology",
-      "difficulty": "Standard",
-      "stem": "Which paired outcome and explanation best follows from this condition: the order of bases in a gene is determined?",
-      "options": [
-        "Cas nuclease cuts at a defined location — RNA-DNA complementarity positions the nuclease for site-specific cleavage",
-        "Small insertions or deletions may disable the gene — Frameshifts or disrupted regulatory sequences arise during non-homologous end joining",
-        "The organism can express a new inherited trait — The transgene is copied with host DNA and transcribed under appropriate regulatory control",
-        "Mutations and predicted coding changes can be identified — Sequence data are aligned with a reference and translated using the genetic code"
-      ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Mutations and predicted coding changes can be identified. Sequence data are aligned with a reference and translated using the genetic code."
     },
     {
@@ -794,12 +752,12 @@
       "difficulty": "Standard",
       "stem": "After a CRISPR guide RNA pairs with its chosen genomic target beside a suitable PAM, which observation is most likely?",
       "options": [
-        "Cas nuclease cuts at a defined location",
         "Small insertions or deletions may disable the gene",
+        "Cas nuclease cuts at a defined location",
         "The organism can express a new inherited trait",
         "A uniform population of antibodies with one specificity is obtained"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Cas nuclease cuts at a defined location. RNA-DNA complementarity positions the nuclease for site-specific cleavage."
     },
     {
@@ -809,11 +767,11 @@
       "stem": "A learner records that cas nuclease cuts at a defined location. Which preceding event best accounts for it?",
       "options": [
         "Error-prone repair joins a CRISPR-induced double-strand break",
-        "A CRISPR guide RNA pairs with its chosen genomic target beside a suitable PAM",
         "A functional foreign gene is stably inserted into an organism's genome",
+        "A CRISPR guide RNA pairs with its chosen genomic target beside a suitable PAM",
         "One antibody-producing hybridoma clone is expanded"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Cas nuclease cuts at a defined location. RNA-DNA complementarity positions the nuclease for site-specific cleavage."
     },
     {
@@ -824,10 +782,10 @@
       "options": [
         "Frameshifts or disrupted regulatory sequences arise during non-homologous end joining",
         "The transgene is copied with host DNA and transcribed under appropriate regulatory control",
-        "RNA-DNA complementarity positions the nuclease for site-specific cleavage",
-        "All cells descend from the selected clone and secrete the same immunoglobulin"
+        "All cells descend from the selected clone and secrete the same immunoglobulin",
+        "RNA-DNA complementarity positions the nuclease for site-specific cleavage"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Cas nuclease cuts at a defined location. RNA-DNA complementarity positions the nuclease for site-specific cleavage."
     },
     {
@@ -836,12 +794,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a CRISPR guide RNA pairs with its chosen genomic target beside a suitable PAM?",
       "options": [
-        "A uniform population of antibodies with one specificity is obtained — All cells descend from the selected clone and secrete the same immunoglobulin",
+        "Cas nuclease cuts at a defined location — RNA-DNA complementarity positions the nuclease for site-specific cleavage",
         "Small insertions or deletions may disable the gene — Frameshifts or disrupted regulatory sequences arise during non-homologous end joining",
         "The organism can express a new inherited trait — The transgene is copied with host DNA and transcribed under appropriate regulatory control",
-        "Cas nuclease cuts at a defined location — RNA-DNA complementarity positions the nuclease for site-specific cleavage"
+        "A uniform population of antibodies with one specificity is obtained — All cells descend from the selected clone and secrete the same immunoglobulin"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Cas nuclease cuts at a defined location. RNA-DNA complementarity positions the nuclease for site-specific cleavage."
     },
     {
@@ -850,12 +808,12 @@
       "difficulty": "Standard",
       "stem": "A student models this change: Error-prone repair joins a CRISPR-induced double-strand break. What should the model predict first?",
       "options": [
+        "The organism can express a new inherited trait",
         "Small insertions or deletions may disable the gene",
         "A uniform population of antibodies with one specificity is obtained",
-        "The organism can express a new inherited trait",
         "Microbial growth and product yield become more consistent"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Small insertions or deletions may disable the gene. Frameshifts or disrupted regulatory sequences arise during non-homologous end joining."
     },
     {
@@ -865,11 +823,11 @@
       "stem": "What is the most likely cause when small insertions or deletions may disable the gene?",
       "options": [
         "A functional foreign gene is stably inserted into an organism's genome",
+        "One antibody-producing hybridoma clone is expanded",
         "Error-prone repair joins a CRISPR-induced double-strand break",
-        "Temperature, pH, oxygen and nutrients are controlled in a bioreactor",
-        "One antibody-producing hybridoma clone is expanded"
+        "Temperature, pH, oxygen and nutrients are controlled in a bioreactor"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Small insertions or deletions may disable the gene. Frameshifts or disrupted regulatory sequences arise during non-homologous end joining."
     },
     {
@@ -878,12 +836,12 @@
       "difficulty": "Standard",
       "stem": "After error-prone repair joins a CRISPR-induced double-strand break, which explanation best links the change to its outcome?",
       "options": [
-        "All cells descend from the selected clone and secrete the same immunoglobulin",
+        "Sensors and feedback maintain conditions near the organism's production optimum",
         "The transgene is copied with host DNA and transcribed under appropriate regulatory control",
-        "Frameshifts or disrupted regulatory sequences arise during non-homologous end joining",
-        "Sensors and feedback maintain conditions near the organism's production optimum"
+        "All cells descend from the selected clone and secrete the same immunoglobulin",
+        "Frameshifts or disrupted regulatory sequences arise during non-homologous end joining"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Small insertions or deletions may disable the gene. Frameshifts or disrupted regulatory sequences arise during non-homologous end joining."
     },
     {
@@ -892,12 +850,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: error-prone repair joins a CRISPR-induced double-strand break?",
       "options": [
+        "Small insertions or deletions may disable the gene — Frameshifts or disrupted regulatory sequences arise during non-homologous end joining",
         "The organism can express a new inherited trait — The transgene is copied with host DNA and transcribed under appropriate regulatory control",
-        "Microbial growth and product yield become more consistent — Sensors and feedback maintain conditions near the organism's production optimum",
         "A uniform population of antibodies with one specificity is obtained — All cells descend from the selected clone and secrete the same immunoglobulin",
-        "Small insertions or deletions may disable the gene — Frameshifts or disrupted regulatory sequences arise during non-homologous end joining"
+        "Microbial growth and product yield become more consistent — Sensors and feedback maintain conditions near the organism's production optimum"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Small insertions or deletions may disable the gene. Frameshifts or disrupted regulatory sequences arise during non-homologous end joining."
     },
     {
@@ -906,12 +864,12 @@
       "difficulty": "Standard",
       "stem": "Which immediate result is most consistent with this condition: A functional foreign gene is stably inserted into an organism's genome?",
       "options": [
+        "A uniform population of antibodies with one specificity is obtained",
         "The organism can express a new inherited trait",
-        "Microbial growth and product yield become more consistent",
         "Recombinant colonies lose that marker's normal phenotype",
-        "A uniform population of antibodies with one specificity is obtained"
+        "Microbial growth and product yield become more consistent"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The organism can express a new inherited trait. The transgene is copied with host DNA and transcribed under appropriate regulatory control."
     },
     {
@@ -920,12 +878,12 @@
       "difficulty": "Standard",
       "stem": "Which condition would most specifically produce this result: the organism can express a new inherited trait?",
       "options": [
+        "Temperature, pH, oxygen and nutrients are controlled in a bioreactor",
         "One antibody-producing hybridoma clone is expanded",
         "A functional foreign gene is stably inserted into an organism's genome",
-        "Temperature, pH, oxygen and nutrients are controlled in a bioreactor",
         "Foreign DNA is inserted into a plasmid marker gene"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "The organism can express a new inherited trait. The transgene is copied with host DNA and transcribed under appropriate regulatory control."
     },
     {
@@ -935,11 +893,11 @@
       "stem": "After a functional foreign gene is stably inserted into an organism's genome, which explanation best links the change to its outcome?",
       "options": [
         "All cells descend from the selected clone and secrete the same immunoglobulin",
+        "The insert disrupts the marker's coding sequence and enables screening",
         "Sensors and feedback maintain conditions near the organism's production optimum",
-        "The transgene is copied with host DNA and transcribed under appropriate regulatory control",
-        "The insert disrupts the marker's coding sequence and enables screening"
+        "The transgene is copied with host DNA and transcribed under appropriate regulatory control"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "The organism can express a new inherited trait. The transgene is copied with host DNA and transcribed under appropriate regulatory control."
     },
     {
@@ -948,12 +906,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: a functional foreign gene is stably inserted into an organism's genome?",
       "options": [
-        "A uniform population of antibodies with one specificity is obtained — All cells descend from the selected clone and secrete the same immunoglobulin",
+        "The organism can express a new inherited trait — The transgene is copied with host DNA and transcribed under appropriate regulatory control",
         "Microbial growth and product yield become more consistent — Sensors and feedback maintain conditions near the organism's production optimum",
-        "Recombinant colonies lose that marker's normal phenotype — The insert disrupts the marker's coding sequence and enables screening",
-        "The organism can express a new inherited trait — The transgene is copied with host DNA and transcribed under appropriate regulatory control"
+        "A uniform population of antibodies with one specificity is obtained — All cells descend from the selected clone and secrete the same immunoglobulin",
+        "Recombinant colonies lose that marker's normal phenotype — The insert disrupts the marker's coding sequence and enables screening"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "The organism can express a new inherited trait. The transgene is copied with host DNA and transcribed under appropriate regulatory control."
     },
     {
@@ -962,12 +920,12 @@
       "difficulty": "Standard",
       "stem": "One antibody-producing hybridoma clone is expanded. Which outcome follows most directly?",
       "options": [
-        "A uniform population of antibodies with one specificity is obtained",
         "Microbial growth and product yield become more consistent",
+        "A uniform population of antibodies with one specificity is obtained",
         "Recombinant colonies lose that marker's normal phenotype",
         "Starting target abundance can be estimated"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "A uniform population of antibodies with one specificity is obtained. All cells descend from the selected clone and secrete the same immunoglobulin."
     },
     {
@@ -977,11 +935,11 @@
       "stem": "Which change most directly explains this observation: a uniform population of antibodies with one specificity is obtained?",
       "options": [
         "Temperature, pH, oxygen and nutrients are controlled in a bioreactor",
-        "One antibody-producing hybridoma clone is expanded",
         "Foreign DNA is inserted into a plasmid marker gene",
+        "One antibody-producing hybridoma clone is expanded",
         "Fluorescence is measured during each PCR cycle"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "A uniform population of antibodies with one specificity is obtained. All cells descend from the selected clone and secrete the same immunoglobulin."
     },
     {
@@ -992,10 +950,10 @@
       "options": [
         "Sensors and feedback maintain conditions near the organism's production optimum",
         "The insert disrupts the marker's coding sequence and enables screening",
-        "All cells descend from the selected clone and secrete the same immunoglobulin",
-        "Samples with more initial template cross a defined fluorescence threshold in fewer cycles"
+        "Samples with more initial template cross a defined fluorescence threshold in fewer cycles",
+        "All cells descend from the selected clone and secrete the same immunoglobulin"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "A uniform population of antibodies with one specificity is obtained. All cells descend from the selected clone and secrete the same immunoglobulin."
     },
     {
@@ -1004,12 +962,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: one antibody-producing hybridoma clone is expanded?",
       "options": [
-        "Microbial growth and product yield become more consistent — Sensors and feedback maintain conditions near the organism's production optimum",
+        "A uniform population of antibodies with one specificity is obtained — All cells descend from the selected clone and secrete the same immunoglobulin",
         "Recombinant colonies lose that marker's normal phenotype — The insert disrupts the marker's coding sequence and enables screening",
         "Starting target abundance can be estimated — Samples with more initial template cross a defined fluorescence threshold in fewer cycles",
-        "A uniform population of antibodies with one specificity is obtained — All cells descend from the selected clone and secrete the same immunoglobulin"
+        "Microbial growth and product yield become more consistent — Sensors and feedback maintain conditions near the organism's production optimum"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "A uniform population of antibodies with one specificity is obtained. All cells descend from the selected clone and secrete the same immunoglobulin."
     },
     {
@@ -1018,12 +976,12 @@
       "difficulty": "Standard",
       "stem": "After temperature, pH, oxygen and nutrients are controlled in a bioreactor, which observation is most likely?",
       "options": [
-        "Microbial growth and product yield become more consistent",
         "Recombinant colonies lose that marker's normal phenotype",
+        "Microbial growth and product yield become more consistent",
         "Starting target abundance can be estimated",
         "CRISPR editing may introduce an unwanted mutation"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Microbial growth and product yield become more consistent. Sensors and feedback maintain conditions near the organism's production optimum."
     },
     {
@@ -1033,11 +991,11 @@
       "stem": "A learner records that microbial growth and product yield become more consistent. Which preceding event best accounts for it?",
       "options": [
         "Foreign DNA is inserted into a plasmid marker gene",
-        "Temperature, pH, oxygen and nutrients are controlled in a bioreactor",
         "Fluorescence is measured during each PCR cycle",
+        "Temperature, pH, oxygen and nutrients are controlled in a bioreactor",
         "A guide RNA also closely matches an unintended genomic site"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Microbial growth and product yield become more consistent. Sensors and feedback maintain conditions near the organism's production optimum."
     },
     {
@@ -1048,10 +1006,10 @@
       "options": [
         "The insert disrupts the marker's coding sequence and enables screening",
         "Samples with more initial template cross a defined fluorescence threshold in fewer cycles",
-        "Sensors and feedback maintain conditions near the organism's production optimum",
-        "Imperfect specificity can still recruit the nuclease to similar DNA sequences"
+        "Imperfect specificity can still recruit the nuclease to similar DNA sequences",
+        "Sensors and feedback maintain conditions near the organism's production optimum"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Microbial growth and product yield become more consistent. Sensors and feedback maintain conditions near the organism's production optimum."
     },
     {
@@ -1060,12 +1018,12 @@
       "difficulty": "Standard",
       "stem": "Which paired outcome and explanation best follows from this condition: temperature, pH, oxygen and nutrients are controlled in a bioreactor?",
       "options": [
-        "CRISPR editing may introduce an unwanted mutation — Imperfect specificity can still recruit the nuclease to similar DNA sequences",
+        "Microbial growth and product yield become more consistent — Sensors and feedback maintain conditions near the organism's production optimum",
         "Recombinant colonies lose that marker's normal phenotype — The insert disrupts the marker's coding sequence and enables screening",
         "Starting target abundance can be estimated — Samples with more initial template cross a defined fluorescence threshold in fewer cycles",
-        "Microbial growth and product yield become more consistent — Sensors and feedback maintain conditions near the organism's production optimum"
+        "CRISPR editing may introduce an unwanted mutation — Imperfect specificity can still recruit the nuclease to similar DNA sequences"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Microbial growth and product yield become more consistent. Sensors and feedback maintain conditions near the organism's production optimum."
     },
     {
@@ -1074,12 +1032,12 @@
       "difficulty": "Challenge",
       "stem": "A student models this change: Foreign DNA is inserted into a plasmid marker gene. What should the model predict first?",
       "options": [
+        "Starting target abundance can be estimated",
         "Recombinant colonies lose that marker's normal phenotype",
         "CRISPR editing may introduce an unwanted mutation",
-        "Starting target abundance can be estimated",
         "A missing functional protein may be restored"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Recombinant colonies lose that marker's normal phenotype. The insert disrupts the marker's coding sequence and enables screening."
     },
     {
@@ -1089,11 +1047,11 @@
       "stem": "What is the most likely cause when recombinant colonies lose that marker's normal phenotype?",
       "options": [
         "Fluorescence is measured during each PCR cycle",
+        "A guide RNA also closely matches an unintended genomic site",
         "Foreign DNA is inserted into a plasmid marker gene",
-        "A therapeutic gene reaches enough target cells and is expressed",
-        "A guide RNA also closely matches an unintended genomic site"
+        "A therapeutic gene reaches enough target cells and is expressed"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Recombinant colonies lose that marker's normal phenotype. The insert disrupts the marker's coding sequence and enables screening."
     },
     {
@@ -1102,24 +1060,10 @@
       "difficulty": "Challenge",
       "stem": "After foreign DNA is inserted into a plasmid marker gene, which explanation best links the change to its outcome?",
       "options": [
-        "Imperfect specificity can still recruit the nuclease to similar DNA sequences",
+        "The delivered sequence supplies instructions that compensate for the defective gene",
         "Samples with more initial template cross a defined fluorescence threshold in fewer cycles",
-        "The insert disrupts the marker's coding sequence and enables screening",
-        "The delivered sequence supplies instructions that compensate for the defective gene"
-      ],
-      "answer": 2,
-      "explanation": "Recombinant colonies lose that marker's normal phenotype. The insert disrupts the marker's coding sequence and enables screening."
-    },
-    {
-      "id": "biotechnology-insertional-inactivation-integrated",
-      "chapter": "Biotechnology",
-      "difficulty": "Challenge",
-      "stem": "Which paired outcome and explanation best follows from this condition: foreign DNA is inserted into a plasmid marker gene?",
-      "options": [
-        "Starting target abundance can be estimated — Samples with more initial template cross a defined fluorescence threshold in fewer cycles",
-        "A missing functional protein may be restored — The delivered sequence supplies instructions that compensate for the defective gene",
-        "CRISPR editing may introduce an unwanted mutation — Imperfect specificity can still recruit the nuclease to similar DNA sequences",
-        "Recombinant colonies lose that marker's normal phenotype — The insert disrupts the marker's coding sequence and enables screening"
+        "Imperfect specificity can still recruit the nuclease to similar DNA sequences",
+        "The insert disrupts the marker's coding sequence and enables screening"
       ],
       "answer": 3,
       "explanation": "Recombinant colonies lose that marker's normal phenotype. The insert disrupts the marker's coding sequence and enables screening."
@@ -1403,6 +1347,62 @@
       ],
       "answer": 3,
       "explanation": "They can differentiate into several specialized cell types. Signalling alters transcription networks while the cells retain broad developmental potential."
+    },
+    {
+      "chapter": "Biotechnology",
+      "id": "applied-pcr-count",
+      "difficulty": "Standard",
+      "stem": "Starting with 5 double-stranded DNA molecules, an ideal PCR doubles the target each cycle. How many target molecules are present after 6 cycles?",
+      "options": [
+        "320",
+        "64",
+        "160",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "Ideal amplification follows N = N₀×2ⁿ. Here, 5×2⁶ = 320. Real reactions may amplify less efficiently and eventually reach a plateau."
+    },
+    {
+      "chapter": "Biotechnology",
+      "id": "applied-gel-order",
+      "difficulty": "Foundation",
+      "stem": "Which DNA fragment is expected to migrate farthest from the wells in a standard agarose gel when other conditions are the same?",
+      "options": [
+        "900 base pairs",
+        "300 base pairs",
+        "1,800 base pairs",
+        "3,000 base pairs"
+      ],
+      "answer": 1,
+      "explanation": "Smaller DNA fragments generally move more easily through the gel matrix. DNA migrates towards the positive electrode because of its negatively charged phosphate backbone."
+    },
+    {
+      "chapter": "Biotechnology",
+      "id": "applied-screening-insert",
+      "difficulty": "Challenge",
+      "stem": "A plasmid carries ampicillin resistance. Colonies grow on ampicillin after transformation. What remains unproven by growth alone?",
+      "options": [
+        "Whether they have produced visible descendants",
+        "Whether they can survive the antibiotic conditions used",
+        "Whether the colonies carry the intended DNA insert",
+        "Whether growth occurred on that plate"
+      ],
+      "answer": 2,
+      "explanation": "Antibiotic selection supports possession or expression of the resistance marker. An empty vector can also confer resistance, so the desired insert requires separate screening."
+    },
+    {
+      "chapter": "Biotechnology",
+      "id": "applied-restriction-map",
+      "difficulty": "Challenge",
+      "stem": "A circular 5,000 bp plasmid has exactly two sites for one restriction enzyme. Complete digestion produces one 1,200 bp fragment. What is the other fragment length?",
+      "options": [
+        "1,200 bp",
+        "2,500 bp",
+        "5,000 bp",
+        "3,800 bp"
+      ],
+      "answer": 3,
+      "explanation": "Two cuts in circular DNA yield two fragments. Their lengths sum to 5,000 bp, so the other fragment is 5,000 − 1,200 = 3,800 bp."
     }
   ]
 }

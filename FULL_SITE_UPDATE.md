@@ -1,46 +1,38 @@
-# Biology with Hamza — appearance and learning comfort update
+# Biology with Hamza — revision workspace update
 
-This complete source package builds on the full-site upgrade. Upload its extracted contents into the existing repository root. The previously delivered articles, 69 activities, 16 chapter routes, 1,600 practice questions and expanded Human Atlas are included.
+This is the complete website source, including the existing dark/light/system theme, Atlas, 69 activities, 23 articles, 16 chapter routes, Cambridge pages and 1,600-question bank.
 
-## New in this update
+## New in this release
 
-- Header Theme control on desktop and mobile: Light, Dark or System.
-- System follows the device preference and updates when it changes.
-- Saved theme is applied in the page head before rendering, avoiding a light-theme flash on dark visits.
-- Dark surfaces, readable text, form controls, cards, tables, search, quizzes, resources, Cambridge pages and Atlas panels.
-- Anatomy canvas keeps its separate Light/Charcoal selector. Scientific diagrams keep their existing teaching colours on a neutral background.
-- Article text-size control: Standard, Large, Extra large; saved across article visits.
-- Corrected article reading progress to measure scroll through the article body.
-- Recent-learning cards on the homepage and workspace; up to six recent pages are stored locally, with the latest three displayed.
-- Clear recent history without removing bookmarks, notes or completion progress.
-- More compact responsive header, visible active mobile navigation, keyboard Escape handling, improved focus outlines and scrollable article contents.
-- Existing reduced-motion and print layouts remain supported.
+- Revision dashboard at /revision with per-chapter feedback from fresh attempts.
+- Mistake notebook with chapter/search/status filters, answer explanations and pagination.
+- Question-by-question snapshots for the latest 50 completed attempts, including unanswered questions.
+- Fresh practice, mistake practice and scheduled review modes; immediate retry remains available.
+- Review intervals of 1, 3, 7, 14, 30 and 60 days. Only correct answers at/after the due time advance the interval; a miss resets it.
+- Two successful spaced reviews remove a question from Needs practice but keep maintenance reviews scheduled.
+- Fresh-practice accuracy uses the latest response per distinct question in retained fresh attempts. Retry/review scores do not inflate this measure. Small samples are labelled.
+- Export/restore revision backups with validation and an explicit restore confirmation.
+- Question reports can be copied or downloaded for sharing manually with the teacher.
+- 64 new independently written applied questions (four per chapter), replacing 64 integrated variants. Total remains 100 questions per chapter. New items include numerical reasoning, experimental tables and process sequences.
+- Revision links in navigation, search, footer and learning workspace.
 
-Theme, text-size and recent history are stored in the current browser, separately from the existing study-progress backup. These preferences are not user accounts or cross-device synchronization. If browser storage is unavailable, appearance controls still work during the current session; persistence and recent history may be unavailable.
+## What is stored
 
-## Upload once using GitHub Desktop
+Profiles and records stay in this browser under the local student ID. This release does not add online accounts, authentication, automatic synchronization or a reporting server. Export backups to transfer records between devices. Existing bookmarks/study notes have a separate backup. Older score-only history remains in Practice; detailed answers begin after this update. Records from retired or revised questions remain as historical snapshots but are excluded from current revision pools.
+
+These scores describe the practice bank, not a predicted examination result. Spacing is a simple review schedule, not a clinically or statistically validated mastery model. The bank contains related concept variants; see release-notes/QUESTION_BANK_AUDIT.md for the exact scope of this improvement.
+
+## Upload once with GitHub Desktop
 
 1. Extract this ZIP.
-2. In GitHub Desktop, select Biologywithhamza and the main branch. Fetch/Pull existing remote changes first.
-3. Use Repository → Show in Explorer. Copy the extracted contents into that repository folder, replacing matching files. Keep the repository's existing Git metadata.
-4. Check the Changes list. Do not add node_modules, out, .next or another ZIP.
-5. Commit message: `Add dark theme and improve learning experience`.
-6. Commit to main, then Push origin.
+2. Select Biologywithhamza and main in GitHub Desktop. Fetch/Pull remote changes first.
+3. Choose Repository → Show in Explorer. Copy the extracted contents into that repository folder and replace matching files.
+4. Do not copy node_modules, out, .next or a ZIP into the repository.
+5. Commit with: Add revision dashboard and mistake notebook
+6. Push origin once.
 
-Cloudflare Pages settings stay: build command `npm run build:netlify`, output directory `out`. The build script name is historical; it generates static files suitable for Cloudflare Pages. No domain/DNS change or new service is required. This package has not been pushed or deployed for you.
+Cloudflare Pages stays on build command npm run build:netlify and output directory out. The script now explicitly uses Webpack, which produced the verified static export; the default Turbopack process stalled in the verification environment. No DNS change, new paid service or database is required. Nothing was deployed by this update.
 
-## Validation
+## Verification
 
-- Production static build passed: 142 generated build entries.
-- 13 automated tests passed: bank integrity, quiz randomization, biological model invariants, chapter/activity catalogues, exported local links, appearance initialization, invalid/denied storage and core contrast pairs.
-- Changed TypeScript components passed ESLint.
-- Headless Chromium checks: theme selection and persistence, System preference changes, 22px article text, recent-learning navigation, no observed page JavaScript errors.
-- Ten representative routes checked at 1440px and 390px widths without horizontal document overflow.
-- Additional computed text-contrast scan across 11 initial page states found no flagged pairs for the text it could evaluate. This excludes image/gradient backgrounds, diagrams, disabled controls and unexercised interactive states; it is not a full accessibility certification.
-- Desktop/mobile screenshots are included in release-notes. Hardware-dependent Atlas rendering and every possible quiz/activity state were not re-audited in this appearance pass.
-
-## Developer notes
-
-`app/appearance.tsx` owns theme and reading preferences; `app/appearance-bootstrap.ts` applies preferences before paint. `app/recent-learning.tsx` owns the recent history. `app/appearance.css` contains the new controls and design tokens. Legacy dark surface overrides in `app/theme-surfaces.css` are generated with `npm run theme:generate`; review the output after changing legacy CSS. This does not recolour 3D anatomical meshes.
-
-Run `npm ci` then `npm run test:static` for the static build and regression tests. Previous feature notes are archived in release-notes/PREVIOUS_FULL_SITE_UPDATE.md.
+Production static export, TypeScript, ESLint on changed code, existing content/link/model/theme tests, and new revision-model tests. See release-notes/REVISION_QA.md for browser verification results.

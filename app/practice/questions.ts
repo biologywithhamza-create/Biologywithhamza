@@ -1,3 +1,4 @@
+import { appliedQuestions } from "./applied-questions";
 import { generateConceptQuestions } from "./concept-bank";
 
 export type QuestionDifficulty = "Foundation" | "Standard" | "Challenge";
@@ -10,6 +11,7 @@ export type QuizQuestion = {
   options: [string, string, string, string];
   answer: number;
   explanation: string;
+  visual?: { kind:"table"; caption:string; headers:string[]; rows:string[][] } | { kind:"flow"; caption:string; nodes:string[] };
 };
 
 const authoredQuestions: QuizQuestion[] = [
@@ -607,9 +609,15 @@ function balanceAnswerPositions(questions: QuizQuestion[]) {
   });
 }
 
+const generated = generateConceptQuestions();
+// Replace four integrated variants in every chapter with independent applied items.
+export const replacedQuestionIds = new Set<string>();
+for (const chapter of new Set(appliedQuestions.map(q => q.chapter))) {
+  const candidates = generated.filter(q => q.chapter === chapter && q.id.endsWith('-integrated'));
+  for (const index of [0, 6, 12, 18]) if (candidates[index]) replacedQuestionIds.add(candidates[index].id);
+}
 export const quizQuestions: QuizQuestion[] = balanceAnswerPositions([
-  ...authoredQuestions,
-  ...generateConceptQuestions(),
+  ...authoredQuestions, ...generated.filter(q => !replacedQuestionIds.has(q.id)), ...appliedQuestions,
 ]);
 
 export const quizChapters = Array.from(new Set(quizQuestions.map((question) => question.chapter)));
