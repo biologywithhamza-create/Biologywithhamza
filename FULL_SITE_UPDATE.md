@@ -1,38 +1,49 @@
-# Biology with Hamza — revision workspace update
+# Biology with Hamza — Cambridge, chapter packs and accounts
 
-This is the complete website source, including the existing dark/light/system theme, Atlas, 69 activities, 23 articles, 16 chapter routes, Cambridge pages and 1,600-question bank.
+This is the complete website source package. It preserves the theme controls, expanded Human Atlas, 69 activities, 23 articles, 1,600-question MDCAT bank, revision dashboard and mistake notebook from the previous release.
 
-## New in this release
+## Point 4 — Cambridge answer practice
 
-- Revision dashboard at /revision with per-chapter feedback from fresh attempts.
-- Mistake notebook with chapter/search/status filters, answer explanations and pagination.
-- Question-by-question snapshots for the latest 50 completed attempts, including unanswered questions.
-- Fresh practice, mistake practice and scheduled review modes; immediate retry remains available.
-- Review intervals of 1, 3, 7, 14, 30 and 60 days. Only correct answers at/after the due time advance the interval; a miss resets it.
-- Two successful spaced reviews remove a question from Needs practice but keep maintenance reviews scheduled.
-- Fresh-practice accuracy uses the latest response per distinct question in retained fresh attempts. Retry/review scores do not inflate this measure. Small samples are labelled.
-- Export/restore revision backups with validation and an explicit restore confirmation.
-- Question reports can be copied or downloaded for sharing manually with the teacher.
-- 64 new independently written applied questions (four per chapter), replacing 64 integrated variants. Total remains 100 questions per chapter. New items include numerical reasoning, experimental tables and process sequences.
-- Revision links in navigation, search, footer and learning workspace.
+- New /cambridge-practice page.
+- 38 original structured questions: two for each of the 19 existing Cambridge O Level 5090 topics.
+- 10 command-word exercises and a concise teaching reference.
+- Topic, command-word and text filters; paginated question cards.
+- Write before revealing: empty answers cannot reveal the model answer.
+- Saved drafts, submitted answers, teaching points, model responses and tickable self-assessment.
+- Clear distinction between self-assessment and official/automatic marking.
+- Links from the Cambridge landing page and every topic route.
 
-## What is stored
+These are original teaching questions aligned to the direction of the 2026–2028 syllabus, not official past papers or Cambridge mark schemes. Two questions per topic provide a starting practice set, not exhaustive syllabus assessment. The latest saved response to each question is retained.
 
-Profiles and records stay in this browser under the local student ID. This release does not add online accounts, authentication, automatic synchronization or a reporting server. Export backups to transfer records between devices. Existing bookmarks/study notes have a separate backup. Older score-only history remains in Practice; detailed answers begin after this update. Records from retired or revised questions remain as historical snapshots but are excluded from current revision pools.
+## Point 5 — connected chapter packs
 
-These scores describe the practice bank, not a predicted examination result. Spacing is a simple review schedule, not a clinically or statistically validated mastery model. The bank contains related concept variants; see release-notes/QUESTION_BANK_AUDIT.md for the exact scope of this improvement.
+All 16 MDCAT /learn chapter pages now connect six sections: lesson, notes, activity, diagram, quiz and revision sheet. A saved six-step checklist helps students work through the chapter. Existing detailed article lessons, activities and question files are reused rather than duplicated.
 
-## Upload once with GitHub Desktop
+Each chapter has a dedicated /learn/CHAPTER/revision page containing learning targets, core notes, a concept diagram, written recall prompts, three applied MCQs and an optional answer key. Use Print / save as PDF to download it through the browser. These pages print in a clean light layout even when the website is in dark mode.
 
-1. Extract this ZIP.
-2. Select Biologywithhamza and main in GitHub Desktop. Fetch/Pull remote changes first.
-3. Choose Repository → Show in Explorer. Copy the extracted contents into that repository folder and replace matching files.
-4. Do not copy node_modules, out, .next or a ZIP into the repository.
-5. Commit with: Add revision dashboard and mistake notebook
+Notes links open the verified shared Drive folder, not guessed individual files. A chapter-specific video is used when one is present in the existing video catalogue; otherwise the link is explicitly labelled as the complete teaching playlist.
+
+## Point 6 — optional student accounts
+
+The implementation includes email-code sign-in using Supabase Auth, private PostgreSQL progress storage, row-level access policies, complete learning backups, preview/confirmation before restore, explicit cloud saves and conflict detection. It supports carrying a snapshot of progress between devices after signing in with the same account.
+
+**One-time activation is still required.** No Supabase project, email sender or credentials were supplied or created. Read ACCOUNT_SETUP.md and run supabase/setup.sql in your own project, configure email delivery, then add the two public build variables in Cloudflare Pages. Until then the Account page states online sign-in is unavailable, while local learning and downloadable backups work normally.
+
+Sync is manual and replaces a selected snapshot after confirmation; it does not merge simultaneous edits or provide live collaborative syncing. Sign-out ends the online session but retains local learning records. There is no teacher administration portal or automatic question-report delivery in this release.
+
+## Upload with GitHub Desktop
+
+1. Extract the ZIP.
+2. In GitHub Desktop, select Biologywithhamza and main; Fetch/Pull first.
+3. Choose Repository → Show in Explorer. Copy these extracted contents into the repository root, replacing matching files.
+4. Keep the repository's Git metadata. Do not add node_modules, out, .next or the ZIP itself.
+5. Commit message: Add Cambridge practice, chapter packs and optional accounts
 6. Push origin once.
 
-Cloudflare Pages stays on build command npm run build:netlify and output directory out. The script now explicitly uses Webpack, which produced the verified static export; the default Turbopack process stalled in the verification environment. No DNS change, new paid service or database is required. Nothing was deployed by this update.
+Cloudflare Pages: build command npm run build:netlify; output directory out. No DNS changes are needed. The package has not been pushed or deployed on your behalf.
 
 ## Verification
 
-Production static export, TypeScript, ESLint on changed code, existing content/link/model/theme tests, and new revision-model tests. See release-notes/REVISION_QA.md for browser verification results.
+Production export: 161 generated entries. Changed application code passes ESLint and build-time TypeScript checking. All 24 content, model, appearance, revision and new-feature tests pass. Desktop/mobile browser checks pass in light and dark modes. The sign-in/sync frontend was checked with simulated service responses; SQL access controls and version checks were executed in a local PostgreSQL-compatible test runtime. Actual production email delivery and live Supabase account isolation must be checked after your setup.
+
+See release-notes/POINTS_4_6_QA.md and ACCOUNT_SETUP.md.

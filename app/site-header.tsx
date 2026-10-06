@@ -11,7 +11,7 @@ import { links } from "./content";
 export type SearchEntry = { title: string; href: string; type: string; keywords: string };
 const navigation = [
   ["/learn", "Learn"], ["/practice", "Practice"], ["/revision", "Revision"], ["/lab", "Lab"], ["/atlas", "Human Atlas"],
-  ["/cambridge-o-level", "O Level"], ["/resources", "Resources"], ["/about", "About"],
+  ["/cambridge-o-level", "O Level"], ["/resources", "Resources"], ["/account", "Account"],
 ];
 
 export function SiteHeader({ entries }: { entries: SearchEntry[] }) {

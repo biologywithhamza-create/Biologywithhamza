@@ -1,0 +1,18 @@
+import {PGlite} from '@electric-sql/pglite';
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const db=new PGlite();
+await db.exec(`create role anon;create role authenticated;create schema auth;create table auth.users(id uuid primary key);create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;grant usage on schema auth to authenticated,anon;grant execute on function auth.uid() to authenticated,anon;insert into auth.users values ('11111111-1111-4111-8111-111111111111'),('22222222-2222-4222-8222-222222222222');`);
+await db.exec(fs.readFileSync('./supabase/setup.sql','utf8'));
+const payload={format:'bwh-learning-snapshot',version:1};
+await db.exec(`set role authenticated;set request.jwt.claim.sub='11111111-1111-4111-8111-111111111111';`);
+let r=await db.query('select * from public.save_learning_snapshot($1,$2)',[0,payload]);assert.equal(Number(r.rows[0].version),1);
+await assert.rejects(db.query('select * from public.save_learning_snapshot($1,$2)',[0,payload]),e=>e.code==='40001');
+r=await db.query('select * from public.save_learning_snapshot($1,$2)',[1,payload]);assert.equal(Number(r.rows[0].version),2);
+await assert.rejects(db.query('select * from public.save_learning_snapshot($1,$2)',[1,payload]),e=>e.code==='40001');
+await db.exec(`set request.jwt.claim.sub='22222222-2222-4222-8222-222222222222';`);
+assert.equal((await db.query('select * from public.learning_snapshots')).rows.length,0);
+await assert.rejects(db.query('insert into public.learning_snapshots(user_id,payload) values($1,$2)',['11111111-1111-4111-8111-111111111111',payload]),e=>e.code==='42501');
+assert.equal((await db.query('update public.learning_snapshots set version=99 returning *')).rows.length,0);
+assert.equal((await db.query('delete from public.learning_snapshots returning *')).rows.length,0);
+await db.exec('reset role;set role anon;');await assert.rejects(db.query('select * from public.learning_snapshots'),e=>e.code==='42501');await assert.rejects(db.query('select * from public.save_learning_snapshot($1,$2)',[0,payload]),e=>e.code==='42501');
+console.log('PASS: SQL executes; owner-only read/write/delete; anonymous denied; stale and duplicate saves rejected; valid save increments version.');await db.close();

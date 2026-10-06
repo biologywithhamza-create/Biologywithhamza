@@ -60,3 +60,5 @@ import "./theme-surfaces.css";
 import "./appearance.css";
 
 import "./revision/revision.css";
+
+import "./learning-upgrade.css";

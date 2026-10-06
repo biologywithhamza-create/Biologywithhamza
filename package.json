@@ -15,10 +15,11 @@
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "bash scripts/sites-env.sh -- eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "bash scripts/sites-env.sh -- drizzle-kit generate",
-    "test:static": "npm run build:netlify && node --test tests/full-site-upgrade.test.mjs tests/lab-models.test.mjs tests/appearance.test.mjs tests/revision.test.mjs",
+    "test:static": "npm run build:netlify && node --test tests/full-site-upgrade.test.mjs tests/lab-models.test.mjs tests/appearance.test.mjs tests/revision.test.mjs tests/learning-upgrade.test.mjs",
     "theme:generate": "node scripts/generate-theme-surfaces.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.57.4",
     "drizzle-orm": "0.45.2",
     "fflate": "0.8.2",
     "next": "16.2.6",

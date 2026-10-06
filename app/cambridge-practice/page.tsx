@@ -1,0 +1,4 @@
+import {Header,Footer} from '../components';
+import {CambridgePractice} from './practice';
+export const metadata={title:'Cambridge Answer Practice',description:'Practise structured Biology answers, command words and self-assessment across 19 Cambridge O Level 5090 topics.',alternates:{canonical:'/cambridge-practice'}};
+export default function Page(){return <><Header/><main id="main-content" className="wrap feature-page"><header className="learning-heading"><p className="eyebrow">CAMBRIDGE O LEVEL BIOLOGY · 5090</p><h1>Know it. Explain it. Earn the point.</h1><p>Write first, then compare your reasoning with clear teaching points and a model answer.</p><p className="feature-disclaimer">Original independent practice for the 2026–2028 syllabus. These are not official past-paper questions or Cambridge mark schemes.</p></header><CambridgePractice/></main><Footer/></>;}

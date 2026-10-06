@@ -83,6 +83,7 @@ export default async function CambridgeTopicPage({ params }: TopicPageProps) {
             <article><p className="eyebrow">Common mistakes</p><h2>Where marks disappear</h2><ul>{topic.mistakes.map((item) => <li key={item}>{item}</li>)}</ul></article>
           </section>
 
+          <section className="connected-entry"><h2>Turn this topic into a clear answer.</h2><p>Write your response, reveal the teaching points, and check your own reasoning.</p><Link href={"/cambridge-practice?topic="+topic.slug}>Practise this topic’s structured questions ↗</Link></section>
           <section className="cambridge-topic-section cambridge-topic-practice">
             <div><p className="eyebrow">Structured practice</p><h2>Answer these without looking back.</h2><p>For each prompt, write the biological chain clearly enough that every mark-worthy link is visible.</p></div>
             <ol>{topic.practice.map((item, index) => <li key={item}><span>{String(index + 1).padStart(2, "0")}</span><strong>{item}</strong></li>)}</ol>

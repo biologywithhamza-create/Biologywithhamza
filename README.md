@@ -1,3 +1,5 @@
+> Latest release: see [FULL_SITE_UPDATE.md](FULL_SITE_UPDATE.md). For optional online sign-in and progress storage, follow [ACCOUNT_SETUP.md](ACCOUNT_SETUP.md).
+
 # Biology with Hamza
 
 The official teaching website of Hamza Ramzan, with concept-driven Biology for

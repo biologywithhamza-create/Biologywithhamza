@@ -276,7 +276,7 @@ function retryMistakes(){setAttemptMode("retry");setSaveError("");setSaving(true
       <section className="quiz-profile-gate" aria-labelledby="student-profile-title">
         <div className="quiz-profile-intro">
           <p className="eyebrow">Your practice identity</p>
-          <h2 id="student-profile-title">Create your student ID.</h2>
+          <Link href="/account">Have saved progress? Restore or sign in ↗</Link><h2 id="student-profile-title">Create your student ID.</h2>
           <p>Your scores and recent attempts will stay attached to one practice profile on this browser.</p>
           <ul>
             <li>No email or password required</li>

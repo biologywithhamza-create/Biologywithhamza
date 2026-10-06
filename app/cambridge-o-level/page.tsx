@@ -56,7 +56,7 @@ export default function CambridgeOLevelPage() {
           copy="A syllabus-led learning route for the 2026–2028 Cambridge O Level Biology 5090 course—connecting strong concepts with practical judgment, data interpretation and precise answers."
         >
           <div className="library-actions">
-            <Link className="button button-ember" href="#topic-directory">Find your next topic <Arrow /></Link>
+            <Link className="button button-ember" href="/cambridge-practice">Practise structured answers <Arrow /></Link><Link className="button button-ghost" href="#topic-directory">Find your next topic <Arrow /></Link>
             <a className="button button-ghost" href={links.cambridgeSyllabus} target="_blank" rel="noreferrer">Official Cambridge syllabus</a>
           </div>
         </PageIntro>

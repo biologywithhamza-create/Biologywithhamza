@@ -29,9 +29,12 @@ export function PlayIcon() {
 
 export function Header() {
   const entries = [
+    {title:"Cambridge structured answer practice",href:"/cambridge-practice",type:"Cambridge 5090",keywords:"command words writing model answers marking points"},
+    {title:"Account and complete progress backup",href:"/account",type:"Account",keywords:"email sign in cloud sync restore backup"},
+    ...learningChapters.map(c=>({title:c.title+" printable revision sheet",href:"/learn/"+c.slug+"/revision",type:"Revision sheet",keywords:c.title+" chapter pack PDF"})),
     {title:"Revision dashboard and mistake notebook",href:"/revision",type:"Revision",keywords:"mistakes scores accuracy due review attempts backup"},
     {title:"Learning workspace",href:"/learn",type:"Learn",keywords:"saved progress notes planner"},
-    ...learningChapters.map(c=>({title:c.title+" learning route",href:"/learn/"+c.slug,type:"Chapter",keywords:c.title})),
+    ...learningChapters.map(c=>({title:c.title+" chapter pack",href:"/learn/"+c.slug,type:"Chapter",keywords:c.title})),
     { title: "3D Human Atlas", href: "/atlas", type: "Explore", keywords: "human anatomy organs systems layers skeleton muscles heart brain" },
     { title: "MDCAT Practice Centre", href: "/practice", type: "Practice", keywords: "MCQs quiz test chapters" },
     { title: "Interactive Biology Lab", href: "/lab", type: "Explore", keywords: "osmosis enzymes genetics simulation" },
@@ -62,6 +65,8 @@ export function Footer() {
             <Link href="/lab">Interactive Biology Lab</Link>
             <Link href="/practice">MDCAT practice centre</Link>
             <Link href="/revision">Revision & mistake notebook</Link>
+            <Link href="/cambridge-practice">Cambridge answer practice</Link>
+            <Link href="/account">Account & progress backup</Link>
             <Link href="/articles">Biology articles</Link>
             <Link href="/videos">Video lessons</Link>
             <Link href="/about">About Hamza</Link>

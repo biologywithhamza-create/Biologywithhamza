@@ -1,0 +1,6 @@
+'use client';
+import {useState} from 'react';
+import {useStudy,toggleStudy} from '../study-store';
+export const packSteps=['Lesson','Notes','Activity','Diagram','Quiz','Revision sheet'];
+export function PackChecklist({slug}:{slug:string}){const d=useStudy(),[message,M]=useState('');const done=packSteps.filter((_,i)=>d.completed.includes(`/packs/${slug}/${i}`)).length;return <section className="pack-checklist"><div><strong>Your chapter route</strong><span>{done}/6 steps marked complete</span></div><div>{packSteps.map((s,i)=>{const id=`/packs/${slug}/${i}`;return <button aria-pressed={d.completed.includes(id)} key={s} onClick={()=>M(toggleStudy('completed',id)?`${s} progress updated.`:'Storage unavailable.')}>{d.completed.includes(id)?'✓ ':''}{s}</button>;})}</div><p role="status">{message}</p></section>;}
+export function PrintPack(){const[answers,A]=useState(false);return <div className="pack-print-tools"><label><input type="checkbox" checked={answers} onChange={e=>{A(e.target.checked);document.querySelector('.chapter-sheet')?.classList.toggle('print-answers',e.target.checked);}}/>Include answer key in printout</label><button onClick={()=>window.print()}>Print / save as PDF</button><p>Choose “Save as PDF” in your browser’s print dialog to download this chapter sheet.</p></div>;}
