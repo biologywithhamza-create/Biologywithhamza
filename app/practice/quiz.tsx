@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import {AnswerFeedback} from "./answer-feedback";
 import { QuestionVisual, QuestionReport } from "./question-tools";
 import { makeAttempt, reviewPool, type PracticeMode } from "../revision/model";
 import { useRevision, saveAttempt, notifyRevision, validProfile } from "../revision/store";
@@ -431,7 +432,7 @@ function retryMistakes(){setAttemptMode("retry");setSaveError("");setSaving(true
                 <QuestionVisual question={question}/>
                 <p><b>Correct answer:</b> {question.options[question.answer]}</p>
                 {!isCorrect && selected !== undefined && <p><b>Your answer:</b> {question.options[selected]}</p>}
-                <div className="quiz-explanation">{question.explanation}</div>
+                <div className="quiz-explanation"><AnswerFeedback question={question}/></div>
                 <QuestionReport question={question}/>
               </article>
             );

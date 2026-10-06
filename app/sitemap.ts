@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const origin = "https://hamzaramzan.online";
   const now = new Date("2026-09-07");
   return [
+    ...["mocks","study-today","practical-studio","offline-packs"].map(path=>({url:origin+"/"+path,priority:0.9})),
     {url:origin+"/revision",priority:0.9},
     {url:origin+"/cambridge-practice",priority:0.9},
     ...learningChapters.map(c=>({url:origin+"/learn/"+c.slug+"/revision",priority:0.7})),

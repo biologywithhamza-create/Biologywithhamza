@@ -1,5 +1,5 @@
 import type { QuizQuestion } from '../practice/questions';
-export type PracticeMode = 'fresh' | 'mistakes' | 'due' | 'retry';
+export type PracticeMode = 'fresh' | 'mistakes' | 'due' | 'retry' | 'mock' | 'daily';
 export type Result = { id:string; version:string; chapter:string; stem:string; selected:string|null; answer:string; correct:boolean };
 export type Attempt = { id:string; at:number; mode:PracticeMode; results:Result[] };
 export type ReviewItem = { id:string; version:string; chapter:string; wrongCount:number; lastSeen:number; nextDue:number; streak:number; lastCorrect:boolean; selected:string|null };
@@ -36,10 +36,10 @@ export function reviewPool(data:RevisionData,questions:QuizQuestion[],mode:'mist
 }
 export function chapterStats(data:RevisionData,chapters:string[]){
   return chapters.map(chapter=>{
-    const fresh=data.attempts.filter(a=>a.mode==='fresh').flatMap(a=>a.results).filter(r=>r.chapter===chapter);
+    const fresh=data.attempts.filter(a=>(a.mode==='fresh'||a.mode==='mock')).flatMap(a=>a.results).filter(r=>r.chapter===chapter);
     const latest=new Map<string,Result>();for(const r of fresh)if(!latest.has(r.id))latest.set(r.id,r);
     const values=[...latest.values()],correct=values.filter(r=>r.correct).length;
-    return {chapter,seen:values.length,correct,accuracy:values.length?Math.round(correct/values.length*100):null,attempts:data.attempts.filter(a=>a.mode==='fresh'&&a.results.some(r=>r.chapter===chapter)).length};
+    return {chapter,seen:values.length,correct,accuracy:values.length?Math.round(correct/values.length*100):null,attempts:data.attempts.filter(a=>(a.mode==='fresh'||a.mode==='mock')&&a.results.some(r=>r.chapter===chapter)).length};
   });
 }
 function str(v:unknown,max=300):v is string{return typeof v==='string'&&v.length<=max;}
@@ -48,6 +48,6 @@ export function validRevision(v:unknown):v is RevisionData {
   if(!v||typeof v!=='object')return false;const d=v as RevisionData;
   if(d.version!==1||!Array.isArray(d.attempts)||d.attempts.length>MAX_ATTEMPTS||!d.review||typeof d.review!=='object'||Array.isArray(d.review)||Object.keys(d.review).length>3000)return false;
   const ids=new Set<string>();
-  for(const a of d.attempts){if(!a||!str(a.id,20000)||ids.has(a.id)||!num(a.at)||!['fresh','mistakes','due','retry'].includes(a.mode)||!Array.isArray(a.results)||!a.results.length||a.results.length>100)return false;ids.add(a.id);const qs=new Set<string>();for(const r of a.results){if(!r||!str(r.id)||qs.has(r.id)||!str(r.version)||!str(r.chapter)||!str(r.stem,3000)||!(r.selected===null||str(r.selected,3000))||!str(r.answer,3000)||typeof r.correct!=='boolean'||r.correct!==(r.selected===r.answer))return false;qs.add(r.id);}}
+  for(const a of d.attempts){if(!a||!str(a.id,20000)||ids.has(a.id)||!num(a.at)||!['fresh','mistakes','due','retry','mock','daily'].includes(a.mode)||!Array.isArray(a.results)||!a.results.length||a.results.length>100)return false;ids.add(a.id);const qs=new Set<string>();for(const r of a.results){if(!r||!str(r.id)||qs.has(r.id)||!str(r.version)||!str(r.chapter)||!str(r.stem,3000)||!(r.selected===null||str(r.selected,3000))||!str(r.answer,3000)||typeof r.correct!=='boolean'||r.correct!==(r.selected===r.answer))return false;qs.add(r.id);}}
   return Object.entries(d.review).every(([key,r])=>r&&key===r.id&&str(r.id)&&!['__proto__','constructor','prototype'].includes(key)&&str(r.version)&&str(r.chapter)&&num(r.wrongCount)&&Number.isInteger(r.wrongCount)&&r.wrongCount>=1&&num(r.lastSeen)&&num(r.nextDue)&&num(r.streak)&&Number.isInteger(r.streak)&&r.streak<=5&&typeof r.lastCorrect==='boolean'&&(r.selected===null||str(r.selected,3000)));
 }

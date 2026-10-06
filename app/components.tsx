@@ -29,6 +29,10 @@ export function PlayIcon() {
 
 export function Header() {
   const entries = [
+    {title:"Biology mock centre",href:"/mocks",type:"Mock tests",keywords:"81 MCQs timed mock daily review"},
+    {title:"Your personal study plan",href:"/study-today",type:"Revision",keywords:"daily tasks countdown weak chapters"},
+    {title:"Practical and diagram studio",href:"/practical-studio",type:"Cambridge skills",keywords:"graphs magnification osmosis experiment labels pathways"},
+    {title:"Download offline chapter packs",href:"/offline-packs",type:"Downloads",keywords:"HTML no internet notes MCQs PDF"},
     {title:"Cambridge structured answer practice",href:"/cambridge-practice",type:"Cambridge 5090",keywords:"command words writing model answers marking points"},
     {title:"Account and complete progress backup",href:"/account",type:"Account",keywords:"email sign in cloud sync restore backup"},
     ...learningChapters.map(c=>({title:c.title+" printable revision sheet",href:"/learn/"+c.slug+"/revision",type:"Revision sheet",keywords:c.title+" chapter pack PDF"})),
@@ -60,7 +64,7 @@ export function Footer() {
         </div>
         <div className="footer-links">
           <div>
-            <p>Explore</p><Link href="/learn">Learning workspace</Link>
+            <p>Explore</p><Link href="/study-today">Study today</Link><Link href="/mocks">Biology mocks</Link><Link href="/practical-studio">Practical & diagram studio</Link><Link href="/offline-packs">Offline packs</Link><Link href="/learn">Learning workspace</Link>
             <Link href="/atlas">3D Human Atlas</Link>
             <Link href="/lab">Interactive Biology Lab</Link>
             <Link href="/practice">MDCAT practice centre</Link>

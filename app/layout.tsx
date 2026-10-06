@@ -62,3 +62,4 @@ import "./appearance.css";
 import "./revision/revision.css";
 
 import "./learning-upgrade.css";
+import "./next-update.css";

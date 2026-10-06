@@ -1,0 +1,3 @@
+import type {QuizQuestion} from './questions';
+import {deepFeedback} from './deep-feedback';
+export function AnswerFeedback({question:q}:{question:QuizQuestion}){const d=deepFeedback[q.id];return <div className="answer-feedback"><p><strong>Correct answer: {q.options[q.answer]}</strong></p><p>{q.explanation}</p>{d&&<><p className="eyebrow">CONCEPT · {d.concept}</p><details><summary>Why each option works or fails</summary><ul>{q.options.map((o,i)=><li key={o}><strong>{i===q.answer?'✓ Correct':'✕ Distractor'} · {o}</strong><p>{d.options[o]}</p></li>)}</ul></details><details><summary>Explain simply in Roman Urdu</summary><p lang="ur-Latn">{d.romanUrdu}</p><small>Use the English scientific terms in your exam answer.</small></details></>}</div>;}

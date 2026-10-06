@@ -15,7 +15,7 @@
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "bash scripts/sites-env.sh -- eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "bash scripts/sites-env.sh -- drizzle-kit generate",
-    "test:static": "npm run build:netlify && node --test tests/full-site-upgrade.test.mjs tests/lab-models.test.mjs tests/appearance.test.mjs tests/revision.test.mjs tests/learning-upgrade.test.mjs",
+    "test:static": "npm run build:netlify && node --test tests/full-site-upgrade.test.mjs tests/lab-models.test.mjs tests/appearance.test.mjs tests/revision.test.mjs tests/learning-upgrade.test.mjs tests/next-release.test.mjs",
     "theme:generate": "node scripts/generate-theme-surfaces.mjs"
   },
   "dependencies": {

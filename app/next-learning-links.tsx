@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export function NextLearningLinks(){return <section className="next-home wrap" aria-label="New learning tools"><div><p className="eyebrow">YOUR NEXT STEP</p><h2>Put your understanding to work.</h2><p>Take a mock, repair a weak concept, or keep a chapter for offline study.</p></div><div><Link href="/study-today">Study today ↗</Link><Link href="/mocks">Biology mocks ↗</Link><Link href="/practical-studio">Practical studio ↗</Link><Link href="/offline-packs">Offline packs ↗</Link></div></section>;}

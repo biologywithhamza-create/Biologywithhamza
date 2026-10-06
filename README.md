@@ -1,3 +1,7 @@
+# Latest release: v5 Learning Tools
+
+Read **START_HERE_V5.md** and **FULL_SITE_UPDATE.md** for the current package. Online accounts still require **ACCOUNT_SETUP.md**.
+
 > Latest release: see [FULL_SITE_UPDATE.md](FULL_SITE_UPDATE.md). For optional online sign-in and progress storage, follow [ACCOUNT_SETUP.md](ACCOUNT_SETUP.md).
 
 # Biology with Hamza
