@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
   const { slug } = await params;
   const article = articles.find((item) => item.slug === slug);
   if (!article) return {};
+  const isWellbeing = article.slug === "mdcat-preparation-pressure-mental-health";
   return {
     title: article.title,
     description: article.description,
@@ -42,13 +43,13 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
       publishedTime: article.dateISO,
       modifiedTime: getArticleUpdatedISO(article),
       authors: ["Hamza Ramzan"],
-      images: [],
+      images: isWellbeing ? [{ url: "/articles/mdcat-pressure-social.jpg", width: 1200, height: 632, alt: "Illustration of a student pausing at a desk during MDCAT preparation" }] : [],
     },
     twitter: {
-      card: "summary",
+      card: isWellbeing ? "summary_large_image" : "summary",
       title: article.title,
       description: article.description,
-      images: [],
+      images: isWellbeing ? ["/articles/mdcat-pressure-social.jpg"] : [],
     },
   };
 }
@@ -75,8 +76,10 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
     publisher: { "@type": "Person", name: "Hamza Ramzan", url: "https://hamzaramzan.online" },
     educationalLevel: article.category === "Cambridge O Level" ? "Cambridge O Level" : "MDCAT and upper-secondary Biology",
     about: article.topic,
+    ...(article.slug === "mdcat-preparation-pressure-mental-health" ? { image: "https://hamzaramzan.online/articles/mdcat-pressure-social.jpg" } : {}),
   };
   const references = getArticleReferences(article);
+  const isWellbeing = article.slug === "mdcat-preparation-pressure-mental-health";
 
   return (
     <>
@@ -101,6 +104,13 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
           <ArticleActions/><StudyControls id={"/articles/"+article.slug} title={article.title} notes/>
         </header>
 
+        {isWellbeing && (
+          <figure style={{ margin: "0 0 36px" }}>
+            <Image src="/articles/mdcat-pressure-cover.webp" alt="Illustration of a student pausing over Biology notes and practice questions beside a sunlit window." width={1600} height={843} sizes="(max-width: 900px) 100vw, 1100px" priority style={{ display: "block", width: "100%", height: "auto", borderRadius: "16px" }} />
+            <figcaption style={{ marginTop: "10px", fontSize: "0.875rem", lineHeight: 1.6 }}>The person behind the preparation matters as much as the result.</figcaption>
+          </figure>
+        )}
+
         <section className="article-objectives" aria-labelledby="objectives-title">
           <div>
             <span>Learning map</span>
@@ -114,7 +124,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             <span>Content updated</span><strong>{getArticleUpdatedISO(article)}</strong>
           </div>
           <div>
-            <span>Syllabus alignment</span>
+            <span>{isWellbeing ? "Article scope" : "Syllabus alignment"}</span>
             <strong>{getArticleSyllabusAlignment(article)}</strong>
           </div>
           <div>
@@ -173,6 +183,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
               </section>
             ))}
 
+            {isWellbeing && <p><Link href="/study-today">Build a manageable study plan</Link> · <Link href="/about">About Hamza Ramzan</Link></p>}
             <section className="article-recap" id="quick-recap">
               <span>Quick recap</span>
               <h2>The ideas to carry forward</h2>
@@ -180,8 +191,8 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             </section>
 
             <section className="article-checks" id="check-understanding">
-              <span>Exam-style concept checks</span>
-              <h2>Answer first. Then reveal the marking logic.</h2>
+              <span>{isWellbeing ? "Common questions" : "Exam-style concept checks"}</span>
+              <h2>{isWellbeing ? "Questions students and parents ask" : "Answer first. Then reveal the marking logic."}</h2>
               {article.checks.map((check, index) => (
                 <details key={check.question}>
                   <summary><i>{String(index + 1).padStart(2, "0")}</i><span>{check.question}<small>2 marks · show the biological link</small></span></summary>
