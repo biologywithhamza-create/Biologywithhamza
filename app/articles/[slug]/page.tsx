@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { ArticleActions, ReadingProgress } from "../../article-actions";
 import { Arrow, ArticleCard, ConceptDiagram, Footer, Header } from "../../components";
 import { articles, links } from "../../content";
+import { beyondMbbsArticle, beyondMbbsCover } from "../../beyond-mbbs-article";
 import {
   getArticleUpdatedISO,
   getArticleReadTime,
@@ -32,6 +33,7 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
   const article = articles.find((item) => item.slug === slug);
   if (!article) return {};
   const isWellbeing = article.slug === "mdcat-preparation-pressure-mental-health";
+  const isCareer = article.slug === beyondMbbsArticle.slug;
   return {
     title: article.title,
     description: article.description,
@@ -43,13 +45,13 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
       publishedTime: article.dateISO,
       modifiedTime: getArticleUpdatedISO(article),
       authors: ["Hamza Ramzan"],
-      images: isWellbeing ? [{ url: "/articles/mdcat-pressure-social.jpg", width: 1200, height: 632, alt: "Illustration of a student pausing at a desk during MDCAT preparation" }] : [],
+      images: isCareer ? [{ url: beyondMbbsCover.social, width: 1600, height: 900, alt: beyondMbbsCover.alt }] : isWellbeing ? [{ url: "/articles/mdcat-pressure-social.jpg", width: 1200, height: 632, alt: "Illustration of a student pausing at a desk during MDCAT preparation" }] : [],
     },
     twitter: {
-      card: isWellbeing ? "summary_large_image" : "summary",
+      card: isWellbeing || isCareer ? "summary_large_image" : "summary",
       title: article.title,
       description: article.description,
-      images: isWellbeing ? ["/articles/mdcat-pressure-social.jpg"] : [],
+      images: isCareer ? [beyondMbbsCover.social] : isWellbeing ? ["/articles/mdcat-pressure-social.jpg"] : [],
     },
   };
 }
@@ -58,6 +60,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
   const { slug } = await params;
   const article = articles.find((item) => item.slug === slug);
   if (!article) notFound();
+  const isCareer = article.slug === beyondMbbsArticle.slug;
 
   const related = articles
     .filter((item) => item.slug !== article.slug)
@@ -74,12 +77,25 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
     mainEntityOfPage: `https://hamzaramzan.online/articles/${article.slug}`,
     author: { "@type": "Person", name: "Hamza Ramzan", url: "https://hamzaramzan.online/about" },
     publisher: { "@type": "Person", name: "Hamza Ramzan", url: "https://hamzaramzan.online" },
-    educationalLevel: article.category === "Cambridge O Level" ? "Cambridge O Level" : "MDCAT and upper-secondary Biology",
+    educationalLevel: isCareer ? "Post-secondary education planning" : article.category === "Cambridge O Level" ? "Cambridge O Level" : "MDCAT and upper-secondary Biology",
     about: article.topic,
     ...(article.slug === "mdcat-preparation-pressure-mental-health" ? { image: "https://hamzaramzan.online/articles/mdcat-pressure-social.jpg" } : {}),
+    ...(isCareer ? { image: `https://hamzaramzan.online${beyondMbbsCover.social}` } : {}),
   };
   const references = getArticleReferences(article);
   const isWellbeing = article.slug === "mdcat-preparation-pressure-mental-health";
+  const isGuidance = isWellbeing || isCareer;
+
+  function articleText(text: string) {
+    if (!isCareer) return text;
+    return text.split(/(\[\d+(?:,\d+)*\])/g).map((part, index) => {
+      if (!/^\[\d+(?:,\d+)*\]$/.test(part)) return part;
+      const numbers = part.slice(1, -1).split(',').map(Number);
+      return <span key={index}>[{numbers.map((number, position) => (
+        <span key={number}>{position > 0 ? ', ' : ''}<a href={`#article-source-${number}`} aria-label={`Source ${number}`}>{number}</a></span>
+      ))}]</span>;
+    });
+  }
 
   return (
     <>
@@ -87,7 +103,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
       <ReadingProgress />
       <Header />
       <main className="article-shell" id="main-content">
-        <Link className="article-breadcrumb" href="/articles"><Arrow /> All Biology articles</Link>
+        <Link className="article-breadcrumb" href="/articles"><Arrow /> All articles</Link>
         <header className="article-header">
           <div className="article-header-meta">
             <span>{article.category}</span><i /><span>{article.topic}</span><i /><span>{getArticleReadTime(article)}</span>
@@ -111,10 +127,20 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
           </figure>
         )}
 
+        {isCareer && (
+          <figure style={{ margin: "0 0 36px" }}>
+            <Image src={beyondMbbsCover.src} alt={beyondMbbsCover.alt} width={beyondMbbsCover.width} height={beyondMbbsCover.height} sizes="(max-width: 900px) 100vw, 1100px" priority style={{ display: "block", width: "100%", height: "auto", borderRadius: "8px" }} />
+            <figcaption style={{ marginTop: "10px", fontSize: "0.875rem", lineHeight: 1.6 }}>
+              {beyondMbbsCover.caption}<br />
+              Photo: <a href={beyondMbbsCover.source} target="_blank" rel="noreferrer">{beyondMbbsCover.photographer} / Wikimedia Commons</a>. <a href={beyondMbbsCover.license} target="_blank" rel="noreferrer">CC BY-SA 4.0</a>. Resized and compressed.
+            </figcaption>
+          </figure>
+        )}
+
         <section className="article-objectives" aria-labelledby="objectives-title">
           <div>
-            <span>Learning map</span>
-            <h2 id="objectives-title">By the end, you should be able to…</h2>
+            <span>{isCareer ? "Decision guide" : "Learning map"}</span>
+            <h2 id="objectives-title">{isCareer ? "Make your next choice with evidence" : "By the end, you should be able to…"}</h2>
           </div>
           <ul>{article.objectives.map((objective) => <li key={objective}>{objective}</li>)}</ul>
         </section>
@@ -124,21 +150,21 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             <span>Content updated</span><strong>{getArticleUpdatedISO(article)}</strong>
           </div>
           <div>
-            <span>{isWellbeing ? "Article scope" : "Syllabus alignment"}</span>
+            <span>{isGuidance ? "Article scope" : "Syllabus alignment"}</span>
             <strong>{getArticleSyllabusAlignment(article)}</strong>
           </div>
           <div>
             <span>Article depth</span>
             <strong>{getArticleWordCount(article).toLocaleString()} words · {getArticleReadTime(article)}</strong>
           </div>
-          <div className="article-evidence-sources">
+          {!isCareer && <div className="article-evidence-sources">
             <span>Recommended sources</span>
             <ul>
               {references.map((reference) => (
                 <li key={reference.href}><a href={reference.href} target="_blank" rel="noreferrer">{reference.label} <Arrow /></a></li>
               ))}
             </ul>
-          </div>
+          </div>}
         </section>
 
         <div className="article-reading-layout">
@@ -151,7 +177,8 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
                 </a>
               ))}
               <a href="#quick-recap"><i>✓</i>Quick recap</a>
-              <a href="#check-understanding"><i>?</i>Check understanding</a>
+              <a href="#check-understanding"><i>?</i>{isGuidance ? "Common questions" : "Check understanding"}</a>
+              {isCareer && <a href="#article-sources"><i>↗</i>Sources</a>}
             </nav>
           </aside>
 
@@ -159,8 +186,8 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             {article.sections.map((section) => (
               <section className="article-section" id={sectionId(section.heading)} key={section.heading}>
                 <h2>{section.heading}</h2>
-                {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-                {section.points && <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul>}
+                {section.paragraphs.map((paragraph) => <p key={paragraph}>{articleText(paragraph)}</p>)}
+                {section.points && <ul>{section.points.map((point) => <li key={point}>{articleText(point)}</li>)}</ul>}
                 {section.diagram && <ConceptDiagram diagram={section.diagram} />}
                 {section.table && (
                   <div className="article-table-wrap">
@@ -171,19 +198,20 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
                         {section.table.rows.map((row, rowIndex) => (
                           <tr key={`${section.heading}-${rowIndex}`}>
                             {row.map((cell, cellIndex) => cellIndex === 0
-                              ? <th scope="row" key={cell}>{cell}</th>
-                              : <td key={`${cell}-${cellIndex}`}>{cell}</td>)}
+                              ? <th scope="row" key={cell}>{articleText(cell)}</th>
+                              : <td key={`${cell}-${cellIndex}`}>{articleText(cell)}</td>)}
                           </tr>
                         ))}
                       </tbody>
                     </table>
                   </div>
                 )}
-                {section.callout && <aside className="article-callout">{section.callout}</aside>}
+                {section.callout && <aside className="article-callout">{articleText(section.callout)}</aside>}
               </section>
             ))}
 
             {isWellbeing && <p><Link href="/study-today">Build a manageable study plan</Link> · <Link href="/about">About Hamza Ramzan</Link></p>}
+            {isCareer && <p>Related reading: <Link href="/articles/mdcat-preparation-pressure-mental-health">The Pressure Behind MDCAT: Preparation, Expectations and Mental Health</Link>.</p>}
             <section className="article-recap" id="quick-recap">
               <span>Quick recap</span>
               <h2>The ideas to carry forward</h2>
@@ -191,15 +219,21 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             </section>
 
             <section className="article-checks" id="check-understanding">
-              <span>{isWellbeing ? "Common questions" : "Exam-style concept checks"}</span>
-              <h2>{isWellbeing ? "Questions students and parents ask" : "Answer first. Then reveal the marking logic."}</h2>
+              <span>{isGuidance ? "Common questions" : "Exam-style concept checks"}</span>
+              <h2>{isGuidance ? "Questions students and parents ask" : "Answer first. Then reveal the marking logic."}</h2>
               {article.checks.map((check, index) => (
                 <details key={check.question}>
-                  <summary><i>{String(index + 1).padStart(2, "0")}</i><span>{check.question}<small>2 marks · show the biological link</small></span></summary>
-                  <p><strong>Answer:</strong> {check.answer}</p>
+                  <summary><i>{String(index + 1).padStart(2, "0")}</i><span>{check.question}{!isGuidance && <small>2 marks · show the biological link</small>}</span></summary>
+                  <p><strong>Answer:</strong> {articleText(check.answer)}</p>
                 </details>
               ))}
             </section>
+
+            {isCareer && <section className="article-section" id="article-sources">
+              <h2>Sources and official checks</h2>
+              <p>Programme pages describe courses, not independent proof of graduate employment. Use the relevant council for current recognition, registration and intake conditions. Sources consulted October 12, 2026.</p>
+              <ul>{references.map((reference, index) => <li id={`article-source-${index + 1}`} key={reference.href} style={{ scrollMarginTop: "120px", overflowWrap: "anywhere" }}><a href={reference.href} target="_blank" rel="noreferrer">{reference.label}</a></li>)}</ul>
+            </section>}
 
             <div className="article-share">
               <p>Want the next explanation when it is published?</p>

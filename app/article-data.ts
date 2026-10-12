@@ -1,3 +1,4 @@
+import { beyondMbbsArticle, beyondMbbsReferences } from "./beyond-mbbs-article";
 import { mdcatPressureArticle, mdcatPressureReferences } from "./mdcat-pressure-article";
 import {respiratoryArticle} from "./respiratory-article";
 import {expandArticles,expandedArticleSlugs} from "./article-expansions";
@@ -107,6 +108,7 @@ export function getArticleReadTime(article: Article) {
 }
 
 export function getArticleTopicGroup(article: Article): ArticleTopicGroup {
+  if (article.slug === beyondMbbsArticle.slug) return "Practical & exam skills";
   if (article.slug === mdcatPressureArticle.slug) return "Practical & exam skills";
   const haystack = `${article.slug} ${article.topic} ${article.title}`.toLowerCase();
 
@@ -126,6 +128,7 @@ export function getArticleTopicGroup(article: Article): ArticleTopicGroup {
 }
 
 export function getArticleSyllabusAlignment(article: Article) {
+  if (article.slug === beyondMbbsArticle.slug) return "Degree and university choices in Pakistan · educational career guidance";
   if (article.slug === mdcatPressureArticle.slug) return "Student wellbeing guidance · not a syllabus lesson or clinical assessment";
   if (article.category === "Cambridge O Level") {
     return `Cambridge O Level Biology 5090 (2026–2028) · ${article.topic}`;
@@ -140,6 +143,7 @@ export function getArticleSyllabusAlignment(article: Article) {
 }
 
 export function getArticleReferences(article: Article): ArticleReference[] {
+  if (article.slug === beyondMbbsArticle.slug) return beyondMbbsReferences;
   if (article.slug === mdcatPressureArticle.slug) return mdcatPressureReferences;
   const topicGroup = getArticleTopicGroup(article);
   const references: ArticleReference[] = [];
@@ -2398,5 +2402,5 @@ const baseArticles: Article[] = [
   },
 ];
 
-export const articles:Article[]=expandArticles([mdcatPressureArticle,...baseArticles,respiratoryArticle]);
+export const articles:Article[]=expandArticles([beyondMbbsArticle,mdcatPressureArticle,...baseArticles,respiratoryArticle]);
 export function getArticleUpdatedISO(article:Article){return expandedArticleSlugs.includes(article.slug)||article.slug===respiratoryArticle.slug?"2026-09-15":article.dateISO;}
