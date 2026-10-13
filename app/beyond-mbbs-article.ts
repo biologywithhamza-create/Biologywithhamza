@@ -6,7 +6,7 @@ export const beyondMbbsCover = {
   width: 1600,
   height: 900,
   alt: 'Clock tower and main building of Government College University, Lahore, photographed from the courtyard.',
-  caption: 'Government College University, Lahore. An illustration of university life in Pakistan, not a recommendation of a particular programme.',
+  caption: 'Government College University, Lahore.',
   photographer: 'Shahzaib Damn Cruze',
   source: 'https://commons.wikimedia.org/wiki/File:Government_College_University,_Lahore_-_Clock_tower_and_main_building_1.jpg',
   license: 'https://creativecommons.org/licenses/by-sa/4.0/',
@@ -39,317 +39,353 @@ export const beyondMbbsReferences: ArticleReference[] = [
   { label: '[24] PNMC: recognised nursing institutions and programmes', href: 'https://pnmc.gov.pk/recognized-institutes/' },
 ];
 
+export const beyondMbbsUpdatedISO = '2026-10-13';
+
 export const beyondMbbsArticle: Article = {
-  slug: 'degree-options-after-mdcat-pakistan',
-  category: 'Study Strategy',
-  topic: 'Degrees, careers & university choices',
-  date: 'October 12, 2026',
-  dateISO: '2026-10-12',
-  readTime: '28 min read',
-  title: 'Beyond MBBS: How to Choose the Right Degree and University After MDCAT',
-  description: 'Explore degree options after MDCAT in Pakistan: medical and non-medical careers, their trade-offs, future prospects and a practical university checklist.',
-  accent: 'green',
-  objectives: [
-    'Build a shortlist based on the work you want to do, your strengths and your circumstances.',
-    'Compare career pathways without confusing a degree title with guaranteed employment.',
-    'Verify recognition, training quality and the complete cost before accepting admission.',
+  "slug": "degree-options-after-mdcat-pakistan",
+  "category": "Study Strategy",
+  "topic": "Life after MDCAT",
+  "date": "October 12, 2026",
+  "dateISO": "2026-10-12",
+  "readTime": "25 min read",
+  "title": "Beyond MBBS: How to Choose the Right Degree and University After MDCAT",
+  "description": "Didn't get into MBBS? A practical guide to degrees after MDCAT in Pakistan, the work they lead to, and what to check before choosing a university.",
+  "accent": "green",
+  "objectives": [
+    "Find a few degrees worth considering for your interests and circumstances.",
+    "Understand the work, training and difficulties behind each option.",
+    "Check a university properly before paying the admission fee."
   ],
-  sections: [
+  "sections": [
     {
-      heading: 'When the plan changes after MDCAT',
-      paragraphs: [
-        'You may have spent years imagining yourself in a medical college. Then the merit list arrived, the fees became impossible, a family circumstance changed, or you realised that medicine might not be the life you wanted. Suddenly, people who once asked about your preparation began asking a different question: what will you do now?',
-        'There is rarely a shortage of advice. Someone recommends DPT because it has "doctor" in the title. Someone suggests computer science because they have heard about salaries abroad. A college promises that its newest degree has unlimited scope. None of that tells you whether the course is recognised, what the work involves, or whether the route is affordable for your family.',
-        'There are meaningful degree options after MDCAT in Pakistan, both inside and outside healthcare. The right choice depends on your interests, entry eligibility, training quality, finances and the employment market you can realistically access. Nursing, pharmacy, rehabilitation, diagnostic sciences, computing and research offer different kinds of work. They are not interchangeable versions of MBBS.',
-        'This guide compares those routes and gives you a method for choosing a university. It is an educational decision guide, not a salary ranking or an employment forecast. Official sources support the programme and recognition information; the comparisons and decision exercises are practical guidance. Always confirm current rules for your intended intake before paying fees.',
-      ],
+      "heading": "MBBS was the plan. What happens now?",
+      "paragraphs": [
+        "If you spent the last two years preparing for medical college, being asked to choose another degree can feel unreasonable. Until recently, your day had a clear purpose: finish the chapter, improve the test score, get through MDCAT. Now you're expected to make a decision about an unfamiliar profession while you're still trying to process the result.",
+        "And the advice starts almost immediately. Do DPT. Apply for Pharm-D. Try computer science. Someone knows someone who went abroad after nursing. Someone else says every field is saturated.",
+        "You can listen to all of them and still have no idea what to put on an admission form.",
+        "First, not getting an MBBS seat doesn't tell the whole story. You may have missed the merit by a small margin, been unable to afford private medical college, faced a difficult year, or decided you no longer want medicine. These are different situations. They deserve more thought than being handed the same list of “alternatives.”",
+        "I'd begin with a smaller question: which kind of work would you actually like to learn? Once you have a few possible answers, it becomes much easier to compare degrees and universities."
+      ]
     },
     {
-      heading: 'Start with the work, not the degree title',
-      paragraphs: [
-        'Ask what originally attracted you to medicine. Was it caring for people, understanding the human body, conducting research, earning a stable income, or meeting family expectations? More than one answer may be true. Naming them helps you separate your own interests from other people\'s preferences.',
-        'Then imagine an ordinary working day. Would you prefer assessing a patient\'s movement, analysing samples, checking medicines, studying health data, debugging software, or managing a project? A profession is built from repeated tasks. Enjoying Biology at school does not automatically mean enjoying every healthcare role.',
-        'Write down your constraints without apologising for them: the maximum your family can spend, whether you can relocate, accessibility needs, transport arrangements, and how soon you need to earn. A sensible choice must work within your life as well as on a prospectus.',
+      "heading": "Before you ask which degree has scope",
+      "paragraphs": [
+        "Think about what attracted you to MBBS in the first place. Was it treating patients? Understanding the body? Financial security? The respect attached to being a doctor? Be honest here, even if the answer is partly that it was what your family wanted.",
+        "Those answers point in different directions. If you want regular contact with patients, nursing or rehabilitation deserves a closer look. If you enjoyed the laboratory side of Biology, diagnostic sciences or a research degree may interest you. If you like solving problems but have little interest in hospital work, there's room to look outside healthcare.",
+        "You also need to think about the parts of a job that don't appear in admission advertisements. Could you manage night shifts? Would you enjoy working with a patient for months? Are you comfortable around blood and illness? Would you willingly spend an afternoon trying to understand why a computer programme isn't working?",
+        "You don't need perfect answers yet. You need enough honesty to rule out choices you're considering only because the name sounds impressive."
+      ]
+    },
+    {
+      "heading": "“Is field ka scope hai?”",
+      "paragraphs": [
+        "It's a fair question. Your family may be spending savings on your education, and you need to know where that investment could lead. The trouble is that “scope” gets used to mean several things at once: jobs, salary, overseas opportunities, social status and the chance of opening a business.",
+        "Ask about those things separately. What jobs do fresh graduates apply for? Where are the employers? What do they ask for besides the degree? Is further study usually needed for the role you want? Can you afford that extra time?",
+        "Even a worldwide shortage doesn't answer all of this. WHO's nursing report describes shortages alongside difficulties employing nurses in some countries. A hospital needing staff and a hospital having money to hire them are two different realities. [6]",
+        "Similarly, the World Economic Forum's 2025 report points to growth in technology and care work. That's useful background, but it doesn't tell you whether a particular department in Pakistan prepares its students well for those jobs. [22]",
+        "For each field on your shortlist, look through recent vacancies and speak to a few recent graduates. Pay attention to the first job they could realistically get. The person earning an exceptional salary after ten years is interesting; the graduate who finished last year is more relevant to the decision in front of you."
+      ]
+    },
+    {
+      "heading": "BS Nursing",
+      "paragraphs": [
+        "If what you wanted from medicine was the chance to care for people, give nursing a serious look. Nurses spend substantial time with patients: monitoring changes, carrying out care, explaining things to families and keeping the team informed. It is demanding, responsible work.",
+        "The appeal is that you are training for an identifiable profession, with room to develop expertise in areas such as critical care, community health and teaching. But you should be comfortable with what the job asks of you. Shifts, physical tiredness, difficult conversations and close personal care are part of that decision.",
+        "PNMC lists the generic BSN as a four-year degree. Its registration guidance also requires a one-year internship for GBSN graduates. Before enrolling, ask the college where that internship takes place, who arranges it and whether it is paid. Check the exact programme in PNMC's recognised-institution records. [4,5,24]",
+        "If going abroad is part of your plan, choose a destination and read its registration requirements. Find out about language tests, qualification assessment and any further examinations. “Nursing has opportunities abroad” is a starting point for that research, not a complete plan."
+      ]
+    },
+    {
+      "heading": "Pharm-D",
+      "paragraphs": [
+        "Pharm-D deserves consideration if you're interested in medicines: how they work, how they are made, how their quality is checked and how they are used safely. The five-year curriculum includes a substantial amount of chemistry and pharmaceutical science alongside pharmacy practice. [7]",
+        "There are several directions to explore, including hospital or community pharmacy and work in the pharmaceutical industry. That variety is useful, although it means you should start learning about specific roles during the degree. Someone interested in manufacturing will need different experience from someone hoping to work in a hospital.",
+        "The question I'd ask a department is simple: where did your students actually train last year, and what did they do there? A placement should give you something more than a certificate with an organisation's logo.",
+        "Check the Pharmacy Council of Pakistan's institution records and the university's HEC status. [1,8] Also read the course outline before you commit. If you dislike chemistry, five years of pharmacy may be a difficult choice. The “doctor” in the title won't make up for that."
+      ]
+    },
+    {
+      "heading": "DPT and rehabilitation",
+      "paragraphs": [
+        "Physiotherapy is worth exploring if you enjoy anatomy, movement and working directly with people. The work involves assessing movement and function, planning rehabilitation and helping patients practise. Progress can take time. You need patience as well as knowledge.",
+        "DPT is commonly a five-year programme in Pakistan; the University of Child Health Sciences, for example, lists it as a five-year course. [9] What matters most when comparing departments is the clinical training: the patients students see, the range of conditions they encounter and the supervision they receive.",
+        "A department can own exercise equipment and still offer limited patient experience. Ask where the clinical rotations happen, how many students share each placement and who watches and corrects their work.",
+        "If your long-term idea is to open a practice, investigate that separately. Think about the experience you'll need, professional requirements, rent, equipment and how patients will find you. It's a possible career direction, but it needs more planning than “I'll start my own clinic after graduation.”",
+        "Occupational therapy and speech-language pathology are also worth knowing about. Occupational therapy helps people participate in everyday activities. Speech-language pathology addresses communication and, with the appropriate training, swallowing difficulties. Both are offered at institutions including the University of Child Health Sciences. [9] Working closely with patients and families can be rewarding, but ask about local employers and supervised placements before choosing either."
+      ]
+    },
+    {
+      "heading": "Medical laboratory technology, imaging and respiratory therapy",
+      "paragraphs": [
+        "These fields don't always receive as much attention in family discussions as Pharm-D or DPT. They are still worth investigating if you like the technical side of healthcare.",
+        "Medical laboratory technology involves samples, testing, instruments and quality control. Careful work matters because clinical decisions may depend on reliable results. If you enjoyed practical Biology and can pay close attention to a procedure, look at what a laboratory technology course actually teaches. Rawalpindi Medical University lists several allied health disciplines and their training arrangements. [10]",
+        "Medical imaging combines anatomy, patient positioning, equipment and safety. Ask which facilities students use and how much hands-on training they receive. An imaging technologist and a radiologist have different qualifications and responsibilities; make sure you understand the job you're preparing for.",
+        "Respiratory therapy may interest you if you enjoyed breathing physiology and want to work with patients and cardiopulmonary equipment. The University of Lahore describes a four-year BS programme with respiratory and critical-care training. [11] It can involve stressful clinical situations and shift work, so speak to someone doing the job.",
+        "For all three, I'd place a great deal of weight on functioning equipment and supervised practice. Ask current students how often they use the facilities shown in the prospectus. Then look at employers in cities where you could realistically live.",
+        "Be careful about treating related degrees as interchangeable. A biotechnology or microbiology qualification doesn't automatically meet the requirements for every medical laboratory post. Read the qualification and registration requirements for the role itself."
+      ]
+    },
+    {
+      "heading": "Human Nutrition and Dietetics",
+      "paragraphs": [
+        "Nutrition is a good field to explore if you enjoy physiology, food science and explaining ideas to people. It also involves listening: advice has to fit a person's circumstances if they are going to use it.",
+        "The degree may lead towards clinical nutrition, community work, research or food-related services, depending on your training. Look closely at supervised placements and assessment skills. There is a large difference between knowing nutrient functions for an exam and learning to work responsibly with someone's dietary needs.",
+        "HEC revised the Human Nutrition and Dietetics curriculum in 2025. [12] Ask the department for its current outline and where students complete practical training. If your goal is clinical work, find out what further training and professional requirements apply.",
+        "I would be cautious about choosing the degree on the assumption that you'll immediately earn through online consultations. Building a responsible service takes competence, experience and people's trust. Social media visibility is an additional skill."
+      ]
+    },
+    {
+      "heading": "Psychology and public health",
+      "paragraphs": [
+        "These two fields answer quite different questions, so don't group them together simply because both concern health.",
+        "Psychology may interest you if you want to understand behaviour, thought and emotion. Expect research methods and statistics as well as psychological theory. Being someone your friends turn to for advice is a reason to explore the subject, but it isn't the same as professional training.",
+        "If you want clinical work, map out the postgraduate and supervised training you will need. A general BS should not be treated as enough preparation to independently assess and treat mental-health conditions. The University of the Punjab's MS Clinical Psychology entry requirements give one example of a route after a relevant first degree. [13] Psychology also differs from psychiatry, which follows medical training.",
+        "Public health looks at communities and populations: why disease spreads, how prevention programmes work, and whether services reach the people who need them. UHS offers a four-year BS Public Health with subjects including epidemiology. [14]",
+        "You might enjoy this if you like data, research, communication and community work. Before enrolling, look at entry-level vacancies. Some specialist roles need further study or experience; some programme jobs depend on funding that runs for a limited period. Ask about field placements and learn useful practical skills such as spreadsheets, statistics and report writing."
+      ]
+    },
+    {
+      "heading": "Biotechnology, microbiology and biochemistry",
+      "paragraphs": [
+        "If genes, cells, microorganisms and biological mechanisms were the parts of Biology you wanted to understand beyond the textbook, these degrees deserve your attention.",
+        "Read the actual courses because the names overlap more than students sometimes expect. Biotechnology deals with biological applications and tools, microbiology with microorganisms, and biochemistry with the chemistry of living systems. The balance of subjects and practical work differs between universities. National Skills University's biotechnology curriculum is one example you can examine. [15]",
+        "There are routes into research, industrial work, quality-related roles and further study, but you need to be willing to build laboratory skills. Ask what undergraduates do themselves: which techniques they practise, whether they get meaningful project supervision and whether consumables are available when they need them.",
+        "You should also investigate how far you may need to study for your preferred role. A research career can involve a master's or a PhD. If you need to begin earning soon after your bachelor's degree, examine the jobs available at that level before making the decision.",
+        "I'd be far more interested in a department where students can explain their own experiments than one where the main selling point is a list of impressive instruments they rarely get to use."
+      ]
+    },
+    {
+      "heading": "Bioinformatics",
+      "paragraphs": [
+        "Bioinformatics brings Biology together with programming, statistics and the analysis of biological data. NUST describes undergraduate and postgraduate routes in the subject. [16] For someone who enjoys Biology and is curious about computing, it can be an interesting combination.",
+        "But the computing is a substantial part of the work. You'll need to become comfortable with code, data and quantitative problems. Before choosing the degree, try a beginner programming course and a small data exercise. Notice whether you want to keep going when something doesn't work.",
+        "Ask the department to show you student projects. Look at the programming and statistics in the curriculum and the opportunities to work with real datasets. Then check the qualifications required by the employers or research groups that interest you. Some specialist jobs require postgraduate training."
+      ]
+    },
+    {
+      "heading": "Can you switch from pre-medical to computing?",
+      "paragraphs": [
+        "Yes, some universities admit pre-medical students to computing programmes, subject to their requirements. You need to check the exact course and admission year.",
+        "NUST, for example, states that pre-medical entrants to computing who haven't taken additional mathematics must complete six credit hours of deficient mathematics within one year. Its rules for engineering and certain other programmes differ. Read the relevant entry rather than assuming one rule applies to everything. [17]",
+        "Computer science, software engineering and data science are serious options if you enjoy problem-solving and are prepared to practise. You will spend time being confused, testing ideas and correcting mistakes. That is an ordinary part of learning to programme.",
+        "Don't choose between these degrees from the title alone. Compare programming, algorithms, databases, mathematics and project work. For AI and data science, pay particular attention to statistics and mathematics. Check the programme and relevant batches in NCEAC's accreditation records. [18]",
+        "The range of industries using computing is a real reason to explore it. Salary screenshots and promises of easy freelancing are much weaker reasons. Before admission, try building something small. You don't need to be good at it yet; you need to find out whether you're willing to learn."
+      ]
+    },
+    {
+      "heading": "You can consider business and other fields too",
+      "paragraphs": [
+        "Studying pre-medical subjects doesn't oblige you to spend the rest of your education in healthcare. You may discover that you are more interested in business, economics, education, communication or another field. Give that possibility a fair hearing.",
+        "Business and accounting-related courses are worth looking at if you enjoy numbers, organisations or commercial problems. Eligibility varies, so check the subject requirements before assuming you can apply. For business programmes, look at HEC recognition and the relevant NBEAC accreditation records. [1,21]",
+        "A broad business degree gives you room to explore, but you should use that time to develop specific skills. Ask about internships, analytical work, presentations and substantial projects. What can students actually do by the time they graduate?",
+        "If you're looking at accounting and finance, distinguish a university degree from a professional accountancy qualification. Check any claimed exam exemptions directly with the professional body, along with the remaining examinations and training requirements.",
+        "Food science, environmental science and other fields may also be worth investigating. You don't have to choose something that sounds close to medicine to justify the subjects you studied at school."
+      ]
+    },
+    {
+      "heading": "What about BDS or veterinary medicine?",
+      "paragraphs": [
+        "If you are eligible for BDS and can access a seat, think carefully about whether you want dentistry. It involves oral healthcare, close patient contact and precise manual work. Consider the clinical training and, if you hope to establish a practice later, the equipment and running costs.",
+        "Check current PMDC admission rules, programme duration and house-job arrangements for your intake. Older prospectuses may describe different arrangements. [20]",
+        "Veterinary medicine is another option for students interested in animal health. Think beyond the image of treating pets: investigate the actual curriculum and the clinical, livestock or other settings you may work in. Check PVMC's recognised institutions and current notices before applying. [19]",
+        "Both professions deserve to be chosen with a clear understanding of their work. If you're considering them mainly because you are struggling to let go of the title “doctor,” give yourself some time to investigate them properly."
+      ]
+    },
+    {
+      "heading": "A quick comparison",
+      "paragraphs": [
+        "If several options still appeal to you, use this table to decide what to investigate next. The concern in the last column is something to check before admission, not a reason to dismiss the field."
       ],
-      table: {
-        caption: 'Use your interests to form a shortlist, not a final verdict',
-        headers: ['What you enjoy', 'Routes to investigate', 'Question to test the fit'],
-        rows: [
-          ['Sustained, direct patient contact', 'Nursing, physiotherapy, occupational therapy', 'Can I handle the actual care tasks and repeated patient interaction?'],
-          ['Precision, instruments and biological samples', 'Medical laboratory technology, imaging, respiratory therapy', 'Do I enjoy careful procedures, safety checks and technical responsibility?'],
-          ['Chemistry and medicines', 'Pharm-D', 'Am I interested in medicines themselves, including manufacturing and quality?'],
-          ['Experiments and explaining mechanisms', 'Biotechnology, microbiology, biochemistry', 'Would I pursue practical research skills and possibly postgraduate training?'],
-          ['Logic, mathematics and building things', 'Computer science, software engineering, bioinformatics', 'Will I practise mathematics and programming even when they become difficult?'],
-          ['Behaviour, communities or organisations', 'Psychology, public health, business', 'Which specific role would I want, and what qualification does it require?'],
+      "table": {
+        "caption": "What to weigh up",
+        "headers": [
+          "Degree or field",
+          "What may attract you",
+          "What needs a closer look"
         ],
-      },
+        "rows": [
+          [
+            "BS Nursing",
+            "A defined patient-care role and opportunities to specialise",
+            "Shifts, care duties, internship and registration"
+          ],
+          [
+            "Pharm-D",
+            "Medicines, chemistry and several possible work settings",
+            "Placement quality and the particular role you want"
+          ],
+          [
+            "DPT and rehabilitation",
+            "Helping patients improve movement and everyday function",
+            "Clinical supervision, local jobs and practice costs"
+          ],
+          [
+            "Laboratory, imaging and respiratory sciences",
+            "Technical skills used in healthcare",
+            "Equipment access, practical experience and employer requirements"
+          ],
+          [
+            "Nutrition, psychology and public health",
+            "Food, behaviour or community health",
+            "Supervised training and any further qualifications needed"
+          ],
+          [
+            "Biotechnology, microbiology and biochemistry",
+            "Experiments and scientific investigation",
+            "Laboratory access and the possible cost of postgraduate study"
+          ],
+          [
+            "Computing and bioinformatics",
+            "Building things, solving problems and working with data",
+            "Mathematics, sustained practice and the quality of projects"
+          ],
+          [
+            "Business and accounting",
+            "Working with organisations, people and numbers",
+            "Specific skills, internships and professional exams where relevant"
+          ]
+        ]
+      }
     },
     {
-      heading: 'What does future scope actually mean?',
-      paragraphs: [
-        '"This field has scope" is incomplete advice. Ask: scope for which job, in which city, with which skills, and after how much training? A sector can be important while offering few funded entry-level posts in your location. A degree can be internationally respected while still requiring additional assessments before overseas practice.',
-        'WHO\'s 2025 nursing workforce report describes substantial global shortages but also difficulties employing and retaining nurses in some countries. That is an important distinction: people needing a service does not automatically mean employers have funded vacancies. [6]',
-        'The World Economic Forum\'s 2025 employer research points towards growth in technology and care roles, alongside changing skill requirements. These are global projections, not a placement guarantee for Pakistani graduates. They support learning adaptable skills; they do not justify choosing a course solely because its name includes AI, data science or healthcare. [22]',
-        'For each shortlisted degree, examine ten recent, relevant vacancies in places where you could work. Record the required qualification, experience, registration and technical skills. Separate trainee roles from posts requiring several years of experience. This is a useful reality check, although a small sample of advertisements is not a complete labour-market survey.',
+      "heading": "Check recognition before you pay",
+      "paragraphs": [
+        "Once you have a shortlist, start with the university's official status. Check both the degree-awarding institution and the exact campus in HEC's records. A familiar name on a building doesn't answer every question about a campus or an affiliated college. [1,2]",
+        "For a professional programme, check the relevant council as well. HEC maintains a directory of accreditation councils. [3] Make sure the information applies to your programme, location and intake. A document for an older batch or another campus may not cover you.",
+        "If an admissions office says approval is “in process,” ask the council what that means for your proposed admission and eventual registration. Save the written reply. This is a question to settle before paying a fee you may not be able to recover."
       ],
-      callout: 'A useful question is: "What can a competent graduate of this programme actually apply for, and what additional steps stand between graduation and that job?"',
-    },
-    {
-      heading: 'BS Nursing: a defined profession with demanding work',
-      paragraphs: [
-        'Nursing centres on ongoing patient care: monitoring, communication, care planning, documentation and clinical procedures within professional responsibilities. It can suit students who want substantial patient contact and can work carefully within a healthcare team. It deserves to be chosen as a profession in its own right.',
-        'The attraction is a recognisable professional pathway with opportunities to develop expertise in areas such as critical care, community health or education. The trade-offs include shift work, physical demands, emotionally difficult situations and responsibility for vulnerable people. Ask working nurses about staffing, supervision and their daily duties before deciding.',
-        'PNMC lists the generic BSN as a four-year degree. Its registration guidance also specifies a one-year internship requirement for GBSN graduates. Budget for the whole route to registration, and ask who arranges the internship, where it takes place and whether any payment is guaranteed in writing. Check the exact nursing programme in PNMC\'s recognised-institution records. [4,5,24]',
-        'International opportunities should be investigated country by country. A Pakistani qualification does not itself guarantee foreign registration, a visa or a job. Nursing is worth serious consideration for the right student, but the decision should include the realities of care work as well as its professional possibilities.',
-      ],
-    },
-    {
-      heading: 'Pharm-D: medicines, chemistry and several possible routes',
-      paragraphs: [
-        'Pharm-D is a five-year programme covering pharmaceutical sciences and pharmacy practice. Its curriculum connects chemistry, pharmacology, formulation, medicine safety and patient care. Potential directions include community or hospital pharmacy and pharmaceutical industry roles, depending on training, registration and employer requirements. [7]',
-        'An advantage is the range of settings in which knowledge of medicines may be useful. The difficulty is that a broad degree still requires a focused career plan. A student interested in manufacturing needs a different placement strategy from one interested in hospital practice. Neither route should be assumed from the name of the degree alone.',
-        'Ask which placements students actually complete, what tasks they perform and where recent graduates obtained their first relevant job. Examine chemistry content before enrolling; this is not a route for avoiding chemistry. Verify the specific institution and programme with the Pharmacy Council of Pakistan, as well as the degree-awarding institution with HEC. [1,8]',
-        'Choose pharmacy because you are interested in medicines and their safe development or use. The word "doctor" in Pharm-D does not make its professional role equivalent to that of an MBBS physician.',
-      ],
-    },
-    {
-      heading: 'DPT: rehabilitation, movement and patient relationships',
-      paragraphs: [
-        'Physiotherapy focuses on movement, function and rehabilitation. Pakistan\'s DPT route is commonly a five-year programme; for example, the University of Child Health Sciences lists a five-year DPT alongside its allied health degrees. [9] The work can involve repeated assessment, exercise planning, explaining recovery and helping patients practise over time.',
-        'The rewarding part can be seeing someone regain function. The demanding part is that progress may be gradual, communication must be consistent, and clinical competence requires supervised experience. Starting an independent service also involves professional requirements, equipment, operating costs and building an appropriate referral network.',
-        'Before choosing a programme, ask about the variety of clinical placements, supervisor qualifications, patient exposure and assessment of practical skills. Do not treat a room containing exercise equipment as proof of a strong clinical education. Confirm the current recognition and registration route through the relevant authorities. [3,23]',
-        'DPT may suit someone who enjoys anatomy, movement and sustained patient interaction. It is a weaker fit for someone primarily trying to retain a familiar title while avoiding the actual work of rehabilitation.',
-      ],
-    },
-    {
-      heading: 'Medical laboratory technology: careful work behind diagnosis',
-      paragraphs: [
-        'Medical laboratory technology can suit students who enjoy biological samples, instruments, measurement and quality control. A laboratory professional contributes to reliable diagnostic information through careful sample handling, testing, documentation and safety procedures. It is a distinct training route within allied health. [10]',
-        'The advantage is a practical, identifiable role. The limitation is that learning the theory of a test is not the same as becoming competent in a functioning laboratory. Ask whether students actually practise relevant techniques, how instrument time is shared and whether clinical placements are supervised.',
-        'Compare courses for training in quality assurance, biosafety, troubleshooting and interpreting technical results within the profession\'s responsibilities. Confirm the exact qualification employers request. A BS in biotechnology or microbiology should not be assumed to qualify someone for every regulated medical laboratory post simply because the subjects overlap.',
-      ],
-    },
-    {
-      heading: 'Medical imaging and respiratory therapy: specialist hospital roles',
-      paragraphs: [
-        'Medical imaging technology combines equipment, anatomy, patient positioning and safety. It can appeal to students who enjoy technical procedures and patient contact. Access to appropriate equipment and supervised placements matters: a programme title does not establish that students receive meaningful experience across different imaging modalities. [10]',
-        'An imaging technologist is not the same professional as a radiologist. A degree in imaging technology should not be presented as qualifying its holder to practise as a specialist physician. Ask how the qualification maps to actual job titles and professional responsibilities.',
-        'Respiratory therapy focuses on cardiopulmonary care and related technical skills. The University of Lahore, for example, describes a four-year BS route covering respiratory and critical-care training. [11] For a student drawn to physiology and equipment-based care, it is a field to investigate closely.',
-        'Both routes can involve shift work and consequential safety decisions. Respiratory therapy can also involve stressful critical-care settings. Before admission, establish where graduates find work, whether you can access those locations, and how much supervised exposure the institution provides. A sophisticated degree name cannot compensate for weak placements.',
-      ],
-    },
-    {
-      heading: 'Occupational therapy and speech-language pathology',
-      paragraphs: [
-        'These are worth considering alongside the better-known rehabilitation degrees. Occupational therapy concerns participation in everyday activities; speech-language pathology concerns communication and, within appropriate training and professional scope, swallowing. Programmes are offered in Pakistan, including at the University of Child Health Sciences. [9]',
-        'They may suit students who enjoy patient-specific problem-solving, careful observation and working with families. Their appeal is the ability to work towards practical changes in someone\'s daily life. Their challenges include gradual progress, intensive communication and the need for appropriate supervision.',
-        'Investigate local service providers and graduate pathways before treating a less familiar degree as an untapped market. Ask who supervises clinical work, what placement settings are available and how the degree meets current professional requirements. The existence of unmet need alone does not prove there are accessible salaried posts.',
-      ],
-    },
-    {
-      heading: 'Nutrition and dietetics: evidence, counselling and practical training',
-      paragraphs: [
-        'Human Nutrition and Dietetics connects food, physiology, health and behaviour. It can suit students who enjoy explaining science and helping people make realistic changes. HEC notified a revised curriculum for the discipline in 2025, making the actual curriculum an important document to request. [12]',
-        'Potential directions depend on the programme and further training: clinical nutrition, community programmes, research or food-related services. A benefit is its connection to prevention and everyday behaviour. A challenge is distinguishing rigorous professional practice from the unsupported advice and marketing surrounding food and weight.',
-        'Look for supervised practical experience, research literacy and clear boundaries around clinical responsibilities. Ask employers and relevant regulators which qualifications they accept for the role you want. Do not assume that building an online audience or selling diet plans will provide reliable income after graduation.',
-      ],
-    },
-    {
-      heading: 'Psychology: choose it with the training route in view',
-      paragraphs: [
-        'Psychology involves more than being a good listener. Undergraduate study includes behaviour, research methods, statistics and evaluating evidence. It can be a good fit for someone curious about people and willing to study them systematically.',
-        'The advantage is a foundation that can support several directions, including research, organisational work and further clinical training. The major planning issue is that a general BS should not be treated as sufficient preparation to independently assess and treat every mental-health condition. Clinical work requires appropriate specialised education, supervised competence and compliance with applicable professional requirements.',
-        'Map the route to your intended role before committing. For example, the University of the Punjab lists postgraduate Clinical Psychology entry requirements building on relevant prior qualifications. [13] Ask about recognised postgraduate options, supervised placements, admission competition and the extra cost and time involved. Psychology and psychiatry are different professional routes.',
-      ],
-    },
-    {
-      heading: 'Public health: improving health beyond the consultation room',
-      paragraphs: [
-        'Public health examines health at population level: prevention, epidemiology, data, community programmes and health systems. UHS\'s four-year BS Public Health curriculum includes subjects such as epidemiology and prepares students for public-health support roles. [14]',
-        'This can suit someone interested in why disease affects some communities more than others, or how programmes are planned and evaluated. Its appeal is the combination of science, communication and systems thinking. It is not a substitute qualification for diagnosing and treating individual patients as a physician.',
-        'Check entry-level roles carefully. Some research and specialist positions require postgraduate qualifications or experience, and some programme jobs are tied to time-limited funding. Ask for evidence of field placements and graduate outcomes. Strong statistics, spreadsheets, reporting and research skills can help you demonstrate what you can contribute.',
-      ],
-    },
-    {
-      heading: 'Biotechnology, microbiology and biochemistry: plan beyond the course name',
-      paragraphs: [
-        'These degrees can suit students who enjoy mechanisms, experiments and scientific questions. Biotechnology focuses on biological applications and tools; microbiology centres on microorganisms; biochemistry studies the chemistry of living systems. There is overlap, so compare actual modules, laboratories and projects rather than titles alone.',
-        'Possible directions include laboratory research, quality-related work, industrial applications and postgraduate study, subject to the exact qualification and employer requirements. National Skills University\'s biotechnology curriculum, for example, includes applied and laboratory components across several biological technologies. [15]',
-        'The advantage is a scientific foundation that can support specialisation. The risk is enrolling without a plan for building practical competence or reaching a first job. Some research careers require a master\'s or doctorate. Ask whether undergraduates conduct substantial projects and use relevant equipment, and whether you could afford further study if your intended route requires it.',
-        'A strong department with accessible laboratories, good supervision and useful placements may serve you better than a fashionable programme title with limited practical teaching.',
-      ],
-    },
-    {
-      heading: 'Bioinformatics: biology with real programming and statistics',
-      paragraphs: [
-        'Bioinformatics uses computational methods to investigate biological data. NUST describes its undergraduate route as combining biology, programming, statistics and data analysis, with further routes into advanced study. [16] It may appeal to someone who enjoys Biology but also wants to work with code and quantitative problems.',
-        'The opportunity lies in developing skills across disciplines. The difficulty is that you must genuinely learn the computing and mathematics, not just recognise biological terminology. Inspect how much programming students actually do and whether projects use real datasets and reproducible methods.',
-        'Before committing, complete a small beginner exercise in programming and data analysis. Then examine the qualifications sought by the research groups or employers that interest you. Some specialised roles need postgraduate training, and a growing international research field does not automatically mean plentiful local graduate vacancies.',
-      ],
-    },
-    {
-      heading: 'Computer science, software engineering and data science',
-      paragraphs: [
-        'Leaving the medical track is a legitimate option. Computing may suit a student who likes logic, building systems and solving problems through repeated experimentation. The potential benefit is that technical skills can be applied across many sectors. The challenge is sustained practice, competition and the need to keep learning as tools change.',
-        'Pre-medical eligibility is institution-specific. NUST currently states that pre-medical entrants to computing without additional mathematics must clear six credit hours of deficient mathematics within one year. It states a different preparation condition for engineering and certain other programmes. Read the rules for your exact programme and intake; do not generalise one university\'s policy to all universities. [17]',
-        'Compare the curriculum for programming, algorithms, databases, mathematics and substantial projects. For data science or AI, examine the statistics and mathematical foundation. A strong broad computing programme may be a better fit than a narrowly branded course, depending on teaching quality and your goals.',
-        'Check NCEAC accreditation records for the programme and relevant batches. [18] Test your interest by building a small project before enrolling. Remote work and freelancing are possible work arrangements, not automatic outcomes of a degree. Ask what junior applicants must be able to demonstrate, rather than comparing exceptional online earnings.',
-      ],
-    },
-    {
-      heading: 'Business, accounting and other routes outside healthcare',
-      paragraphs: [
-        'You do not have to remain in healthcare because you studied pre-medical subjects. Business, accounting and finance may deserve a place on your shortlist if you are interested in organisations, numbers, operations or commercial problems. Check subject eligibility and entry tests directly with each university.',
-        'The attraction of business study is flexibility. The corresponding risk is graduating with a broad qualification but little evidence of specific skills. Look for substantive internships, analytical work, communication practice and projects. For business programmes, consult the relevant NBEAC accreditation information as well as HEC recognition. [1,21]',
-        'An accounting and finance degree is also different from completing a professional accountancy qualification. Ask which professional examinations, exemptions and training requirements actually apply; verify exemptions with the professional body rather than relying on advertising. Do not budget for a professional title as though it arrives automatically with graduation.',
-        'Other fields, including education, environmental science, food science and engineering where eligible, can be explored in the same way. The test remains practical: do you understand the work, can you meet the entry requirements, and does the institution provide credible preparation?',
-      ],
-    },
-    {
-      heading: 'Dentistry and veterinary medicine are distinct choices',
-      paragraphs: [
-        'If BDS is still an admission option, assess dentistry on its own merits: oral healthcare, fine manual work, sustained clinical training and close patient interaction. It is not a way to ignore admission requirements. Check current PMDC rules, programme duration and house-job arrangements for your intake directly; do not rely on an old prospectus. [20]',
-        'Consider the full cost of training and any later practice you hope to establish. Equipment, premises and professional development require planning. Choose dentistry because the work appeals to you, not because it appears to preserve an earlier identity.',
-        'Veterinary medicine involves animal health and can connect with clinical practice, livestock, food systems and public health. It requires a genuine willingness to work with animals and the settings involved. It is not simply human medicine with a different admission route. Check the programme and current admission permissions through PVMC. [19]',
-      ],
-    },
-    {
-      heading: 'Compare the routes without inventing a ranking',
-      paragraphs: [
-        'There is no defensible universal winner across these degrees. A practical way to compare them is to examine how clearly the qualification connects to a role and what you must add to become employable. The table below is a decision aid, not a ranking of salaries or demand.',
-      ],
-      table: {
-        caption: 'What to investigate before calling a degree a good career option',
-        headers: ['Route', 'Potential strength', 'Main trade-off to investigate'],
-        rows: [
-          ['Nursing', 'Defined patient-care profession and opportunities to specialise', 'Registration, internship, shifts and the actual care environment'],
-          ['Pharmacy', 'Several medicines-related settings', 'Quality of placements and which entry-level role you are targeting'],
-          ['DPT and rehabilitation', 'Function-focused patient work', 'Supervised clinical depth, local roles and costs of independent practice'],
-          ['Laboratory, imaging and respiratory sciences', 'Identifiable technical skills', 'Equipment access, professional scope and accessible employers'],
-          ['Psychology and public health', 'Behavioural or population-health focus', 'Which roles require postgraduate education and experience'],
-          ['Biological research degrees', 'Foundation for scientific specialisation', 'Laboratory competence, research access and further-study costs'],
-          ['Computing and bioinformatics', 'Transferable quantitative and technical skills', 'Mathematics, portfolios, changing tools and entry-level competition'],
-          ['Business and accounting', 'Applications across organisations', 'Specific skills, internship quality and any professional examinations'],
+      "table": {
+        "caption": "Official records to check",
+        "headers": [
+          "What you're checking",
+          "Where to begin"
         ],
-      },
+        "rows": [
+          [
+            "University and campus",
+            "HEC recognised institutions and campuses [1,2]"
+          ],
+          [
+            "Medicine and dentistry",
+            "Pakistan Medical and Dental Council [20]"
+          ],
+          [
+            "Nursing",
+            "Pakistan Nursing and Midwifery Council [24]"
+          ],
+          [
+            "Pharmacy",
+            "Pharmacy Council of Pakistan [8]"
+          ],
+          [
+            "Relevant allied health programmes",
+            "Allied Health Professionals Council and the awarding university [3,23]"
+          ],
+          [
+            "Veterinary medicine",
+            "Pakistan Veterinary Medical Council [19]"
+          ],
+          [
+            "Computing",
+            "National Computing Education Accreditation Council [18]"
+          ],
+          [
+            "Business programmes",
+            "National Business Education Accreditation Council [21]"
+          ]
+        ]
+      }
     },
     {
-      heading: 'How to check recognition before paying any fees',
-      paragraphs: [
-        'Start with the degree-awarding institution and the exact campus. HEC publishes both recognised-university and recognised-campus information, including restrictions. A familiar university name does not settle the status of every location, affiliated college or delivery arrangement using that name. [1,2]',
-        'Then check the programme through the relevant professional or accreditation council. HEC lists the councils responsible for different disciplines. Ask for the applicable programme, campus, intake, accreditation period and any admissions restrictions. A document for another campus or an earlier batch may not answer your question. [3]',
-        'Read the status wording carefully. An application for recognition, a visit being scheduled and final approval are different stages. Where a new programme has a staged approval process, ask the council what its current status means for your proposed intake and eventual registration. Obtain clarification in writing if the answer is unclear.',
-      ],
-      table: {
-        caption: 'Where to begin the official checks',
-        headers: ['Programme or issue', 'Official starting point'],
-        rows: [
-          ['University, campus and degree-awarding status', 'HEC recognised institutions and campuses [1,2]'],
-          ['Medicine and dentistry', 'Pakistan Medical and Dental Council (PMDC) [20]'],
-          ['Nursing', 'Pakistan Nursing and Midwifery Council (PNMC) [4,5,24]'],
-          ['Pharmacy', 'Pharmacy Council of Pakistan (PCP) [8]'],
-          ['Relevant allied health disciplines', 'Allied Health Professionals Council (AHPC), plus the awarding university [3,23]'],
-          ['Veterinary medicine', 'Pakistan Veterinary Medical Council (PVMC) [19]'],
-          ['Computing', 'National Computing Education Accreditation Council (NCEAC) [18]'],
-          ['Business programmes', 'National Business Education Accreditation Council (NBEAC) [21]'],
-        ],
-      },
-      callout: 'For any other discipline, use HEC\'s council directory and ask about the exact qualification. Membership of an association, a university ranking and programme accreditation are different things.',
+      "heading": "Visit the department you will study in",
+      "paragraphs": [
+        "A university can have a beautiful campus and still be the wrong place for your particular course. Most of your education will happen in a department, a laboratory, a classroom or a clinical placement. Spend your time asking about those.",
+        "Who teaches the core subjects? Can students get help outside class? How many people share a laboratory session? For clinical degrees, where do rotations take place, and who supervises them?",
+        "Ask current students what an ordinary week looks like. If they mention a problem, ask how the department responds. Equipment can break and schedules can change anywhere; the response tells you something about how students are treated.",
+        "Talk to recent graduates as well, preferably people other than the ones selected for promotional videos. Ask about their first relevant job, whether it was paid, how they found it and what they had to learn after graduation.",
+        "When someone quotes a placement percentage, ask what is being counted. Does it include unrelated jobs, unpaid internships or students who continued studying? How many graduates were contacted? These are reasonable questions when you're deciding where to spend several years.",
+        "Public or private, famous or less well known, the same questions apply. Also consider the commute, hostel arrangements, safety, accessibility and student support. A course you can attend consistently will serve you better than one whose daily logistics wear you down."
+      ]
     },
     {
-      heading: 'Look inside the department, not just around the campus',
-      paragraphs: [
-        'A campus tour can show a beautiful building without showing how students learn. Ask to see an ordinary teaching laboratory or speak to current students about a typical week. For clinical courses, establish where placements happen, who supervises them and how competence is assessed. A partnership logo is not evidence that every student gets a useful placement.',
-        'Ask who teaches the core modules and whether that person is available regularly. Inspect the course outline and a sample project or practical assessment. A famous university can have uneven departments, and a less famous institution can have a strong programme. Public or private ownership alone does not settle the question.',
-        'Speak to at least three recent graduates, preferably beyond the institution\'s selected ambassadors. Ask how they found their first relevant work, whether it was paid, what additional training they needed and what they wish they had checked before admission. One success story is encouraging; it does not represent an entire cohort.',
-        'If a university advertises a placement percentage, ask which graduating cohort it covers, how many graduates responded, whether jobs are related to the degree, and whether unpaid internships or further study were counted as employment. You are looking for an understandable method, not an impressive number alone.',
-      ],
-      points: [
-        'Training: functioning equipment, supervised practice, manageable group sizes and relevant placements.',
-        'Teaching: accessible faculty, clear assessment and useful feedback.',
-        'Daily life: safe transport, workable accommodation, accessibility and reliable student support.',
-        'Evidence: recent course documents, written policies and graduate outcomes you can question.',
-      ],
+      "heading": "Work out what your family can actually afford",
+      "paragraphs": [
+        "Sit down with the full fee schedule. Add hostel or transport costs, food, books, a laptop if needed, uniforms, laboratory charges and travel to clinical placements. Ask about annual fee increases and the conditions for keeping a scholarship.",
+        "Then look beyond graduation. Will your intended route require registration fees, examinations, an internship or postgraduate study? How will you cover living expenses during that time?",
+        "A promised scholarship or an internship stipend should only go into the budget once you have confirmation. The same applies to the idea that you'll support yourself through freelancing while studying; it may work, but it isn't income you already have.",
+        "If moving abroad is your plan, research one destination properly. Qualification assessment, professional registration, language requirements and permission to work each need attention. Add their costs before comparing the overseas salary someone has quoted to you.",
+        "You should be able to discuss the total with your family without needing an unusually high starting salary to make the numbers work. If one option leaves you with less financial pressure and still provides recognised, good-quality training, that matters."
+      ]
     },
     {
-      heading: 'Calculate the cost of reaching your first realistic job',
-      paragraphs: [
-        'The first semester\'s fee is only one part of the decision. Request a written fee schedule, permitted increases, scholarship renewal conditions and refund deadlines. Add accommodation, transport, food, books, devices, uniforms, laboratory charges and clinical-placement travel as applicable.',
-        'Next, add the costs between graduation and employment: registration, required examinations, internships, postgraduate training if necessary, and living expenses while seeking work. Do not treat an unconfirmed stipend, scholarship or future freelance income as guaranteed funding.',
-        'For an overseas plan, investigate the destination regulator\'s qualification assessment, language requirements, examinations, supervised-practice conditions and costs. Also examine immigration and work-permission rules. These are separate decisions, and recognition in Pakistan does not automatically resolve them abroad.',
-        'Compare programmes using a family budget that can survive a disappointing outcome. A lower-cost recognised programme with sound teaching may give you more room to build experience than an expensive option requiring unrealistic future earnings. Discuss the trade-off before paying a non-refundable amount.',
-      ],
+      "heading": "Should you give MDCAT another attempt?",
+      "paragraphs": [
+        "For some students, yes. If you still want to practise medicine and you can see specific weaknesses in your previous preparation, another attempt may be worth considering. But be clear about what will change.",
+        "“I'll work harder” isn't a detailed plan. Did you struggle with particular subjects, timing, revision, repeated mistakes or circumstances outside your control? What teaching, practice or support would help you address that? Review your aggregate and the relevant admission rules too.",
+        "Also ask whether you have the money, time and emotional support for another year. Repeating because medicine remains your goal is understandable. Repeating because you cannot face a relative's opinion is a much harder way to spend a year.",
+        "Keep other application deadlines in view while you decide. If you plan to join another degree and prepare for MDCAT alongside it, read its attendance and refund rules and think through the workload. Don't assume you can treat the first year as a holding place without consequences.",
+        "A teacher can help you assess your preparation. Nobody can promise you a seat next year. You deserve to make this decision with that uncertainty acknowledged, rather than hidden behind motivational language."
+      ]
     },
     {
-      heading: 'Should you repeat MDCAT instead?',
-      paragraphs: [
-        'A repeat attempt can be reasonable when medicine remains your own goal, you understand the previous gap, and you can make specific changes with adequate support. It becomes harder to justify when the plan is only "work more" or when the commitment depends entirely on avoiding other people\'s disappointment.',
-        'Review your actual aggregate and the relevant admission rules, your preparation weaknesses, available time, finances and wellbeing. Ask what would change: instruction, feedback, study methods, resources or support. No teacher can guarantee selection after another year.',
-        'Keep alternative application deadlines visible while evaluating a repeat. You do not need to reject every other opportunity to prove that you care about medicine. Equally, enrolling in another demanding degree while preparing again has workload and financial consequences; understand attendance and refund rules first.',
-        'Moving forward with a different field is not a judgement on your worth. Repeating is not automatically a mistake either. The aim is a decision you understand and can support, not a performance of determination for other people.',
+      "heading": "What I would do this week",
+      "paragraphs": [
+        "Start with three fields. More than that can turn the search into an endless collection of prospectuses. Write down why each one interests you, then read the course outlines and eligibility requirements.",
+        "For each field, find a couple of programmes you could afford and attend. Check recognition, contact the department and try to speak to current students or recent graduates. Look at a few relevant vacancies alongside those conversations.",
+        "Put the answers on one page. You should be able to explain what you will study, where you will train, what it will cost and what a realistic next step after graduation might be.",
+        "There will probably still be uncertainty. You don't have to eliminate every doubt before applying. You do need answers to the questions that could make the degree unsuitable or unaffordable."
       ],
+      "points": [
+        "Am I eligible for this exact programme and intake?",
+        "Have I checked the university, campus and relevant council records?",
+        "Do I understand the daily work this degree could lead to?",
+        "Where will I get practical training, and who will supervise it?",
+        "What did recent graduates do after finishing?",
+        "Can we cover the full cost, including any necessary further training?",
+        "What are the application, scholarship and refund deadlines?"
+      ]
     },
     {
-      heading: 'A seven-day plan for making the next decision',
-      paragraphs: [
-        'Use this plan to organise your research, adjusting it around real admission deadlines. The aim is to finish with a small, defensible shortlist and a written explanation of your choice.',
-      ],
-      table: {
-        caption: 'From confusion to a documented shortlist',
-        headers: ['Day', 'Task', 'What you should have afterwards'],
-        rows: [
-          ['1', 'List interests, strengths, non-negotiable constraints and budget.', 'A one-page description of what you need from a degree.'],
-          ['2', 'Choose three fields and read their actual curricula and eligibility rules.', 'A shortlist based on content and entry requirements.'],
-          ['3', 'Check the institution, campus, programme and relevant intake status.', 'Saved official evidence and questions needing written answers.'],
-          ['4', 'Speak to current students and recent graduates; examine entry-level vacancies.', 'A clearer picture of daily study and realistic next steps.'],
-          ['5', 'Visit departments or request detailed virtual meetings.', 'Evidence about laboratories, placements, teaching and support.'],
-          ['6', 'Calculate complete costs and discuss the options with your family.', 'An affordable plan with assumptions made explicit.'],
-          ['7', 'Compare the options, check deadlines and write your reasons.', 'A choice you can explain, plus a practical second option.'],
-        ],
-      },
-    },
-    {
-      heading: 'Your final university comparison checklist',
-      paragraphs: [
-        'Put your two or three shortlisted programmes side by side. Record evidence for each item below. This is a worksheet, not a scientifically validated scoring system. Recognition and essential eligibility are checks to resolve before you weigh preferences; attractive facilities cannot cancel an unresolved approval problem.',
-      ],
-      points: [
-        'Exact programme, campus, awarding university and admission session.',
-        'HEC status, relevant council status and a clear explanation of any conditions.',
-        'Why the actual work suits your interests and strengths.',
-        'Evidence of practical training, accessible equipment and qualified supervision.',
-        'A realistic first-job or further-study route, with requirements checked.',
-        'Complete costs, funding sources, scholarship conditions and refund deadlines.',
-        'Transport, accommodation, safety, accessibility and student support.',
-        'What could go wrong, and whether you have the resources to respond.',
-      ],
-      callout: 'Warning signs include guaranteed jobs without a written basis, pressure to pay before documents are shared, unclear awarding arrangements, promised future recognition and refusal to explain where students train.',
-    },
-    {
-      heading: 'A changed plan can still be your own plan',
-      paragraphs: [
-        'You do not need to choose your entire future in one conversation after a disappointing result. You do need to take the next decision seriously enough to ask questions, check evidence and understand what you are buying with several years of your life.',
-        'For some students, that will mean nursing or another clinical profession. For others, it will mean a laboratory, a research group, a software team, a business classroom or another attempt at MDCAT. A useful education connects your abilities with work you can learn to do well.',
-        'Choose a recognised programme whose demands you understand, whose cost you can manage and whose daily work you can imagine doing with care. MBBS may have been your first plan. It does not have to be the only plan that belongs to you.',
-      ],
-    },
+      "heading": "You are allowed to take the next choice seriously",
+      "paragraphs": [
+        "It may take a while before another field feels as familiar as medicine did. That doesn't mean every other choice is wrong. You spent a long time imagining one future; an unfamiliar option needs time and attention before you can judge it fairly.",
+        "You don't have to describe your disappointment as a blessing, or pretend you've already found a new passion. For now, a reasonable next step is enough: a course you want to understand, a department worth visiting, a graduate worth speaking to.",
+        "Choose with as much care as you gave your MDCAT preparation. Ask the awkward questions before paying. Read the course outline. Listen to people doing the work. Give your own interests and your family's circumstances a proper place in the decision.",
+        "And when you do choose another field, let yourself study it seriously. You shouldn't have to spend the next four or five years introducing your education with an apology."
+      ]
+    }
   ],
-  recap: [
-    'Choose the kind of work you want before choosing a degree title.',
-    'Treat career scope as a question about specific roles, skills, locations and requirements.',
-    'Verify the university, exact campus, programme and applicable intake through official records.',
-    'Evaluate supervised training and graduate outcomes alongside fees and facilities.',
-    'Budget for registration, internships and any further study, not tuition alone.',
-    'Make a repeat-year or alternative-degree decision using your own goals and circumstances.',
+  "recap": [
+    "Shortlist three fields whose work interests you.",
+    "Check recognition for the programme, campus and intake.",
+    "Speak to students and recent graduates about training and first jobs.",
+    "Work out the full cost with your family.",
+    "Keep application deadlines in view, even if you're considering another MDCAT attempt."
   ],
-  checks: [
-    { question: 'Which degree is best after MDCAT if I do not get MBBS admission?', answer: 'There is no universal best choice. Shortlist by preferred work, academic strengths, eligibility, training quality, location and total cost. Nursing, pharmacy, rehabilitation, diagnostic sciences, computing and research degrees lead to different roles.' },
-    { question: 'Can pre-medical students study computer science?', answer: 'Some universities permit this subject to their entry requirements and mathematics conditions. NUST is one example, but its policy should not be assumed to apply everywhere. Check the exact programme and admission year. [17]' },
-    { question: 'Is an HEC-recognised university enough for a professional degree?', answer: 'You should also check the exact campus and the relevant programme-level professional or accreditation requirements. Ask about the applicable intake and any restrictions. Recognition of the institution does not answer every programme question. [1,2,3]' },
-    { question: 'Does a four-year BS Nursing degree mean I can register immediately?', answer: 'PNMC\'s published guidance requires a one-year internship for GBSN registration. Check current requirements and the institution\'s internship arrangements before admission. [4,5]' },
-    { question: 'Do Pharm-D or DPT qualify me to practise as an MBBS physician?', answer: 'No. They prepare graduates for different professional roles. Follow the education, registration and scope requirements of the profession you actually enter.' },
-    { question: 'Which degree guarantees an overseas job?', answer: 'None. Check the destination\'s professional recognition, language, experience, examinations and immigration conditions. A degree, professional registration, a visa and a job offer are separate steps.' },
-    { question: 'Should I choose a public university over a private one?', answer: 'Compare the specific programmes rather than making the decision from ownership alone. Recognition, supervision, placements, total cost and evidence of graduate outcomes should guide the comparison.' },
-    { question: 'How do I compare salary claims?', answer: 'Ask which city, role, employer, experience level and year the figure describes. Distinguish paid work from unpaid training and verify against relevant vacancies and recent graduates. A high-earning individual is not evidence of typical graduate earnings.' },
-  ],
+  "checks": [
+    {
+      "question": "Which degree should I choose if I don't get into MBBS?",
+      "answer": "Start with the work you want to do. Patient care, laboratory work, rehabilitation, computing and business involve very different days. Shortlist a few fields, then compare the training, entry requirements and cost. A degree recommended to your friend may not be the right choice for you."
+    },
+    {
+      "question": "Can a pre-medical student apply for computer science?",
+      "answer": "At some universities, yes, with conditions. NUST accepts pre-medical applicants to computing and specifies mathematics requirements. Check the exact university, course and admission year before applying. [17]"
+    },
+    {
+      "question": "Is HEC recognition enough?",
+      "answer": "Check the exact campus too. For professional programmes, you also need to investigate the relevant council's requirements and the status of your programme and intake. Keep copies of the official information you rely on. [1,2,3]"
+    },
+    {
+      "question": "Will Pharm-D or DPT allow me to work as an MBBS doctor?",
+      "answer": "No. Pharmacy and physiotherapy are separate professions with their own education and professional responsibilities. Choose either because you want to do that work."
+    },
+    {
+      "question": "Which degree will help me settle abroad?",
+      "answer": "Start with a country and a profession, then check the regulator's requirements and the work or immigration route. No degree by itself guarantees an overseas job. Be especially careful with promises that leave out exams, language requirements, experience and costs."
+    },
+    {
+      "question": "Does choosing another degree mean I gave up too soon?",
+      "answer": "You can care deeply about becoming a doctor and still decide that another attempt isn't right for your circumstances. You can also choose to repeat after thinking it through. Give more weight to your own reasons than to how the decision will sound to other people."
+    }
+  ]
 };

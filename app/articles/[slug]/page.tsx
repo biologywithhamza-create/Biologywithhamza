@@ -117,6 +117,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
               <span>Senior Biology lecturer · Academic Lead</span>
             </div>
           </div>
+          {isCareer && <p style={{ fontSize: "0.875rem", margin: "16px 0" }}>Updated {new Date(`${getArticleUpdatedISO(article)}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })}</p>}
           <ArticleActions/><StudyControls id={"/articles/"+article.slug} title={article.title} notes/>
         </header>
 
@@ -131,21 +132,20 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
           <figure style={{ margin: "0 0 36px" }}>
             <Image src={beyondMbbsCover.src} alt={beyondMbbsCover.alt} width={beyondMbbsCover.width} height={beyondMbbsCover.height} sizes="(max-width: 900px) 100vw, 1100px" priority style={{ display: "block", width: "100%", height: "auto", borderRadius: "8px" }} />
             <figcaption style={{ marginTop: "10px", fontSize: "0.875rem", lineHeight: 1.6 }}>
-              {beyondMbbsCover.caption}<br />
-              Photo: <a href={beyondMbbsCover.source} target="_blank" rel="noreferrer">{beyondMbbsCover.photographer} / Wikimedia Commons</a>. <a href={beyondMbbsCover.license} target="_blank" rel="noreferrer">CC BY-SA 4.0</a>. Resized and compressed.
+              {beyondMbbsCover.caption} Photo: <a href={beyondMbbsCover.source} target="_blank" rel="noreferrer">{beyondMbbsCover.photographer} / Wikimedia Commons</a> · <a href={beyondMbbsCover.license} target="_blank" rel="noreferrer">CC BY-SA 4.0</a>.
             </figcaption>
           </figure>
         )}
 
-        <section className="article-objectives" aria-labelledby="objectives-title">
+        {!isCareer && <section className="article-objectives" aria-labelledby="objectives-title">
           <div>
-            <span>{isCareer ? "Decision guide" : "Learning map"}</span>
-            <h2 id="objectives-title">{isCareer ? "Make your next choice with evidence" : "By the end, you should be able to…"}</h2>
+            <span>Learning map</span>
+            <h2 id="objectives-title">By the end, you should be able to…</h2>
           </div>
           <ul>{article.objectives.map((objective) => <li key={objective}>{objective}</li>)}</ul>
-        </section>
+        </section>}
 
-        <section className="article-evidence" aria-label="Article review and syllabus information">
+        {!isCareer && <section className="article-evidence" aria-label="Article review and syllabus information">
           <div>
             <span>Content updated</span><strong>{getArticleUpdatedISO(article)}</strong>
           </div>
@@ -165,7 +165,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
               ))}
             </ul>
           </div>}
-        </section>
+        </section>}
 
         <div className="article-reading-layout">
           <aside className="article-toc" aria-label="Article contents">
@@ -176,7 +176,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
                   <i>{String(index + 1).padStart(2, "0")}</i>{section.heading}
                 </a>
               ))}
-              <a href="#quick-recap"><i>✓</i>Quick recap</a>
+              {!isCareer && <a href="#quick-recap"><i>✓</i>Quick recap</a>}
               <a href="#check-understanding"><i>?</i>{isGuidance ? "Common questions" : "Check understanding"}</a>
               {isCareer && <a href="#article-sources"><i>↗</i>Sources</a>}
             </nav>
@@ -212,15 +212,15 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
 
             {isWellbeing && <p><Link href="/study-today">Build a manageable study plan</Link> · <Link href="/about">About Hamza Ramzan</Link></p>}
             {isCareer && <p>Related reading: <Link href="/articles/mdcat-preparation-pressure-mental-health">The Pressure Behind MDCAT: Preparation, Expectations and Mental Health</Link>.</p>}
-            <section className="article-recap" id="quick-recap">
+            {!isCareer && <section className="article-recap" id="quick-recap">
               <span>Quick recap</span>
               <h2>The ideas to carry forward</h2>
               <ul>{article.recap.map((point) => <li key={point}>{point}</li>)}</ul>
-            </section>
+            </section>}
 
             <section className="article-checks" id="check-understanding">
-              <span>{isGuidance ? "Common questions" : "Exam-style concept checks"}</span>
-              <h2>{isGuidance ? "Questions students and parents ask" : "Answer first. Then reveal the marking logic."}</h2>
+              {!isCareer && <span>{isGuidance ? "Common questions" : "Exam-style concept checks"}</span>}
+              <h2>{isCareer ? "A few questions you may still have" : isGuidance ? "Questions students and parents ask" : "Answer first. Then reveal the marking logic."}</h2>
               {article.checks.map((check, index) => (
                 <details key={check.question}>
                   <summary><i>{String(index + 1).padStart(2, "0")}</i><span>{check.question}{!isGuidance && <small>2 marks · show the biological link</small>}</span></summary>
@@ -230,9 +230,10 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             </section>
 
             {isCareer && <section className="article-section" id="article-sources">
-              <h2>Sources and official checks</h2>
-              <p>Programme pages describe courses, not independent proof of graduate employment. Use the relevant council for current recognition, registration and intake conditions. Sources consulted October 12, 2026.</p>
+              <h2>Sources</h2>
+              <p>Use these official pages to check programme details. Confirm the requirements for your own admission year before applying.</p>
               <ul>{references.map((reference, index) => <li id={`article-source-${index + 1}`} key={reference.href} style={{ scrollMarginTop: "120px", overflowWrap: "anywhere" }}><a href={reference.href} target="_blank" rel="noreferrer">{reference.label}</a></li>)}</ul>
+              <p style={{ fontSize: "0.875rem" }}>The photograph above has been resized and compressed for this website.</p>
             </section>}
 
             <div className="article-share">

@@ -1,4 +1,4 @@
-import { beyondMbbsArticle, beyondMbbsReferences } from "./beyond-mbbs-article";
+import { beyondMbbsArticle, beyondMbbsReferences, beyondMbbsUpdatedISO } from "./beyond-mbbs-article";
 import { mdcatPressureArticle, mdcatPressureReferences } from "./mdcat-pressure-article";
 import {respiratoryArticle} from "./respiratory-article";
 import {expandArticles,expandedArticleSlugs} from "./article-expansions";
@@ -2403,4 +2403,4 @@ const baseArticles: Article[] = [
 ];
 
 export const articles:Article[]=expandArticles([beyondMbbsArticle,mdcatPressureArticle,...baseArticles,respiratoryArticle]);
-export function getArticleUpdatedISO(article:Article){return expandedArticleSlugs.includes(article.slug)||article.slug===respiratoryArticle.slug?"2026-09-15":article.dateISO;}
+export function getArticleUpdatedISO(article:Article){return article.slug===beyondMbbsArticle.slug?beyondMbbsUpdatedISO:expandedArticleSlugs.includes(article.slug)||article.slug===respiratoryArticle.slug?"2026-09-15":article.dateISO;}
