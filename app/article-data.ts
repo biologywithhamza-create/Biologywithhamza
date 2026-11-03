@@ -1,3 +1,4 @@
+import { timeManagementArticle, timeManagementReferences } from "./time-management-article";
 import { beyondMbbsArticle, beyondMbbsReferences, beyondMbbsUpdatedISO } from "./beyond-mbbs-article";
 import { mdcatPressureArticle, mdcatPressureReferences } from "./mdcat-pressure-article";
 import {respiratoryArticle} from "./respiratory-article";
@@ -108,7 +109,7 @@ export function getArticleReadTime(article: Article) {
 }
 
 export function getArticleTopicGroup(article: Article): ArticleTopicGroup {
-  if (article.slug === beyondMbbsArticle.slug) return "Practical & exam skills";
+  if (article.slug === beyondMbbsArticle.slug || article.slug === timeManagementArticle.slug) return "Practical & exam skills";
   if (article.slug === mdcatPressureArticle.slug) return "Practical & exam skills";
   const haystack = `${article.slug} ${article.topic} ${article.title}`.toLowerCase();
 
@@ -143,6 +144,7 @@ export function getArticleSyllabusAlignment(article: Article) {
 }
 
 export function getArticleReferences(article: Article): ArticleReference[] {
+  if (article.slug === timeManagementArticle.slug) return timeManagementReferences;
   if (article.slug === beyondMbbsArticle.slug) return beyondMbbsReferences;
   if (article.slug === mdcatPressureArticle.slug) return mdcatPressureReferences;
   const topicGroup = getArticleTopicGroup(article);
@@ -2402,5 +2404,5 @@ const baseArticles: Article[] = [
   },
 ];
 
-export const articles:Article[]=expandArticles([beyondMbbsArticle,mdcatPressureArticle,...baseArticles,respiratoryArticle]);
+export const articles:Article[]=expandArticles([timeManagementArticle,beyondMbbsArticle,mdcatPressureArticle,...baseArticles,respiratoryArticle]);
 export function getArticleUpdatedISO(article:Article){return article.slug===beyondMbbsArticle.slug?beyondMbbsUpdatedISO:expandedArticleSlugs.includes(article.slug)||article.slug===respiratoryArticle.slug?"2026-09-15":article.dateISO;}

@@ -1,3 +1,4 @@
+import { timeManagementArticle, timeManagementCover } from "../../time-management-article";
 import {StudyControls} from "../../study-controls";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -34,6 +35,8 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
   if (!article) return {};
   const isWellbeing = article.slug === "mdcat-preparation-pressure-mental-health";
   const isCareer = article.slug === beyondMbbsArticle.slug;
+  const isTime = article.slug === timeManagementArticle.slug;
+  const photo = isTime ? timeManagementCover : isCareer ? beyondMbbsCover : undefined;
   return {
     title: article.title,
     description: article.description,
@@ -45,13 +48,13 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
       publishedTime: article.dateISO,
       modifiedTime: getArticleUpdatedISO(article),
       authors: ["Hamza Ramzan"],
-      images: isCareer ? [{ url: beyondMbbsCover.social, width: 1600, height: 900, alt: beyondMbbsCover.alt }] : isWellbeing ? [{ url: "/articles/mdcat-pressure-social.jpg", width: 1200, height: 632, alt: "Illustration of a student pausing at a desk during MDCAT preparation" }] : [],
+      images: photo ? [{ url: photo.social, width: isTime ? 1200 : 1600, height: isTime ? 675 : 900, alt: photo.alt }] : isWellbeing ? [{ url: "/articles/mdcat-pressure-social.jpg", width: 1200, height: 632, alt: "Illustration of a student pausing at a desk during MDCAT preparation" }] : [],
     },
     twitter: {
-      card: isWellbeing || isCareer ? "summary_large_image" : "summary",
+      card: isWellbeing || photo ? "summary_large_image" : "summary",
       title: article.title,
       description: article.description,
-      images: isCareer ? [beyondMbbsCover.social] : isWellbeing ? ["/articles/mdcat-pressure-social.jpg"] : [],
+      images: photo ? [photo.social] : isWellbeing ? ["/articles/mdcat-pressure-social.jpg"] : [],
     },
   };
 }
@@ -61,6 +64,8 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
   const article = articles.find((item) => item.slug === slug);
   if (!article) notFound();
   const isCareer = article.slug === beyondMbbsArticle.slug;
+  const isTime = article.slug === timeManagementArticle.slug;
+  const photo = isTime ? timeManagementCover : isCareer ? beyondMbbsCover : undefined;
 
   const related = articles
     .filter((item) => item.slug !== article.slug)
@@ -80,14 +85,14 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
     educationalLevel: isCareer ? "Post-secondary education planning" : article.category === "Cambridge O Level" ? "Cambridge O Level" : "MDCAT and upper-secondary Biology",
     about: article.topic,
     ...(article.slug === "mdcat-preparation-pressure-mental-health" ? { image: "https://hamzaramzan.online/articles/mdcat-pressure-social.jpg" } : {}),
-    ...(isCareer ? { image: `https://hamzaramzan.online${beyondMbbsCover.social}` } : {}),
+    ...(photo ? { image: `https://hamzaramzan.online${photo.social}` } : {}),
   };
   const references = getArticleReferences(article);
   const isWellbeing = article.slug === "mdcat-preparation-pressure-mental-health";
-  const isGuidance = isWellbeing || isCareer;
+  const isGuidance = isWellbeing || Boolean(photo);
 
   function articleText(text: string) {
-    if (!isCareer) return text;
+    if (!photo) return text;
     return text.split(/(\[\d+(?:,\d+)*\])/g).map((part, index) => {
       if (!/^\[\d+(?:,\d+)*\]$/.test(part)) return part;
       const numbers = part.slice(1, -1).split(',').map(Number);
@@ -117,7 +122,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
               <span>Senior Biology lecturer · Academic Lead</span>
             </div>
           </div>
-          {isCareer && <p style={{ fontSize: "0.875rem", margin: "16px 0" }}>Updated {new Date(`${getArticleUpdatedISO(article)}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })}</p>}
+          {photo && <p style={{ fontSize: "0.875rem", margin: "16px 0" }}>Updated {new Date(`${getArticleUpdatedISO(article)}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })}</p>}
           <ArticleActions/><StudyControls id={"/articles/"+article.slug} title={article.title} notes/>
         </header>
 
@@ -128,16 +133,16 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
           </figure>
         )}
 
-        {isCareer && (
+        {photo && (
           <figure style={{ margin: "0 0 36px" }}>
-            <Image src={beyondMbbsCover.src} alt={beyondMbbsCover.alt} width={beyondMbbsCover.width} height={beyondMbbsCover.height} sizes="(max-width: 900px) 100vw, 1100px" priority style={{ display: "block", width: "100%", height: "auto", borderRadius: "8px" }} />
+            <Image src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} sizes="(max-width: 900px) 100vw, 1100px" priority style={{ display: "block", width: "100%", height: "auto", borderRadius: "8px" }} />
             <figcaption style={{ marginTop: "10px", fontSize: "0.875rem", lineHeight: 1.6 }}>
-              {beyondMbbsCover.caption} Photo: <a href={beyondMbbsCover.source} target="_blank" rel="noreferrer">{beyondMbbsCover.photographer} / Wikimedia Commons</a> · <a href={beyondMbbsCover.license} target="_blank" rel="noreferrer">CC BY-SA 4.0</a>.
+              {photo.caption} Photo: <a href={photo.source} target="_blank" rel="noreferrer">{photo.photographer} / {isTime ? "Unsplash" : "Wikimedia Commons"}</a> · <a href={photo.license} target="_blank" rel="noreferrer">{isTime ? "Unsplash License" : "CC BY-SA 4.0"}</a>.
             </figcaption>
           </figure>
         )}
 
-        {!isCareer && <section className="article-objectives" aria-labelledby="objectives-title">
+        {!photo && <section className="article-objectives" aria-labelledby="objectives-title">
           <div>
             <span>Learning map</span>
             <h2 id="objectives-title">By the end, you should be able to…</h2>
@@ -145,7 +150,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
           <ul>{article.objectives.map((objective) => <li key={objective}>{objective}</li>)}</ul>
         </section>}
 
-        {!isCareer && <section className="article-evidence" aria-label="Article review and syllabus information">
+        {!photo && <section className="article-evidence" aria-label="Article review and syllabus information">
           <div>
             <span>Content updated</span><strong>{getArticleUpdatedISO(article)}</strong>
           </div>
@@ -157,7 +162,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             <span>Article depth</span>
             <strong>{getArticleWordCount(article).toLocaleString()} words · {getArticleReadTime(article)}</strong>
           </div>
-          {!isCareer && <div className="article-evidence-sources">
+          {!photo && <div className="article-evidence-sources">
             <span>Recommended sources</span>
             <ul>
               {references.map((reference) => (
@@ -176,9 +181,9 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
                   <i>{String(index + 1).padStart(2, "0")}</i>{section.heading}
                 </a>
               ))}
-              {!isCareer && <a href="#quick-recap"><i>✓</i>Quick recap</a>}
+              {!photo && <a href="#quick-recap"><i>✓</i>Quick recap</a>}
               <a href="#check-understanding"><i>?</i>{isGuidance ? "Common questions" : "Check understanding"}</a>
-              {isCareer && <a href="#article-sources"><i>↗</i>Sources</a>}
+              {photo && <a href="#article-sources"><i>↗</i>Sources</a>}
             </nav>
           </aside>
 
@@ -211,16 +216,17 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             ))}
 
             {isWellbeing && <p><Link href="/study-today">Build a manageable study plan</Link> · <Link href="/about">About Hamza Ramzan</Link></p>}
+            {isTime && <aside className="article-callout"><h2>Plan your next week</h2><p><a href="/articles/time-management-weekly-sheet.html">Fill in the printable weekly planning sheet</a>, then print it or save it as a PDF. Entries stay on this page until you close it.</p><p>You can also use the <Link href="/study-today">study planner</Link> or read <Link href="/articles/mdcat-preparation-pressure-mental-health">The Pressure Behind MDCAT</Link>.</p></aside>}
             {isCareer && <p>Related reading: <Link href="/articles/mdcat-preparation-pressure-mental-health">The Pressure Behind MDCAT: Preparation, Expectations and Mental Health</Link>.</p>}
-            {!isCareer && <section className="article-recap" id="quick-recap">
+            {!photo && <section className="article-recap" id="quick-recap">
               <span>Quick recap</span>
               <h2>The ideas to carry forward</h2>
               <ul>{article.recap.map((point) => <li key={point}>{point}</li>)}</ul>
             </section>}
 
             <section className="article-checks" id="check-understanding">
-              {!isCareer && <span>{isGuidance ? "Common questions" : "Exam-style concept checks"}</span>}
-              <h2>{isCareer ? "A few questions you may still have" : isGuidance ? "Questions students and parents ask" : "Answer first. Then reveal the marking logic."}</h2>
+              {!photo && <span>{isGuidance ? "Common questions" : "Exam-style concept checks"}</span>}
+              <h2>{photo ? "A few questions you may still have" : isGuidance ? "Questions students and parents ask" : "Answer first. Then reveal the marking logic."}</h2>
               {article.checks.map((check, index) => (
                 <details key={check.question}>
                   <summary><i>{String(index + 1).padStart(2, "0")}</i><span>{check.question}{!isGuidance && <small>2 marks · show the biological link</small>}</span></summary>
@@ -229,9 +235,9 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
               ))}
             </section>
 
-            {isCareer && <section className="article-section" id="article-sources">
+            {photo && <section className="article-section" id="article-sources">
               <h2>Sources</h2>
-              <p>Use these official pages to check programme details. Confirm the requirements for your own admission year before applying.</p>
+              <p>{isTime ? "Further reading on study planning and procrastination from university learning centres." : "Use these official pages to check programme details. Confirm the requirements for your own admission year before applying."}</p>
               <ul>{references.map((reference, index) => <li id={`article-source-${index + 1}`} key={reference.href} style={{ scrollMarginTop: "120px", overflowWrap: "anywhere" }}><a href={reference.href} target="_blank" rel="noreferrer">{reference.label}</a></li>)}</ul>
               <p style={{ fontSize: "0.875rem" }}>The photograph above has been resized and compressed for this website.</p>
             </section>}
