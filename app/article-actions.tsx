@@ -37,7 +37,7 @@ export function ArticleActions() {
     catch { setMessage("Copy the page address from your browser to share this guide."); }
   }
   function printSheet() {
-    const questions = Array.from(document.querySelectorAll<HTMLDetailsElement>(".article-checks details"));
+    const questions = Array.from(document.querySelectorAll<HTMLDetailsElement>(".article-checks details, [data-worked-question] details"));
     const previous = questions.map(q => q.open);
     questions.forEach(q => { q.open = true; });
     function restore() { questions.forEach((q,i) => { q.open = previous[i]; }); window.removeEventListener("afterprint", restore); }

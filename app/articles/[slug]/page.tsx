@@ -1,3 +1,5 @@
+import { lectureToMcqsArticle, lectureToMcqsCover } from "../../lecture-to-mcqs-article";
+import questionStyles from "./worked-question.module.css";
 import { timeManagementArticle, timeManagementCover } from "../../time-management-article";
 import {StudyControls} from "../../study-controls";
 import type { Metadata } from "next";
@@ -36,7 +38,8 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
   const isWellbeing = article.slug === "mdcat-preparation-pressure-mental-health";
   const isCareer = article.slug === beyondMbbsArticle.slug;
   const isTime = article.slug === timeManagementArticle.slug;
-  const photo = isTime ? timeManagementCover : isCareer ? beyondMbbsCover : undefined;
+  const isMcq = article.slug === lectureToMcqsArticle.slug;
+  const photo = isMcq ? lectureToMcqsCover : isTime ? timeManagementCover : isCareer ? beyondMbbsCover : undefined;
   return {
     title: article.title,
     description: article.description,
@@ -48,7 +51,7 @@ export async function generateMetadata({ params }: ArticleRouteProps): Promise<M
       publishedTime: article.dateISO,
       modifiedTime: getArticleUpdatedISO(article),
       authors: ["Hamza Ramzan"],
-      images: photo ? [{ url: photo.social, width: isTime ? 1200 : 1600, height: isTime ? 675 : 900, alt: photo.alt }] : isWellbeing ? [{ url: "/articles/mdcat-pressure-social.jpg", width: 1200, height: 632, alt: "Illustration of a student pausing at a desk during MDCAT preparation" }] : [],
+      images: photo ? [{ url: photo.social, width: isTime || isMcq ? 1200 : 1600, height: isTime || isMcq ? 675 : 900, alt: photo.alt }] : isWellbeing ? [{ url: "/articles/mdcat-pressure-social.jpg", width: 1200, height: 632, alt: "Illustration of a student pausing at a desk during MDCAT preparation" }] : [],
     },
     twitter: {
       card: isWellbeing || photo ? "summary_large_image" : "summary",
@@ -65,7 +68,8 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
   if (!article) notFound();
   const isCareer = article.slug === beyondMbbsArticle.slug;
   const isTime = article.slug === timeManagementArticle.slug;
-  const photo = isTime ? timeManagementCover : isCareer ? beyondMbbsCover : undefined;
+  const isMcq = article.slug === lectureToMcqsArticle.slug;
+  const photo = isMcq ? lectureToMcqsCover : isTime ? timeManagementCover : isCareer ? beyondMbbsCover : undefined;
 
   const related = articles
     .filter((item) => item.slug !== article.slug)
@@ -137,7 +141,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
           <figure style={{ margin: "0 0 36px" }}>
             <Image src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} sizes="(max-width: 900px) 100vw, 1100px" priority style={{ display: "block", width: "100%", height: "auto", borderRadius: "8px" }} />
             <figcaption style={{ marginTop: "10px", fontSize: "0.875rem", lineHeight: 1.6 }}>
-              {photo.caption} Photo: <a href={photo.source} target="_blank" rel="noreferrer">{photo.photographer} / {isTime ? "Unsplash" : "Wikimedia Commons"}</a> · <a href={photo.license} target="_blank" rel="noreferrer">{isTime ? "Unsplash License" : "CC BY-SA 4.0"}</a>.
+              {photo.caption} Photo: <a href={photo.source} target="_blank" rel="noreferrer">{photo.photographer} / {isTime || isMcq ? "Unsplash" : "Wikimedia Commons"}</a> · <a href={photo.license} target="_blank" rel="noreferrer">{isTime || isMcq ? "Unsplash License" : "CC BY-SA 4.0"}</a>.
             </figcaption>
           </figure>
         )}
@@ -192,6 +196,23 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
               <section className="article-section" id={sectionId(section.heading)} key={section.heading}>
                 <h2>{section.heading}</h2>
                 {section.paragraphs.map((paragraph) => <p key={paragraph}>{articleText(paragraph)}</p>)}
+                {section.question && (
+                  <div className={questionStyles.question} data-worked-question>
+                    <fieldset>
+                      <legend>{section.question.prompt}</legend>
+                      {section.question.options.map((option, index) => (
+                        <label key={option}>
+                          <input type="radio" name={`question-${sectionId(section.heading)}`} value={index} />
+                          <span><strong>{String.fromCharCode(65 + index)}.</strong> {option}</span>
+                        </label>
+                      ))}
+                    </fieldset>
+                    <details>
+                      <summary>Reveal the answer and reasoning</summary>
+                      {section.question.explanation.map((paragraph) => <p key={paragraph}>{articleText(paragraph)}</p>)}
+                    </details>
+                  </div>
+                )}
                 {section.points && <ul>{section.points.map((point) => <li key={point}>{articleText(point)}</li>)}</ul>}
                 {section.diagram && <ConceptDiagram diagram={section.diagram} />}
                 {section.table && (
@@ -217,6 +238,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
 
             {isWellbeing && <p><Link href="/study-today">Build a manageable study plan</Link> · <Link href="/about">About Hamza Ramzan</Link></p>}
             {isTime && <aside className="article-callout"><h2>Plan your next week</h2><p><a href="/articles/time-management-weekly-sheet.html">Fill in the printable weekly planning sheet</a>, then print it or save it as a PDF. Entries stay on this page until you close it.</p><p>You can also use the <Link href="/study-today">study planner</Link> or read <Link href="/articles/mdcat-preparation-pressure-mental-health">The Pressure Behind MDCAT</Link>.</p></aside>}
+            {isMcq && <aside className="article-callout"><h2>Use it after your next lecture</h2><p><a href="/articles/mcq-review-sheet.html">Open the printable MCQ review sheet</a>. Record your reasoning, correct the mistake and choose a question to retry. Print it or save it as a PDF before closing the page.</p><p>Try a topic in the <Link href="/practice">MDCAT Practice Centre</Link> or <Link href="/cambridge-practice">Cambridge practice section</Link>. For help fitting practice into your day, read <Link href="/articles/time-management-students-timetables">Why You Keep Making Timetables You Don’t Follow</Link>.</p></aside>}
             {isCareer && <p>Related reading: <Link href="/articles/mdcat-preparation-pressure-mental-health">The Pressure Behind MDCAT: Preparation, Expectations and Mental Health</Link>.</p>}
             {!photo && <section className="article-recap" id="quick-recap">
               <span>Quick recap</span>
@@ -237,7 +259,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
 
             {photo && <section className="article-section" id="article-sources">
               <h2>Sources</h2>
-              <p>{isTime ? "Further reading on study planning and procrastination from university learning centres." : "Use these official pages to check programme details. Confirm the requirements for your own admission year before applying."}</p>
+              <p>{isMcq ? "Research and university guidance on learning, with textbook references for the biology examples. The two questions and the suggested routine were written for this article; they are not reproduced past-paper questions." : isTime ? "Further reading on study planning and procrastination from university learning centres." : "Use these official pages to check programme details. Confirm the requirements for your own admission year before applying."}</p>
               <ul>{references.map((reference, index) => <li id={`article-source-${index + 1}`} key={reference.href} style={{ scrollMarginTop: "120px", overflowWrap: "anywhere" }}><a href={reference.href} target="_blank" rel="noreferrer">{reference.label}</a></li>)}</ul>
               <p style={{ fontSize: "0.875rem" }}>The photograph above has been resized and compressed for this website.</p>
             </section>}
