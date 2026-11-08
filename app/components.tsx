@@ -29,15 +29,18 @@ export function PlayIcon() {
 
 export function Header() {
   const entries = [
+    {title:"Browse Biology chapters",href:"/learn",type:"Learn",keywords:"MDCAT Cambridge courses topics"},
+    {title:"My Progress",href:"/progress",type:"Saved learning",keywords:"bookmarks notes revision planner backup"},
+    {title:"Lab & Atlas",href:"/explore",type:"Interactive learning",keywords:"anatomy experiments practical"},
     {title:"Biology mock centre",href:"/mocks",type:"Mock tests",keywords:"81 MCQs timed mock daily review"},
     {title:"Your personal study plan",href:"/study-today",type:"Revision",keywords:"daily tasks countdown weak chapters"},
     {title:"Practical and diagram studio",href:"/practical-studio",type:"Cambridge skills",keywords:"graphs magnification osmosis experiment labels pathways"},
     {title:"Download offline chapter packs",href:"/offline-packs",type:"Downloads",keywords:"HTML no internet notes MCQs PDF"},
     {title:"Cambridge structured answer practice",href:"/cambridge-practice",type:"Cambridge 5090",keywords:"command words writing model answers marking points"},
-    {title:"Account and complete progress backup",href:"/account",type:"Account",keywords:"email sign in cloud sync restore backup"},
+    {title:"Back up saved progress",href:"/account",type:"Saved progress",keywords:"restore download backup device"},
     ...learningChapters.map(c=>({title:c.title+" printable revision sheet",href:"/learn/"+c.slug+"/revision",type:"Revision sheet",keywords:c.title+" chapter pack PDF"})),
     {title:"Revision dashboard and mistake notebook",href:"/revision",type:"Revision",keywords:"mistakes scores accuracy due review attempts backup"},
-    {title:"Learning workspace",href:"/learn",type:"Learn",keywords:"saved progress notes planner"},
+    {title:"All Biology chapters",href:"/learn",type:"Learn",keywords:"saved progress notes planner"},
     ...learningChapters.map(c=>({title:c.title+" chapter pack",href:"/learn/"+c.slug,type:"Chapter",keywords:c.title})),
     { title: "3D Human Atlas", href: "/atlas", type: "Explore", keywords: "human anatomy organs systems layers skeleton muscles heart brain" },
     { title: "MDCAT Practice Centre", href: "/practice", type: "Practice", keywords: "MCQs quiz test chapters" },
@@ -52,49 +55,12 @@ export function Header() {
 }
 
 export function Footer() {
-  return (
-    <footer className="site-footer">
-      <div className="footer-top">
-        <div>
-          <Link className="footer-brand" href="/">
-            <BiologyMark inverse />
-            <span>Biology with Hamza</span>
-          </Link>
-          <p>A place for curious minds.<br />A clearer path through Biology.</p>
-        </div>
-        <div className="footer-links">
-          <div>
-            <p>Explore</p><Link href="/study-today">Study today</Link><Link href="/mocks">Biology mocks</Link><Link href="/practical-studio">Practical & diagram studio</Link><Link href="/offline-packs">Offline packs</Link><Link href="/learn">Learning workspace</Link>
-            <Link href="/atlas">3D Human Atlas</Link>
-            <Link href="/lab">Interactive Biology Lab</Link>
-            <Link href="/practice">MDCAT practice centre</Link>
-            <Link href="/revision">Revision & mistake notebook</Link>
-            <Link href="/cambridge-practice">Cambridge answer practice</Link>
-            <Link href="/account">Account & progress backup</Link>
-            <Link href="/articles">Biology articles</Link>
-            <Link href="/videos">Video lessons</Link>
-            <Link href="/about">About Hamza</Link>
-          </div>
-          <div>
-            <p>Follow</p>
-            <a href={links.youtube} target="_blank" rel="noreferrer">YouTube</a>
-            <a href={links.instagram} target="_blank" rel="noreferrer">Instagram</a>
-            <a href={links.whatsapp} target="_blank" rel="noreferrer">WhatsApp</a>
-          </div>
-          <div>
-            <p>Learn</p>
-            <Link href="/cambridge-o-level">Cambridge O Level 5090</Link>
-            <Link href="/resources">Student resource library</Link>
-            <a href={links.playlist} target="_blank" rel="noreferrer">Free MDCAT playlist</a>
-          </div>
-        </div>
-      </div>
-      <div className="footer-bottom">
-        <span>© 2026 Biology with Hamza · Hamza Ramzan</span>
-        <span>HamzaRamzan.online</span>
-      </div>
-    </footer>
-  );
+  const groups = [
+    {title:"Learn",links:[["/learn","Browse chapters"],["/articles","Articles"],["/videos","Video lessons"],["/resources","Notes & downloads"],["/cambridge-o-level","Cambridge 5090 syllabus"]]},
+    {title:"Practise & explore",links:[["/practice","MDCAT questions"],["/cambridge-practice","Cambridge answers"],["/mocks","Biology mocks"],["/lab","Biology Lab"],["/atlas","Human Atlas"],["/practical-studio","Practical skills"]]},
+    {title:"Your learning",links:[["/progress","My Progress"],["/revision","Review mistakes"],["/study-today","Study plan"],["/offline-packs","Offline chapter packs"],["/account","Back up saved progress"],["/about","About Hamza"]]},
+  ];
+  return <footer className="site-footer"><div className="footer-top"><div><Link className="footer-brand" href="/"><BiologyMark inverse/><span>Biology with Hamza</span></Link><p>Clear Biology. One chapter at a time.</p><div className="footer-social"><a href={links.youtube} target="_blank" rel="noreferrer">YouTube</a><a href={links.whatsapp} target="_blank" rel="noreferrer">WhatsApp</a><a href={links.instagram} target="_blank" rel="noreferrer">Instagram</a></div></div><div className="footer-links">{groups.map(g => <div key={g.title}><p>{g.title}</p>{g.links.map(([href,label]) => <Link href={href} key={href}>{label}</Link>)}</div>)}</div></div><div className="footer-bottom"><span>© 2026 Biology with Hamza · Hamza Ramzan</span><span>HamzaRamzan.online</span></div></footer>;
 }
 
 export function ArticleCard({ index, article }: { index?: number; article?: Article }) {

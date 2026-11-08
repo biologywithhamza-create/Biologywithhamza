@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import {useStudy} from "./study-store";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { ArticleCard } from "./components";
 import { articles } from "./content";
 import type { ArticleCategory } from "./content";
@@ -32,6 +32,7 @@ const topicGroups: Array<"All topics" | ArticleTopicGroup> = [
 type ReadingLength = "Any length" | "Under 5 minutes" | "5+ minutes";
 
 export function ArticleExplorer() {
+const grid=useRef<HTMLDivElement>(null);
 const study=useStudy();const [page,setPage]=useState(1),[sort,setSort]=useState("Featured"),[savedOnly,setSavedOnly]=useState(false);
   const [category, setCategory] = useState<(typeof categories)[number]>("All");
   const [query, setQuery] = useState("");
@@ -62,7 +63,7 @@ const pages=Math.max(1,Math.ceil(filteredArticles.length/9)),activePage=Math.min
     category !== "All" ||
     query.trim().length > 0 ||
     topicGroup !== "All topics" ||
-    readingLength !== "Any length";
+    readingLength !== "Any length" || savedOnly;
 
   function clearFilters() {
     setPage(1);setSavedOnly(false);
@@ -90,23 +91,6 @@ const pages=Math.max(1,Math.ceil(filteredArticles.length/9)),activePage=Math.min
         </label>
       </div>
 
-      <div className="article-select-filters">
-        <label>
-          <span>Topic group</span>
-          <select value={topicGroup} onChange={(event) => setTopicGroup(event.target.value as (typeof topicGroups)[number])}>
-            {topicGroups.map((item) => <option value={item} key={item}>{item}</option>)}
-          </select>
-        </label>
-        <label>
-          <span>Reading length</span>
-          <select value={readingLength} onChange={(event) => setReadingLength(event.target.value as ReadingLength)}>
-            <option value="Any length">Any length</option>
-            <option value="Under 5 minutes">Under 5 minutes</option>
-            <option value="5+ minutes">5 minutes or longer</option>
-          </select>
-        </label>
-      </div>
-
       <div className="article-filter" aria-label="Filter articles by category">
         {categories.map((item) => (
           <button
@@ -121,7 +105,24 @@ const pages=Math.max(1,Math.ceil(filteredArticles.length/9)),activePage=Math.min
         ))}
       </div>
 
-      <div className="article-sort-controls"><label>Sort by<select value={sort} onChange={e=>{setSort(e.target.value);setPage(1);}}>{["Featured","Newest","Title","Shortest first"].map(s=><option key={s}>{s}</option>)}</select></label><button aria-pressed={savedOnly} onClick={()=>{setSavedOnly(!savedOnly);setPage(1);}}>Saved articles only</button><Link href="/learn">Your learning workspace →</Link></div><div className="article-results-row">
+      <details className="article-filter-options"><summary>More filters & sorting</summary><div className="article-select-filters">
+        <label>
+          <span>Topic group</span>
+          <select value={topicGroup} onChange={(event) => {setTopicGroup(event.target.value as (typeof topicGroups)[number]);setPage(1);}}>
+            {topicGroups.map((item) => <option value={item} key={item}>{item}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>Reading length</span>
+          <select value={readingLength} onChange={(event) => {setReadingLength(event.target.value as ReadingLength);setPage(1);}}>
+            <option value="Any length">Any length</option>
+            <option value="Under 5 minutes">Under 5 minutes</option>
+            <option value="5+ minutes">5 minutes or longer</option>
+          </select>
+        </label>
+      </div>
+
+      <div className="article-sort-controls"><label>Sort by<select value={sort} onChange={e=>{setSort(e.target.value);setPage(1);}}>{["Featured","Newest","Title","Shortest first"].map(s=><option key={s}>{s}</option>)}</select></label><button aria-pressed={savedOnly} onClick={()=>{setSavedOnly(!savedOnly);setPage(1);}}>Saved articles only</button><Link href="/progress">My saved guides →</Link></div></details><div className="article-results-row">
         <p className="article-result-count" aria-live="polite">
           {filteredArticles.length} {filteredArticles.length === 1 ? "article" : "articles"}
         </p>
@@ -129,7 +130,7 @@ const pages=Math.max(1,Math.ceil(filteredArticles.length/9)),activePage=Math.min
       </div>
 
       {filteredArticles.length > 0 ? (
-        <div className="article-list-grid article-list-grid-complete">
+        <div ref={grid} tabIndex={-1} className="article-list-grid article-list-grid-complete" aria-label="Matching articles">
           {filteredArticles.slice((activePage-1)*9,activePage*9).map((article) => (
             <ArticleCard article={article} key={article.slug} />
           ))}
@@ -137,10 +138,10 @@ const pages=Math.max(1,Math.ceil(filteredArticles.length/9)),activePage=Math.min
       ) : (
         <div className="article-empty">
           <h3>No article matches that search.</h3>
-          <p>Try a chapter name, process or broader category.</p>
+          <p>Try a chapter name, process or broader category.</p><button onClick={clearFilters}>Clear filters</button>
         </div>
       )}
-      {pages>1&&<nav className="article-pagination" aria-label="Article pages"><button disabled={activePage===1} onClick={()=>setPage(activePage-1)}>← Previous</button><span role="status">Page {activePage} of {pages}</span><button disabled={activePage===pages} onClick={()=>setPage(activePage+1)}>Next →</button></nav>}
+      {pages>1&&<nav className="article-pagination" aria-label="Article pages"><button disabled={activePage===1} onClick={()=>{setPage(activePage-1);grid.current?.scrollIntoView({block:"start"});grid.current?.focus({preventScroll:true});}}>← Previous</button><span role="status">Page {activePage} of {pages}</span><button disabled={activePage===pages} onClick={()=>{setPage(activePage+1);grid.current?.scrollIntoView({block:"start"});grid.current?.focus({preventScroll:true});}}>Next →</button></nav>}
     </section>
   );
 }

@@ -1,3 +1,4 @@
+import {learningChapters} from "../../learn/catalogue";
 import { lectureToMcqsArticle, lectureToMcqsCover } from "../../lecture-to-mcqs-article";
 import questionStyles from "./worked-question.module.css";
 import { timeManagementArticle, timeManagementCover } from "../../time-management-article";
@@ -91,6 +92,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
     ...(article.slug === "mdcat-preparation-pressure-mental-health" ? { image: "https://hamzaramzan.online/articles/mdcat-pressure-social.jpg" } : {}),
     ...(photo ? { image: `https://hamzaramzan.online${photo.social}` } : {}),
   };
+  const chapter = learningChapters.find(c=>c.guide===article.slug);
   const references = getArticleReferences(article);
   const isWellbeing = article.slug === "mdcat-preparation-pressure-mental-health";
   const isGuidance = isWellbeing || Boolean(photo);
@@ -112,7 +114,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
       <ReadingProgress />
       <Header />
       <main className="article-shell" id="main-content">
-        <Link className="article-breadcrumb" href="/articles"><Arrow /> All articles</Link>
+        <nav className="article-back-links" aria-label="Article navigation"><Link className="article-breadcrumb" href="/articles"><Arrow /> All articles</Link>{chapter&&<Link className="student-back" href={"/learn/"+chapter.slug}>← Back to {chapter.title}</Link>}</nav>
         <header className="article-header">
           <div className="article-header-meta">
             <span>{article.category}</span><i /><span>{article.topic}</span><i /><span>{getArticleReadTime(article)}</span>
@@ -127,7 +129,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             </div>
           </div>
           {photo && <p style={{ fontSize: "0.875rem", margin: "16px 0" }}>Updated {new Date(`${getArticleUpdatedISO(article)}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })}</p>}
-          <ArticleActions/><StudyControls id={"/articles/"+article.slug} title={article.title} notes/>
+          <ArticleActions/>
         </header>
 
         {isWellbeing && (
@@ -177,8 +179,8 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
         </section>}
 
         <div className="article-reading-layout">
-          <aside className="article-toc" aria-label="Article contents">
-            <span>In this article</span>
+          <details className="article-toc" aria-label="Article contents" open>
+            <summary>In this article</summary>
             <nav>
               {article.sections.map((section, index) => (
                 <a href={`#${sectionId(section.heading)}`} key={section.heading}>
@@ -189,7 +191,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
               <a href="#check-understanding"><i>?</i>{isGuidance ? "Common questions" : "Check understanding"}</a>
               {photo && <a href="#article-sources"><i>↗</i>Sources</a>}
             </nav>
-          </aside>
+          </details>
 
           <article className="article-body">
             {article.sections.map((section) => (
@@ -278,6 +280,7 @@ export default async function ArticlePage({ params }: ArticleRouteProps) {
             {related.map((item) => <ArticleCard article={item} key={item.slug} />)}
           </div>
         </section>
+        <StudyControls id={"/articles/"+article.slug} title={article.title} notes/>
       </main>
       <Footer />
     </>

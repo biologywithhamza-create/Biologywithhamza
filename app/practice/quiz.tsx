@@ -178,12 +178,11 @@ export function QuizExperience() {
     });
   }, [attempt, answers, attemptMode, attemptId, chapter, difficulty, profile, score, screen]);
 
-  function createProfile(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
+  function createProfile(): StudentProfile | null {
     const normalizedName = studentName.trim().replace(/\s+/g, " ");
     if (normalizedName.length < 2) {
       setProfileError("Enter at least two characters for your name or initials.");
-      return;
+      return null;
     }
     const nextProfile: StudentProfile = {
       id: createStudentId(),
@@ -191,10 +190,11 @@ export function QuizExperience() {
       track: studentTrack,
       createdAt: new Date().toISOString(),
     };
-    saveLocal(profileKey, JSON.stringify(nextProfile));
+    const stored = saveLocal(profileKey, JSON.stringify(nextProfile));
     setProfile(nextProfile);
     notifyRevision();
-    setProfileError("");
+    setProfileError(stored ? "" : "Progress can only be kept for this visit because browser storage is unavailable.");
+    return nextProfile;
   }
 
   function useDifferentProfile() {
@@ -206,12 +206,12 @@ export function QuizExperience() {
     setProfileError("");
   }
 
-  function beginAttempt() {
-    if (!profile || !available.length) return;
+  function beginAttempt(activeProfile: StudentProfile | null = profile) {
+    if (!activeProfile || !available.length) return;
     setAttemptMode(mode);
     setSaveError("");
     setSaving(true);
-    const selectionKey = `${profile.id}::${chapter}::${difficulty}`;
+    const selectionKey = `${activeProfile.id}::${chapter}::${difficulty}`;
     let recentSets: Record<string, string[]> = {};
     try {
       recentSets = JSON.parse(window.localStorage.getItem(recentQuestionKey) ?? "{}") as Record<string, string[]>;
@@ -227,6 +227,7 @@ export function QuizExperience() {
     ].filter((id, index, items) => items.indexOf(id) === index)
       .slice(0, Math.min(available.length, Math.max(requestedCount * 3, 30)));
     saveLocal(recentQuestionKey, JSON.stringify(recentSets));
+    answerLockInProgress.current = false;
     setWrongOnly(false);
     setAttempt(selected);
     setAnswers({});
@@ -272,132 +273,24 @@ function retryMistakes(){setAttemptMode("retry");setSaveError("");setSaving(true
     return <section className="quiz-profile-loading" aria-busy="true">Loading your practice profile…</section>;
   }
 
-  if (screen === "setup" && !profile) {
-    return (
-      <section className="quiz-profile-gate" aria-labelledby="student-profile-title">
-        <div className="quiz-profile-intro">
-          <p className="eyebrow">Your practice identity</p>
-          <Link href="/account">Have saved progress? Restore or sign in ↗</Link><h2 id="student-profile-title">Create your student ID.</h2>
-          <p>Your scores and recent attempts will stay attached to one practice profile on this browser.</p>
-          <ul>
-            <li>No email or password required</li>
-            <li>A private ID is created instantly</li>
-            <li>Your data stays on this device</li>
-          </ul>
-        </div>
-        <form className="quiz-profile-form" onSubmit={createProfile}>
-          <label>
-            <span>Name or initials</span>
-            <input
-              autoComplete="name"
-              maxLength={48}
-              placeholder="e.g. Ayesha K."
-              required
-              value={studentName}
-              onChange={(event) => setStudentName(event.target.value)}
-            />
-          </label>
-          <label>
-            <span>Learning track</span>
-            <select value={studentTrack} onChange={(event) => setStudentTrack(event.target.value as StudentTrack)}>
-              <option>MDCAT</option>
-              <option>Cambridge O Level</option>
-              <option>Both</option>
-            </select>
-          </label>
-          {profileError && <p className="quiz-profile-error" role="alert">{profileError}</p>}
-          <button className="quiz-primary" type="submit">Create student ID</button>
-          <p className="quiz-profile-note">This is a device-based practice profile, not a password-protected online account. Clearing browser data removes it.</p>
-        </form>
-      </section>
-    );
-  }
-
   if (screen === "setup") {
-    return (
-      <section className="quiz-workspace" aria-labelledby="quiz-setup-title">
-        <div className="quiz-setup-copy">
-          <p className="eyebrow">Build an attempt</p>
-          <h2 id="quiz-setup-title">Choose what you want to test.</h2>
-          <p>Every question has one best answer and a biological explanation. You receive one minute per question.</p>
-          <dl>
-            <div><dt>{quizQuestions.length}</dt><dd>practice items</dd></div>
-            <div><dt>{quizChapters.length}</dt><dd>high-yield chapters</dd></div>
-            <div><dt>3</dt><dd>difficulty levels</dd></div>
-          </dl>
-        </div>
-        <div className="quiz-builder">
-          {profile && (
-            <div className="quiz-student-card">
-              <div>
-                <span>Student ID</span>
-                <strong>{profile.id}</strong>
-                <p>{profile.name} · {profile.track}</p>
-              </div>
-              <button type="button" onClick={useDifferentProfile}>Use a different ID</button>
-            </div>
-          )}
-          <Link className="revision-entry" href="/revision">Open your revision dashboard & mistake notebook ↗</Link>
-          <label><span>Practice mode</span><select value={mode} onChange={e=>setMode(e.target.value as typeof mode)}><option value="fresh">Fresh practice</option><option value="mistakes">Mistakes to revisit</option><option value="due">Scheduled review due now</option></select></label>
-          {mode !== "fresh" && <p className="quiz-mode-note">{mode === "due" ? "Questions you previously missed and are scheduled to revisit. A correct response when due advances the review interval." : "Previously missed questions with fewer than two successful spaced reviews. Immediate retries do not advance the review interval."}</p>}
-          <label>
-            <span>Chapter</span>
-            <select value={chapter} onChange={(event) => setChapter(event.target.value)}>
-              <option>All chapters</option>
-              {quizChapters.map((item) => <option key={item}>{item}</option>)}
-            </select>
-          </label>
-          <label>
-            <span>Difficulty</span>
-            <select value={difficulty} onChange={(event) => setDifficulty(event.target.value as typeof difficulty)}>
-              <option>All levels</option>
-              <option>Foundation</option>
-              <option>Standard</option>
-              <option>Challenge</option>
-            </select>
-          </label>
-          <fieldset>
-            <legend>Number of questions</legend>
-            <div className="quiz-count-options">
-              {[10, 25, 50, 100].map((count) => (
-                <label key={count}>
-                  <input type="radio" name="question-count" value={count} checked={requestedCount === count} onChange={() => setRequestedCount(count)} />
-                  <span>{count}</span>
-                </label>
-              ))}
-            </div>
-          </fieldset>
-          <div className="quiz-availability">
-            <strong>{available.length}</strong>
-            <span>questions match your filters. Your next set will use {Math.min(requestedCount, available.length)} in a fresh random order.</span>
-          </div>
-          <div className="quiz-attempt-rules" aria-label="Attempt rules">
-            <strong>Attempt rules</strong>
-            <ul>
-              <li>Questions and choices are reshuffled. Different concept families are prioritised before related variants; large sets can contain several variants.</li>
-              <li>One question appears at a time; lock it before continuing.</li>
-              <li>Locked answers cannot be changed and there is no backtracking.</li>
-            </ul>
-          </div>
-          {!available.length && <p role="status">{mode === "fresh" ? "No questions match these filters." : "No review questions match these filters yet. Try a fresh attempt, or check your next review date in Revision."}</p>}
-          <button className="quiz-primary" type="button" onClick={beginAttempt} disabled={available.length === 0}>Start timed attempt</button>
-          {history.length > 0 && (
-            <div className="quiz-history">
-              <div><strong>Recent attempts</strong><button type="button" onClick={clearHistory}>Clear</button></div>
-              <ol>
-                {history.map((item) => (
-                  <li key={item.id}>
-                    <span>{item.chapter === "All chapters" ? "Mixed chapters" : item.chapter}</span>
-                    <strong>{item.score}/{item.total}</strong>
-                    <small>{new Intl.DateTimeFormat("en-PK", { day: "numeric", month: "short" }).format(new Date(item.completedAt))}</small>
-                  </li>
-                ))}
-              </ol>
-            </div>
-          )}
-        </div>
-      </section>
-    );
+    const chapterRoute = learningChapters.find(c=>c.title===chapter);
+    function start(event: FormEvent<HTMLFormElement>) { event.preventDefault(); const activeProfile = profile ?? createProfile(); if (activeProfile) beginAttempt(activeProfile); }
+    return <section className="quiz-workspace student-quiz-setup" aria-labelledby="quiz-setup-title">
+      {chapterRoute && <Link className="student-back" href={'/learn/'+chapterRoute.slug}>← Back to {chapterRoute.title}</Link>}
+      <form className="quiz-builder" onSubmit={start}>
+        <div className="quiz-builder-heading"><h2 id="quiz-setup-title">Your quiz</h2><span>{quizQuestions.length.toLocaleString()} questions · {quizChapters.length} chapters</span></div>
+        <div className="quiz-setup-fields"><label><span>Chapter</span><select value={chapter} onChange={e=>setChapter(e.target.value)}><option>All chapters</option>{quizChapters.map(c=><option key={c}>{c}</option>)}</select></label><fieldset><legend>Number of questions</legend><div className="quiz-count-options">{[10,25,50,100].map(count=><label key={count}><input type="radio" name="question-count" value={count} checked={requestedCount===count} onChange={()=>setRequestedCount(count)}/><span>{count}</span></label>)}</div></fieldset></div>
+        {!profile?<div className="quiz-inline-profile"><label><span>Name or initials</span><input autoComplete="name" minLength={2} maxLength={48} placeholder="e.g. Ayesha K." required value={studentName} onChange={e=>setStudentName(e.target.value)}/></label><p>A practice ID will be created with your first quiz. Your progress stays in this browser; no email or password needed. <Link href="/account">Restore an existing backup</Link></p></div>:<div className="quiz-local-profile"><span>Saving results for <strong>{profile.name}</strong> on this device.</span><button type="button" onClick={useDifferentProfile}>Change profile</button></div>}
+        {profileError&&<p role="alert" className="quiz-profile-error">{profileError}</p>}
+        <details className="quiz-more-options" open={mode!=='fresh'||difficulty!=='All levels'?true:undefined}><summary>More options: difficulty & mistake review</summary><div className="quiz-setup-fields"><label><span>Practice mode</span><select value={mode} onChange={e=>setMode(e.target.value as typeof mode)}><option value="fresh">Fresh practice</option><option value="mistakes" disabled={!profile}>Review my mistakes</option><option value="due" disabled={!profile}>Reviews due now</option></select></label><label><span>Difficulty</span><select value={difficulty} onChange={e=>setDifficulty(e.target.value as typeof difficulty)}><option>All levels</option><option>Foundation</option><option>Standard</option><option>Challenge</option></select></label></div>{mode!=='fresh'&&<p>{mode==='due'?'Questions scheduled for review today.':'Questions from your mistake notebook that still need practice.'}</p>}</details>
+        <div className="quiz-ready-summary" aria-live="polite"><strong>{Math.min(requestedCount,available.length)} questions · {Math.min(requestedCount,available.length)} minutes</strong><span>{available.length} questions available for these choices.</span></div>
+        <p className="quiz-simple-rules"><strong>Before you start:</strong> Questions and options are shuffled. Lock each answer to move on; locked answers cannot be changed. Explanations appear at the end.</p>
+        {!available.length&&<p role="status">{mode==='fresh'?'No questions match. Try All levels.':'No review questions match yet. Choose Fresh practice or open your mistake notebook.'}</p>}
+        <button className="quiz-primary" type="submit" disabled={!available.length}>Start {Math.min(requestedCount,available.length)}-question quiz</button>
+      </form>
+      {history.length>0&&<details className="quiz-history student-recent-attempts"><summary>Recent attempts on this device</summary><ol>{history.map(item=><li key={item.id}><span>{item.chapter==='All chapters'?'Mixed chapters':item.chapter}</span><strong>{item.score}/{item.total}</strong><small>{new Intl.DateTimeFormat('en-PK',{day:'numeric',month:'short'}).format(new Date(item.completedAt))}</small></li>)}</ol><Link href="/revision">Review attempts & mistakes →</Link><button type="button" onClick={clearHistory}>Clear recent score summaries</button></details>}
+    </section>;
   }
 
   if (screen === "results") {
@@ -413,9 +306,9 @@ function retryMistakes(){setAttemptMode("retry");setSaveError("");setSaving(true
           <h2 id="quiz-results-title">{score} of {attempt.length} correct</h2>
           {profile && <p className="quiz-result-student">{profile.name} · {profile.id}</p>}
           <p>{percentage >= 80 ? "Strong biological judgment. Review the remaining explanations before moving on." : percentage >= 60 ? "A useful attempt. Repair the weak links below, then try a fresh set." : "Use the explanations as a revision map, then attempt the chapter again."}</p>
-          <button className="quiz-primary" type="button" onClick={resetAttempt}>Build another attempt</button>{score<attempt.length&&<button className="quiz-retry" onClick={retryMistakes}>Retry {attempt.length-score} missed questions</button>}<div className="quiz-chapter-results"><h3>Choose what to revisit</h3>{[...new Set(attempt.map(q=>q.chapter))].map(c=>{const qs=attempt.filter(q=>q.chapter===c),n=qs.filter(q=>answers[q.id]===q.answer).length,r=learningChapters.find(r=>r.title===c);return <Link key={c} href={r?"/learn/"+r.slug:"/learn"}><span>{c} ↗</span><strong>{n}/{qs.length}</strong></Link>;})}</div>
+          <button className="quiz-primary" type="button" onClick={()=>{setWrongOnly(score<attempt.length);document.getElementById("quiz-answer-review")?.scrollIntoView({block:"start"});}}>{score===attempt.length?"Review all answers":"Review incorrect answers"}</button><button className="quiz-retry" type="button" onClick={resetAttempt}>Start another quiz</button>{score<attempt.length&&<button className="quiz-retry" onClick={retryMistakes}>Retry {attempt.length-score} missed questions</button>}<div className="quiz-chapter-results"><h3>Choose what to revisit</h3>{[...new Set(attempt.map(q=>q.chapter))].map(c=>{const qs=attempt.filter(q=>q.chapter===c),n=qs.filter(q=>answers[q.id]===q.answer).length,r=learningChapters.find(r=>r.title===c);return <Link key={c} href={r?"/learn/"+r.slug:"/learn"}><span>{c} ↗</span><strong>{n}/{qs.length}</strong></Link>;})}</div>
         </div>
-        <div className="quiz-review">
+        <div className="quiz-review" id="quiz-answer-review">
           <div className="quiz-review-head">
             <p className="eyebrow">Review every decision</p>
             <h2>Answer logic</h2>

@@ -1,3 +1,4 @@
+import { LearningTrackSync } from "./learning-preferences";
 import { AppearanceSync } from "./appearance";
 import { LearningHistory } from "./recent-learning";
 import { appearanceBootstrap } from "./appearance-bootstrap";
@@ -49,6 +50,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <AppearanceSync />
         <LearningHistory />
+        <LearningTrackSync />
       </body>
     </html>
   );
@@ -63,3 +65,5 @@ import "./revision/revision.css";
 
 import "./learning-upgrade.css";
 import "./next-update.css";
+
+import "./usability.css";

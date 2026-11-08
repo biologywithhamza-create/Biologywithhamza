@@ -1,4 +1,4 @@
-import {NextLearningLinks} from "../next-learning-links";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { Footer, Header, PageIntro } from "../components";
 import { DailyQuestion, QuizExperience } from "./quiz";
@@ -32,11 +32,11 @@ export default function PracticePage() {
       <main className="practice-page" id="main-content">
         <PageIntro
           eyebrow="MDCAT Biology practice"
-          title="Make your next attempt count."
-          copy="Create your student practice ID, choose from 100 MCQs in every chapter, and complete a fresh forward-only timed attempt before reviewing every answer."
+          title="Start a chapter quiz."
+          copy="Choose your chapter and question count. Get explanations and a mistake review after your attempt."
         />
-        <div className="practice-shell"><NextLearningLinks/><QuizExperience /></div>
-        <div className="practice-shell practice-daily-shell"><DailyQuestion /></div>
+        <div className="practice-shell"><QuizExperience /></div>
+        <nav className="practice-shell student-resource-row" aria-label="Other practice"><Link href="/mocks">Biology mock tests →</Link><Link href="/cambridge-practice">Cambridge answer practice →</Link><Link href="/progress">My Progress →</Link></nav><div className="practice-shell practice-daily-shell"><DailyQuestion /></div>
       </main>
       <Footer />
     </>

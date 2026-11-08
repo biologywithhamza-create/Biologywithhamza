@@ -26,9 +26,10 @@ export function LearningHistory() {
   }, [path]);
   return null;
 }
-export function ContinueLearning() {
+export function ContinueLearning({ compact = false }: { compact?: boolean }) {
   const recent = visits(useSyncExternalStore(subscribe, raw, () => "[]"));
   const study = useStudy();
-  if (!recent.length) return <section className="returning-learner newcomer"><div><p className="eyebrow">SMALL STEPS. REAL UNDERSTANDING.</p><h2>Build your own learning rhythm.</h2><p>Save a guide, try a model, then test the idea. Your recently opened lessons will appear here.</p></div><Link className="button button-dark" href="/learn">Open your workspace ↗</Link></section>;
-  return <section className="returning-learner" aria-labelledby="continue-title"><div className="returning-heading"><div><p className="eyebrow">WELCOME BACK</p><h2 id="continue-title">Keep your curiosity going.</h2></div><button type="button" onClick={() => { try { localStorage.removeItem(KEY); window.dispatchEvent(new Event("bwh-recent")); } catch {} }}>Clear recent history</button></div><div className="recent-grid">{recent.slice(0,3).map(v => <Link href={v.path} key={v.path}><small>{study.completed.includes(v.path) ? "✓ Completed · revisit" : "Recently opened"}</small><h3>{v.title}</h3><span>Continue learning ↗</span></Link>)}</div><p className="local-history-note">Recent pages stay in this browser. Clearing history keeps your saved guides and notes.</p></section>;
+  if (!recent.length) return null;
+  if (compact) return <aside className="continue-compact" aria-label="Continue learning"><div><small>RECENTLY OPENED</small><strong>{recent[0].title}</strong></div><Link href={recent[0].path}>Continue <span aria-hidden="true">→</span></Link></aside>;
+  return <section className="returning-learner" aria-labelledby="continue-title"><div className="returning-heading"><div><p className="eyebrow">WELCOME BACK</p><h2 id="continue-title">Continue learning</h2></div><button type="button" onClick={() => { try { localStorage.removeItem(KEY); window.dispatchEvent(new Event("bwh-recent")); } catch {} }}>Clear recent history</button></div><div className="recent-grid">{recent.slice(0,3).map(v => <Link href={v.path} key={v.path}><small>{study.completed.includes(v.path) ? "✓ Completed · revisit" : "Recently opened"}</small><h3>{v.title}</h3><span>Continue learning →</span></Link>)}</div><p className="local-history-note">Recent pages stay in this browser. Clearing history keeps your saved guides and notes.</p></section>;
 }

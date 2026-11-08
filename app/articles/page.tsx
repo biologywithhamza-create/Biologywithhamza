@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleExplorer } from "../article-explorer";
-import { Arrow, ArticleCard, Footer, Header, PageIntro } from "../components";
-import { articles } from "../content";
+import { Footer, Header, PageIntro } from "../components";
+
 
 export const metadata: Metadata = {
   title: "Biology Articles",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 export default function ArticlesPage() {
-  const cambridgeArticles = articles.filter((article) => article.category === "Cambridge O Level");
+
 
   return (
     <>
@@ -25,33 +25,14 @@ export default function ArticlesPage() {
       <main id="main-content">
         <PageIntro
           eyebrow="Biology learning library"
-          title="A good explanation changes everything."
-          copy="Complete explanations built around mechanisms, diagrams, comparisons and exam application—for MDCAT and Cambridge O Level learners."
+          title="Biology articles & study guides"
+          copy="Find an explanation, work through a concept or get help with your study routine."
         />
 
         <section className="inner-content article-page-content">
           <ArticleExplorer />
 
-          <section className="cambridge-feature" id="cambridge-o-level">
-            <div className="cambridge-feature-copy">
-              <div>
-                <p className="eyebrow">Cambridge O Level Biology</p>
-                <h2>Learn the concept. Then learn how Cambridge asks it.</h2>
-              </div>
-              <div>
-                <p>
-                  A 5090-focused track for precise definitions, practical work,
-                  data handling and structured biological explanations.
-                </p>
-                <Link className="cambridge-feature-link" href="/cambridge-o-level">Open the complete 5090 route <Arrow /></Link>
-              </div>
-            </div>
-            <div className="cambridge-feature-grid">
-              {cambridgeArticles.map((article) => (
-                <ArticleCard article={article} key={article.slug} />
-              ))}
-            </div>
-          </section>
+          <nav className="student-resource-row" aria-label="Related learning"><Link href="/learn">Browse chapters →</Link><Link href="/cambridge-o-level">Cambridge 5090 syllabus →</Link><Link href="/progress">My saved guides →</Link></nav>
         </section>
       </main>
       <Footer />
